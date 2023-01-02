@@ -1,7 +1,7 @@
 baseURL = 'https://whatmakeart.com/modeling-and-fabrication/'
 languageCode = 'en-us'
 title = 'Modeling and Fabrication'
-theme = 'basicTheme'
+theme = 'mini'
 
 [menu]
   [[menu.main]]

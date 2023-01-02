@@ -7,7 +7,7 @@ tags: ["foo", "bar"]
 
 # Create Laser Cut Test File
 
-Next week we will go to the think[box] to learn how to use the laser cutters.
+Next week we will go to the think/[box/] to learn how to use the laser cutters.
 We will each make a test cut from a file that we make. You need to have this
 file made before class next week. There are specific instructions to make
 the file in Adobe Illustrator. If you do not follow the directions then your

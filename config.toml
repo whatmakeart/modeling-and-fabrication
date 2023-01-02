@@ -1,4 +1,48 @@
-baseURL = 'https://whatmakeart.com'
+baseURL = 'https://whatmakeart.com/modeling-and-fabrication/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
-theme = 'basic'
+title = 'Modeling and Fabrication'
+theme = 'basicTheme'
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    pre = "home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Posts"
+    pre = "pen-tool"
+    url = "/posts/"
+    weight = 2
+  [[menu.main]]
+    name = "Readings"
+    pre = "tag"
+    url = "/readings/"
+    weight = 3
+
+SectionPagesMenu = "main"
+Paginate = 18 # this is set low for demonstrating with dummy content. Set to a higher number
+googleAnalytics = "G-S4CF1KSMYD"
+enableRobotsTXT = true
+
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[params]
+  favicon = "/img/favicon/favicon.ico"
+  site_logo = "/img/whatmakeart-logo.png"
+  description = "Whatmakeart how to make art tutorials"
+  facebook = ""
+  twitter = "https://twitter.com/whatmakeart"
+  instagram = "https://www.instagram.com/whatmakeart/"
+  youtube = "https://www.youtube.com/channel/UCmGXH-jy0o2CuhqtpxbaQgA"
+  github = ""
+  gitlab = ""
+  linkedin = ""
+  mastodon = ""
+  slack = ""
+  stackoverflow = ""
+  rss = ""

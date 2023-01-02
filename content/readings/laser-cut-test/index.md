@@ -5,13 +5,23 @@ draft: true
 tags: ["foo", "bar"]
 ---
 
-Lorem ipsum
+# Create Laser Cut Test File
 
-<div style="height:10px; overflow:hidden;">
+Next week we will go to the think[box] to learn how to use the laser cutters.
+We will each make a test cut from a file that we make. You need to have this
+file made before class next week. There are specific instructions to make
+the file in Adobe Illustrator. If you do not follow the directions then your
+file will not work
 
-![alt text for screen readers](/images/1st-stroke.png "Text to show on mouseover")
+| Open Adobe Illustrator                                                               |                                                                            |
+| ------------------------------------------------------------------------------------ | -------------------------------------------------------------------------- |
+| Create a New Document that is 12 inches by 12 inches in RGB color                    | ![alt text for screen readers](red-stroke.png "Text to show on mouseover") |
+| _Draw path that is closed _ Keep the path away from the edges of the 12x12 artboard. | ![alt text for screen readers](1st-stroke.png "Text to show on mouseover") |
+|                                                                                      |                                                                            |
 
-</div>
+<p style="height: 20px; overflow: hidden; display:grid;grid-template-columns: 1fr 1fr 1fr; grid-gap:1rem;width:100%;">
+
+</p>
 
 dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
 incididunt ut labore et dolore magna aliqua. Pellentesque eu tincidunt tortor

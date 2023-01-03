@@ -1,3 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+html {
+  font-family: Lato, Helvetica, Arial, sans-serif; /* match Canvas LMS Fonts */
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  margin: 0 auto;
+}
+h1,
+h2 {
+  font-weight: 400;
+  font-size: 1.8em;
+}
+
 .responsive-table-markdown {
   display: block;
   width: 100%;

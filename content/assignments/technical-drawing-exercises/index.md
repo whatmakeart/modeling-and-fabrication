@@ -27,29 +27,29 @@ draft: false
     <li>Isometric Cube with three isometric circles drawn with T-Square and Compass</li>
 </ol>
 <h1>Technical Sketching Exercise Videos</h1>
-<div style="display: flex; flex-wrap: wrap; align-items: flex-end;">
-    <div style="width: 100%; max-width: 400px; max-height: auto; margin: 0 auto;">
-        <h2>1. Supplies Needed for Technical Drawing</h2>
+<div style="display: grid; grid-gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); padding-bottom: 2rem;">
+    <div style="display:flex; flex-direction:column; height: 100%; width: 100%; max-width: 400px; justify-content: space-between;">
+        <h3>1. Supplies Needed for Technical Drawing</h3>
         <div style="position: relative; width: 100%; height: 0px; padding-top: 56.25%;"><iframe style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; border: 0;" src="https://www.youtube.com/embed/QaTlzXEHu4g" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
     </div>
-    <div style="width: 100%; max-width: 400px; max-height: auto; margin: 0 auto;">
-        <h2>2. How to Draw Straight Lines</h2>
+    <div style="display:flex; flex-direction:column; height: 100%; width: 100%; max-width: 400px; justify-content: space-between;">
+        <h3>2. How to Draw Straight Lines</h3>
         <div style="position: relative; width: 100%; height: 0px; padding-top: 56.25%;"><iframe style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; border: 0;" src="https://www.youtube.com/embed/UUQa2CtzIwE" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
     </div>
-    <div style="width: 100%; max-width: 400px; max-height: auto; margin: 0 auto;">
-        <h2>3. Draw Isometric Cube Freehand</h2>
+    <div style="display:flex; flex-direction:column; height: 100%; width: 100%; max-width: 400px; justify-content: space-between;">
+        <h3>3. Draw Isometric Cube Freehand</h3>
         <div style="position: relative; width: 100%; height: 0px; padding-top: 56.25%;"><iframe style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; border: 0;" src="https://www.youtube.com/embed/8FkcqdCmT1U" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
     </div>
-    <div style="width: 100%; max-width: 400px; max-height: auto; margin: 0 auto;">
-        <h2>4. Draw Isometric Circle Freehand</h2>
+    <div style="display:flex; flex-direction:column; height: 100%; width: 100%; max-width: 400px; justify-content: space-between;">
+        <h3>4. Draw Isometric Circle Freehand</h3>
         <div style="position: relative; width: 100%; height: 0px; padding-top: 56.25%;"><iframe style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; border: 0;" src="https://www.youtube.com/embed/twj5luXIC_c" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
     </div>
-    <div style="width: 100%; max-width: 400px; max-height: auto; margin: 0 auto;">
-        <h2>5. Draw Isometric Cube with a T-Square</h2>
+    <div style="display:flex; flex-direction:column; height: 100%; width: 100%; max-width: 400px; justify-content: space-between;">
+        <h3>5. Draw Isometric Cube with a T-Square</h3>
         <div style="position: relative; width: 100%; height: 0px; padding-top: 56.25%;"><iframe style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; border: 0;" src="https://www.youtube.com/embed/7t4ycR3fXJ4" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
     </div>
-    <div style="width: 100%; max-width: 400px; max-height: auto; margin: 0 auto;">
-        <h2>6. Draw Isometric Circle with a Compass</h2>
+    <div style="display:flex; flex-direction:column; height: 100%; width: 100%; max-width: 400px; justify-content: space-between;">
+        <h3>6. Draw Isometric Circle with a Compass</h3>
         <div style="position: relative; width: 100%; height: 0px; padding-top: 56.25%;"><iframe style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; border: 0;" src="https://www.youtube.com/embed/EaTwlLaMYao" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
     </div>
 </div>

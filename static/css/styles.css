@@ -1,0 +1,25 @@
+.responsive-table-markdown {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+}
+
+.responsive-table-markdown > table {
+  width: 100%;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.two-column-instructions-grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+  grid-gap: 0px;
+}
+
+.two-column-instructions-grid > * {
+  border-top: 1px solid red;
+}

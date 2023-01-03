@@ -9,7 +9,7 @@ Lorem ipsum
 
 <div style="height:10px; overflow:hidden;">
 
-![alt text for screen readers](/images/1st-stroke.png "Text to show on mouseover")
+![alt text for screen readers](1st-stroke.png "Text to show on mouseover")
 
 </div>
 

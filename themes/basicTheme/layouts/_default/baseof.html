@@ -3,13 +3,14 @@
 {{ partial "head.html" . }}
 
 <body>
-    {{ partial "nav.html" . }}
+
     {{ partial "header.html" . }}
     <div class="container">
         <main id="main">
             {{ block "main" . }}{{ end }}
         </main>
     </div>
+    {{ partial "nav.html" . }}
     {{ partial "script.html" . }}
 </body>
 

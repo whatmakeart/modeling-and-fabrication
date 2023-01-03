@@ -15,6 +15,13 @@ h2 {
   font-size: 1.8em;
 }
 
+.container,
+.main {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
 .responsive-table-markdown {
   display: block;
   width: 100%;

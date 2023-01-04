@@ -1,0 +1,30 @@
+// ┌─────────────┐
+// │ Apple macOS │
+// └─────────────┘
+(?d).DS_Store
+(?d).localized
+(?d)._*
+(?d).Icon*
+(?d).fseventsd
+(?d).Spotlight-V100
+(?d).DocumentRevisions-V100
+(?d).TemporaryItems
+(?d).Trashes
+(?d).Trash-1000
+(?d).iCloud
+
+// ┌────────────────────────────┐
+// │ Temporary and backup files │
+// └────────────────────────────┘
+*.temporary
+*.tmp
+*._mp
+*.old
+*.syd
+*.dir
+*.gid
+*.chk
+*.dmp
+*.nch
+.*.swp
+*~

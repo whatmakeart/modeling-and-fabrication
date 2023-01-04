@@ -43,12 +43,13 @@ draft: false
 <p>The 3D print will be a solid color of PLA plastic or ABS plastic at the DOC or many different multicolors from the industrial printers at the think[box]. Choose a color and apply that material to your model. Set up a render scene with a 1:1 or 16:9 or 2:3 aspect ratio. Make one of the dimensions a minimum of 4000px. Export a render image with a good composition. Don't make the object too small in the image.</p>
 <h2>Upload to Google Drive</h2>
 <p>Upload the following items to Google Drive:</p>
-<ul type="disc">
-<li>scans of your ideation sketches</li>
-<li>STL file of model</li>
-<li>.f3d file of model</li>
-<li>render image</li>
-</ul>
+
+
+- scans of your ideation sketches
+- STL file of model
+- .f3d file of model
+- render image
+
 
 # Grading Rubric
 

@@ -70,3 +70,46 @@ img {
 .two-column-instructions-grid > * {
   border-top: 1px solid red;
 }
+
+/* from files */
+.gallery-grid-jimmy {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 10px;
+}
+
+.image-card-jimmy {
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+}
+
+.fit-img-jimmy {
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.image-box-jimmy {
+  position: relative;
+  width: 300px;
+  height: 300px;
+}
+
+.flex-container-jimmy {
+  display: flex;
+  align-items: top;
+  flex-wrap: wrap;
+}
+
+.half-box {
+  flex: 1 1 400px;
+}
+.half-box p {
+  margin-right: 1rem;
+}
+
+.caption-jimmy {
+  font-size: 14px;
+}

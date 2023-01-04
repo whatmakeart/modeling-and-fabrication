@@ -53,57 +53,111 @@ Download the photo that you want and then you can attach a custom environment in
 ## Example Object Models and Renders
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); grid-gap: 0.5rem;">
-    <div style="display: flex; flex-direction: column;"><a href="https://cia.instructure.com/ICS/icsfs/mm/2022_kuehnle_jimmy_model_object_from_sketch_fusion_360_example_1_with_environment.jpg?target=7ed9c2c3-d20c-450e-af3b-d00449e99462"> <img src="https://cia.instructure.com/ICS/icsfs/mm/2022_kuehnle_jimmy_model_object_from_sketch_fusion_360_example_1_with_environment.jpg?target=7ed9c2c3-d20c-450e-af3b-d00449e99462" alt="" /></a>
-        <p>Toy Block with Environment</p>
-    </div>
-    <div style="display: flex; flex-direction: column;"><a href="https://cia.instructure.com/ICS/icsfs/mm/2022_kuehnle_jimmy_model_object_from_sketch_fusion_360_example_2_with_custom_hdri.jpg?target=0dcaafb7-5075-4d0a-9ef2-b0f6803317c8"><img src="https://cia.instructure.com/ICS/icsfs/mm/2022_kuehnle_jimmy_model_object_from_sketch_fusion_360_example_2_with_custom_hdri.jpg?target=0dcaafb7-5075-4d0a-9ef2-b0f6803317c8" alt="" /></a>
-        <p>Drinking Glass with Custom HDRI</p>
-    </div>
-    <div style="display: flex; flex-direction: column;"><a href="https://cia.instructure.com/ICS/icsfs/mm/2022_kuehnle_jimmy_model_object_from_sketch_fusion_360_example_2_with_environment.jpg?target=a80a2f4c-1b14-418b-8634-915bfd776e49"> <img src="https://cia.instructure.com/ICS/icsfs/mm/2022_kuehnle_jimmy_model_object_from_sketch_fusion_360_example_2_with_environment.jpg?target=a80a2f4c-1b14-418b-8634-915bfd776e49" alt="" /></a>
-        <p>Drinking Glass with Environment</p>
-    </div>
-    <div style="display: flex; flex-direction: column;"><a href="https://cia.instructure.com/ICS/icsfs/mm/2022_kuehnle_jimmy_model_object_from_sketch_fusion_360_example_2_with_transparent_background.jpg?target=cf4cdfa3-41fd-485d-b013-bd3602f46d5b"><img src="https://cia.instructure.com/ICS/icsfs/mm/2022_kuehnle_jimmy_model_object_from_sketch_fusion_360_example_2_with_transparent_background.jpg?target=cf4cdfa3-41fd-485d-b013-bd3602f46d5b" alt="" /></a>
-        <p>Drinking Glass with Transparent Background</p>
-    </div>
-    <div style="display: flex; flex-direction: column;"><a href="https://cia.instructure.com/ICS/icsfs/mm/2022_kuehnle_jimmy_model_object_from_sketch_fusion_360_example_3_with_environment.jpg?target=0d1bda92-0b97-4069-8fd4-37774109e78c"> <img src="https://cia.instructure.com/ICS/icsfs/mm/2022_kuehnle_jimmy_model_object_from_sketch_fusion_360_example_3_with_environment.jpg?target=0d1bda92-0b97-4069-8fd4-37774109e78c" alt="" /></a>
-        <p>Binder Clip with Environment</p>
-    </div>
-    <div style="display: flex; flex-direction: column;"><a href="https://cia.instructure.com/ICS/icsfs/mm/2022_kuehnle_jimmy_model_object_from_sketch_fusion_360_example_3_with_transparent_background.jpg?target=43c9bf25-9551-4e4d-95ae-f77331de5e1c"> <img src="https://cia.instructure.com/ICS/icsfs/mm/2022_kuehnle_jimmy_model_object_from_sketch_fusion_360_example_3_with_transparent_background.jpg?target=43c9bf25-9551-4e4d-95ae-f77331de5e1c" alt="" /></a>
-        <p>Binder Clip with Transparent Background</p>
-    </div>
+
+<div style="display: flex; flex-direction: column;">[![](https://cia.instructure.com/ICS/icsfs/mm/2022_kuehnle_jimmy_model_object_from_sketch_fusion_360_example_1_with_environment.jpg?target=7ed9c2c3-d20c-450e-af3b-d00449e99462)](https://cia.instructure.com/ICS/icsfs/mm/2022_kuehnle_jimmy_model_object_from_sketch_fusion_360_example_1_with_environment.jpg?target=7ed9c2c3-d20c-450e-af3b-d00449e99462)
+
+Toy Block with Environment
+
 </div>
-<h1>Helpful Videos</h1>
+
+<div style="display: flex; flex-direction: column;">[![](https://cia.instructure.com/ICS/icsfs/mm/2022_kuehnle_jimmy_model_object_from_sketch_fusion_360_example_2_with_custom_hdri.jpg?target=0dcaafb7-5075-4d0a-9ef2-b0f6803317c8)](https://cia.instructure.com/ICS/icsfs/mm/2022_kuehnle_jimmy_model_object_from_sketch_fusion_360_example_2_with_custom_hdri.jpg?target=0dcaafb7-5075-4d0a-9ef2-b0f6803317c8)
+
+Drinking Glass with Custom HDRI
+
+</div>
+
+<div style="display: flex; flex-direction: column;">[![](https://cia.instructure.com/ICS/icsfs/mm/2022_kuehnle_jimmy_model_object_from_sketch_fusion_360_example_2_with_environment.jpg?target=a80a2f4c-1b14-418b-8634-915bfd776e49)](https://cia.instructure.com/ICS/icsfs/mm/2022_kuehnle_jimmy_model_object_from_sketch_fusion_360_example_2_with_environment.jpg?target=a80a2f4c-1b14-418b-8634-915bfd776e49)
+
+Drinking Glass with Environment
+
+</div>
+
+<div style="display: flex; flex-direction: column;">[![](https://cia.instructure.com/ICS/icsfs/mm/2022_kuehnle_jimmy_model_object_from_sketch_fusion_360_example_2_with_transparent_background.jpg?target=cf4cdfa3-41fd-485d-b013-bd3602f46d5b)](https://cia.instructure.com/ICS/icsfs/mm/2022_kuehnle_jimmy_model_object_from_sketch_fusion_360_example_2_with_transparent_background.jpg?target=cf4cdfa3-41fd-485d-b013-bd3602f46d5b)
+
+Drinking Glass with Transparent Background
+
+</div>
+
+<div style="display: flex; flex-direction: column;">[![](https://cia.instructure.com/ICS/icsfs/mm/2022_kuehnle_jimmy_model_object_from_sketch_fusion_360_example_3_with_environment.jpg?target=0d1bda92-0b97-4069-8fd4-37774109e78c)](https://cia.instructure.com/ICS/icsfs/mm/2022_kuehnle_jimmy_model_object_from_sketch_fusion_360_example_3_with_environment.jpg?target=0d1bda92-0b97-4069-8fd4-37774109e78c)
+
+Binder Clip with Environment
+
+</div>
+
+<div style="display: flex; flex-direction: column;">[![](https://cia.instructure.com/ICS/icsfs/mm/2022_kuehnle_jimmy_model_object_from_sketch_fusion_360_example_3_with_transparent_background.jpg?target=43c9bf25-9551-4e4d-95ae-f77331de5e1c)](https://cia.instructure.com/ICS/icsfs/mm/2022_kuehnle_jimmy_model_object_from_sketch_fusion_360_example_3_with_transparent_background.jpg?target=43c9bf25-9551-4e4d-95ae-f77331de5e1c)
+
+Binder Clip with Transparent Background
+
+</div>
+
+</div>
+
+# Helpful Videos
+
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); grid-gap: 0.5rem;">
-    <div style="display: flex; flex-direction: column; align-content: space-between; justify-content: space-between;">
-        <h2>1. Fusion 360 Rule #1</h2>
-        <div style="position: relative; width: 100%; height: 0px; padding-top: 56.25%;"><iframe style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; border: 0;" src="https://www.youtube.com/embed/ZYXSJ6EQ9S4?rel=0" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
-    </div>
-    <div style="display: flex; flex-direction: column; align-content: space-between; justify-content: space-between;">
-        <h2>2. Fusion 360 Sketch Constraints</h2>
-        <div style="position: relative; width: 100%; height: 0px; padding-top: 56.25%;"><iframe style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; border: 0;" src="https://www.youtube.com/embed/vNdBkiO8Nfc?rel=0" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
-    </div>
-    <div style="display: flex; flex-direction: column; align-content: space-between; justify-content: space-between;">
-        <h2>3. Fusion 360 Fully Defined Sketch</h2>
-        <div style="position: relative; width: 100%; height: 0px; padding-top: 56.25%;"><iframe style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; border: 0;" src="https://www.youtube.com/embed/9k7nsXpbZ5A?rel=0" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
-    </div>
-    <div style="display: flex; flex-direction: column; align-content: space-between; justify-content: space-between;">
-        <h2>4. Model USB Plug from Third Angle Projection</h2>
-        <div style="position: relative; width: 100%; height: 0px; padding-top: 56.25%;"><iframe style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; border: 0;" src="https://www.youtube.com/embed/VLx9AsbZ8R0?rel=0" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
-    </div>
-    <div style="display: flex; flex-direction: column; align-content: space-between; justify-content: space-between;">
-        <h2>5. Model Toy Block</h2>
-        <div style="position: relative; width: 100%; height: 0px; padding-top: 56.25%;"><iframe style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; border: 0;" src="https://www.youtube.com/embed/OJx09e5SrEw?rel=0" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
-    </div>
-    <div style="display: flex; flex-direction: column; align-content: space-between; justify-content: space-between;">
-        <h2>6. Model Drinking Glass</h2>
-        <div style="position: relative; width: 100%; height: 0px; padding-top: 56.25%;"><iframe style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; border: 0;" src="https://www.youtube.com/embed/2agSzLpN8Z0?rel=0" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
-    </div>
-    <div style="display: flex; flex-direction: column; align-content: space-between; justify-content: space-between;">
-        <h2>7. Model Binder Clip</h2>
-        <div style="position: relative; width: 100%; height: 0px; padding-top: 56.25%;"><iframe style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; border: 0;" src="https://www.youtube.com/embed/MLphWafTfWY?rel=0" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
-    </div>
-    <div style="display: flex; flex-direction: column; align-content: space-between; justify-content: space-between;">
-        <h2>8. Custom HDRI Background</h2>
-        <div style="position: relative; width: 100%; height: 0px; padding-top: 56.25%;"><iframe style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; border: 0;" src="https://www.youtube.com/embed/MmJL4zjfmic?rel=0" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
-    </div>
+
+<div style="display: flex; flex-direction: column; align-content: space-between; justify-content: space-between;">
+
+## 1\. Fusion 360 Rule #1
+
+<div style="position: relative; width: 100%; height: 0px; padding-top: 56.25%;"><iframe style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; border: 0;" src="https://www.youtube.com/embed/ZYXSJ6EQ9S4?rel=0" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
+
+</div>
+
+<div style="display: flex; flex-direction: column; align-content: space-between; justify-content: space-between;">
+
+## 2\. Fusion 360 Sketch Constraints
+
+<div style="position: relative; width: 100%; height: 0px; padding-top: 56.25%;"><iframe style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; border: 0;" src="https://www.youtube.com/embed/vNdBkiO8Nfc?rel=0" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
+
+</div>
+
+<div style="display: flex; flex-direction: column; align-content: space-between; justify-content: space-between;">
+
+## 3\. Fusion 360 Fully Defined Sketch
+
+<div style="position: relative; width: 100%; height: 0px; padding-top: 56.25%;"><iframe style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; border: 0;" src="https://www.youtube.com/embed/9k7nsXpbZ5A?rel=0" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
+
+</div>
+
+<div style="display: flex; flex-direction: column; align-content: space-between; justify-content: space-between;">
+
+## 4\. Model USB Plug from Third Angle Projection
+
+<div style="position: relative; width: 100%; height: 0px; padding-top: 56.25%;"><iframe style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; border: 0;" src="https://www.youtube.com/embed/VLx9AsbZ8R0?rel=0" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
+
+</div>
+
+<div style="display: flex; flex-direction: column; align-content: space-between; justify-content: space-between;">
+
+## 5\. Model Toy Block
+
+<div style="position: relative; width: 100%; height: 0px; padding-top: 56.25%;"><iframe style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; border: 0;" src="https://www.youtube.com/embed/OJx09e5SrEw?rel=0" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
+
+</div>
+
+<div style="display: flex; flex-direction: column; align-content: space-between; justify-content: space-between;">
+
+## 6\. Model Drinking Glass
+
+<div style="position: relative; width: 100%; height: 0px; padding-top: 56.25%;"><iframe style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; border: 0;" src="https://www.youtube.com/embed/2agSzLpN8Z0?rel=0" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
+
+</div>
+
+<div style="display: flex; flex-direction: column; align-content: space-between; justify-content: space-between;">
+
+## 7\. Model Binder Clip
+
+<div style="position: relative; width: 100%; height: 0px; padding-top: 56.25%;"><iframe style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; border: 0;" src="https://www.youtube.com/embed/MLphWafTfWY?rel=0" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
+
+</div>
+
+<div style="display: flex; flex-direction: column; align-content: space-between; justify-content: space-between;">
+
+## 8\. Custom HDRI Background
+
+<div style="position: relative; width: 100%; height: 0px; padding-top: 56.25%;"><iframe style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; border: 0;" src="https://www.youtube.com/embed/MmJL4zjfmic?rel=0" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
+
+</div>
+
 </div>

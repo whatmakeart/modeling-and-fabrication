@@ -41,9 +41,10 @@ h6 {
 
 .container,
 .main {
-  width: 100%;
+  max-width: 100%;
   padding: 0;
   margin: 0 auto;
+  --bs-gutter-x: 0;
 }
 
 .responsive-table-markdown {

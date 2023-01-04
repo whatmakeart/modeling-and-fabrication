@@ -26,11 +26,11 @@ Download the Fusion 360 model files to your computer. To download a .f3d file yo
 
 <div style="display: flex; flex-wrap: wrap;">
     
-![Fusion 360 Export](2022_fusion_export.png)
+![Fusion 360 Export](2022-Fusion-360-Export.png)
 
 From the File menu select Export ...
 
-[Fusion 360 Export f3d](2022_fusion_export_f3d.png)
+[Fusion 360 Export f3d](2022-Fusion-360-Export-f3d.png)
 
 In the save file menu, select a location on your computer and choose .f3d for the file type.
 
@@ -50,41 +50,53 @@ Download the photo that you want and then you can attach a custom environment in
 
 [https://polyhaven.com/](https://polyhaven.com/)
 
-## Example Object Models and Renders
+## Example Fusion 360 Renders of Simple Objects
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); grid-gap: 0.5rem;">
 
-<div style="display: flex; flex-direction: column;">[![](https://cia.instructure.com/ICS/icsfs/mm/2022_kuehnle_jimmy_model_object_from_sketch_fusion_360_example_1_with_environment.jpg?target=7ed9c2c3-d20c-450e-af3b-d00449e99462)](https://cia.instructure.com/ICS/icsfs/mm/2022_kuehnle_jimmy_model_object_from_sketch_fusion_360_example_1_with_environment.jpg?target=7ed9c2c3-d20c-450e-af3b-d00449e99462)
+<div style="display: flex; flex-direction: column;">
 
-Toy Block with Environment
+![Fusion 360 Example 1 with Environment](2022-Kuehnle-Jimmy-Model-Object-from-Sketch-Fusion-360-Example-1-with-Environment.jpg)
+
+Toy Block with Environmentcontent
 
 </div>
 
-<div style="display: flex; flex-direction: column;">[![](https://cia.instructure.com/ICS/icsfs/mm/2022_kuehnle_jimmy_model_object_from_sketch_fusion_360_example_2_with_custom_hdri.jpg?target=0dcaafb7-5075-4d0a-9ef2-b0f6803317c8)](https://cia.instructure.com/ICS/icsfs/mm/2022_kuehnle_jimmy_model_object_from_sketch_fusion_360_example_2_with_custom_hdri.jpg?target=0dcaafb7-5075-4d0a-9ef2-b0f6803317c8)
+<div style="display: flex; flex-direction: column;">
+
+![Fusion 360 Example 2 with Custom HDRI](2022-Kuehnle-Jimmy-Model-Object-from-Sketch-Fusion-360-Example-2-with-Custom-HDRI.jpg)
 
 Drinking Glass with Custom HDRI
 
 </div>
 
-<div style="display: flex; flex-direction: column;">[![](https://cia.instructure.com/ICS/icsfs/mm/2022_kuehnle_jimmy_model_object_from_sketch_fusion_360_example_2_with_environment.jpg?target=a80a2f4c-1b14-418b-8634-915bfd776e49)](https://cia.instructure.com/ICS/icsfs/mm/2022_kuehnle_jimmy_model_object_from_sketch_fusion_360_example_2_with_environment.jpg?target=a80a2f4c-1b14-418b-8634-915bfd776e49)
+<div style="display: flex; flex-direction: column;">
+
+![Fusion 360 Example 2 with Environment](2022-Kuehnle-Jimmy-Model-Object-from-Sketch-Fusion-360-Example-2-with-Environment.jpg)
 
 Drinking Glass with Environment
 
 </div>
 
-<div style="display: flex; flex-direction: column;">[![](https://cia.instructure.com/ICS/icsfs/mm/2022_kuehnle_jimmy_model_object_from_sketch_fusion_360_example_2_with_transparent_background.jpg?target=cf4cdfa3-41fd-485d-b013-bd3602f46d5b)](https://cia.instructure.com/ICS/icsfs/mm/2022_kuehnle_jimmy_model_object_from_sketch_fusion_360_example_2_with_transparent_background.jpg?target=cf4cdfa3-41fd-485d-b013-bd3602f46d5b)
+<div style="display: flex; flex-direction: column;">
+
+![Fusion 360 Example 2 with Transparent Background](2022-Kuehnle-Jimmy-Model-Object-from-Sketch-Fusion-360-Example-2-with-Transparent-Background.jpg)
 
 Drinking Glass with Transparent Background
 
 </div>
 
-<div style="display: flex; flex-direction: column;">[![](https://cia.instructure.com/ICS/icsfs/mm/2022_kuehnle_jimmy_model_object_from_sketch_fusion_360_example_3_with_environment.jpg?target=0d1bda92-0b97-4069-8fd4-37774109e78c)](https://cia.instructure.com/ICS/icsfs/mm/2022_kuehnle_jimmy_model_object_from_sketch_fusion_360_example_3_with_environment.jpg?target=0d1bda92-0b97-4069-8fd4-37774109e78c)
+<div style="display: flex; flex-direction: column;">
+
+![Fusion 360 Example 3 with Environment](2022-Kuehnle-Jimmy-Model-Object-from-Sketch-Fusion-360-Example-3-with-Environment.jpg)
 
 Binder Clip with Environment
 
 </div>
 
-<div style="display: flex; flex-direction: column;">[![](https://cia.instructure.com/ICS/icsfs/mm/2022_kuehnle_jimmy_model_object_from_sketch_fusion_360_example_3_with_transparent_background.jpg?target=43c9bf25-9551-4e4d-95ae-f77331de5e1c)](https://cia.instructure.com/ICS/icsfs/mm/2022_kuehnle_jimmy_model_object_from_sketch_fusion_360_example_3_with_transparent_background.jpg?target=43c9bf25-9551-4e4d-95ae-f77331de5e1c)
+<div style="display: flex; flex-direction: column;">
+
+![Fusion 360 Example 3 with Transparent Background](2022-Kuehnle-Jimmy-Model-Object-from-Sketch-Fusion-360-Example-3-with-Transparent-Background.jpg)
 
 Binder Clip with Transparent Background
 

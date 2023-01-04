@@ -30,19 +30,25 @@ When you finish your sketches scan them and upload them to the class Google Driv
 
 <div class="gallery-grid-jimmy" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); grid-gap: 10px;">
 
-<div class="image-card-jimmy" style="display: flex; flex-direction: column; justify-content: stretch;">![](/ICS/icsfs/mm/2022_3d_print_angles.png?target=e554cbfb-83ef-45dd-8ac4-8d5459e476f8)
+<div class="image-card-jimmy" style="display: flex; flex-direction: column; justify-content: stretch;">
+
+![3D Print Angles](2022-3D-Print-Angles.png)
 
 <span class="caption-jimmy" style="font-size: 14px;">Red models will not print without supports but green models will because they rise up at 45 degrees</span>
 
 </div>
 
-<div class="image-card-jimmy" style="display: flex; flex-direction: column; justify-content: stretch;">![](/ICS/icsfs/mm/2022_3d_print_angles_square.png?target=d6a4e04e-93cc-4268-8e89-6c4ac16906e2)
+<div class="image-card-jimmy" style="display: flex; flex-direction: column; justify-content: stretch;">
+
+![3D Print Angles Square](2022-3D-Print-Angles-Square.png)
 
 <span class="caption-jimmy" style="font-size: 14px;">Red models will not print without supports but green models will because they rise up at 45 degrees</span>
 
 </div>
 
-<div class="image-card-jimmy" style="display: flex; flex-direction: column; justify-content: stretch;">![](/ICS/icsfs/mm/2022_3d_print_angles_round.png?target=d907914a-f85c-446f-bd19-d2392d5525d5)
+<div class="image-card-jimmy" style="display: flex; flex-direction: column; justify-content: stretch;">
+
+![3D Print Angles Round](2022-3D-Print-Angles-Round.png)
 
 <span class="caption-jimmy" style="font-size: 14px;">Red models will not print without supports but green models will because they rise up at 45 degrees</span>
 
@@ -56,37 +62,49 @@ The following guidelines help achieve successful 3d Prints especially when desig
 
 <div class="gallery-grid-jimmy" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); grid-gap: 10px;">
 
-<div class="image-card-jimmy" style="display: flex; flex-direction: column; justify-content: stretch;">![](/ICS/icsfs/mm/2022_3d_print_guidlines.png?target=ef54c04a-dbda-4750-98c1-3eaae11e0dcf)
+<div class="image-card-jimmy" style="display: flex; flex-direction: column; justify-content: stretch;">
+
+![3D Print Guidelines](2022-3D-Print-Guidelines.png)
 
 <span class="caption-jimmy" style="font-size: 14px;">Example of model showing Mechanical 3D Print Guidelines</span>
 
 </div>
 
-<div class="image-card-jimmy" style="display: flex; flex-direction: column; justify-content: stretch;">![](/ICS/icsfs/mm/2022_3d_print_gussets.png?target=0dfb2032-82aa-4932-a8c7-649650e10c42)
+<div class="image-card-jimmy" style="display: flex; flex-direction: column; justify-content: stretch;">
+
+![3D Print Gussets](2022-3D-Print-Gussets.png)
 
 <span class="caption-jimmy" style="font-size: 14px;">Gussets or supporting pieces like wings give more structure to elements.</span>
 
 </div>
 
-<div class="image-card-jimmy" style="display: flex; flex-direction: column; justify-content: stretch;">![](/ICS/icsfs/mm/2022_3d_print_uniform_wall_thickness.png?target=8d831c8f-ce79-4ea7-89bc-e67f033b6ad8)
+<div class="image-card-jimmy" style="display: flex; flex-direction: column; justify-content: stretch;">
+
+![3D Print Uniform Wall Thickness](2022-3D-Print-Uniform-Wall-Thickness.png)
 
 <span class="caption-jimmy" style="font-size: 14px;">Uniform Walls help with deformation and warping.</span>
 
 </div>
 
-<div class="image-card-jimmy" style="display: flex; flex-direction: column; justify-content: stretch;">![](/ICS/icsfs/mm/2022_3d_print_fillets.png?target=caa631d1-faea-4852-adb3-5e044e000b9a)
+<div class="image-card-jimmy" style="display: flex; flex-direction: column; justify-content: stretch;">
+
+![3D Print Fillets](2022-3D-Print-Fillets.png)
 
 <span class="caption-jimmy" style="font-size: 14px;">Fillets or rounded interior corners add strength and help with warping. Ribs also shown, connect vertical pieces to other vertical pieces or walls.</span>
 
 </div>
 
-<div class="image-card-jimmy" style="display: flex; flex-direction: column; justify-content: stretch;">![](/ICS/icsfs/mm/2022_3d_print_ribs.png?target=9b70aaf9-21a5-4561-9a1c-33500ab14291)
+<div class="image-card-jimmy" style="display: flex; flex-direction: column; justify-content: stretch;">
+
+![3D Print Ribs](2022-3D-Print-Ribs.png)
 
 <span class="caption-jimmy" style="font-size: 14px;">Chamfers or angled interior corners add strength and help with warping like fillets do.</span>
 
 </div>
 
-<div class="image-card-jimmy" style="display: flex; flex-direction: column; justify-content: stretch;">![](/ICS/icsfs/mm/2022_3d_print_round_corners.png?target=e0e6bae5-5375-4f61-93ac-66e12de4ec01)
+<div class="image-card-jimmy" style="display: flex; flex-direction: column; justify-content: stretch;">
+
+![3D Print Round Corners](2022-3D-Print-Round-Corners.png)
 
 <span class="caption-jimmy" style="font-size: 14px;">Rounded Corners put less stress on the corners and are smoother to print.</span>
 
@@ -124,7 +142,11 @@ The total bounding box should be less than 50mm in all directions.
 
 <div class="flex-container-jimmy" style="display: flex; align-items: top; flex-wrap: wrap;">
 
-<div class="half-box" style="flex: 1 1 400px;">![](/ICS/icsfs/mm/2022_fusion_properties_browser.png?target=a646549e-38ba-4415-a854-1422508f972d)</div>
+<div class="half-box" style="flex: 1 1 400px;">
+
+![Fusion 360 Properties Browser](2022-Fusion-360-Properties-Browser.png)
+
+</div>
 
 <div class="half-box" style="flex: 1 1 400px;">
 
@@ -136,7 +158,11 @@ Click on properties of the body or component in the browser. Right click on the 
 
 <div class="flex-container-jimmy" style="display: flex; align-items: top; flex-wrap: wrap;">
 
-<div class="half-box" style="flex: 1 1 400px;">![](/ICS/icsfs/mm/2022_fusion_bounding_box.png?target=d1a9a8a7-bc16-40eb-9d18-e7e969be2cd1)</div>
+<div class="half-box" style="flex: 1 1 400px;">
+
+![Fusion 360 Bounding Box](2022-Fusion-360-Bounding-Box.png)
+
+</div>
 
 <div class="half-box" style="flex: 1 1 400px;">
 
@@ -146,7 +172,22 @@ Then you can see the bounding box dimensions. These should be below 50mm in all 
 
 </div>
 
-## Export STL file for 3D Test Print Watch the video on the tutorial page to export your model as an STL file. Choose File > 3D Print to save your STL Label the file YYYYMMDD Lastname Firstname 3D Test Print.stl ## Export .f3d file of Model from Fusion 360 Choose File > Export ... and save a .f3d version of your object. ## Apply materials and Export a Render Image The 3D print will be a solid color of PLA plastic. Choose a color and apply that material to your model. Set up a render scene with a 1:1 or 16:9 or 2:3 aspect ratio. Make one of the dimensions a minimum of 4000px. Export a render image with a good composition. Don't make the object too small in the image.
+## Export STL file for 3D Test Print
+
+- Watch the video on the tutorial page to export your model as an STL file.
+- Choose File > 3D Print to save your STL Label the file YYYYMMDD Lastname Firstname 3D Test Print.stl
+
+## Export .f3d file of Model from Fusion 360 Choose File > Export ... and save a .f3d version of your object.
+
+## Apply materials and Export a Render Image
+
+The 3D print will be a solid color of PLA plastic.
+
+- Choose a color and apply that material to your model.
+- Set up a render scene with a 1:1 or 16:9 or 2:3 aspect ratio.
+- Make one of the dimensions a minimum of 4000px.
+- Export a render image with a good composition.
+- Don't make the object too small in the image.
 
 ## Upload to Google Drive
 
@@ -156,3 +197,8 @@ Upload the following items to Google Drive:
 - STL file of model
 - .f3d file of model
 - render image
+
+# Grading Rubric
+
+| Assessment | Weight |
+| ---------- | ------ |

@@ -1,3 +1,9 @@
+---
+title: "5.2 3d Animation Sets"
+date: 2020-01-26T23:11:13Z
+draft: false
+---
+
 # Make an Animation Set(s) & Assets
 
 ## 1\. Make a List of Needed Assets

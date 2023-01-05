@@ -1,3 +1,9 @@
+---
+title: "5.4 3D Animation"
+date: 2020-01-26T23:11:13Z
+draft: false
+---
+
 # 15 - 30 Second Animation in a 3D Environment
 
 <div class="tldr-homework" style="border: 2px solid #000; padding: 1rem;">
@@ -22,7 +28,7 @@
 
 ## Google Drive Upload Folder
 
-[https://drive.google.com/drive/folders/1n1SO9UwhsWty709d-cpubYNZ1ZapO5NV](https://drive.google.com/drive/folders/1n1SO9UwhsWty709d-cpubYNZ1ZapO5NV)
+[Google Drive](https://drive.google.com/)
 
 </div>
 
@@ -143,7 +149,11 @@ Scan your storyboards as a PDF. Label the PDF YYYYMMDD Lastname Firstname 3D Ani
 
 </div>
 
-<div class="half-box" style="flex: 1 1 400px; margin-top: 0; margin-bottom: 0;">[![Storyboard Template](https://drive.google.com/uc?export=download&id=1y6LbtOwWGzwXLe0eCpwfwsEEtREZG9t0)](https://drive.google.com/file/d/1fWi_5xjUC9eDOkhaZ8smU050QQmqBhUY/view?usp=sharing)</div>
+<div class="half-box" style="flex: 1 1 400px; margin-top: 0; margin-bottom: 0;">
+
+![Storyboard Template](https://drive.google.com/uc?export=download&id=1y6LbtOwWGzwXLe0eCpwfwsEEtREZG9t0)
+
+</div>
 
 </div>
 
@@ -215,31 +225,41 @@ Think about movies, cartoons or video games that you have experienced? Is everyt
 
 <div class="gallery" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); grid-gap: 10px; justify-content: center;">
 
-<div class="image-box" style="position: relative; min-width: 300px; display: flex; flex-direction: column;">![Lego Establishing Shot](https://drive.google.com/uc?export=download&id=1aI7gSB1A26CJMbN9wliszy5F1U4UXA6o)
+<div class="image-box" style="position: relative; min-width: 300px; display: flex; flex-direction: column;">
+
+![Lego Establishing Shot](2021-Establishing-Shot.jpg)
 
 Establishing Shot
 
 </div>
 
-<div class="image-box" style="position: relative; min-width: 300px; display: flex; flex-direction: column;">![Lego Full Shot](https://drive.google.com/uc?export=download&id=1-bV2jYA_mm8BWgx5LIy_MaGXZwTu_ap_)
+<div class="image-box" style="position: relative; min-width: 300px; display: flex; flex-direction: column;">
+
+![Lego Full Shot](2021-full-shot.jpg)
 
 Full Shot
 
 </div>
 
-<div class="image-box" style="position: relative; min-width: 300px; display: flex; flex-direction: column;">![Lego Medium Shot](https://drive.google.com/uc?export=download&id=1lDibNKMfcVE6nsOsVvDXASDfjS1uvOBd)
+<div class="image-box" style="position: relative; min-width: 300px; display: flex; flex-direction: column;">
+
+![Lego Medium Shot](2021-medium-shot.jpg)
 
 Medium Shot
 
 </div>
 
-<div class="image-box" style="position: relative; min-width: 300px; display: flex; flex-direction: column;">![Lego Close Up](https://drive.google.com/uc?export=download&id=1I1ipnygGs3zYRBTsILu5hEOaF7ghQyqT)
+<div class="image-box" style="position: relative; min-width: 300px; display: flex; flex-direction: column;">
+
+![Lego Close Up](2021-close-up.jpg)
 
 Close Up
 
 </div>
 
-<div class="image-box" style="position: relative; min-width: 300px; display: flex; flex-direction: column;">![Lego Extreme Close Up](https://drive.google.com/uc?export=download&id=1ZfmXl0xmnoF2G0hXg5Lpc20k7dha9hpm)
+<div class="image-box" style="position: relative; min-width: 300px; display: flex; flex-direction: column;">
+
+![Lego Extreme Close Up](2021-extreme-closeup.jpg)
 
 Extreme Close Up
 
@@ -253,31 +273,41 @@ Using a simple shape like a ball as the subject of a composition does not change
 
 <div class="gallery" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); grid-gap: 10px; justify-content: center;">
 
-<div class="image-box" style="position: relative; min-width: 300px; display: flex; flex-direction: column;">![Establishing Shot](https://drive.google.com/uc?export=download&id=1kdz4vzVAnxs-GMD48W5H_NX_7yN_iYUS)
+<div class="image-box" style="position: relative; min-width: 300px; display: flex; flex-direction: column;">
+
+![Ball Establishing Shot](2021-ball-establishing.jpg)
 
 Establishing Shot
 
 </div>
 
-<div class="image-box" style="position: relative; min-width: 300px; display: flex; flex-direction: column;">![Ball Full Shot](https://drive.google.com/uc?export=download&id=10ZfH7yf-VgiUfZekBigs2EV2Y3iSmc0Z)
+<div class="image-box" style="position: relative; min-width: 300px; display: flex; flex-direction: column;">
+
+![Ball Full Shot](2021-ball-full-shot.jpg)
 
 Full Shot
 
 </div>
 
-<div class="image-box" style="position: relative; min-width: 300px; display: flex; flex-direction: column;">![Ball Medium Shot](https://drive.google.com/uc?export=download&id=1YrZ4oMXY0Vq8BEuE0L5O-6FUcAd5LMED)
+<div class="image-box" style="position: relative; min-width: 300px; display: flex; flex-direction: column;">
+
+![Ball Medium Shot](2021-ball-medium-shot.jpg)
 
 Medium Shot
 
 </div>
 
-<div class="image-box" style="position: relative; min-width: 300px; display: flex; flex-direction: column;">![Ball Close Up](https://drive.google.com/uc?export=download&id=1bMOUR61MKdAoXzSyyrYQOYy9eQrZQ3cl)
+<div class="image-box" style="position: relative; min-width: 300px; display: flex; flex-direction: column;">
+
+![Ball Close Up](2021-ball-close-up.jpg)
 
 Close Up
 
 </div>
 
-<div class="image-box" style="position: relative; min-width: 300px; display: flex; flex-direction: column;">![Ball Extreme Close Up](https://drive.google.com/uc?export=download&id=1LU3wvLOmLopXJ-PpJnsOk_DrKYTcqGwd)
+<div class="image-box" style="position: relative; min-width: 300px; display: flex; flex-direction: column;">
+
+![Ball Extreme Close Up](2021-ball-extreme-close-up.jpg)
 
 Extreme Close Up
 
@@ -307,7 +337,9 @@ Use the rule of thirds when composing your shots and sequences.
 
 <div class="half-box" style="flex: 1 1 400px; margin-top: 0; margin-bottom: 0;">
 
-<div class="image-card-jimmy" style="display: flex; flex-direction: column; justify-content: stretch;">![Rule of Thirds](https://drive.google.com/uc?export=download&id=1R1XA3njZbm6RtqvCYkJrAYY8cGwT1QIP)
+<div class="image-card-jimmy" style="display: flex; flex-direction: column; justify-content: stretch;">
+
+![Rule of Thirds](RuleOfThirds-SideBySide.gif)
 
 Left image is original, right image is cropped with rule of thirds. [Link to Wikimedia Commons](https://commons.wikimedia.org/wiki/File:RuleOfThirds-SideBySide.gif)
 
@@ -652,3 +684,15 @@ Use the h.264 video codec to export an .mp4 of your animation and label the file
 </div>
 
 </div>
+
+# Grading Rubric
+
+| Assessment                                       | Weight    |
+| ------------------------------------------------ | --------- |
+| Have Multiple Scenes                             | 50 points |
+| Show Basic Animation Principles                  | 50 points |
+| Folder of Exported Rendered Images               | 25 points |
+| Use of Lighting and Rendering                    | 25 points |
+| UV Textures Applied to Objects                   | 25 points |
+| Use Sound Effects and Music to Enhance Animation | 25 points |
+| Text Credits                                     | 25 Points |

@@ -22,7 +22,7 @@ In this project it is important that your 3D Digital Model is robust. What does 
 
 <div class="half-box" style="flex: 1 1 400px; margin-top: 0; margin-bottom: 0;">
 
-![](/ICS/icsfs/mm/cnc-stool-example.jpg?target=819278b4-4d44-4a3d-b4c3-d5e845de1659)
+![CNC Stool Example](cnc-stool-example.jpg)
 
 </div>
 
@@ -106,7 +106,11 @@ Before starting your project it is important to see what types of designs have b
 
 <div class="img-card-jimmy" style="display: flex; flex-direction: column; justify-content: stretch;">
 
-<div class="image-box-jimmy" style="position: relative; width: 300px; height: 300px;">[![](/ICS/icsfs/mm/cnc-stool-search.png?target=75748d52-847e-485e-90bc-6f80d27679bc)](https://google.com/search?q=cnc+stool&tbm=isch)</div>
+<div class="image-box-jimmy" style="position: relative; width: 300px; height: 300px;">
+
+[![CNC Stool Search](cnc-stool-search.png)](https://google.com/search?q=cnc+stool&tbm=isch)
+
+</div>
 
 [Google image Search of CNC Stools](https://google.com/search?q=cnc+stool&tbm=isch)
 
@@ -114,7 +118,11 @@ Before starting your project it is important to see what types of designs have b
 
 <div class="img-card-jimmy" style="display: flex; flex-direction: column; justify-content: stretch;">
 
-<div class="image-box-jimmy" style="position: relative; width: 300px; height: 300px;">[![](/ICS/icsfs/mm/cnc-chair-search.png?target=20b15277-d3cf-4475-baa7-acaaf33835f4)](https://google.com/search?q=cnc+chair&tbm=isch)</div>
+<div class="image-box-jimmy" style="position: relative; width: 300px; height: 300px;">
+
+[![CNC Chair Search](cnc-chair-search.png)](https://google.com/search?q=cnc+chair&tbm=isch)
+
+</div>
 
 [Google image Search of CNC Chairs](https://google.com/search?q=cnc+chair&tbm=isch)
 
@@ -122,7 +130,11 @@ Before starting your project it is important to see what types of designs have b
 
 <div class="img-card-jimmy" style="display: flex; flex-direction: column; justify-content: stretch;">
 
-<div class="image-box-jimmy" style="position: relative; width: 300px; height: 300px;">[![](/ICS/icsfs/mm/stool-design-search.png?target=97ae22cd-2e55-477a-bfc1-267ca13569dd)](https://google.com/search?q=stool+design&tbm=isch)</div>
+<div class="image-box-jimmy" style="position: relative; width: 300px; height: 300px;">
+
+[![Stool Design Search](stool-design-search.png)](https://google.com/search?q=stool+design&tbm=isch)
+
+</div>
 
 [Google image Search of Stool Design](https://google.com/search?q=stool+design&tbm=isch)
 
@@ -130,7 +142,11 @@ Before starting your project it is important to see what types of designs have b
 
 <div class="img-card-jimmy" style="display: flex; flex-direction: column; justify-content: stretch;">
 
-<div class="image-box-jimmy" style="position: relative; width: 300px; height: 300px;">[![](/ICS/icsfs/mm/cnc-plywood-table-search.png?target=7104b9b3-09b2-4556-a4bb-30516e54fcf0)](https://google.com/search?q=cnc+plywood+table&tbm=isch)</div>
+<div class="image-box-jimmy" style="position: relative; width: 300px; height: 300px;">
+
+[![CNC Plywood Table Search](cnc-plywood-table-search.png)](https://google.com/search?q=cnc+plywood+table&tbm=isch)
+
+</div>
 
 [Google image Search of CNC Tables](https://google.com/search?q=cnc+plywood+table&tbm=isch)
 
@@ -138,7 +154,11 @@ Before starting your project it is important to see what types of designs have b
 
 <div class="img-card-jimmy" style="display: flex; flex-direction: column; justify-content: stretch;">
 
-<div class="image-box-jimmy" style="position: relative; width: 300px; height: 300px;">[![](/ICS/icsfs/mm/2022_cnc_joints_search.png?target=81288f5f-8017-4a4b-8551-9549aa233f3c)](https://google.com/search?q=cnc+joints&tbm=isch)</div>
+<div class="image-box-jimmy" style="position: relative; width: 300px; height: 300px;">
+
+[![CNC Joints Search](2022_cnc_joints_search.png)](https://google.com/search?q=cnc+joints&tbm=isch)
+
+</div>
 
 [Google image Search of CNC Joints](https://google.com/search?q=cnc+plywood+table&tbm=isch)
 
@@ -146,7 +166,11 @@ Before starting your project it is important to see what types of designs have b
 
 <div class="img-card-jimmy" style="display: flex; flex-direction: column; justify-content: stretch;">
 
-<div class="image-box-jimmy" style="position: relative; width: 300px; height: 300px;">[![](/ICS/icsfs/mm/2022_chair_living_hinge_search.png?target=5efc0457-2a0c-4edc-a036-0991e9428df6)](https://google.com/search?q=chair+living+hinge&tbm=isch)</div>
+<div class="image-box-jimmy" style="position: relative; width: 300px; height: 300px;">
+
+[![Chair Living Hinge Search](2022_chair_living_hinge_search.png)](https://google.com/search?q=chair+living+hinge&tbm=isch)
+
+</div>
 
 [Google image Search of Chair Living Hinges](https://google.com/search?q=cnc+plywood+table&tbm=isch)
 
@@ -157,17 +181,11 @@ Before starting your project it is important to see what types of designs have b
 ## Collect Images
 
 1.  Collect a minimum of 10 images of existing designs. You can take screenshots or download the images.
-
 2.  Organize the images into a folder called “CNC Design Inspiration Images.” Label each of the images with a descriptive title that includes the creator’s name.
-
 3.  Put each of these images into a Google Slides Presentation. Use one slide per image.
-
 4.  On each slide write 2-3 sentences about why you selected this image and what your find intriguing about it.
-
 5.  Put a link on each slide to where you found the image.
-
 6.  Save the presentation as a PDF YYYYMMDD Lastname Firstname CNC Design Inspiration
-
 7.  Upload the PDF and the folder of Images to Google Drive
 
 ## Research Design Parameters
@@ -187,15 +205,10 @@ Look up standard stool heights, chair sizes, and table sizes. You can simply ent
 ## Ideation Sketches
 
 1.  Make a minimum of 10 thumbnail sketches of ideas. Keep the ideas varied and different. Push yourself to be inspired by designs you researched but to come up with your own ideas and concepts.
-
 2.  After making initial sketches, choose 5 ideas and make larger refined sketches. You may need to draw these from different views and show details of how you plan to join the pieces together.
-
 3.  Choose your favorite idea and draw a larger final sketch. This could be a third angle projection drawn by hand or with a t-square that includes the Front, Top and Right views. It could also be a detailed rendered iage that is descriptive of its form and construction. Put dimensions on you drawing.
-
 4.  Scan or photograph your sketches. If using a scanner, make sure that the DPI is high enough and that the exposure on the scanner captures enough detail, especially if you have light sketches. If you are photographing your sketches, ensure that there is even lighting, no shadows. Make sure that there are no extra items in the photo. Make sure there are no distortions or trapezoid shapes from taking the photo at an angle. Keep the camera square to the paper.
-
 5.  Label you files YYYYMMDD Lastname Firstname CNC Ideation Sketches
-
 6.  Upload to Google Drive
 
 ## Make a Scale Cardboard Model
@@ -255,15 +268,10 @@ Set up lights and a clean backdrop. You can check out lights and a camera from t
 # Assignment Deliverables Summary
 
 1.  Folder of labeled design inspiration images (minimum 10)
-
 2.  PDF export of Google Slides Presentation of design inspiration
-
 3.  Minimum 10 Thumbnail Ideation Sketches
-
 4.  Minimum 5 larger refined Ideation Sketches
-
 5.  1 Larger Final Sketch of Design with dimensions
-
 6.  Minimum of 2 photos of scale Cardboard Model
 
 Upload everything in a single folder to the class Google Drive Folder

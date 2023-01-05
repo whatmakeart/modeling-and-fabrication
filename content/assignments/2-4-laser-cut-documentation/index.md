@@ -51,7 +51,7 @@ Go to the think[box] and cut out your project. If something doesn't work out rig
 
 There is a photo stand at the think[box]that is perfect for documenting small objects like your laser cut projects. Use the DSLR camera at the think[box] that is already set up. There are lights set up as well. Do not use your cell phone for these pictures. Instructions link from think[box] [https://docs.google.com/document/d/1IEujUMfrwNqrz4M4hs8QsYuTGID2wZhnPJgkKJeSrsg/edit](https://docs.google.com/document/d/1IEujUMfrwNqrz4M4hs8QsYuTGID2wZhnPJgkKJeSrsg/edit)
 
-![](/ICS/icsfs/mm/thinkbox_photo_stand.jpg?target=e54fcdc0-5d2d-48b9-a584-7ec07e643a96)
+![thinkbox photo stand](2021-thinkbox-photo-stand.jpg)
 
 ## Document Your Project in the Environment
 
@@ -67,4 +67,11 @@ Upload the following to Google Drive:
 - Updated exported .f3d file.
 - Updated Toolpath export file
 
-[https://drive.google.com/drive/folders/1VuIBRR4yZFkiTaSP3qcwFKvRquaWBDd5](https://drive.google.com/drive/folders/1VuIBRR4yZFkiTaSP3qcwFKvRquaWBDd5)
+# Grading Rubric
+
+| Assessment                      | Weight    |
+| ------------------------------- | --------- |
+| Stand Quality                   | 40 points |
+| Photo Backdrop Documentation    | 25 points |
+| Environment Photo Documentation | 25 points |
+| File Management                 | 10 points |

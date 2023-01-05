@@ -14,9 +14,11 @@ This project introduces custom [user parameters in Fusion 360](https://youtu.be/
 
 </div>
 
-<div class="half-box">[![](/ICS/icsfs/mm/2021_laser_cut_stand_assembeled.jpg?target=35a0bb77-1255-44ec-984b-951fe59cf0cd)](/ICS/icsfs/mm/2021_laser_cut_stand_assembeled.jpg?target=35a0bb77-1255-44ec-984b-951fe59cf0cd)
+<div class="half-box">
 
-_<span class="caption-jimmy">Physical Prototype of Laser Cut Cell Phone Stand cut at think[box]</span>_
+![Laser Cut Stand Assembled](2021-Laser-Cut-Stand_Assembled.jpg)
+
+<span class="caption-jimmy">Physical Prototype of Laser Cut Cell Phone Stand cut at think[box]</span>
 
 </div>
 
@@ -50,7 +52,11 @@ There are many ways to join a laser cut project together ranging from gravity to
 
 <div class="image-card-jimmy">
 
-<div class="image-box-jimmy">![](/ICS/icsfs/mm/2022_finger_joints_laser_cut.png?target=c67e7170-3787-4891-a1be-b1d67b9ef76c)</div>
+<div class="image-box-jimmy">
+
+![Laser Cut Finder Joints](2022-Finger-Joints-Laser-Cut.png)
+
+</div>
 
 Box with finger joints on all sides
 
@@ -58,7 +64,11 @@ Box with finger joints on all sides
 
 <div class="image-card-jimmy">
 
-<div class="image-box-jimmy">![](/ICS/icsfs/mm/2022_snap_joints_laser_cut_1.png?target=5b9cad82-7130-4e50-bf3a-3bcd90ae7932)</div>
+<div class="image-box-jimmy">
+
+![Laser Cut Snap Joints](2022-Snap-Joints-Laser-Cut-1.png)
+
+</div>
 
 Snap joint pulled apart
 
@@ -66,7 +76,11 @@ Snap joint pulled apart
 
 <div class="image-card-jimmy">
 
-<div class="image-box-jimmy">![](/ICS/icsfs/mm/2022_snap_joints_laser_cut_2.png?target=6dbb4191-1fe0-46d1-992e-eed2f5879dd0)</div>
+<div class="image-box-jimmy">
+
+![Laser Cut Snap Joints](2022-Snap-Joints-Laser-Cut-2.png)
+
+</div>
 
 Snap joint pressed together
 
@@ -74,7 +88,11 @@ Snap joint pressed together
 
 <div class="image-card-jimmy">
 
-<div class="image-box-jimmy">![](/ICS/icsfs/mm/2022_captive_nut_joints_laser_cut.png?target=15440b0a-f014-4b24-9d0e-45ad786a6331)</div>
+<div class="image-box-jimmy">
+
+![Laser Cut Captive Nut Joints](2022-Captive-Nut-Joints-Laser-Cut.png)
+
+</div>
 
 Captive bolt / nut joints laid flat
 
@@ -82,7 +100,11 @@ Captive bolt / nut joints laid flat
 
 <div class="image-card-jimmy">
 
-<div class="image-box-jimmy">![](/ICS/icsfs/mm/2022_captive_nut_joints_laser_cut_2.png?target=271e9d84-1865-4f4f-954d-a139826c2d05)</div>
+<div class="image-box-jimmy">
+
+![Laser Cut Captive Nut Joints](2022-Captive-Nut-Joints-Laser-Cut-2.png)
+
+</div>
 
 Captive bolt / nut joint without aligning fingers
 
@@ -90,7 +112,11 @@ Captive bolt / nut joint without aligning fingers
 
 <div class="imag-card-jimmy">
 
-<div class="image-box-jimmy">![](/ICS/icsfs/mm/2022_captive_nut_joints_with_fingers_laser_cut.png?target=bdf5e5eb-6629-478a-aaa1-530365e6a31d)</div>
+<div class="image-box-jimmy">
+
+![Laser Cut Captive Nut Joints with Fingers](2022-Captive-Nut-Joints-With-Fingers-Laser-Cut.png)
+
+</div>
 
 Captive bolt / nut joint with alignment tabs / fingers
 
@@ -98,7 +124,11 @@ Captive bolt / nut joint with alignment tabs / fingers
 
 <div class="imaeg-card-jimmy">
 
-<div class="image-box-jimmy">![](/ICS/icsfs/mm/2022_pinned_finger_joints_laser_cut_colors.png?target=3c620664-0caf-4c08-9393-9f83f7a0faa7)</div>
+<div class="image-box-jimmy">
+
+![Laser Cut Pinned Finger Joints](2022-Pinned-Finger-Joints-Laser-Cut-Colors.png)
+
+</div>
 
 Pinned finger joint with different pieces colorized
 
@@ -106,7 +136,11 @@ Pinned finger joint with different pieces colorized
 
 <div class="image-card-jimmy">
 
-<div class="image-box-jimmy">![](/ICS/icsfs/mm/2022_pinned_finger_joints_laser_cut.png?target=9fd21b36-97de-4277-b7a1-fce7be9c1562)</div>
+<div class="image-box-jimmy">
+
+![Laser Cut Pinned Finger Joints](2022-Pinned-Finger-Joints-Laser-Cut.png)
+
+</div>
 
 Pinned finger joint
 
@@ -126,11 +160,13 @@ You can also use a user parameter for the inner width to space out pieces. Use u
 
 </div>
 
-<div class="half-box" style="display: flex; flex-direction: column;">![](/ICS/icsfs/mm/2021_laser_cut_user_parameters.png?target=5e8ff8e7-9c07-48e6-a77d-0850b5b5dc20)
+<div class="half-box" style="display: flex; flex-direction: column;">
 
-_<span class="caption-jimmy">Example User Parameters in Fusion 360</span>_
+![Laser Cut User Parameters](2021-Laser-Cut-User-Parameters.png)
 
-![](/ICS/icsfs/mm/2021_laser_cut_stand_components_and_parts.png?target=57ad1d89-963c-4d4a-bf3e-bafa6e3f4b3e)
+<span class="caption-jimmy">Example User Parameters in Fusion 360</span>
+
+![Laser Cut Stand Components and Parts](2021-Laser-Cut-Stand-Components-and-Parts.png)
 
 _<span class="caption-jimmy">Example of each part of the stand as a separate component at the top level assembly in Fusion 360.</span>_
 
@@ -160,7 +196,9 @@ Follow the insturctions in [the video](https://youtu.be/jeQPJHHwVN4) to arrange 
 
 <div class="half-box" style="display: flex; flex-wrap: wrap; flex-direction: column;">
 
-<div style="display: flex; flex-wrap: wrap; align-items: flex-end;">![](/ICS/icsfs/mm/2021_laser_cut_stand_cam_layout_top.png?target=a8333f68-b5a2-4ac2-94e6-f5fcbc6fd349)
+<div style="display: flex; flex-wrap: wrap; align-items: flex-end;">
+
+![Laser Cut Stand CAM Layout](2021-Laser-Cut-Stand-CAM-Layout-Top.png)
 
 <span class="caption-jimmy">_Top view of components of laser cut stand flat on plywood._</span>
 
@@ -170,7 +208,7 @@ Follow the insturctions in [the video](https://youtu.be/jeQPJHHwVN4) to arrange 
 
 <div style="position: relative; width: 100%; height: 0px; padding-top: 56.25%;"><iframe style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; border: 0;" src="https://www.youtube.com/embed/jeQPJHHwVN4" width="300" height="150" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
 
-<span class="caption-jimmy">_Top view of components of laser cut stand flat on plywood._</span>
+<span class="caption-jimmy">Top view of components of laser cut stand flat on plywood.</span>
 
 </div>
 
@@ -236,9 +274,9 @@ Follow the steps in this tutorial video to create a new setup in Fusion 360\. Th
 
 <div class="half-box">
 
-![](/ICS/icsfs/mm/2012_laser_cut_stand_cam_toolpaths.png?target=2e46e934-16b5-4512-84fd-845a119b7409)
+![Laser Cut Stand Toolpaths](2021-Laser-Cut-Stand-CAM-Toolpaths.png
 
-_<span class="caption-jimmy">View of tool path layout in the Manufacture Workspace</span>_
+<span class="caption-jimmy">View of tool path layout in the Manufacture Workspace</span>
 
 </div>
 
@@ -256,9 +294,11 @@ Select the tool path from your setup and then click on post process. Use the DXF
 
 </div>
 
-<div class="half-box">![](/ICS/icsfs/mm/2021_laser_cut_stand_post_process.png?target=79fc07dc-ecc7-4f81-95f9-1baaa8d8651e)
+<div class="half-box">
 
-_<span class="caption-jimmy">Example of each part of the stand as a separate component at the top level assembly in Fusion 360.</span>_
+![Laser Cut Stand Post Process](2021-Laser-Cut-Stand-Post-Process.png)
+
+<span class="caption-jimmy">Example of each part of the stand as a separate component at the top level assembly in Fusion 360.</span>
 
 </div>
 
@@ -280,7 +320,9 @@ Make sure your render is well composed and high resolution with at least one dir
 
 </div>
 
-<div class="half-box">![](/ICS/icsfs/mm/2021_laser_cut_stand_render_assembled.png?target=d2816632-cdbb-42b4-a186-d73d5c3d10f6)
+<div class="half-box">
+
+![Laser Cut Stand Assembled](2021-Laser-Cut-Stand-Assembeled.jpg)
 
 _<span class="caption-jimmy">Example of each part of the stand as a separate component at the top level assembly in Fusion 360.</span>_
 
@@ -300,9 +342,11 @@ You need to change the stroke weight of the red strokes in Illustrator. Also you
 
 </div>
 
-<div class="half-box">![](/ICS/icsfs/mm/2021_laser_cut_stand_in_illustrator.png?target=2abac7c8-b371-4bb8-b744-970cb43e82ec)
+<div class="half-box">
 
-_<span class="caption-jimmy">Example of each part of the stand as a separate component at the top level assembly in Fusion 360.</span>_
+![Laser Cut Stand in Illustrator](2021-Laser-Cut-Stand-in-Illustrator.png)
+
+<span class="caption-jimmy">Example of each part of the stand as a separate component at the top level assembly in Fusion 360.</span>
 
 </div>
 
@@ -318,11 +362,7 @@ Make a labeled folder YYYYMMDD Lastname Firstname Laser Cut First Models and put
 
 ## Google Drive Upload Folder
 
-[https://drive.google.com/drive/folders/1_nf7dl8bfijs609QyJQm1yPhFqdEmYzt?usp=sharing](https://drive.google.com/drive/folders/1_nf7dl8bfijs609QyJQm1yPhFqdEmYzt?usp=sharing)
-
 # Instructional Videos
-
-[![YouTube thumbnail](https://img.youtube.com/vi/${idYoutube}/hqdefault.jpg) <span class="playbutton">►</span>](https://www.youtube.com/embed/${idYoutube}?rel=0&autoplay=1) `; } }); });
 
 <div class="video-grid" style="display: grid; align-items: end; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); grid-gap: 1rem;">
 

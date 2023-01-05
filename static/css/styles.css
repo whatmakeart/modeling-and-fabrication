@@ -8,8 +8,6 @@ html {
 }
 
 body {
-  margin: 0 auto;
-
   height: 100%;
 }
 
@@ -43,7 +41,6 @@ h6 {
 }
 
 .container-fluid {
-  padding: 0;
 }
 .responsive-table-markdown {
   display: block;

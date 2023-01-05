@@ -14,8 +14,21 @@
               "type": "empty",
               "state": {}
             }
+          },
+          {
+            "id": "40eb17f7879ef7ed",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "assignments/1-5-model-objects-in-fusion-360-and-export-rendered-images/index.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -81,6 +94,7 @@
         "state": {
           "type": "backlink",
           "state": {
+            "file": "assignments/1-5-model-objects-in-fusion-360-and-export-rendered-images/index.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -97,6 +111,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
+            "file": "assignments/1-5-model-objects-in-fusion-360-and-export-rendered-images/index.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -107,12 +122,17 @@
         "type": "leaf",
         "state": {
           "type": "outline",
-          "state": {}
+          "state": {
+            "file": "assignments/1-5-model-objects-in-fusion-360-and-export-rendered-images/index.md"
+          }
         }
       }
     ],
     "currentTab": 0
   },
-  "active": "cac81bac9dbe68f7",
-  "lastOpenFiles": []
+  "active": "40eb17f7879ef7ed",
+  "lastOpenFiles": [
+    "assignments/1-1-technical-drawing-exercises/index.md",
+    "assignments/1-5-model-objects-in-fusion-360-and-export-rendered-images/index.md"
+  ]
 }

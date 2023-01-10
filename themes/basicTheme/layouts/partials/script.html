@@ -42,7 +42,7 @@
             // Your logic here
 
             sendIframeHeight();
-        }, 10, 10);
+        }, 10, 5);
         console.log("DOMContentLoaded");
         console.log("iframe scrollHeight: " + document.documentElement.scrollHeight + "px");
 
@@ -59,7 +59,14 @@
         }, 100);
     };
 
+    const isMobile = () => /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
 
+    if (isMobile === true) {
+        console.log('Browser is mobile');
+        document.body.style.overflow = "auto";
+    } else {
+        console.log('Browser is not mobile');
+    }
 
     //window.addEventListener('message', console.log)
 

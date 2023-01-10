@@ -2,47 +2,34 @@
 
     document.addEventListener('DOMContentLoaded', function () {
 
-        setInterval(function () {
+        function setIntervalX(callback, delay, repetitions) {
+            var x = 0;
+            var intervalID = window.setInterval(function () {
+
+                callback();
+
+                if (++x === repetitions) {
+                    window.clearInterval(intervalID);
+                }
+            }, delay);
+        }
+
+        // This will be repeated 10 times with .01 second intervals:
+        setIntervalX(function () {
+            // Your logic here
             console.log("iframe scroll height: " + document.documentElement.scrollHeight + "px");
             parent.postMessage(JSON.stringify({
                 subject:
 
                     "lti.frameResize", height: document.documentElement.scrollHeight + "px"
             }), "*");
-        }, 1000);
+        }, 10, 10);
+
+
+
+
+
     });
 
 
-</script>
-
-<script>
-
-    var IframeHelper = {
-        inIframe: function () {
-            return self != top;
-        },
-
-        // get rid of double iframe scrollbars
-        setHeight: function () {
-            var default_height = $(document).height();
-            default_height = default_height > 500 ? default_height : 500;
-
-            // IE 8 & 9 only support string data, so send objects as string
-            parent.postMessage(JSON.stringify({
-                subject: "lti.frameResize",
-                height: default_height
-            }), "*");
-        },
-
-
-
-        // tell the parent to reload
-        //reloadParent: function () {
-        //  parent.postMessage(JSON.stringify({
-        //    subject: "lti.pageRefresh"
-        //   }), "*");
-        // }
-    };
-
-    module.exports = IframeHelper;
 </script>

@@ -4,9 +4,7 @@
 
     const currentURL = document.baseURI; // gets the url of the page the iframe is embedded in even with different origins
 
-    console.log(currentURL);
-
-    if (currentURL.toString().includes("cia.instructure.com")) {
+    if (self != top) {
         console.log("no header or footer");
         document.getElementById("header").remove();
         document.getElementById("footer").remove();

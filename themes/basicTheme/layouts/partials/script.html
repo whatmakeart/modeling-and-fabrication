@@ -1,4 +1,15 @@
-<script type="text/js" src="/js/feather.min.js"></script>
 <script>
-    feather.replace()
+
+    document.addEventListener('DOMContentLoaded', function () {
+
+        setTimeout(function () {
+            parent.postMessage(JSON.stringify({
+                subject:
+
+                    "lti.frameResize", document.documentElement.scrollHeight + "px"
+            }), "*");
+        }, 0);
+    });
+    console.log(document.documentElement.scrollHeight);
+
 </script>

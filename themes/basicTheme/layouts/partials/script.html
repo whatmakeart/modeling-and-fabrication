@@ -59,7 +59,16 @@
         }, 100);
     };
 
-    //window.top.addEventListener('message', console.log)
+
+
+    //window.addEventListener('message', console.log)
+
+    window.addEventListener('message', messageListener, false);
+
+    function messageListener(event) {
+        console.log(event.data);
+    }
+
 
     /*
         // Set theme to the user's preferred color scheme dark or light mode

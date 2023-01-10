@@ -5,13 +5,11 @@
     const currentURL = document.baseURI; // gets the url of the page the iframe is embedded in even with different origins
 
     if (self != top) {
-        console.log("no header or footer");
+        console.log("Removed iframe #header and #footer");
         document.getElementById("header").remove();
         document.getElementById("footer").remove();
         document.body.style.overflow = "hidden";
     }
-
-
 
     // For sending iframe height multiple times and then stopping on first page load
     // could be fized with proper Canvas Listening
@@ -29,12 +27,11 @@
 
     // sends postMessage to parent page with hight information
     function sendIframeHeight() {
-        window.top || window.opener.postMessage(JSON.stringify({
+        window.top.postMessage(JSON.stringify({
             subject:
-
                 "lti.frameResize", height: document.documentElement.scrollHeight + "px"
         }), "*");
-        console.log("iframe scroll height: " + document.documentElement.scrollHeight + "px");
+
 
     }
 
@@ -43,9 +40,11 @@
         // This will be repeated 10 times with .01 second intervals:
         setIntervalX(function () {
             // Your logic here
-            console.log("Content Loaded");
+
             sendIframeHeight();
         }, 10, 10);
+        console.log("DOMContentLoaded");
+        console.log("iframe scrollHeight: " + document.documentElement.scrollHeight + "px");
 
     });
 
@@ -54,12 +53,13 @@
     window.onresize = function () {
         clearTimeout(resizeTimer);
         resizeTimer = setTimeout(function () {
-            console.log("Window Resize");
+            console.log("Window Resized");
+            console.log("New iframe scrollHeight: " + document.documentElement.scrollHeight + "px");
             sendIframeHeight();
         }, 100);
     };
 
-    window.addEventListener('message', console.log)
+    window.top.addEventListener('message', console.log)
 
     /*
         // Set theme to the user's preferred color scheme dark or light mode

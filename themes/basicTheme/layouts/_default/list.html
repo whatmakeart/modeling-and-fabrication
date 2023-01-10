@@ -1,7 +1,6 @@
 {{ define "main" }}
-{{ partial "nav.html" . }}
 
-<h1>{{ .Title }}</h1>
+
 {{ range .Pages.ByPublishDate.Reverse }}
 <p>
 <h3><a class="title" href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
@@ -12,6 +11,5 @@
 </p>
 {{ end }}
 
-{{ partial "footer.html" . }}
 
 {{ end }}

@@ -29,7 +29,7 @@
 
     // sends postMessage to parent page with hight information
     function sendIframeHeight() {
-        parent.postMessage(JSON.stringify({
+        window.top || window.opener.postMessage(JSON.stringify({
             subject:
 
                 "lti.frameResize", height: document.documentElement.scrollHeight + "px"

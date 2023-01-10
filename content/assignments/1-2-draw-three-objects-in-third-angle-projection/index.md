@@ -4,7 +4,6 @@ date: 2020-01-26T23:11:13Z
 draft: false
 ---
 
-<h1>Draw Three Objects in Third Angle Projection</h1>
 <p>Select three objects of reasonable size and complexity. You do not want super tiny objects or mega huge objects. You also don't want objects that are a simple square or objects made of hundreds of intricate parts.</p>
 <p>Using loose sheets of paper, <span>not</span> in your sketchbooks, draw the three objects that you selected.</p>
 <p>Use digital calipers to get the dimensions of the objects. Write the dimensions on your third angle projections. Use mm for your units. Mark metric somewhere on the page and note the units as mm.</p>

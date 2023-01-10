@@ -14,12 +14,6 @@ Draw a neat and accurate third angle projection. Use your T-Square and triangles
 
 Scan the drawing and label the image YYYYMMDD Lastname Firstname Redrawn Third Angle Projection with T-Square.jpg
 
-## Google Drive Upload Folder
-
-Upload the labeled scan to Google Drive.
-
-[https://drive.google.com/drive/folders/1RiYXwhCWerjHC9o7LnhfUgSMu8pPuUGc](https://drive.google.com/drive/folders/1RiYXwhCWerjHC9o7LnhfUgSMu8pPuUGc)
-
 # Related Videos
 
 <div style="display: flex; flex-wrap: wrap; align-items: flex-end;">

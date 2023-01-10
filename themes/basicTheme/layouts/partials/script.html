@@ -1,4 +1,17 @@
 <script>
+    var query = window.location.search;
+    console.log(query);
+
+    const currentURL = document.baseURI; // gets the url of the page the iframe is embedded in even with different origins
+
+    console.log(currentURL);
+
+    if (currentURL.toString().includes("cia.instructure.com")) {
+        console.log("no header or footer");
+        document.getElementById("header").remove();
+        document.getElementById("footer").remove();
+    }
+
     // For sending iframe height multiple times and then stopping on first page load
     // could be fized with proper Canvas Listening
     function setIntervalX(callback, delay, repetitions) {
@@ -14,7 +27,6 @@
     }
 
     function sendIframeHeight() {
-
         parent.postMessage(JSON.stringify({
             subject:
 
@@ -22,7 +34,6 @@
         }), "*");
 
     }
-
 
     document.addEventListener('DOMContentLoaded', function () {
 
@@ -43,6 +54,7 @@
         console.log("iframe scroll height: " + document.documentElement.scrollHeight + "px");
         sendIframeHeight();
     }
+
     window.onresize = function () {
         clearTimeout(resizeTimer);
         resizeTimer = setTimeout(function () {

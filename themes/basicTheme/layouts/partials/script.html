@@ -1,35 +1,54 @@
 <script>
+    // For sending iframe height multiple times and then stopping on first page load
+    // could be fized with proper Canvas Listening
+    function setIntervalX(callback, delay, repetitions) {
+        var x = 0;
+        var intervalID = window.setInterval(function () {
+
+            callback();
+
+            if (++x === repetitions) {
+                window.clearInterval(intervalID);
+            }
+        }, delay);
+    }
+
+    function sendIframeHeight() {
+
+        parent.postMessage(JSON.stringify({
+            subject:
+
+                "lti.frameResize", height: document.documentElement.scrollHeight + "px"
+        }), "*");
+
+    }
+
 
     document.addEventListener('DOMContentLoaded', function () {
-
-        function setIntervalX(callback, delay, repetitions) {
-            var x = 0;
-            var intervalID = window.setInterval(function () {
-
-                callback();
-
-                if (++x === repetitions) {
-                    window.clearInterval(intervalID);
-                }
-            }, delay);
-        }
 
         // This will be repeated 10 times with .01 second intervals:
         setIntervalX(function () {
             // Your logic here
+            console.log("Content Loaded");
             console.log("iframe scroll height: " + document.documentElement.scrollHeight + "px");
-            parent.postMessage(JSON.stringify({
-                subject:
-
-                    "lti.frameResize", height: document.documentElement.scrollHeight + "px"
-            }), "*");
+            sendIframeHeight();
         }, 10, 10);
 
-
-
-
-
     });
+
+    var resizeTimer;
+
+    function resizedw() {
+        console.log("Window Resize");
+        console.log("iframe scroll height: " + document.documentElement.scrollHeight + "px");
+        sendIframeHeight();
+    }
+    window.onresize = function () {
+        clearTimeout(resizeTimer);
+        resizeTimer = setTimeout(function () {
+            resizedw();
+        }, 100);
+    };
 
 
 </script>

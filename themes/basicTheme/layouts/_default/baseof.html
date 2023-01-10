@@ -5,9 +5,11 @@
 <body>
 
     {{ partial "header.html" . }}
-    <div class="container">
-        <main id="main">
-            {{ block "main" . }}{{ end }}
+    <div class="container-fluid">
+        <main class="row" id="main">
+            <div class="col">
+                {{ block "main" . }}{{ end }}
+            </div>
         </main>
     </div>
     {{ partial "script.html" . }}

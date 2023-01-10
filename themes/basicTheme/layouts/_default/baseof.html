@@ -14,7 +14,9 @@
     </div>
     {{ partial "script.html" . }}
     <script>
-        parent.postMessage(JSON.stringify({ subject: 'lti.frameResize', height: "1000px" }), '*'); 
+
+        parent.postMessage(JSON.stringify({ subject: 'lti.frameResize', height: $(document).height() + "px" }), '*');
+
     </script>
 </body>
 

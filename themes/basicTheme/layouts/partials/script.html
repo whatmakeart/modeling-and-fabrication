@@ -6,7 +6,7 @@
             parent.postMessage(JSON.stringify({
                 subject:
 
-                    "lti.frameResize", document.documentElement.scrollHeight + "px"
+                    "lti.frameResize", height: document.documentElement.scrollHeight + "px"
             }), "*");
         }, 0);
     });

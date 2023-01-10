@@ -27,12 +27,14 @@
         }, delay);
     }
 
+    // sends postMessage to parent page with hight information
     function sendIframeHeight() {
         parent.postMessage(JSON.stringify({
             subject:
 
                 "lti.frameResize", height: document.documentElement.scrollHeight + "px"
         }), "*");
+        console.log("iframe scroll height: " + document.documentElement.scrollHeight + "px");
 
     }
 
@@ -42,26 +44,35 @@
         setIntervalX(function () {
             // Your logic here
             console.log("Content Loaded");
-            console.log("iframe scroll height: " + document.documentElement.scrollHeight + "px");
             sendIframeHeight();
         }, 10, 10);
 
     });
 
     var resizeTimer;
-
-    function resizedw() {
-        console.log("Window Resize");
-        console.log("iframe scroll height: " + document.documentElement.scrollHeight + "px");
-        sendIframeHeight();
-    }
-
+    // send new iframe height postMessage if window is resized
     window.onresize = function () {
         clearTimeout(resizeTimer);
         resizeTimer = setTimeout(function () {
-            resizedw();
+            console.log("Window Resize");
+            sendIframeHeight();
         }, 100);
     };
+
+
+    // Set theme to the user's preferred color scheme dark or light mode
+    function updateTheme() {
+        const colorMode = window.matchMedia("(prefers-color-scheme: dark)").matches
+            ? "dark"
+            : "light";
+        document.querySelector("html").setAttribute("data-bs-theme", colorMode);
+    }
+
+    // Set theme on load
+    updateTheme()
+
+    // Update theme when the preferred scheme changes
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', updateTheme)
 
 
 </script>

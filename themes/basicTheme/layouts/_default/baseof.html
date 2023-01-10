@@ -15,7 +15,7 @@
     {{ partial "script.html" . }}
     <script>
 
-        parent.postMessage(JSON.stringify({ subject: 'lti.frameResize', height: $(document.documentElement.scrollHeight) + "px" }), '*');
+        parent.postMessage(JSON.stringify({ subject: 'lti.frameResize', height: document.documentElement.scrollHeight + "px" }), '*');
         console.log(document.documentElement.scrollHeight);
 
     </script>

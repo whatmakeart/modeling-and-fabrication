@@ -106,69 +106,41 @@ Binder Clip with Transparent Background
 
 # Helpful Videos
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); grid-gap: 0.5rem;">
-
-<div style="display: flex; flex-direction: column; align-content: space-between; justify-content: space-between;">
-
-## 1\. Fusion 360 Rule #1
-
-<div style="position: relative; width: 100%; height: 0px; padding-top: 56.25%;"><iframe style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; border: 0;" src="https://www.youtube.com/embed/ZYXSJ6EQ9S4?rel=0" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
-
-</div>
-
-<div style="display: flex; flex-direction: column; align-content: space-between; justify-content: space-between;">
-
-## 2\. Fusion 360 Sketch Constraints
-
-<div style="position: relative; width: 100%; height: 0px; padding-top: 56.25%;"><iframe style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; border: 0;" src="https://www.youtube.com/embed/vNdBkiO8Nfc?rel=0" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
-
-</div>
-
-<div style="display: flex; flex-direction: column; align-content: space-between; justify-content: space-between;">
-
-## 3\. Fusion 360 Fully Defined Sketch
-
-<div style="position: relative; width: 100%; height: 0px; padding-top: 56.25%;"><iframe style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; border: 0;" src="https://www.youtube.com/embed/9k7nsXpbZ5A?rel=0" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
-
-</div>
-
-<div style="display: flex; flex-direction: column; align-content: space-between; justify-content: space-between;">
-
 ## 4\. Model USB Plug from Third Angle Projection
 
-<div style="position: relative; width: 100%; height: 0px; padding-top: 56.25%;"><iframe style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; border: 0;" src="https://www.youtube.com/embed/VLx9AsbZ8R0?rel=0" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
+<div class="iframe-16-9-container"><iframe class="youTubeIframe" src="https://www.youtube.com/embed/VLx9AsbZ8R0?rel=0" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
 
 </div>
 
-<div style="display: flex; flex-direction: column; align-content: space-between; justify-content: space-between;">
+<div class="video-card">
 
 ## 5\. Model Toy Block
 
-<div style="position: relative; width: 100%; height: 0px; padding-top: 56.25%;"><iframe style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; border: 0;" src="https://www.youtube.com/embed/OJx09e5SrEw?rel=0" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
+<div class="iframe-16-9-container"><iframe class="youTubeIframe" src="https://www.youtube.com/embed/OJx09e5SrEw?rel=0" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
 
 </div>
 
-<div style="display: flex; flex-direction: column; align-content: space-between; justify-content: space-between;">
+<div class="video-card">
 
 ## 6\. Model Drinking Glass
 
-<div style="position: relative; width: 100%; height: 0px; padding-top: 56.25%;"><iframe style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; border: 0;" src="https://www.youtube.com/embed/2agSzLpN8Z0?rel=0" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
+<div class="iframe-16-9-container"><iframe class="youTubeIframe" src="https://www.youtube.com/embed/2agSzLpN8Z0?rel=0" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
 
 </div>
 
-<div style="display: flex; flex-direction: column; align-content: space-between; justify-content: space-between;">
+<div class="video-card">
 
 ## 7\. Model Binder Clip
 
-<div style="position: relative; width: 100%; height: 0px; padding-top: 56.25%;"><iframe style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; border: 0;" src="https://www.youtube.com/embed/MLphWafTfWY?rel=0" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
+<div class="iframe-16-9-container"><iframe class="youTubeIframe" src="https://www.youtube.com/embed/MLphWafTfWY?rel=0" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
 
 </div>
 
-<div style="display: flex; flex-direction: column; align-content: space-between; justify-content: space-between;">
+<div class="video-card">
 
 ## 8\. Custom HDRI Background
 
-<div style="position: relative; width: 100%; height: 0px; padding-top: 56.25%;"><iframe style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; border: 0;" src="https://www.youtube.com/embed/MmJL4zjfmic?rel=0" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
+<div class="iframe-16-9-container"><iframe class="youTubeIframe" src="https://www.youtube.com/embed/MmJL4zjfmic?rel=0" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
 
 </div>
 

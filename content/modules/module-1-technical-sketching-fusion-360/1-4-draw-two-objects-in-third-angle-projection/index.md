@@ -9,8 +9,9 @@ draft: false
 Upload 2 separate, labeled JPEGs of 2 different objects drawn in third angle projection.
 
 Label the files:
-YYYYMMDD Lastname Firstname object in third angle projection 1.jpg
-YYYYMMDD Lastname Firstname object in third angle projection 2.jpg
+
+- YYYYMMDD Lastname Firstname object in third angle projection 1.jpg
+- YYYYMMDD Lastname Firstname object in third angle projection 2.jpg
 
 ## Instructions
 

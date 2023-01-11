@@ -14,8 +14,9 @@ Watch the video about the [Fusion 360 User Interface](https://youtu.be/YjaxBbTY3
 
 <div class="video-card">
 
-### 1\. Fusion 360 User Interface
+### 1. Fusion 360 User Interface
 
 <div class="iframe-16-9-container"><iframe class="youTubeIframe" src="https://www.youtube.com/embed/YjaxBbTY3kc" width="300" height="150" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
 
+</div>
 </div>

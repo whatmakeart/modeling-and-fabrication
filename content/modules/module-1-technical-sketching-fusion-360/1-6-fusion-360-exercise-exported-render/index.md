@@ -9,7 +9,8 @@ draft: false
 Upload a minimum of 1 render image of the Fusion 360 Modeling Exercise.
 
 Label your exported render image:
-YYYYMMDD Lastname Firstname 3D Modeling Exercise Render.png
+
+- YYYYMMDD Lastname Firstname 3D Modeling Exercise Render.png
 
 ## Instructions
 

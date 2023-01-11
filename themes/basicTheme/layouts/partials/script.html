@@ -2,29 +2,35 @@
     var query = window.location.search;
     console.log("Window Location: " + query);
 
-    var querySelector = ".container-fluid";
-    var iframeContainer = document.querySelector(querySelector);
-    var containerHeight = iframeContainer.scrollHeight;
-
-    console.log("Bootstrap Fluid Height: " + containerHeight);
-
     const currentURL = document.baseURI; // gets the url of the page the iframe is embedded in even with different origins
 
-    if (self != top) {
-        console.log("Removed iframe #header and #footer");
-        document.getElementById("header").remove();
-        document.getElementById("footer").remove();
-        document.body.style.overflow = "hidden";
-    }
-
     var querySelector = ".container-fluid";
     var iframeContainer = document.querySelector(querySelector);
     var containerHeight = iframeContainer.scrollHeight;
 
     console.log("Bootstrap Fluid Height: " + containerHeight);
 
+    document.addEventListener('DOMContentLoaded', function () {
+        console.log("DOMContentLoaded");
+        removeNavigationEmbed();
+        checkIfMobile();
+
+        // This will be repeated 5 times with .01 second intervals:
+        setIntervalX(function () {
+            sendIframeHeight();
+        }, 10, 5);
+
+        // monitor self-initiated changes in size 
+        var mo = new MutationObserver(function () {
+            sendIframeHeight();
+            console.log("mutation detected");
+        });
+        mo.observe(document, { subtree: true, childList: true, characterData: true });
+    });
+
+
     // For sending iframe height multiple times and then stopping on first page load
-    // could be fized with proper Canvas Listening
+    // Possibly could be fized with proper Canvas Listening for a loaded postMessage
     function setIntervalX(callback, delay, repetitions) {
         var x = 0;
         var intervalID = window.setInterval(function () {
@@ -42,22 +48,22 @@
         window.top.postMessage(JSON.stringify({
             subject:
                 "lti.frameResize", height: document.documentElement.scrollHeight + "px"
-
         }), "*");
-
         console.log("iframe scrollHeight: " + document.documentElement.scrollHeight + "px");
     }
 
-    document.addEventListener('DOMContentLoaded', function () {
-
-        // This will be repeated 5 times with .01 second intervals:
-        setIntervalX(function () {
-            sendIframeHeight();
-        }, 10, 5);
-        console.log("DOMContentLoaded");
-        console.log("iframe scrollHeight: " + document.documentElement.scrollHeight + "px");
-
-    });
+    // removes navigation elements when embedded in an LMS so only the page content is seen but allows course site to work on open web
+    function removeNavigationEmbed() {
+        if (self != top) {
+            document.getElementById("header").remove();
+            document.getElementById("footer").remove();
+            document.body.style.overflow = "hidden"; // to remove iframe scrollbars on desktop browsers
+            console.log("Removed iframe #header and #footer");
+        };
+        if (self === top) {
+            console.log("Top level website so keep navigation");
+        };
+    }
 
     var resizeTimer;
     // send new iframe height postMessage if window is resized
@@ -67,20 +73,20 @@
             console.log("Window Resized");
             console.log("New iframe scrollHeight: " + document.documentElement.scrollHeight + "px");
             sendIframeHeight();
-            window.top.postMessage({ subject: 'lti.fetchWindowSize' }, '*')
+            window.top.postMessage({ subject: 'lti.fetchWindowSize' }, '*') // requests height of Canvas screen window 
         }, 100);
     };
 
-    const isMobile = () => /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+    function checkIfMobile() {
+        const isMobile = () => /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
 
-    if (isMobile === true) {
-        console.log('Browser is mobile');
-        document.body.style.overflow = "visible";
-    } else {
-        console.log('Browser is not mobile');
+        if (isMobile === true) {
+            console.log('Browser is mobile');
+            document.body.style.overflow = "visible";
+        } else {
+            console.log('Browser is not mobile');
+        }
     }
-
-    //window.addEventListener('message', console.log)
 
     window.addEventListener('message', messageListener, false);
 
@@ -105,64 +111,4 @@
         window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', updateTheme)
     */
 
-</script>
-
-<script>
-    /*
-        (function () {
-            ////////////////////////////////////////////
-            // CONFIGURE THESE TO MATCH YOUR USE CASE //
-            ////////////////////////////////////////////
-
-            // set this to a selector for the element that contains the entire UI
-            // you want to access via the iframe -- for a Shiny app, it might be
-            // a div with Bootstrap's container-fluid class
-            var containerSelector = ".container-fluid";
-
-            // this should be the root URL of the parent frame (DokuWiki) which you want
-            // to allow to send messages to the child
-            var allowedOrigin = "https://dokuwiki.example.com"
-
-            ///////////////////////
-            // END CONFIGURATION //
-            ///////////////////////
-
-            function sendHeightOf(querySelector) {
-                var container = document.querySelector(querySelector);
-                if (container.scrollHeight !== undefined) {
-                    var h = container.scrollHeight;
-                    parent.postMessage(h, "*");
-                } else {
-                    console.log("No element corresponding to querySelector " + querySelector +
-                        " found, or element did not have property scrollHeight.");
-                }
-            }
-
-            // cross-browser compatible infrastructure
-            var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
-            var eventer = window[eventMethod];
-            var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
-
-            // listen for resize message from parent window (see point ② below)
-            eventer(messageEvent, function (e) {
-                if (e.origin == allowedOrigin) {
-                    sendHeightOf(containerSelector);
-                } else {
-                    console.log("Was expecting a message from " + allowedOrigin + ", got "
-                        + e.origin + " instead.");
-                }
-            });
-
-            window.onload = function () {
-                // inform parent at least once after load (see point ① below)
-                sendHeightOf(containerSelector);
-
-                // monitor self-initiated changes in size (see point ③ below)
-                var mo = new MutationObserver(function () {
-                    sendHeightOf(containerSelector);
-                });
-                mo.observe(document, { subtree: true, childList: true, characterData: true });
-            };
-        })();
-*/
 </script>

@@ -1,5 +1,5 @@
 ---
-title: "1.4 Redraw Third Angle Projectiong with a T-Square"
+title: "2.4 Redraw Third Angle Projection with a T-Square"
 date: 2020-01-26T23:11:13Z
 draft: false
 ---
@@ -17,14 +17,6 @@ Scan the drawing and label the image YYYYMMDD Lastname Firstname Redrawn Third A
 # Related Videos
 
 <div style="display: flex; flex-wrap: wrap; align-items: flex-end;">
-
-<div class="video-card">
-
-## Supplies Needed for Technical Drawing
-
-<div class="iframe-16-9-container"><iframe class="youTubeIframe" src="https://www.youtube.com/embed/QaTlzXEHu4g" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
-
-</div>
 
 <div class="video-card">
 

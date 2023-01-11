@@ -4,6 +4,22 @@ date: 2020-01-26T23:11:13Z
 draft: false
 ---
 
+## Deliverables
+
+Upload the following:
+
+- 2 high resolution, labeled render files
+- 2 exported Fusion 360 .f3d files
+
+Label your files:
+
+- YYYYMMDD Lastname Firstname Render Image 1.png/jpg
+- YYYYMMDD Lastname Firstname Render Image 2.png/jpg
+- YYYYMMDD Lastname Firstname Fusion 360 model 1.f3d
+- YYYYMMDD Lastname Firstname Fusion 360 model 1=2.f3d
+
+## Instructions
+
 Using your third angle projection sketches, make a model of at least one of your objects in Fusion 360. Use [Rule Number 1](https://youtu.be/ZYXSJ6EQ9S4) to divide you object into components. Label your components and make sure to activate each component when you are working on it. It is easy to forget which component is activated so it is good practice to right click on the component and isolate it so it is the only thing you can see. Remember to click the dot in the browser to activate the component that you want to work on so that the design history in the timeline stays with that component.
 
 You must model 2 of your objects but you may model more of your objects. Make sure you have all of the dimensions that you need in your third angle projection sketch. If you do not have all the dimensions on your sketch, remeasure your object so you have the information needed to make an accurate model in Fusion 360. If you do not like the objects from your third angle projections, you can choose new objects. Draw new third angle projections with dimensions so you can make the 3D models.
@@ -35,12 +51,6 @@ From the File menu select Export ...
 In the save file menu, select a location on your computer and choose .f3d for the file type.
 
 </div>
-
-# Google Drive Upload Folder
-
-- Upload the follwing in a properly labeled folder to the class Google Drive.
-- high resolution, labeled render files
-- the exported Fusion 360 .f3d files
 
 ## HDRI Environment Photos for Render Backgrounds
 

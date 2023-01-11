@@ -34,5 +34,4 @@ When new sketch lines ore elements are drawn in Fusion 360 they appear blue, ind
 
 </div>
 
-<div class="video-card">
 </div>

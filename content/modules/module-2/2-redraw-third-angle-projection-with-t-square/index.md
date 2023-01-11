@@ -18,27 +18,27 @@ Scan the drawing and label the image YYYYMMDD Lastname Firstname Redrawn Third A
 
 <div style="display: flex; flex-wrap: wrap; align-items: flex-end;">
 
-<div style="display:flex; flex-direction:column; height: 100%; width: 100%; max-width: 400px; justify-content: space-between;">
+<div class="video-card">
 
 ## Supplies Needed for Technical Drawing
 
-<div style="position: relative; width: 100%; height: 0px; padding-top: 56.25%;"><iframe style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; border: 0;" src="https://www.youtube.com/embed/QaTlzXEHu4g" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
+<div class="iframe-16-9-container"><iframe class="youTubeIframe" src="https://www.youtube.com/embed/QaTlzXEHu4g" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
 
 </div>
 
-<div style="display:flex; flex-direction:column; height: 100%; width: 100%; max-width: 400px; justify-content: space-between;">
+<div class="video-card">
 
 ## Third Angle Projection with a T-Square
 
-<div style="position: relative; width: 100%; height: 0px; padding-top: 56.25%;"><iframe style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; border: 0;" src="https://www.youtube.com/embed/jfrTuoI6hBQ" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
+<div class="iframe-16-9-container"><iframe class="youTubeIframe" src="https://www.youtube.com/embed/jfrTuoI6hBQ" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
 
 </div>
 
-<div style="display:flex; flex-direction:column; height: 100%; width: 100%; max-width: 400px; justify-content: space-between;">
+<div class="video-card">
 
 ## Draw Isometric Circle with a Compass
 
-<div style="position: relative; width: 100%; height: 0px; padding-top: 56.25%;"><iframe style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; border: 0;" src="https://www.youtube.com/embed/EaTwlLaMYao" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
+<div class="iframe-16-9-container"><iframe class="youTubeIframe" src="https://www.youtube.com/embed/EaTwlLaMYao" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
 
 </div>
 

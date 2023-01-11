@@ -15,7 +15,7 @@
         removeNavigationEmbed();
         checkIfMobile();
 
-
+        window.top.postMessage({ subject: 'lti.resourceImported' }, '*')
         // This will be repeated 5 times with .01 second intervals:
         setIntervalX(function () {
             sendIframeHeight();

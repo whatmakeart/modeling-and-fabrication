@@ -68,6 +68,7 @@ img {
   padding-bottom: 2rem;
   margin: 0 auto;
 }
+
 /* youtube tutorial video iframes */
 .iframe-16-9-container {
   position: relative;
@@ -94,6 +95,16 @@ img {
   justify-content: space-between;
 }
 
+/* summary on Hugo list pages */
+a.summary-link {
+  color: #000;
+  text-decoration: none;
+}
+
+/* Title on Hugo list pages */
+a.title-link {
+  text-decoration: none;
+}
 /* from files */
 .gallery-grid-jimmy {
   display: grid;

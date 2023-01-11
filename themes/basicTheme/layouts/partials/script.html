@@ -46,13 +46,6 @@
         }), "*");
 
         console.log("iframe scrollHeight: " + document.documentElement.scrollHeight + "px");
-
-        window.top.postMessage(JSON.stringify({
-            subject:
-                "lti.frameResize", height: document.body.offsetHeight + "px"
-
-        }), "*");
-        console.log("iframe offsetHeight: " + document.documentElement.scrollHeight + "px");
     }
 
     document.addEventListener('DOMContentLoaded', function () {

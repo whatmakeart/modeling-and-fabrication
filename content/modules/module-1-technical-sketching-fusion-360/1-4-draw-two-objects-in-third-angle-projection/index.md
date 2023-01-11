@@ -1,5 +1,5 @@
 ---
-title: "1.2 Draw Two Objects in Third Angle Projection"
+title: "1.4 Draw Two Objects in Third Angle Projection"
 date: 2020-01-26T23:11:13Z
 draft: false
 ---

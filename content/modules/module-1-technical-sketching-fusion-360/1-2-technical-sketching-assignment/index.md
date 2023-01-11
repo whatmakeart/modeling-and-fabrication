@@ -20,7 +20,7 @@ Label the jpg files as:
 - YYYYMMDD Lastname Firstname isometric cube and circles freehand.jpg
 - YYYYMMDD Lastname Firstname isometric cube and circles t-square and compass.jpg
 
-## Intructions
+## Instructions
 
 Using loose sheets of paper, <span style="text-decoration: underline;">not</span> in your sketchbooks, do each of the following sketching exercises on your own.
 
@@ -89,5 +89,19 @@ The videos below show the needed technical sketching tools. They also demonstrat
 <div class="iframe-16-9-container"><iframe class="youTubeIframe" src="https://www.youtube.com/embed/EaTwlLaMYao" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
 
 </div>
+
+</div>
+
+# Grading Rubric
+
+<div class="responsive-table-markdown">
+
+| Assessment                                | Weight    |
+| ----------------------------------------- | --------- |
+| Page of Straight Lines                    | 10 points |
+| Isometric Cube with Circles Freehand      | 20 points |
+| Isometric Cube with Circles with T-Square | 20 points |
+| Sketch Documentation                      | 20 points |
+| File Management                           | 10 points |
 
 </div>

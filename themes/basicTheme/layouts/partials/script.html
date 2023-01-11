@@ -15,6 +15,7 @@
         removeNavigationEmbed();
         checkIfMobile();
 
+
         // This will be repeated 5 times with .01 second intervals:
         setIntervalX(function () {
             sendIframeHeight();
@@ -45,11 +46,36 @@
 
     // sends postMessage to parent page with hight information
     function sendIframeHeight() {
-        window.top.postMessage(JSON.stringify({
-            subject:
-                "lti.frameResize", height: document.documentElement.scrollHeight + "px"
-        }), "*");
-        console.log("iframe scrollHeight: " + document.documentElement.scrollHeight + "px");
+
+        if (window.opener != null && typeof (window.opener) != "undefined") {
+            console.log("This window is pop up.");
+            window.opener.postMessage(JSON.stringify({
+                subject:
+                    "lti.frameResize", height: document.documentElement.scrollHeight + "px"
+            }), "*");
+            console.log("iframe scrollHeight: " + document.documentElement.scrollHeight + "px");
+        }
+
+        else if (window.top != null && typeof (window.top) != "undefined") {
+            console.log("This window is the top");
+            window.top.postMessage(JSON.stringify({
+                subject:
+                    "lti.frameResize", height: document.documentElement.scrollHeight + "px"
+            }), "*");
+            console.log("iframe scrollHeight: " + document.documentElement.scrollHeight + "px");
+        }
+        else if (window.parent != null && typeof (window.parent) != "undefined") {
+            console.log("This window is the parent");
+            window.parent.postMessage(JSON.stringify({
+                subject:
+                    "lti.frameResize", height: document.documentElement.scrollHeight + "px"
+            }), "*");
+            console.log("iframe scrollHeight: " + document.documentElement.scrollHeight + "px");
+        }
+        else {
+            console.log("This window is not a pop up, top or parent");
+        }
+
     }
 
     // removes navigation elements when embedded in an LMS so only the page content is seen but allows course site to work on open web
@@ -57,7 +83,6 @@
         if (self != top) {
             document.getElementById("header").remove();
             document.getElementById("footer").remove();
-            document.body.style.overflow = "hidden"; // to remove iframe scrollbars on desktop browsers
             console.log("Removed iframe #header and #footer");
         };
         if (self === top) {
@@ -79,20 +104,24 @@
 
     function checkIfMobile() {
         const isMobile = () => /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
-
         if (isMobile === true) {
             console.log('Browser is mobile');
             document.body.style.overflow = "visible";
+
         } else {
             console.log('Browser is not mobile');
+            document.body.style.overflow = "hidden"; // to remove iframe scrollbars on desktop browsers
         }
     }
 
-    window.addEventListener('message', messageListener, false);
 
-    function messageListener(event) {
+
+    window.addEventListener("message", (event) => {
+        if (event.origin !== "https://cia.instructure.com/")
+            return;
+
         console.log(event.data);
-    }
+    }, false);
 
 
     /*

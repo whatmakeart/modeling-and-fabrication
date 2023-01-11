@@ -4,7 +4,7 @@ date: 2020-01-26T23:11:13Z
 draft: false
 ---
 
-Watch the sketching videos below. These videos show you the needed technical sketching tools. They also demonstrate how to practice drawing straight lines freehand. This is an important skill for ideation sketching, 3D modeling sketching and isometric crating. The videos then demonstrate how to draw an isometric cube with isometric circles on each face of the cube freehand. This is followed by a demonstration of how to draw an isometric cube with isometric circles on each face using a t-square, 30 / 60 triangle, and a compass.
+The videos below show the needed technical sketching tools. They also demonstrate how to practice drawing straight lines freehand. This is an important skill for ideation sketching, 3D modeling sketching and isometric crating. The videos then demonstrate how to draw an isometric cube with isometric circles on each face of the cube freehand. This is followed by a demonstration of how to draw an isometric cube with isometric circles on each face using a t-square, 30 / 60 triangle, and a compass.
 
 Using loose sheets of paper, <span style="text-decoration: underline;">not</span> in your sketchbooks, do each of the exercises on your own.
 
@@ -32,53 +32,53 @@ You will upload three separate, labeled JPEGs in a labeled folder.
 
 # Technical Sketching Exercise Videos
 
-<div style="display: grid; grid-gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); padding-bottom: 2rem;">
+<div class="tutorial-video-grid">
 
-<div style="display:flex; flex-direction:column; height: 100%; width: 100%; max-width: 400px; justify-content: space-between;">
+<div class="video-card">
 
 ### 1\. Supplies Needed for Technical Drawing
 
-<div style="position: relative; width: 100%; height: 0px; padding-top: 56.25%;"><iframe style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; border: 0;" src="https://www.youtube.com/embed/QaTlzXEHu4g" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
+<div class="iframe-16-9-container"><iframe class="youTubeIframe" src="https://www.youtube.com/embed/QaTlzXEHu4g" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
 
 </div>
 
-<div style="display:flex; flex-direction:column; height: 100%; width: 100%; max-width: 400px; justify-content: space-between;">
+<div class="video-card">
 
 ### 2\. How to Draw Straight Lines
 
-<div style="position: relative; width: 100%; height: 0px; padding-top: 56.25%;"><iframe style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; border: 0;" src="https://www.youtube.com/embed/UUQa2CtzIwE" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
+<div class="iframe-16-9-container"><iframe class="youTubeIframe" src="https://www.youtube.com/embed/UUQa2CtzIwE" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
 
 </div>
 
-<div style="display:flex; flex-direction:column; height: 100%; width: 100%; max-width: 400px; justify-content: space-between;">
+<div class="video-card">
 
 ### 3\. Draw Isometric Cube Freehand
 
-<div style="position: relative; width: 100%; height: 0px; padding-top: 56.25%;"><iframe style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; border: 0;" src="https://www.youtube.com/embed/8FkcqdCmT1U" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
+<div class="iframe-16-9-container"><iframe class="youTubeIframe" src="https://www.youtube.com/embed/8FkcqdCmT1U" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
 
 </div>
 
-<div style="display:flex; flex-direction:column; height: 100%; width: 100%; max-width: 400px; justify-content: space-between;">
+<div class="video-card">
 
 ### 4\. Draw Isometric Circle Freehand
 
-<div style="position: relative; width: 100%; height: 0px; padding-top: 56.25%;"><iframe style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; border: 0;" src="https://www.youtube.com/embed/twj5luXIC_c" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
+<div class="iframe-16-9-container"><iframe class="youTubeIframe" src="https://www.youtube.com/embed/twj5luXIC_c" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
 
 </div>
 
-<div style="display:flex; flex-direction:column; height: 100%; width: 100%; max-width: 400px; justify-content: space-between;">
+<div class="video-card">
 
 ### 5\. Draw Isometric Cube with a T-Square
 
-<div style="position: relative; width: 100%; height: 0px; padding-top: 56.25%;"><iframe style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; border: 0;" src="https://www.youtube.com/embed/7t4ycR3fXJ4" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
+<div class="iframe-16-9-container"><iframe class="youTubeIframe" src="https://www.youtube.com/embed/7t4ycR3fXJ4" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
 
 </div>
 
-<div style="display:flex; flex-direction:column; height: 100%; width: 100%; max-width: 400px; justify-content: space-between;">
+<div class="video-card">
 
 ### 6\. Draw Isometric Circle with a Compass
 
-<div style="position: relative; width: 100%; height: 0px; padding-top: 56.25%;"><iframe style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; border: 0;" src="https://www.youtube.com/embed/EaTwlLaMYao" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
+<div class="iframe-16-9-container"><iframe class="youTubeIframe" src="https://www.youtube.com/embed/EaTwlLaMYao" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
 
 </div>
 

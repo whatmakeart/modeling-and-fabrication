@@ -1,8 +1,18 @@
 ---
-title: "1.2 Draw Three Objects in Third Angle Projection"
+title: "1.2 Draw Two Objects in Third Angle Projection"
 date: 2020-01-26T23:11:13Z
 draft: false
 ---
+
+## Deliverables
+
+Upload 2 separate, labeled JPEGs of 2 different objects drawn in third angle projection.
+
+Label the files:
+YYYYMMDD Lastname Firstname object in third angle projection 1.jpg
+YYYYMMDD Lastname Firstname object in third angle projection 2.jpg
+
+## Instructions
 
 Select three objects of reasonable size and complexity. You do not want super tiny objects or mega huge objects. You also don't want objects that are a simple square or objects made of hundreds of intricate parts.
 
@@ -14,47 +24,39 @@ You should draw these sketches freehand without using your drafting / technical 
 
 Next week we will draw third angle projections using our technical drawing tools. Drawing third angle projections, freehand and drawing third angle projections with technical drawing tools are both important skills for designing, communication and ideation.
 
-## Google Drive Upload Folder
+# Draw 2 Objects in Third Angle Projection Videos
 
-Upload labeled scanned sketches in a labeled folder to this Google Drive Folder. There is a completed example project in the Google Drive Folder for your reference.
+<div class="tutorial-video-grid">
 
-You will upload three separate, labeled JPEGs in a labeled folder.
+<div class="video-card">
 
-[https://drive.google.com/drive/folders/1T7TjjwaKjvvqMsEmJKYbeNNjbS1weSYq](https://drive.google.com/drive/folders/1T7TjjwaKjvvqMsEmJKYbeNNjbS1weSYq)
+### 1\. How to Use Digital Calipers
 
-# Draw 3 Objects in Third Angle Projection Videos
-
-<div style="display: flex; flex-wrap: wrap; align-items: flex-end;">
-
-<div style="display:flex; flex-direction:column; height: 100%; width: 100%; max-width: 400px; justify-content: space-between;">
-
-## 1\. How to Use Digital Calipers
-
-<div style="position: relative; width: 100%; height: 0px; padding-top: 56.25%;"><iframe style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; border: 0;" src="https://www.youtube.com/embed/oOZjbbe6YZk" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
+<div class="iframe-16-9-container"><iframe class="youTubeIframe" src="https://www.youtube.com/embed/oOZjbbe6YZk" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
 
 </div>
 
-<div style="display:flex; flex-direction:column; height: 100%; width: 100%; max-width: 400px; justify-content: space-between;">
+<div class="video-card">
 
-## 2\. Third Angle Projection Freehand
+### 2\. Third Angle Projection Freehand
 
-<div style="position: relative; width: 100%; height: 0px; padding-top: 56.25%;"><iframe style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; border: 0;" src="https://www.youtube.com/embed/0SdWqEYKYrI" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
-
-</div>
-
-<div style="display:flex; flex-direction:column; height: 100%; width: 100%; max-width: 400px; justify-content: space-between;">
-
-## 3\. More Complex Third Angle Projection
-
-<div style="position: relative; width: 100%; height: 0px; padding-top: 56.25%;"><iframe style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; border: 0;" src="https://www.youtube.com/embed/QTMfdxI5QYk" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
+<div class="iframe-16-9-container"><iframe class="youTubeIframe" src="https://www.youtube.com/embed/0SdWqEYKYrI" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
 
 </div>
 
-<div style="display:flex; flex-direction:column; height: 100%; width: 100%; max-width: 400px; justify-content: space-between;">
+<div class="video-card">
 
-## 5\. Third Angle Projection USB Plug
+### 3\. More Complex Third Angle Projection
 
-<div style="position: relative; width: 100%; height: 0px; padding-top: 56.25%;"><iframe style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; border: 0;" src="https://www.youtube.com/embed/2xS3AzFV7gs" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
+<div class="iframe-16-9-container"><iframe class="youTubeIframe" src="https://www.youtube.com/embed/QTMfdxI5QYk" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
+
+</div>
+
+<div class="video-card">
+
+### 5\. Third Angle Projection USB Plug
+
+<div class="iframe-16-9-container"><iframe class="youTubeIframe" src="https://www.youtube.com/embed/2xS3AzFV7gs" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
 
 </div>
 

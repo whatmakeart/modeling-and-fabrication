@@ -29,7 +29,6 @@
         mo.observe(document, { subtree: true, childList: true, characterData: true });
     });
 
-
     // For sending iframe height multiple times and then stopping on first page load
     // Possibly could be fized with proper Canvas Listening for a loaded postMessage
     function setIntervalX(callback, delay, repetitions) {
@@ -46,19 +45,17 @@
 
     // sends postMessage to parent page with hight information
     function sendIframeHeight() {
-
-        if (window.opener != null && typeof (window.opener) != "undefined") {
-            console.log("This window is pop up.");
-            window.opener.postMessage(JSON.stringify({
+        if (window.top != null && typeof (window.top) != "undefined") {
+            console.log("This window is the top");
+            window.top.postMessage(JSON.stringify({
                 subject:
                     "lti.frameResize", height: document.documentElement.scrollHeight + "px"
             }), "*");
             console.log("iframe scrollHeight: " + document.documentElement.scrollHeight + "px");
         }
-
-        else if (window.top != null && typeof (window.top) != "undefined") {
-            console.log("This window is the top");
-            window.top.postMessage(JSON.stringify({
+        else if (window.opener != null && typeof (window.opener) != "undefined") {
+            console.log("This window is pop up.");
+            window.opener.postMessage(JSON.stringify({
                 subject:
                     "lti.frameResize", height: document.documentElement.scrollHeight + "px"
             }), "*");
@@ -117,8 +114,9 @@
 
 
     window.addEventListener("message", (event) => {
-        if (event.origin !== "https://cia.instructure.com/")
-            return;
+        if (event.origin !== "cia.instructure.com")
+            console.log("wrong origin");
+        return;
 
         console.log(event.data);
     }, false);

@@ -2,24 +2,21 @@
     var query = window.location.search;
     console.log("Window Location: " + query);
 
-    const currentURL = document.baseURI; // gets the url of the page the iframe is embedded in even with different origins
+    // gets the url of the page the iframe is embedded in even with different origins
+    const currentURL = document.baseURI;
 
-    var querySelector = ".container-fluid";
-    var iframeContainer = document.querySelector(querySelector);
-    var containerHeight = iframeContainer.scrollHeight;
-
-    console.log("Bootstrap Fluid Height: " + containerHeight);
 
     document.addEventListener('DOMContentLoaded', function () {
         console.log("DOMContentLoaded");
+
         removeNavigationEmbed();
         checkIfMobile();
 
         window.top.postMessage({ subject: 'lti.resourceImported' }, '*')
-        // This will be repeated 5 times with .01 second intervals:
+        // This will be repeated 15 times with .01 second intervals:
         setIntervalX(function () {
             sendIframeHeight();
-        }, 10, 5);
+        }, 10, 15);
 
         // monitor self-initiated changes in size 
         var mo = new MutationObserver(function () {
@@ -30,7 +27,7 @@
     });
 
     // For sending iframe height multiple times and then stopping on first page load
-    // Possibly could be fized with proper Canvas Listening for a loaded postMessage
+    // Possibly could be fixed with proper Canvas Listening for a loaded postMessage
     function setIntervalX(callback, delay, repetitions) {
         var x = 0;
         var intervalID = window.setInterval(function () {
@@ -43,7 +40,7 @@
         }, delay);
     }
 
-    // sends postMessage to parent page with hight information
+    // sends postMessage to top / opener / parent page with hight information
     function sendIframeHeight() {
         if (window.top != null && typeof (window.top) != "undefined") {
             console.log("This window is the top");
@@ -88,8 +85,10 @@
         };
     }
 
-    var resizeTimer;
+
     // send new iframe height postMessage if window is resized
+    var resizeTimer;
+
     window.onresize = function () {
         clearTimeout(resizeTimer);
         resizeTimer = setTimeout(function () {
@@ -112,14 +111,14 @@
         }
     }
 
-
-
+    // Listen for postMessages from iframe and Canvas
     window.addEventListener("message", (event) => {
         if (event.origin !== "cia.instructure.com")
             console.log("wrong origin");
         return;
 
         console.log(event.data);
+
     }, false);
 
 

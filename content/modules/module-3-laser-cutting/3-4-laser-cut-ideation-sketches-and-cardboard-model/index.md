@@ -1,8 +1,15 @@
 ---
-title: "2.2 Laser Cut Ideation Sketches and Cardboard Model"
+title: "3.4 Laser Cut Ideation Sketches and Cardboard Model"
 date: 2020-01-26T23:11:13Z
 draft: false
 ---
+
+## Deliverables
+
+- Minimum 10 Ideations
+- Minimum 5 refined Sketch Ideas
+- 1 Cardboard full scale model, documented with photos
+- 1 third angle projection of Cardboard Model
 
 # Design Laser Cut Phone / Tablet or Laptop Stand - Part 1 Design
 
@@ -70,20 +77,9 @@ Initial Thinking
 8. Put the sketches and photos in a labeled folder and upload to Google Drive.
 9. Bring your sketches and cardboard model to class.
 
-## Turn In Summary List<
-
-- Minimum 10 Ideations
-- Minimum 5 refined Sketch Ideas
-- 1 Cardboard full scale model, documented with photos
-- 1 third angle projection of Cardboard Model
-
-## Google Drive Folder Link
-
-[Google Drive Upload]()
-
 # Grading Rubric
 
-| Assesment              | Weight    |
+| Assessment             | Weight    |
 | ---------------------- | --------- |
 | Thumbnails             | 10 points |
 | 5 Revised Sketches     | 20 points |

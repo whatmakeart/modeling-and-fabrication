@@ -1,14 +1,14 @@
 ---
-title: "2.1 Laser Cut Test File"
+title: "3.1 Laser Cut Test File"
 date: 2020-01-26T23:11:13Z
 draft: false
 ---
 
-Next week we will go to the think[box] to learn how to use the laser cutters.
+We will go to the think[box] to learn how to use the laser cutters.
 We will each make a test cut from a file that we make. You need to have this
-file made before class next week. There are specific instructions to make
+file made before going to the think[box]. There are specific instructions to make
 the file in Adobe Illustrator. If you do not follow the directions then your
-file will not work
+file will not work properly on the laser cutters.
 
 <div class="two-column-instructions-grid">
 

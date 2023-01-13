@@ -80,6 +80,9 @@
     // removes navigation elements when embedded in an LMS so only the page content is seen but allows course site to work on open web
     function removeNavigationEmbed() {
         if (self != top) {
+            let baseToAdd = document.createElement('base');
+            baseToAdd.href = "_blank"
+            document.head.appendChild(baseToAdd);
             document.getElementById("header").remove();
             document.getElementById("footer").remove();
             console.log("Removed iframe #header and #footer");

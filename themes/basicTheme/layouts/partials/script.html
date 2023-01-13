@@ -6,16 +6,15 @@
 
     console.log(currentURL);
 
-    window.onload = (event) => {
+    document.addEventListener('DOMContentLoaded', function () {
+        console.log("DOMContentLoaded");
+        removeNavigationEmbed();
+    });
+
+    window.addEventListener("load", function (evt) { /* do task 1 */
         console.log("page is fully loaded");
 
-
-        console.log("DOMContentLoaded");
-
-        removeNavigationEmbed();
         checkIfMobile();
-
-
 
         // This will be repeated 15 times with .01 second intervals:
         setIntervalX(function () {
@@ -30,7 +29,7 @@
             console.log("mutation detected");
         });
         mo.observe(document, { subtree: true, childList: true, characterData: true });
-    };
+    })
 
     // For sending iframe height multiple times and then stopping on first page load
     // Possibly could be fixed with proper Canvas Listening for a loaded postMessage
@@ -75,7 +74,6 @@
         else {
             console.log("This window is not a pop up, top or parent");
         }
-
     }
 
     // removes navigation elements when embedded in an LMS so only the page content is seen but allows course site to work on open web
@@ -103,7 +101,7 @@
             sendIframeHeight();
             window.top.postMessage({ subject: 'lti.fetchWindowSize' }, '*') // requests height of Canvas screen window 
         }, 100);
-    };
+    }
 
     function checkIfMobile() {
         const isMobile = () => /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
@@ -115,7 +113,7 @@
             console.log('Browser is not mobile');
 
         }
-    }
+    };
 
     // Listen for postMessages from iframe and Canvas
     window.addEventListener("message", (event) => {

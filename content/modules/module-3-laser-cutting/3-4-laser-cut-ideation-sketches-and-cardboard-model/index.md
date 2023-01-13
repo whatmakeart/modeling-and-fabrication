@@ -33,7 +33,7 @@ Initial Thinking
 2. Think of the surfaces you may want the stand to work on. Consider what angle you want the device to be at and whether it would be vertical or horizontal.
 3. Do you need to think about how the power cable would fit?
 4. Do you need to think about where the power buttons and volume buttons are? What about the keyboard? Considering external devices connected?
-5. Conduct research of existing solutions to the problem. You will not "copy" anything but you should be aware of what exists. It can inspire your and spark new ideas in your mind. Do an internet image search of [phone stands](https://www.google.com/search?q=phone+stands&tbm=isch), [tablet stands}(https://www.google.com/search?q=tablet+stands&amp;tbm=isch), [laptop stands](https://www.google.com/search?q=laptop+stands&tbm=isch) to get your brain buzzing.
+5. Conduct research of existing solutions to the problem. You will not "copy" anything but you should be aware of what exists. It can inspire your and spark new ideas in your mind. Do an internet image search of [phone stands](https://www.google.com/search?q=phone+stands&tbm=isch), [tablet stands}(https://www.google.com/search?q=tablet+stands&tbm=isch), [laptop stands](https://www.google.com/search?q=laptop+stands&tbm=isch) to get your brain buzzing.
 6. Do an image search of [laser cut objects](https://www.google.com/search?q=laser+cut+objects&tbm=isch) to see what laser cutters can make.
 7. Watch the [tutorial videos]() on the course page that show different types of [laser cut joints](). We will go over how to make our projects in Fusion 360 next week but you should be generally aware of these joining concepts as you design your prototype.
 
@@ -59,12 +59,6 @@ Initial Thinking
 2. It's important to use a cutting mat and a straightedge to cut cardboard quickly and cleanly. That way the model is a good representation of your idea.
 3. Use a new blade on your cutter.
 
-## Document the Design
-
-1. After you assemble your model and test it then draw a third angle projection of your final design. Make sure to add dimensions to the third angle projection. You can measure from your cardboard model.
-2. You can draw the third angle project at full scale or half scale depending on the size of your design.
-3. Label the dimensions and views.
-
 ## Turning in Project
 
 1. Scan your sketches and label the files.
@@ -74,8 +68,7 @@ Initial Thinking
 5. Use a piece of white butcher paper or white fabric attached to the wall to make a DIY photo sweep.
 6. Place lights on both sides of the cardboard model to eliminate shadows. You can use the photo stand at the think[box]. Link to <a href="https://docs.google.com/document/d/1IEujUMfrwNqrz4M4hs8QsYuTGID2wZhnPJgkKJeSrsg/edit">instructions to use the photo table at the think[box]</a>.
 7. Label your photos - YYYYMMDD Lastname First Name Project Name / Description
-8. Put the sketches and photos in a labeled folder and upload to Google Drive.
-9. Bring your sketches and cardboard model to class.
+8. Bring your sketches and cardboard model to class.
 
 # Grading Rubric
 

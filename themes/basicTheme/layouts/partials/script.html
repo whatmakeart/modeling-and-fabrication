@@ -1,10 +1,10 @@
 <script src="/modeling-and-fabrication/js/bootstrap.min.js"></script>
 <script>
-    var query = top.window.location.search;
-    console.log("Window Location: " + query);
 
-    // gets the url of the page the iframe is embedded in even with different origins
+    // should get the url of the page the iframe is embedded in even with different origins but doesn't seem to work
     const currentURL = document.baseURI;
+
+    console.log(currentURL);
 
 
     document.addEventListener('DOMContentLoaded', function () {

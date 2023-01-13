@@ -1,6 +1,6 @@
 <script src="/modeling-and-fabrication/js/bootstrap.min.js"></script>
 <script>
-    var query = window.location.search;
+    var query = top.window.location.search;
     console.log("Window Location: " + query);
 
     // gets the url of the page the iframe is embedded in even with different origins
@@ -13,11 +13,14 @@
         removeNavigationEmbed();
         checkIfMobile();
 
-        window.top.postMessage({ subject: 'lti.resourceImported' }, '*')
+
+
         // This will be repeated 15 times with .01 second intervals:
         setIntervalX(function () {
             sendIframeHeight();
         }, 10, 15);
+
+        window.top.postMessage({ subject: 'lti.resourceImported' }, '*')
 
         // monitor self-initiated changes in size 
         var mo = new MutationObserver(function () {

@@ -6,8 +6,10 @@
 
     console.log(currentURL);
 
+    window.onload = (event) => {
+        console.log("page is fully loaded");
 
-    document.addEventListener('DOMContentLoaded', function () {
+
         console.log("DOMContentLoaded");
 
         removeNavigationEmbed();
@@ -28,7 +30,7 @@
             console.log("mutation detected");
         });
         mo.observe(document, { subtree: true, childList: true, characterData: true });
-    });
+    };
 
     // For sending iframe height multiple times and then stopping on first page load
     // Possibly could be fixed with proper Canvas Listening for a loaded postMessage

@@ -112,6 +112,7 @@ a.title-link {
   text-decoration: none;
 }
 /* from files */
+
 .gallery-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));

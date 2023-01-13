@@ -82,12 +82,13 @@
         if (self != top) {
             // make links open in _blank if page is an embeded iframe
             let baseToAdd = document.createElement('base');
-            baseToAdd.target = "_blank"
+            baseToAdd.target = "_top"
             document.head.appendChild(baseToAdd);
 
             document.getElementById("header").remove();
             document.getElementById("footer").remove();
             console.log("Removed iframe #header and #footer");
+
             document.body.style.overflow = "hidden"; // to remove iframe scrollbars on desktop browsers
         };
         if (self === top) {
@@ -123,7 +124,7 @@
 
     // Listen for postMessages from iframe and Canvas
     window.addEventListener("message", (event) => {
-        if (event.origin !== "cia.instructure.com")
+        if (event.origin !== "https://cia.instructure.com/")
             console.log("wrong origin");
         return;
 

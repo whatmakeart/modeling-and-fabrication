@@ -124,7 +124,7 @@
 
     // Listen for postMessages from iframe and Canvas
     window.addEventListener("message", (event) => {
-        if (event.origin !== "https://cia.instructure.com/")
+        if (event.origin !== window.location.origin)
             console.log("wrong origin");
         return;
 

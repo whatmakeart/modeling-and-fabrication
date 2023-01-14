@@ -23,8 +23,6 @@ window.addEventListener("load", function (evt) {
     15
   );
 
-  window.top.postMessage({ subject: "lti.resourceImported" }, "*");
-
   // monitor self-initiated changes in size
   var mo = new MutationObserver(function () {
     sendIframeHeight();
@@ -48,6 +46,7 @@ function setIntervalX(callback, delay, repetitions) {
 
 // sends postMessage to top / opener / parent page with hight information
 function sendIframeHeight() {
+  const originDomain = "https://whatmakeart.com";
   if (window.top != null && typeof window.top != "undefined") {
     console.log("This window is the top");
     window.top.postMessage(
@@ -55,7 +54,7 @@ function sendIframeHeight() {
         subject: "lti.frameResize",
         height: document.documentElement.scrollHeight + "px",
       }),
-      "*"
+      originDomain
     );
     console.log(
       "iframe scrollHeight: " + document.documentElement.scrollHeight + "px"
@@ -67,7 +66,7 @@ function sendIframeHeight() {
         subject: "lti.frameResize",
         height: document.documentElement.scrollHeight + "px",
       }),
-      "*"
+      originDomain
     );
     console.log(
       "iframe scrollHeight: " + document.documentElement.scrollHeight + "px"
@@ -79,7 +78,7 @@ function sendIframeHeight() {
         subject: "lti.frameResize",
         height: document.documentElement.scrollHeight + "px",
       }),
-      "*"
+      originDomain
     );
     console.log(
       "iframe scrollHeight: " + document.documentElement.scrollHeight + "px"
@@ -140,7 +139,7 @@ function checkIfMobile() {
 window.addEventListener(
   "message",
   (event) => {
-    if (event.origin !== window.location.origin) console.log("wrong origin");
+    if (event.origin !== "http://localhost:1313/") console.log("wrong origin");
     return;
 
     console.log(event.data);

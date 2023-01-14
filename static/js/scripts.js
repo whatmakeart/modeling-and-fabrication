@@ -54,7 +54,7 @@ function sendIframeHeight() {
         subject: "lti.frameResize",
         height: document.documentElement.scrollHeight + "px",
       }),
-      originDomain
+      "https://whatmakeart.com"
     );
     console.log(
       "iframe scrollHeight: " + document.documentElement.scrollHeight + "px"
@@ -66,7 +66,7 @@ function sendIframeHeight() {
         subject: "lti.frameResize",
         height: document.documentElement.scrollHeight + "px",
       }),
-      originDomain
+      "https://whatmakeart.com"
     );
     console.log(
       "iframe scrollHeight: " + document.documentElement.scrollHeight + "px"
@@ -78,7 +78,7 @@ function sendIframeHeight() {
         subject: "lti.frameResize",
         height: document.documentElement.scrollHeight + "px",
       }),
-      originDomain
+      "https://whatmakeart.com"
     );
     console.log(
       "iframe scrollHeight: " + document.documentElement.scrollHeight + "px"

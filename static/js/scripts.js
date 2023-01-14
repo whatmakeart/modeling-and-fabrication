@@ -136,22 +136,6 @@ function checkIfMobile() {
 
 // Listen for postMessages from iframe and Canvas
 
-//Javascript approach
-window.addEventListener("message", function (evt) {
-  //message
-  var targetData = evt.data;
-  //source
-  var targetSource = evt.source; //iframe source message stems from - doesnt work
-  //origin
-  var targetOrigin = evt.origin;
-  if (targetOrigin !== "https://instructure.com/") {
-    console.log("Not Same Origin");
-    //no same origin, exploit attempt in process possibly
-  }
-  //do whatever
-  console.log(targetData);
-});
-
 /*
         // Set theme to the user's preferred color scheme dark or light mode
         function updateTheme() {

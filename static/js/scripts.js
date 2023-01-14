@@ -44,6 +44,21 @@ function setIntervalX(callback, delay, repetitions) {
   }, delay);
 }
 
+function postMessage(parent, json, transferlist) {
+  if (!totDevice || !totDevice.postMessage(json, transferList)) {
+    parent.postMessage(json, transferlist);
+  }
+}
+
+postMessage(
+  parent,
+  JSON.stringify({
+    subject: "lti.frameResize",
+    height: document.documentElement.scrollHeight + "px",
+  }),
+  "*"
+);
+
 // sends postMessage to top / opener / parent page with hight information
 function sendIframeHeight() {
   if (window.top != null && typeof window.top != "undefined") {

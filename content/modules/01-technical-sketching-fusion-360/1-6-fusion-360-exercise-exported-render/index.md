@@ -28,6 +28,7 @@ You can use [this sketch](2022-Sketch-of-Sample-Part-for-Fusion-360-Modeling-Exe
 
 [![this sketch](2022-Sketch-of-Sample-Part-for-Fusion-360-Modeling-Exercise.jpeg)](2022-Sketch-of-Sample-Part-for-Fusion-360-Modeling-Exercise.jpeg)
 
+<div class="tutorial-video-gallery">
 <div class="video-card">
 
 ### 2. Fusion 360 3D Modeling Exercise

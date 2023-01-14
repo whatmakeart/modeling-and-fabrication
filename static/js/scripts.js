@@ -87,14 +87,6 @@ function sendIframeHeight() {
   }
 }
 
-window.ReactNativeWebView.postMessage(
-  JSON.stringify({
-    subject: "lti.frameResize",
-    height: document.documentElement.scrollHeight + "px",
-  }),
-  "https://cia.instructure.com/"
-);
-
 // removes navigation elements when embedded in an LMS so only the page content is seen but allows course site to work on open web
 function removeNavigationEmbed() {
   if (self != top) {

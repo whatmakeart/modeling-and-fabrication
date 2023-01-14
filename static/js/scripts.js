@@ -65,7 +65,7 @@ function sendIframeHeight() {
         subject: "lti.frameResize",
         height: document.documentElement.scrollHeight + "px",
       }),
-      "*"
+      "https://cia.instructure.com/"
     );
     console.log(
       "iframe scrollHeight: " + document.documentElement.scrollHeight + "px"
@@ -77,7 +77,7 @@ function sendIframeHeight() {
         subject: "lti.frameResize",
         height: document.documentElement.scrollHeight + "px",
       }),
-      "*"
+      "https://cia.instructure.com/"
     );
     console.log(
       "iframe scrollHeight: " + document.documentElement.scrollHeight + "px"
@@ -138,7 +138,8 @@ function checkIfMobile() {
 window.addEventListener(
   "message",
   (event) => {
-    if (event.origin !== "https//whatmakeart.com/") console.log("wrong origin");
+    if (event.origin !== "https://cia.instructure.com/")
+      console.log("wrong origin");
     return;
 
     console.log(event.data);

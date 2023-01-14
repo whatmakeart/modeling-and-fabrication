@@ -44,21 +44,6 @@ function setIntervalX(callback, delay, repetitions) {
   }, delay);
 }
 
-function postMessage(parent, json, transferlist) {
-  if (!totDevice || !totDevice.postMessage(json, transferList)) {
-    parent.postMessage(json, transferlist);
-  }
-}
-
-postMessage(
-  parent,
-  JSON.stringify({
-    subject: "lti.frameResize",
-    height: document.documentElement.scrollHeight + "px",
-  }),
-  "*"
-);
-
 // sends postMessage to top / opener / parent page with hight information
 function sendIframeHeight() {
   if (window.top != null && typeof window.top != "undefined") {
@@ -150,17 +135,22 @@ function checkIfMobile() {
 }
 
 // Listen for postMessages from iframe and Canvas
-window.addEventListener(
-  "message",
-  (event) => {
-    if (event.origin !== "https://cia.instructure.com/")
-      console.log("wrong origin");
-    return;
 
-    console.log(event.data);
-  },
-  false
-);
+//Javascript approach
+window.addEventListener("message", function (evt) {
+  //message
+  var targetData = evt.data;
+  //source
+  var targetSource = evt.source; //iframe source message stems from - doesnt work
+  //origin
+  var targetOrigin = evt.origin;
+  if (targetOrigin !== "https://instructure.com/") {
+    console.log("Not Same Origin");
+    //no same origin, exploit attempt in process possibly
+  }
+  //do whatever
+  console.log(targetData);
+});
 
 /*
         // Set theme to the user's preferred color scheme dark or light mode

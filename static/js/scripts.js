@@ -46,7 +46,6 @@ function setIntervalX(callback, delay, repetitions) {
 
 // sends postMessage to top / opener / parent page with hight information
 function sendIframeHeight() {
-  const originDomain = "https://whatmakeart.com";
   if (window.top != null && typeof window.top != "undefined") {
     console.log("This window is the top");
     window.top.postMessage(
@@ -54,7 +53,7 @@ function sendIframeHeight() {
         subject: "lti.frameResize",
         height: document.documentElement.scrollHeight + "px",
       }),
-      "https://whatmakeart.com/"
+      "https://cia.instructure.com/"
     );
     console.log(
       "iframe scrollHeight: " + document.documentElement.scrollHeight + "px"
@@ -66,7 +65,7 @@ function sendIframeHeight() {
         subject: "lti.frameResize",
         height: document.documentElement.scrollHeight + "px",
       }),
-      "https://whatmakeart.com/"
+      "*"
     );
     console.log(
       "iframe scrollHeight: " + document.documentElement.scrollHeight + "px"
@@ -78,7 +77,7 @@ function sendIframeHeight() {
         subject: "lti.frameResize",
         height: document.documentElement.scrollHeight + "px",
       }),
-      "https://whatmakeart.com/"
+      "*"
     );
     console.log(
       "iframe scrollHeight: " + document.documentElement.scrollHeight + "px"

@@ -42,3 +42,19 @@ Third Angle Projection shows the front, top, and side views of an object.
 ## Technical Sketching Practice
 
 While it is possible to make extremely acurate and detailed technical drawings by hand, it is often impractical and can be done better and faster with digital tools. It is still important to be able to make quick, legible and communicative technical sketches. Even though the sketches do not need to be perfect they should still be as neat as possible without sacrificing too much speed. There are some simple techniques that help making technical drawins by hand.
+
+## Basic Materials for Technical Sketching
+
+Nothing more than a pencil, paper, and often an eraser is needed to make technical sketches. With practice, relatively accurate to scale sketches can be made freehand without the use of straight edges or triangles. The use of a few additional drawing supplies permit the creation of accurate and detailed technical drawings.
+
+- pencil
+- paper
+- eraser
+- t-square
+- drawing board or surface with flat edge
+- compass
+- 30 / 60 triangle
+- 45 triangle
+- straight edge
+- scaled rulers
+- measuring device such as digital calipers or rulers

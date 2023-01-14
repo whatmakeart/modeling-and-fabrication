@@ -85,14 +85,15 @@ function sendIframeHeight() {
   } else {
     console.log("This window is not a pop up, top or parent");
   }
-  window.ReactNativeWebView.postMessage(
-    JSON.stringify({
-      subject: "lti.frameResize",
-      height: document.documentElement.scrollHeight + "px",
-    }),
-    "https://cia.instructure.com/"
-  );
 }
+
+window.ReactNativeWebView.postMessage(
+  JSON.stringify({
+    subject: "lti.frameResize",
+    height: document.documentElement.scrollHeight + "px",
+  }),
+  "https://cia.instructure.com/"
+);
 
 // removes navigation elements when embedded in an LMS so only the page content is seen but allows course site to work on open web
 function removeNavigationEmbed() {
@@ -136,13 +137,6 @@ function checkIfMobile() {
   if (isMobile === true) {
     console.log("Browser is mobile");
     document.body.style.overflow = "visible";
-    window.ReactNativeWebView.postMessage(
-      JSON.stringify({
-        subject: "lti.frameResize",
-        height: document.documentElement.scrollHeight + "px",
-      }),
-      "https://cia.instructure.com/"
-    );
   } else {
     console.log("Browser is not mobile");
   }

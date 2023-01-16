@@ -130,7 +130,7 @@ function monitorMutations() {
   mo.observe(document, { subtree: true, childList: true, characterData: true });
 }
 
-// Listen for postMessages from iframe and Canvas
+/*
 
 // Set theme to the user's preferred color scheme dark or light mode
 function updateTheme() {
@@ -154,3 +154,4 @@ function changeStyle() {
     element.style.padding = 0;
   });
 }
+*/

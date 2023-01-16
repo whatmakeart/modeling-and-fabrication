@@ -17,6 +17,7 @@ window.addEventListener("load", function (event) {
   checkIfMobile();
   sendIframeHeight();
   setTimeout(sendIframeHeight, 30); // 10 was too short for a page reload on mobile browser
+  setTimeout(sendIframeHeight, 100);
   //monitorMutations();
 });
 

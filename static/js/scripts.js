@@ -54,7 +54,7 @@ function sendIframeHeight() {
     window.top.postMessage(
       JSON.stringify({
         subject: "lti.frameResize",
-        height: document.documentElement.scrollHeight + "px",
+        height: document.documentElement.scrollHeight,
       }),
       "https://cia.instructure.com/"
     );
@@ -66,7 +66,7 @@ function sendIframeHeight() {
     window.opener.postMessage(
       JSON.stringify({
         subject: "lti.frameResize",
-        height: document.documentElement.scrollHeight + "px",
+        height: document.documentElement.scrollHeight,
       }),
       "https://cia.instructure.com/"
     );
@@ -78,7 +78,7 @@ function sendIframeHeight() {
     window.parent.postMessage(
       JSON.stringify({
         subject: "lti.frameResize",
-        height: document.documentElement.scrollHeight + "px",
+        height: document.documentElement.scrollHeight,
       }),
       "https://cia.instructure.com/"
     );

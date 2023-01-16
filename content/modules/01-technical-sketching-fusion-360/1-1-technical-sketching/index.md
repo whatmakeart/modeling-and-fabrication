@@ -34,7 +34,7 @@ Oblique Projection shows the front of the object like a parallel projection and 
 
 Third Angle Projection shows the front, top, and side views of an object.
 
-![Third Angle Projection Example](/modeling-and-fabrication/modules/module-1-technical-sketching-fusion-360/1-3-thrid-angle-projections/20220111-Third-Angle-Projection-Example-Jimmy-Kuehnle.jpg)
+![Third Angle Projection Example](/modeling-and-fabrication/modules/01-technical-sketching-fusion-360/1-3-third-angle-projections/20220111-Third-Angle-Projection-Example-Jimmy-Kuehnle.jpg)
 
 </div>
 </div>

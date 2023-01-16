@@ -23,13 +23,7 @@ window.addEventListener("load", function (event) {
 function sendIframeHeight() {
   if (window.top != null && typeof window.top != "undefined") {
     console.log("This window is the top");
-    // remove right side wrapper on assignments to have consistant page width
-    window.top.postMessage(
-      {
-        subject: "lti.hideRightSideWrapper",
-      },
-      "https://cia.instructure.com/"
-    );
+
     window.top.postMessage(
       JSON.stringify({
         subject: "lti.frameResize",
@@ -43,13 +37,7 @@ function sendIframeHeight() {
     );
   } else if (window.opener != null && typeof window.opener != "undefined") {
     console.log("This window is pop up.");
-    // remove right side wrapper on assignments to have consistant page width
-    window.top.postMessage(
-      {
-        subject: "lti.hideRightSideWrapper",
-      },
-      "https://cia.instructure.com/"
-    );
+
     window.opener.postMessage(
       JSON.stringify({
         subject: "lti.frameResize",
@@ -63,13 +51,7 @@ function sendIframeHeight() {
     );
   } else if (window.parent != null && typeof window.parent != "undefined") {
     console.log("This window is the parent");
-    // remove right side wrapper on assignments to have consistant page width
-    window.top.postMessage(
-      {
-        subject: "lti.hideRightSideWrapper",
-      },
-      "https://cia.instructure.com/"
-    );
+
     window.parent.postMessage(
       JSON.stringify({
         subject: "lti.frameResize",

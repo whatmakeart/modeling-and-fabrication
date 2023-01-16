@@ -79,6 +79,7 @@ function removeNavigationEmbed() {
     document.getElementById("header").remove();
     document.getElementById("footer").remove();
     console.log("Removed iframe #header and #footer");
+    changeStyle(); // remove Bootstrap Styles
     // temporarily commented out to eliminate variables in why app iframe has no height
     //document.body.style.overflow = "hidden"; // to remove iframe scrollbars on desktop browsers
   }
@@ -145,3 +146,10 @@ updateTheme();
 window
   .matchMedia("(prefers-color-scheme: dark)")
   .addEventListener("change", updateTheme);
+
+function changeStyle() {
+  const elements = document.querySelectorAll(".container-fluid");
+  elements.forEach(function (element) {
+    element.style.padding = 0;
+  });
+}

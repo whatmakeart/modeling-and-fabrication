@@ -6,7 +6,7 @@ draft: false
 
 ## Deliverables
 
-Upload 2 separate, labeled JPEGs of 2 different objects drawn in third angle projection.
+Upload 2 separate, labeled JPEGs of 2 different objects drawn in third angle projection on paper.
 
 Label the files:
 
@@ -15,7 +15,7 @@ Label the files:
 
 ## Instructions
 
-Select three objects of reasonable size and complexity. You do not want super tiny objects or mega huge objects. You also don't want objects that are a simple square or objects made of hundreds of intricate parts.
+Select two objects of reasonable size and complexity. You do not want super tiny objects or mega huge objects. You also don't want objects that are a simple square or objects made of hundreds of intricate parts.
 
 Using loose sheets of paper, <span>not</span> in your sketchbooks, draw the three objects that you selected.
 
@@ -34,14 +34,6 @@ Next week we will draw third angle projections using our technical drawing tools
 ### 1\. How to Use Digital Calipers
 
 <div class="iframe-16-9-container"><iframe class="youTubeIframe" src="https://www.youtube.com/embed/oOZjbbe6YZk" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
-
-</div>
-
-<div class="video-card">
-
-### 2\. Third Angle Projection Freehand
-
-<div class="iframe-16-9-container"><iframe class="youTubeIframe" src="https://www.youtube.com/embed/0SdWqEYKYrI" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
 
 </div>
 

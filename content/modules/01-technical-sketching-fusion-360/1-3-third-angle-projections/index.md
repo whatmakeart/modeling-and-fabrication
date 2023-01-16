@@ -8,7 +8,7 @@ draft: false
 
 Third angle projection is a method of drawing a three dimensional object on a two dimensional plane or piece of paper. It is a type of orthographic projection that shows how an object looks from different directions on the same drawing. The different views line up and can be used to project dimensions from one view to another view using orthogonal (perpendicular) lines. The three views are front, side and top. The other common multi angle projection method is first angle projection but we will focus on third angle projections.
 
-The main difference is the conceptual placement of the object with respect to the projection planes. In first angle projection the object is in the first quadrant and is imagined to be transparent while the projection planes are opaque. In third angle projection the object is in the third quadrant and is imagined to be opaque while the projection planes are transparent. The quadrants are the four "boxes" made with a typical x y cartesian plane but with three dimensions. The first quadrant is the upper right or where the positive x and y are. The third quadrant is the lower left where the -x and -y are. In first angle projection the object is in between the viewer and the projection plane and in third angle projection the plane is in between the object and the viewer.
+The main difference between third and first angle projection is the conceptual placement of the object with respect to the projection planes. In first angle projection the object is in the first quadrant and is imagined to be transparent while the projection planes are opaque. In third angle projection the object is in the third quadrant and is imagined to be opaque while the projection planes are transparent. The quadrants are the four "boxes" made with a typical x / y cartesian plane but with three dimensions. The first quadrant is the upper right or where the positive x and y are. The third quadrant is the lower left where the -x and -y are. In first angle projection the object is in between the viewer and the projection plane and in third angle projection the plane is in between the object and the viewer.
 
 The diagram below shows the point of view of the viewer indicated by the red arrows. The quadrants are labeled and the 3rd angle projection is in the lower left. The projections of the objects are on the horizontal and vertical planes. Pay attention to the orientation of the projection top or bottom of the cone in relation to the side projection.
 
@@ -28,4 +28,14 @@ Often dimensions are added to projection drawings to indicate the diameter of ho
 
 [![Example Object](20220111-Third-Angle-Projection-Example-Object-Jimmy-Kuehnle-small.jpg)](20220111-Third-Angle-Projection-Example-Object-Jimmy-Kuehnle.png)
 
+</div>
+
+<div class="tutorial-video-grid">
+<div class="video-card">
+
+### 2\. Third Angle Projection Freehand
+
+<div class="iframe-16-9-container"><iframe class="youTubeIframe" src="https://www.youtube.com/embed/0SdWqEYKYrI" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
+
+</div>
 </div>

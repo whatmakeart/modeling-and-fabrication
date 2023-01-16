@@ -3,14 +3,22 @@ const currentURL = document.baseURI;
 
 console.log(currentURL);
 
-document.addEventListener("DOMContentLoaded", function () {
-  console.log("DOMContentLoaded");
-  removeNavigationEmbed();
-  sendIframeHeight();
-});
+if (document.readyState === "loading") {
+  // Loading hasn't finished yet
+  document.addEventListener("DOMContentLoaded", function () {
+    console.log("DOMContentLoaded after checking readyState");
+    removeNavigationEmbed(); // once the DOM exists then remove the headers if an embedded iframe
+    sendIframeHeight(); // attempt to remove flashing by sending the iframe height once right away
+  });
+} else {
+  // `DOMContentLoaded` has already fired
+  console.log("DOMContentLoaded has already fired");
+  removeNavigationEmbed(); // once the DOM exists then remove the headers if an embedded iframe
+  sendIframeHeight(); // attempt to remove flashing by sending the iframe height once right away
+}
 
-window.addEventListener("load", function (evt) {
-  /* do task 1 */ console.log("page is fully loaded");
+window.addEventListener("load", function (event) {
+  /* do task 1 */ console.log("Page content is fully loaded");
 
   checkIfMobile();
 
@@ -90,7 +98,7 @@ function sendIframeHeight() {
 // removes navigation elements when embedded in an LMS so only the page content is seen but allows course site to work on open web
 function removeNavigationEmbed() {
   if (self != top) {
-    // make links open in _blank if page is an embeded iframe
+    // make links open in _blank if page is an embedded iframe
     let baseToAdd = document.createElement("base");
     baseToAdd.target = "_top";
     document.head.appendChild(baseToAdd);
@@ -99,7 +107,7 @@ function removeNavigationEmbed() {
     document.getElementById("footer").remove();
     console.log("Removed iframe #header and #footer");
 
-    document.body.style.overflow = "hidden"; // to remove iframe scrollbars on desktop browsers
+    //document.body.style.overflow = "hidden"; // to remove iframe scrollbars on desktop browsers
   }
   if (self === top) {
     console.log("Top level website so keep navigation");

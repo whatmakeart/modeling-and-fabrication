@@ -58,15 +58,12 @@ function sendIframeHeight() {
       }),
       "https://cia.instructure.com/"
     );
+    // remove right side wrapper on assignments to have consistant page width
     window.top.postMessage(
       {
         subject: "lti.hideRightSideWrapper",
       },
-      "*"
-    );
-    window.parent.postMessage(
-      JSON.stringify({ subject: "lti.scrollToTop" }),
-      "*"
+      "https://cia.instructure.com/"
     );
 
     console.log(
@@ -81,9 +78,12 @@ function sendIframeHeight() {
       }),
       "https://cia.instructure.com/"
     );
-    window.parent.postMessage(
-      JSON.stringify({ subject: "lti.scrollToTop" }),
-      "*"
+    // remove right side wrapper on assignments to have consistant page width
+    window.top.postMessage(
+      {
+        subject: "lti.hideRightSideWrapper",
+      },
+      "https://cia.instructure.com/"
     );
     console.log(
       "iframe scrollHeight: " + document.documentElement.scrollHeight + "px"
@@ -97,9 +97,12 @@ function sendIframeHeight() {
       }),
       "https://cia.instructure.com/"
     );
-    window.parent.postMessage(
-      JSON.stringify({ subject: "lti.scrollToTop" }),
-      "*"
+    // remove right side wrapper on assignments to have consistant page width
+    window.top.postMessage(
+      {
+        subject: "lti.hideRightSideWrapper",
+      },
+      "https://cia.instructure.com/"
     );
     console.log(
       "iframe scrollHeight: " + document.documentElement.scrollHeight + "px"

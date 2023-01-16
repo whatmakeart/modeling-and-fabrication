@@ -58,6 +58,12 @@ function sendIframeHeight() {
       }),
       "https://cia.instructure.com/"
     );
+    window.top.postMessage(
+      {
+        subject: "lti.hideRightSideWrapper",
+      },
+      "*"
+    );
     window.parent.postMessage(
       JSON.stringify({ subject: "lti.scrollToTop" }),
       "*"

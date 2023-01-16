@@ -5,16 +5,17 @@ console.log(currentURL);
 
 if (document.readyState === "loading") {
   // Loading hasn't finished yet
-  document.addEventListener("DOMContentLoaded", function () {
-    console.log("DOMContentLoaded after checking readyState");
-    removeNavigationEmbed(); // once the DOM exists then remove the headers if an embedded iframe
-    sendIframeHeight(); // attempt to remove flashing by sending the iframe height once right away
-  });
+  document.addEventListener(
+    "DOMContentLoaded",
+    removeNavigationEmbed,
+    sendIframeHeight
+  );
+  console.log("DOMContentLoaded after checking readyState");
 } else {
-  // `DOMContentLoaded` has already fired
-  console.log("DOMContentLoaded has already fired");
-  removeNavigationEmbed(); // once the DOM exists then remove the headers if an embedded iframe
-  sendIframeHeight(); // attempt to remove flashing by sending the iframe height once right away
+  // `DOMContentLoaded` has already fired which sometimes happens so run the functions
+  console.log("DOMContentLoaded has already fired before addEventListener");
+  removeNavigationEmbed();
+  sendIframeHeight();
 }
 
 window.addEventListener("load", function (event) {
@@ -106,8 +107,7 @@ function removeNavigationEmbed() {
     document.getElementById("header").remove();
     document.getElementById("footer").remove();
     console.log("Removed iframe #header and #footer");
-
-    //document.body.style.overflow = "hidden"; // to remove iframe scrollbars on desktop browsers
+    document.body.style.overflow = "hidden"; // to remove iframe scrollbars on desktop browsers
   }
   if (self === top) {
     console.log("Top level website so keep navigation");

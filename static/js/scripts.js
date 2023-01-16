@@ -120,6 +120,11 @@ function checkIfMobile() {
   } else {
     console.log("Browser is not mobile");
   }
+// webview detection
+  if (isWebview() === true) {
+    document.body.style.overflow = "visible";
+    changeStyleMobile();
+}
 }
 
 function monitorMutations() {
@@ -161,4 +166,16 @@ function changeStyleMobile() {
   elements.forEach(function (element) {
     element.style.color = "red";
   });
+}
+
+function isWebview() { if (typeof window === undefined) { return false };
+let navigator = window.navigator;
+
+const standalone = navigator.standalone;
+const userAgent = navigator.userAgent.toLowerCase();
+const safari = /safari/.test(userAgent);
+const ios = /iphone|ipod|ipad/macintosh.test(userAgent);
+const ios_ipad_webview = ios && !safari;
+
+return ios ? ( (!standalone && !safari) || ios_ipad_webview ) : userAgent.includes('wv');
 }

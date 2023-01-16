@@ -51,18 +51,18 @@ function setIntervalX(callback, delay, repetitions) {
 function sendIframeHeight() {
   if (window.top != null && typeof window.top != "undefined") {
     console.log("This window is the top");
-    window.top.postMessage(
-      JSON.stringify({
-        subject: "lti.frameResize",
-        height: document.documentElement.scrollHeight,
-      }),
-      "https://cia.instructure.com/"
-    );
     // remove right side wrapper on assignments to have consistant page width
     window.top.postMessage(
       {
         subject: "lti.hideRightSideWrapper",
       },
+      "https://cia.instructure.com/"
+    );
+    window.top.postMessage(
+      JSON.stringify({
+        subject: "lti.frameResize",
+        height: document.documentElement.scrollHeight,
+      }),
       "https://cia.instructure.com/"
     );
 
@@ -71,6 +71,13 @@ function sendIframeHeight() {
     );
   } else if (window.opener != null && typeof window.opener != "undefined") {
     console.log("This window is pop up.");
+    // remove right side wrapper on assignments to have consistant page width
+    window.top.postMessage(
+      {
+        subject: "lti.hideRightSideWrapper",
+      },
+      "https://cia.instructure.com/"
+    );
     window.opener.postMessage(
       JSON.stringify({
         subject: "lti.frameResize",
@@ -78,6 +85,12 @@ function sendIframeHeight() {
       }),
       "https://cia.instructure.com/"
     );
+
+    console.log(
+      "iframe scrollHeight: " + document.documentElement.scrollHeight + "px"
+    );
+  } else if (window.parent != null && typeof window.parent != "undefined") {
+    console.log("This window is the parent");
     // remove right side wrapper on assignments to have consistant page width
     window.top.postMessage(
       {
@@ -85,11 +98,6 @@ function sendIframeHeight() {
       },
       "https://cia.instructure.com/"
     );
-    console.log(
-      "iframe scrollHeight: " + document.documentElement.scrollHeight + "px"
-    );
-  } else if (window.parent != null && typeof window.parent != "undefined") {
-    console.log("This window is the parent");
     window.parent.postMessage(
       JSON.stringify({
         subject: "lti.frameResize",
@@ -97,13 +105,7 @@ function sendIframeHeight() {
       }),
       "https://cia.instructure.com/"
     );
-    // remove right side wrapper on assignments to have consistant page width
-    window.top.postMessage(
-      {
-        subject: "lti.hideRightSideWrapper",
-      },
-      "https://cia.instructure.com/"
-    );
+
     console.log(
       "iframe scrollHeight: " + document.documentElement.scrollHeight + "px"
     );

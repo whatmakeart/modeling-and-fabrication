@@ -116,6 +116,7 @@ function checkIfMobile() {
   ) {
     console.log("Browser is mobile");
     document.body.style.overflow = "visible";
+    changeStyleMobile();
   } else {
     console.log("Browser is not mobile");
   }
@@ -147,11 +148,17 @@ updateTheme();
 window
   .matchMedia("(prefers-color-scheme: dark)")
   .addEventListener("change", updateTheme);
-
+*/
 function changeStyle() {
   const elements = document.querySelectorAll(".container-fluid");
   elements.forEach(function (element) {
     element.style.padding = 0;
   });
 }
-*/
+
+function changeStyleMobile() {
+  const elements = document.querySelectorAll(".container-fluid");
+  elements.forEach(function (element) {
+    element.style.color = "red";
+  });
+}

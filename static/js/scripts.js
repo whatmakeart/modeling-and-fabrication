@@ -159,13 +159,14 @@ function changeStyle() {
 }
 
 function changeStyleWebview() {
+  document.body.style.overflow = "visible";
   const elements = document.querySelectorAll(".container-fluid");
   elements.forEach(function (element) {
-    element.style.color = "red";
-    document.body.style.overflow = "visible";
+    // element.style.color = "red"; // used to confirm the function works
   });
 }
 
+// detect if Canvas app is being used by attempting to check if it is webview
 const rules = [
   // if it says it's a webview, let's go with that
   "WebView",

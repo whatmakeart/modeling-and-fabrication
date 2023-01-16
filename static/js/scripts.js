@@ -14,9 +14,9 @@ if (document.readyState === "loading") {
 
 window.addEventListener("load", function (event) {
   console.log("Page content is fully loaded");
-  sendIframeHeight();
   checkIfMobile();
   sendIframeHeight();
+  setTimeout(sendIframeHeight, 10);
   //monitorMutations();
 });
 

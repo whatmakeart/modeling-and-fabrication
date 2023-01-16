@@ -52,12 +52,6 @@ function sendIframeHeight() {
   if (window.top != null && typeof window.top != "undefined") {
     console.log("This window is the top");
     window.top.postMessage(
-      {
-        subject: "lti.hideRightSideWrapper",
-      },
-      "*"
-    );
-    window.top.postMessage(
       JSON.stringify({
         subject: "lti.frameResize",
         height: document.documentElement.scrollHeight,

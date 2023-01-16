@@ -15,9 +15,24 @@ if (document.readyState === "loading") {
 window.addEventListener("load", function (event) {
   console.log("Page content is fully loaded");
   checkIfMobile();
-  sendIframeHeight();
-  setTimeout(sendIframeHeight, 30); // 10 was too short for a page reload on mobile browser
-  setTimeout(sendIframeHeight, 100);
+
+  var i = 0; // counter for the timer
+  function doSomething() {
+    console.log("send iframe height");
+    sendIframeHeight();
+    if (++i < 5) {
+      // only reset the timer when maximum of 10 times it is fired
+      console.log("reset the timer");
+      setTimeout(doSomething, 10); // reset the timer
+    }
+  }
+  setTimeout(doSomething, 1000); // init the first
+
+  // after 5 seconds stop
+  setTimeout(() => {
+    clearInterval(timerId);
+    alert("stop");
+  }, 5000);
   //monitorMutations();
 });
 

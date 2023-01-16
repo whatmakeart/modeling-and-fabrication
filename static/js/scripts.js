@@ -58,6 +58,10 @@ function sendIframeHeight() {
       }),
       "https://cia.instructure.com/"
     );
+    window.parent.postMessage(
+      JSON.stringify({ subject: "lti.scrollToTop" }),
+      "*"
+    );
     console.log(
       "iframe scrollHeight: " + document.documentElement.scrollHeight + "px"
     );
@@ -70,6 +74,10 @@ function sendIframeHeight() {
       }),
       "https://cia.instructure.com/"
     );
+    window.parent.postMessage(
+      JSON.stringify({ subject: "lti.scrollToTop" }),
+      "*"
+    );
     console.log(
       "iframe scrollHeight: " + document.documentElement.scrollHeight + "px"
     );
@@ -81,6 +89,10 @@ function sendIframeHeight() {
         height: document.documentElement.scrollHeight,
       }),
       "https://cia.instructure.com/"
+    );
+    window.parent.postMessage(
+      JSON.stringify({ subject: "lti.scrollToTop" }),
+      "*"
     );
     console.log(
       "iframe scrollHeight: " + document.documentElement.scrollHeight + "px"

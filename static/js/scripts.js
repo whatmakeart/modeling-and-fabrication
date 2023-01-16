@@ -81,8 +81,7 @@ function removeNavigationEmbed() {
     document.getElementById("footer").remove();
     console.log("Removed iframe #header and #footer");
     changeStyle(); // remove Bootstrap Styles
-    // temporarily commented out to eliminate variables in why app iframe has no height
-    //document.body.style.overflow = "hidden"; // to remove iframe scrollbars on desktop browsers
+    document.body.style.overflow = "hidden"; // to remove iframe scrollbars on desktop browsers
   }
   if (self === top) {
     console.log("Top level website so keep native navigation");
@@ -116,14 +115,12 @@ function checkIfMobile() {
   ) {
     console.log("Browser is mobile");
     document.body.style.overflow = "visible";
-    changeStyleMobile();
   } else {
     console.log("Browser is not mobile");
   }
   // webview detection
   if (isWebview() === true) {
-    document.body.style.overflow = "visible";
-    changeStyleMobile();
+    changeStyleWebview();
   }
 }
 
@@ -161,10 +158,11 @@ function changeStyle() {
   });
 }
 
-function changeStyleMobile() {
+function changeStyleWebview() {
   const elements = document.querySelectorAll(".container-fluid");
   elements.forEach(function (element) {
     element.style.color = "red";
+    document.body.style.overflow = "visible";
   });
 }
 

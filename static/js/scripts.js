@@ -168,14 +168,22 @@ function changeStyleMobile() {
   });
 }
 
-function isWebview() { if (typeof window === undefined) { return false };
-let navigator = window.navigator;
+const rules = [
+  // if it says it's a webview, let's go with that
+  "WebView",
+  // iOS webview will be the same as safari but missing "Safari"
+  "(iPhone|iPod|iPad)(?!.*Safari)",
+  // https://developer.chrome.com/docs/multidevice/user-agent/#webview_user_agent
+  "Android.*Version/[0-9].[0-9]",
+  // Also, we should save the wv detected for Lollipop
+  // Android Lollipop and Above: webview will be the same as native but it will contain "wv"
+  "Android.*wv",
+  // old chrome android webview agent
+  "Linux; U; Android",
+];
 
-const standalone = navigator.standalone;
-const userAgent = navigator.userAgent.toLowerCase();
-const safari = /safari/.test(userAgent);
-const ios = /iphone|ipod|ipad/macintosh/.test(userAgent);
-const ios_ipad_webview = ios && !safari;
+var webviewRegExp = new RegExp("(" + rules.join("|") + ")", "ig");
 
-return ios ? ( (!standalone && !safari) || ios_ipad_webview ) : userAgent.includes('wv');
-}
+module.exports = function isWebview(ua) {
+  return !!ua.match(webviewRegExp);
+};

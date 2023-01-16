@@ -14,6 +14,7 @@ if (document.readyState === "loading") {
 
 window.addEventListener("load", function (event) {
   console.log("Page content is fully loaded");
+  sendIframeHeight();
   checkIfMobile();
   sendIframeHeight();
   //monitorMutations();
@@ -21,10 +22,10 @@ window.addEventListener("load", function (event) {
 
 // sends postMessage to top / opener / parent page with hight information
 function sendIframeHeight() {
-  if (window.top != null && typeof window.top != "undefined") {
-    console.log("This window is the top");
+  if (window.opener != null && typeof window.opener != "undefined") {
+    console.log("This window is pop up.");
 
-    window.top.postMessage(
+    window.opener.postMessage(
       JSON.stringify({
         subject: "lti.frameResize",
         height: document.documentElement.scrollHeight,
@@ -35,10 +36,10 @@ function sendIframeHeight() {
     console.log(
       "iframe scrollHeight: " + document.documentElement.scrollHeight + "px"
     );
-  } else if (window.opener != null && typeof window.opener != "undefined") {
-    console.log("This window is pop up.");
+  } else if (window.top != null && typeof window.top != "undefined") {
+    console.log("This window is the top");
 
-    window.opener.postMessage(
+    window.top.postMessage(
       JSON.stringify({
         subject: "lti.frameResize",
         height: document.documentElement.scrollHeight,

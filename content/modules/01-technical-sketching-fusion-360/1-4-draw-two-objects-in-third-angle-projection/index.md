@@ -19,19 +19,17 @@ Select two objects of reasonable size and complexity. You do not want super tiny
 
 Using loose sheets of paper, <span>not</span> in your sketchbooks, draw the three objects that you selected.
 
-Use digital calipers to get the dimensions of the objects. Write the dimensions on your third angle projections. Use mm for your units. Mark metric somewhere on the page and note the units as mm.
+Use digital calipers and rulers to get the dimensions of the objects. Write the dimensions on your third angle projections. Use mm for your units. Mark metric somewhere on the page and note the units as mm.
 
-You should draw these sketches freehand without using your drafting / technical drawing tools. Drawing accurate third angle productions freehand is an important drawing communicative skill.  The lines do not need to be perfectly straight or perfectly proportioned but try to make sure that the drawing is an accurate representation of the object. Measure the proportions and keep everything aligned.
+You should draw these sketches freehand without using your drafting / technical drawing tools. Drawing accurate third angle productions freehand is an important drawing communicative skill.  The lines do not need to be perfectly straight or perfectly proportioned but try to make sure that the drawing is an accurate representation of the object. Measure the proportions and keep everything aligned and in proportion.
 
-Next week we will draw third angle projections using our technical drawing tools. Drawing third angle projections, freehand and drawing third angle projections with technical drawing tools are both important skills for designing, communication and ideation.
-
-# Draw 2 Objects in Third Angle Projection Videos
+## Third Angle Projection Videos
 
 <div class="tutorial-video-grid">
 
 <div class="video-card">
 
-### 1\. How to Use Digital Calipers
+### 1. How to Use Digital Calipers
 
 <div class="iframe-16-9-container"><iframe class="youTubeIframe" src="https://www.youtube.com/embed/oOZjbbe6YZk" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
 
@@ -39,7 +37,7 @@ Next week we will draw third angle projections using our technical drawing tools
 
 <div class="video-card">
 
-### 3\. More Complex Third Angle Projection
+### 3. More Complex Third Angle Projection
 
 <div class="iframe-16-9-container"><iframe class="youTubeIframe" src="https://www.youtube.com/embed/QTMfdxI5QYk" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
 
@@ -47,7 +45,7 @@ Next week we will draw third angle projections using our technical drawing tools
 
 <div class="video-card">
 
-### 5\. Third Angle Projection USB Plug
+### 5. Third Angle Projection USB Plug
 
 <div class="iframe-16-9-container"><iframe class="youTubeIframe" src="https://www.youtube.com/embed/2xS3AzFV7gs" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
 

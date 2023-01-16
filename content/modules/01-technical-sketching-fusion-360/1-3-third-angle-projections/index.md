@@ -30,10 +30,12 @@ Often dimensions are added to projection drawings to indicate the diameter of ho
 
 </div>
 
+The video below demonstrates how to draw a simple third angle projection of a wooden block in third angle projection freehand.
+
 <div class="tutorial-video-grid">
 <div class="video-card">
 
-### 2\. Third Angle Projection Freehand
+### 2. Third Angle Projection Freehand
 
 <div class="iframe-16-9-container"><iframe class="youTubeIframe" src="https://www.youtube.com/embed/0SdWqEYKYrI" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
 

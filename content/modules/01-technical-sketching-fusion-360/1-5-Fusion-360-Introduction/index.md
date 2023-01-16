@@ -4,9 +4,9 @@ date: 2020-01-26T23:11:13Z
 draft: false
 ---
 
-We will begin 3D modeling in Fusion 360\. Make sure you created an Autodesk account and have Fusion 360 installed.
+We will begin 3D modeling in Fusion 360. Make sure you created an Autodesk account.
 
-Watch the video about the [Fusion 360 User Interface](https://youtu.be/YjaxBbTY3kc). It explains how Fusion 360 works with project files. It also shows how to navigate in 3D space with your three button mouse. Fusion 360 is a parametric modeling program and therefore has a timeline with all of the features of your 3D model. We will discuss the timeline, user parameters, model browser and many other topics as the course progresses. This video gives you the information that you need to get started in Fusion 360.
+Watch the video about the [Fusion 360 User Interface](https://youtu.be/YjaxBbTY3kc). It explains how Fusion 360 works with project files. It also shows how to navigate in 3D space with your three button mouse. Fusion 360 is a parametric modeling program and therefore has a desing history timeline with all of the features of your 3D model. We will discuss the timeline, user parameters, model browser and many other topics as the course progresses. This video gives you the information that you need to get started with the basics in Fusion 360.
 
 ## Fusion 360 Introduction Video
 
@@ -20,4 +20,3 @@ Watch the video about the [Fusion 360 User Interface](https://youtu.be/YjaxBbTY3
 
 </div>
 </div>
-360

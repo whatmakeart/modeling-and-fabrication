@@ -79,10 +79,11 @@ function removeNavigationEmbed() {
     document.getElementById("header").remove();
     document.getElementById("footer").remove();
     console.log("Removed iframe #header and #footer");
+    // temporarily commented out to eliminate variables in why app iframe has no height
     //document.body.style.overflow = "hidden"; // to remove iframe scrollbars on desktop browsers
   }
   if (self === top) {
-    console.log("Top level website so keep navigation");
+    console.log("Top level website so keep native navigation");
   }
 }
 
@@ -129,18 +130,18 @@ function monitorMutations() {
 
 // Listen for postMessages from iframe and Canvas
 
-/*
-        // Set theme to the user's preferred color scheme dark or light mode
-        function updateTheme() {
-            const colorMode = window.matchMedia("(prefers-color-scheme: dark)").matches
-                ? "dark"
-                : "light";
-            document.querySelector("html").setAttribute("data-bs-theme", colorMode);
-        }
-    
-        // Set theme on load
-        updateTheme()
-    
-        // Update theme when the preferred scheme changes
-        window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', updateTheme)
-    */
+// Set theme to the user's preferred color scheme dark or light mode
+function updateTheme() {
+  const colorMode = window.matchMedia("(prefers-color-scheme: dark)").matches
+    ? "dark"
+    : "light";
+  document.querySelector("html").setAttribute("data-bs-theme", colorMode);
+}
+
+// Set theme on load
+updateTheme();
+
+// Update theme when the preferred scheme changes
+window
+  .matchMedia("(prefers-color-scheme: dark)")
+  .addEventListener("change", updateTheme);

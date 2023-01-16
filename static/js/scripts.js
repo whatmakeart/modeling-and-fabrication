@@ -20,10 +20,10 @@ window.addEventListener("load", function (event) {
   function doSomething() {
     console.log("send iframe height");
     sendIframeHeight();
-    if (++i < 5) {
+    if (++i < 10) {
       // only reset the timer when maximum of 10 times it is fired
       console.log("reset the timer");
-      setTimeout(doSomething, 10); // reset the timer
+      setTimeout(doSomething, 100); // reset the timer
     }
   }
   setTimeout(doSomething, 1000); // init the first

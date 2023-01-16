@@ -23,7 +23,7 @@ window.addEventListener("load", function (event) {
     if (++i < 10) {
       // only reset the timer when maximum of 10 times it is fired
       console.log("reset the timer");
-      setTimeout(doSomething, 100); // reset the timer
+      setTimeout(doSomething, 50); // reset the timer
     }
   }
   setTimeout(doSomething, 1000); // init the first
@@ -134,10 +134,6 @@ function checkIfMobile() {
   } else {
     console.log("Browser is not mobile");
   }
-  // webview detection
-  if (isWebview() === true) {
-    changeStyleWebview();
-  }
 }
 
 function monitorMutations() {
@@ -147,6 +143,14 @@ function monitorMutations() {
     console.log("mutation detected");
   });
   mo.observe(document, { subtree: true, childList: true, characterData: true });
+}
+
+// remove Boostrap Styles
+function changeStyle() {
+  const elements = document.querySelectorAll(".container-fluid");
+  elements.forEach(function (element) {
+    element.style.padding = 0; // Bootstrap has left and right padding that doesnt let the iframe content expand fully
+  });
 }
 
 /*
@@ -167,38 +171,3 @@ window
   .matchMedia("(prefers-color-scheme: dark)")
   .addEventListener("change", updateTheme);
 */
-function changeStyle() {
-  const elements = document.querySelectorAll(".container-fluid");
-  elements.forEach(function (element) {
-    element.style.padding = 0;
-  });
-}
-
-function changeStyleWebview() {
-  document.body.style.overflow = "visible";
-  const elements = document.querySelectorAll(".container-fluid");
-  elements.forEach(function (element) {
-    // element.style.color = "red"; // used to confirm the function works
-  });
-}
-
-// detect if Canvas app is being used by attempting to check if it is webview
-const rules = [
-  // if it says it's a webview, let's go with that
-  "WebView",
-  // iOS webview will be the same as safari but missing "Safari"
-  "(iPhone|iPod|iPad)(?!.*Safari)",
-  // https://developer.chrome.com/docs/multidevice/user-agent/#webview_user_agent
-  "Android.*Version/[0-9].[0-9]",
-  // Also, we should save the wv detected for Lollipop
-  // Android Lollipop and Above: webview will be the same as native but it will contain "wv"
-  "Android.*wv",
-  // old chrome android webview agent
-  "Linux; U; Android",
-];
-
-var webviewRegExp = new RegExp("(" + rules.join("|") + ")", "ig");
-
-function isWebview(ua) {
-  return !!ua.match(webviewRegExp);
-}

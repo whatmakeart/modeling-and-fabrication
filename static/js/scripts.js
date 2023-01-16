@@ -125,7 +125,7 @@ function removeNavigationEmbed() {
     document.getElementById("header").remove();
     document.getElementById("footer").remove();
     console.log("Removed iframe #header and #footer");
-    document.body.style.overflow = "hidden"; // to remove iframe scrollbars on desktop browsers
+    //document.body.style.overflow = "hidden"; // to remove iframe scrollbars on desktop browsers
   }
   if (self === top) {
     console.log("Top level website so keep navigation");

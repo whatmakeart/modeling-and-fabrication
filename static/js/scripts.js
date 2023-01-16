@@ -13,39 +13,11 @@ if (document.readyState === "loading") {
 }
 
 window.addEventListener("load", function (event) {
-  /* do task 1 */ console.log("Page content is fully loaded");
-
+  console.log("Page content is fully loaded");
   checkIfMobile();
-
-  // This will be repeated 15 times with .01 second intervals:
-  setIntervalX(
-    function () {
-      sendIframeHeight();
-    },
-    10,
-    15
-  );
-
-  // monitor self-initiated changes in size
-  var mo = new MutationObserver(function () {
-    sendIframeHeight();
-    console.log("mutation detected");
-  });
-  mo.observe(document, { subtree: true, childList: true, characterData: true });
+  sendIframeHeight();
+  //monitorMutations();
 });
-
-// For sending iframe height multiple times and then stopping on first page load
-// Possibly could be fixed with proper Canvas Listening for a loaded postMessage
-function setIntervalX(callback, delay, repetitions) {
-  var x = 0;
-  var intervalID = window.setInterval(function () {
-    callback();
-
-    if (++x === repetitions) {
-      window.clearInterval(intervalID);
-    }
-  }, delay);
-}
 
 // sends postMessage to top / opener / parent page with hight information
 function sendIframeHeight() {
@@ -162,6 +134,15 @@ function checkIfMobile() {
   } else {
     console.log("Browser is not mobile");
   }
+}
+
+function monitorMutations() {
+  // monitor self-initiated changes in size
+  var mo = new MutationObserver(function () {
+    sendIframeHeight();
+    console.log("mutation detected");
+  });
+  mo.observe(document, { subtree: true, childList: true, characterData: true });
 }
 
 // Listen for postMessages from iframe and Canvas

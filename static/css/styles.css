@@ -42,12 +42,13 @@ h6 {
   max-width: 1366px;
   min-width: 301px;
 }
+
 .responsive-table-markdown {
   display: block;
   width: 100%;
   overflow-x: auto;
   margin: 0 auto;
-  max-width: 1000px;
+  max-width: 1366px;
 }
 
 .responsive-table-markdown > table {
@@ -94,6 +95,7 @@ img {
   height: 100%;
   border: 0;
 }
+
 .video-card {
   display: flex;
   flex-direction: column;

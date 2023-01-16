@@ -6,9 +6,7 @@ draft: false
 
 ## Assignment Deliverables
 
-Upload labeled scanned sketches in a labeled folder to this Google Drive Folder.
-
-You will upload three separate, labeled JPEGs in a labeled folder.
+You will upload three separate, scanned, and labeled JPEGs of the following technical sketching practice exercises:
 
 1.  Page of straight lines
 2.  Isometric Cube with three isometric circles drawn freehand
@@ -36,23 +34,15 @@ After you have a page of good straight lines, then follow the video to draw an i
 
 Once you finish the freehand isometric cube, draw the same cube on a new sheet of paper but this time use your drafting tools. Although freehand sketching is great and very important, often we have to take our freehand sketch ideas and refine them for presentation.
 
-The videos below show the needed technical sketching tools. They also demonstrate how to practice drawing straight lines freehand. This is an important skill for ideation sketching, 3D modeling sketching and isometric crating. The videos then demonstrate how to draw an isometric cube with isometric circles on each face of the cube freehand. This is followed by a demonstration of how to draw an isometric cube with isometric circles on each face using a t-square, 30 / 60 triangle, and a compass.
+## Technical Sketching Exercise Videos
 
-# Technical Sketching Exercise Videos
+The videos below demonstrate how to practice drawing straight lines freehand. This is an important skill for ideation sketching, 3D modeling sketching and isometric crating. The videos then demonstrate how to draw an isometric cube with isometric circles on each face of the cube freehand. This is followed by a demonstration of how to draw an isometric cube with isometric circles on each face using a t-square, 30 / 60 triangle, and a compass.
 
 <div class="tutorial-video-grid">
 
 <div class="video-card">
 
-### 1\. Supplies Needed for Technical Drawing
-
-<div class="iframe-16-9-container"><iframe class="youTubeIframe" src="https://www.youtube.com/embed/QaTlzXEHu4g" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
-
-</div>
-
-<div class="video-card">
-
-### 2\. How to Draw Straight Lines
+### 2. How to Draw Straight Lines
 
 <div class="iframe-16-9-container"><iframe class="youTubeIframe" src="https://www.youtube.com/embed/UUQa2CtzIwE" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
 
@@ -60,7 +50,7 @@ The videos below show the needed technical sketching tools. They also demonstrat
 
 <div class="video-card">
 
-### 3\. Draw Isometric Cube Freehand
+### 3. Draw Isometric Cube Freehand
 
 <div class="iframe-16-9-container"><iframe class="youTubeIframe" src="https://www.youtube.com/embed/8FkcqdCmT1U" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
 
@@ -68,7 +58,7 @@ The videos below show the needed technical sketching tools. They also demonstrat
 
 <div class="video-card">
 
-### 4\. Draw Isometric Circle Freehand
+### 4. Draw Isometric Circle Freehand
 
 <div class="iframe-16-9-container"><iframe class="youTubeIframe" src="https://www.youtube.com/embed/twj5luXIC_c" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
 
@@ -76,7 +66,7 @@ The videos below show the needed technical sketching tools. They also demonstrat
 
 <div class="video-card">
 
-### 5\. Draw Isometric Cube with a T-Square
+### 5. Draw Isometric Cube with a T-Square
 
 <div class="iframe-16-9-container"><iframe class="youTubeIframe" src="https://www.youtube.com/embed/7t4ycR3fXJ4" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
 
@@ -84,7 +74,7 @@ The videos below show the needed technical sketching tools. They also demonstrat
 
 <div class="video-card">
 
-### 6\. Draw Isometric Circle with a Compass
+### 6. Draw Isometric Circle with a Compass
 
 <div class="iframe-16-9-container"><iframe class="youTubeIframe" src="https://www.youtube.com/embed/EaTwlLaMYao" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
 
@@ -92,7 +82,7 @@ The videos below show the needed technical sketching tools. They also demonstrat
 
 </div>
 
-# Grading Rubric
+## Grading Rubric
 
 <div class="responsive-table-markdown">
 

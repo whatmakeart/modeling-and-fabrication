@@ -1,16 +1,10 @@
-// should get the url of the page the iframe is embedded in even with different origins but doesn't seem to work
-const currentURL = document.baseURI;
-
-console.log(currentURL);
-
 if (document.readyState === "loading") {
   // Loading hasn't finished yet
-  document.addEventListener(
-    "DOMContentLoaded",
-    removeNavigationEmbed,
-    sendIframeHeight
-  );
-  console.log("DOMContentLoaded after checking readyState");
+  document.addEventListener("DOMContentLoaded", function () {
+    console.log("DOMContentLoaded after checking readyState");
+    removeNavigationEmbed();
+    sendIframeHeight();
+  });
 } else {
   // `DOMContentLoaded` has already fired which sometimes happens so run the functions
   console.log("DOMContentLoaded has already fired before addEventListener");

@@ -16,7 +16,7 @@ window.addEventListener("load", function (event) {
   console.log("Page content is fully loaded");
   checkIfMobile();
   sendIframeHeight();
-  setTimeout(sendIframeHeight, 10);
+  setTimeout(sendIframeHeight, 30); // 10 was too short for a page reload on mobile browser
   //monitorMutations();
 });
 
@@ -120,11 +120,11 @@ function checkIfMobile() {
   } else {
     console.log("Browser is not mobile");
   }
-// webview detection
+  // webview detection
   if (isWebview() === true) {
     document.body.style.overflow = "visible";
     changeStyleMobile();
-}
+  }
 }
 
 function monitorMutations() {
@@ -174,7 +174,7 @@ let navigator = window.navigator;
 const standalone = navigator.standalone;
 const userAgent = navigator.userAgent.toLowerCase();
 const safari = /safari/.test(userAgent);
-const ios = /iphone|ipod|ipad/macintosh.test(userAgent);
+const ios = /iphone|ipod|ipad/macintosh/.test(userAgent);
 const ios_ipad_webview = ios && !safari;
 
 return ios ? ( (!standalone && !safari) || ios_ipad_webview ) : userAgent.includes('wv');

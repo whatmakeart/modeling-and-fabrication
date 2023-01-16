@@ -36,5 +36,4 @@ You can use [this sketch](2022-Sketch-of-Sample-Part-for-Fusion-360-Modeling-Exe
 <div class="iframe-16-9-container"><iframe class="youTubeIframe" src="https://www.youtube.com/embed/arTAFuBS-qI" width="300" height="150" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
 
 </div>
-
 </div>

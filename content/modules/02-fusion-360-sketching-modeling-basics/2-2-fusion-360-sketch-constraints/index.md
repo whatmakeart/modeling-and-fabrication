@@ -16,19 +16,18 @@ Fusion 360 has many different useful sketch constraints including horizontal/ver
 
 When new sketch lines ore elements are drawn in Fusion 360 they appear blue, indicating that there is not enough information to determine how the line or rectangle should appear. It could be missing a dimension, not know what angle it should be at, not know where the line starts or stops, or many other "undefined" aspects of the sketch. If a sketch is not fully defined then small changes can have big effects and can move parts of your design around in unexpected and frustrating ways. Once everything is defined, then the sketch lines turn black and a red padlock appears on the sketch name in the outliner, indicating that the sketch is fully defined.
 
-<div class="tutorial-video-grid>
+<div class="tutorial-video-grid">
 
 <div class="video-card">
 
-## 2\. Fusion 360 Sketch Constraints
+## 2. Fusion 360 Sketch Constraints
 
 <div class="iframe-16-9-container"><iframe class="youTubeIframe" src="https://www.youtube.com/embed/vNdBkiO8Nfc?rel=0" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
 
 </div>
-
 <div class="video-card">
 
-## 3\. Fusion 360 Fully Defined Sketch
+## 3. Fusion 360 Fully Defined Sketch
 
 <div class="iframe-16-9-container"><iframe class="youTubeIframe" src="https://www.youtube.com/embed/9k7nsXpbZ5A?rel=0" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
 

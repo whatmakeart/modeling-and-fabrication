@@ -4,7 +4,7 @@ date: 2020-01-26T23:11:13Z
 draft: false
 ---
 
-## Deliverables
+## Assignment Deliverables
 
 Upload 2 separate, labeled JPEGs of 2 different objects drawn in third angle projection on paper. One is drawn freehand and one is drawn with technical drawing tools.
 
@@ -70,4 +70,19 @@ Label the files:
 <div class="iframe-16-9-container"><iframe class="youTubeIframe" src="https://www.youtube.com/embed/jfrTuoI6hBQ" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
 
 </div>
+</div>
+
+## Grading Rubric
+
+<div class="responsive-table-markdown">
+
+| Assessment                | Weight    |
+| ------------------------- | --------- |
+| Freehand Sketch Quality   | 30 points |
+| Freehand Clear Dimensions | 10 points |
+| T-Square Sketch quality   | 30 points |
+| T-Square Clear Dimensions | 10 points |
+| Sketch Documentation      | 20 points |
+| File Management           | 10 points |
+
 </div>

@@ -105,21 +105,7 @@ let resizeObserver = new ResizeObserver(() => {
 });
 
 resizeObserver.observe(document.querySelector(".container-fluid"));
-// send new iframe height postMessage if window is resized
-/*var resizeTimer;
 
-window.onresize = function () {
-  clearTimeout(resizeTimer);
-  resizeTimer = setTimeout(function () {
-    console.log("Window Resized");
-    console.log(
-      "New iframe scrollHeight: " + document.documentElement.scrollHeight + "px"
-    );
-    sendIframeHeight();
-    window.top.postMessage({ subject: "lti.fetchWindowSize" }, "*"); // requests height of Canvas screen window
-  }, 100);
-};
-*/
 function checkIfMobile() {
   // device detection
   if (

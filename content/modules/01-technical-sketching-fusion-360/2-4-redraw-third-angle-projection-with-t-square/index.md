@@ -20,14 +20,6 @@ Scan the drawing and label the image YYYYMMDD Lastname Firstname Redrawn Third A
 
 <div class="video-card">
 
-## Third Angle Projection with a T-Square
-
-<div class="iframe-16-9-container"><iframe class="youTubeIframe" src="https://www.youtube.com/embed/jfrTuoI6hBQ" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
-
-</div>
-
-<div class="video-card">
-
 ## Draw Isometric Circle with a Compass
 
 <div class="iframe-16-9-container"><iframe class="youTubeIframe" src="https://www.youtube.com/embed/EaTwlLaMYao" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>

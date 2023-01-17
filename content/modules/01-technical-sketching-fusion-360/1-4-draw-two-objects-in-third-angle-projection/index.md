@@ -76,13 +76,13 @@ Label the files:
 
 <div class="responsive-table-markdown">
 
-| Assessment                | Weight    |
-| ------------------------- | --------- |
-| Freehand Sketch Quality   | 30 points |
-| Freehand Clear Dimensions | 10 points |
-| T-Square Sketch quality   | 30 points |
-| T-Square Clear Dimensions | 10 points |
-| Sketch Documentation      | 20 points |
-| File Management           | 10 points |
+| Assessment                      | Weight    |
+| ------------------------------- | --------- |
+| Freehand Third Angle Projection | 25 points |
+| Freehand Clear Dimensions       | 10 points |
+| T-Square Third Angle Projection | 25 points |
+| T-Square Clear Dimensions       | 10 points |
+| Documentation                   | 20 points |
+| File Management                 | 10 points |
 
 </div>

@@ -17,7 +17,7 @@ custom_css = "css/styles.css"
 [params]
   
   authorName = "Jimmy Kuehnle"
-  favicon = "/favicon/favicon.ico"
+  favicon = "/img/favicon/favicon.ico"
   site_logo = "/img/whatmakeart-logo.png"
   description = "Whatmakeart how to make art tutorials"
   facebook = ""

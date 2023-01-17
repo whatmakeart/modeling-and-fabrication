@@ -95,6 +95,7 @@ function removeNavigationEmbed() {
 
     document.getElementById("header").remove();
     document.getElementById("footer").remove();
+    document.getElementById("pageTitleH1").remove();
     console.log("Removed iframe #header and #footer");
     changeStyle(); // remove Bootstrap Styles
     document.body.style.overflow = "hidden"; // to remove iframe scrollbars on desktop browsers

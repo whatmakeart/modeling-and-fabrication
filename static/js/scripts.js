@@ -17,23 +17,17 @@ window.addEventListener("load", function (event) {
   checkIfMobile();
   checkIfWebview();
 
-  var i = 0; // counter for the timer
-  function doSomething() {
-    console.log("send iframe height");
-    sendIframeHeight();
-    if (++i < 10) {
-      // only reset the timer when maximum of 10 times it is fired
-      console.log("reset the timer");
-      setTimeout(doSomething, 50); // reset the timer
-    }
-  }
-  setTimeout(doSomething, 1000); // init the first
+  // This will be repeated 9 times with .01 second intervals:
+  // delay is first param and number of times is secton
+  setIntervalX(
+    function () {
+      // Your logic here
+      sendIframeHeight();
+    },
+    10,
+    9
+  );
 
-  // after 5 seconds stop
-  setTimeout(() => {
-    clearInterval(timerId);
-    alert("stop");
-  }, 5000);
   //monitorMutations();
 });
 
@@ -162,6 +156,18 @@ function changeStyleWebview() {
   });
 }
 
+// used to repeat code a certain ammount of times with a delay
+function setIntervalX(callback, delay, repetitions) {
+  var x = 0;
+  var intervalID = window.setInterval(function () {
+    callback();
+
+    if (++x === repetitions) {
+      window.clearInterval(intervalID);
+    }
+  }, delay);
+}
+
 function checkIfWebview() {
   const rules = [
     // if it says it's a webview, let's go with that
@@ -183,7 +189,7 @@ function checkIfWebview() {
     return !!ua.match(webviewRegExp);
   }
 
-  if (isWebviewk() === true) {
+  if (isWebview() === true) {
     console.log("It is Webview");
     changeStyleWebview();
   } else {

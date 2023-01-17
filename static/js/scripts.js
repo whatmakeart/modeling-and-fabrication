@@ -16,6 +16,13 @@ window.addEventListener("load", function (event) {
   console.log("Page content is fully loaded");
   checkIfMobile();
   checkIfWebview();
+  window.chrome.webview.postMessage(
+    JSON.stringify({
+      subject: "lti.frameResize",
+      height: document.documentElement.scrollHeight,
+    }),
+    "https://cia.instructure.com/"
+  );
 
   // This will be repeated 9 times with .01 second intervals:
   // delay is first param and number of times is secton
@@ -55,7 +62,7 @@ function sendIframeHeight() {
         subject: "lti.frameResize",
         height: document.documentElement.scrollHeight,
       }),
-      "https://cia.instructure.com/"
+      "*"
     );
 
     window.top.postMessage(
@@ -176,33 +183,31 @@ function setIntervalX(callback, delay, repetitions) {
   }, delay);
 }
 
-function checkIfWebview() {
-  const rules = [
-    // if it says it's a webview, let's go with that
-    "WebView",
-    // iOS webview will be the same as safari but missing "Safari"
-    "(iPhone|iPod|iPad)(?!.*Safari)",
-    // https://developer.chrome.com/docs/multidevice/user-agent/#webview_user_agent
-    "Android.*Version/[0-9].[0-9]",
-    // Also, we should save the wv detected for Lollipop
-    // Android Lollipop and Above: webview will be the same as native but it will contain "wv"
-    "Android.*wv",
-    // old chrome android webview agent
-    "Linux; U; Android",
-  ];
+const rules = [
+  // if it says it's a webview, let's go with that
+  "WebView",
+  // iOS webview will be the same as safari but missing "Safari"
+  "(iPhone|iPod|iPad)(?!.*Safari)",
+  // https://developer.chrome.com/docs/multidevice/user-agent/#webview_user_agent
+  "Android.*Version/[0-9].[0-9]",
+  // Also, we should save the wv detected for Lollipop
+  // Android Lollipop and Above: webview will be the same as native but it will contain "wv"
+  "Android.*wv",
+  // old chrome android webview agent
+  "Linux; U; Android",
+];
 
-  var webviewRegExp = new RegExp("(" + rules.join("|") + ")", "ig");
+var webviewRegExp = new RegExp("(" + rules.join("|") + ")", "ig");
 
-  function isWebview(ua) {
-    return !!ua.match(webviewRegExp);
-  }
+function isWebview(ua) {
+  return !!ua.match(webviewRegExp);
+}
 
-  if (isWebview() === true) {
-    console.log("It is Webview");
-    changeStyleWebview();
-  } else {
-    console.log("It is Not Webview");
-  }
+if (isWebview() === true) {
+  console.log("It is Webview");
+  changeStyleWebview();
+} else {
+  console.log("It is Not Webview");
 }
 
 /*

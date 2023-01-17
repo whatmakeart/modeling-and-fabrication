@@ -15,14 +15,6 @@ if (document.readyState === "loading") {
 window.addEventListener("load", function (event) {
   console.log("Page content is fully loaded");
   checkIfMobile();
-  checkIfWebview();
-  window.chrome.webview.postMessage(
-    JSON.stringify({
-      subject: "lti.frameResize",
-      height: document.documentElement.scrollHeight,
-    }),
-    "https://cia.instructure.com/"
-  );
 
   // This will be repeated 9 times with .01 second intervals:
   // delay is first param and number of times is secton
@@ -56,14 +48,6 @@ function sendIframeHeight() {
     );
   } else if (window.top != null && typeof window.top != "undefined") {
     console.log("This window is the top");
-
-    window.chrome.webview.postMessage(
-      JSON.stringify({
-        subject: "lti.frameResize",
-        height: document.documentElement.scrollHeight,
-      }),
-      "*"
-    );
 
     window.top.postMessage(
       JSON.stringify({
@@ -161,13 +145,6 @@ function changeStyle() {
   const elements = document.querySelectorAll(".container-fluid");
   elements.forEach(function (element) {
     element.style.padding = 0; // Bootstrap has left and right padding that doesnt let the iframe content expand fully
-  });
-}
-
-function changeStyleWebview() {
-  const elements = document.querySelectorAll(".container-fluid");
-  elements.forEach(function (element) {
-    element.style.color = "red"; // Bootstrap has left and right padding that doesnt let the iframe content expand fully
   });
 }
 

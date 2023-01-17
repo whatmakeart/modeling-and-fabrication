@@ -99,8 +99,14 @@ function removeNavigationEmbed() {
   }
 }
 
+let resizeObserver = new ResizeObserver(() => {
+  console.log("The element was resized");
+  sendIframeHeight();
+});
+
+resizeObserver.observe(document.querySelector(".container-fluid"));
 // send new iframe height postMessage if window is resized
-var resizeTimer;
+/*var resizeTimer;
 
 window.onresize = function () {
   clearTimeout(resizeTimer);
@@ -113,7 +119,7 @@ window.onresize = function () {
     window.top.postMessage({ subject: "lti.fetchWindowSize" }, "*"); // requests height of Canvas screen window
   }, 100);
 };
-
+*/
 function checkIfMobile() {
   // device detection
   if (

@@ -42,7 +42,7 @@ The videos below demonstrate how to practice drawing straight lines freehand. Th
 
 <div class="video-card">
 
-### 2. How to Draw Straight Lines
+### 1. How to Draw Straight Lines
 
 <div class="iframe-16-9-container"><iframe class="youTubeIframe" src="https://www.youtube.com/embed/UUQa2CtzIwE" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
 
@@ -50,7 +50,7 @@ The videos below demonstrate how to practice drawing straight lines freehand. Th
 
 <div class="video-card">
 
-### 3. Draw Isometric Cube Freehand
+### 2. Draw Isometric Cube Freehand
 
 <div class="iframe-16-9-container"><iframe class="youTubeIframe" src="https://www.youtube.com/embed/8FkcqdCmT1U" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
 
@@ -58,7 +58,7 @@ The videos below demonstrate how to practice drawing straight lines freehand. Th
 
 <div class="video-card">
 
-### 4. Draw Isometric Circle Freehand
+### 3. Draw Isometric Circle Freehand
 
 <div class="iframe-16-9-container"><iframe class="youTubeIframe" src="https://www.youtube.com/embed/twj5luXIC_c" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
 
@@ -66,7 +66,7 @@ The videos below demonstrate how to practice drawing straight lines freehand. Th
 
 <div class="video-card">
 
-### 5. Draw Isometric Cube with a T-Square
+### 4. Draw Isometric Cube with a T-Square
 
 <div class="iframe-16-9-container"><iframe class="youTubeIframe" src="https://www.youtube.com/embed/7t4ycR3fXJ4" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
 
@@ -74,7 +74,7 @@ The videos below demonstrate how to practice drawing straight lines freehand. Th
 
 <div class="video-card">
 
-### 6. Draw Isometric Circle with a Compass
+### 5. Draw Isometric Circle with a Compass
 
 <div class="iframe-16-9-container"><iframe class="youTubeIframe" src="https://www.youtube.com/embed/EaTwlLaMYao" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
 

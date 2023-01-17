@@ -4,9 +4,9 @@ date: 2020-01-26T23:11:13Z
 draft: false
 ---
 
-## What is a Third Angle Projection?
-
 Third angle projection is a method of drawing a three dimensional object on a two dimensional plane or piece of paper. It is a type of orthographic projection that shows how an object looks from different directions on the same drawing. The different views line up and can be used to project dimensions from one view to another view using orthogonal (perpendicular) lines. The three views are front, side and top. The other common multi angle projection method is first angle projection but we will focus on third angle projections.
+
+## Third Angle vs First Angle?
 
 The main difference between third and first angle projection is the conceptual placement of the object with respect to the projection planes. In first angle projection the object is in the first quadrant and is imagined to be transparent while the projection planes are opaque. In third angle projection the object is in the third quadrant and is imagined to be opaque while the projection planes are transparent. The quadrants are the four "boxes" made with a typical x / y cartesian plane but with three dimensions. The first quadrant is the upper right or where the positive x and y are. The third quadrant is the lower left where the -x and -y are. In first angle projection the object is in between the viewer and the projection plane and in third angle projection the plane is in between the object and the viewer.
 
@@ -35,7 +35,7 @@ The video below demonstrates how to draw a simple third angle projection of a wo
 <div class="tutorial-video-grid">
 <div class="video-card">
 
-### 2. Third Angle Projection Freehand
+### 1. Third Angle Projection Freehand
 
 <div class="iframe-16-9-container"><iframe class="youTubeIframe" src="https://www.youtube.com/embed/0SdWqEYKYrI" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
 

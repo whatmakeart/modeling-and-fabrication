@@ -44,8 +44,6 @@ You can use [this sketch](2022-Sketch-of-Sample-Part-for-Fusion-360-Modeling-Exe
 
 ## Grading Rubric
 
-## Grading Rubric
-
 <div class="responsive-table-markdown">
 
 | Assessment                  | Weight    |

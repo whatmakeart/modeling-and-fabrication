@@ -4,8 +4,6 @@ date: 2020-01-26T23:11:13Z
 draft: false
 ---
 
-## Technical Sketching
-
 Technical sketching is a form of drawing used to visually communicate how and object is made, put together, or how something functions. Often dimensions of the object are written on the sketch as well as the precise scale of the drawing. A scaled drawing allows for small and large objects to be drawn at a reasonable size rather than their respective real world scale. Even if a drawing is not to scale it can still describe the form of the object.
 
 Technical sketching differs from more creative types of drawing, rendering, representational drawing, and concept sketching. Technical sketching aims to remove any doubt or confusion about the shape and form of an object. This clear and communicative precision is in contrast to creative drawings that can look quite realistic, but do not contain all the needed information to fabricate or manufacture an object. A visually stunning rendering of a sports car, or a beautiful rendering of a new house may be necessary to communicate the feeling of a design for sales and advertising but technical drawings are needed to communicate how to make the car or house.
@@ -64,3 +62,15 @@ Nothing more than a pencil, paper, and often an eraser is needed to make technic
 - straight edge
 - scaled rulers
 - measuring device such as digital calipers or rulers
+
+<div class="tutorial-video-grid">
+
+<div class="video-card">
+
+### 1. Technical Sketching Tools
+
+<div class="iframe-16-9-container"><iframe class="youTubeIframe" src="https://www.youtube.com/embed/QaTlzXEHu4g?rel=0" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
+
+</div>
+
+</div>

@@ -15,6 +15,7 @@ if (document.readyState === "loading") {
 window.addEventListener("load", function (event) {
   console.log("Page content is fully loaded");
   checkIfMobile();
+  checkIfWebview();
 
   var i = 0; // counter for the timer
   function doSomething() {
@@ -152,6 +153,42 @@ function changeStyle() {
   elements.forEach(function (element) {
     element.style.padding = 0; // Bootstrap has left and right padding that doesnt let the iframe content expand fully
   });
+}
+
+function changeStyleWebview() {
+  const elements = document.querySelectorAll(".container-fluid");
+  elements.forEach(function (element) {
+    element.style.color = "red"; // Bootstrap has left and right padding that doesnt let the iframe content expand fully
+  });
+}
+
+function checkIfWebview() {
+  const rules = [
+    // if it says it's a webview, let's go with that
+    "WebView",
+    // iOS webview will be the same as safari but missing "Safari"
+    "(iPhone|iPod|iPad)(?!.*Safari)",
+    // https://developer.chrome.com/docs/multidevice/user-agent/#webview_user_agent
+    "Android.*Version/[0-9].[0-9]",
+    // Also, we should save the wv detected for Lollipop
+    // Android Lollipop and Above: webview will be the same as native but it will contain "wv"
+    "Android.*wv",
+    // old chrome android webview agent
+    "Linux; U; Android",
+  ];
+
+  var webviewRegExp = new RegExp("(" + rules.join("|") + ")", "ig");
+
+  function isWebview(ua) {
+    return !!ua.match(webviewRegExp);
+  }
+
+  if (isWebviewk() === true) {
+    console.log("It is Webview");
+    changeStyleWebview();
+  } else {
+    console.log("It is Not Webview");
+  }
 }
 
 /*

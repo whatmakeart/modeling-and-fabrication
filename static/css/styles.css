@@ -60,15 +60,11 @@ img {
   height: auto;
 }
 
-.two-column-instructions-grid {
+.two-column-grid {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 1fr;
   align-items: center;
   grid-gap: 0px;
-}
-
-.two-column-instructions-grid > * {
-  border-top: 1px solid red;
 }
 
 .tutorial-video-grid {
@@ -158,4 +154,14 @@ a.title-link {
 
 .caption-jimmy {
   font-size: 14px;
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+
+  .two-column-grid {
+    grid-template-columns: 50% 50%;
+
+    grid-gap: 1rem;
+  }
 }

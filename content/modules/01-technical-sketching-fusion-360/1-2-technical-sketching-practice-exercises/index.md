@@ -26,13 +26,29 @@ Using loose sheets of paper, <span style="text-decoration: underline;">not</span
 
 Draw a minimum of 1 page filled with straight lines. It is a good idea to do this multiple times until you get the hang of it. It will help you in your sketching in all of your classes. Remember to draw from the shoulder.
 
+<div class="two-column-grid"><div>
+
 ### Freehand Isometric Cube with Circles
 
 After you have a page of good straight lines, then follow the video to draw an isometric cube with circles. Do this freehand. Freehand sketching is import for quickly communicating ideas, generating ideations, and solving design problems.
 
+</div>
+
+![Freehand Isometric Cube with Circles Example](20220118-Isometric-Cube-with-Circles-Freehand-Example.jpg)
+
+</div>
+
+<div class="two-column-grid"><div>
+
 ### Isometric Cube with Circles using Drawing Tools
 
 Once you finish the freehand isometric cube, draw the same cube on a new sheet of paper but this time use your drafting tools. Although freehand sketching is great and very important, often we have to take our freehand sketch ideas and refine them for presentation.
+
+</div>
+
+![T-Square Isometric Cube with Circles Example](20220118-Isometric-Cube-with-Circles-T-Square-Example.jpg)
+
+</div>
 
 ## Technical Sketching Exercise Videos
 

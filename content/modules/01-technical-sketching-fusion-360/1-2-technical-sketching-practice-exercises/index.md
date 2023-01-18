@@ -26,13 +26,13 @@ Using loose sheets of paper, <span style="text-decoration: underline;">not</span
 
 ### 1. Page Filled with Straight Lines
 
-Draw a minimum of 1 page filled with straight lines. It is a good idea to do this multiple times until you get the hang of it. It will help you in your sketching in all of your classes. Remember to draw from the shoulder.
+Draw a minimum of 1 page filled with straight lines. It is a good idea to do this multiple times until you get the hang of it. It will help you in your sketching in all of your classes. Remember to draw from the shoulder. Video demo of [drawing freehand straight lines](https://www.youtu.be/UUQa2CtzIwE).
 
 <div class="two-column-grid"><div>
 
 ### 2. Freehand Isometric Cube with Circles
 
-After you have a page of good straight lines, then follow the video to draw an isometric cube with circles. Do this freehand. Freehand sketching is import for quickly communicating ideas, generating ideations, and solving design problems.
+After you have a page of good straight lines, then follow the video to draw an isometric cube with circles. Do this freehand. Freehand sketching is import for quickly communicating ideas, generating ideations, and solving design problems. Video demos of [freehand isometric cubes](https://www.youtu.be/8FkcqdCmT1U) and [freehand isometric circles](https://www.youtu.be/twj5luXIC_c).
 
 </div>
 
@@ -44,7 +44,7 @@ After you have a page of good straight lines, then follow the video to draw an i
 
 ### 3. Isometric Cube with Circles using Drawing Tools
 
-Once you finish the freehand isometric cube, draw the same cube on a new sheet of paper but this time use your drafting tools. Although freehand sketching is great and very important, often we have to take our freehand sketch ideas and refine them for presentation.
+Once you finish the freehand isometric cube, draw the same cube on a new sheet of paper but this time use your drafting tools. Although freehand sketching is great and very important, often we have to take our freehand sketch ideas and refine them for presentation. Video demos of using drawing tools to draw [isometric cubes](https://www.youtu.be/7t4ycR3fXJ4) and [isometric circles with a compass](https://www.youtu.be/EaTwlLaMYao).
 
 </div>
 
@@ -62,7 +62,7 @@ The videos below demonstrate how to practice drawing straight lines freehand. Th
 
 ### 1. How to Draw Straight Lines
 
-<div class="iframe-16-9-container"><iframe class="youTubeIframe" src="https://www.youtube.com/embed/UUQa2CtzIwE" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
+<div class="iframe-16-9-container"><iframe class="youTubeIframe" src="https://www.youtube.com/embed/UUQa2CtzIwE?rel=0" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
 
 </div>
 
@@ -70,7 +70,7 @@ The videos below demonstrate how to practice drawing straight lines freehand. Th
 
 ### 2. Draw Isometric Cube Freehand
 
-<div class="iframe-16-9-container"><iframe class="youTubeIframe" src="https://www.youtube.com/embed/8FkcqdCmT1U" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
+<div class="iframe-16-9-container"><iframe class="youTubeIframe" src="https://www.youtube.com/embed/8FkcqdCmT1U?rel=0" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
 
 </div>
 
@@ -78,7 +78,7 @@ The videos below demonstrate how to practice drawing straight lines freehand. Th
 
 ### 3. Draw Isometric Circle Freehand
 
-<div class="iframe-16-9-container"><iframe class="youTubeIframe" src="https://www.youtube.com/embed/twj5luXIC_c" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
+<div class="iframe-16-9-container"><iframe class="youTubeIframe" src="https://www.youtube.com/embed/twj5luXIC_c?rel=0" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
 
 </div>
 
@@ -86,7 +86,7 @@ The videos below demonstrate how to practice drawing straight lines freehand. Th
 
 ### 4. Draw Isometric Cube with a T-Square
 
-<div class="iframe-16-9-container"><iframe class="youTubeIframe" src="https://www.youtube.com/embed/7t4ycR3fXJ4" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
+<div class="iframe-16-9-container"><iframe class="youTubeIframe" src="https://www.youtube.com/embed/7t4ycR3fXJ4?rel=0" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
 
 </div>
 
@@ -94,7 +94,7 @@ The videos below demonstrate how to practice drawing straight lines freehand. Th
 
 ### 5. Draw Isometric Circle with a Compass
 
-<div class="iframe-16-9-container"><iframe class="youTubeIframe" src="https://www.youtube.com/embed/EaTwlLaMYao" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
+<div class="iframe-16-9-container"><iframe class="youTubeIframe" src="https://www.youtube.com/embed/EaTwlLaMYao?rel=0" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
 
 </div>
 

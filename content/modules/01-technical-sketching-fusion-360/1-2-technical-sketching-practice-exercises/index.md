@@ -18,17 +18,19 @@ Label the jpg files as:
 - YYYYMMDD Lastname Firstname isometric cube and circles freehand.jpg
 - YYYYMMDD Lastname Firstname isometric cube and circles t-square and compass.jpg
 
+---
+
 ## Instructions
 
 Using loose sheets of paper, <span style="text-decoration: underline;">not</span> in your sketchbooks, do each of the following sketching exercises on your own.
 
-### Page Filled with Straight Lines
+### 1. Page Filled with Straight Lines
 
 Draw a minimum of 1 page filled with straight lines. It is a good idea to do this multiple times until you get the hang of it. It will help you in your sketching in all of your classes. Remember to draw from the shoulder.
 
 <div class="two-column-grid"><div>
 
-### Freehand Isometric Cube with Circles
+### 2. Freehand Isometric Cube with Circles
 
 After you have a page of good straight lines, then follow the video to draw an isometric cube with circles. Do this freehand. Freehand sketching is import for quickly communicating ideas, generating ideations, and solving design problems.
 
@@ -40,7 +42,7 @@ After you have a page of good straight lines, then follow the video to draw an i
 
 <div class="two-column-grid"><div>
 
-### Isometric Cube with Circles using Drawing Tools
+### 3. Isometric Cube with Circles using Drawing Tools
 
 Once you finish the freehand isometric cube, draw the same cube on a new sheet of paper but this time use your drafting tools. Although freehand sketching is great and very important, often we have to take our freehand sketch ideas and refine them for presentation.
 

@@ -10,7 +10,7 @@ Fusion 360 allows you to create fast polygon primitives of specific sizes easily
 
 When creating a new shape it defaults to a new body but you can also create a new component. If there are existing shapes in the model and you create a new form, then there are options for joining, cutting, intersect, as well as new body and new component.
 
-- **join** - Adds the new body onto existing geometry to make a single more complex body.
+- **Join** - Adds the new body onto existing geometry to make a single more complex body.
 - **Cut** - Uses the new body as a cutting tool to remove any place that it overlaps an existing body. The part to be cut is shown in red.
 - **Intersect** - Keeps the geometry that exists in the new body and an existing body. Only works if the new body is overlapping an existing body. The part that will be kept is shown in yellow.
 - **New Body** - Creates a new body even if that body is overlapping existing bodies in the design.

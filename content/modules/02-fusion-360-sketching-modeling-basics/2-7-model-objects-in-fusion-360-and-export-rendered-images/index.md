@@ -4,7 +4,7 @@ date: 2020-01-26T23:11:13Z
 draft: false
 ---
 
-## Deliverables
+## Assignment Deliverables
 
 Upload the following:
 
@@ -16,15 +16,11 @@ Label your files:
 - YYYYMMDD Lastname Firstname Render Image 1.png/jpg
 - YYYYMMDD Lastname Firstname Render Image 2.png/jpg
 - YYYYMMDD Lastname Firstname Fusion 360 model 1.f3d
-- YYYYMMDD Lastname Firstname Fusion 360 model 1=2.f3d
+- YYYYMMDD Lastname Firstname Fusion 360 model 2.f3d
 
 ## Instructions
 
-Using your third angle projection sketches, make a model of your two objects in Fusion 360. Use [Rule Number 1](https://youtu.be/ZYXSJ6EQ9S4) to divide you object into components. Label your components and make sure to activate each component when you are working on it. It is easy to forget which component is activated so it is good practice to right click on the component and isolate it so it is the only thing you can see. Remember to click the dot in the browser to activate the component that you want to work on so that the design history in the timeline stays with that component.
-
 You must model 2 of your objects but you may model more of your objects. Make sure you have all of the dimensions that you need in your third angle projection sketch. If you do not have all the dimensions on your sketch, remeasure your object so you have the information needed to make an accurate model in Fusion 360. If you do not like the objects from your third angle projections, you can choose new objects. Draw new third angle projections with dimensions so you can make the 3D models.
-
-There is no "right" way to model your object. Try to think of the main shapes. Break those down into pieces and then model the main form. Add details after you get the main forms. Look at the example videos to see different techniques and approaches to modeling simple objects.
 
 ## Apply Materials to the Models
 
@@ -51,14 +47,6 @@ From the File menu select Export ...
 In the save file menu, select a location on your computer and choose .f3d for the file type.
 
 </div>
-
-## HDRI Environment Photos for Render Backgrounds
-
-Here is a generous website of Greg Zaal, a CG artist offering their HDRI photos for free. They are licensed under CCO. The artist asks for credit to be mentioned so please do that but you can use these photos for any use.
-
-Download the photo that you want and then you can attach a custom environment in the Fusion 360 Render environment. Then you can use it as the background for renders of your models. This [video](https://www.youtube.com/MmJL4zjfmic) shows how to insert a custom HDRI background.
-
-[https://polyhaven.com/](https://polyhaven.com/)
 
 ## Example Fusion 360 Renders of Simple Objects
 
@@ -109,48 +97,6 @@ Binder Clip with Environment
 ![Fusion 360 Example 3 with Transparent Background](2022-Kuehnle-Jimmy-Model-Object-from-Sketch-Fusion-360-Example-3-with-Transparent-Background.jpg)
 
 Binder Clip with Transparent Background
-
-</div>
-
-</div>
-
-# Helpful Videos
-
-## 4\. Model USB Plug from Third Angle Projection
-
-<div class="iframe-16-9-container"><iframe class="youTubeIframe" src="https://www.youtube.com/embed/VLx9AsbZ8R0?rel=0" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
-
-</div>
-
-<div class="video-card">
-
-## 5\. Model Toy Block
-
-<div class="iframe-16-9-container"><iframe class="youTubeIframe" src="https://www.youtube.com/embed/OJx09e5SrEw?rel=0" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
-
-</div>
-
-<div class="video-card">
-
-## 6\. Model Drinking Glass
-
-<div class="iframe-16-9-container"><iframe class="youTubeIframe" src="https://www.youtube.com/embed/2agSzLpN8Z0?rel=0" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
-
-</div>
-
-<div class="video-card">
-
-## 7\. Model Binder Clip
-
-<div class="iframe-16-9-container"><iframe class="youTubeIframe" src="https://www.youtube.com/embed/MLphWafTfWY?rel=0" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
-
-</div>
-
-<div class="video-card">
-
-## 8\. Custom HDRI Background
-
-<div class="iframe-16-9-container"><iframe class="youTubeIframe" src="https://www.youtube.com/embed/MmJL4zjfmic?rel=0" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
 
 </div>
 

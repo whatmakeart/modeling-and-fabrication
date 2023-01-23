@@ -63,14 +63,14 @@ Nothing more than a pencil, paper, and often an eraser is needed to make technic
 - scaled rulers
 - measuring device such as digital calipers or rulers
 
-<div class="tutorial-video-grid">
+<div class="video-grid">
 
 <div class="video-card">
 
 ### 1. Technical Sketching Tools
 
-<div class="iframe-16-9-container"><iframe class="youTubeIframe" src="https://www.youtube.com/embed/QaTlzXEHu4g?rel=0" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
-
+<div class="iframe-16-9-container"><iframe class="youTubeIframe" src="https://www.youtube.com/embed/QaTlzXEHu4g?rel=0" width="300" height="150" allowfullscreen="allowfullscreen"></iframe>
+</div>
 </div>
 
 </div>

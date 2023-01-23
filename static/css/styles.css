@@ -67,7 +67,8 @@ img {
   grid-gap: 0px;
 }
 
-.tutorial-video-grid {
+.tutorial-video-grid,
+.video-grid {
   display: grid;
   grid-gap: 1rem;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));

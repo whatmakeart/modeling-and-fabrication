@@ -19,16 +19,23 @@ Download the photo that you want and then you can attach a custom environment in
 [https://polyhaven.com/](https://polyhaven.com/)
 
 <div class="video-grid">
+
 <div class="video-card">
 
-## 8. Custom HDRI Background
+## 1. Rendering Aspect Ratio
+
+<div class="iframe-16-9-container"><iframe class="youTubeIframe" src="https://www.youtube.com/embed/NLr1FG27BGs?rel=0" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
+
+</div>
+
+<div class="video-card">
+
+## 3. Custom HDRI Background
 
 <div class="iframe-16-9-container"><iframe class="youTubeIframe" src="https://www.youtube.com/embed/MmJL4zjfmic?rel=0" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
 
 </div>
 
 </div>
-
-https://youtu.be/NLr1FG27BGs Rendering Aspect Ratio
 
 https://youtu.be/2-k1KDkzIqU Custom Appearance

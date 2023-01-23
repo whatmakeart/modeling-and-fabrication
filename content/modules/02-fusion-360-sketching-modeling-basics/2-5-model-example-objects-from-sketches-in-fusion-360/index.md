@@ -43,20 +43,14 @@ Using your third angle projection sketches, make a model of your two objects in 
 
 </div>
 
-https://youtu.be/VLx9AsbZ8R0 - USB Charger
+<div class="video-card">
 
-https://youtu.be/H6W-Og4YyZ8 - User Parameters
+### 5. Model Padlock
 
-https://youtu.be/aIH8ccLzAi4 arcade button
+<div class="iframe-16-9-container"><iframe class="youTubeIframe" src="https://www.youtube.com/embed/8CNllmIHQN0?rel=0" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
 
-https://youtu.be/xHas0R5-6uc knurled texture
+</div>
 
-https://youtu.be/Gpplnrtf3UE Perfect Polygons
-
-https://youtu.be/8CNllmIHQN0 Padlock Sweep
-
-https://youtu.be/jvBfrFdsiV4 Padded Box
-
-https://youtu.be/npRZdueFu8M Glass Panel
+</div>
 
 </div>

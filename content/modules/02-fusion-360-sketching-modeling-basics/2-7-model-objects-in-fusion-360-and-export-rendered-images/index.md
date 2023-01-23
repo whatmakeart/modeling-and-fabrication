@@ -1,5 +1,5 @@
 ---
-title: "1.5 Model Objects in Fusion 360 and Export Render Images"
+title: "2.7 Model Objects in Fusion 360 and Export Render Images"
 date: 2020-01-26T23:11:13Z
 draft: false
 ---
@@ -8,25 +8,23 @@ draft: false
 
 Upload the following:
 
-- 2 high resolution, labeled render files
-- 2 exported Fusion 360 .f3d files
+- 1 high resolution, labeled render file
+- 1 exported Fusion 360 .f3d file
 
 Label your files:
 
 - YYYYMMDD Lastname Firstname Render Image 1.png/jpg
-- YYYYMMDD Lastname Firstname Render Image 2.png/jpg
 - YYYYMMDD Lastname Firstname Fusion 360 model 1.f3d
-- YYYYMMDD Lastname Firstname Fusion 360 model 2.f3d
 
 ## Instructions
 
-You must model 2 of your objects but you may model more of your objects. Make sure you have all of the dimensions that you need in your third angle projection sketch. If you do not have all the dimensions on your sketch, remeasure your object so you have the information needed to make an accurate model in Fusion 360. If you do not like the objects from your third angle projections, you can choose new objects. Draw new third angle projections with dimensions so you can make the 3D models.
+You must model 1 of your objects but you may model more of your objects. Make sure you have all of the dimensions that you need in your third angle projection sketch. If you do not have all the dimensions on your sketch, remeasure your object so you have the information needed to make an accurate model in Fusion 360. If you do not like the objects from your third angle projections, you can choose new objects. Draw new third angle projections with dimensions so you can make the 3D models.
 
-## Apply Materials to the Models
+## Apply Materials to the Model
 
 You should apply materials to each part of your model. Experiment with different materials. You can edit materials that have been applied to change the color of the materials to match your object. By default, materials apply to bodies and components. If you only want a material to apply to one face of an object, click the button on the top of the appearance menu that says faces.
 
-## Render the Models
+## Render the Model
 
 In the Render workspace, select an environment that you want. Rotate and position the model. Change any lighting preferences. Then click on the teapot. You can render in the cloud so your computer does not have to do the work. You can submit multiple renders of different views and angles. After the renders are complete in the cloud you can download them to your computer. Make sure the render are high resolution. The max resolution that Fusion renders at is 4000x4000 pixels. You don't need to render in high resolution when making test renders but after you finalize your model and materials, export a 4000x4000 pixel render.
 

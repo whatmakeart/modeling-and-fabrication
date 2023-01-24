@@ -6,9 +6,21 @@ draft: false
 
 ## Assignment Deliverables
 
-## Overview
+## Assignment Deliverables
+
+Upload the following:
+
+- 1 high resolution, labeled render image (1:1, 4:3, 16:9 aspect ratio, 4000px minimum largest side)
+- 1 exported Fusion 360 .f3d file
+
+Label your files:
+
+- YYYYMMDD Lastname Firstname Render Image of Example Model.png/jpg
+- YYYYMMDD Lastname Firstname Fusion 360 Example Model.f3d
 
 ## Instructions
+
+Choose 1 of the example objects from the demo videos. The choice is up to you. Follow along and make the 3D model using the techniques in the video. Then make a render and upload it with the exported .f3d file of the model from Fusion 360. You can put any materials you want on the models but should try your best to make them the same size and shape.
 
 ## Fusion 360 Example Modeling Videos
 

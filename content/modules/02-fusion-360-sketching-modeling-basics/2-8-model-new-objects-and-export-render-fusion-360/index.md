@@ -13,8 +13,8 @@ Upload the following:
 
 Label your files:
 
-- YYYYMMDD Lastname Firstname Render Image 1.png/jpg
-- YYYYMMDD Lastname Firstname Fusion 360 model 1.f3d
+- YYYYMMDD Lastname Firstname Render Custom Model 1.png/jpg
+- YYYYMMDD Lastname Firstname Fusion 360 Custom Model 1.f3d
 
 ## Overview
 

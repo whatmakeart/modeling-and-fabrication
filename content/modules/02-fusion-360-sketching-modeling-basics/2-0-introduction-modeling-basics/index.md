@@ -1,5 +1,5 @@
 ---
-title: "2.0 Introduction"
+title: "2.0 Introduction to Modeling Basics"
 date: 2020-01-26T23:11:13Z
 draft: false
 ---
@@ -10,9 +10,21 @@ This module covers how to use technical sketching to create 3D Models in Fusion 
 
 ## Learning Outcomes
 
-- Use third angle projections to make 3D Digital Models of everyday objects¥
+- Use third angle projections to make 3D Digital Models of everyday objects
 - Use Fusion 360 sketch constraints
 - Organize 3D model with components and bodies
 - Apply materials to 3D Models in Fusion 360
 - Export rendered images of 3D Models with HDRI backgrounds at specific resolutions and aspect ratios
 - 3D model a basic object in Fusion 360
+
+## Key Terms
+
+- Extrude
+- Loft
+- Revolve
+- Sweep
+- Sketch (in context of Fusion 360)
+- Sketch Constraints
+- Aspect Ratio
+- Render
+- .f3d File

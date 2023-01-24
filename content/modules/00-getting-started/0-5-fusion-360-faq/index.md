@@ -43,6 +43,7 @@ draft: false
 
 - [How to set the rendering Aspect Ratio?](https://youtu.be/NLr1FG27BGs)
 - [How to add a custom HDRI background image?](https://www.youtube.com/MmJL4zjfmic)
+- [How to make custom appearances / materials in Fusion 360?](https://www.youtu.be.com/2-k1KDkzIqU)
 
 ## Requested Model Examples
 

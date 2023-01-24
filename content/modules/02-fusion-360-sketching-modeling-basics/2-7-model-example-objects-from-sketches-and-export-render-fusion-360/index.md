@@ -4,6 +4,12 @@ date: 2020-01-26T23:11:13Z
 draft: false
 ---
 
+## Assignment Deliverables
+
+## Overview
+
+## Instructions
+
 ## Fusion 360 Example Modeling Videos
 
 <div class="video-grid">
@@ -55,12 +61,12 @@ draft: false
 
 <div class="responsive-table-markdown">
 
-| Assessment                  | Weight    |
-| --------------------------- | --------- |
-| Object Form and Proportions | 30 points |
-| Material Applied            | 20 points |
-| Render Exported             | 10 points |
-| Render Composition          | 10 points |
-| File Management             | 10 points |
+| Assessment                                            | Weight    |
+| ----------------------------------------------------- | --------- |
+| Object Form and Proportions compared to example model | 30 points |
+| Material Applied                                      | 20 points |
+| Render Exported                                       | 10 points |
+| Render Composition                                    | 10 points |
+| File Management                                       | 10 points |
 
 </div>

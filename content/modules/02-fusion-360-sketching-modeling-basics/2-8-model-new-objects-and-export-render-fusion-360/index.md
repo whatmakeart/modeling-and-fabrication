@@ -16,6 +16,8 @@ Label your files:
 - YYYYMMDD Lastname Firstname Render Image 1.png/jpg
 - YYYYMMDD Lastname Firstname Fusion 360 model 1.f3d
 
+## Overview
+
 Now that you have modeled a complete model from on of the example modeling exercises, you will do your best to model one of your objects from your third angle projection.
 
 There is no "right" way to model your object. Try to think of the main shapes. Break those down into pieces and then model the main form. Add details after you get the main forms. Look at the example videos to see different techniques and approaches to modeling simple objects.
@@ -117,12 +119,12 @@ Binder Clip with Transparent Background
 
 <div class="responsive-table-markdown">
 
-| Assessment                  | Weight    |
-| --------------------------- | --------- |
-| Object Form and Proportions | 30 points |
-| Material Applied            | 20 points |
-| Render Exported             | 10 points |
-| Render Composition          | 10 points |
-| File Management             | 10 points |
+| Assessment                                     | Weight    |
+| ---------------------------------------------- | --------- |
+| Object Form and Proportions compared to sketch | 30 points |
+| Materials Applied                              | 20 points |
+| Render Exported                                | 10 points |
+| Render Composition                             | 10 points |
+| File Management                                | 10 points |
 
 </div>

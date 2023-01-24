@@ -16,6 +16,12 @@ Label your files:
 - YYYYMMDD Lastname Firstname Render Image 1.png/jpg
 - YYYYMMDD Lastname Firstname Fusion 360 model 1.f3d
 
+Now that you have modeled a complete model from on of the example modeling exercises, you will do your best to model one of your objects from your third angle projection.
+
+There is no "right" way to model your object. Try to think of the main shapes. Break those down into pieces and then model the main form. Add details after you get the main forms. Look at the example videos to see different techniques and approaches to modeling simple objects.
+
+Using your third angle projection sketches, make a model at least one of your objects in Fusion 360. Use [Rule Number 1](https://youtu.be/ZYXSJ6EQ9S4) to divide you object into components. Label your components and make sure to activate each component when you are working on it. It is easy to forget which component is activated so it is good practice to right click on the component and isolate it so it is the only thing you can see. Remember to click the dot in the browser to activate the component that you want to work on so that the design history in the timeline stays with that component.
+
 ## Instructions
 
 1. Model at least 1 of your objects but you may model more.

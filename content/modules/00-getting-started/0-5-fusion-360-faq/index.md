@@ -6,9 +6,9 @@ draft: false
 
 ## Introduction
 
-- How to move a body? - Press m on the keyboard for the move / copy tool.
-- How to select whole body and not just a face? - Click on the underlined body in the outline after clicking one of its faces, or change the selection priority to bodies in the top right selection menu.
-- How to export a .f3d Fusion 360 file? - Click on file > Export > choose .f3d
+- **How to move a body?** - Press m on the keyboard for the move / copy tool.
+- **How to select whole body and not just a face?** - Click on the underlined body in the outline after clicking one of its faces, or change the selection priority to bodies in the top right selection menu.
+- **How to export a .f3d Fusion 360 file?** - Click on file > Export > choose .f3d
 
 ## Sketching
 
@@ -25,7 +25,7 @@ draft: false
 - [How do I set user parameters?](https://youtu.be/H6W-Og4YyZ8)
 
 - [How to mirror an object?](https://youtu.be/vwCUjtsghdI)
-- How to cut with an object after an object is already made? - Use the move tool to make the objects overlap. Then use the combine tool to select a tool body (for cutting) and the target body (getting cut). It will show a red preview of what will be cut.
+- **How to cut with an object after an object is already made?** - Use the move tool to make the objects overlap. Then use the combine tool to select a tool body (for cutting) and the target body (getting cut). It will show a red preview of what will be cut.
 - [How to Loft?](https://youtu.be/VzossdZbGtk)
 - [How to Revolve?](https://youtu.be/VzossdZbGtk)
 - [How to make perfect polygons?](https://youtu.be/Gpplnrtf3UE)

@@ -15,6 +15,7 @@ When creating a new shape it defaults to a new body but you can also create a ne
 - **Intersect** - Keeps the geometry that exists in the new body and an existing body. Only works if the new body is overlapping an existing body. The part that will be kept is shown in yellow.
 - **New Body** - Creates a new body even if that body is overlapping existing bodies in the design.
 - **New Component** - Creates a new component with the newly created body as part of that component.
+- [Join, Cut, Intersect Video Demo](https://youtu.be/iLr9d8Gp7Ls)
 
 Relatively complex and detailed forms can be made through the combination of new primitive shapes and the use of joining, cutting and intersecting. It is not wrong to 3D model using only these tools but once the idea goes beyond simple designs there are more efficient, easier, and better ways to model.
 
@@ -60,6 +61,14 @@ Fusion 360 offers many more tools including pattern making tools, thickening too
 ### 3. Mirror Tool
 
 <div class="iframe-16-9-container"><iframe class="youTubeIframe" src="https://www.youtube.com/embed/vwCUjtsghdI?rel=0" width="300" height="150" allowfullscreen="allowfullscreen"></iframe>
+</div>
+</div>
+
+<div class="video-card">
+
+### 4. Join, Cut, Intersect
+
+<div class="iframe-16-9-container"><iframe class="youTubeIframe" src="https://www.youtube.com/embed/iLr9d8Gp7Ls?rel=0" width="300" height="150" allowfullscreen="allowfullscreen"></iframe>
 </div>
 </div>
 

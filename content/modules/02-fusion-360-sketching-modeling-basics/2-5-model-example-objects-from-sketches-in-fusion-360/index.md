@@ -54,3 +54,17 @@ Using your third angle projection sketches, make a model of your two objects in 
 </div>
 
 </div>
+
+## Grading Rubric
+
+<div class="responsive-table-markdown">
+
+| Assessment                  | Weight    |
+| --------------------------- | --------- |
+| Object Form and Proportions | 30 points |
+| Material Applied            | 20 points |
+| Render Exported             | 10 points |
+| Render Composition          | 10 points |
+| File Management             | 10 points |
+
+</div>

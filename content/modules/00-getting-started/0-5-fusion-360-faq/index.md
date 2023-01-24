@@ -21,6 +21,7 @@ draft: false
 
 ### Basic Modeling
 
+- [Join, Cut, Interset Operations](https://youtu.be/iLr9d8Gp7Ls)
 - [How do I split a body?](https://youtu.be/d4iPXS8g9ms)
 - [How do I set user parameters?](https://youtu.be/H6W-Og4YyZ8)
 - [How to mirror an object?](https://youtu.be/vwCUjtsghdI)

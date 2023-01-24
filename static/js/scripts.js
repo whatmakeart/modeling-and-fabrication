@@ -90,6 +90,8 @@ function removeNavigationEmbed() {
     document.getElementById("header").remove();
     document.getElementById("footer").remove();
     document.getElementById("pageTitleH1").remove();
+    document.getElementById("top-prev-next").remove();
+    document.getElementById("bottom-prev-next").remove();
     console.log("Removed iframe #header and #footer");
     changeStyle(); // remove Bootstrap Styles
     document.body.style.overflowX = "hidden"; // to remove iframe scrollbars when scrolling

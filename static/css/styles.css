@@ -157,6 +157,19 @@ a.title-link {
   font-size: 14px;
 }
 
+/* site title on pages below nav menu */
+#pageTitleH1 {
+  padding: 2rem 0 0 0;
+}
+
+#top-prev-next,
+#bottom-prev-next {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 1rem;
+  padding: 1rem 0 1rem 0;
+}
+
 @media only screen and (min-width: 768px) {
   /* For desktop: */
 
@@ -164,5 +177,12 @@ a.title-link {
     grid-template-columns: 50% 50%;
 
     grid-gap: 1rem;
+  }
+
+  #top-prev-next,
+  #bottom-prev-next {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 6rem;
+    padding: 2rem 0 2rem 0;
   }
 }

@@ -60,6 +60,21 @@ img {
   height: auto;
 }
 
+a {
+  text-decoration: none;
+}
+
+.two-column-instructions-grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+  grid-gap: 0px;
+}
+
+.two-column-instructions-grid > * {
+  border-top: 1px solid red;
+}
+
 .two-column-grid {
   display: grid;
   grid-template-columns: 1fr;
@@ -84,7 +99,8 @@ img {
   padding-top: 56.25%;
 }
 
-.youTubeIframe {
+.youTubeIframe,
+.vimeoIframe {
   position: absolute;
   left: 0px;
   top: 0px;
@@ -185,4 +201,65 @@ a.title-link {
     grid-gap: 6rem;
     padding: 2rem 0 2rem 0;
   }
+}
+
+/* Code Blocks */
+
+/* used in code blocks to indent and have space at bottom for readability */
+pre {
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+}
+
+/* adds language name only with chroma */
+.chroma [data-lang]:before {
+  position: absolute;
+  z-index: 0;
+  top: -22px;
+  left: 0px;
+  content: attr(data-lang);
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  padding: 5px 10px 7px;
+}
+
+.copy-code-button {
+  color: #272822;
+  background-color: #fff;
+  border: 2px solid #cbccc5;
+  border-radius: 3px 3px 0px 0px;
+
+  min-width: 5rem;
+
+  /* right-align */
+  display: block;
+  margin-left: auto;
+  margin-right: 0;
+  margin-bottom: -2px;
+  padding: 3px 8px;
+  font-size: 0.8em;
+}
+
+.copy-code-button:hover {
+  cursor: pointer;
+  background-color: #f2f2f2;
+}
+
+.copy-code-button:focus {
+  /* Avoid an ugly focus outline on click in Chrome,
+     but darken the button for accessibility.
+     See https://stackoverflow.com/a/25298082/1481479 */
+  background-color: #e6e6e6;
+  outline: 0;
+}
+
+.copy-code-button:active {
+  background-color: #d9d9d9;
+}
+
+.highlight pre {
+  /* Avoid pushing up the copy buttons. */
+  margin: 0;
 }

@@ -1,5 +1,5 @@
 ---
-title: "2.3 Model Laser Cut Project in Fusion 360"
+title: "4.2 Model Laser Cut Project in Fusion 360"
 date: 2020-01-26T23:11:13Z
 draft: false
 ---

@@ -1,5 +1,5 @@
 ---
-title: "2.6 Basic Rendering in Fusion 360"
+title: "2.5 Basic Rendering in Fusion 360"
 date: 2020-01-26T23:11:13Z
 draft: false
 ---

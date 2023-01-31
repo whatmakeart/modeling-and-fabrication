@@ -66,13 +66,26 @@ a {
 
 .two-column-instructions-grid {
   display: grid;
-  grid-template-columns: 50% 50%;
-  align-items: center;
-  grid-gap: 0px;
+  max-width: 700px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 0;
+  justify-items: center;
+  margin: 0 auto;
+  padding: 0;
+  border-right: 1px solid #5b5b5b;
+  border-bottom: 1px solid #5b5b5b;
 }
 
 .two-column-instructions-grid > * {
-  border-top: 1px solid red;
+  border-top: 1px solid #5b5b5b;
+  border-left: 1px solid #5b5b5b;
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 0;
+}
+
+.two-column-instructions-grid > ul {
+  padding-left: 2rem;
 }
 
 .two-column-grid {
@@ -191,7 +204,6 @@ a.title-link {
 
   .two-column-grid {
     grid-template-columns: 50% 50%;
-
     grid-gap: 1rem;
   }
 

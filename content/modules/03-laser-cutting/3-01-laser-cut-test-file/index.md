@@ -16,12 +16,13 @@ Open Adobe Illustrator
 
 &nbsp;
 
-Create a New Document that is 12 inches by 12 inches in RGB color
+- Create a New Document that is 4 inches by 4 inches in RGB color
+- Label the File
 
 ![Illustrator Artboard Settings](artboard-settings.png "Illustrator Artboard Settings")
 
 - Draw path that is closed
-- Keep the path away from the edges of the 12x12 Artboard
+- Keep the path away from the edges of the 4x4 Artboard
 
 ![1st Stroke for Laser Cutter](1st-stroke.png "1st Stroke for Laser Cutter")
 
@@ -46,19 +47,13 @@ Create a New Document that is 12 inches by 12 inches in RGB color
 
 ![Change Stroke Color to Blue](blue-stroke.png "Change Stroke Color to Blue")
 
-Save your file and Upload to Google Drive
+- Save your file
+- Upload to Google Drive for later access
+- Save your file on a USB Drive if available for redundancy
 
 &nbsp;
 
-Save your file on a USB Drive
-
-&nbsp;
-
-Bring USB drive and Adobe Creative Cloud Password to think[box] next week.
-
-&nbsp;
-
-Bring $3.00 to purchase a piece of plywood at the think[box].
+Bring USB drive and / or Adobe Creative Cloud Password to think[box]. You need access to the test file from the USB drive or cloud storage.
 
 &nbsp;
 

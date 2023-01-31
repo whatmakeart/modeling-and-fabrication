@@ -1,5 +1,5 @@
 ---
-title: "3.3 Cardboard Models"
+title: "3.3 Cardboard Construction"
 date: 2020-01-26T23:11:13Z
 draft: false
 ---

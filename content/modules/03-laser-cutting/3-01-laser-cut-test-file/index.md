@@ -10,6 +10,10 @@ file made before going to the think[box]. There are specific instructions to mak
 the file in Adobe Illustrator. If you do not follow the directions then your
 file will not work properly on the laser cutters.
 
+The test cut will demonstrate the ability of a through cut and an etching cut on the laser cutters.
+
+## Laser Cut Test File Creation Instructions
+
 <div class="two-column-instructions-grid">
 
 Open Adobe Illustrator

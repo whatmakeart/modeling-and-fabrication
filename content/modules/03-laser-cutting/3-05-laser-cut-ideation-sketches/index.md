@@ -29,6 +29,8 @@ Label your scanned sketches - YYYYMMDD Lastname First Name Project Name / Descri
 
 # Grading Rubric
 
+<div class="responsive-table-markdown">
+
 | Assessment                 | Weight    |
 | -------------------------- | --------- |
 | Thumbnails                 | 20 points |
@@ -36,3 +38,5 @@ Label your scanned sketches - YYYYMMDD Lastname First Name Project Name / Descri
 | Depth and Variety of ideas | 30 points |
 | Sketch Documentation       | 10 points |
 | File Management            | 10 points |
+
+</div>

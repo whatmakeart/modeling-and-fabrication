@@ -34,8 +34,12 @@ draft: false
 
 # Grading Rubric
 
+<div class="responsive-table-markdown">
+
 | Assessment          | Weight    |
 | ------------------- | --------- |
 | Design              | 40 points |
 | Assembly Techniques | 30 points |
 | Clean Cuts          | 30 points |
+
+</div>

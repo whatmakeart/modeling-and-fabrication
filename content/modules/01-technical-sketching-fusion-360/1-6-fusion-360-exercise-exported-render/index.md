@@ -46,12 +46,12 @@ You can use [this sketch](2022-Sketch-of-Sample-Part-for-Fusion-360-Modeling-Exe
 
 <div class="responsive-table-markdown">
 
-| Assessment                  | Weight    |
-| --------------------------- | --------- |
-| Object Form and Proportions | 30 points |
-| Material Applied            | 20 points |
-| Render Exported             | 10 points |
-| Render Composition          | 10 points |
-| File Management             | 10 points |
+| Assessment                                            | Weight    |
+| ----------------------------------------------------- | --------- |
+| Object Form and Proportions compared to example block | 30 points |
+| Material Applied                                      | 20 points |
+| Render Exported                                       | 10 points |
+| Render Composition                                    | 10 points |
+| File Management                                       | 10 points |
 
 </div>

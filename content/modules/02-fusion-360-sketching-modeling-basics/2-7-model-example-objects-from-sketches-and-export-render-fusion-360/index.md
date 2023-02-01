@@ -6,8 +6,6 @@ draft: false
 
 ## Assignment Deliverables
 
-## Assignment Deliverables
-
 Upload the following:
 
 - 1 high resolution, labeled render image (1:1, 4:3, 16:9 aspect ratio, 4000px minimum largest side)

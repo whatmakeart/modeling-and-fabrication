@@ -23,7 +23,7 @@ Label your scanned sketches - YYYYMMDD Lastname First Name Project Name / Descri
 
 1. After an initial out of ideation go back through your sketches and see which ones seem promising.
 2. Choose five of these ideas and refine them and redraw them larger. Pay attention to showing how the pieces of the stand would go together. Try to draw them as solid things in three-dimensional space on your page.
-3. Draw a minimum of 5 refined sketch ideas.
+3. Draw a minimum of 3 refined sketch ideas.
 4. Draw your refined sketches large enough. The maximum number of refined sketches on a single page (~8.5"x11" sheet) is 2-3 sketches. Any more and they are too small.
 5. You can make your sketches via analog or digital techniques or both. If you use digital techniques, the maximum number of refined sketches on a single screen size document is 2-3 sketches. Any more and they are too small.
 

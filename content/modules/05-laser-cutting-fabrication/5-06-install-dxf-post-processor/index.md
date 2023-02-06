@@ -1,13 +1,8 @@
 ---
-title: "4.03 Install DXF Post Processor"
+title: "5.03 Install DXF Post Processor"
 date: 2020-01-26T23:11:13Z
 draft: false
 ---
-
-## Install DXF Post Processor
-
-<div class="two-column-grid">
-<div>
 
 Follow the instructions in the video below to install the DXF Post Processor from Autodesk. This will allow you to export your laser cut tool paths from Fusion 360 as a DXF file that you can open and edit in Illustrator. This is the link to the [DXF Post Processor from Autodesk](https://cam.autodesk.com/hsmposts?p=dxf).
 
@@ -15,11 +10,13 @@ You can install it locally in Windows or Mac. [Local install instructions.](http
 
 You can install it in the cloud as well, then you can use it anywhere. Make sure to enable cloud libraries first. [Cloud install instructions.](https://knowledge.autodesk.com/support/fusion-360/learn-explore/caas/sfdcarticles/sfdcarticles/How-to-install-a-cloud-post-in-Fusion-360.html)
 
-</div>
+<div class="video-grid">
 
-<div>
+<div class="video-card">
 
-<div class="iframe-16-9-container"><iframe class="youTubeIframe" src="https://www.youtube.com/embed/CBu6vl6Bqos" width="300" height="150" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
+## Download and Install DXF Post Process for Fusion 360
+
+<div class="iframe-16-9-container"><iframe class="youTubeIframe" style="position: absolute; top: 0; bottom: 0; left: 0; width: 100%; height: 100%; border: 0; z-index: 1;" src="https://www.youtube.com/embed/CBu6vl6Bqos?rel=0" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
 </div>
 
 </div>

@@ -117,10 +117,6 @@ a {
   padding-bottom: 1rem;
 }
 
-.two-column-grid > p {
-  margin-bottom: 0; /* to keep youTube videos and images vertically aligned since hugo wraps the images in p tags */
-}
-
 .text-card {
   align-self: start;
 }
@@ -232,6 +228,10 @@ a.title-link {
   .two-column-grid {
     grid-template-columns: 1fr 1fr;
     grid-gap: 1rem;
+  }
+
+  .two-column-grid > p {
+    margin-bottom: 0; /* to keep youTube videos and images vertically aligned since hugo wraps the images in p tags */
   }
 
   #top-prev-next,

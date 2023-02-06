@@ -1,5 +1,5 @@
 ---
-title: "5.1Laser Cut Stand Photo Documentation"
+title: "5.01 Laser Cut Stand Photo Documentation"
 date: 2020-01-26T23:11:13Z
 draft: false
 ---

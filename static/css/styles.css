@@ -48,17 +48,19 @@ h6 {
   min-width: 301px;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-ul,
-ol,
-dl,
-dd {
+.main-content > h1,
+.main-content > h2,
+.main-content > h3,
+.main-content > h4,
+.main-content > h5,
+.main-content > h6,
+.main-content > p,
+.main-content > ul,
+.main-content > ol,
+.main-content > dl,
+.main-content > dd,
+#pageTitleH1,
+a.summary-link {
   max-width: var(--text-max-width);
   margin-right: auto;
   margin-left: auto;
@@ -113,6 +115,10 @@ a {
   align-items: center;
   grid-gap: 0px;
   padding-bottom: 1rem;
+}
+
+.two-column-grid > p {
+  margin-bottom: 0; /* to keep youTube videos and images vertically aligned since hugo wraps the images in p tags */
 }
 
 .text-card {

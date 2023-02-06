@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 
+:root {
+  --text-max-width: 700px;
+  --page-max-width: 1366px;
+}
+
 html {
   font-family: Lato, Helvetica, Arial, sans-serif; /* match Canvas LMS Fonts */
   text-rendering: optimizelegibility;
@@ -39,8 +44,24 @@ h6 {
 }
 
 .container-fluid {
-  max-width: 1366px;
+  max-width: var(--page-max-width);
   min-width: 301px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+dl,
+dd {
+  max-width: var(--text-max-width);
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .responsive-table-markdown {
@@ -48,11 +69,10 @@ h6 {
   width: 100%;
   overflow-x: auto;
   margin: 0 auto;
-  max-width: 1366px;
 }
 
 .responsive-table-markdown > table {
-  width: 100%;
+  overflow-x: auto;
 }
 
 img {
@@ -66,7 +86,6 @@ a {
 
 .two-column-instructions-grid {
   display: grid;
-  max-width: 700px;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 0;
   justify-items: center;
@@ -93,6 +112,11 @@ a {
   grid-template-columns: 1fr;
   align-items: center;
   grid-gap: 0px;
+  padding-bottom: 1rem;
+}
+
+.text-card {
+  align-self: start;
 }
 
 .tutorial-video-grid,
@@ -180,8 +204,23 @@ a.title-link {
   grid-template-columns: 1fr;
   grid-gap: 1rem;
   padding: 1rem 0 1rem 0;
+  max-width: var(--text-max-width);
+  margin: 0 auto;
 }
 
+/* For over text width size */
+
+@media only screen and (min-width: 700px) {
+  .responsive-table-markdown > table {
+    max-width: var(--page-max-width);
+    min-width: var(--text-max-width);
+    margin: 0 auto;
+  }
+
+  .two-column-instructions-grid {
+    max-width: var(--page-max-width);
+  }
+}
 /* For desktop and larger screens */
 @media only screen and (min-width: 1000px) {
   .two-column-grid {

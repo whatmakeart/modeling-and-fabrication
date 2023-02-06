@@ -4,106 +4,115 @@ date: 2020-01-26T23:11:13Z
 draft: false
 ---
 
-Laser Cut Joints
-
 There are many ways to join a laser cut project together ranging from gravity to glue to bolts to snap pieces. You can use a variety of ways to connect. Here are some example images of different methods of joining pieces together. There are many more ways. Search the internet for other methods of making laser cut joints.
 
-<div class="gallery-grid">
+## Box Finger Joints
 
-<div class="image-card">
+<div class="two-column-grid">
+<div class="text-card">
 
-<div class="image-box">
+Finger joints are a common way to join laser cut projects together. They have an advantage over simple butt joints since the fingers help align the pieces but can make it more difficulty to glue and clamp during assembly. Finger joints can be on the edge as shown in the image ore then can be inset so they are contained by the panel that they insert into. Box with finger joints on all sides
+[Demo video making a finger jointed box.](https://youtu.be/ZrcqauNvt0M)
+
+</div>
 
 ![Laser Cut Finger Joints](2022-Finger-Joints-Laser-Cut.png)
 
+<div class="iframe-16-9-container">
+<iframe class="youTubeIframe" width="560" height="315" src="https://www.youtube.com/embed/ZrcqauNvt0M?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
-Box with finger joints on all sides
+<div>
 
 </div>
-
-<div class="image-card">
-
-<div class="image-box">
-
-![Laser Cut Snap Joints](2022-Snap-Joints-Laser-Cut-1.png)
-
 </div>
 
-Snap joint pulled apart
+## Pinned Finger Joints
 
-</div>
+<div class="two-column-grid">
+<div class="text-card">
 
-<div class="image-card">
-
-<div class="image-box">
-
-![Laser Cut Snap Joints](2022-Snap-Joints-Laser-Cut-2.png)
+Pinned finger joints send a tab all the way through a hole in a panel. The tab extends far enough to allow for at least the thickness of a "pin" to slide into its opening. This pin keeps the finger joint tab from pulling out. Pinned joints can be aligned so they use the same pin. This can create enough friction that the pin won't slip out.
 
 </div>
 
-Snap joint pressed together
+<div class="iframe-16-9-container">
+<iframe class="youTubeIframe" width="560" height="315" src="https://www.youtube.com/embed/2r7NKS-3Wao?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+![Laser Cut Pinned Finger Joints](2022-Pinned-Finger-Joints-Laser-Cut-Colors.png)
+
+![Laser Cut Pinned Finger Joints](2022-Pinned-Finger-Joints-Laser-Cut.png)
+
+<div>
+
+</div>
+</div>
+
+## Dovetail Joints
+
+<div class="two-column-grid">
+<div class="text-card">
+
+[Article](https://hackaday.io/project/170065-laser-cut-dovetail-enclosures) from hackaday.io showing [laser cut dovetail joints](https://hackaday.io/project/170065-laser-cut-dovetail-enclosures) originally designed by [Mark Wilson](https://www.flickr.com/photos/funnypolynomial/). [^1] Detailed photos of the joints and the chiseling process are on Mark's [Flickr album "Dovebox"](https://www.flickr.com/photos/funnypolynomial/albums/72157657942214811). These require a bit of chiseling after the laser cutting but the woodworking is minimal and goes quickly. This technique uses etched laser lines as guides for the chisel. Because of the chiseling, aligning the wood grain with the dovetails is important. This can add a unique look to your laser cut project. It could potentially be adapted for use with acrylic with a sanding jig to make the angle cuts.
 
 </div>
 
-<div class="image-card">
+<figure>
 
-<div class="image-box">
+[![Laser Cut Dovetails by Mark Wilson](laser-cut-dovetail-joint-by-mark-wilson.jpg)](laser-cut-dovetail-joint-by-mark-wilson.jpg)
 
-![Laser Cut Captive Nut Joints](2022-Captive-Nut-Joints-Laser-Cut.png)
+<figcaption>
 
+[Laser-cut Dovetail Joint](https://www.flickr.com/photos/funnypolynomial/20806382969/) by [Mark Wilson](https://www.flickr.com/photos/funnypolynomial/) is licensed under [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/) [^2]
+
+</figcaption>
+</figure>
 </div>
+
+## Captive Nut Joints
+
+<div class="two-column-grid">
+<div class="text-card">
 
 Captive bolt / nut joints laid flat
 
-</div>
-
-<div class="image-card">
-
-<div class="image-box">
-
-![Laser Cut Captive Nut Joints](2022-Captive-Nut-Joints-Laser-Cut-2.png)
-
-</div>
-
 Captive bolt / nut joint without aligning fingers
-
-</div>
-
-<div class="image-card">
-
-<div class="image-box">
-
-![Laser Cut Captive Nut Joints with Fingers](2022-Captive-Nut-Joints-with-Fingers-Laser-Cut.png)
-
-</div>
 
 Captive bolt / nut joint with alignment tabs / fingers
 
 </div>
 
-<div class="image-card">
+<div class="iframe-16-9-container">
+<iframe class="youTubeIframe" width="560" height="315" src="https://www.youtube.com/embed/57OT_SIW96U?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
-<div class="image-box">
+<div class="iframe-16-9-container">
+<iframe class="youTubeIframe" width="560" height="315" src="https://www.youtube.com/embed/UK8bsVQy4s8?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
-![Laser Cut Pinned Finger Joints](2022-Pinned-Finger-Joints-Laser-Cut-Colors.png)
+![Laser Cut Captive Nut Joints](2022-Captive-Nut-Joints-Laser-Cut.png)
+
+![Laser Cut Captive Nut Joints](2022-Captive-Nut-Joints-Laser-Cut-2.png)
+
+![Laser Cut Captive Nut Joints with Fingers](2022-Captive-Nut-Joints-with-Fingers-Laser-Cut.png)
 
 </div>
 
-Pinned finger joint with different pieces colorized
+## Snap Joints
+
+<div class="two-column-grid">
+<div class="text-card">
+
+Snap joints positively lock into place when assembled. They are much more complex than other joining methods and usually require a bit of trial and error to make work in a specific design. This joint uses the flexibility of a material to have a tab move out of the way when the piece is inserted that snaps back into position with a hook that does not allow it to pull back through. Many manufactured plastic objects use a version of this joint. It is also seen on plastic backpack buckles and straps.
 
 </div>
 
-<div class="image-card">
+![Laser Cut Snap Joints](2022-Snap-Joints-Laser-Cut-1.png)
 
-<div class="image-box">
-
-![Laser Cut Pinned Finger Joints](2022-Pinned-Finger-Joints-Laser-Cut.png)
+![Laser Cut Snap Joints](2022-Snap-Joints-Laser-Cut-2.png)
 
 </div>
 
-Pinned finger joint
-
-</div>
-
-</div>
+[^1]: https://hackaday.io/project/170065-laser-cut-dovetail-enclosures
+[^2]: https://www.flickr.com/photos/funnypolynomial/20806382969/

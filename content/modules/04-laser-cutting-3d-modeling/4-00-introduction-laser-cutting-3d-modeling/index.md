@@ -6,7 +6,7 @@ draft: false
 
 ## Overview
 
-This module continues the design and fabrication process based on the ideation and physical cardboard prototypes you produced. After discussing your ideas and cardboard models with the group, you will make necessary modifications to your design. Then we will study how to convert a sketch and a cardboard model into a digital 3D model in Fusion 360 designed for fabrication with a laser cutter. We will examine how to keep the parts as separate components, how to lay everything flat, and how to export tool paths for use on the laser cutter. This project introduces custom [user parameters in Fusion 360](https://youtu.be/H6W-Og4YyZ8). These are like variables for dimensions that we can change and have the model update automatically.
+This module continues the design and fabrication process based on the ideation and physical cardboard prototypes you produced. After discussing your ideas and cardboard models with the group, you will make necessary modifications to your design. Then we will study how to convert a sketch and a cardboard model into a digital 3D model in Fusion 360 designed for fabrication with a laser cutter. We will examine how to keep the parts as separate components. This project introduces custom [user parameters in Fusion 360](https://youtu.be/H6W-Og4YyZ8). These are like variables for dimensions that we can change and have the model update automatically.
 
 ## Learning Objectives
 

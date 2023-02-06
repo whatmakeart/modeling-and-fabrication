@@ -1,0 +1,481 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>02 Fusion 360 Sketching Modeling Basics on Modeling and Fabrication</title>
+    <link>https://whatmakeart.com/modeling-and-fabrication/modules/02-fusion-360-sketching-modeling-basics/</link>
+    <description>Recent content in 02 Fusion 360 Sketching Modeling Basics on Modeling and Fabrication</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 26 Jan 2020 23:11:13 +0000</lastBuildDate>
+    
+        <atom:link href="https://whatmakeart.com/modeling-and-fabrication/modules/02-fusion-360-sketching-modeling-basics/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>2.0 Introduction to Modeling Basics</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/02-fusion-360-sketching-modeling-basics/2-0-introduction-modeling-basics/</link>
+      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
+      
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/02-fusion-360-sketching-modeling-basics/2-0-introduction-modeling-basics/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;This module covers how to use technical sketching to create 3D Models in Fusion 360. It shows how to use Fusion 360 to 3D model objects from sketches and how to use sketch constraints in Fusion 360. You will learn about Rule #1 and some best practices in parametric 3D modeling as you continue to explore and learn Fusion 360. You will also export renders of your 3D models with realistic materials applied.&lt;/p&gt;
+&lt;h2 id=&#34;learning-outcomes&#34;&gt;Learning Outcomes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Use third angle projections to make 3D Digital Models of everyday objects&lt;/li&gt;
+&lt;li&gt;Use Fusion 360 sketch constraints&lt;/li&gt;
+&lt;li&gt;Organize 3D model with components and bodies&lt;/li&gt;
+&lt;li&gt;Apply materials to 3D Models in Fusion 360&lt;/li&gt;
+&lt;li&gt;Export rendered images of 3D Models with HDRI backgrounds at specific resolutions and aspect ratios&lt;/li&gt;
+&lt;li&gt;3D model a basic object in Fusion 360&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;key-terms&#34;&gt;Key Terms&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Extrude&lt;/li&gt;
+&lt;li&gt;Loft&lt;/li&gt;
+&lt;li&gt;Revolve&lt;/li&gt;
+&lt;li&gt;Sweep&lt;/li&gt;
+&lt;li&gt;Sketch (in context of Fusion 360)&lt;/li&gt;
+&lt;li&gt;Sketch Constraints&lt;/li&gt;
+&lt;li&gt;Aspect Ratio&lt;/li&gt;
+&lt;li&gt;Render&lt;/li&gt;
+&lt;li&gt;.f3d File&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2.1 Basic Creation Tools in Fusion 360</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/02-fusion-360-sketching-modeling-basics/2-1-basic-creation-tools-fusion-360/</link>
+      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
+      
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/02-fusion-360-sketching-modeling-basics/2-1-basic-creation-tools-fusion-360/</guid>
+      <description>&lt;h2 id=&#34;polygon-primitives-and-shapes&#34;&gt;Polygon Primitives and Shapes&lt;/h2&gt;
+&lt;p&gt;Fusion 360 allows you to create fast polygon primitives of specific sizes easily. You can create a box, cylinder, sphere, torus, coil, or a pipe. To create any of these forms usually involves an initial click to define the starting surface or point, then a drag to set the first dimensions, a manipulation of parameters and then a confirmation of your choices. If you hover over most tools with your cursor in Fusion 360 it provides as brief description of what the tool does and how to use it.&lt;/p&gt;
+&lt;p&gt;When creating a new shape it defaults to a new body but you can also create a new component. If there are existing shapes in the model and you create a new form, then there are options for joining, cutting, intersect, as well as new body and new component.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Join&lt;/strong&gt; - Adds the new body onto existing geometry to make a single more complex body.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cut&lt;/strong&gt; - Uses the new body as a cutting tool to remove any place that it overlaps an existing body. The part to be cut is shown in red.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Intersect&lt;/strong&gt; - Keeps the geometry that exists in the new body and an existing body. Only works if the new body is overlapping an existing body. The part that will be kept is shown in yellow.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;New Body&lt;/strong&gt; - Creates a new body even if that body is overlapping existing bodies in the design.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;New Component&lt;/strong&gt; - Creates a new component with the newly created body as part of that component.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtu.be/iLr9d8Gp7Ls&#34;&gt;Join, Cut, Intersect Video Demo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Relatively complex and detailed forms can be made through the combination of new primitive shapes and the use of joining, cutting and intersecting. It is not wrong to 3D model using only these tools but once the idea goes beyond simple designs there are more efficient, easier, and better ways to model.&lt;/p&gt;
+&lt;h2 id=&#34;basic-creation-tools&#34;&gt;Basic Creation Tools&lt;/h2&gt;
+&lt;p&gt;Additional creation tools help make more complex forms and designs. The basic creation tools include Extrude, Revolve, Sweep, Loft, Rib, Web, Emboss, and Mirror. These creation tools are found in many different 3D modeling programs. It is important to understand the underlying concept of these operations for form creation so you can model in Fusion 360 as well as other software as needed in the future. In different software, sometimes they may have different names or different controls but the method of form creation is the name.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Extrude&lt;/strong&gt; - Pulls a flat face, plane or curved surface in or out in a uniform way to create new geometry. It can be used to join, cut, or intersect. The extrude tool is a bedrock function of most 3D modeling software, including Fusion 360. It is so fundamental to 3D modeling that it has a space on the top menu bar in Fusion 360 and is the only creation tool that automatically shows its keyboard shortcut of (E).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Revolve&lt;/strong&gt; - Spins a sketch profile or a face around a central axis to create a radial form. It can spin a full 360 degrees or only a partial amount. &lt;a href=&#34;https://youtu.be/VzossdZbGtk&#34;&gt;Revolve Demo Video&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sweep&lt;/strong&gt; - Unlike revolve, the sweep tool takes a profile sketch and &amp;ldquo;sweeps&amp;rdquo; or pulls it along another path. This can be a straight path or a curved path. Note that the path used for the sweep cannot be a &amp;ldquo;closed&amp;rdquo; path.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Loft&lt;/strong&gt; - Loft connects two or more sketch planes together in a smooth way. These can be lined up along a curve to create transitions. A guide rail can be used to further customize how the transitions from shape to shape occur. &lt;a href=&#34;https://youtu.be/OTBZuSGG6bc&#34;&gt;Loft Demo video&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Rib&lt;/strong&gt; - Creates structural supports of a specified thickness from sketch lines that connect to the nearest faces in the object.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Web&lt;/strong&gt; - Creates internal structural supports from sketch lines that connect to the nearest faces in the object.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Emboss&lt;/strong&gt; - Pulls out a sketch profile from a surface an even amount to create a raised surface. Can also be used to cut.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mirror&lt;/strong&gt; - The mirror tool can mirror geometry across a mid-plane. This is useful for creating symmetrical objects so you only have to model one side. Then if changes need to be made, only one side needs to be modified and the mirrored side updates automatically. &lt;a href=&#34;https://youtu.be/vwCUjtsghdI&#34;&gt;Mirror Demo Video&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;additional-creation-tools&#34;&gt;Additional Creation Tools&lt;/h2&gt;
+&lt;p&gt;Fusion 360 offers many more tools including pattern making tools, thickening tools, boundary fill tools, tools for creating printed circuit boards, and many more. We will examine additional tools and methods of modeling later in the course.&lt;/p&gt;
+&lt;h2 id=&#34;fusion-360-basic-creation-tools-example-videos&#34;&gt;Fusion 360 Basic Creation Tools Example Videos&lt;/h2&gt;
+&lt;div class=&#34;tutorial-video-grid&#34;&gt;
+&lt;div class=&#34;video-card&#34;&gt;
+&lt;h3 id=&#34;1-revolve-tool&#34;&gt;1. Revolve Tool&lt;/h3&gt;
+&lt;div class=&#34;iframe-16-9-container&#34;&gt;&lt;iframe class=&#34;youTubeIframe&#34; src=&#34;https://www.youtube.com/embed/VzossdZbGtk?rel=0&#34; width=&#34;300&#34; height=&#34;150&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video-card&#34;&gt;
+&lt;h3 id=&#34;2-loft-tool&#34;&gt;2. Loft Tool&lt;/h3&gt;
+&lt;div class=&#34;iframe-16-9-container&#34;&gt;&lt;iframe class=&#34;youTubeIframe&#34; src=&#34;https://www.youtube.com/embed/OTBZuSGG6bc?rel=0&#34; width=&#34;300&#34; height=&#34;150&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video-card&#34;&gt;
+&lt;h3 id=&#34;3-mirror-tool&#34;&gt;3. Mirror Tool&lt;/h3&gt;
+&lt;div class=&#34;iframe-16-9-container&#34;&gt;&lt;iframe class=&#34;youTubeIframe&#34; src=&#34;https://www.youtube.com/embed/vwCUjtsghdI?rel=0&#34; width=&#34;300&#34; height=&#34;150&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video-card&#34;&gt;
+&lt;h3 id=&#34;4-join-cut-intersect&#34;&gt;4. Join, Cut, Intersect&lt;/h3&gt;
+&lt;div class=&#34;iframe-16-9-container&#34;&gt;&lt;iframe class=&#34;youTubeIframe&#34; src=&#34;https://www.youtube.com/embed/iLr9d8Gp7Ls?rel=0&#34; width=&#34;300&#34; height=&#34;150&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2.2 Basic Pattern Tools Fusion 360</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/02-fusion-360-sketching-modeling-basics/2-2-basic-pattern-tools-fusion-360/</link>
+      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
+      
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/02-fusion-360-sketching-modeling-basics/2-2-basic-pattern-tools-fusion-360/</guid>
+      <description>&lt;h2 id=&#34;examples-of-patterns-in-the-environment&#34;&gt;Examples of Patterns in the Environment&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Examples of Rectangular Patterns:&lt;/strong&gt; The windows in a building, legs of a table or chair, drawers in a cabinet, buttons on a game controller, wheels on a car, pixels on a computer monitor, and the aisles in a retail store are all layed out in neat rectangular rectangular patterns.&lt;/p&gt;
+&lt;p&gt;Where else do you see rectangular patterns?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Examples of Circular Patterns:&lt;/strong&gt; The blades on a drone, cutouts on a custom car rim, bars on a merry-go-round, ridges on a cut drinking glass, grid fins on a rocket, nubs on the grip handle of a mountain bike, and are examples of circular patterns.&lt;/p&gt;
+&lt;p&gt;Where else do you see circular patterns?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Examples of Patterns Along a Path:&lt;/strong&gt; The lamp posts along a winding parkway, LEDs in a fancy car headlight, cut outs in an organic chair, and ridges along the grip of a cordless drill are examples of patterns along a path.&lt;/p&gt;
+&lt;p&gt;Where else do you see patterns along a path?&lt;/p&gt;
+&lt;h2 id=&#34;pattern-tools-in-fusion-360&#34;&gt;Pattern Tools in Fusion 360&lt;/h2&gt;
+&lt;p&gt;Fusion 360 allows you to create patterns of objects or features. This is a powerful way to make complex additions to a model in a quick and editable way. You can create a rectangular pattern, a circular pattern, or a pattern on a path.&lt;/p&gt;
+&lt;p&gt;Examine everyday objects around you and look for different types of patterns.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Rectangular Pattern&lt;/strong&gt; - Lays out objects or features along a rectangular pattern from a central origin. &lt;a href=&#34;https://youtu.be/Y0nYNZvL0EA&#34;&gt;Rectangular Pattern Video Demo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Circular Pattern&lt;/strong&gt; - Lays out objects or features along a circular pattern from a central origin.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pattern Along a Path&lt;/strong&gt; - Lays out objects or features along a custom linear path that can be organic, geometric, or a combination. &lt;a href=&#34;https://youtu.be/9xit7JRPQ0A&#34;&gt;Video demonstration of pattern along a path.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;pattern-example-videos&#34;&gt;Pattern Example Videos&lt;/h2&gt;
+&lt;div class=&#34;tutorial-video-grid&#34;&gt;
+&lt;div class=&#34;video-card&#34;&gt;
+&lt;h3 id=&#34;1-rectangular-pattern-tool&#34;&gt;1. Rectangular Pattern Tool&lt;/h3&gt;
+&lt;div class=&#34;iframe-16-9-container&#34;&gt;&lt;iframe class=&#34;youTubeIframe&#34; src=&#34;https://www.youtube.com/embed/Y0nYNZvL0EA?rel=0&#34; width=&#34;300&#34; height=&#34;150&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video-card&#34;&gt;
+&lt;h3 id=&#34;2-pattern-along-a-path-tool&#34;&gt;2. Pattern Along a Path Tool&lt;/h3&gt;
+&lt;div class=&#34;iframe-16-9-container&#34;&gt;&lt;iframe class=&#34;youTubeIframe&#34; src=&#34;https://www.youtube.com/embed/9xit7JRPQ0A?rel=0&#34; width=&#34;300&#34; height=&#34;150&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2.3 Fusion 360 Sketch Constraints and Fully Defined Sketches</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/02-fusion-360-sketching-modeling-basics/2-3-fusion-360-sketch-constraints/</link>
+      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
+      
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/02-fusion-360-sketching-modeling-basics/2-3-fusion-360-sketch-constraints/</guid>
+      <description>&lt;h2 id=&#34;fusion-360-sketch-constraints&#34;&gt;Fusion 360 Sketch Constraints&lt;/h2&gt;
+&lt;p&gt;Fusion 360 uses digital sketches to describe and define 3D geometry. The sketches can have precise hard coded dimensions but sketches can also use sketch constraints for efficiency and flexibility.&lt;/p&gt;
+&lt;p&gt;For example, instead of labeling all 4 sides of a square as 50mm, it is possible to label one side of the square 50mm and apply and &amp;ldquo;equal&amp;rdquo; constraint to the other sides. They will be equal to the first side. This makes it easier to make design changes since only one dimension needs to be updated instead of four. Continuing the square example, it is possible to give a 90 degrees dimension to all the angles of the square or a simpler way would add a &amp;ldquo;perpendicular&amp;rdquo; constraint to the corners of the square.&lt;/p&gt;
+&lt;p&gt;Fusion 360 has many different useful sketch constraints including horizontal/vertical, coincident, tangent, equal, perpendicular, locked, midpoint, concentric, colinear, symmetry, and curvature. Using these constrains in combination with dimensions and defined user parameters you can create a &amp;ldquo;fully defined sketch&amp;rdquo; in Fusion 360. &lt;a href=&#34;https://www.youtu.be/vNdBkiO8Nfc&#34;&gt;Sketch Constraints Demo Video&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;what-is-a-fully-defined-sketch&#34;&gt;What is a fully defined sketch?&lt;/h2&gt;
+&lt;p&gt;The goal is to fully define each sketch you create in Fusion 360. When new sketch lines ore elements are drawn in Fusion 360 they appear blue, indicating that there is not enough information to determine how the line or rectangle should appear. It could be missing a dimension, not know what angle it should be at, not know where the line starts or stops, or many other &amp;ldquo;undefined&amp;rdquo; aspects of the sketch. If a sketch is not fully defined then small changes can have big effects and can move parts of your design around in unexpected and frustrating ways. Once everything is defined, then the sketch lines turn black and a red padlock appears on the sketch name in the outline, indicating that the sketch is fully defined.&lt;/p&gt;
+&lt;p&gt;With the use of sketch constraints, it is not necessary to give dimensions to every part of a sketch. Often it is better to use constraints rather than dimensions so the sketch and 3D model is more resilient to change and modification. &lt;a href=&#34;https://www.youtu.be/9k7nsXpbZ5A&#34;&gt;Fully Defined Sketch Demo Video&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;types-of-sketch-constraints&#34;&gt;Types of Sketch Constraints&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Horizontal / Vertical&lt;/strong&gt; - Keeps a line, or two points, including a midpoint or the origin in a vertical or horizontal relationship. When the constraint is applied it picks the orientation that is closest to how the elements are on the screen at the time.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Coincident&lt;/strong&gt; - two points are stuck together or a single point is constrained along a line or a curve&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tangent&lt;/strong&gt; - A line is constrained to a single point on a circle, arc, or curve and are not able to cross over each other even if the line is short and does not touch the curve.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Equal&lt;/strong&gt; - Makes two lines the same length, or two circles the same size, or two angles the same degree.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Parallel&lt;/strong&gt; - Keeps two lines or the edges of shapes parallel so that they never intersect.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Perpendicular&lt;/strong&gt; - Constrains two lines, or the edge of a shape and a line to a 90 degree angle.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Locked&lt;/strong&gt; - Keeps the selected sketch objects locked in place even if there are not enough other constraints. Turns the sketch lines green.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Midpoint&lt;/strong&gt; - Keeps the objects half way between the ends of a line.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Concentric&lt;/strong&gt; - Keeps two circles, arcs, or ellipses locked to the same center point&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Colinear&lt;/strong&gt; - Locks two object along a line.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Symmetry&lt;/strong&gt; - Makes two objects stay the same size and in the same position across an axis.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Curvature&lt;/strong&gt; - Keeps continuous G2 curvature between two sketch objects.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;fusion-360-sketch-constraints-example-videos&#34;&gt;Fusion 360 Sketch Constraints Example Videos&lt;/h2&gt;
+&lt;div class=&#34;video-grid&#34;&gt;
+&lt;div class=&#34;video-card&#34;&gt;
+&lt;h3 id=&#34;1-fusion-360-sketch-constraints&#34;&gt;1. Fusion 360 Sketch Constraints&lt;/h3&gt;
+&lt;div class=&#34;iframe-16-9-container&#34;&gt;&lt;iframe class=&#34;youTubeIframe&#34; src=&#34;https://www.youtube.com/embed/vNdBkiO8Nfc?rel=0&#34; width=&#34;300&#34; height=&#34;150&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video-card&#34;&gt;
+&lt;h3 id=&#34;2-fusion-360-fully-defined-sketch&#34;&gt;2. Fusion 360 Fully Defined Sketch&lt;/h3&gt;
+&lt;div class=&#34;iframe-16-9-container&#34;&gt;&lt;iframe class=&#34;youTubeIframe&#34; src=&#34;https://www.youtube.com/embed/9k7nsXpbZ5A?rel=0&#34; width=&#34;300&#34; height=&#34;150&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;additional-reading&#34;&gt;Additional Reading&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://help.autodesk.com/view/fusion360/ENU/?guid=SKT-CONSTRAINTS&#34;&gt;Fusion 360 Sketch Constraints User Guide Online&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2.4 Fusion 360 Rule # 1</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/02-fusion-360-sketching-modeling-basics/2-4-fusion-360-rule-number-1/</link>
+      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
+      
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/02-fusion-360-sketching-modeling-basics/2-4-fusion-360-rule-number-1/</guid>
+      <description>&lt;h2 id=&#34;fusion-360-rule--1&#34;&gt;Fusion 360 Rule # 1&lt;/h2&gt;
+&lt;p&gt;Fusion 360 is a parametric 3D modeling program that organizes a model into sketches, construction planes, bodies, surfaces, components, and assemblies. There are more elements to Fusion 360 but these are the most important. Everything done to the model in Fusion 360 is captured in a design history as a &amp;ldquo;feature.&amp;rdquo; This is powerful because features can be edited at a later time to update a model.&lt;/p&gt;
+&lt;p&gt;For example, if you are modeling a table and already finished the legs but want them to be taller or shorter, you can go back to the original sketch or feature, make the dimension change and the rest of the model will update automatically. Wow, sounds too good to be true. Well, it almost is. This automatic updating only works if you plan out your models and follow some best practices.&lt;/p&gt;
+&lt;p&gt;One best practices is referred to as Rule #1 in the Fusion 360 community. This says that the first thing to do before modeling a piece is to make a component, then name the component with a descriptive name, and then activating the component. A component can contain multiple sketches, bodies (3d objects), construction planes, surfaces and other elements. By creating a component first, and then &amp;ldquo;activating&amp;rdquo; the component, the design history is captured within that component&amp;rsquo;s timeline and it makes it easier to organize your model and make changes. Otherwise the design history is all on the main Fusion 360 timeline and things get messy quickly.&lt;/p&gt;
+&lt;p&gt;When getting started try to follow Rule #1:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Make a component&lt;/li&gt;
+&lt;li&gt;Name the component&lt;/li&gt;
+&lt;li&gt;Activate the component&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Of course you might not always do this when you are experimenting or trying something out, but it is still a good habit to get into because often a simple experiment becomes a full working design.&lt;/p&gt;
+&lt;div class=&#34;tutorial-video-grid&gt;
+&lt;div class=&#34;video-card&#34;&gt;
+&lt;h2 id=&#34;1-fusion-360-rule-1&#34;&gt;1. Fusion 360 Rule #1&lt;/h2&gt;
+&lt;div class=&#34;iframe-16-9-container&#34;&gt;&lt;iframe class=&#34;youTubeIframe&#34; src=&#34;https://www.youtube.com/embed/ZYXSJ6EQ9S4?rel=0&#34; width=&#34;300&#34; height=&#34;150&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2.5 Basic Rendering in Fusion 360</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/02-fusion-360-sketching-modeling-basics/2-5-basic-rendering-in-fusion-360/</link>
+      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
+      
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/02-fusion-360-sketching-modeling-basics/2-5-basic-rendering-in-fusion-360/</guid>
+      <description>&lt;h2 id=&#34;rendering-aspect-ratio&#34;&gt;Rendering Aspect Ratio&lt;/h2&gt;
+&lt;p&gt;Fusion 360 defaults to the viewport aspect ratio when rendering images. This often creates images that are extra wide and not very usable. It is better to select a specific aspect ratio for your rendered images. You can make custom ratios but to start off stick with the following aspect ratios 1:1, 3:4, 16:9 all in either vertical or horizontal orientation. &lt;a href=&#34;https://www.youtu.be.com/NLr1FG27BGs&#34;&gt;Aspect Ratio Demo Video&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;cloud-rendering-vs-local-rendering&#34;&gt;Cloud Rendering vs Local Rendering&lt;/h2&gt;
+&lt;p&gt;Rendering in the cloud costs credits but can be faster than a local computer, especially for multiple renders although there is an initial wait for the cloud render queue.&lt;/p&gt;
+&lt;h2 id=&#34;hdri-environment-photos-for-render-backgrounds&#34;&gt;HDRI Environment Photos for Render Backgrounds&lt;/h2&gt;
+&lt;p&gt;Here is a generous website of Greg Zaal, a CG artist offering their HDRI photos for free. They are licensed under CCO. The artist asks for credit to be mentioned so please do that but you can use these photos for any use.&lt;/p&gt;
+&lt;p&gt;Download the photo that you want and then you can attach a custom environment in the Fusion 360 Render environment. Then you can use it as the background for renders of your models. This &lt;a href=&#34;https://www.youtube.com/MmJL4zjfmic&#34;&gt;video&lt;/a&gt; shows how to insert a custom HDRI background.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://polyhaven.com/&#34;&gt;https://polyhaven.com/&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&#34;video-grid&#34;&gt;
+&lt;div class=&#34;video-card&#34;&gt;
+&lt;h3 id=&#34;1-rendering-aspect-ratio&#34;&gt;1. Rendering Aspect Ratio&lt;/h3&gt;
+&lt;div class=&#34;iframe-16-9-container&#34;&gt;&lt;iframe class=&#34;youTubeIframe&#34; src=&#34;https://www.youtube.com/embed/NLr1FG27BGs?rel=0&#34; width=&#34;300&#34; height=&#34;150&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video-card&#34;&gt;
+&lt;h3 id=&#34;2-custom-hdri-background&#34;&gt;2. Custom HDRI Background&lt;/h3&gt;
+&lt;div class=&#34;iframe-16-9-container&#34;&gt;&lt;iframe class=&#34;youTubeIframe&#34; src=&#34;https://www.youtube.com/embed/MmJL4zjfmic?rel=0&#34; width=&#34;300&#34; height=&#34;150&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video-card&#34;&gt;
+&lt;h3 id=&#34;3-create-custom-materials-for-rendering&#34;&gt;3. Create Custom Materials for Rendering&lt;/h3&gt;
+&lt;div class=&#34;iframe-16-9-container&#34;&gt;&lt;iframe class=&#34;youTubeIframe&#34; src=&#34;https://www.youtube.com/embed/2-k1KDkzIqU?rel=0&#34; width=&#34;300&#34; height=&#34;150&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2.6 Export .f3d file from Fusion 360</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/02-fusion-360-sketching-modeling-basics/2-6-export-f3d-file-from-fusion-360/</link>
+      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
+      
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/02-fusion-360-sketching-modeling-basics/2-6-export-f3d-file-from-fusion-360/</guid>
+      <description>&lt;p&gt;Since Fusion 360 data is stored in the cloud it is good practice to make local copies as well. Fusion 360 supports the export of many 3D Modeling file types but for now we will focus on the .f3d Fusion 360 native file format. This allows you to save a copy that can be opened on a computer without the internet and can be shared with another Fusion 360 user without sharing any cloud information. The .f3d file can be uploaded to Fusion 360 and then it will appear in the file browser with all the other models and designs.&lt;/p&gt;
+&lt;div class=&#34;responsive-table-markdown&#34;&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Export .f3d File from Fusion 360&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;1. Select File from the disk icon in the top left&lt;/td&gt;
+&lt;td&gt;&lt;img src=&#34;2023-01-fusion-360-select-file-menu-for-export.jpg&#34; alt=&#34;Select file from the top left Fusion 360 menu&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2. Select Export&amp;hellip; from the dropdown menu&lt;/td&gt;
+&lt;td&gt;&lt;img src=&#34;2023-02-fusion-360-select-export-from-menu-for-export.jpg&#34; alt=&#34;Select export from from the Fusion 360 menu&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;3. Select .f3d for the filetype in the popup window&lt;/td&gt;
+&lt;td&gt;&lt;img src=&#34;2023-03-fusion-360-select-f3d-for-file-type-from-menu-for-export.jpg&#34; alt=&#34;Select f3d for filetype from popup menu&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;4. Label your file with YYYYMMDD Lastname Firstname Project Description in Five Words&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;5. Choose a location on your computer to save the .f3d file&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2.7 Model Example Objects from Sketches in Fusion 360</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/02-fusion-360-sketching-modeling-basics/2-7-model-example-objects-from-sketches-and-export-render-fusion-360/</link>
+      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
+      
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/02-fusion-360-sketching-modeling-basics/2-7-model-example-objects-from-sketches-and-export-render-fusion-360/</guid>
+      <description>&lt;h2 id=&#34;assignment-deliverables&#34;&gt;Assignment Deliverables&lt;/h2&gt;
+&lt;p&gt;Upload the following:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;1 high resolution, labeled render image (1:1, 4:3, 16:9 aspect ratio, 4000px minimum largest side)&lt;/li&gt;
+&lt;li&gt;1 exported Fusion 360 .f3d file&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Label your files:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;YYYYMMDD Lastname Firstname Render Image of Example Model.png/jpg&lt;/li&gt;
+&lt;li&gt;YYYYMMDD Lastname Firstname Fusion 360 Example Model.f3d&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;instructions&#34;&gt;Instructions&lt;/h2&gt;
+&lt;p&gt;Choose 1 of the example objects from the demo videos. The choice is up to you. Follow along and make the 3D model using the techniques in the video. Then make a render and upload it with the exported .f3d file of the model from Fusion 360. You can put any materials you want on the models but should try your best to make them the same size and shape.&lt;/p&gt;
+&lt;h2 id=&#34;fusion-360-example-modeling-videos&#34;&gt;Fusion 360 Example Modeling Videos&lt;/h2&gt;
+&lt;div class=&#34;video-grid&#34;&gt;
+&lt;div class=&#34;video-card&#34;&gt;
+&lt;h3 id=&#34;1-model-usb-plug-from-third-angle-projection&#34;&gt;1. Model USB Plug from Third Angle Projection&lt;/h3&gt;
+&lt;div class=&#34;iframe-16-9-container&#34;&gt;&lt;iframe class=&#34;youTubeIframe&#34; src=&#34;https://www.youtube.com/embed/VLx9AsbZ8R0?rel=0&#34; width=&#34;300&#34; height=&#34;150&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video-card&#34;&gt;
+&lt;h3 id=&#34;2-model-toy-block&#34;&gt;2. Model Toy Block&lt;/h3&gt;
+&lt;div class=&#34;iframe-16-9-container&#34;&gt;&lt;iframe class=&#34;youTubeIframe&#34; src=&#34;https://www.youtube.com/embed/OJx09e5SrEw?rel=0&#34; width=&#34;300&#34; height=&#34;150&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video-card&#34;&gt;
+&lt;h3 id=&#34;3-model-drinking-glass&#34;&gt;3. Model Drinking Glass&lt;/h3&gt;
+&lt;div class=&#34;iframe-16-9-container&#34;&gt;&lt;iframe class=&#34;youTubeIframe&#34; src=&#34;https://www.youtube.com/embed/2agSzLpN8Z0?rel=0&#34; width=&#34;300&#34; height=&#34;150&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video-card&#34;&gt;
+&lt;h3 id=&#34;4-model-binder-clip&#34;&gt;4. Model Binder Clip&lt;/h3&gt;
+&lt;div class=&#34;iframe-16-9-container&#34;&gt;&lt;iframe class=&#34;youTubeIframe&#34; src=&#34;https://www.youtube.com/embed/MLphWafTfWY?rel=0&#34; width=&#34;300&#34; height=&#34;150&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video-card&#34;&gt;
+&lt;h3 id=&#34;5-model-padlock&#34;&gt;5. Model Padlock&lt;/h3&gt;
+&lt;div class=&#34;iframe-16-9-container&#34;&gt;&lt;iframe class=&#34;youTubeIframe&#34; src=&#34;https://www.youtube.com/embed/8CNllmIHQN0?rel=0&#34; width=&#34;300&#34; height=&#34;150&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;grading-rubric&#34;&gt;Grading Rubric&lt;/h2&gt;
+&lt;div class=&#34;responsive-table-markdown&#34;&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Assessment&lt;/th&gt;
+&lt;th&gt;Weight&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Object Form and Proportions compared to example model&lt;/td&gt;
+&lt;td&gt;30 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Material Applied&lt;/td&gt;
+&lt;td&gt;20 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Render Exported&lt;/td&gt;
+&lt;td&gt;10 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Render Composition&lt;/td&gt;
+&lt;td&gt;10 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;File Management&lt;/td&gt;
+&lt;td&gt;10 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2.8 Model Objects in Fusion 360 and Export Render Images</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/02-fusion-360-sketching-modeling-basics/2-8-model-new-objects-and-export-render-fusion-360/</link>
+      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
+      
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/02-fusion-360-sketching-modeling-basics/2-8-model-new-objects-and-export-render-fusion-360/</guid>
+      <description>&lt;h2 id=&#34;assignment-deliverables&#34;&gt;Assignment Deliverables&lt;/h2&gt;
+&lt;p&gt;Upload the following:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;1 high resolution, labeled render image (1:1, 4:3, 16:9 aspect ratio, 4000px minimum largest side)&lt;/li&gt;
+&lt;li&gt;1 exported Fusion 360 .f3d file&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Label your files:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;YYYYMMDD Lastname Firstname Render Custom Model 1.png/jpg&lt;/li&gt;
+&lt;li&gt;YYYYMMDD Lastname Firstname Fusion 360 Custom Model 1.f3d&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;Now that you have modeled a complete model from on of the example modeling exercises, you will do your best to model one of your objects from your third angle projection.&lt;/p&gt;
+&lt;p&gt;There is no &amp;ldquo;right&amp;rdquo; way to model your object. Try to think of the main shapes. Break those down into pieces and then model the main form. Add details after you get the main forms. Look at the example videos to see different techniques and approaches to modeling simple objects.&lt;/p&gt;
+&lt;p&gt;Using your third angle projection sketches, make a model at least one of your objects in Fusion 360. Use &lt;a href=&#34;https://youtu.be/ZYXSJ6EQ9S4&#34;&gt;Rule Number 1&lt;/a&gt; to divide you object into components. Label your components and make sure to activate each component when you are working on it. It is easy to forget which component is activated so it is good practice to right click on the component and isolate it so it is the only thing you can see. Remember to click the dot in the browser to activate the component that you want to work on so that the design history in the timeline stays with that component.&lt;/p&gt;
+&lt;h2 id=&#34;instructions&#34;&gt;Instructions&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Model at least 1 of your objects but you may model more.&lt;/li&gt;
+&lt;li&gt;Make all of the dimensions that you need are in your third angle projection sketch.&lt;/li&gt;
+&lt;li&gt;If any dimensions are missing from the sketch, remeasure the object so you have the information needed to make an accurate model in Fusion 360.&lt;/li&gt;
+&lt;li&gt;If you do not like the objects from your third angle projections, you can choose new objects. Draw new third angle projections with dimensions so you can make the 3D models.&lt;/li&gt;
+&lt;li&gt;Use the basic Fusion 360 modeling techniques covered in this course. You likely will not be able to model every detail exactly, but give it your best shot to have some representation of each part of the object in your Fusion 360 model.&lt;/li&gt;
+&lt;li&gt;Remember Rule #1 - make a component, label the component, and activate it. This will help keep your design history timeline cleaner.&lt;/li&gt;
+&lt;li&gt;Use sketches to map out the views from your sketch. Then use Extrude and other modeling operations to begin defining the form.&lt;/li&gt;
+&lt;li&gt;Continue to refine the form with tools such as fillet, chamfer, and shell from the modify menu in Fusion 360.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;apply-materials-to-the-model&#34;&gt;Apply Materials to the Model&lt;/h3&gt;
+&lt;ol start=&#34;9&#34;&gt;
+&lt;li&gt;Press &amp;ldquo;a&amp;rdquo; to bring up the appearance menu in order to apply materials to the model.&lt;/li&gt;
+&lt;li&gt;Apply materials to each part of your model.&lt;/li&gt;
+&lt;li&gt;Experiment with different materials. You can edit materials that have been applied to change the color of the materials to match your object.&lt;/li&gt;
+&lt;li&gt;By default, materials apply to bodies and components. If you only want a material to apply to one face of an object, click the button on the top of the appearance menu that says faces.&lt;/li&gt;
+&lt;li&gt;Some materials need to be downloaded to work, click on the down arrow to use.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tip:&lt;/strong&gt; In the Design workspace, the materials do not appear as they will in the render. You can apply materials in the render workspace so you get a better idea of what they look like. Press &amp;ldquo;a&amp;rdquo; to bring up the appearance menu.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;render-the-model&#34;&gt;Render the Model&lt;/h3&gt;
+&lt;ol start=&#34;15&#34;&gt;
+&lt;li&gt;In the Render workspace, select an environment that you want or a solid color background.&lt;/li&gt;
+&lt;li&gt;Rotate and position the model.&lt;/li&gt;
+&lt;li&gt;Change any lighting preferences.&lt;/li&gt;
+&lt;li&gt;Click on the teapot to bring up the render setting menu.&lt;/li&gt;
+&lt;li&gt;Make sure the render are high resolution. The max resolution that Fusion renders at is 4000x4000 pixels. You don&amp;rsquo;t need to render in high resolution when making test renders but after you finalize your model and materials, export a 4000x4000 pixel render.&lt;/li&gt;
+&lt;li&gt;You can render locally on your computer or in the cloud so your computer does not have to do the work and can submit multiple render(s) of different views and angles.&lt;/li&gt;
+&lt;li&gt;After the render(s) are complete, save them to your computer.&lt;/li&gt;
+&lt;li&gt;Label the render file(s) - YYYYMMDD Lastname Firstname Render Image 1.png/jpg&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;download-fusion-f3d-files&#34;&gt;Download Fusion .f3d files&lt;/h3&gt;
+&lt;p&gt;Download the Fusion 360 model files to your computer. (To download a .f3d file you need to go to the file menu and click &amp;ldquo;&amp;hellip;export&amp;rdquo;. Then you can save a .f3d file to your computer.) Upload the .f3d files along with your render image.&lt;/p&gt;
+&lt;p&gt;.f3d Files are a way to share Fusion models. If you have questions about your model during this assignment or during this course, download your .f3d file and send your questions and .f3d file to your instructor via email.&lt;/p&gt;
+&lt;h2 id=&#34;examples-of-fusion-360-renders-of-simple-objects&#34;&gt;Examples of Fusion 360 Renders of Simple Objects&lt;/h2&gt;
+&lt;div class=&#34;gallery-grid&#34;&gt;
+&lt;div class=&#34;image-card&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;2022-Kuehnle-Jimmy-Model-Object-from-Sketch-Fusion-360-Example-1-with-Environment.jpg&#34;&gt;&lt;img src=&#34;2022-Kuehnle-Jimmy-Model-Object-from-Sketch-Fusion-360-Example-1-with-Environment.jpg&#34; alt=&#34;Fusion 360 Example 1 with Environment&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Toy Block with Environment&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;image-card&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;2022-Kuehnle-Jimmy-Model-Object-from-Sketch-Fusion-360-Example-2-with-Custom-HDRI.jpg&#34;&gt;&lt;img src=&#34;2022-Kuehnle-Jimmy-Model-Object-from-Sketch-Fusion-360-Example-2-with-Custom-HDRI.jpg&#34; alt=&#34;Fusion 360 Example 2 with Custom HDRI&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Drinking Glass with Custom HDRI&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;image-card&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;2022-Kuehnle-Jimmy-Model-Object-from-Sketch-Fusion-360-Example-2-with-Environment.jpg&#34;&gt;&lt;img src=&#34;2022-Kuehnle-Jimmy-Model-Object-from-Sketch-Fusion-360-Example-2-with-Environment.jpg&#34; alt=&#34;Fusion 360 Example 2 with Environment&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Drinking Glass with Environment&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;image-card&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;2022-Kuehnle-Jimmy-Model-Object-from-Sketch-Fusion-360-Example-2-with-Transparent-Background.jpg&#34;&gt;&lt;img src=&#34;2022-Kuehnle-Jimmy-Model-Object-from-Sketch-Fusion-360-Example-2-with-Transparent-Background.jpg&#34; alt=&#34;Fusion 360 Example 2 with Transparent Background&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Drinking Glass with Transparent Background&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;image-card&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;2022-Kuehnle-Jimmy-Model-Object-from-Sketch-Fusion-360-Example-3-with-Environment.jpg&#34;&gt;&lt;img src=&#34;2022-Kuehnle-Jimmy-Model-Object-from-Sketch-Fusion-360-Example-3-with-Environment.jpg&#34; alt=&#34;Fusion 360 Example 3 with Environment&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Binder Clip with Environment&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;image-card&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;2022-Kuehnle-Jimmy-Model-Object-from-Sketch-Fusion-360-Example-3-with-Transparent-Background.jpg&#34;&gt;&lt;img src=&#34;2022-Kuehnle-Jimmy-Model-Object-from-Sketch-Fusion-360-Example-3-with-Transparent-Background.jpg&#34; alt=&#34;Fusion 360 Example 3 with Transparent Background&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Binder Clip with Transparent Background&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;grading-rubric&#34;&gt;Grading Rubric&lt;/h2&gt;
+&lt;div class=&#34;responsive-table-markdown&#34;&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Assessment&lt;/th&gt;
+&lt;th&gt;Weight&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Object Form and Proportions compared to sketch&lt;/td&gt;
+&lt;td&gt;30 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Materials Applied&lt;/td&gt;
+&lt;td&gt;20 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Render Exported&lt;/td&gt;
+&lt;td&gt;10 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Render Composition&lt;/td&gt;
+&lt;td&gt;10 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;File Management&lt;/td&gt;
+&lt;td&gt;10 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,49 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>13 - 3D Animation on Modeling and Fabrication</title>
+    <link>https://whatmakeart.com/modeling-and-fabrication/modules/13-3d-animation/</link>
+    <description>Recent content in 13 - 3D Animation on Modeling and Fabrication</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 26 Jan 2020 23:11:13 +0000</lastBuildDate>
+    
+        <atom:link href="https://whatmakeart.com/modeling-and-fabrication/modules/13-3d-animation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>13.2 3d Animation Sets</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/13-3d-animation/13-2-3d-animation-sets/</link>
+      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
+      
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/13-3d-animation/13-2-3d-animation-sets/</guid>
+      <description>&lt;h1 id=&#34;make-an-animation-sets--assets&#34;&gt;Make an Animation Set(s) &amp;amp; Assets&lt;/h1&gt;
+&lt;h2 id=&#34;1-make-a-list-of-needed-assets&#34;&gt;1. Make a List of Needed Assets&lt;/h2&gt;
+&lt;p&gt;After you make your storyboards, make a list of the items and settings for your animation. Is there a boat and water? Is there a box of donuts? Does the ball sit on a shelf? Think of the simple shapes and polygons that can start to make these objects. A box of donuts could start with a scaled cube and a bunch of torus primatives in it, a shelf is just multiple scaled cubes, a boat is a bit more complex but is an elongated cube with some vetecies moved around.&lt;/p&gt;
+&lt;h2 id=&#34;2-set-your-maya-project&#34;&gt;2. Set Your Maya Project&lt;/h2&gt;
+&lt;p&gt;Before you begin making any objects in your Maya scene, make sure you set your project. We did this in class but you should go to File &amp;gt; Set Project and then choose your project folder everytime you start working in Maya. This makes sure you are working with the right files and folders. Always move a texture or external file into your project folder before importing into Maya.&lt;/p&gt;
+&lt;h2 id=&#34;3-3d-model-objects&#34;&gt;3. 3D Model Objects&lt;/h2&gt;
+&lt;p&gt;After you set your Maya Project, begin to create the assets that you need for your animation set. This includes objects, a ground plane, things in the background, walls, hills, etc. You can make multiple scene files and combine them or make everything in one scene file. Sometimes it is better to make an object as its own scene file and then import it into your main animation set scene file. This videos shows &lt;a href=&#34;https://youtu.be/WDpYKvhSOYI&#34;&gt;how to import and reference other scenes into your main scene.&lt;/a&gt; How you organize your files is up to you as long as all files are in your project folder.&lt;/p&gt;
+&lt;p&gt;Model multiple 3D objects to create an interesting visual environment to animate in. Add walls / furniture, rugs, chairs, tables, buildings and other objects forms. You setting(s) can be indoors or outdoors or both. Making a new scene file for different settings is a good idea. All scene files should be in your project&amp;rsquo;s scenes folder. Think&lt;/p&gt;
+&lt;h2 id=&#34;4-add-materials-and-textures&#34;&gt;4. Add Materials and Textures&lt;/h2&gt;
+&lt;p&gt;After you finish modeling your objects, combine all the mesh parts with Mesh &amp;gt; Combine. Then delete the history and freeze the transformation. This video shows &lt;a href=&#34;https://youtu.be/1SXvWTiMkjs&#34;&gt;how to delete history and freeze transformations&lt;/a&gt;. You will do tis multiple times on different objects as you model and make changes. Begin to add materials and textures to the objects in your scene. You can right click on your different objects while in Object Mode. Then select &amp;ldquo;Assign New Material&amp;rdquo;. Click on Arnold in the menu and then select aiStandardSurface. In the Attribute Editor change the name of the aiStandardSurface to the name of your object. You can add &amp;ldquo;Shader&amp;rdquo; to the end of the name. Then select a color or a preset.&lt;/p&gt;
+&lt;p&gt;You can also add textures by 3D Painting in Maya. First &lt;a href=&#34;https://youtu.be/8-TMjuvzZEU&#34;&gt;unwrap your object&amp;rsquo;s UVs&lt;/a&gt; and then assign a new Blinn material. The Maya 3D paint tools do not work on aiStandardSurface. This video shows &lt;a href=&#34;https://youtu.be/JIOns8Tkmhs&#34;&gt;how to 3D paint in Maya&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Don&amp;rsquo;t forget about using photo-based materials / textures. You can easily create seamless textures in Photoshop and then add them to your shader by clicking on the icon by color in the attribute editor of your shader. This video shows &lt;a href=&#34;https://youtu.be/PJ7L4S5ylqg&#34;&gt;how to create seamless textures in Photoshop&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You can also UV unwrap your model and export it as an OBJ file to texture in Substance Painter. This video shows &lt;a href=&#34;https://youtu.be/8-TMjuvzZEU&#34;&gt;how to quickly UV unwrap your object and export a OBJ file&lt;/a&gt;. Substance Painter is installed on the lab computers but you will need to download it from the Adobe Creative Cloud if using your laptop. Create a new file in Substance Painter, select the top default template and then select your exported OBJ file. Paint the textures you want and then export your textures to your &amp;ldquo;sourceimages&amp;rdquo; folder in you Maya Project. You can use the Substance plugin in Maya to assign your textures to a new material and then assign that material to your object. This video shows &lt;a href=&#34;https://youtu.be/sCKc_6nTRPM&#34;&gt;how to make and export textures with Substance Painter&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;5-add-lights&#34;&gt;5. Add Lights&lt;/h2&gt;
+&lt;p&gt;If you try to render your animation scene with the Arnold Render view, everything will be black because there are no lights in the scene. You need to add lights from the Arnold lights menu. Only add Arnold lights. Do not add any Maya lights. If you select lights from the Arnold menu then you will only add Arnold Lights.&lt;/p&gt;
+&lt;p&gt;For a quick view of your set you can add a simple skydome light. This will light the whole scene evenly but is not the most interesting lighting. Instead of a skydome light or artificial sky light, add multiple Arnold Area Lights. These are flat squares like LED light panels. Press &amp;ldquo;r&amp;rdquo; on your keyboard to scale the lights up and press &amp;ldquo;e&amp;rdquo; to rotate them towards your objects, then press &amp;ldquo;w&amp;rdquo; to move them into position. In the attribute editor the default exposure value for Area lights is 0.00. You need to increase this to somewhere between 8.00 and 16.00 (You scene may be different and may need more or less exposure). Each time you increase the exposure value it is like 1 F-stop on a camera and it doubles the amount of light.&lt;/p&gt;
+&lt;p&gt;Place as many lights as you need in different places in your scene. Vary the intensity and color of the lights. It is a good idea to label the lights with descriptive names in your Outliner on the left hand side of the screen so you don&amp;rsquo;t get confused.&lt;/p&gt;
+&lt;h2 id=&#34;6-add-a-renderable-camera&#34;&gt;6. Add a Renderable Camera&lt;/h2&gt;
+&lt;p&gt;After you add lights, then you should add a new Render Camera. This video shows &lt;a href=&#34;https://www.youtube.com/watch?v=VfqYe8O6KlM&#34;&gt;how to add a renderable camera&lt;/a&gt; to your Maya scene. You can look through this camera and position it for your scene. Then you can lock the camera so it does not move. Then you can switch back to the default perspective camera to continue modeling and editing your scene. Label the new camera that you created and then make sure to select it in the Arnold Renderview Window.&lt;/p&gt;
+&lt;p&gt;Add multiple cameras for the different shots and animations you want to create. You may want to make duplicate scenes for different actions. This video shows &lt;a href=&#34;https://www.youtube.com/watch?v=g0btNU7YPUo&#34;&gt;how to add multiple renderable cameras&lt;/a&gt; to your scene.&lt;/p&gt;
+&lt;h2 id=&#34;7-make-a-minimum-of-1-render-of-your-animation-sets&#34;&gt;7. Make a Minimum of 1 Render of Your Animation Set(s)&lt;/h2&gt;
+&lt;p&gt;After your lights and camera are set up, make and save a high resolution, high quality render of your scene. The default render settings are too low for presentation but are good for quick renders. To export your high quality render you need to change the render settings before rendering.&lt;/p&gt;
+&lt;p&gt;Change the render size to a minimum of HD_1080 1920x1080 and increase the Arnold - Camera (AA) samples to at least 5. Remember to changes this back to the default HD_540 and 3 samples so your test renders go quickly while modeling.&lt;/p&gt;
+&lt;h2 id=&#34;8-make-an-archive-zip-of-your-scene&#34;&gt;8. Make an Archive ZIP of Your Scene&lt;/h2&gt;
+&lt;p&gt;After you create your scene. Archive the Maya scene with the Maya scene archiver. If you do not archive the scene, then texture files will not be attached and you will only have the model data. To archive your scene, with your scene open, go to File &amp;gt; Archive Scene. This will create a zip of your scene and any needed texture files. It will create a zip file in your Project&amp;rsquo;s scenes folder. This video &lt;a href=&#34;https://youtu.be/gic-kMWKjNI&#34;&gt;shows how to archve a Maya scene&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Label this zip file as YYYYMMDD Lastname Firstname Archived Set Scene.zip Turn in to the class Google Drive Folder.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,27 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Resources on Modeling and Fabrication</title>
+    <link>https://whatmakeart.com/modeling-and-fabrication/resources/</link>
+    <description>Recent content in Resources on Modeling and Fabrication</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 26 Jan 2020 23:11:13 +0000</lastBuildDate>
+    
+        <atom:link href="https://whatmakeart.com/modeling-and-fabrication/resources/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Instructions for Scanning Sketches</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/resources/how-to-document-sketches/</link>
+      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
+      
+      <guid>https://whatmakeart.com/modeling-and-fabrication/resources/how-to-document-sketches/</guid>
+      <description>&lt;p&gt;A scanner is the best way to digitize your paper sketches. You can use the scanners on the 3rd Floor, in the Library, in 205 or in 302. Make sure that the scan is clear and with good contrast, not too dark or too light. Make sure you select color or grayscale and not document or black and white. Document or black and white will make the image look harsh.&lt;/p&gt;
+&lt;p&gt;A camera may also be used but you must take special care to not have shadows or image distortions. If using a camera, place a light on one side of the piece of paper, then put a large white panel on the other side. The light will bounce off the panel and act as a second light. Make sure the camera is behind the lights and is square to the image so there is not distortion. Adjust the levels of the image in Photoshop for proper white balance and contrast.&lt;/p&gt;
+&lt;p&gt;Scan or photograph your sketches. Images should be square to the frame and not crooked. No shadows or other poor lighting situations. Especially avoid shadows cast from a camera. Correct the images for exposure, levels, and white balance. Straighten and crop the images as necessary so nothing but the paper and sketches show in the images.&lt;/p&gt;
+&lt;p&gt;Label your scans YYYYMMDD Lastname First Name Project Name.jpg&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

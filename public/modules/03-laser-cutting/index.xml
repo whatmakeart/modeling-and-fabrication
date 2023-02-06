@@ -1,0 +1,291 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>03 - Laser Cutting on Modeling and Fabrication</title>
+    <link>https://whatmakeart.com/modeling-and-fabrication/modules/03-laser-cutting/</link>
+    <description>Recent content in 03 - Laser Cutting on Modeling and Fabrication</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 26 Jan 2020 23:11:13 +0000</lastBuildDate>
+    
+        <atom:link href="https://whatmakeart.com/modeling-and-fabrication/modules/03-laser-cutting/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>3.0 Introduction</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/03-laser-cutting/3-00-introduction/</link>
+      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
+      
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/03-laser-cutting/3-00-introduction/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;This module introduces laser cutting as a digital fabrication process. Laser cutting can cut all the way through a material or etch on its surface. Laser cutting is a quick way to rapidly prototype and test ideas and concepts. It can make parts with high accuracy and repeatability. It is limited to creating flat pieces of relatively thin thickness.&lt;/p&gt;
+&lt;h2 id=&#34;learning-outcomes&#34;&gt;Learning Outcomes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Use Adobe Illustrator to make laser cut file for test cut&lt;/li&gt;
+&lt;li&gt;Use Epilog laser cutting software to cut and etch wood and plastic&lt;/li&gt;
+&lt;li&gt;Create iterative designs and ideation sketches&lt;/li&gt;
+&lt;li&gt;Refine designs for assembly and fabrication&lt;/li&gt;
+&lt;li&gt;Fabricate scale models in cardboard&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>3.1 Laser Cut Test File</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/03-laser-cutting/3-01-laser-cut-test-file/</link>
+      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
+      
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/03-laser-cutting/3-01-laser-cut-test-file/</guid>
+      <description>&lt;p&gt;We will go to the think[box] to learn how to use the laser cutters.
+We will each make a test cut from a file that we make. You need to have this
+file made before going to the think[box]. There are specific instructions to make
+the file in Adobe Illustrator. If you do not follow the directions then your
+file will not work properly on the laser cutters.&lt;/p&gt;
+&lt;p&gt;The test cut will demonstrate the ability of a through cut and an etching cut on the laser cutters.&lt;/p&gt;
+&lt;h2 id=&#34;laser-cut-test-file-creation-instructions&#34;&gt;Laser Cut Test File Creation Instructions&lt;/h2&gt;
+&lt;div class=&#34;two-column-instructions-grid&#34;&gt;
+&lt;p&gt;Open Adobe Illustrator&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Create a New Document that is 4 inches by 4 inches in RGB color&lt;/li&gt;
+&lt;li&gt;Label the File&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;artboard-settings.png&#34; alt=&#34;Illustrator Artboard Settings&#34; title=&#34;Illustrator Artboard Settings&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Draw path that is closed&lt;/li&gt;
+&lt;li&gt;Keep the path away from the edges of the 4x4 Artboard&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;1st-stroke.png&#34; alt=&#34;1st Stroke for Laser Cutter&#34; title=&#34;1st Stroke for Laser Cutter&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Select the Path&lt;/li&gt;
+&lt;li&gt;Set the Fill to transparent&lt;/li&gt;
+&lt;li&gt;Change the stroke color to Red&lt;/li&gt;
+&lt;li&gt;Change stroke width to .001 points&lt;/li&gt;
+&lt;li&gt;Any red stroke with a width of .001 will be cut all the way through.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;red-stroke.png&#34; alt=&#34;Change Stroke Color&#34; title=&#34;Change Stroke Color&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Draw a new path inside your first path.&lt;/li&gt;
+&lt;li&gt;Do not have the paths touch.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;2nd-stroke.png&#34; alt=&#34;2nd Stroke for Laser Cutter&#34; title=&#34;2nd Stroke for Laser Cutter&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Select the Path&lt;/li&gt;
+&lt;li&gt;Set the Fill to transparent&lt;/li&gt;
+&lt;li&gt;Change the stroke color to Blue&lt;/li&gt;
+&lt;li&gt;Change stroke width to .5 points&lt;/li&gt;
+&lt;li&gt;Any blue stroke with a width of .5 will be etched.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;blue-stroke.png&#34; alt=&#34;Change Stroke Color to Blue&#34; title=&#34;Change Stroke Color to Blue&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Save your file&lt;/li&gt;
+&lt;li&gt;Upload to Google Drive for later access&lt;/li&gt;
+&lt;li&gt;Save your file on a USB Drive if available for redundancy&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Bring USB drive and / or Adobe Creative Cloud Password to think[box]. You need access to the test file from the USB drive or cloud storage.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>3.2 Ideation Sketching</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/03-laser-cutting/3-02-ideation-sketching/</link>
+      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
+      
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/03-laser-cutting/3-02-ideation-sketching/</guid>
+      <description>&lt;h2 id=&#34;what-is-ideation-sketching&#34;&gt;What is Ideation Sketching?&lt;/h2&gt;
+&lt;p&gt;Ideation sketching is an important part of the creative process. There are many ways to make and generate ideas. The simplest way is with small thumbnail sketches with a pencil on paper.&lt;/p&gt;
+&lt;p&gt;Draw sketches that convey your idea and excite the viewer. Also draw sketches that explore how your concept could possibly be assembled and made.&lt;/p&gt;
+&lt;p&gt;Sketches can be made with analog techniques, digital techniques, or a combination of both. You can use pencils, markers, paper photo collage, digital photo collage, 3D modeling, vector graphics, digital painting and any other means of ideation and iteration.&lt;/p&gt;
+&lt;p&gt;It is important that you generate many different ideas and concepts that are unique designs. It is also important that you iterate on these different concepts to develop them past their initial idea phase. Variety, lots of different ideas, and iteration, variations of an idea, are important skills for the ideation process. Avoid the trap of instantly settling on a single idea. Push yourself to make new and unknown ideas. This is how you will grow as a creative.&lt;/p&gt;
+&lt;h2 id=&#34;sketching-guides&#34;&gt;Sketching Guides&lt;/h2&gt;
+&lt;p&gt;Sculpture commissions go through an initial planning phase and design phase. Once those approvals are complete, detailed drawings, contracts, and timelines are agreed upon. Then fabrication of the work begins. The drawings you make should be communicative of all aspects of your project and show how things will go together. Will you use a screw? Glue? Welding? What sizes? What materials? This will take multiple drawings and views. If there are 4 identical corners, you can draw a detail of 1 corner and make a note that the other corners are the same.&lt;/p&gt;
+&lt;h2 id=&#34;sketch-size&#34;&gt;Sketch Size&lt;/h2&gt;
+&lt;p&gt;If done digitally separate your sketches into multiple digital &amp;ldquo;pages&amp;rdquo; so that if one page is full screen on a laptop then we would see the same amount of detail if a scanned page of a sketchbook was full-screen on the laptop.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>3.3 Cardboard Construction</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/03-laser-cutting/3-03-cardboard-construction/</link>
+      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
+      
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/03-laser-cutting/3-03-cardboard-construction/</guid>
+      <description>&lt;p&gt;Cardboard is a great material for making prototypes. As a material, it is relatively cheap, easy to find, strong and lightweight. In fabrication it can be cut, sanded, bent, fastened and glued. Multiple layers of cardboard can be built up to make a panel a desired thickness.&lt;/p&gt;
+&lt;p&gt;Tab and slot cardboard construction techniques allow a design to assemble and disassemble without glue. This can be helpful when a design might be changed or when the final design may also use slot and tab construction such as in laser cutting.&lt;/p&gt;
+&lt;p&gt;Cardboard can be made into gusset supports to strengthen corners where two planes join. Gussets are triangular supports similar to a shelf bracket and are used on bridges, buildings, and on the internal structure of video game controllers.&lt;/p&gt;
+&lt;p&gt;With a small amount of practice you can make detailed an intricate test pieces with cardboard. There is a balance between spending too much time on a cardboard prototype and spending too little time. We want to work quickly and efficiently, but if everything in the cardboard model is sloppy and not held together well, it will not give you any insight into your concept or ideas.&lt;/p&gt;
+&lt;div class=&#34;video-grid&#34;&gt;
+&lt;div class=&#34;video-card&#34;&gt;
+&lt;h3 id=&#34;cut-cardboard-cleanly&#34;&gt;Cut Cardboard Cleanly&lt;/h3&gt;
+&lt;div class=&#34;iframe-16-9-container&#34;&gt;
+&lt;iframe class=&#34;youTubeIframe&#34; width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/Tm7xTiLl4Hw&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>3.4 Laser Cut Design Research</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/03-laser-cutting/3-04-laser-cut-design-research/</link>
+      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
+      
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/03-laser-cutting/3-04-laser-cut-design-research/</guid>
+      <description>&lt;h1 id=&#34;design-laser-cut-phone--tablet-or-laptop-stand---design-research&#34;&gt;Design Laser Cut Phone / Tablet or Laptop Stand - Design Research&lt;/h1&gt;
+&lt;div class=&#34;two-column-grid&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;2021-Laser-Cut-Stand-Parts-Layed-Out.jpg&#34;&gt;&lt;img src=&#34;2021-Laser-Cut-Stand-Parts-Layed-Out.jpg&#34; alt=&#34;Laser Cut Parts Layed Out&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;2021-Laser-Cut-Stand-Assembeled.jpg&#34;&gt;&lt;img src=&#34;2021-Laser-Cut-Stand-Assembeled.jpg&#34; alt=&#34;Laser Cut Stand Assembled&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;We will use the power of parametric modeling in Fusion 360 to design a phone, tablet or laptop stand that will be laser cut out of plywood or acrylic. The laser cutters can cut plywood and acrylic from 1/8&amp;quot; to 1/4&amp;quot; thick.&lt;/p&gt;
+&lt;p&gt;This project will use the entire design process.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;identifying the problem&lt;/li&gt;
+&lt;li&gt;ideation and iteration&lt;/li&gt;
+&lt;li&gt;refinement of ideas&lt;/li&gt;
+&lt;li&gt;testing of ideas through physical models&lt;/li&gt;
+&lt;li&gt;making of a digital model base on those tests&lt;/li&gt;
+&lt;li&gt;outputting a physical prototype through a laser cutter&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;process&#34;&gt;Process&lt;/h2&gt;
+&lt;p&gt;Initial Thinking&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Think of the times that you use on a cell phone, tablet or laptop to see content on the screen. This could be video content, video chat, web browsing, a recipe while cooking, propped up while reading in bed or any other time the screen is on and you may want to be freehanded.&lt;/li&gt;
+&lt;li&gt;Think of the surfaces you may want the stand to work on. Consider what angle you want the device to be at and whether it would be vertical or horizontal.&lt;/li&gt;
+&lt;li&gt;Do you need to think about how the power cable would fit?&lt;/li&gt;
+&lt;li&gt;Do you need to think about where the power buttons and volume buttons are? What about the keyboard? Considering external devices connected?&lt;/li&gt;
+&lt;li&gt;Conduct research of existing solutions to the problem. You will not &amp;ldquo;copy&amp;rdquo; anything but you should be aware of what exists. It can inspire your and spark new ideas in your mind. Do an internet image search of &lt;a href=&#34;https://www.google.com/search?q=phone+stands&amp;amp;tbm=isch&#34;&gt;phone stands&lt;/a&gt;, &lt;a href=&#34;https://www.google.com/search?q=tablet+stands&amp;amp;tbm=isch&#34;&gt;tablet stands&lt;/a&gt;, &lt;a href=&#34;https://www.google.com/search?q=laptop+stands&amp;amp;tbm=isch&#34;&gt;laptop stands&lt;/a&gt; to get your brain buzzing.&lt;/li&gt;
+&lt;li&gt;Do an image search of &lt;a href=&#34;https://www.google.com/search?q=laser+cut+objects&amp;amp;tbm=isch&#34;&gt;laser cut objects&lt;/a&gt; to see what laser cutters can make.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>3.5 Laser Cut Ideation Sketches and Cardboard Model</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/03-laser-cutting/3-05-laser-cut-ideation-sketches/</link>
+      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
+      
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/03-laser-cutting/3-05-laser-cut-ideation-sketches/</guid>
+      <description>&lt;h2 id=&#34;assignment-deliverables&#34;&gt;Assignment Deliverables&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Minimum 10 Ideations&lt;/li&gt;
+&lt;li&gt;Minimum 3 refined Sketch Ideas&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Label your scanned sketches - YYYYMMDD Lastname First Name Project Name / Description&lt;/p&gt;
+&lt;h2 id=&#34;ideation-sketches&#34;&gt;Ideation Sketches&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;After initial design research, begin by drawing ideation sketches of solutions. At this stage try to draw many different ideas without censoring your thoughts. No idea is bad at this point.&lt;/li&gt;
+&lt;li&gt;Draw many ideas with different contours and solutions to the problem.&lt;/li&gt;
+&lt;li&gt;Draw a minimum of 10 ideation sketches of different designs and ideas. Each idea should be new and unique.&lt;/li&gt;
+&lt;li&gt;Draw your ideations sketches large enough. The maximum number of ideation sketches on a single page (~8.5&amp;quot;x11&amp;quot; sheet) is 6-8 sketches. Any more and they are too small.&lt;/li&gt;
+&lt;li&gt;You can make your sketches via analog or digital techniques or both. If you use digital techniques, the maximum number of ideation sketches on a single screen size document is 6-8 sketches. Any more and they are too small.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;idea-sketch-refinement&#34;&gt;Idea Sketch Refinement&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;After an initial out of ideation go back through your sketches and see which ones seem promising.&lt;/li&gt;
+&lt;li&gt;Choose five of these ideas and refine them and redraw them larger. Pay attention to showing how the pieces of the stand would go together. Try to draw them as solid things in three-dimensional space on your page.&lt;/li&gt;
+&lt;li&gt;Draw a minimum of 3 refined sketch ideas.&lt;/li&gt;
+&lt;li&gt;Draw your refined sketches large enough. The maximum number of refined sketches on a single page (~8.5&amp;quot;x11&amp;quot; sheet) is 2-3 sketches. Any more and they are too small.&lt;/li&gt;
+&lt;li&gt;You can make your sketches via analog or digital techniques or both. If you use digital techniques, the maximum number of refined sketches on a single screen size document is 2-3 sketches. Any more and they are too small.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;grading-rubric&#34;&gt;Grading Rubric&lt;/h1&gt;
+&lt;div class=&#34;responsive-table-markdown&#34;&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Assessment&lt;/th&gt;
+&lt;th&gt;Weight&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Thumbnails&lt;/td&gt;
+&lt;td&gt;20 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;3 Revised Sketches&lt;/td&gt;
+&lt;td&gt;30 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Depth and Variety of ideas&lt;/td&gt;
+&lt;td&gt;30 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Sketch Documentation&lt;/td&gt;
+&lt;td&gt;10 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;File Management&lt;/td&gt;
+&lt;td&gt;10 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>3.6 Laser Cut Cardboard Model</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/03-laser-cutting/3-06-laser-cut-cardboard-models/</link>
+      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
+      
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/03-laser-cutting/3-06-laser-cut-cardboard-models/</guid>
+      <description>&lt;h2 id=&#34;assignment-deliverables&#34;&gt;Assignment Deliverables&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;1 Cardboard full scale model&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;physical-test-model&#34;&gt;Physical Test Model&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Choose one of these drawings&lt;/li&gt;
+&lt;li&gt;Get some cardboard. There is some in the classroom. Use good clean cardboard rather than old, torn, and bent cardboard so you are not fighting the material.&lt;/li&gt;
+&lt;li&gt;Make a 1:1 scale model. This means real world scale. If you are using 1/4&amp;quot; plywood or acrylic, then make your cardboard the same thickness. We want the model to be accurate and full scale so we can test our ideas quickly.&lt;/li&gt;
+&lt;li&gt;Use the joining and assembly techniques that you plan to use with the laser cutter, such as slots, grooves, tabs, and butt joints.&lt;/li&gt;
+&lt;li&gt;Often it is not possible to use the same construction techniques with cardboard that you will use with wood or acrylic cut with the laser cutter.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;cutting-techniques&#34;&gt;Cutting Techniques&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Laser Cutter - cuts cardboard very well, can make shapes in graphics program like Adobe Illustrator and send to cutter. Fusion 360 can also be used. We will learn how to make panel constructed objects next week.&lt;/li&gt;
+&lt;li&gt;Box Cutter - Always use a new blade and a cutting mat&lt;/li&gt;
+&lt;li&gt;Metal Straight Edge - useful for cutting clean edges&lt;/li&gt;
+&lt;li&gt;Remember that often you need to run the box cutter multiple times to cut all of the cardboard&lt;/li&gt;
+&lt;li&gt;serrated cutters - good for cutting curves&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;assembly-techniques&#34;&gt;Assembly Techniques&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;hot glue - strong, fast, but hot and messy&lt;/li&gt;
+&lt;li&gt;PVA glue (white paper glue or yellow wood glue) - strong and clean but slow&lt;/li&gt;
+&lt;li&gt;tape (packing, duck, paper) - fast, clean but ofter weak, especially if only on one side of a joint&lt;/li&gt;
+&lt;li&gt;bolts - strong but can pull through cardboard if a washer is not used.&lt;/li&gt;
+&lt;li&gt;cardboard - slots, tabs, grooves, folds&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;grading-rubric&#34;&gt;Grading Rubric&lt;/h1&gt;
+&lt;div class=&#34;responsive-table-markdown&#34;&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Assessment&lt;/th&gt;
+&lt;th&gt;Weight&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Design&lt;/td&gt;
+&lt;td&gt;40 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Assembly Techniques&lt;/td&gt;
+&lt;td&gt;30 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Clean Cuts&lt;/td&gt;
+&lt;td&gt;30 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

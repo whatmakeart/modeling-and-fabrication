@@ -1,0 +1,85 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>15 on Modeling and Fabrication</title>
+    <link>https://whatmakeart.com/modeling-and-fabrication/modules/15-final-projects/</link>
+    <description>Recent content in 15 on Modeling and Fabrication</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 26 Jan 2020 23:11:13 +0000</lastBuildDate>
+    
+        <atom:link href="https://whatmakeart.com/modeling-and-fabrication/modules/15-final-projects/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>15.1 Update Website Portfolio</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/15-final-projects/15-1-update-website-portfolio/</link>
+      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
+      
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/15-final-projects/15-1-update-website-portfolio/</guid>
+      <description>&lt;h1 id=&#34;updated-website-portfolio-pages&#34;&gt;Updated Website Portfolio Page(s)&lt;/h1&gt;
+&lt;p&gt;Maintaining an online presence for your work will be important for your career as a creative professional. In Digital I, you learned how to make a basic website with and image gallery portfolio page. If not kept current, websites can quickly become out of date and then not give the best first impression to visitors interested in your work. Keep your website fresh by periodically updating your portfolio images.&lt;/p&gt;
+&lt;p&gt;You can swap out old images on your current portfolio page, or you can add them to the page. You can also add a whole new page for the new work.&lt;/p&gt;
+&lt;p&gt;For this assignment you need to have a page that has a presentation of work that you completed for Digital II this semester. That can be images or video or both. Your website should have a custom domain name of your choice. After the semester end you can edit and change the website however you wish.&lt;/p&gt;
+&lt;iframe title=&#34;YouTube video player&#34; src=&#34;https://www.youtube.com/embed/fqVYMRMsqLs&#34; width=&#34;560&#34; height=&#34;315&#34; frameborder=&#34;0&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;
+&lt;h2 id=&#34;requirements&#34;&gt;Requirements&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Have a custom domain name&lt;/li&gt;
+&lt;li&gt;Have a mobile first responsive design with media queries in the CSS&lt;/li&gt;
+&lt;li&gt;Use an external styles.css linked in the head rather than inline styles&lt;/li&gt;
+&lt;li&gt;Include a responsive image gallery of your original work&lt;/li&gt;
+&lt;li&gt;Include an about or contact page that shows how to get in touch with your and / or tells your creative story&lt;/li&gt;
+&lt;li&gt;Have navigation links to your html pages in a responsive nav bar&lt;/li&gt;
+&lt;li&gt;Optimize your images in Photoshop to reduce the file size so they download quickly. Images should definitely be less than 1MB. The pixel dimensions can be large but the file size should be small.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can do all of the above for free using GitHub Pages and a free domain from Namecheap by following the tutorials posted in the weekly asynchronous content. You may use a domain registrar and hosting provider of your choice.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Link to Web Portfolio Instructions Playlist:&lt;/strong&gt; &lt;a href=&#34;https://youtube.com/playlist?list=PL8G4GiXpgTvJSZCHRWUZK5o0U1c8CWqF2&#34;&gt;https://youtube.com/playlist?list=PL8G4GiXpgTvJSZCHRWUZK5o0U1c8CWqF2&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;turn-in-assignment&#34;&gt;Turn in Assignment&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;Upload your website to GitHub Pages or the hosting provider of your choice.&lt;/li&gt;
+&lt;li&gt;Test your domain name to make sure it is working online.&lt;/li&gt;
+&lt;li&gt;Test on a mobile device.&lt;/li&gt;
+&lt;li&gt;Take a screenshot of each of your pages that are online with the padlock showing https&lt;/li&gt;
+&lt;li&gt;Put the screenshot images into a Google Doc to download as a PDF&lt;/li&gt;
+&lt;li&gt;Put your name and a link to your website at the top of the Google Doc&lt;/li&gt;
+&lt;li&gt;Download the Google Doc as a PDF&lt;/li&gt;
+&lt;li&gt;Label your file YYYYMMDD Lastname Firstname Artist Portfolio Website.pdf&lt;/li&gt;
+&lt;li&gt;Upload PDF to Google Drive&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;google-drive-upload-folder&#34;&gt;Google Drive Upload Folder&lt;/h2&gt;
+&lt;h1 id=&#34;next-steps&#34;&gt;Next Steps&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;Continue to update and change your website as you wish.&lt;/li&gt;
+&lt;li&gt;The domain and site are yours to keep. Next fall you need to pay a small fee to Namecheap to renew your domain name.  I recommend doing this or changing to a new custom domain name. You can buy multiple years at one time. One year of domain registration costs about as much as 1 month of Netflix or 2 lunches at Chipotle. That way your portfolio remains online.&lt;/li&gt;
+&lt;li&gt;As a creative it is essential that you have a custom online presence.  You can move you site to other hosting but the GitHub Pages hosting is free.  If you have questions about any of this in the future, send me an email.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Assessment&lt;/th&gt;
+&lt;th&gt;Weight&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Add New Images from Spring&lt;/td&gt;
+&lt;td&gt;25 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Upload Zip Archive of Site&lt;/td&gt;
+&lt;td&gt;25 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;PDF with Screenshots&lt;/td&gt;
+&lt;td&gt;25 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Published on Web&lt;/td&gt;
+&lt;td&gt;25 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

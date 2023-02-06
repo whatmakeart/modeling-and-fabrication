@@ -1,0 +1,483 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>04 - Laser Cutting&#34; on Modeling and Fabrication</title>
+    <link>https://whatmakeart.com/modeling-and-fabrication/modules/04-laser-cutting-3d-modeling/</link>
+    <description>Recent content in 04 - Laser Cutting&#34; on Modeling and Fabrication</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 26 Jan 2020 23:11:13 +0000</lastBuildDate>
+    
+        <atom:link href="https://whatmakeart.com/modeling-and-fabrication/modules/04-laser-cutting-3d-modeling/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>3.6 Model Multi Component Model</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/04-laser-cutting-3d-modeling/4-06-model-demo-multi-component-model/</link>
+      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
+      
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/04-laser-cutting-3d-modeling/4-06-model-demo-multi-component-model/</guid>
+      <description>&lt;ol start=&#34;7&#34;&gt;
+&lt;li&gt;Watch the &lt;a href=&#34;&#34;&gt;tutorial videos&lt;/a&gt; on the course page that show different types of &lt;a href=&#34;&#34;&gt;laser cut joints&lt;/a&gt;. We will go over how to make our projects in Fusion 360 next week but you should be generally aware of these joining concepts as you design your prototype.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>4.0 Introduction</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/04-laser-cutting-3d-modeling/4-00-introduction-laser-cutting-3d-modeling/</link>
+      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
+      
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/04-laser-cutting-3d-modeling/4-00-introduction-laser-cutting-3d-modeling/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;This module continues the design and fabrication process based on the ideation and physical cardboard prototypes you produced. After discussing your ideas and cardboard models with the group, you will make necessary modifications to your design. Then we will study how to convert a sketch and a cardboard model into a digital 3D model in Fusion 360 designed for fabrication with a laser cutter. We will examine how to keep the parts as separate components, how to lay everything flat, and how to export tool paths for use on the laser cutter.&lt;/p&gt;
+&lt;h2 id=&#34;learning-objectives&#34;&gt;Learning Objectives&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Use sketch projections in Fusion 360&lt;/li&gt;
+&lt;li&gt;Design a modular 3D model in Fusion 360 for laser cutting&lt;/li&gt;
+&lt;li&gt;Export rendered images of 3D Model&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;keywords&#34;&gt;Keywords&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;kerf&lt;/li&gt;
+&lt;li&gt;dxf&lt;/li&gt;
+&lt;li&gt;finger joint&lt;/li&gt;
+&lt;li&gt;tool path&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>4.01 Laser Cut Joint Examples</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/04-laser-cutting-3d-modeling/4-01-laser-cut-joint-examples/</link>
+      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
+      
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/04-laser-cutting-3d-modeling/4-01-laser-cut-joint-examples/</guid>
+      <description>&lt;p&gt;Laser Cut Joints&lt;/p&gt;
+&lt;p&gt;There are many ways to join a laser cut project together ranging from gravity to glue to bolts to snap pieces. You can use a variety of ways to connect. Here are some example images of different methods of joining pieces together. There are many more ways. Search the internet for other methods of making laser cut joints.&lt;/p&gt;
+&lt;div class=&#34;gallery-grid&#34;&gt;
+&lt;div class=&#34;image-card&#34;&gt;
+&lt;div class=&#34;image-box&#34;&gt;
+&lt;p&gt;&lt;img src=&#34;2022-Finger-Joints-Laser-Cut.png&#34; alt=&#34;Laser Cut Finger Joints&#34;&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Box with finger joints on all sides&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;image-card&#34;&gt;
+&lt;div class=&#34;image-box&#34;&gt;
+&lt;p&gt;&lt;img src=&#34;2022-Snap-Joints-Laser-Cut-1.png&#34; alt=&#34;Laser Cut Snap Joints&#34;&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Snap joint pulled apart&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;image-card&#34;&gt;
+&lt;div class=&#34;image-box&#34;&gt;
+&lt;p&gt;&lt;img src=&#34;2022-Snap-Joints-Laser-Cut-2.png&#34; alt=&#34;Laser Cut Snap Joints&#34;&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Snap joint pressed together&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;image-card&#34;&gt;
+&lt;div class=&#34;image-box&#34;&gt;
+&lt;p&gt;&lt;img src=&#34;2022-Captive-Nut-Joints-Laser-Cut.png&#34; alt=&#34;Laser Cut Captive Nut Joints&#34;&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Captive bolt / nut joints laid flat&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;image-card&#34;&gt;
+&lt;div class=&#34;image-box&#34;&gt;
+&lt;p&gt;&lt;img src=&#34;2022-Captive-Nut-Joints-Laser-Cut-2.png&#34; alt=&#34;Laser Cut Captive Nut Joints&#34;&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Captive bolt / nut joint without aligning fingers&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;image-card&#34;&gt;
+&lt;div class=&#34;image-box&#34;&gt;
+&lt;p&gt;&lt;img src=&#34;2022-Captive-Nut-Joints-with-Fingers-Laser-Cut.png&#34; alt=&#34;Laser Cut Captive Nut Joints with Fingers&#34;&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Captive bolt / nut joint with alignment tabs / fingers&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;image-card&#34;&gt;
+&lt;div class=&#34;image-box&#34;&gt;
+&lt;p&gt;&lt;img src=&#34;2022-Pinned-Finger-Joints-Laser-Cut-Colors.png&#34; alt=&#34;Laser Cut Pinned Finger Joints&#34;&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Pinned finger joint with different pieces colorized&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;image-card&#34;&gt;
+&lt;div class=&#34;image-box&#34;&gt;
+&lt;p&gt;&lt;img src=&#34;2022-Pinned-Finger-Joints-Laser-Cut.png&#34; alt=&#34;Laser Cut Pinned Finger Joints&#34;&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Pinned finger joint&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>4.2 Model Laser Cut Project in Fusion 360</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/04-laser-cutting-3d-modeling/4-2-model-laser-cut-project-in-fusion-360/</link>
+      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
+      
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/04-laser-cutting-3d-modeling/4-2-model-laser-cut-project-in-fusion-360/</guid>
+      <description>&lt;div class=&#34;flex-container-jimmy&#34;&gt;
+&lt;div class=&#34;half-box&#34;&gt;
+&lt;p&gt;Using your sketches, cardboard model, and third angle projections, make a model of your laser cut stand in Fusion 360. Each piece of the project should be a separate component. This is necessary to be able to &lt;a href=&#34;https://youtu.be/jeQPJHHwVN4&#34;&gt;lay the parts out flat&lt;/a&gt; in Fusion 360 to produce and &lt;a href=&#34;https://youtu.be/6JFHMV7A9TU&#34;&gt;export a DXF cut file&lt;/a&gt; for use on the laser cutter. You will need to make a laser cutter tool in Fusion 360 and install a DXF post processor to produce a DXF file of your tool paths. There are video instructions below showing &lt;a href=&#34;https://youtu.be/-B6DXF9aE5s&#34;&gt;how to make a laser cutter tool&lt;/a&gt; and &lt;a href=&#34;https://youtu.be/CBu6vl6Bqos&#34;&gt;how to install the DXF post processor&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This project introduces custom &lt;a href=&#34;https://youtu.be/H6W-Og4YyZ8&#34;&gt;user parameters in Fusion 360&lt;/a&gt;. These are like variables for dimensions that we can change and have the model update automatically. You are required to use at least one user dimension for &amp;ldquo;ply&amp;rdquo; or the thickness of the material you are cutting. Materials vary in width, so we will &lt;a href=&#34;https://youtu.be/a7HOiBC_81s&#34;&gt;measure the material before cutting&lt;/a&gt; on the laser cutter. When we know the real thickness of the material &lt;a href=&#34;https://youtu.be/oOZjbbe6YZk&#34;&gt;using digital calipers&lt;/a&gt;, then we can change the &amp;ldquo;ply&amp;rdquo; variable and the model will produce an accurate cut file.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;half-box&#34;&gt;
+&lt;p&gt;&lt;img src=&#34;2021-Laser-Cut-Stand_Assembled.jpg&#34; alt=&#34;Laser Cut Stand Assembled&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;caption-jimmy&#34;&gt;Physical Prototype of Laser Cut Cell Phone Stand cut at think[box]&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h1 id=&#34;process&#34;&gt;Process&lt;/h1&gt;
+&lt;h2 id=&#34;1-model-stand-in-fusion-360&#34;&gt;1. Model Stand in Fusion 360&lt;/h2&gt;
+&lt;p&gt;If you prefer, you can import your third angle projection sketches to use as guides you start your first sketch. You need to calibrate the size of the sketch to be the correct scale in your Fusion 360 file. Then you can use the sketch as a guide to create your digital sketch. This step is not necessary but some may like it. This video shows &lt;a href=&#34;https://youtu.be/-3SMfrnWMTE&#34;&gt;how to import an image as a canvas&lt;/a&gt; in Fusion 360.&lt;/p&gt;
+&lt;p&gt;If you are making detailed organic forms or drawing an image to use as the contours of the sides or other parts of your stand it can be difficult to draw complex shapes and images in Fusion. You can draw you image or character in Illustrator and export it as an SVG or DXF. Then you can import that file into Fusion 360. Once in fusion the file acts as a sketch and you can extrude it right away to be a piece of your model. This workflow is better than drawing a complex organic form in Fusion.&lt;/p&gt;
+&lt;p&gt;Remember to make a new component at the top level of you model for each part. The top level should be the &amp;ldquo;parent&amp;rdquo; of each of the other components. The components should be at the same outline level in the browser and not nested inside each other.&lt;/p&gt;
+&lt;p&gt;Think about how your pieces will hold together.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Will you use captive nut joints?&lt;/li&gt;
+&lt;li&gt;Will you use pinned finger joints?&lt;/li&gt;
+&lt;li&gt;Will you use tabs and holes?&lt;/li&gt;
+&lt;li&gt;Will you have bendable living hinges?&lt;/li&gt;
+&lt;li&gt;Will you use snap clips?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Remember to add tabs and holes and any other design features needed to attach the different pieces. You can use the &amp;ldquo;Combine&amp;rdquo; modify action to cut out pieces using other pieces as &amp;ldquo;tools&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;Types of Laser Cut Joints&lt;/p&gt;
+&lt;p&gt;There are many ways to join a laser cut project together ranging from gravity to glue to bolts to snap pieces. You can use a variety of ways to connect. Here are some example images of different methods of joining pieces together. There are many more ways. Search the internet for other methods of making laser cut joints.&lt;/p&gt;
+&lt;div class=&#34;gallery-grid-jimmy&#34;&gt;
+&lt;div class=&#34;image-card-jimmy&#34;&gt;
+&lt;div class=&#34;image-box-jimmy&#34;&gt;
+&lt;p&gt;&lt;img src=&#34;2022-Finger-Joints-Laser-Cut.png&#34; alt=&#34;Laser Cut Finder Joints&#34;&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Box with finger joints on all sides&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;image-card-jimmy&#34;&gt;
+&lt;div class=&#34;image-box-jimmy&#34;&gt;
+&lt;p&gt;&lt;img src=&#34;2022-Snap-Joints-Laser-Cut-1.png&#34; alt=&#34;Laser Cut Snap Joints&#34;&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Snap joint pulled apart&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;image-card-jimmy&#34;&gt;
+&lt;div class=&#34;image-box-jimmy&#34;&gt;
+&lt;p&gt;&lt;img src=&#34;2022-Snap-Joints-Laser-Cut-2.png&#34; alt=&#34;Laser Cut Snap Joints&#34;&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Snap joint pressed together&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;image-card-jimmy&#34;&gt;
+&lt;div class=&#34;image-box-jimmy&#34;&gt;
+&lt;p&gt;&lt;img src=&#34;2022-Captive-Nut-Joints-Laser-Cut.png&#34; alt=&#34;Laser Cut Captive Nut Joints&#34;&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Captive bolt / nut joints laid flat&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;image-card-jimmy&#34;&gt;
+&lt;div class=&#34;image-box-jimmy&#34;&gt;
+&lt;p&gt;&lt;img src=&#34;2022-Captive-Nut-Joints-Laser-Cut-2.png&#34; alt=&#34;Laser Cut Captive Nut Joints&#34;&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Captive bolt / nut joint without aligning fingers&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;imag-card-jimmy&#34;&gt;
+&lt;div class=&#34;image-box-jimmy&#34;&gt;
+&lt;p&gt;&lt;img src=&#34;2022-Captive-Nut-Joints-With-Fingers-Laser-Cut.png&#34; alt=&#34;Laser Cut Captive Nut Joints with Fingers&#34;&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Captive bolt / nut joint with alignment tabs / fingers&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;imaeg-card-jimmy&#34;&gt;
+&lt;div class=&#34;image-box-jimmy&#34;&gt;
+&lt;p&gt;&lt;img src=&#34;2022-Pinned-Finger-Joints-Laser-Cut-Colors.png&#34; alt=&#34;Laser Cut Pinned Finger Joints&#34;&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Pinned finger joint with different pieces colorized&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;image-card-jimmy&#34;&gt;
+&lt;div class=&#34;image-box-jimmy&#34;&gt;
+&lt;p&gt;&lt;img src=&#34;2022-Pinned-Finger-Joints-Laser-Cut.png&#34; alt=&#34;Laser Cut Pinned Finger Joints&#34;&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Pinned finger joint&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;use-user-parameters&#34;&gt;Use User Parameters&lt;/h2&gt;
+&lt;div class=&#34;flex-container-jimmy&#34;&gt;
+&lt;div class=&#34;half-box&#34;&gt;
+&lt;p&gt;Use a user parameter of &amp;ldquo;ply&amp;rdquo; so you can update your design after measuring your material. Use this dimensions in your sketches as a guide rather than typing in the thickness of the plywood as a hard coded value. This allows for updating. You can also make parameters for the device width, the size of bolt holes and any other feature that you might want to change or have a relationship to other features.&lt;/p&gt;
+&lt;p&gt;You can also use a user parameter for the inner width to space out pieces. Use user parameters for anything that you want to reference or update later.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;half-box&#34; style=&#34;display: flex; flex-direction: column;&#34;&gt;
+&lt;p&gt;&lt;img src=&#34;2021-Laser-Cut-User-Parameters.png&#34; alt=&#34;Laser Cut User Parameters&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;caption-jimmy&#34;&gt;Example User Parameters in Fusion 360&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;2021-Laser-Cut-Stand-Components-and-Parts.png&#34; alt=&#34;Laser Cut Stand Components and Parts&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;span class=&#34;caption-jimmy&#34;&gt;Example of each part of the stand as a separate component at the top level assembly in Fusion 360.&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;2-layout-a-manufacture-model-copy-of-all-pieces-flat-for-cutting&#34;&gt;2. Layout a Manufacture Model Copy of All Pieces Flat for Cutting&lt;/h2&gt;
+&lt;div class=&#34;flex-container-jimmy&#34;&gt;
+&lt;div class=&#34;half-box&#34;&gt;
+&lt;p&gt;Once your model is complete and each piece is a separate and labeled component, you are ready to lay your pieces flat to create a DXF toolpath file for the laser cutter.&lt;/p&gt;
+&lt;p&gt;Change to the Manufacture Workspace.&lt;/p&gt;
+&lt;p&gt;Create a Manufacture Model in the Manufacture Workspace. This model is like a linked copy of your Design Model. It allows you to lay your pieces flat with out moving your Design Model. If you make changes to your Design Model after you lay your pieces flat then your Manufacture Model should update automatically. This video shows &lt;a href=&#34;https://youtu.be/bhVPR4CUOUk&#34;&gt;how to make a Manufacture Model&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Draw a 12&amp;quot; x 12&amp;quot; sketch to represent your plywood. If you are using larger plywood or plexiglass then draw a larger sketch. If you are using a &amp;ldquo;remnant&amp;rdquo; or cutoff piece then draw your sketch to that size. Then use the Arrange command to lay your parts flat.&lt;/p&gt;
+&lt;p&gt;Follow the instructions in &lt;a href=&#34;https://youtu.be/jeQPJHHwVN4&#34;&gt;the video&lt;/a&gt; to arrange your parts flat. Note that the example model video uses the &amp;ldquo;joint&amp;rdquo; method to lay parts flat. You should use the &lt;a href=&#34;https://youtu.be/jeQPJHHwVN4&#34;&gt;updated method with the arrange command.&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;half-box&#34; style=&#34;display: flex; flex-wrap: wrap; flex-direction: column;&#34;&gt;
+&lt;div style=&#34;display: flex; flex-wrap: wrap; align-items: flex-end;&#34;&gt;
+&lt;p&gt;&lt;img src=&#34;2021-Laser-Cut-Stand-CAM-Layout-Top.png&#34; alt=&#34;Laser Cut Stand CAM Layout&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;caption-jimmy&#34;&gt;&lt;em&gt;Top view of components of laser cut stand flat on plywood.&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;half-box&#34; style=&#34;width: 100%; max-height: auto; margin: 0 auto; display: flex; flex-wrap: wrap; flex-direction: column;&#34;&gt;
+&lt;div style=&#34;position: relative; width: 100%; height: 0px; padding-top: 56.25%;&#34;&gt;&lt;iframe style=&#34;position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; border: 0;&#34; src=&#34;https://www.youtube.com/embed/jeQPJHHwVN4&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span class=&#34;caption-jimmy&#34;&gt;Top view of components of laser cut stand flat on plywood.&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;3-install-dxf-post-processor&#34;&gt;3. Install DXF Post Processor&lt;/h2&gt;
+&lt;div class=&#34;flex-container-jimmy&#34;&gt;
+&lt;div class=&#34;half-box&#34;&gt;
+&lt;p&gt;Follow the instructions in the video below to install the DXF Post Processor from Autodesk. This will allow you to export your laser cut tool paths from Fusion 360 as a DXF file that you can open and edit in Illustrator. This is the link to the &lt;a href=&#34;https://cam.autodesk.com/hsmposts?p=dxf&#34;&gt;DXF Post Processor from Autodesk&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You can install it locally in Windows or Mac. &lt;a href=&#34;https://knowledge.autodesk.com/support/fusion-360/learn-explore/caas/sfdcarticles/sfdcarticles/How-to-add-a-Post-Processor-to-your-Personal-Posts-in-Fusion-360.html&#34;&gt;Local install instructions.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;You can install it in the cloud as well, then you can use it anywhere. Make sure to enable cloud libraries first. &lt;a href=&#34;https://knowledge.autodesk.com/support/fusion-360/learn-explore/caas/sfdcarticles/sfdcarticles/How-to-install-a-cloud-post-in-Fusion-360.html&#34;&gt;Cloud install instructions.&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;half-box&#34; style=&#34;width: 100%; max-height: auto; margin: 0 auto;&#34;&gt;
+&lt;div style=&#34;position: relative; width: 100%; height: 0px; padding-top: 56.25%;&#34;&gt;&lt;iframe style=&#34;position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; border: 0;&#34; src=&#34;https://www.youtube.com/embed/CBu6vl6Bqos&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;4-create-laser-cut-tool-in-fusion-360-with-specific-kerf&#34;&gt;4. Create Laser Cut Tool in Fusion 360 with Specific Kerf&lt;/h2&gt;
+&lt;div class=&#34;flex-container-jimmy&#34;&gt;
+&lt;div class=&#34;half-box&#34;&gt;
+&lt;p&gt;Follow the instructions in the video below to create a laser cut tool in Fusion 360. Make sure you enter a kerf of .127 mm since that is the kerf of the laser cutters at the think[box]. If your pieces do not fit correctly you can then adjust this tool in Fusion 360 to correct the kerf for your desired fit.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;half-box&#34; style=&#34;width: 100%; max-height: auto; margin: 0 auto;&#34;&gt;
+&lt;div style=&#34;position: relative; width: 100%; height: 0px; padding-top: 56.25%;&#34;&gt;&lt;iframe style=&#34;position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; border: 0;&#34; src=&#34;https://www.youtube.com/embed/-B6DXF9aE5s&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;5-create-toolpaths-in-the-manufacture-workspace&#34;&gt;5. Create Toolpaths in the Manufacture Workspace&lt;/h2&gt;
+&lt;div class=&#34;flex-container-jimmy&#34;&gt;
+&lt;div class=&#34;half-box&#34;&gt;
+&lt;p&gt;Follow the steps in this tutorial video to create a new setup in Fusion 360. This is done in the Manufacture Workspace. You need to create the laser cutter tool first. It is important to create a new &amp;ldquo;Cutting&amp;rdquo; setup so you can make a new 2D Profile to cut out.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;half-box&#34;&gt;
+&lt;p&gt;![Laser Cut Stand Toolpaths](2021-Laser-Cut-Stand-CAM-Toolpaths.png&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;caption-jimmy&#34;&gt;View of tool path layout in the Manufacture Workspace&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;6-save-your-tool-paths-as-a-dxf-via-post-process&#34;&gt;6. Save your Tool Paths as a DXF via Post Process&lt;/h2&gt;
+&lt;div class=&#34;flex-container-jimmy&#34;&gt;
+&lt;div class=&#34;half-box&#34;&gt;
+&lt;p&gt;Select the tool path from your setup and then click on post process. Use the DXF post process that you installed earlier to export a DXF file. Make sure to add the .dxf file extension.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;half-box&#34;&gt;
+&lt;p&gt;&lt;img src=&#34;2021-Laser-Cut-Stand-Post-Process.png&#34; alt=&#34;Laser Cut Stand Post Process&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;caption-jimmy&#34;&gt;Example of each part of the stand as a separate component at the top level assembly in Fusion 360.&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;7-add-appearances-and-export-render&#34;&gt;7. Add appearances and Export Render&lt;/h2&gt;
+&lt;div class=&#34;flex-container-jimmy&#34;&gt;
+&lt;div class=&#34;half-box&#34;&gt;
+&lt;p&gt;In Fusion 360 add appearances to you model as you wish and export a render. Label the file YYYYMMDD Lastname Firstname Laser Cut Stand Render.png/jpg&lt;/p&gt;
+&lt;p&gt;Make the model look the way you want the final product to look. If you are going to paint pieces then paint the pieces in the render. If you will have etchings then put an image decal on to represent the etchings.&lt;/p&gt;
+&lt;p&gt;Make sure your render is well composed and high resolution with at least one direction 4000px. Choose a 4:3 16:9 or 1:1 aspect ratio. You can make multiple render views.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;half-box&#34;&gt;
+&lt;p&gt;&lt;img src=&#34;2021-Laser-Cut-Stand-Assembeled.jpg&#34; alt=&#34;Laser Cut Stand Assembled&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;span class=&#34;caption-jimmy&#34;&gt;Example of each part of the stand as a separate component at the top level assembly in Fusion 360.&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;8-open-dxf-in-illustrator-and-adjust-stroke&#34;&gt;8. Open DXF in Illustrator and Adjust Stroke&lt;/h2&gt;
+&lt;div class=&#34;flex-container-jimmy&#34;&gt;
+&lt;div class=&#34;half-box&#34;&gt;
+&lt;p&gt;You need to change the stroke weight of the red strokes in Illustrator. Also you need to change the stroke color and weight of any strokes that you want to etch. You can also draw new strokes to etch while in Illustrator. Etched strokes need to be blue and .5. Make sure you scale the document 100% and have 1mm = 1mm.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;half-box&#34;&gt;
+&lt;p&gt;&lt;img src=&#34;2021-Laser-Cut-Stand-in-Illustrator.png&#34; alt=&#34;Laser Cut Stand in Illustrator&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;caption-jimmy&#34;&gt;Example of each part of the stand as a separate component at the top level assembly in Fusion 360.&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h1 id=&#34;files-to-upload-to-google-drive&#34;&gt;Files to Upload to Google Drive&lt;/h1&gt;
+&lt;p&gt;Make a labeled folder YYYYMMDD Lastname Firstname Laser Cut First Models and put the following files inside the folder. Label the individual files. Then upload the folder to the class Google Drive.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Fusion 360 .f3d file&lt;/li&gt;
+&lt;li&gt;Rendering(s) of project with appearances applied (.png or .jpg)&lt;/li&gt;
+&lt;li&gt;Illustrator .ai file of the cut paths (cut with red stroke .001 weight and engraving with blue stroke .5 weight)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;google-drive-upload-folder&#34;&gt;Google Drive Upload Folder&lt;/h2&gt;
+&lt;h1 id=&#34;instructional-videos&#34;&gt;Instructional Videos&lt;/h1&gt;
+&lt;div class=&#34;video-grid&#34; style=&#34;display: grid; align-items: end; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); grid-gap: 1rem;&#34;&gt;
+&lt;div class=&#34;video-wrapper&#34; style=&#34;border: 1px solid grey; display: flex; flex-direction: column; height: 100%; justify-content: space-between;&#34;&gt;
+&lt;h2 id=&#34;1-model-laser-cut-cell-phone-stand&#34;&gt;1. Model Laser Cut Cell Phone Stand&lt;/h2&gt;
+&lt;div class=&#34;youtube-box&#34; style=&#34;position: relative; width: 100%; height: 0px; padding-top: 56.25%;&#34;&gt;&lt;iframe class=&#34;youtube-iframe&#34; style=&#34;position: absolute; top: 0; bottom: 0; left: 0; width: 100%; height: 100%; border: 0; z-index: 1;&#34; src=&#34;https://www.youtube.com/embed/7RAdmbOudoo?rel=0&#34; width=&#34;560&#34; height=&#34;315&#34; frameborder=&#34;0&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video-wrapper&#34; style=&#34;border: 1px solid grey; display: flex; flex-direction: column; height: 100%; justify-content: space-between;&#34;&gt;
+&lt;h2 id=&#34;model-a-living-hinge-bend-for-laser-cutting&#34;&gt;Model a Living Hinge Bend for Laser Cutting&lt;/h2&gt;
+&lt;div class=&#34;youtube-box&#34; style=&#34;position: relative; width: 100%; height: 0px; padding-top: 56.25%;&#34;&gt;&lt;iframe class=&#34;youtube-iframe&#34; style=&#34;position: absolute; top: 0; bottom: 0; left: 0; width: 100%; height: 100%; border: 0; z-index: 1;&#34; src=&#34;https://www.youtube.com/embed/nt-44j15xeI?rel=0&#34; width=&#34;560&#34; height=&#34;315&#34; frameborder=&#34;0&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video-wrapper&#34; style=&#34;border: 1px solid grey; display: flex; flex-direction: column; height: 100%; justify-content: space-between;&#34;&gt;
+&lt;h2 id=&#34;import-svg-or-dxf-file-from-illustrator-into-fusion-360&#34;&gt;Import SVG or DXF File from Illustrator into Fusion 360&lt;/h2&gt;
+&lt;div class=&#34;youtube-box&#34; style=&#34;position: relative; width: 100%; height: 0px; padding-top: 56.25%;&#34;&gt;&lt;iframe class=&#34;youtube-iframe&#34; style=&#34;position: absolute; top: 0; bottom: 0; left: 0; width: 100%; height: 100%; border: 0; z-index: 1;&#34; src=&#34;https://www.youtube.com/embed/aMBnke14Wgg?rel=0&#34; width=&#34;560&#34; height=&#34;315&#34; frameborder=&#34;0&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video-wrapper&#34; style=&#34;border: 1px solid grey; display: flex; flex-direction: column; height: 100%; justify-content: space-between;&#34;&gt;
+&lt;h2 id=&#34;create-laser-cutter-tool-with-specific-kerf&#34;&gt;Create Laser Cutter Tool with Specific Kerf&lt;/h2&gt;
+&lt;div class=&#34;youtube-box&#34; style=&#34;position: relative; width: 100%; height: 0px; padding-top: 56.25%;&#34;&gt;&lt;iframe class=&#34;youtube-iframe&#34; style=&#34;position: absolute; top: 0; bottom: 0; left: 0; width: 100%; height: 100%; border: 0; z-index: 1;&#34; src=&#34;https://www.youtube.com/embed/-B6DXF9aE5s?rel=0&#34; width=&#34;560&#34; height=&#34;315&#34; frameborder=&#34;0&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video-wrapper&#34; style=&#34;border: 1px solid grey; display: flex; flex-direction: column; height: 100%; justify-content: space-between;&#34;&gt;
+&lt;h2 id=&#34;download-and-install-dxf-post-process-for-fusion-360&#34;&gt;Download and Install DXF Post Process for Fusion 360&lt;/h2&gt;
+&lt;div class=&#34;youtube-box&#34; style=&#34;position: relative; width: 100%; height: 0px; padding-top: 56.25%;&#34;&gt;&lt;iframe class=&#34;youtube-iframe&#34; style=&#34;position: absolute; top: 0; bottom: 0; left: 0; width: 100%; height: 100%; border: 0; z-index: 1;&#34; src=&#34;https://www.youtube.com/embed/CBu6vl6Bqos?rel=0&#34; width=&#34;560&#34; height=&#34;315&#34; frameborder=&#34;0&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video-wrapper&#34; style=&#34;border: 1px solid grey; display: flex; flex-direction: column; height: 100%; justify-content: space-between;&#34;&gt;
+&lt;h2 id=&#34;fully-define-splines-in-fusion-360-sketch&#34;&gt;Fully Define Splines in Fusion 360 Sketch&lt;/h2&gt;
+&lt;div class=&#34;youtube-box&#34; style=&#34;position: relative; width: 100%; height: 0px; padding-top: 56.25%;&#34;&gt;&lt;iframe class=&#34;youtube-iframe&#34; style=&#34;position: absolute; top: 0; bottom: 0; left: 0; width: 100%; height: 100%; border: 0; z-index: 1;&#34; src=&#34;https://www.youtube.com/embed/ynBl9XJesDs?rel=0&#34; width=&#34;560&#34; height=&#34;315&#34; frameborder=&#34;0&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video-wrapper&#34; style=&#34;border: 1px solid grey; display: flex; flex-direction: column; height: 100%; justify-content: space-between;&#34;&gt;
+&lt;h2 id=&#34;pattern-along-path-or-spline&#34;&gt;Pattern Along Path or Spline&lt;/h2&gt;
+&lt;div class=&#34;youtube-box&#34; style=&#34;position: relative; width: 100%; height: 0px; padding-top: 56.25%;&#34;&gt;&lt;iframe class=&#34;youtube-iframe&#34; style=&#34;position: absolute; top: 0; bottom: 0; left: 0; width: 100%; height: 100%; border: 0; z-index: 1;&#34; src=&#34;https://www.youtube.com/embed/9xit7JRPQ0A?rel=0&#34; width=&#34;560&#34; height=&#34;315&#34; frameborder=&#34;0&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video-wrapper&#34; style=&#34;border: 1px solid grey; display: flex; flex-direction: column; height: 100%; justify-content: space-between;&#34;&gt;
+&lt;h2 id=&#34;change-plywood-thickness-fusion-360&#34;&gt;Change Plywood Thickness Fusion 360&lt;/h2&gt;
+&lt;div class=&#34;youtube-box&#34; style=&#34;position: relative; width: 100%; height: 0px; padding-top: 56.25%;&#34;&gt;&lt;iframe class=&#34;youtube-iframe&#34; style=&#34;position: absolute; top: 0; bottom: 0; left: 0; width: 100%; height: 100%; border: 0; z-index: 1;&#34; src=&#34;https://www.youtube.com/embed/a7HOiBC_81s?rel=0&#34; width=&#34;560&#34; height=&#34;315&#34; frameborder=&#34;0&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video-wrapper&#34; style=&#34;border: 1px solid grey; display: flex; flex-direction: column; height: 100%; justify-content: space-between;&#34;&gt;
+&lt;h2 id=&#34;fix-timeline-errors-in-fusion-360&#34;&gt;Fix Timeline Errors in Fusion 360&lt;/h2&gt;
+&lt;div class=&#34;youtube-box&#34; style=&#34;position: relative; width: 100%; height: 0px; padding-top: 56.25%;&#34;&gt;&lt;iframe class=&#34;youtube-iframe&#34; style=&#34;position: absolute; top: 0; bottom: 0; left: 0; width: 100%; height: 100%; border: 0; z-index: 1;&#34; src=&#34;https://www.youtube.com/embed/F3673fmEymo?rel=0&#34; width=&#34;560&#34; height=&#34;315&#34; frameborder=&#34;0&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video-wrapper&#34; style=&#34;border: 1px solid grey; display: flex; flex-direction: column; height: 100%; justify-content: space-between;&#34;&gt;
+&lt;h2 id=&#34;make-a-manufacture-model-copy-of-your-design&#34;&gt;Make a Manufacture Model Copy of Your Design&lt;/h2&gt;
+&lt;div class=&#34;youtube-box&#34; style=&#34;position: relative; width: 100%; height: 0px; padding-top: 56.25%;&#34;&gt;&lt;iframe class=&#34;youtube-iframe&#34; style=&#34;position: absolute; top: 0; bottom: 0; left: 0; width: 100%; height: 100%; border: 0; z-index: 1;&#34; src=&#34;https://www.youtube.com/embed/bhVPR4CUOUk?rel=0&#34; width=&#34;560&#34; height=&#34;315&#34; frameborder=&#34;0&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video-wrapper&#34; style=&#34;border: 1px solid grey; display: flex; flex-direction: column; height: 100%; justify-content: space-between;&#34;&gt;
+&lt;h2 id=&#34;lay-parts-flat-with-arrange-for-laser-cutting&#34;&gt;Lay Parts Flat with Arrange for Laser Cutting&lt;/h2&gt;
+&lt;div class=&#34;youtube-box&#34; style=&#34;position: relative; width: 100%; height: 0px; padding-top: 56.25%;&#34;&gt;&lt;iframe class=&#34;youtube-iframe&#34; style=&#34;position: absolute; top: 0; bottom: 0; left: 0; width: 100%; height: 100%; border: 0; z-index: 1;&#34; src=&#34;https://www.youtube.com/embed/jeQPJHHwVN4?rel=0&#34; width=&#34;560&#34; height=&#34;315&#34; frameborder=&#34;0&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video-wrapper&#34; style=&#34;border: 1px solid grey; display: flex; flex-direction: column; height: 100%; justify-content: space-between;&#34;&gt;
+&lt;h2 id=&#34;export-dxf-toolpath-with-kerf-compensation&#34;&gt;Export DXF Toolpath with Kerf Compensation&lt;/h2&gt;
+&lt;div class=&#34;youtube-box&#34; style=&#34;position: relative; width: 100%; height: 0px; padding-top: 56.25%;&#34;&gt;&lt;iframe class=&#34;youtube-iframe&#34; style=&#34;position: absolute; top: 0; bottom: 0; left: 0; width: 100%; height: 100%; border: 0; z-index: 1;&#34; src=&#34;https://www.youtube.com/embed/6JFHMV7A9TU?rel=0&#34; width=&#34;560&#34; height=&#34;315&#34; frameborder=&#34;0&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+# Grading Rubric
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Assessement&lt;/th&gt;
+&lt;th&gt;Weight&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Model Quality&lt;/td&gt;
+&lt;td&gt;50 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Render Image&lt;/td&gt;
+&lt;td&gt;20 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Manufacture Workspace Setup&lt;/td&gt;
+&lt;td&gt;10 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Tool Path Export&lt;/td&gt;
+&lt;td&gt;10 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;File Management&lt;/td&gt;
+&lt;td&gt;10 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>4.2 Photographing 3D Artwork</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/04-laser-cutting-3d-modeling/4-02-photographing-3d-artwork/</link>
+      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
+      
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/04-laser-cutting-3d-modeling/4-02-photographing-3d-artwork/</guid>
+      <description>&lt;h2 id=&#34;can-i-use-my-cellphone&#34;&gt;Can I Use my Cellphone?&lt;/h2&gt;
+&lt;p&gt;Yes, but you shouldn&amp;rsquo;t. Cellphone cameras have small sensor sizes, unadjustable apertures, low resolution, and low quality lenses.&lt;/p&gt;
+&lt;p&gt;The camera sensor on your cell phone is too small to take photos in low light settings and the color depth will be less since it saves a JPG or HEIC file by default. You can set a cellphone to capture RAW images but, even with RAW images on a cellphone, the quality is limited by the small sensor and the lower resolution of the final image compared to a larger sensor mirrorless or DSLR Camera.&lt;/p&gt;
+&lt;p&gt;Cellphone cameras are great for taking pictures when a better camera is not available but in most artwork documentation settings a cellphone camera&amp;rsquo;s image will not do your artwork any favors and might actually make it look worse. If you do document artwork with a cellphone make sure to set the camera app to take RAW photos. In a well lit environment such as outdoor sunshine, a cellphone camera can take a decent photo but your future self will thank you for taking a higher resolution, higher quality photo with the larger sensor and better lens of a higher quality camera.&lt;/p&gt;
+&lt;h2 id=&#34;what-camera-should-i-use&#34;&gt;What Camera Should I Use?&lt;/h2&gt;
+&lt;p&gt;Use a mirrorless camera or a DSLR camera to take high resolution documentation photos of your welded sculptures. Do not use your cell phone to take documentation photos.&lt;/p&gt;
+&lt;h2 id=&#34;what-camera-and-lights-should-i-checkout&#34;&gt;What Camera and Lights Should I Checkout?&lt;/h2&gt;
+&lt;p&gt;On the &lt;a href=&#34;https://cia.webcheckout.net/sso/patron#!/&#34;&gt;CIA Equipment Checkout Page&lt;/a&gt; choose one of the &lt;a href=&#34;https://cia.webcheckout.net/sso/patron#!/category/23050497&#34;&gt;SONY A6100 mirrorless cameras&lt;/a&gt;, a &lt;a href=&#34;https://cia.webcheckout.net/sso/patron#!/category/22013131&#34;&gt;Neweer LED Light Kit&lt;/a&gt;, and a &lt;a href=&#34;https://cia.webcheckout.net/sso/patron#!/category/104834&#34;&gt;Basic Tripod&lt;/a&gt;.&lt;/p&gt;
+&lt;div class=&#34;gallery-grid&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://cia.webcheckout.net/sso/patron#!/category/23050497&#34;&gt;&lt;img src=&#34;https://cia.webcheckout.net/attachments/23050552/sony-a6100.jpg&#34; alt=&#34;camera&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://cia.webcheckout.net/sso/patron#!/category/22013131&#34;&gt;&lt;img src=&#34;https://cia.webcheckout.net/attachments/22013212/Neewer-LED.jpg&#34; alt=&#34;lights&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://cia.webcheckout.net/sso/patron#!/category/104834&#34;&gt;&lt;img src=&#34;https://cia.webcheckout.net/attachments/184929/manfrotto_mkcompact.jpg&#34; alt=&#34;tripod&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;process&#34;&gt;Process&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Place your 3D object in front of a neutral background. This can be indoors or outdoors.&lt;/li&gt;
+&lt;li&gt;It is best to have the object as far away from the background as possible. This avoids cast shadows on the background. Some objects may benefit from showing the interesting cast shadows on the wall. If you want to show the shadows then place the object closer to the background. Take photos with shadows and without so you have options later.&lt;/li&gt;
+&lt;li&gt;Set up your lights. Angle them at 45 degrees pointing at the object. You can add a third back light or rim light to have reflected light on the back edges. You will need to move the lights around and take test images to see what works best. Expect to make many lighting changes. Use extension cords to have greater mobility with the lights.&lt;/li&gt;
+&lt;li&gt;Put the camera on a tripod. If you need to get the camera lower than the tripod can go, then you can set it on books or a box.&lt;/li&gt;
+&lt;li&gt;Set camera to take the highest quality, highest resolution images (Check this in the menu because the previous user may have changed the settings)&lt;/li&gt;
+&lt;li&gt;Capture RAW images (You can set the camera to capture RAW and JPG images but the RAW is the most important format to capture for post processing.)&lt;/li&gt;
+&lt;li&gt;Set the ISO to a low number like 100 or 200 (Low ISO settings, sensor sensitivity, are less important with newer cameras but it is still better to use a low ISO if the subject is stationary like your sculptures.)&lt;/li&gt;
+&lt;li&gt;Set the Camera to Manual. (This is the M on the dial.)&lt;/li&gt;
+&lt;li&gt;Choose an Aperture. (Use a small aperture, big number, to have everything in focus. Use a large aperture, small number, to have a shallow depth of field with only parts of the image in focus.)&lt;/li&gt;
+&lt;li&gt;Frame your image, filling the viewport with as much of the sculpture as possible.&lt;/li&gt;
+&lt;li&gt;Adjust the shutter speed until the image appears well exposed in the viewport. If the shutter speed becomes long, then use a 2 second timer so you don&amp;rsquo;t shake the camera when taking the photo. Just pressing the button can shake the camera enough to make a blurry photo with slow shutter speeds.&lt;/li&gt;
+&lt;li&gt;Take wide shots, full shots, and detail shots. Take shots from multiple angles. It is much easier to take lots of images now then to set everything back up again.&lt;/li&gt;
+&lt;li&gt;Bracket the exposure by changing the shutter speed up and down, then taking additional images. You can also bracket by adjusting the aperture or F-Stop up and down.&lt;/li&gt;
+&lt;li&gt;Copy all the images onto your computer. Double check that you have RAW images on your laptop before you take down the lights and pack everything up.&lt;/li&gt;
+&lt;li&gt;Open the images in Adobe Camera Raw.&lt;/li&gt;
+&lt;li&gt;Make white balance, exposure, and other image corrections.&lt;/li&gt;
+&lt;li&gt;Remove any defect in the image with the healing brush.&lt;/li&gt;
+&lt;li&gt;Save the RAW images.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;camera-and-photo-editing-resources&#34;&gt;Camera and Photo Editing Resources&lt;/h2&gt;
+&lt;p&gt;Below is a camera setting cheat sheet that shows how ISO, Aperture and Shutter Speed change the image. There are also videos about &lt;a href=&#34;https://youtu.be/m0yZEWUSahk&#34;&gt;White Balance&lt;/a&gt; and &lt;a href=&#34;https://youtu.be/11jwSwUu2WI&#34;&gt;Adobe Camera Raw&lt;/a&gt;. Email if you have any questions about the cameras or any part of the project. You can also ask the equipment checkout about the camera settings.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;2021-Camera-Cheat-Sheet-Jimmy-Kuehnle.png&#34;&gt;&lt;img src=&#34;2021-Camera-Cheat-Sheet-Jimmy-Kuehnle.png&#34; alt=&#34;Camera Settings Cheat Sheet&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&#34;video-grid&#34;&gt;
+&lt;div class=&#34;iframe-16-9-container&#34;&gt;&lt;iframe class=&#34;youTubeIframe&#34; title=&#34;YouTube video player&#34; src=&#34;https://www.youtube.com/embed/11jwSwUu2WI&#34; width=&#34;560&#34; height=&#34;315&#34; allowfullscreen=&#34;allowfullscreen&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;div class=&#34;iframe-16-9-container&#34;&gt;&gt;&lt;iframe class=&#34;youTubeIframe&#34; title=&#34;YouTube video player&#34; src=&#34;https://www.youtube.com/embed/m0yZEWUSahk&#34; width=&#34;560&#34; height=&#34;315&#34; allowfullscreen=&#34;allowfullscreen&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;div class=&#34;iframe-16-9-container&#34;&gt;&gt;&lt;iframe class=&#34;youTubeIframe&#34; title=&#34;YouTube video player&#34; src=&#34;https://www.youtube.com/embed/ftMICesJwGc&#34; width=&#34;560&#34; height=&#34;315&#34; allowfullscreen=&#34;allowfullscreen&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>4.3 Lay Out Parts</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/04-laser-cutting-3d-modeling/4-3-lay-parts-flat-for-laser-cut-file/</link>
+      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
+      
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/04-laser-cutting-3d-modeling/4-3-lay-parts-flat-for-laser-cut-file/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/04-laser-cutting-3d-modeling/4-03-export-dxf-tool-path/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/04-laser-cutting-3d-modeling/4-03-export-dxf-tool-path/</guid>
+      <description>&lt;h2 id=&#34;install-dxf-post-processor&#34;&gt;Install DXF Post Processor&lt;/h2&gt;
+&lt;div class=&#34;flex-container&#34;&gt;
+&lt;div class=&#34;half-box&#34;&gt;
+&lt;p&gt;Follow the instructions in the video below to install the DXF Post Processor from Autodesk. This will allow you to export your laser cut tool paths from Fusion 360 as a DXF file that you can open and edit in Illustrator. This is the link to the &lt;a href=&#34;https://cam.autodesk.com/hsmposts?p=dxf&#34;&gt;DXF Post Processor from Autodesk&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You can install it locally in Windows or Mac. &lt;a href=&#34;https://knowledge.autodesk.com/support/fusion-360/learn-explore/caas/sfdcarticles/sfdcarticles/How-to-add-a-Post-Processor-to-your-Personal-Posts-in-Fusion-360.html&#34;&gt;Local install instructions.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;You can install it in the cloud as well, then you can use it anywhere. Make sure to enable cloud libraries first. &lt;a href=&#34;https://knowledge.autodesk.com/support/fusion-360/learn-explore/caas/sfdcarticles/sfdcarticles/How-to-install-a-cloud-post-in-Fusion-360.html&#34;&gt;Cloud install instructions.&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;half-box&#34; style=&#34;width: 100%; max-height: auto; margin: 0 auto;&#34;&gt;
+&lt;div style=&#34;position: relative; width: 100%; height: 0px; padding-top: 56.25%;&#34;&gt;&lt;iframe style=&#34;position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; border: 0;&#34; src=&#34;https://www.youtube.com/embed/CBu6vl6Bqos&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/04-laser-cutting-3d-modeling/photo-document-cardboard-model/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/04-laser-cutting-3d-modeling/photo-document-cardboard-model/</guid>
+      <description>&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Photograph your cardboard model from a minimum of 2 views.&lt;/li&gt;
+&lt;li&gt;Have good lighting and a good composition&lt;/li&gt;
+&lt;li&gt;Think about what is in the background, it should not be cluttered.&lt;/li&gt;
+&lt;li&gt;Use a piece of white butcher paper or white fabric attached to the wall to make a DIY photo sweep.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,409 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>01 Technical Sketching and Fusion 360 on Modeling and Fabrication</title>
+    <link>https://whatmakeart.com/modeling-and-fabrication/modules/01-technical-sketching-fusion-360/</link>
+    <description>Recent content in 01 Technical Sketching and Fusion 360 on Modeling and Fabrication</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 26 Jan 2020 23:11:13 +0000</lastBuildDate>
+    
+        <atom:link href="https://whatmakeart.com/modeling-and-fabrication/modules/01-technical-sketching-fusion-360/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>1.0 Introduction to Technical Sketching and Fusion 360</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/01-technical-sketching-fusion-360/1-0-introduction/</link>
+      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
+      
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/01-technical-sketching-fusion-360/1-0-introduction/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;This module covers technical sketching and an introduction to 3D modeling in Fusion 360. 3D modeling software used for fabrication and manufacturing feature tools based on technical sketching. In order to understand digital 3D modeling tools it is important to have a basic foundational understanding and proficiency in technical sketching.&lt;/p&gt;
+&lt;h2 id=&#34;learning-outcomes&#34;&gt;Learning Outcomes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Practice technical drawing and sketching techniques&lt;/li&gt;
+&lt;li&gt;Draw isometric cubes and circles&lt;/li&gt;
+&lt;li&gt;Sketch objects using third angle projections&lt;/li&gt;
+&lt;li&gt;3D model a basic object in Fusion 360&lt;/li&gt;
+&lt;li&gt;Create a rendered image of a 3D modeled object in Fusion 360&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>1.1 Technical Sketching</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/01-technical-sketching-fusion-360/1-1-technical-sketching/</link>
+      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
+      
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/01-technical-sketching-fusion-360/1-1-technical-sketching/</guid>
+      <description>&lt;p&gt;Technical sketching is a form of drawing used to visually communicate how and object is made, put together, or how something functions. Often dimensions of the object are written on the sketch as well as the precise scale of the drawing. A scaled drawing allows for small and large objects to be drawn at a reasonable size rather than their respective real world scale. Even if a drawing is not to scale it can still describe the form of the object.&lt;/p&gt;
+&lt;p&gt;Technical sketching differs from more creative types of drawing, rendering, representational drawing, and concept sketching. Technical sketching aims to remove any doubt or confusion about the shape and form of an object. This clear and communicative precision is in contrast to creative drawings that can look quite realistic, but do not contain all the needed information to fabricate or manufacture an object. A visually stunning rendering of a sports car, or a beautiful rendering of a new house may be necessary to communicate the feeling of a design for sales and advertising but technical drawings are needed to communicate how to make the car or house.&lt;/p&gt;
+&lt;p&gt;There are many types of technical drawings including architectural plans, mechanical drawings, electrical drawings, electronic circuit diagrams, machine processes, site plans, construction drawings.&lt;/p&gt;
+&lt;p&gt;Different fields and disciplines use symbols and conventions to make technical sketching more efficient. For example in construction drawings for buildings, all of the details of a light fixture or a window trim do not need to be drawn on the floor plan. A symbol for a light and an indication of a window are sufficient. Separate detail drawings can be included to show the specific details of the referenced parts.&lt;/p&gt;
+&lt;h2 id=&#34;projections-and-perspective&#34;&gt;Projections and Perspective&lt;/h2&gt;
+&lt;p&gt;Technical sketching uses a variety of visual projections and perspective techniques depending on what information is most important to convey. Common types include isometric perspective drawing, Oblique Projections, and third angle projections.&lt;/p&gt;
+&lt;div class=&#34;gallery-grid&#34;&gt;
+&lt;div class=&#34;image-card&#34;&gt;
+&lt;p&gt;&lt;img src=&#34;2022-10-08-isometric-perspective.png&#34; alt=&#34;Isometric Perspective Example&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Isometric Perspective shows the sides of the object angled ad 30 degrees. The measurements on the vertical, horizontal, and 30 degree angles are to scale and real measurements.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;image-card&#34;&gt;
+&lt;p&gt;&lt;img src=&#34;2022-10-08-oblique-projection.png&#34; alt=&#34;Oblique Projection Example&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Oblique Projection shows the front of the object like a parallel projection and then the sides of the object are drawn at a 45 degree angle. This adds distortion but gives a good view of the front.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;image-card&#34;&gt;
+&lt;p&gt;&lt;img src=&#34;https://whatmakeart.com/modeling-and-fabrication/modeling-and-fabrication/modules/01-technical-sketching-fusion-360/1-3-third-angle-projections/20220111-Third-Angle-Projection-Example-Jimmy-Kuehnle.jpg&#34; alt=&#34;Third Angle Projection Example&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;third-angle-projection&#34;&gt;Third Angle Projection&lt;/h2&gt;
+&lt;p&gt;Third Angle Projection shows the front, top, and side views of an object.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;technical-sketching-practice&#34;&gt;Technical Sketching Practice&lt;/h2&gt;
+&lt;p&gt;While it is possible to make extremely accurate and detailed technical drawings by hand, it is often impractical and can be done better and faster with digital tools. It is still important to be able to make quick, legible and communicative technical sketches. Even though the sketches do not need to be perfect they should still be as neat as possible without sacrificing too much speed. There are some simple techniques that help making technical drawings by hand.&lt;/p&gt;
+&lt;h2 id=&#34;basic-materials-for-technical-sketching&#34;&gt;Basic Materials for Technical Sketching&lt;/h2&gt;
+&lt;p&gt;Nothing more than a pencil, paper, and often an eraser is needed to make technical sketches. With practice, relatively accurate to scale sketches can be made freehand without the use of straight edges or triangles. The use of a few additional drawing supplies permit the creation of accurate and detailed technical drawings.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;pencil&lt;/li&gt;
+&lt;li&gt;paper&lt;/li&gt;
+&lt;li&gt;eraser&lt;/li&gt;
+&lt;li&gt;t-square&lt;/li&gt;
+&lt;li&gt;drawing board or surface with flat edge&lt;/li&gt;
+&lt;li&gt;compass&lt;/li&gt;
+&lt;li&gt;30 / 60 triangle&lt;/li&gt;
+&lt;li&gt;45 triangle&lt;/li&gt;
+&lt;li&gt;straight edge&lt;/li&gt;
+&lt;li&gt;scaled rulers&lt;/li&gt;
+&lt;li&gt;measuring device such as digital calipers or rulers&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;video-grid&#34;&gt;
+&lt;div class=&#34;video-card&#34;&gt;
+&lt;h3 id=&#34;1-technical-sketching-tools&#34;&gt;1. Technical Sketching Tools&lt;/h3&gt;
+&lt;div class=&#34;iframe-16-9-container&#34;&gt;&lt;iframe class=&#34;youTubeIframe&#34; src=&#34;https://www.youtube.com/embed/QaTlzXEHu4g?rel=0&#34; width=&#34;300&#34; height=&#34;150&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>1.2 Technical Sketching Assignment</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/01-technical-sketching-fusion-360/1-2-technical-sketching-practice-exercises/</link>
+      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
+      
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/01-technical-sketching-fusion-360/1-2-technical-sketching-practice-exercises/</guid>
+      <description>&lt;h2 id=&#34;assignment-deliverables&#34;&gt;Assignment Deliverables&lt;/h2&gt;
+&lt;p&gt;You will upload three separate, scanned, and labeled JPEGs of the following technical sketching practice exercises:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Page of straight lines&lt;/li&gt;
+&lt;li&gt;Isometric Cube with three isometric circles drawn freehand&lt;/li&gt;
+&lt;li&gt;Isometric Cube with three isometric circles drawn with T-Square and Compass&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Label the jpg files as:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;YYYYMMDD Lastname Firstname page of straight lines.jpg&lt;/li&gt;
+&lt;li&gt;YYYYMMDD Lastname Firstname isometric cube and circles freehand.jpg&lt;/li&gt;
+&lt;li&gt;YYYYMMDD Lastname Firstname isometric cube and circles t-square and compass.jpg&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;instructions&#34;&gt;Instructions&lt;/h2&gt;
+&lt;p&gt;Using loose sheets of paper, &lt;span style=&#34;text-decoration: underline;&#34;&gt;not&lt;/span&gt; in your sketchbooks, do each of the following sketching exercises on your own.&lt;/p&gt;
+&lt;h3 id=&#34;1-page-filled-with-straight-lines&#34;&gt;1. Page Filled with Straight Lines&lt;/h3&gt;
+&lt;p&gt;Draw a minimum of 1 page filled with straight lines. It is a good idea to do this multiple times until you get the hang of it. It will help you in your sketching in all of your classes. Remember to draw from the shoulder. Video demo of &lt;a href=&#34;https://www.youtu.be/UUQa2CtzIwE&#34;&gt;drawing freehand straight lines&lt;/a&gt;.&lt;/p&gt;
+&lt;div class=&#34;two-column-grid&#34;&gt;&lt;div&gt;
+&lt;h3 id=&#34;2-freehand-isometric-cube-with-circles&#34;&gt;2. Freehand Isometric Cube with Circles&lt;/h3&gt;
+&lt;p&gt;After you have a page of good straight lines, then follow the video to draw an isometric cube with circles. Do this freehand. Freehand sketching is import for quickly communicating ideas, generating ideations, and solving design problems. Video demos of &lt;a href=&#34;https://www.youtu.be/8FkcqdCmT1U&#34;&gt;freehand isometric cubes&lt;/a&gt; and &lt;a href=&#34;https://www.youtu.be/twj5luXIC_c&#34;&gt;freehand isometric circles&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;img src=&#34;20220118-Isometric-Cube-with-Circles-Freehand-Example.jpg&#34; alt=&#34;Freehand Isometric Cube with Circles Example&#34;&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;two-column-grid&#34;&gt;&lt;div&gt;
+&lt;h3 id=&#34;3-isometric-cube-with-circles-using-drawing-tools&#34;&gt;3. Isometric Cube with Circles using Drawing Tools&lt;/h3&gt;
+&lt;p&gt;Once you finish the freehand isometric cube, draw the same cube on a new sheet of paper but this time use your drafting tools. Although freehand sketching is great and very important, often we have to take our freehand sketch ideas and refine them for presentation. Video demos of using drawing tools to draw &lt;a href=&#34;https://www.youtu.be/7t4ycR3fXJ4&#34;&gt;isometric cubes&lt;/a&gt; and &lt;a href=&#34;https://www.youtu.be/EaTwlLaMYao&#34;&gt;isometric circles with a compass&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;img src=&#34;20220118-Isometric-Cube-with-Circles-T-Square-Example.jpg&#34; alt=&#34;T-Square Isometric Cube with Circles Example&#34;&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;technical-sketching-exercise-videos&#34;&gt;Technical Sketching Exercise Videos&lt;/h2&gt;
+&lt;p&gt;The videos below demonstrate how to practice drawing straight lines freehand. This is an important skill for ideation sketching, 3D modeling sketching and isometric crating. The videos then demonstrate how to draw an isometric cube with isometric circles on each face of the cube freehand. This is followed by a demonstration of how to draw an isometric cube with isometric circles on each face using a t-square, 30 / 60 triangle, and a compass.&lt;/p&gt;
+&lt;div class=&#34;tutorial-video-grid&#34;&gt;
+&lt;div class=&#34;video-card&#34;&gt;
+&lt;h3 id=&#34;1-how-to-draw-straight-lines&#34;&gt;1. How to Draw Straight Lines&lt;/h3&gt;
+&lt;div class=&#34;iframe-16-9-container&#34;&gt;&lt;iframe class=&#34;youTubeIframe&#34; src=&#34;https://www.youtube.com/embed/UUQa2CtzIwE?rel=0&#34; width=&#34;300&#34; height=&#34;150&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video-card&#34;&gt;
+&lt;h3 id=&#34;2-draw-isometric-cube-freehand&#34;&gt;2. Draw Isometric Cube Freehand&lt;/h3&gt;
+&lt;div class=&#34;iframe-16-9-container&#34;&gt;&lt;iframe class=&#34;youTubeIframe&#34; src=&#34;https://www.youtube.com/embed/8FkcqdCmT1U?rel=0&#34; width=&#34;300&#34; height=&#34;150&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video-card&#34;&gt;
+&lt;h3 id=&#34;3-draw-isometric-circle-freehand&#34;&gt;3. Draw Isometric Circle Freehand&lt;/h3&gt;
+&lt;div class=&#34;iframe-16-9-container&#34;&gt;&lt;iframe class=&#34;youTubeIframe&#34; src=&#34;https://www.youtube.com/embed/twj5luXIC_c?rel=0&#34; width=&#34;300&#34; height=&#34;150&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video-card&#34;&gt;
+&lt;h3 id=&#34;4-draw-isometric-cube-with-a-t-square&#34;&gt;4. Draw Isometric Cube with a T-Square&lt;/h3&gt;
+&lt;div class=&#34;iframe-16-9-container&#34;&gt;&lt;iframe class=&#34;youTubeIframe&#34; src=&#34;https://www.youtube.com/embed/7t4ycR3fXJ4?rel=0&#34; width=&#34;300&#34; height=&#34;150&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video-card&#34;&gt;
+&lt;h3 id=&#34;5-draw-isometric-circle-with-a-compass&#34;&gt;5. Draw Isometric Circle with a Compass&lt;/h3&gt;
+&lt;div class=&#34;iframe-16-9-container&#34;&gt;&lt;iframe class=&#34;youTubeIframe&#34; src=&#34;https://www.youtube.com/embed/EaTwlLaMYao?rel=0&#34; width=&#34;300&#34; height=&#34;150&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;grading-rubric&#34;&gt;Grading Rubric&lt;/h2&gt;
+&lt;div class=&#34;responsive-table-markdown&#34;&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Assessment&lt;/th&gt;
+&lt;th&gt;Weight&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Page of Straight Lines&lt;/td&gt;
+&lt;td&gt;10 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Isometric Cube with Circles Freehand&lt;/td&gt;
+&lt;td&gt;20 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Isometric Cube with Circles with T-Square&lt;/td&gt;
+&lt;td&gt;20 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Sketch Documentation&lt;/td&gt;
+&lt;td&gt;20 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;File Management&lt;/td&gt;
+&lt;td&gt;10 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>1.3 Third Angle Projections</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/01-technical-sketching-fusion-360/1-3-third-angle-projections/</link>
+      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
+      
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/01-technical-sketching-fusion-360/1-3-third-angle-projections/</guid>
+      <description>&lt;p&gt;Third angle projection is a method of drawing a three dimensional object on a two dimensional plane or piece of paper. It is a type of orthographic projection that shows how an object looks from different directions on the same drawing. The different views line up and can be used to project dimensions from one view to another view using orthogonal (perpendicular) lines. The three views are front, side and top. The other common multi angle projection method is first angle projection but we will focus on third angle projections.&lt;/p&gt;
+&lt;h2 id=&#34;third-angle-vs-first-angle&#34;&gt;Third Angle vs First Angle?&lt;/h2&gt;
+&lt;p&gt;The main difference between third and first angle projection is the conceptual placement of the object with respect to the projection planes. In first angle projection the object is in the first quadrant and is imagined to be transparent while the projection planes are opaque. In third angle projection the object is in the third quadrant and is imagined to be opaque while the projection planes are transparent. The quadrants are the four &amp;ldquo;boxes&amp;rdquo; made with a typical x / y cartesian plane but with three dimensions. The first quadrant is the upper right or where the positive x and y are. The third quadrant is the lower left where the -x and -y are. In first angle projection the object is in between the viewer and the projection plane and in third angle projection the plane is in between the object and the viewer.&lt;/p&gt;
+&lt;p&gt;The diagram below shows the point of view of the viewer indicated by the red arrows. The quadrants are labeled and the 3rd angle projection is in the lower left. The projections of the objects are on the horizontal and vertical planes. Pay attention to the orientation of the projection top or bottom of the cone in relation to the side projection.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;20230111-First-and-Third-Angle-Projection-Quadrants-Rendering-Annotated-Jimmy-Kuehnle.png&#34;&gt;&lt;img src=&#34;20230111-First-and-Third-Angle-Projection-Quadrants-Rendering-Annotated-Jimmy-Kuehnle-small.jpg&#34; alt=&#34;First and Third Angle Projections&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The symbols indicating the type of projection indicate type of projection by depicting a cone as seen above. For a third angle projection the symbol shows the top/front of the cone with the side of the cone to the side. This is the only way these views can be unfolded flat from the three dimensional image above. In first angle projection the side of the cone is shown and then the bottom/back is shown to the side. This diagram indicates the location of the projection plane in reference to the object and the viewer.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;20230111-First-and-Third-Angle-Projection-Symbols-Jimmy-Kuehnle.jpg&#34;&gt;&lt;img src=&#34;20230111-First-and-Third-Angle-Projection-Symbols-Jimmy-Kuehnle.jpg&#34; alt=&#34;First and Third Angle Projection Symbols&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Third angle projections are more common in the United States while first angle projections are more common in Europe but both can be used to show multi view orthographic projections of 3D objects on 2D planes. Up to six views can be included but usually only three views are enough to have enough information to fabricate or make an object. Remember that the goal of an orthographic projection is to efficiently give all of the information needed to precisely model or fabricate an object.&lt;/p&gt;
+&lt;p&gt;Often dimensions are added to projection drawings to indicate the diameter of holes and other features of the object. The images below show a simple third angle projection with dimensions and a rendering of the object that it depicts. These three orthographic views of the object are all that is necessary to reproduce it as a 3D model or a physical object.&lt;/p&gt;
+&lt;div class=&#34;gallery-grid&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;20220111-Third-Angle-Projection-Example-Jimmy-Kuehnle.jpg&#34;&gt;&lt;img src=&#34;20220111-Third-Angle-Projection-Example-Jimmy-Kuehnle.jpg&#34; alt=&#34;Example Third Angle Projection&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;20220111-Third-Angle-Projection-Example-Object-Jimmy-Kuehnle.png&#34;&gt;&lt;img src=&#34;20220111-Third-Angle-Projection-Example-Object-Jimmy-Kuehnle-small.jpg&#34; alt=&#34;Example Object&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;The video below demonstrates how to draw a simple third angle projection of a wooden block in third angle projection freehand.&lt;/p&gt;
+&lt;div class=&#34;tutorial-video-grid&#34;&gt;
+&lt;div class=&#34;video-card&#34;&gt;
+&lt;h3 id=&#34;1-third-angle-projection-freehand&#34;&gt;1. Third Angle Projection Freehand&lt;/h3&gt;
+&lt;div class=&#34;iframe-16-9-container&#34;&gt;&lt;iframe class=&#34;youTubeIframe&#34; src=&#34;https://www.youtube.com/embed/0SdWqEYKYrI&#34; width=&#34;300&#34; height=&#34;150&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>1.4 Draw Two Objects in Third Angle Projection</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/01-technical-sketching-fusion-360/1-4-draw-two-objects-in-third-angle-projection/</link>
+      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
+      
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/01-technical-sketching-fusion-360/1-4-draw-two-objects-in-third-angle-projection/</guid>
+      <description>&lt;h2 id=&#34;assignment-deliverables&#34;&gt;Assignment Deliverables&lt;/h2&gt;
+&lt;p&gt;Upload 2 separate, labeled JPEGs of 2 different objects drawn in third angle projection on paper. One is drawn freehand and one is drawn with technical drawing tools.&lt;/p&gt;
+&lt;p&gt;Label the files:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;YYYYMMDD Lastname Firstname object in third angle projection freehand.jpg&lt;/li&gt;
+&lt;li&gt;YYYYMMDD Lastname Firstname object in third angle projection tsquare.jpg&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;instructions&#34;&gt;Instructions&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Select two objects of reasonable size and complexity. You do not want super tiny objects or mega huge objects. You also don&amp;rsquo;t want objects that are a simple square or objects made of hundreds of intricate parts.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Use digital calipers and rulers to get the dimensions of the objects. Write these dimensions down in your notes. Use mm for your units.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Using loose sheets of paper, &lt;span&gt;not&lt;/span&gt; in your sketchbooks, draw the two objects that you selected in third angle projection. Draw one third angle projection freehand and one with drawing tools.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Plan out your drawing based on the dimensions and your paper size. If your object is too small to draw at 1:1 real world scale, use a scaled ruler to scale the drawing up with 2mm = 1mm or other appropriate scale factor &lt;a href=&#34;2022-half-scale-mm-printable-ruler.pdf&#34;&gt;Here is a link to a scaled ruler that you can print out&lt;/a&gt;. This ruler has 2mm marks divided into 10. There are many other scaled rulers available online. If you object is larger, such as a game controller, then you can draw at 1:1 scale where 1mm = 1mm. For this assignment avoid super large objects that would need to be scaled down.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;You should draw one third angle projection freehand without using your drafting / technical drawing tools. Drawing accurate third angle productions freehand is an important drawing communicative skill.  The lines do not need to be perfectly straight or perfectly proportioned but try to make sure that the drawing is an accurate representation of the object. Measure the proportions and keep everything aligned and in proportion.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Write the dimensions on your freehand third angle projections. Mark metric somewhere on the page and note the units as mm. Label each view, Front, Top, Side/Right.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Draw a second third angle projection using your drafting / technical drawing tools. You will need your drawing board, T-Square, 45 degree triangle, 30/60 degree triangle, compass and ruler. Draw a neat and accurate third angle projection. Use your T-Square, compass, and triangles.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Write the dimensions on your freehand third angle projections. Mark metric somewhere on the page and note the units as mm. Label each view, Front, Top, Side/Right. Use your T-Square and triangles to draw straight lines for the dimensions. Think about where you put the dimensions so it is clear and legible by anyone.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Cleanly scan both sketches.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Label and upload your images.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;third-angle-projection-videos&#34;&gt;Third Angle Projection Videos&lt;/h2&gt;
+&lt;div class=&#34;tutorial-video-grid&#34;&gt;
+&lt;div class=&#34;video-card&#34;&gt;
+&lt;h3 id=&#34;1-how-to-use-digital-calipers&#34;&gt;1. How to Use Digital Calipers&lt;/h3&gt;
+&lt;div class=&#34;iframe-16-9-container&#34;&gt;&lt;iframe class=&#34;youTubeIframe&#34; src=&#34;https://www.youtube.com/embed/oOZjbbe6YZk&#34; width=&#34;300&#34; height=&#34;150&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video-card&#34;&gt;
+&lt;h3 id=&#34;3-more-complex-third-angle-projection&#34;&gt;3. More Complex Third Angle Projection&lt;/h3&gt;
+&lt;div class=&#34;iframe-16-9-container&#34;&gt;&lt;iframe class=&#34;youTubeIframe&#34; src=&#34;https://www.youtube.com/embed/QTMfdxI5QYk&#34; width=&#34;300&#34; height=&#34;150&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video-card&#34;&gt;
+&lt;h3 id=&#34;4-third-angle-projection-usb-plug&#34;&gt;4. Third Angle Projection USB Plug&lt;/h3&gt;
+&lt;div class=&#34;iframe-16-9-container&#34;&gt;&lt;iframe class=&#34;youTubeIframe&#34; src=&#34;https://www.youtube.com/embed/2xS3AzFV7gs&#34; width=&#34;300&#34; height=&#34;150&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video-card&#34;&gt;
+&lt;h3 id=&#34;5-third-angle-projection-with-a-t-square&#34;&gt;5. Third Angle Projection with a T-Square&lt;/h3&gt;
+&lt;div class=&#34;iframe-16-9-container&#34;&gt;&lt;iframe class=&#34;youTubeIframe&#34; src=&#34;https://www.youtube.com/embed/jfrTuoI6hBQ&#34; width=&#34;300&#34; height=&#34;150&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;grading-rubric&#34;&gt;Grading Rubric&lt;/h2&gt;
+&lt;div class=&#34;responsive-table-markdown&#34;&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Assessment&lt;/th&gt;
+&lt;th&gt;Weight&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Freehand Third Angle Projection&lt;/td&gt;
+&lt;td&gt;25 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Freehand Clear Dimensions&lt;/td&gt;
+&lt;td&gt;10 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;T-Square Third Angle Projection&lt;/td&gt;
+&lt;td&gt;25 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;T-Square Clear Dimensions&lt;/td&gt;
+&lt;td&gt;10 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Documentation&lt;/td&gt;
+&lt;td&gt;20 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;File Management&lt;/td&gt;
+&lt;td&gt;10 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>1.5 Fusion 360 Introduction</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/01-technical-sketching-fusion-360/1-5-fusion-360-introduction/</link>
+      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
+      
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/01-technical-sketching-fusion-360/1-5-fusion-360-introduction/</guid>
+      <description>&lt;p&gt;We will begin 3D modeling in Fusion 360. Make sure you created an Autodesk account.&lt;/p&gt;
+&lt;p&gt;Watch the video about the &lt;a href=&#34;https://youtu.be/YjaxBbTY3kc&#34;&gt;Fusion 360 User Interface&lt;/a&gt;. It explains how Fusion 360 works with project files. It also shows how to navigate in 3D space with your three button mouse. Fusion 360 is a parametric modeling program and therefore has a desing history timeline with all of the features of your 3D model. We will discuss the timeline, user parameters, model browser and many other topics as the course progresses. This video gives you the information that you need to get started with the basics in Fusion 360.&lt;/p&gt;
+&lt;h2 id=&#34;fusion-360-introduction-video&#34;&gt;Fusion 360 Introduction Video&lt;/h2&gt;
+&lt;div class=&#34;tutorial-video-grid&#34;&gt;
+&lt;div class=&#34;video-card&#34;&gt;
+&lt;h3 id=&#34;1-fusion-360-user-interface&#34;&gt;1. Fusion 360 User Interface&lt;/h3&gt;
+&lt;div class=&#34;iframe-16-9-container&#34;&gt;&lt;iframe class=&#34;youTubeIframe&#34; src=&#34;https://www.youtube.com/embed/YjaxBbTY3kc&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>1.6 Fusion 360 Exercise Exported Render Assignment</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/01-technical-sketching-fusion-360/1-6-fusion-360-exercise-exported-render/</link>
+      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
+      
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/01-technical-sketching-fusion-360/1-6-fusion-360-exercise-exported-render/</guid>
+      <description>&lt;h2 id=&#34;deliverables&#34;&gt;Deliverables&lt;/h2&gt;
+&lt;p&gt;Upload a minimum of 1 render image of the Fusion 360 Modeling Exercise&lt;/p&gt;
+&lt;p&gt;Label your exported render image:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;YYYYMMDD Lastname Firstname 3D Modeling Exercise Render.png&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;instructions&#34;&gt;Instructions&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Watch the &lt;a href=&#34;https://youtu.be/arTAFuBS-qI&#34;&gt;Fusion 360 3D Modeling Exercise&lt;/a&gt; video. This walks you through modeling your first part in Fusion 360. It introduces sketches, sketch constraints, appearances as well as rendering. Follow along and make the part from the example. You can use the sketch of the part below for reference.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Add a material to the object other than the default grey steel. Press &amp;ldquo;a&amp;rdquo; on your keyboard to bring up the appearance browser. Select the material of your choice. It doesn&amp;rsquo;t have to be wood and it doesn&amp;rsquo;t have to be the same material on each face. Experiment and see what happens.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Export a render of your part as a PNG. You can render on your machine or in the cloud. Double check that the object is not super tiny in the render preview. In the render settings make sure one of the dimensions is set to 4000px so you have enough resolution.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Label the render image file and upload it.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;practice-modeling&#34;&gt;Practice Modeling&lt;/h2&gt;
+&lt;p&gt;Once you finish this exercise, try to model a creation of your own. Don&amp;rsquo;t worry about making mistakes, just experiment. Add materials, make some renders, and upload them with your assignment. We will talk more about modeling techniques next week and throughout the semester.&lt;/p&gt;
+&lt;h2 id=&#34;link-to-reference-sketch-used-in-tutorial-video&#34;&gt;Link to Reference Sketch used in Tutorial Video&lt;/h2&gt;
+&lt;p&gt;You can use &lt;a href=&#34;2022-Sketch-of-Sample-Part-for-Fusion-360-Modeling-Exercise.jpeg&#34;&gt;this sketch&lt;/a&gt; to model the part in Fusion 360.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;2022-Sketch-of-Sample-Part-for-Fusion-360-Modeling-Exercise.jpeg&#34;&gt;&lt;img src=&#34;2022-Sketch-of-Sample-Part-for-Fusion-360-Modeling-Exercise.jpeg&#34; alt=&#34;this sketch&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&#34;tutorial-video-gallery&#34;&gt;
+&lt;div class=&#34;video-card&#34;&gt;
+&lt;h3 id=&#34;2-fusion-360-3d-modeling-exercise&#34;&gt;2. Fusion 360 3D Modeling Exercise&lt;/h3&gt;
+&lt;div class=&#34;iframe-16-9-container&#34;&gt;&lt;iframe class=&#34;youTubeIframe&#34; src=&#34;https://www.youtube.com/embed/arTAFuBS-qI&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;grading-rubric&#34;&gt;Grading Rubric&lt;/h2&gt;
+&lt;div class=&#34;responsive-table-markdown&#34;&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Assessment&lt;/th&gt;
+&lt;th&gt;Weight&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Object Form and Proportions compared to example block&lt;/td&gt;
+&lt;td&gt;30 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Material Applied&lt;/td&gt;
+&lt;td&gt;20 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Render Exported&lt;/td&gt;
+&lt;td&gt;10 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Render Composition&lt;/td&gt;
+&lt;td&gt;10 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;File Management&lt;/td&gt;
+&lt;td&gt;10 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

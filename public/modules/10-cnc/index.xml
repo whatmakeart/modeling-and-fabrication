@@ -1,0 +1,197 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>10 - CNC on Modeling and Fabrication</title>
+    <link>https://whatmakeart.com/modeling-and-fabrication/modules/10-cnc/</link>
+    <description>Recent content in 10 - CNC on Modeling and Fabrication</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 26 Jan 2020 23:11:13 +0000</lastBuildDate>
+    
+        <atom:link href="https://whatmakeart.com/modeling-and-fabrication/modules/10-cnc/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>10.2 Shopbot Reservation</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/10-cnc/10-2-shopbot-reservation/</link>
+      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
+      
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/10-cnc/10-2-shopbot-reservation/</guid>
+      <description>&lt;div style=&#34;border: 2px solid #000; padding: 1rem;&#34;&gt;
+&lt;h1&gt;What am I Turning In?&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;Take a Screenshot of your ShopBot Reservation&lt;/li&gt;
+&lt;li&gt;Take a Screenshot of your Plywood Receipt&lt;/li&gt;
+&lt;li&gt;Label the Screenshots&lt;/li&gt;
+&lt;li&gt;Put them in a labeled folder&lt;/li&gt;
+&lt;li&gt;Upload the Folder to Google Drive&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;Google Drive Upload Folder&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://drive.google.com/drive/folders/1G6UE8S1b1FCGJx2BNRLiLxxd5dEi7xRl&#34;&gt;https://drive.google.com/drive/folders/1G6UE8S1b1FCGJx2BNRLiLxxd5dEi7xRl&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Project Documentation is due before the final critique, uploaded to Google Drive. Make sure you make your reservation soon enough to have enough time to assemble your project, apply finishing and take documentation photos.&lt;/p&gt;
+&lt;h2&gt;ShopBot Reservation Time&lt;/h2&gt;
+&lt;p&gt;Make sure you reserve enough time to cut your project. If there is not enough time and the next student has a reservation, you will need to stop your cut. This can waste your plywood and time.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;It will take ~ 30 minutes to set up the tool and have your plywood in place.&lt;/li&gt;
+&lt;li&gt;Look in Fusion to get an estimate of your machine time&lt;/li&gt;
+&lt;li&gt;Multiply machine time by 1.2 to add 20% buffer time.&lt;/li&gt;
+&lt;li&gt;~5-10 minutes to remove material from machine.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Add everything together and make a reservation that is long enough.&lt;/p&gt;
+&lt;p&gt;You will need to make multiple reservations since the default reservation is 1 hour.&amp;nbsp;If you need a 2 hour reservation, reserve&amp;nbsp; two 1 hour slots. If you need 2 hours and 30 minutes then reserve three 1 hour slots in a row.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;You must go to your reserved time because there are limited slots. The shop will let me know if you do not attend. You can cancel your slot but you must do it a minimum of 48 hours in advance. You then have to make another reservation.&lt;/p&gt;
+&lt;h1&gt;&lt;a style=&#34;background: lavender; text-align: center; display: block; text-decoration: none; color: black; border: 3px solid black; border-radius: 5px; padding: 1rem 0;&#34; href=&#34;https://my.cia.edu/ICS/Fab_Studios/ShopBot_CNC.jnz&#34;&gt;ShopBot Reservations&lt;/a&gt;&lt;/h1&gt;
+&lt;h1&gt;Purchase Plywood&lt;/h1&gt;
+&lt;p&gt;After you make your Fusion 360 model of your CNC project, lay the parts out flat. Then look at the size of the sketch that you needed to use in the Arrange command to lay your parts flat. This will let you know how much plywood that you need. You can buy plywood in 48&#34;x48&#34; or 48&#34;x96&#34; or 60&#34;x60&#34;. It comes in a range of thicknesses. Stop by the Fab Studios to see the plywood in person. Then purchase the right size board for your project. If your model is just a bit over you may be able to fit the last piece on someone else&#39;s scrap.&lt;/p&gt;
+&lt;h1&gt;&lt;a style=&#34;background: goldenrod; text-align: center; display: block; text-decoration: none; color: white; border: 3px solid black; border-radius: 5px; padding: 1rem 0;&#34; href=&#34;https://my.cia.edu/ICS/Student/Supply_Store/Fabrication_Studios/Wood/&#34;&gt;Purchase Plywood&lt;/a&gt;&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;Take a Screenshot of your ShopBot Reservation&lt;/li&gt;
+&lt;li&gt;Take a Screenshot of your Plywood Receipt&lt;/li&gt;
+&lt;li&gt;Label the Screenshots&lt;/li&gt;
+&lt;li&gt;Put them in a labeled folder&lt;/li&gt;
+&lt;li&gt;Upload the Folder to Google Drive&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;Google Drive Upload Folder&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://drive.google.com/drive/folders/1G6UE8S1b1FCGJx2BNRLiLxxd5dEi7xRl&#34;&gt;https://drive.google.com/drive/folders/1G6UE8S1b1FCGJx2BNRLiLxxd5dEi7xRl&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>10.3 Fusion 360 Model of CNC Project</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/10-cnc/10-3-fusion-360-model-of-cnc-project/</link>
+      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
+      
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/10-cnc/10-3-fusion-360-model-of-cnc-project/</guid>
+      <description>&lt;div style=&#34;border: 2px solid #000; padding: 1rem;&#34;&gt;
+&lt;h1 id=&#34;what-do-i-turn-in&#34;&gt;What Do I Turn In?&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;Fusion 360 File .f3d file with your model complete and manufacture workspace setup with toolpaths&lt;/li&gt;
+&lt;li&gt;Rendering of CNC Project with appearances applied. Should be in a 4:3 2:3 1:1 or 16:9 aspect ration with one side at least 4000px&lt;/li&gt;
+&lt;li&gt;Rendering of top view of parts laid flat. Show an interesting view of the parts laid flat. You will need to duplicate your model in the design workspace and arrange it flat.&lt;/li&gt;
+&lt;li&gt;Take a screenshot of the simulation of the tool paths from the Manufacture workspace&lt;/li&gt;
+&lt;li&gt;Export the .sbp ShopBot Post Process file&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;google-drive-upload-folder&#34;&gt;Google Drive Upload Folder&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://drive.google.com/drive/folders/1c3FUsa0PFBQ7fU0anIx_AeIIBkPs2aSp&#34;&gt;https://drive.google.com/drive/folders/1c3FUsa0PFBQ7fU0anIx_AeIIBkPs2aSp&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Model your project in Fusion 360. Make each piece of your design a separate component. Think about how you will construct and assemble the pieces. Think about how tabs and slots will work. Remember that the CNC can not cut a square inside corner so you need to add dogbone or T-Bone fillets. Think about how you add to fillets so you can conceal them. This &lt;a href=&#34;https://youtu.be/fjrEmJeM-qw&#34;&gt;video&lt;/a&gt; shows how to add invisible dogbone fillets to your model. You can add them when the model is assembled or when it is laid flat. &lt;a href=&#34;https://youtu.be/fjrEmJeM-qw&#34;&gt;https://youtu.be/fjrEmJeM-qw&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Lay all of the parts flat after the design is complete. Use arrange to place them on a virtual 48&amp;quot;x48&amp;quot; piece of plywood or on a 96&amp;quot; x 48&amp;quot; piece of plywood. Take a screenshot or rendering of your parts laid flat. Make a rendering of your assembled piece with appearances applied. Export your .f3d Fusion 360 file.&lt;/p&gt;
+&lt;h1 id=&#34;example-project-render-images&#34;&gt;Example Project Render Images&lt;/h1&gt;
+&lt;h2 id=&#34;hex-stool&#34;&gt;Hex Stool&lt;/h2&gt;
+&lt;p&gt;This &lt;a href=&#34;https://youtu.be/9utpuieg5lI&#34;&gt;video&lt;/a&gt; shows the process of creating a simple hexagon stool. The video uses the previous method using joints to lay the parts flat. You should use the arrange command to lay your parts flat to make your render image and your tool paths. &lt;a href=&#34;https://youtu.be/9utpuieg5lI&#34; title=&#34;Share link&#34;&gt;https://youtu.be/9utpuieg5lI&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&#34;gallery&#34; style=&#34;display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); grid-gap: 10px; justify-content: center;&#34;&gt;
+&lt;div class=&#34;image-box&#34; style=&#34;position: relative; min-width: 300px; min-height: 300px;&#34;&gt;![](/ICS/icsfs/mm/20210310_kuehnle_jimmy_hex_stool_rendering.jpg?target=339d6805-5177-4c14-95a9-66ee8cb61bb6) ,p&lt;/div&gt;
+&lt;div class=&#34;image-box&#34; style=&#34;position: relative; min-width: 300px; min-height: 300px;&#34;&gt;![](/ICS/icsfs/mm/20210310_kuehnle_jimmy_hex_stool_rendering_parts_flat.jpg?target=4634443d-8bc2-445c-9f8e-d79af0b5fa2d)&lt;/div&gt;
+&lt;div class=&#34;image-box&#34; style=&#34;position: relative; min-width: 300px; min-height: 300px;&#34;&gt;![](/ICS/icsfs/mm/20210310_kuehnle_jimmy_hex_stool_screenshot_parts_flat.png?target=c989c8ac-54d0-4da3-b36e-2c80ba3df9d8)&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;end-table&#34;&gt;End Table&lt;/h2&gt;
+&lt;p&gt;This &lt;a href=&#34;https://youtu.be/GzknioA34F8&#34;&gt;video&lt;/a&gt; shows the process of creating a simple end table. The video uses the previous method using joints to lay the parts flat. You should use the arrange command to lay your parts flat to make your render image and your tool paths. &lt;a href=&#34;https://youtu.be/GzknioA34F8&#34;&gt;https://youtu.be/GzknioA34F8&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&#34;gallery&#34; style=&#34;display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); grid-gap: 10px; justify-content: center;&#34;&gt;
+&lt;div class=&#34;image-box&#34; style=&#34;position: relative; min-width: 300px; min-height: 300px;&#34;&gt;![](/ICS/icsfs/mm/20210310_kuehnle_jimmy_end_table_rendering.jpg?target=b71b5e9d-30eb-4c0f-9c41-1897da316633)&lt;/div&gt;
+&lt;div class=&#34;image-box&#34; style=&#34;position: relative; min-width: 300px; min-height: 300px;&#34;&gt;![](/ICS/icsfs/mm/20210210_kuehnle_jimmy_end_table_rendering_parts_flat.jpg?target=2b518b1c-09c2-42bb-a8f0-06e849b4a47c)&lt;/div&gt;
+&lt;div class=&#34;image-box&#34; style=&#34;position: relative; min-width: 300px; min-height: 300px;&#34;&gt;![](/ICS/icsfs/mm/20210210_kuehnle_jimmy_end_table_screenshot_parts_flat.png?target=cd156880-d792-447a-943e-8e0f63a7ed41)&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;circle-stool&#34;&gt;Circle Stool&lt;/h2&gt;
+&lt;p&gt;This &lt;a href=&#34;https://youtu.be/I6FEMdtcrpI&#34;&gt;video&lt;/a&gt; shows the process of creating a simple circle stool. The video uses the previous method using joints to lay the parts flat. You should use the arrange command to lay your parts flat to make your render image and your tool paths. &lt;a href=&#34;https://youtu.be/I6FEMdtcrpI&#34;&gt;https://youtu.be/I6FEMdtcrpI&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&#34;gallery&#34; style=&#34;display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); grid-gap: 10px; justify-content: center;&#34;&gt;
+&lt;div class=&#34;image-box&#34; style=&#34;position: relative; min-width: 300px; min-height: 300px;&#34;&gt;![](/ICS/icsfs/mm/20210310_kuehnle_jimmy_circle_stool_rendering_of_stool.jpg?target=4ad00234-2c76-4534-9b56-012c8c80508a)&lt;/div&gt;
+&lt;div class=&#34;image-box&#34; style=&#34;position: relative; min-width: 300px; min-height: 300px;&#34;&gt;![](/ICS/icsfs/mm/20210310_kuehnle_jimmy_circle_stool_rendering_of_parts_flat.jpg?target=b1b527ac-dbb2-4b78-a64c-705e8812cc5f)&lt;/div&gt;
+&lt;div class=&#34;image-box&#34; style=&#34;position: relative; min-width: 300px; min-height: 300px;&#34;&gt;![](/ICS/icsfs/mm/20210310_kuehnle_jimmy_circle_stool_screenshot_of_parts_flat.png?target=7a4618cd-99f6-4522-9002-480a7b50dcce)&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;plywood-chair&#34;&gt;Plywood Chair&lt;/h2&gt;
+&lt;p&gt;This &lt;a href=&#34;https://youtu.be/GqXQ8TdzYRE&#34;&gt;video&lt;/a&gt; shows the process of creating a simple plywood chair. The video uses the previous method using joints to lay the parts flat. You should use the arrange command to lay your parts flat to make your render image and your tool paths. &lt;a href=&#34;https://youtu.be/GqXQ8TdzYRE&#34;&gt;https://youtu.be/GqXQ8TdzYRE&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&#34;gallery&#34; style=&#34;display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); grid-gap: 10px; justify-content: center;&#34;&gt;
+&lt;div class=&#34;image-box&#34; style=&#34;position: relative; min-width: 300px; min-height: 300px;&#34;&gt;![](/ICS/icsfs/mm/20210311_kuehnle_jimmy_cnc_chair_rendering.png?target=22850fa4-c25b-4c9e-bbea-ed0945297229)&lt;/div&gt;
+&lt;div class=&#34;image-box&#34; style=&#34;position: relative; min-width: 300px; min-height: 300px;&#34;&gt;![](/ICS/icsfs/mm/20210311_kuehnle_jimmy_cnc_chair_rendering_parts_flat.jpg?target=c2027a95-c1ce-4506-9a63-7f7082e6cf3b)&lt;/div&gt;
+&lt;div class=&#34;image-box&#34; style=&#34;position: relative; min-width: 300px; min-height: 300px;&#34;&gt;![](/ICS/icsfs/mm/20210311_kuehnle_jimmy_cnc_chair_screenshot_parts_flat.png?target=9cc85eb2-2b92-4d46-984a-4d589d50f477)&lt;/div&gt;
+&lt;/div&gt;
+&lt;h1 id=&#34;export-shopbot-tool-paths-for-cnc-project&#34;&gt;Export ShopBot Tool Paths for CNC Project&lt;/h1&gt;
+&lt;h2 id=&#34;create-a-tool-holder&#34;&gt;Create a Tool Holder &lt;/h2&gt;
+&lt;p&gt;Create a tool for the 1/4&amp;quot; straight cut router bit. We have other bits in the Fab Studios for cutting out 3D profiles and engraving but you will use the 1/4&amp;quot; bit for most of your cutting. You will create a tool holder and a tool bit. For 2D cutting the tool holder is not needed but you should make it to know the process in case you do any 3D Cutting. For 3D cutting we need to know where the tool holder is and how big it is.  This &lt;a href=&#34;https://youtu.be/M9MQzYrLhGQ&#34;&gt;video&lt;/a&gt; shows how to create the 1/4&amp;quot; ShopBot Tool. &lt;a href=&#34;https://youtu.be/M9MQzYrLhGQ&#34; title=&#34;Share link&#34;&gt;https://youtu.be/M9MQzYrLhGQ&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Use the settings and values below to make your tool.&lt;/p&gt;
+&lt;h3 id=&#34;general-tab&#34;&gt;General Tab&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Description: ER25 Collet Nut&lt;/li&gt;
+&lt;li&gt;Vendor: ShopBot&lt;/li&gt;
+&lt;li&gt;Product ID: ER25&lt;/li&gt;
+&lt;li&gt;Product Link: &lt;a href=&#34;https://store.shopbottools.com/products/collet-nut-er25&#34;&gt;https://store.shopbottools.com/products/collet-nut-er25&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;holder-geometry-tab&#34;&gt;Holder Geometry Tab&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Height #1: 17 mm&lt;/li&gt;
+&lt;li&gt;Upper Diameter #1: 42 mm&lt;/li&gt;
+&lt;li&gt;Lower Diameter #1: 42 mm&lt;/li&gt;
+&lt;li&gt;Height #2: 3 mm&lt;/li&gt;
+&lt;li&gt;Upper Diameter #2: 42 mm&lt;/li&gt;
+&lt;li&gt;Lower Diameter #2: 32 mm&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;create-14-flat-end-mill-tool&#34;&gt;Create 1/4&amp;quot; Flat End Mill Tool&lt;/h2&gt;
+&lt;h3 id=&#34;under-general-tab&#34;&gt;Under General Tab&lt;/h3&gt;
+&lt;p&gt;Description: 1/4” Flat Endmill&lt;/p&gt;
+&lt;p&gt;Vendor: Whiteside&lt;/p&gt;
+&lt;p&gt;Product ID: 1014&lt;/p&gt;
+&lt;p&gt;Product Link:&lt;/p&gt;
+&lt;h3 id=&#34;cutter-tab&#34;&gt;Cutter Tab&lt;/h3&gt;
+&lt;p&gt;Type: Flat End Mill&lt;/p&gt;
+&lt;p&gt;Unit: Inches&lt;/p&gt;
+&lt;p&gt;Clockwise spindle Rotation - yes&lt;/p&gt;
+&lt;p&gt;Number of Flutes: 2&lt;/p&gt;
+&lt;p&gt;Material: HSS&lt;/p&gt;
+&lt;h3 id=&#34;geometry-tab&#34;&gt;Geometry Tab&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Diameter .25 in&lt;/li&gt;
+&lt;li&gt;Shaft Diameter .25 in (fx)&lt;/li&gt;
+&lt;li&gt;Overall length: 2.5 in&lt;/li&gt;
+&lt;li&gt;Length below Holder: 1.2 in&lt;/li&gt;
+&lt;li&gt;Shoulder Length. 1 in&lt;/li&gt;
+&lt;li&gt;Flute length: 1 in&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;shaft-tab&#34;&gt;Shaft Tab&lt;/h3&gt;
+&lt;p&gt;Not used for this simple end mill.&lt;/p&gt;
+&lt;h3 id=&#34;holder-tab&#34;&gt;Holder Tab&lt;/h3&gt;
+&lt;p&gt;Not used for 2D and 2.5D cutting but we can select the custom holder we made so we have more visual aid to see if parts are the wrong size in simulation.&lt;/p&gt;
+&lt;h3 id=&#34;cutting-data-tab&#34;&gt;Cutting Data Tab&lt;/h3&gt;
+&lt;h4 id=&#34;speeds&#34;&gt;Speeds&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Spindle Speed 18000 rpm&lt;/li&gt;
+&lt;li&gt;Surface Speed - Calculated&lt;/li&gt;
+&lt;li&gt;Ramp Spindle Speed 18000&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;feedrates&#34;&gt;Feedrates&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Cutting Feedrate 144 in/min&lt;/li&gt;
+&lt;li&gt;Feed per tooth - Calculated&lt;/li&gt;
+&lt;li&gt;Lead-in Feederate - Calculated&lt;/li&gt;
+&lt;li&gt;Lead-out Feedrate - Calculated&lt;/li&gt;
+&lt;li&gt;Ramp Feedrate - 72 in/min&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;vertical-feedrates&#34;&gt;Vertical Feedrates&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Plunge feedrate 72 in/min&lt;/li&gt;
+&lt;li&gt;Feed per revolution - Calculated&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;passes-and-linking&#34;&gt;Passes and Linking&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Use Step-down - check&lt;/li&gt;
+&lt;li&gt;Stepdown .125&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;coolant&#34;&gt;Coolant&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Disabled&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;upload-5-files-to-google-drive&#34;&gt;Upload 5 Files to Google Drive&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;Fusion 360 File .f3d file with your model complete and manufacture workspace setup with toolpaths&lt;/li&gt;
+&lt;li&gt;Rendering of CNC Project with appearances applied. Should be in a 4:3 2:3 1:1 or 16:9 aspect ration with one side at least 4000px&lt;/li&gt;
+&lt;li&gt;Rendering of top view of parts laid flat. Show an interesting view of the parts laid flat. You will need to duplicate your model in the design workspace and arrange it flat.&lt;/li&gt;
+&lt;li&gt;Take a screenshot of the simulation of the tool paths from the Manufacture workspace&lt;/li&gt;
+&lt;li&gt;Export the .sbp ShopBot Post Process file&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;google-drive-upload-folder-1&#34;&gt;Google Drive Upload Folder&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://drive.google.com/drive/folders/1c3FUsa0PFBQ7fU0anIx_AeIIBkPs2aSp&#34;&gt;https://drive.google.com/drive/folders/1c3FUsa0PFBQ7fU0anIx_AeIIBkPs2aSp&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;grading-rubric--assessment--weight--------------------------------------------------model-quality--50-points---manufacture-workspace-setup--20-points---render-image-of-cnc-project--20-points---shopbot-toolpath-exported--20-points---render-image-of-pieces-layed-flat--20-points---toolpath-simulation-screenshot--10-points---file-management--10-points-&#34;&gt;Grading Rubric | Assessment | Weight | | &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash; | &amp;mdash;&amp;mdash;&amp;mdash; | | Model Quality | 50 points | | Manufacture Workspace Setup | 20 points | | Render Image of CNC Project | 20 points | | Shopbot Toolpath Exported | 20 points | | Render Image of Pieces Layed Flat | 20 points | | Toolpath Simulation Screenshot | 10 points | | File Management | 10 points |&lt;/h1&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

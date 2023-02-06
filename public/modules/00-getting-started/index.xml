@@ -1,0 +1,119 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Module 0 Getting Started on Modeling and Fabrication</title>
+    <link>https://whatmakeart.com/modeling-and-fabrication/modules/00-getting-started/</link>
+    <description>Recent content in Module 0 Getting Started on Modeling and Fabrication</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 26 Jan 2020 23:11:13 +0000</lastBuildDate>
+    
+        <atom:link href="https://whatmakeart.com/modeling-and-fabrication/modules/00-getting-started/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>0.4 Course Links</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/00-getting-started/0-4-course-links/</link>
+      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
+      
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/00-getting-started/0-4-course-links/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://help.autodesk.com/view/fusion360/ENU/&#34;&gt;Autodesk Fusion 360 Online Product Documentation&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>0.5 Fusion 360 FAQ</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/00-getting-started/0-5-fusion-360-faq/</link>
+      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
+      
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/00-getting-started/0-5-fusion-360-faq/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;How to move a body?&lt;/strong&gt; - Press m on the keyboard for the move / copy tool.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;How to select whole body and not just a face?&lt;/strong&gt; - Click on the underlined body in the outline after clicking one of its faces, or change the selection priority to bodies in the top right selection menu.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;How to export a .f3d Fusion 360 file?&lt;/strong&gt; - Click on file &amp;gt; Export &amp;gt; choose .f3d&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;sketching&#34;&gt;Sketching&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtu.be/-3SMfrnWMTE&#34;&gt;How to insert a canvas into a sketch?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtu.be/aMBnke14Wgg&#34;&gt;How to import a DXF or SVG?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtu.be/PX9jWmmGTfo&#34;&gt;How do I move an imported SVG sketch?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtu.be/ynBl9XJesDs&#34;&gt;How do I fully define a spline in a sketch?&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;modeling&#34;&gt;Modeling&lt;/h2&gt;
+&lt;h3 id=&#34;basic-modeling&#34;&gt;Basic Modeling&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtu.be/iLr9d8Gp7Ls&#34;&gt;Join, Cut, Intersect Operations&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtu.be/d4iPXS8g9ms&#34;&gt;How do I split a body?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtu.be/H6W-Og4YyZ8&#34;&gt;How do I set user parameters?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtu.be/vwCUjtsghdI&#34;&gt;How to mirror an object?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;How to cut with an object after an object is already made?&lt;/strong&gt; - Use the move tool to make the objects overlap. Then use the combine tool to select a tool body (for cutting) and the target body (getting cut). It will show a red preview of what will be cut.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtu.be/VzossdZbGtk&#34;&gt;How to Loft?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtu.be/VzossdZbGtk&#34;&gt;How to Revolve?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtu.be/Gpplnrtf3UE&#34;&gt;How to make perfect polygons?&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;intermediate-modeling&#34;&gt;Intermediate Modeling&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtu.be/H6W-Og4YyZ8&#34;&gt;How to use User Parameters?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtube.com/playlist?list=PL8G4GiXpgTvL9MrVHLOWikPVFn-NPUWmp&#34;&gt;How do I use the form workspace in Fusion 360?&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;advanced-modeling&#34;&gt;Advanced Modeling&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtu.be/xHas0R5-6uc&#34;&gt;How to make a knurled texture like a handlebar grip?&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;rendering&#34;&gt;Rendering&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtu.be/NLr1FG27BGs&#34;&gt;How to set the rendering Aspect Ratio?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/MmJL4zjfmic&#34;&gt;How to add a custom HDRI background image?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtu.be.com/2-k1KDkzIqU&#34;&gt;How to make custom appearances / materials in Fusion 360?&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;requested-model-examples&#34;&gt;Requested Model Examples&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtu.be/aIH8ccLzAi4&#34;&gt;How to model an arcade button?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtu.be/jvBfrFdsiV4&#34;&gt;How to model a padded box?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtu.be/npRZdueFu8M&#34;&gt;How to model a glass panel?&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Course Introduction</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/00-getting-started/0-0-course-introduction/</link>
+      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
+      
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/00-getting-started/0-0-course-introduction/</guid>
+      <description>&lt;h2 id=&#34;course-introduction&#34;&gt;Course Introduction&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Course Introduction</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/00-getting-started/0-1-course-description/</link>
+      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
+      
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/00-getting-started/0-1-course-description/</guid>
+      <description>&lt;h2 id=&#34;course-description&#34;&gt;Course Description&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How to Succeed in this Course</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/00-getting-started/0-2-how-suceed-in-this-course/</link>
+      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
+      
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/00-getting-started/0-2-how-suceed-in-this-course/</guid>
+      <description>&lt;h2 id=&#34;how-to-succeed-in-this-course&#34;&gt;How to Succeed in this Course&amp;quot;&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Syllabus</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/00-getting-started/0-3-syllabus/</link>
+      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
+      
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/00-getting-started/0-3-syllabus/</guid>
+      <description>&lt;h2 id=&#34;syllabus&#34;&gt;Syllabus&lt;/h2&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

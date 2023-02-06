@@ -1,0 +1,99 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>05 - Laser Cutting on Modeling and Fabrication</title>
+    <link>https://whatmakeart.com/modeling-and-fabrication/modules/05-laser-cutting-fabrication/</link>
+    <description>Recent content in 05 - Laser Cutting on Modeling and Fabrication</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 26 Jan 2020 23:11:13 +0000</lastBuildDate>
+    
+        <atom:link href="https://whatmakeart.com/modeling-and-fabrication/modules/05-laser-cutting-fabrication/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>5.0 Introduction</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/05-laser-cutting-fabrication/5-0-introduction/</link>
+      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
+      
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/05-laser-cutting-fabrication/5-0-introduction/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>5.1Laser Cut Stand Photo Documentation</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/05-laser-cutting-fabrication/5-1-laser-cut-documentation/</link>
+      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
+      
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/05-laser-cutting-fabrication/5-1-laser-cut-documentation/</guid>
+      <description>&lt;h1 id=&#34;cut-out-stand-with-laser-cutter--photo-document-on-thinkbox-photo-stand&#34;&gt;Cut Out Stand with Laser Cutter &amp;amp; Photo Document on think[box] Photo Stand&lt;/h1&gt;
+&lt;h2 id=&#34;make-changes-to-model&#34;&gt;Make Changes to Model&lt;/h2&gt;
+&lt;p&gt;Look at your model and decide if there are design issues or changes that you want to make. Think about how your pieces connect. Think about the overall aesthetics of the stand.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Do the finger joints only sit on the outside of a piece or are the fully enclosed?&lt;/li&gt;
+&lt;li&gt;Is there clearance for bolts?&lt;/li&gt;
+&lt;li&gt;Do you have enough support pieces?&lt;/li&gt;
+&lt;li&gt;Are there additional places to add decorative etchings or photo engravings?&lt;/li&gt;
+&lt;li&gt;Are there any sharp corners? Are there places that decorative cutouts or negative space could be added to the design?&lt;/li&gt;
+&lt;li&gt;Could more organic forms be added to improve the design?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Design is a process of iteration and improvement. There are likely places where you design could be altered and changed before cutting. Make these changes to your model.&lt;/p&gt;
+&lt;p&gt;Then check your Fusion 360 file for errors in the timeline. Fix these errors in the timeline by moving the playhead to the first error and fixing it before the others. Right click on the feature in the timeline to review any errors. Continue until all errors are complete.&lt;/p&gt;
+&lt;h2 id=&#34;check-your-plywood-thickness&#34;&gt;Check your Plywood Thickness&lt;/h2&gt;
+&lt;p&gt;Measure your plywood with digital calipers. You can use a piece from your laser cut test. It will be close enough but the thickness is likely different than what you used for your user parameter in Fusion 360. Update your user parameter to match.&lt;/p&gt;
+&lt;p&gt;It is a good idea to temporarily make the ply parameter much larger to double check that you used the user parameter throughout your model everyplace ply was needed. It is easy to accidentally type the actual dimension rather that using the user parameter. You want to check this before cutting. If you put in a larger number and you notice one piece doesn&amp;rsquo;t change, then that is an indication that you did not use the parameter on that dimension. Go back and change it.&lt;/p&gt;
+&lt;h2 id=&#34;re-export-tool-paths&#34;&gt;Re-Export Tool Paths&lt;/h2&gt;
+&lt;p&gt;After you modified the ply thickness, re-generate and re-export your tool paths with the DXF post processor. In the manufacture workspace, right click on the process and click generate. Then click on post process to export a new DXF. Make sure you label the dxf exports so you know which one is the most recent.&lt;/p&gt;
+&lt;p&gt;If you have a complicated model with etching or interior pocket cuts, you can make these as different profile cuts in the Fusion 360 manufacture workspace. Then you can check the box to export each operation as a different layer. This can be helpful to select the paths in Illustrator and make them different colors. You can order the cuts on the laser cutter by dragging and dropping in the Epilog print menu. It is a good idea to do all etching and interior cutting before cutting the outside contours so you pieces do not move.&lt;/p&gt;
+&lt;p&gt;Change the strokes to the correct weight and color in Illustrator.&lt;/p&gt;
+&lt;h2 id=&#34;make-updated-renders-of-your-project&#34;&gt;Make Updated Renders of Your Project&lt;/h2&gt;
+&lt;p&gt;Re-render your project after you make changes and save the images.&lt;/p&gt;
+&lt;h2 id=&#34;write-summary-of-changes-to-model&#34;&gt;Write Summary of Changes to Model&lt;/h2&gt;
+&lt;p&gt;Written Description of what your changed in your model and why. Be specific and descriptive. What did you think about the changes?&lt;/p&gt;
+&lt;h2 id=&#34;cut-out-your-project&#34;&gt;Cut out your Project&lt;/h2&gt;
+&lt;p&gt;Go to the think[box] and cut out your project. If something doesn&amp;rsquo;t work out right, modify your model and try to cut it out again.&lt;/p&gt;
+&lt;h2 id=&#34;document-your-project-on-the-photo-stand-at-the-thinkbox&#34;&gt;Document your project on the photo stand at the think[box]&lt;/h2&gt;
+&lt;p&gt;There is a photo stand at the think[box]that is perfect for documenting small objects like your laser cut projects. Use the DSLR camera at the think[box] that is already set up. There are lights set up as well. Do not use your cell phone for these pictures. Instructions link from think[box] &lt;a href=&#34;https://docs.google.com/document/d/1IEujUMfrwNqrz4M4hs8QsYuTGID2wZhnPJgkKJeSrsg/edit&#34;&gt;https://docs.google.com/document/d/1IEujUMfrwNqrz4M4hs8QsYuTGID2wZhnPJgkKJeSrsg/edit&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;2021-thinkbox-photo-stand.jpg&#34; alt=&#34;thinkbox photo stand&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;document-your-project-in-the-environment&#34;&gt;Document Your Project in the Environment&lt;/h2&gt;
+&lt;p&gt;In addition to the photos at the think[box] take a minimum of 2 photos of the stand in use in the environment. Use a camera from checkout and have good lighting, proper exposure, white balance and composition. Edit your photos in Photoshop / Camera Raw for the best results.&lt;/p&gt;
+&lt;h2 id=&#34;upload-documents-to-google-drive&#34;&gt;Upload Documents to Google Drive&lt;/h2&gt;
+&lt;p&gt;Upload the following to Google Drive:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Upload a minimum of 2 photos from think[box] and 2 photos from the environment to Google Drive.&lt;/li&gt;
+&lt;li&gt;Written Description of what your changed in your model and why. Be specific and descriptive. What did you think about the changes?&lt;/li&gt;
+&lt;li&gt;Updated render image(s) of your new model.&lt;/li&gt;
+&lt;li&gt;Updated exported .f3d file.&lt;/li&gt;
+&lt;li&gt;Updated Toolpath export file&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;grading-rubric&#34;&gt;Grading Rubric&lt;/h1&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Assessment&lt;/th&gt;
+&lt;th&gt;Weight&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Stand Quality&lt;/td&gt;
+&lt;td&gt;40 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Photo Backdrop Documentation&lt;/td&gt;
+&lt;td&gt;25 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Environment Photo Documentation&lt;/td&gt;
+&lt;td&gt;25 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;File Management&lt;/td&gt;
+&lt;td&gt;10 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -17,6 +17,11 @@ draft: false
 - [How do I move an imported SVG sketch?](https://youtu.be/PX9jWmmGTfo)
 - [How do I fully define a spline in a sketch?](https://youtu.be/ynBl9XJesDs)
 
+## User Parameters
+
+- [How to use user parameters](https://youtu.be/H6W-Og4YyZ8)
+- [How to add user parameters to an existing model?](https://youtu.be/sBEHI-N4DAY)
+
 ## Modeling
 
 ### Basic Modeling

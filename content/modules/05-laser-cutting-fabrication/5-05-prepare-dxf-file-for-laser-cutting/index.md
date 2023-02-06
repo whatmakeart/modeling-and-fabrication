@@ -1,3 +1,9 @@
+---
+title: "5.05 Prepare DXF for Laser Cutting"
+date: 2020-01-26T23:11:13Z
+draft: false
+---
+
 ## 8. Open DXF in Illustrator and Adjust Stroke
 
 <div class="flex-container-jimmy">

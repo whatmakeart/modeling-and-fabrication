@@ -55,7 +55,7 @@ Example of each part of the stand as a separate component at the top level assem
 </figcaption>
 <figure>
 
-# Grading Rubric
+## Grading Rubric
 
 <div class="responsive-table-markdown">
 

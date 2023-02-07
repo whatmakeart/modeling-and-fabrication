@@ -9,6 +9,7 @@ Even with the most careful approach to 3D modeling, errors are bound to happen. 
 Red highlighting indicates an actual error or failure to compute the model. These usually need to be fixed in order to proceed. Right clicking on the timeline to inspect the error is the first step. Sometimes it is as simple as re-selecting a mirror axis or an edge for a fillet. Other times the error is more catastrophic such as the result of an earlier sketch not being fully constrained. This [video](https://www.youtu.be/F3673fmEymo) walks through fixing some errors on the design history timeline in Fusion 360.
 
 <div class="video-grid">
+
 <div class="video-card"
 
 ## Fix Timeline Errors in Fusion 360

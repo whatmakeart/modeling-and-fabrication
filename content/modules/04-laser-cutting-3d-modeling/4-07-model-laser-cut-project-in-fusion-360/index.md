@@ -46,7 +46,7 @@ Make sure your render image is well composed and high resolution with at least o
 
 <figure>
 
-[![Laser Cut Stand Assembled](2021-Laser-Cut-Stand-Assembeled.jpg)](2021-Laser-Cut-Stand-Assembeled.jpg)
+[![Laser Cut Stand Assembled](2021-Laser-Cut-Stand-Render-Assembeled.jpg)](2021-Laser-Cut-Stand-Render-Assembeled.jpg)
 
 <figcaption>
 

@@ -13,7 +13,7 @@ Finger joints are a common way to join laser cut projects together. They have an
 
 <div class="two-column-grid">
 
-![Laser Cut Finger Joints](2022-Finger-Joints-Laser-Cut.png)
+[![Laser Cut Finger Joints](2022-Finger-Joints-Laser-Cut.jpg)](2022-Finger-Joints-Laser-Cut.png)
 
 <div class="iframe-16-9-container">
 <iframe class="youTubeIframe" width="560" height="315" src="https://www.youtube.com/embed/ZrcqauNvt0M?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -39,7 +39,7 @@ Pinned finger joints send a tab all the way through a hole in a panel. The tab e
 
 <div class="two-column-grid">
 
-![Laser Cut Pinned Finger Joints](2022-Pinned-Finger-Joints-Laser-Cut-Colors.png)
+[![Laser Cut Pinned Finger Joints](2022-Pinned-Finger-Joints-Laser-Cut-Colors.jpg)](2022-Pinned-Finger-Joints-Laser-Cut-Colors.png)
 
 <div class="iframe-16-9-container">
 <iframe class="youTubeIframe" width="560" height="315" src="https://www.youtube.com/embed/2r7NKS-3Wao?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -82,7 +82,7 @@ With properly sized slots and holes, bolts and nuts can be used to securely atta
 
 <div class="two-column-grid">
 
-![Laser Cut Captive Nut Joints](2022-Captive-Nut-Joints-Laser-Cut.png)
+[![Laser Cut Captive Nut Joints](2022-Captive-Nut-Joints-Laser-Cut.jpg)](2022-Captive-Nut-Joints-Laser-Cut.png)
 
 <div class="iframe-16-9-container">
 <iframe class="youTubeIframe" width="560" height="315" src="https://www.youtube.com/embed/57OT_SIW96U?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -112,9 +112,9 @@ Snap joints positively lock into place when assembled. They are much more comple
 
 <div class="two-column-grid">
 
-![Laser Cut Snap Joints](2022-Snap-Joints-Laser-Cut-1.png)
+[![Laser Cut Snap Joints](2022-Snap-Joints-Laser-Cut-1.jpg)](2022-Snap-Joints-Laser-Cut-1.png)
 
-![Laser Cut Snap Joints](2022-Snap-Joints-Laser-Cut-2.png)
+[![Laser Cut Snap Joints](2022-Snap-Joints-Laser-Cut-2.jpg)](2022-Snap-Joints-Laser-Cut-2.png)
 
 </div>
 

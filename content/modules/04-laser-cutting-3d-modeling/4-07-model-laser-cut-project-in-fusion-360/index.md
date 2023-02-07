@@ -15,17 +15,6 @@ Using your sketches, cardboard model, and third angle projections, make a model 
 
 You are required to use at least one user parameter dimension for "ply" or the thickness of the material you are cutting. Materials vary in width, so we will [measure the material before cutting](https://youtu.be/a7HOiBC_81s) on the laser cutter. When we know the real thickness of the material [using digital calipers](https://youtu.be/oOZjbbe6YZk), then we can change the "ply" variable and the model will produce an accurate cut file.
 
-<figure>
-
-[![Laser Cut Stand Assembled](2021-Laser-Cut-Stand-Assembled.jpg)](2021-Laser-Cut-Stand-Assembled.jpg)
-
-<figcaption>
-
-Physical Prototype of Laser Cut Cell Phone Stand cut out
-
-</figcaption>
-</figure>
-
 ## Model Stand in Fusion 360
 
 If you prefer, you can import your third angle projection sketches to use as guides you start your first sketch. You need to calibrate the size of the sketch to be the correct scale in your Fusion 360 file. Then you can use the sketch as a guide to create your digital sketch. This step is not necessary but some may like it. This video shows [how to import an image as a canvas](https://youtu.be/-3SMfrnWMTE) in Fusion 360.
@@ -40,13 +29,14 @@ Make a new component at the top level of you model for each part. The top level 
 
 Think about how your pieces will hold together. Add tabs and holes and any other design features needed to attach the different pieces. You can use the "Combine" modify action to cut out pieces using other pieces as "tools".
 
-- Will you use captive nut joints?
 - Will you use pinned finger joints?
+- Will you use glue?
 - Will you use tabs and holes?
 - Will you have bendable living hinges?
 - Will you use snap clips?
+- Will you use captive nut joints?
 
-## Add appearances and Export Render
+## Add Appearances and Export Render
 
 In Fusion 360 add appearances to you model as you wish and export a render. Label the file YYYYMMDD Lastname Firstname Laser Cut Stand Render.png/jpg
 

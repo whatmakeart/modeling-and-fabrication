@@ -94,6 +94,16 @@ With properly sized slots and holes, bolts and nuts can be used to securely atta
 
 </div>
 
+## Spring Clip Key Joint
+
+Key joints are basically pinned joints. A tap with a hole passes through another board, then a key slide into the tab hole that prevents the board from pulling out. Keys can be made of many shapes. A usefull key shape is a simple wedge. Keys can also be made into shapes that need to be compressed a bit to fit into the slot and then bounce back after insertion. This acts as a positive machanical lock for the key or pin. Materials need to be tested to see how far they will compress for a particulare spring clip key joint.
+
+<div class="two-column-grid">
+
+![Laser Cut Snap Joints](2023-spring-clip-key-pin-joint-plastic.png)
+
+</div>
+
 ## Snap Joints
 
 Snap joints positively lock into place when assembled. They are much more complex than other joining methods and usually require a bit of trial and error to make work in a specific design. This joint uses the flexibility of a material to have a tab move out of the way when the piece is inserted that snaps back into position with a hook that does not allow it to pull back through. Many manufactured plastic objects use a version of this joint. It is also seen on plastic backpack buckles and straps.

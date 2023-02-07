@@ -21,6 +21,18 @@ Finger joints are a common way to join laser cut projects together. They have an
 
 </div>
 
+## Slot Hook Joints
+
+The slots for the hooks must be large enough for the entire hook to pass through.
+
+<div class="two-column-grid">
+
+[![Laser Cut Slot Hook Joint Painted](2023-laser-cut-slot-hook-joint-paint.jpg)](2023-laser-cut-slot-hook-joint-paint.png)
+
+[![Laser Cut Slot Hook Joint Wood Render](2023-laser-cut-slot-hook-joint-wood.jpg)](2023-laser-cut-slot-hook-joint-wood.png)
+
+</div>
+
 ## Pinned Finger Joints
 
 Pinned finger joints send a tab all the way through a hole in a panel. The tab extends far enough to allow for at least the thickness of a "pin" to slide into its opening. This pin keeps the finger joint tab from pulling out. Pinned joints can be aligned so they use the same pin. This can create enough friction that the pin won't slip out.

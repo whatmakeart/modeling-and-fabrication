@@ -100,7 +100,9 @@ Key joints are basically pinned joints. A tap with a hole passes through another
 
 <div class="two-column-grid">
 
-![Laser Cut Snap Joints](2023-spring-clip-key-pin-joint-plastic.png)
+[![Laser Cut Snap Joints](2023-spring-clip-key-pin-joint-plastic.jpg)](2023-spring-clip-key-pin-joint-plastic.png)
+
+[![Laser Cut Snap Joints](2023-spring-clip-key-pin-joint-wood.jpg)](2023-spring-clip-key-pin-joint-wood.png)
 
 </div>
 

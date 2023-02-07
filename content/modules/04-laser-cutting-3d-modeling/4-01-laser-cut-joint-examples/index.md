@@ -23,7 +23,7 @@ Finger joints are a common way to join laser cut projects together. They have an
 
 ## Slot Hook Joints
 
-The slots for the hooks must be large enough for the entire hook to pass through.
+The slots for the hooks must be large enough for the entire hook to pass through. A bit of clearance in the hook space can help the pieces slide together. Care must be taken to model the parts to align when the hooks are engaged. Usually this means having more space at the top to accommodate the open slot.
 
 <div class="two-column-grid">
 

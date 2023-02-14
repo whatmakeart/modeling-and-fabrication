@@ -1,5 +1,5 @@
 ---
-title: "1.0 Introduction to Technical Sketching and Fusion 360"
+title: "01.00 Introduction to Technical Sketching and Fusion 360"
 date: 2020-01-26T23:11:13Z
 draft: false
 ---

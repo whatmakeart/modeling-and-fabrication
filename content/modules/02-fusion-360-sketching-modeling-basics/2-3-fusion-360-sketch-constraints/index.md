@@ -1,5 +1,5 @@
 ---
-title: "2.3 Fusion 360 Sketch Constraints and Fully Defined Sketches"
+title: "02.03 Fusion 360 Sketch Constraints and Fully Defined Sketches"
 date: 2020-01-26T23:11:13Z
 draft: false
 ---

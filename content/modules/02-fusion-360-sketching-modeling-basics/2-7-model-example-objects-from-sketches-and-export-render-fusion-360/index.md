@@ -1,5 +1,5 @@
 ---
-title: "2.7 Model Example Objects from Sketches in Fusion 360"
+title: "02.07 Model Example Objects from Sketches in Fusion 360"
 date: 2020-01-26T23:11:13Z
 draft: false
 ---

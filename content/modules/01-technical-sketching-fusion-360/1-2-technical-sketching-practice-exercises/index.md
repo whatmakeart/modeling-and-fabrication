@@ -1,5 +1,5 @@
 ---
-title: "1.2 Technical Sketching Assignment"
+title: "01.02 Technical Sketching Assignment"
 date: 2020-01-26T23:11:13Z
 draft: false
 ---

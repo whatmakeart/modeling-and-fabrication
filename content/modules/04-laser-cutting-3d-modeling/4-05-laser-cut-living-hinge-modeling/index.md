@@ -1,5 +1,5 @@
 ---
-title: "4.05 Laser Cut Living Hinge Modeling"
+title: "04.05 Laser Cut Living Hinge Modeling"
 date: 2020-01-26T23:11:13Z
 draft: false
 ---

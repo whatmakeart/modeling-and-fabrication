@@ -1,5 +1,5 @@
 ---
-title: "3.6 Laser Cut Cardboard Model"
+title: "03.06 Laser Cut Cardboard Model"
 date: 2020-01-26T23:11:13Z
 draft: false
 ---

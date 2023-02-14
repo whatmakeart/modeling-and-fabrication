@@ -1,5 +1,5 @@
 ---
-title: "2.8 Model Objects in Fusion 360 and Export Render Images"
+title: "02.08 Model Objects in Fusion 360 and Export Render Images"
 date: 2020-01-26T23:11:13Z
 draft: false
 ---

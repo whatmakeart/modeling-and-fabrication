@@ -1,5 +1,5 @@
 ---
-title: "4.01 Laser Cut Joint Examples"
+title: "04.01 Laser Cut Joint Examples"
 date: 2020-01-26T23:11:13Z
 draft: false
 ---

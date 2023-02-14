@@ -1,10 +1,8 @@
 ---
-title: "5.01 Laser Cut Stand Photo Documentation"
+title: "05.01 Laser Cut 3D Model Revisions"
 date: 2020-01-26T23:11:13Z
 draft: false
 ---
-
-# Cut Out Stand with Laser Cutter & Photo Document on think[box] Photo Stand
 
 ## Make Changes to Model
 

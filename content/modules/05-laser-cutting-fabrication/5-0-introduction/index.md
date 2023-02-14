@@ -4,8 +4,26 @@ date: 2020-01-26T23:11:13Z
 draft: false
 ---
 
-This is necessary to be able to [lay the parts out flat](https://youtu.be/jeQPJHHwVN4) in Fusion 360 to produce and [export a DXF cut file](https://youtu.be/6JFHMV7A9TU) for use on the laser cutter. You will need to make a laser cutter tool in Fusion 360 and install a DXF post processor to produce a DXF file of your tool paths. There are video instructions below showing [how to make a laser cutter tool](https://youtu.be/-B6DXF9aE5s) and [how to install the DXF post processor](https://youtu.be/CBu6vl6Bqos).
+## Overview
 
-, how to lay everything flat, and how to export tool paths for use on the laser cutter.
+This module covers the fabrication process of a laser cut assembly modeled in Fusion 360. It shows how to make revisions to a digital model in Fusion 360 and the importance of keeping each piece of a model to be fabricated as an individual component. This is necessary to be able to [lay the parts out flat](https://youtu.be/jeQPJHHwVN4) in Fusion 360 to produce and [export a DXF cut file](https://youtu.be/6JFHMV7A9TU) for use on the laser cutter. You will need to [make a laser cutter tool](https://youtu.be/-B6DXF9aE5s) in Fusion 360 and [install a DXF post processor](https://youtu.be/CBu6vl6Bqos). to produce a DXF file of your tool paths. This is the file you will use to cut out your laser cut design.
 
-3.  Illustrator .ai file of the cut paths (cut with red stroke .001 weight and engraving with blue stroke .5 weight)
+## Learning Objectives
+
+- Revise and make changes to a digital model in Fusion 360
+- Lay pieces flat in preparation for laser cutting
+- Create a custom Laser Cutting tool in Fusion 360
+- Create tool paths with kerf compensation
+- Export tool paths as DXF files
+- Cut out custom laser cut design
+- Assemble laser cut pieces
+
+## Key Terms
+
+- DXF
+- post processor
+- Manufacture Workspace
+- tool path
+- profile
+- kerf
+- layout

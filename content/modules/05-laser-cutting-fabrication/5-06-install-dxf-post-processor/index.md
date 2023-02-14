@@ -20,3 +20,5 @@ You can install it in the cloud as well, then you can use it anywhere. Make sure
 </div>
 
 </div>
+
+There are video instructions below showing [how to make a laser cutter tool](https://youtu.be/-B6DXF9aE5s) and [how to install the DXF post processor](https://youtu.be/CBu6vl6Bqos).

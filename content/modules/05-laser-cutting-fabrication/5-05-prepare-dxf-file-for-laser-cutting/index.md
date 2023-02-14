@@ -23,3 +23,9 @@ You need to change the stroke weight of the red strokes in Illustrator. Also you
 </div>
 
 </div>
+
+Change the strokes to the correct weight and color in Illustrator.
+
+, how to lay everything flat, and how to export tool paths for use on the laser cutter.
+
+3.  Illustrator .ai file of the cut paths (cut with red stroke .001 weight and engraving with blue stroke .5 weight)

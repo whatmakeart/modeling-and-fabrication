@@ -4,8 +4,6 @@ date: 2020-01-26T23:11:13Z
 draft: false
 ---
 
-## 2\. Layout a Manufacture Model Copy of All Pieces Flat for Cutting
-
 <div class="flex-container-jimmy">
 
 <div class="half-box">

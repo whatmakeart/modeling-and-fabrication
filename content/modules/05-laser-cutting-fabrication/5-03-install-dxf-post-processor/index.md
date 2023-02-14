@@ -10,6 +10,8 @@ You can install it locally in Windows or Mac. [Local install instructions.](http
 
 You can install it in the cloud as well, then you can use it anywhere. Make sure to enable cloud libraries first. [Cloud install instructions.](https://knowledge.autodesk.com/support/fusion-360/learn-explore/caas/sfdcarticles/sfdcarticles/How-to-install-a-cloud-post-in-Fusion-360.html)
 
+There are video instructions below showing [how to install the DXF post processor](https://youtu.be/CBu6vl6Bqos).
+
 <div class="video-grid">
 
 <div class="video-card">
@@ -20,5 +22,3 @@ You can install it in the cloud as well, then you can use it anywhere. Make sure
 </div>
 
 </div>
-
-There are video instructions below showing [how to make a laser cutter tool](https://youtu.be/-B6DXF9aE5s) and [how to install the DXF post processor](https://youtu.be/CBu6vl6Bqos).

@@ -1,5 +1,5 @@
 ---
-title: "5.01 Cardboard Photo Documentation"
+title: "05.10 Photo Documentation of Laser Cut Project"
 date: 2020-01-26T23:11:13Z
 draft: false
 ---

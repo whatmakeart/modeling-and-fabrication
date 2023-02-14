@@ -1,5 +1,5 @@
 ---
-title: "12.1 Animation Ideation"
+title: "12.01 Animation Ideation"
 date: 2020-01-26T23:11:13Z
 draft: false
 ---

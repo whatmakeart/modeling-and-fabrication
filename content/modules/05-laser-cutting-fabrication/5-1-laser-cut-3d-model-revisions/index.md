@@ -17,6 +17,11 @@ Look at your digital model in Fusion 360 and decide if there are design issues o
 
 Design is a process of iteration and improvement. There are likely places where you design could be altered and changed before cutting. Make these changes to your model in Fusion 360.
 
+- △ Triangles are strong
+- ┗ L's are Lame
+- ▢ Squares are ok but need some help
+- ○ Circles are amazing but can be hard to attach to
+
 ## Check your Plywood Thickness
 
 Measure your plywood with digital calipers. You can use a piece from your laser cut test. It will be close enough but the thickness is likely different than what you used for your user parameter in Fusion 360. Update your user parameter to match.

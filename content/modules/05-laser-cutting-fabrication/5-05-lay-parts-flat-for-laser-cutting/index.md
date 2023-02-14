@@ -4,10 +4,6 @@ date: 2020-01-26T23:11:13Z
 draft: false
 ---
 
-<div class="flex-container-jimmy">
-
-<div class="half-box">
-
 Once your model is complete and each piece is a separate and labeled component, you are ready to lay your pieces flat to create a DXF toolpath file for the laser cutter.
 
 Change to the Manufacture Workspace.
@@ -18,23 +14,13 @@ Draw a 12" x 12" sketch to represent your plywood. If you are using larger plywo
 
 Follow the instructions in [the video](https://youtu.be/jeQPJHHwVN4) to arrange your parts flat. Note that the example model video uses the "joint" method to lay parts flat. You should use the [updated method with the arrange command.](https://youtu.be/jeQPJHHwVN4)
 
-</div>
+[![Laser Cut Stand CAM Layout](2021-Laser-Cut-Stand-CAM-Layout-Top.png)](2021-Laser-Cut-Stand-CAM-Layout-Top.png)
 
-<div class="half-box" style="display: flex; flex-wrap: wrap; flex-direction: column;">
-
-<div style="display: flex; flex-wrap: wrap; align-items: flex-end;">
-
-![Laser Cut Stand CAM Layout](2021-Laser-Cut-Stand-CAM-Layout-Top.png)
-
-<span class="caption-jimmy">_Top view of components of laser cut stand flat on plywood._</span>
-
-</div>
-
-<div class="half-box" style="width: 100%; max-height: auto; margin: 0 auto; display: flex; flex-wrap: wrap; flex-direction: column;">
+Top view of components of laser cut stand flat on plywood.
 
 <div style="position: relative; width: 100%; height: 0px; padding-top: 56.25%;"><iframe style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; border: 0;" src="https://www.youtube.com/embed/jeQPJHHwVN4" width="300" height="150" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
 
-<span class="caption-jimmy">Top view of components of laser cut stand flat on plywood.</span>
+Top view of components of laser cut stand flat on plywood.
 
 </div>
 

@@ -15,7 +15,7 @@ Look at your digital model in Fusion 360 and decide if there are design issues o
 - Are there any sharp corners? Are there places that decorative cutouts or negative space could be added to the design?
 - Could more organic forms be added to improve the design?
 
-Design is a process of iteration and improvement. There are likely places where you design could be altered and changed before cutting. Make these changes to your model in Fusion 360.
+Design is a process of iteration and improvement. There are likely places where you design could be altered and changed before cutting. Make these changes to your model in Fusion 360. Some changes will be as simple as changing the value of user parameters. Others will require modification of sketches or extrude features. More involved changes may require creating new components or even deleting existing components.
 
 - △ Triangles are strong
 - ┗ L's are Lame
@@ -24,9 +24,9 @@ Design is a process of iteration and improvement. There are likely places where 
 
 ## Check your Plywood Thickness
 
-Measure your plywood with digital calipers. You can use a piece from your laser cut test. It will be close enough but the thickness is likely different than what you used for your user parameter in Fusion 360. Update your user parameter to match.
+Measure your plywood with digital calipers. You can use a piece from your laser cut test. It might be close but the thickness is likely different than what you used for your user parameter in Fusion 360. Update your user parameter to match so you have joints that fit and are even. This is especially important for thicker pieces of plywood.
 
-It is a good idea to temporarily make the ply parameter much larger to double check that you used the user parameter throughout your model everyplace ply was needed. It is easy to accidentally type the actual dimension rather that using the user parameter. You want to check this before cutting. If you put in a larger number and you notice one piece doesn't change, then that is an indication that you did not use the parameter on that dimension. Go back and change it. [Changing Plywood Thickness in Fusion 360 video demo.](https://www.youtu.be/a7HOiBC_81s)
+It is a good idea to temporarily make the "ply" parameter much larger to double check that you used the user parameter throughout your model everyplace "ply" was needed. It is easy to accidentally type the actual dimension rather that using the user parameter. You want to check this before cutting. If you put in a larger number and you notice one piece doesn't change, then that is an indication that you did not use the parameter on that dimension. Go back and change it. [Changing Plywood Thickness in Fusion 360 video demo.](https://www.youtu.be/a7HOiBC_81s)
 
 ## Fix Errors
 

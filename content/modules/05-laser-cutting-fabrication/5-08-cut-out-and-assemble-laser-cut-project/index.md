@@ -37,9 +37,32 @@ After you make changes to your design, make sure that materials are applied to a
 
 ## Cut out your Project
 
-Go to the think[box] and cut out your project. If something doesn't work out right, modify your model and try to cut it out again.
+Go to the think[box] and cut out your project. If something doesn't work out right, modify your model and try to cut it out again. If you need additional plywood or plywood of a different thickness, contact your instructor.
 
-# Grading Rubric
+## Assemble Project
+
+1. Use sandpaper or a sander to remove burn marks on the surface and ash discoloration. The burn marks on the edges are fine as is.
+2. Then use a combination of friction fit, glue, and fasteners to assemble your laser cut project.
+3. Remove any excess glue.
+4. Sand any remaining rough edges.
+5. Apply wood finish or paint as desired
+   - (wax, a weak finish is available in the fab studios)
+   - (Danish Oil, a more durable wipe on finish is available from your instructor)
+   - (water based Polyurethane is available at the store)
+   - (acrylic paints work well on wood)
+6. Bring completed project to class.
+
+## Using Acrylic
+
+The laser cutters can cut acrylic plastic. Make sure you leave the protective paper on the acrylic so it can be identified. Polycarbonate is not able to be cut so you must be able to read the protective paper to determine the material. Acrylic cuts cleanly on the laser cutter without the burn marks of wood.
+
+[House of Plastics](https://www.hpmanufacturing.com/hop/) on Carnegie Avenue in Cleveland sells scrap cutoff pieces of acrylic by the pound. These are usually pretty big pieces and cost a fraction of what they would new. It is a great place to get acrylic material for making projects.
+
+HP Manufacturing
+3705 Carnegie Avenue
+Cleveland, Ohio 44115
+
+## Grading Rubric
 
 <div class="responsive-table-markdown">
 

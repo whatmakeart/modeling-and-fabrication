@@ -14,7 +14,9 @@ When you finish your sketches scan them and upload them to the class Google Driv
 - 5 larger refined ideations minimum - Choose some of your ideas from your thumbnails. Refine them and iterate on the concepts. Which parts do you like and which parts can you change to make your ideas better.
 - 1 larger refined drawing - Pick one of the 5 developed sketches and continue to refine it and change it. Draw it larger in perspective. You can add shading and details to help communicate your vision.
 
-# Grading Rubric
+## Grading Rubric
+
+<div class="responsive-table-markdown">
 
 | Assessment            | Weight    |
 | --------------------- | --------- |
@@ -24,3 +26,5 @@ When you finish your sketches scan them and upload them to the class Google Driv
 | Idea Development      | 30 points |
 | Documentation         | 10 points |
 | File Management       | 10 points |
+
+</div>

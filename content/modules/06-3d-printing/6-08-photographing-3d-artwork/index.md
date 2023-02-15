@@ -1,5 +1,5 @@
 ---
-title: "05.08 Photographing 3D Artwork"
+title: "06.08 Photographing 3D Artwork"
 date: 2020-01-26T23:11:13Z
 draft: false
 ---

@@ -1,5 +1,5 @@
 ---
-title: "05.10 Photo Documentation of Laser Cut Project"
+title: "06.10 Photo Documentation of Laser Cut Project"
 date: 2020-01-26T23:11:13Z
 draft: false
 ---
@@ -30,8 +30,12 @@ In addition to the photos at the think[box] take a minimum of 2 photos of the st
 
 # Grading Rubric
 
+<div class="responsive-table-markdown">
+
 | Assessment                      | Weight    |
 | ------------------------------- | --------- |
 | Photo Backdrop Documentation    | 25 points |
 | Environment Photo Documentation | 25 points |
 | File Management                 | 10 points |
+
+</div>

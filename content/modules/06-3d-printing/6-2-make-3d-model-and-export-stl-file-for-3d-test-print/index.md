@@ -28,89 +28,45 @@ When you finish your sketches scan them and upload them to the class Google Driv
 - Keep overhanging parts extending out less than 45 degrees. This allows layers to overlap a bit and slowly extend out wider. 45 degrees is the max otherwise the printer tries to print in mid air and all the filament falls to the ground.
 - Objects must be fully connected and "manifold" or "watertight" You can't have pieces floating in the air or close but not touching. Don't have small voids. Make the pieces solid and uniform. You can have a hollow vase or container but all its parts and walls should be connected and solid.
 
-<div class="gallery-grid-jimmy" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); grid-gap: 10px;">
-
-<div class="image-card-jimmy" style="display: flex; flex-direction: column; justify-content: stretch;">
-
 ![3D Print Angles](2022-3D-Print-Angles.png)
 
-<span class="caption-jimmy" style="font-size: 14px;">Red models will not print without supports but green models will because they rise up at 45 degrees</span>
-
-</div>
-
-<div class="image-card-jimmy" style="display: flex; flex-direction: column; justify-content: stretch;">
+Red models will not print without supports but green models will because they rise up at 45 degrees
 
 ![3D Print Angles Square](2022-3D-Print-Angles-Square.png)
 
-<span class="caption-jimmy" style="font-size: 14px;">Red models will not print without supports but green models will because they rise up at 45 degrees</span>
-
-</div>
-
-<div class="image-card-jimmy" style="display: flex; flex-direction: column; justify-content: stretch;">
+Red models will not print without supports but green models will because they rise up at 45 degrees
 
 ![3D Print Angles Round](2022-3D-Print-Angles-Round.png)
 
-<span class="caption-jimmy" style="font-size: 14px;">Red models will not print without supports but green models will because they rise up at 45 degrees</span>
-
-</div>
-
-</div>
+Red models will not print without supports but green models will because they rise up at 45 degrees
 
 ### General Structural 3D Printing Guidelines
 
 The following guidelines help achieve successful 3d Prints especially when designing containers, structural parts and pieces that need to be the correct size to match real world objects. These concepts still hold true for more organic creative work but may not be as necessary.
 
-<div class="gallery-grid-jimmy" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); grid-gap: 10px;">
-
-<div class="image-card-jimmy" style="display: flex; flex-direction: column; justify-content: stretch;">
-
 ![3D Print Guidelines](2022-3D-Print-Guidelines.png)
 
-<span class="caption-jimmy" style="font-size: 14px;">Example of model showing Mechanical 3D Print Guidelines</span>
-
-</div>
-
-<div class="image-card-jimmy" style="display: flex; flex-direction: column; justify-content: stretch;">
+Example of model showing Mechanical 3D Print Guidelines
 
 ![3D Print Gussets](2022-3D-Print-Gussets.png)
 
-<span class="caption-jimmy" style="font-size: 14px;">Gussets or supporting pieces like wings give more structure to elements.</span>
-
-</div>
-
-<div class="image-card-jimmy" style="display: flex; flex-direction: column; justify-content: stretch;">
+Gussets or supporting pieces like wings give more structure to elements.
 
 ![3D Print Uniform Wall Thickness](2022-3D-Print-Uniform-Wall-Thickness.png)
 
-<span class="caption-jimmy" style="font-size: 14px;">Uniform Walls help with deformation and warping.</span>
-
-</div>
-
-<div class="image-card-jimmy" style="display: flex; flex-direction: column; justify-content: stretch;">
+Uniform Walls help with deformation and warping.
 
 ![3D Print Fillets](2022-3D-Print-Fillets.png)
 
-<span class="caption-jimmy" style="font-size: 14px;">Fillets or rounded interior corners add strength and help with warping. Ribs also shown, connect vertical pieces to other vertical pieces or walls.</span>
-
-</div>
-
-<div class="image-card-jimmy" style="display: flex; flex-direction: column; justify-content: stretch;">
+Fillets or rounded interior corners add strength and help with warping. Ribs also shown, connect vertical pieces to other vertical pieces or walls.
 
 ![3D Print Ribs](2022-3D-Print-Ribs.png)
 
-<span class="caption-jimmy" style="font-size: 14px;">Chamfers or angled interior corners add strength and help with warping like fillets do.</span>
-
-</div>
-
-<div class="image-card-jimmy" style="display: flex; flex-direction: column; justify-content: stretch;">
+Chamfers or angled interior corners add strength and help with warping like fillets do.
 
 ![3D Print Round Corners](2022-3D-Print-Round-Corners.png)
 
-<span class="caption-jimmy" style="font-size: 14px;">Rounded Corners put less stress on the corners and are smoother to print.</span>
-
-</div>
-
-</div>
+Rounded Corners put less stress on the corners and are smoother to print.
 
 ### 3D Printing Terms
 
@@ -140,37 +96,13 @@ Make sure your file is set to millimeters Check the properties of the component 
 
 The total bounding box should be less than 50mm in all directions.
 
-<div class="flex-container-jimmy" style="display: flex; align-items: top; flex-wrap: wrap;">
-
-<div class="half-box" style="flex: 1 1 400px;">
-
 ![Fusion 360 Properties Browser](2022-Fusion-360-Properties-Browser.png)
-
-</div>
-
-<div class="half-box" style="flex: 1 1 400px;">
 
 Click on properties of the body or component in the browser. Right click on the component that you want to print. Then select properties.
 
-</div>
-
-</div>
-
-<div class="flex-container-jimmy" style="display: flex; align-items: top; flex-wrap: wrap;">
-
-<div class="half-box" style="flex: 1 1 400px;">
-
 ![Fusion 360 Bounding Box](2022-Fusion-360-Bounding-Box.png)
 
-</div>
-
-<div class="half-box" style="flex: 1 1 400px;">
-
 Then you can see the bounding box dimensions. These should be below 50mm in all directions of x y and z.
-
-</div>
-
-</div>
 
 ## Export STL file for 3D Test Print
 

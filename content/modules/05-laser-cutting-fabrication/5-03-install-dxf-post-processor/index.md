@@ -4,7 +4,7 @@ date: 2020-01-26T23:11:13Z
 draft: false
 ---
 
-To get usable toolpaths for the laser cutter we need to install a post processor. Post processing calculates the size of the material and toolpaths. Then it converts this to g-code to be used by a machine. In our case, we want to export a DXF file so we can separate the cuting and etching into different layers. Therefore we will install a DXF post processor provided by Autodesk. This will allow you to export your laser cut tool paths from Fusion 360 as a DXF file that you can open and edit in Illustrator.
+To get usable toolpaths for the laser cutter we need to install a post processor. Post processing calculates the size of the material and toolpaths. Then it converts this to g-code to be used by a machine. In our case, we want to export a DXF file so we can separate the cutting and etching into different layers. Therefore we will install a DXF post processor provided by Autodesk. This will allow you to export your laser cut tool paths from Fusion 360 as a DXF file that you can open and edit in Illustrator.
 
 Follow the instructions in the video below to install the DXF Post Processor from Autodesk. This is the link to the [DXF Post Processor from Autodesk](https://cam.autodesk.com/hsmposts?p=dxf).
 

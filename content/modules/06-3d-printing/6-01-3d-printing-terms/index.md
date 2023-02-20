@@ -1,11 +1,7 @@
-### 3D Printing Terms
-
 ---
-
 title: "06.01 3D Printing Terms"
 date: 2020-01-26T23:11:13Z
 draft: false
-
 ---
 
 These are some common words and terminology used in 3D Printing

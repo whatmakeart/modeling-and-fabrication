@@ -1,5 +1,5 @@
 ---
-title: "16.1 Magical Powers Video Ideation"
+title: "16.01 Magical Powers Video Ideation"
 date: 2020-01-26T23:11:13Z
 draft: false
 ---

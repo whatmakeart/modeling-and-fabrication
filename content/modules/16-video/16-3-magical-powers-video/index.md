@@ -1,5 +1,5 @@
 ---
-title: "16.3 Magical Powers Video"
+title: "16.03 Magical Powers Video"
 date: 2020-01-26T23:11:13Z
 draft: false
 ---

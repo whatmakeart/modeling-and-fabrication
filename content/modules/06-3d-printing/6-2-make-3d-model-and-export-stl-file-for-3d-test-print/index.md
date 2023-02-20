@@ -4,24 +4,6 @@ date: 2020-01-26T23:11:13Z
 draft: false
 ---
 
-We will not only 3D model on our computers, we will output our digital models into the physical world. We will use different processes to make physical models but the first technique will be 3D printing. 3D printing is a quick way to be able to hold a complex 3D model in your hands. Some models can only be made by 3D printing. 3D printing is an additive process, meaning material is added to existing material rather than being cut away such as with a saw.
-
-The test prints will be small and must fit within a 50mm x 50mm x 50mm box. (50mm is approximately 2 inches) You can see the size of your model in Fusion under properties from the browser.
-
-## Ideation Sketches
-
-Using thumbnail sketches, quickly design numerous ideas for a 3D test print. For now think about a small size object of about 1 cubic inch. This can be bigger than an inch in size but the total volume of the object should be less than 1 cubic inch. Think about organic forms, negative spaces, curvilinear lines and geometric surfaces.
-
-When you finish your sketches scan them and upload them to the class Google Drive following the instructions below.
-
-### Required Sketches
-
-- 10 thumbnail sketches minimum - These should be 10 different ideas. Draw without constraint. Do not limit your ideas.
-- 5 larger refined ideations minimum<- Choose some of your ideas from your thumbnails. Refine them and iterate on the concepts. Which parts do you like and which parts can you change to make your ideas better.
-- 1 larger refined drawing - Pick one of the 5 developed sketches and continue to refine it and change it. Draw it larger in perspective. You can add shading and details to help communicate your vision.
-
-## Model your design in Fusion 360
-
 ### General 3D Print Rules for FFD Printing without Dissolvable Supports
 
 - Keep thin and small parts multiples of the nozzle size. The nozzle at the think[box] is .4mm absolute minimum size of fine objects is 1.2mm. A better size for thin walls and supports is 1.6mm. 1.5mm or 1.7 mm are not good. 2.0mm or 2.4mm are even better.
@@ -68,27 +50,23 @@ Chamfers or angled interior corners add strength and help with warping like fill
 
 Rounded Corners put less stress on the corners and are smoother to print.
 
-### 3D Printing Terms
+We will not only 3D model on our computers, we will output our digital models into the physical world. We will use different processes to make physical models but the first technique will be 3D printing. 3D printing is a quick way to be able to hold a complex 3D model in your hands. Some models can only be made by 3D printing. 3D printing is an additive process, meaning material is added to existing material rather than being cut away such as with a saw.
 
-These are some common words and terminology used in 3D Printing
+The test prints will be small and must fit within a 50mm x 50mm x 50mm box. (50mm is approximately 2 inches) You can see the size of your model in Fusion under properties from the browser.
 
-- Vertex - the base unit of a polygon model. It is a point in space defined by an x, y and z coordinate. Can be moved around and "welded" to other vertexes or connected to another vertex with an edge.
-- Edge - the line connecting two vertexes in a polygon model. Edges make closed shaped that are called faces
-- Face - the enclosed shape made by connected vertexes and edges. Can be a triangle, a quad (four-sides) or an N-Gon
-- Triangle - simplest planar shape. STLs are made of triangle but triangles should be avoided if possible when modeling since they cannot be subdivided easily and do not make smooth forms.
-- Quad - A four sided polygon. This is generally the best shape to make your model from.
-- N-Gon - A polygon with (n) sides. These should be avoided. With T-Splines you may have some n-gons but it is best to make them into quads if you can.
-- Mesh - The structure of a 3D model. It is made of of points (vertexes), edges and polygon faces.
-- Bounding Box - the smallest box that your model can fit in. IT is a rectangular prism defined by a height, width and length.
-- Raft - bottom support for a 3D print to help it adhere to the print bed when the print starts and to keep the print from falling over when the print gets taller.
-- Infill - Support material in the middle of a 3D print. Can be made of different patterns and is usually not solid. Sometimes described in percentage terms, less infill will make a faster print and use less material while a higher percentage infill will take longer to print and use more material.
-- Support Material - extra printed material used to support parts of the print that overhang more than 45 degrees in the horizontal direction. Sometime a model can be orientated on the printer at a different angle to avoid support material. Can be removed but often messes up the surface where it attached to the print.
-- Parametric - A 3D model driven by defined dimensions and parameters
-- Solid - A 3D model that is not a plane or open shape. It is a full solid object.
-- Polygon - A 3 or more sided shape. The surfaces of 3D models are made of polygons
-- STL (STereoLithography) - the most common file format used for 3D printing. It is made of a fine triangle mesh. This file format works for 3D printing but is not good for modeling. Always save the original model file so you can make changes. It is possible to edit an STL file but it is much easier to edit the original 3D model.
-- Print in Place (PIP) - Method of printing moving parts such as hinges and joints in a 3D print in one operation. This produces forms that would not be possible with traditional manufacturing techniques.
-- Fused Filament Fabrication (FFF) - Most common method of affordable 3D printing. This method uses a thermoplastic filament, or wire, on a spool that is fed through a nozzle. Heat melts the thermoplastic and new layers are fused to previous layers in order to make the print.
+## Ideation Sketches
+
+Using thumbnail sketches, quickly design numerous ideas for a 3D test print. For now think about a small size object of about 1 cubic inch. This can be bigger than an inch in size but the total volume of the object should be less than 1 cubic inch. Think about organic forms, negative spaces, curvilinear lines and geometric surfaces.
+
+When you finish your sketches scan them and upload them to the class Google Drive following the instructions below.
+
+### Required Sketches
+
+- 10 thumbnail sketches minimum - These should be 10 different ideas. Draw without constraint. Do not limit your ideas.
+- 5 larger refined ideations minimum<- Choose some of your ideas from your thumbnails. Refine them and iterate on the concepts. Which parts do you like and which parts can you change to make your ideas better.
+- 1 larger refined drawing - Pick one of the 5 developed sketches and continue to refine it and change it. Draw it larger in perspective. You can add shading and details to help communicate your vision.
+
+## Model your design in Fusion 360
 
 ## Check the Bounding Box Size
 
@@ -121,9 +99,9 @@ The 3D print will be a solid color of PLA plastic.
 - Export a render image with a good composition.
 - Don't make the object too small in the image.
 
-## Upload to Google Drive
+## Assignment Deliverables
 
-Upload the following items to Google Drive:
+Upload the following items:
 
 - scans of your ideation sketches
 - STL file of model

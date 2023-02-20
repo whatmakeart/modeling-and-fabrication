@@ -6,4 +6,4 @@ draft: false
 
 ## Overview
 
-This module introduces 3D Printing and polygon modeling.
+This module introduces 3D Printing and mesh modeling sometimes referred to as polygon modeling.

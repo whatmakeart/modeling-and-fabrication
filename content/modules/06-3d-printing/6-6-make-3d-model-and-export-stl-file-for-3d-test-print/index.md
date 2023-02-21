@@ -4,12 +4,27 @@ date: 2020-01-26T23:11:13Z
 draft: false
 ---
 
+## Assignment Deliverables
+
+Upload the following items:
+
+- scans of your ideation sketches
+- STL file of model
+- .f3d file of model
+- render image
+
+## Assignment Overview
+
+The test prints will be small and should fit within a 50mm x 50mm x 50mm box. (50mm is approximately 2 inches) You can see the size of your model in Fusion under properties from the browser.
+
 ## Export STL file for 3D Test Print
 
 - Watch the video on the tutorial page to export your model as an STL file.
 - Choose File > 3D Print to save your STL Label the file YYYYMMDD Lastname Firstname 3D Test Print.stl
 
-## Export .f3d file of Model from Fusion 360 Choose File > Export ... and save a .f3d version of your object.
+## Export .f3d file of Model from Fusion 360
+
+- Choose File > Export ... and save a .f3d version of your object.
 
 ## Apply materials and Export a Render Image
 
@@ -20,17 +35,3 @@ The 3D print will be a solid color of PLA plastic.
 - Make one of the dimensions a minimum of 4000px.
 - Export a render image with a good composition.
 - Don't make the object too small in the image.
-
-## Assignment Deliverables
-
-Upload the following items:
-
-- scans of your ideation sketches
-- STL file of model
-- .f3d file of model
-- render image
-
-# Grading Rubric
-
-| Assessment | Weight |
-| ---------- | ------ |

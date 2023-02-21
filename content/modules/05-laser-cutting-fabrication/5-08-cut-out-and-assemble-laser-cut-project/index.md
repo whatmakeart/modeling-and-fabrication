@@ -1,5 +1,5 @@
 ---
-title: "05.09 Cut Out and Assemble Laser Cut Project"
+title: "05.08 Cut Out and Assemble Laser Cut Project"
 date: 2020-01-26T23:11:13Z
 draft: false
 ---

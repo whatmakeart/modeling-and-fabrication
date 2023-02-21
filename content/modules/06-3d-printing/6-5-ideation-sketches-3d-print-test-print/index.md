@@ -14,6 +14,8 @@ When you finish your sketches scan them and upload them to the class Google Driv
 - 5 larger refined ideations minimum - Choose some of your ideas from your thumbnails. Refine them and iterate on the concepts. Which parts do you like and which parts can you change to make your ideas better.
 - 1 larger refined drawing - Pick one of the 5 developed sketches and continue to refine it and change it. Draw it larger in perspective. You can add shading and details to help communicate your vision.
 
+The test prints will be small and must fit within a 50mm x 50mm x 50mm box. (50mm is approximately 2 inches) You can see the size of your model in Fusion under properties from the browser.
+
 ## Grading Rubric
 
 <div class="responsive-table-markdown">

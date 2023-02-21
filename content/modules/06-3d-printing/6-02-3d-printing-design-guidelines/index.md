@@ -49,7 +49,3 @@ Chamfers or angled interior corners add strength and help with warping like fill
 ![3D Print Round Corners](2022-3D-Print-Round-Corners.png)
 
 Rounded Corners put less stress on the corners and are smoother to print.
-
-We will not only 3D model on our computers, we will output our digital models into the physical world. We will use different processes to make physical models but the first technique will be 3D printing. 3D printing is a quick way to be able to hold a complex 3D model in your hands. Some models can only be made by 3D printing. 3D printing is an additive process, meaning material is added to existing material rather than being cut away such as with a saw.
-
-The test prints will be small and must fit within a 50mm x 50mm x 50mm box. (50mm is approximately 2 inches) You can see the size of your model in Fusion under properties from the browser.

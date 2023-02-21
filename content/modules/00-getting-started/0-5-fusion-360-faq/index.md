@@ -34,6 +34,7 @@ draft: false
 - [How to Loft?](https://youtu.be/VzossdZbGtk)
 - [How to Revolve?](https://youtu.be/VzossdZbGtk)
 - [How to make perfect polygons?](https://youtu.be/Gpplnrtf3UE)
+- [How to change model xyz orientation](https://youtu.be/xHsBKSrwHSg)
 
 ### Intermediate Modeling
 

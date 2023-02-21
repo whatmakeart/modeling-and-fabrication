@@ -4,8 +4,6 @@ date: 2020-01-26T23:11:13Z
 draft: false
 ---
 
-## Laser Cut Stand Self-Assessment
-
 Now that you have cut out and assembled your laser-cut stand there are probably many things that you would want to do differently if you remade the stand. The design process is an iterative process full of successes and setbacks. When we realize something that we should have done in a design it is not a failure, rather it is a success because we have learned something about the design process and our project.
 
 Reflect on your design process including the ideation process, the digital modeling process in Fusion 360, the physical output laser cutting, and the photo documentation process. Answer the questions below about your project.

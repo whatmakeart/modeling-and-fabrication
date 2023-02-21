@@ -18,6 +18,12 @@ To get to the Form workspace, click on the purple cube at the top of the solid m
 
 [![Create a T-Spline Box](2023-create-t-spline-box.png)](2023-create-t-spline-box.png)
 
+In the form workspace you can create a sketch, box, plane, cylinder, sphere, torus, quadball, pipe, or a face. Forms can also be created from operations including extrude, revolve, sweep, and loft. Notice that there are new items such as quadball and face and some items are missing like hole, coil, rib, emboss, and screw.
+
+When you create a primitive shape in the form workspace, you enter in basic dimensions just like the solid workspace but there are additional options for divisions. These divisions create the base resolution of the form you are creating. For smooth forms, using the least amount of divisions possible to get the desired result will create forms with the most continuous and smooth curvature. This is similar to using as few points as possible when drawing a spline.
+
+For more complex forms, more divisions of the T-spline form are required. It is always possible to add more divisions but it can be difficult to remove divisions. Generally it is best practice to add more divisions and detail when needed but to not needlessly add extra divisions.
+
 <div class="video-grid">
 <div class="video-card">
 

@@ -20,7 +20,7 @@ This module introduces 3D Printing and mesh modeling sometimes referred to as po
 
 - FFF 3D Printing
 - T-Spline
-- Manifoild / Watertight
+- Manifold / Watertight
 - STL
 - Build envelope
 - Bounding Box

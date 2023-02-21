@@ -22,7 +22,7 @@ These are some common words and terminology used in 3D Printing and 3D Mesh Mode
 
 ## 3D Printing Terms
 
-- Overhang - part of a 3D model that extends out horizonally at an angle less than 45 degrees. Overhangs requrie supports so the print does not sag or fall to the printing bed.
+- Overhang - part of a 3D model that extends out horizontally at an angle less than 45 degrees. Overhangs require supports so the print does not sag or fall to the printing bed.
 - Raft - bottom support for a 3D print to help it adhere to the print bed when the print starts and to keep the print from falling over when the print gets taller.
 - Infill - Support material in the middle of a 3D print. Can be made of different patterns and is usually not solid. Sometimes described in percentage terms, less infill will make a faster print and use less material while a higher percentage infill will take longer to print and use more material.
 - Support Material - extra printed material used to support parts of the print that overhang more than 45 degrees in the horizontal direction. Sometime a model can be orientated on the printer at a different angle to avoid support material. Can be removed but often messes up the surface where it attached to the print.

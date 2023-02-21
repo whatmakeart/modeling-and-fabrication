@@ -1,5 +1,5 @@
 ---
-title: "06.02 Make 3D Model and Export STL File for 3D Test Print"
+title: "06.06 Make 3D Model and Export STL File for 3D Test Print"
 date: 2020-01-26T23:11:13Z
 draft: false
 ---

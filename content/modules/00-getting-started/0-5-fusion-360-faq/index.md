@@ -45,6 +45,17 @@ draft: false
 
 - [How to make a knurled texture like a handlebar grip?](https://youtu.be/xHas0R5-6uc)
 
+## Form Workspace
+
+- [Box vs Smooth Mode](https://youtu.be/B--0CElGp7s)
+- [T-Splines Introduction](https://youtu.be/8vGrRR_TLEg)
+- [Extrude Faces - Form Workspace](https://youtu.be/3YS1EX0rT0Y)
+- [Insert Edge Loop - Form Workspace](https://youtu.be/dVTDrUhsN3Y)
+- [Unweld Edges - Form Workspace](https://youtu.be/jNAzRU-Dbyg)
+- [Make Hole in T-Spline](https://youtu.be/3vat_r_MZ3k)
+- [Freeze T-Spline](https://youtu.be/4gbuQ8cRA3I)
+- [Crease T-Spline](https://youtu.be/_ijhpIGns-A)
+
 ## Rendering
 
 - [How to set the rendering Aspect Ratio?](https://youtu.be/NLr1FG27BGs)

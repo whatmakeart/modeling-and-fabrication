@@ -1,5 +1,5 @@
 ---
-title: "06.01 3D Printing Terms"
+title: "06.02 3D Print Design Guidelines"
 date: 2020-01-26T23:11:13Z
 draft: false
 ---

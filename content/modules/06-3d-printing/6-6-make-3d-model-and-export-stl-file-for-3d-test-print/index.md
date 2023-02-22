@@ -8,10 +8,9 @@ draft: false
 
 Upload the following items:
 
-- scans of your ideation sketches
-- STL file of model
-- .f3d file of model
-- render image
+1. Exported STL file of model
+2. Exported.f3d file of model
+3. Render image
 
 ## Assignment Overview
 
@@ -35,3 +34,19 @@ The 3D print will be a solid color of PLA plastic.
 - Make one of the dimensions a minimum of 4000px.
 - Export a render image with a good composition.
 - Don't make the object too small in the image.
+
+## Grading Rubric
+
+<div class="responsive-table-markdown">
+
+| Assessment                | Weight    |
+| ------------------------- | --------- |
+| 3D Model Design           | 20 points |
+| Exported STL              | 20 points |
+| Exported .f3d             | 10 points |
+| Material(s) Applied       | 10 points |
+| Render Image Composition  | 20 points |
+| Render Image Aspect Ratio | 10 points |
+| File Management           | 10 points |
+
+</div>

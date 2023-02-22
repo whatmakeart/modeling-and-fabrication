@@ -172,7 +172,7 @@ a.title-link {
 
 .gallery-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: 1fr;
   grid-gap: 10px;
 }
 
@@ -217,6 +217,10 @@ a.title-link {
     max-width: var(--page-max-width);
     min-width: var(--text-max-width);
     margin: 0 auto;
+  }
+
+  .gallery-grid {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   }
 
   .two-column-instructions-grid {

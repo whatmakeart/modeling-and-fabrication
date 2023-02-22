@@ -6,7 +6,7 @@ draft: false
 
 ## Direct Modeling
 
-Fusion 360 is a parametric modeling program. Specific dimensions, sketches, and constraints define how a 3D model is built. IF the order of actions is changed the model can be completely different. Parametric modeling is extremely powerful but it is not the only way to model. Fusion 360 also has a direct modeling mode. This mode does not capture any history on the design timeline. In some situations this can be ideal since one does not need to worry about timeline warnings about lost projections or geometry. It also has disadvantages since there is no design history to edit or revise. Even though direct modeling is less constrained, it is still much more rigid than organic mesh modeling.
+Fusion 360 is a parametric modeling program. Specific dimensions, sketches, and constraints define how a 3D model is built. If the order of actions is changed the model can be completely different. Parametric modeling is extremely powerful but it is not the only way to model. Fusion 360 also has a direct modeling mode. This mode does not capture any history on the design timeline. In some situations this can be ideal since one does not need to worry about timeline warnings about lost projections or geometry. It also has disadvantages since there is no design history to edit or revise. Even though direct modeling is less constrained, it is still much more rigid than organic mesh modeling.
 
 ## Form Workspace
 

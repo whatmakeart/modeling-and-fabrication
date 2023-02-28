@@ -16,8 +16,12 @@ draft: false
 
 Now that you have made a test 3D print and are more familiar with the
 opportunities and challenges of 3D printing, we will tackle specific design
-challenges using the 3D printing fabrication process. You make need to make
-additional small test print “proof of concepts” to get your final idea to work.
+challenges using the 3D printing fabrication process.
+
+Using thumbnail sketches, quickly design numerous ideas tackling the design
+challenges below. The ideation phase is one of the most important parts of the
+design process. Push yourself to generate unique and developed ideas.  Thumbnail
+sketches should take 4-7 minutes each. Refined sketching should take 5-10 minutes each.
 
 ## Design Challenges
 
@@ -58,7 +62,7 @@ Print it place means that the two separate objects are printed “in [place” o
 is on the 3D print bed. Once completed the two parts are forever locked
 together. Can you make a movable ball and socket figure or snake? What about
 designing an adjustable cellphone tripod holder for documenting work? Hinges for
-a box lid?
+a box lid? [Print in Place ]
 
 ### Fit a real world object(s)
 
@@ -108,13 +112,6 @@ export as an STL file for direct printing. If you use this technique of digital
 sculpting, you should intentionally make something that could not be make with
 polygon modeling or solid parametric modeling alone. Consider combining
 sculpting techniques with a parametrically modeled base or support.
-
-## Ideation Sketches
-
-Using thumbnail sketches, quickly design numerous ideas tackling the design
-challenges above. The ideation phase is one of the most important parts of the
-design process. Push yourself to generate unique and developed ideas.  Thumbnail
-sketches should take 4-7 minutes each. Refined sketching should take 5-10 minutes each .
 
 ## Grading Rubric
 

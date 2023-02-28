@@ -108,12 +108,29 @@ equipment checkout about the camera settings.
 
 [![Camera Settings Cheat Sheet](2021-Camera-Cheat-Sheet-Jimmy-Kuehnle.png)](2021-Camera-Cheat-Sheet-Jimmy-Kuehnle.png)
 
+## Tutorial Videos
+
 <div class="video-grid">
 
-<div class="iframe-16-9-container"><iframe class="youTubeIframe" title="YouTube video player" src="https://www.youtube.com/embed/11jwSwUu2WI?rel=0" width="560" height="315" allowfullscreen="allowfullscreen" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe></div>
+<div class="video-card">
 
-<div class="iframe-16-9-container"><iframe class="youTubeIframe" title="YouTube video player" src="https://www.youtube.com/embed/m0yZEWUSahk?rel=0" width="560" height="315" allowfullscreen="allowfullscreen" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe></div>
+### Open Any Image in Camera Raw
 
-<div class="iframe-16-9-container"><iframe class="youTubeIframe" title="YouTube video player" src="https://www.youtube.com/embed/ftMICesJwGc?rel=0" width="560" height="315" allowfullscreen="allowfullscreen" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe></div>
+<div class="iframe-16-9-container"><iframe class="youtTubeIframe" src="https://www.youtube.com/embed/ftMICesJwGc?rel=0" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
+</div>
+
+<div class="video-card">
+
+### Quick White Balance in Photoshop
+
+<div class="iframe-16-9-container"><iframe class="youtTubeIframe" src="https://www.youtube.com/embed/m0yZEWUSahk?rel=0" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
+</div>
+
+<div class="video-card">
+
+### Camera Raw Tutorial
+
+<div class="iframe-16-9-container"><iframe class="youtTubeIframe"src="https://www.youtube.com/embed/11jwSwUu2WI?rel=0" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
+</div>
 
 </div>

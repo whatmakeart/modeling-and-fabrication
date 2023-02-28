@@ -114,15 +114,7 @@ sculpting techniques with a parametrically modeled base or support.
 Using thumbnail sketches, quickly design numerous ideas tackling the design
 challenges above. The ideation phase is one of the most important parts of the
 design process. Push yourself to generate unique and developed ideas.  Thumbnail
-sketches should take 4-7 minutes each for a total of 40 – 70 minutes of
-thumbnail sketching. Refined sketching should take 5-10 minutes each for a total
-of 25 – 50 minutes of refined sketching. The final revised sketch should take
-10-20 minutes. Total ideation time should be 75 to 140 minutes. That is not a
-lot of time in the creative process, but it is important time. It shows in the
-quality and depth of your sketches if you do not take this time to ideate fully.
-
-When you finish your sketches scan them and upload them to the class Google
-Drive.
+sketches should take 4-7 minutes each. Refined sketching should take 5-10 minutes each .
 
 ## Grading Rubric
 
@@ -130,9 +122,8 @@ Drive.
 
 | Assessment           | Weight    |
 | -------------------- | --------- |
-| 5 thumbnails         | 10 points |
-| 3 revised sketches   | 10 points |
-| final sketch         | 20 points |
+| 5 thumbnails         | 40 points |
+| 3 revised sketches   | 40 points |
 | Sketch Documentation | 10 points |
 | File Management      | 10 points |
 

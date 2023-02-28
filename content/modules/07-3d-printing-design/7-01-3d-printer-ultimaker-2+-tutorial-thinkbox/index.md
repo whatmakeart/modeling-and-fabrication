@@ -5,7 +5,7 @@ draft: false
 ---
 
 Below are instructions provided by Case Western Reserve University's think[box]
-for 3D printing with the Ultimaker 2+. [^1]
+for 3D printing with the Ultimaker 2+. [^1] After making a 3D model of your test print and exporting it as an STL file, you need to prepare the model for output on a 3D printer. For FFF 3D printers a software program called a slicer is used. This program cuts the model into different layers, like the layers of the Grand Canyon. It also calculates the supports needed for overhanging parts of the print. Once everything is set up in the slicer, a file can be exported to an SD card for use in the Ultimaker 2+ 3D printers at the think[box].
 
 <iframe style="width:100%; min-height:100vh;" src="https://docs.google.com/document/d/1uNX5M24UUGoyxkOAlvjYkKzWHOI3iMfpXiBzQvmR-2g/view"></iframe>
 

@@ -19,8 +19,8 @@ Camera.
 Cellphone cameras are great for taking pictures when a better camera is not
 available but in most artwork documentation settings a cellphone camera's image
 will not do your artwork any favors and might actually make it look worse. If
-you do document artwork with a cellphone make sure to set the camera app to take
-RAW photos. In a well lit environment such as outdoor sunshine, a cellphone
+you have no other option than to document artwork with a cellphone make sure to set the camera app to take
+RAW photos. This will give you more options for improving the image with post processing than with a compressed jpg. In a well lit environment such as outdoor sunshine, a cellphone
 camera can take a decent photo but your future self will thank you for taking a
 higher resolution, higher quality photo with the larger sensor and better lens
 of a higher quality camera.
@@ -28,7 +28,7 @@ of a higher quality camera.
 ## What Camera Should I Use?
 
 Use a mirrorless camera or a DSLR camera to take high resolution documentation
-photos of your welded sculptures. Do not use your cell phone to take
+photos of your artwork. Do not use your cell phone to take
 documentation photos.
 
 ## What Camera and Lights Should I Checkout?
@@ -66,18 +66,18 @@ and a [Basic Tripod](https://cia.webcheckout.net/sso/patron#!/category/104834).
     to have greater mobility with the lights.
 4.  Put the camera on a tripod. If you need to get the camera lower than the
     tripod can go, then you can set it on books or a box.
-5.  Set camera to take the highest quality, highest resolution images (Check
+5.  Set the camera to take the highest quality, highest resolution images (Check
     this in the menu because the previous user may have changed the settings)
 6.  Capture RAW images (You can set the camera to capture RAW and JPG images but
     the RAW is the most important format to capture for post processing.)
-7.  Set the ISO to a low number like 100 or 200 (Low ISO settings, sensor
-    sensitivity, are less important with newer cameras but it is still better to
-    use a low ISO if the subject is stationary like your sculptures.)
+7.  Set the ISO to a low number like 100 or 200 (Low ISO settings, (sensor
+    sensitivity), are less important with newer cameras but it is still better to
+    use a low ISO if the subject is stationary like your artwork.)
 8.  Set the Camera to Manual. (This is the M on the dial.)
 9.  Choose an Aperture. (Use a small aperture, big number, to have everything in
     focus. Use a large aperture, small number, to have a shallow depth of field
     with only parts of the image in focus.)
-10. Frame your image, filling the viewport with as much of the sculpture as
+10. Frame your image, filling the viewport with as much of the artwork as
     possible.
 11. Adjust the shutter speed until the image appears well exposed in the
     viewport. If the shutter speed becomes long, then use a 2 second timer so
@@ -90,12 +90,13 @@ and a [Basic Tripod](https://cia.webcheckout.net/sso/patron#!/category/104834).
     additional images. You can also bracket by adjusting the aperture or F-Stop
     up and down.
 14. Copy all the images onto your computer. Double check that you have RAW
-    images on your laptop before you take down the lights and pack everything
+    images on your computer before you take down the lights and pack everything
     up.
 15. Open the images in Adobe Camera Raw.
 16. Make white balance, exposure, and other image corrections.
 17. Remove any defect in the image with the healing brush.
 18. Save the RAW images.
+19. Export jpgs or pngs for delivery.
 
 ## Camera and Photo Editing Resources
 

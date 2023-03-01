@@ -20,7 +20,7 @@ challenges using the 3D printing fabrication process.
 
 Using thumbnail sketches, quickly design numerous ideas tackling the design
 challenges below. The ideation phase is one of the most important parts of the
-design process. Push yourself to generate unique and developed ideas.  Thumbnail
+design process. Push yourself to generate unique and developed ideas. Thumbnail
 sketches should take 4-7 minutes each. Refined sketching should take 5-10 minutes each.
 
 ## Design Challenges
@@ -40,7 +40,7 @@ hand need and custom fit extension for scraping ice off of windshields? To
 complete this challenge, articulate a problem to solve with a body extension.
 This can be functional, decorative or both. How does the 3D print solve the
 problem? Measure your body or the target person’s body and use these dimensions
-as guideposts when modeling in Fusion 360.
+as guideposts when modeling in Fusion 360. [3D Printed Earing Example](https://youtu.be/TkMQeYTz0wo)
 
 ### Combine 3D Printing and Laser cutting
 
@@ -52,7 +52,7 @@ at angle or to create a shelf.  You could design a phone or laptop stand with 3
 printed hinges, so it is more functional.  Laser cutting can be a quick way to
 add scale to your 3D prints and 3D printing can add versatility of connection
 and position other than 90 degrees to your laser cuts. Design with the best of
-both worlds.
+both worlds. [Example of 3D Print Bracket for Laser Cut Plywood](https://youtu.be/64nG3t-3Log)
 
 ### Use a Print in Place Flexible Joint
 
@@ -62,7 +62,7 @@ Print it place means that the two separate objects are printed “in [place” o
 is on the 3D print bed. Once completed the two parts are forever locked
 together. Can you make a movable ball and socket figure or snake? What about
 designing an adjustable cellphone tripod holder for documenting work? Hinges for
-a box lid? [Print in Place ]
+a box lid? Print in Place Hinge Video Tutorials [Version 1](https://youtu.be/w1o48laHAos), [Version 2](https://youtu.be/9P1PPWP4uZk)
 
 ### Fit a real world object(s)
 

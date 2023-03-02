@@ -18,13 +18,13 @@ Use a mirrorless camera or a DSLR camera to take high resolution documentation p
 
 ## What Camera and Lights Should I Checkout?
 
-On the [CIA Equipment Checkout Page](https://cia.webcheckout.net/sso/patron#!/) choose one of the [SONY A6100 mirrorless cameras](https://cia.webcheckout.net/sso/patron#!/category/23050497), a [Neweer LED Light Kit](https://cia.webcheckout.net/sso/patron#!/category/22013131), and a [Basic Tripod](https://cia.webcheckout.net/sso/patron#!/category/104834).
+On the [CIA Equipment Checkout Page](https://cia.webcheckout.net/sso/patron#!/) choose one of the [SONY A6100 mirrorless cameras](https://cia.webcheckout.net/sso/patron#!/category/23050497), a [Compact Fluorescent Cool Light Kits](https://cia.webcheckout.net/sso/patron#!/category/15348239), and a [Basic Tripod](https://cia.webcheckout.net/sso/patron#!/category/104834).
 
 <div class="gallery-grid">
 
 [![camera](https://cia.webcheckout.net/attachments/23050552/sony-a6100.jpg)](https://cia.webcheckout.net/sso/patron#!/category/23050497)
 
-[![lights](https://cia.webcheckout.net/attachments/22013212/Neewer-LED.jpg)](https://cia.webcheckout.net/sso/patron#!/category/22013131)
+[![lights](https://cia.webcheckout.net/attachments/183754/cool%20light.jpg)](https://cia.webcheckout.net/sso/patron#!/category/15348239)
 
 [![tripod](https://cia.webcheckout.net/attachments/184929/manfrotto_mkcompact.jpg)](https://cia.webcheckout.net/sso/patron#!/category/104834)
 

@@ -1,5 +1,5 @@
 ---
-title: "9.03 Pocket Cuts and Joints"
+title: "09.03 Pocket Cuts and Joints"
 date: 2020-01-26T23:11:13Z
 draft: false
 ---

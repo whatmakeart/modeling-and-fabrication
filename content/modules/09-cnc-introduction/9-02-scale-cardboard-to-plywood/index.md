@@ -1,5 +1,5 @@
 ---
-title: "9.02 Scale Cardboard to Plywood"
+title: "09.02 Scale Cardboard to Plywood"
 date: 2020-01-26T23:11:13Z
 draft: false
 ---

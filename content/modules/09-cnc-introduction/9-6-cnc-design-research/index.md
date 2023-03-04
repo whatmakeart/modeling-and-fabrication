@@ -198,14 +198,6 @@ The Fab Studios sells pre-cut half sheets of 1/2" and 3/4" plywood. You can purc
 
 <div class="video-card">
 
-## Creat ShopBot Toolpaths in Fusion
-
-<div class="iframe-16-9-container" ><iframe class="youTubeIframe" src="https://www.youtube.com/embed/_G-0i8BFEFs?rel=0" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
-
-</div>
-
-<div class="video-card">
-
 ## CNC Hex Stool
 
 <div class="iframe-16-9-container" ><iframe class="youTubeIframe" src="https://www.youtube.com/embed/9utpuieg5lI?rel=0" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>

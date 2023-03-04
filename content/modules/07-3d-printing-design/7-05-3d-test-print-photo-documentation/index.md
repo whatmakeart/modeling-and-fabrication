@@ -1,5 +1,5 @@
 ---
-title: "07.03 3D Test Print Photo Documentation"
+title: "07.05 3D Test Print Photo Documentation"
 date: 2020-01-26T23:11:13Z
 draft: false
 ---
@@ -22,9 +22,7 @@ You can set up lights and a clean backdrop. You can check out lights and a camer
 
 ### Use think[box] Photo Stand
 
-There is a photo stand at the think[box]that is perfect for documenting small
-objects. You can also take your model to the think[box] and use the soft boxes and flashes already set up. Follow the [instructions](https://case.edu/thinkbox/equipment/other-equipment/photography-studio) provided by the think[box]. Do not use your cell phone
-with this setup.
+There is a photo stand at the think[box]that is perfect for documenting small objects. You can also take your model to the think[box] and use the soft boxes and flashes already set up. Follow the [instructions](https://case.edu/thinkbox/equipment/other-equipment/photography-studio) provided by the think[box]. Do not use your cell phone with this setup.
 
 ![thinkbox photo stand](2021-thinkbox-photo-stand.jpg)
 

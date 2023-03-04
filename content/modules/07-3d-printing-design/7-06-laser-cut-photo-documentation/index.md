@@ -1,5 +1,5 @@
 ---
-title: "06.10 Photo Documentation of Laser Cut Project"
+title: "07.10 Photo Documentation of Laser Cut Project"
 date: 2020-01-26T23:11:13Z
 draft: false
 ---
@@ -9,8 +9,7 @@ draft: false
 - Upload a minimum of 2 photos from classroom photo backdrop or think[box] photo stand
 - Upload a minimum of 2 photos from the environment
 - Upload both the "RAW" photo and the edited .jpg for all photos
-- Label Photos YYYYMMDD Lastname Firstname 5 Word Description. (arw, cr2, dng,
-  jpg, png)
+- Label Photos YYYYMMDD Lastname Firstname 5 Word Description. (arw, cr2, dng, jpg, png)
 
 ## Assignment Overview
 

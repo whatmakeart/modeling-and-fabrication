@@ -11,9 +11,17 @@ There are two methods of making dogbone fillets, one is the classic "cartoon dog
 <div class="video-grid">
 <div class="video-card">
 
-### Kerf Size and Dogbone Fillets
+### Invisible Dogbone Fillets
 
 <div class="iframe-16-9-container"><iframe class="youTubeIframe" src="https://www.youtube.com/embed/fjrEmJeM-qw?rel=0" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
+
+</div>
+
+<div class="video-card">
+
+### Dogbone Fillet Addon
+
+<div class="iframe-16-9-container"><iframe class="youTubeIframe" src="https://www.youtube.com/embed/veXvbGSDtPk?rel=0" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
 
 </div>
 

@@ -1,6 +1,7 @@
 ---
 title: "07.02 Advanced 3D Printer Settings Ultimaker 2+ Tutorial think[box]"
-date: 2020-01-26T23:11:13Z draft: false
+date: 2020-01-26T23:11:13Z
+draft: false
 ---
 
 Below are advanced 3D Print instructions provided by Case Western Reserve University's think[box] for 3D printing with the Ultimaker 2+. [^1]

@@ -4,6 +4,8 @@ date: 2020-01-26T23:11:13Z
 draft: false
 ---
 
+Often 3D primts are thought of as static single objects rather than objects made up of multiple parts that can move independently.
+
 <div class="video-grid">
 
 <div class="video-card">

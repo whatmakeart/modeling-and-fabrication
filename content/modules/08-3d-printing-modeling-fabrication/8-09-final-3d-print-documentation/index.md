@@ -4,70 +4,63 @@ date: 2020-01-26T23:11:13Z
 draft: false
 ---
 
-# Final 3D Print and Documentation Photos
+## Assignment Deliverables
 
-<div class="flex-container-jimmy" style="display: flex; align-items: top; flex-wrap: wrap; margin-top: 0; margin-bottom: 0;">
+- Take 2 Photos with a clean backdrop of your Final 3D Print
+- Take 2 Photos of your Final 3D Print showing its intended purpose in an environment
+- Label the photos YYYYMMDD Lastname Firstname Final 3D Print Documentation
+- Upload the Raw files as well as the edited jpgs (You will upload 4 Raw files and 4 jpgs.)
 
-<div class="half-box" style="flex: 1 1 400px; margin-top: 0; margin-bottom: 0;">
+## Assignment Overview
 
-Print the final version of your 3D Print design at the think[box] on the Ultimaker 2+ or on the industrial 3D printers at the think[box]. You can also print your 3D print at the DOC at CIA. If you use the industrial 3D printers at the think[box] or the DOC then you do not have to print it yourself. Rather, you order it online.
-
-Once you have your print, then clean up any support material, put on any finishes, such as paint. Photo document your 3D print according to the guidelines below.
+Photo document your 3D print according to the guidelines below.
 
 ## Take a minimum of 4 photos of your Final 3D Print
 
 Two should be with a clean backdrop with one from a 3/4 angle that shows a good representation of the form and the other from a composition of your choice. Make sure the print is in focus. An additional two photos should show the intended purpose and use of the 3D print. Take these photos in an environment. Don't forget to have good lighting and composition.
 
-Set up lights and a clean backdrop. You can check out lights and a camera from the CIA equipment checkout. You can also take your model to the think[box] and use the soft boxes and flashes already set up. Shoot in JPG and RAW and post process the images. [White balance should be corrected](https://www.youtube.com/watch?v=m0yZEWUSahk) and the levels should be adjusted to have good exposure. Use Photoshop and [Adobe Camera Raw](https://www.youtube.com/watch?v=11jwSwUu2WI) to make adjustments and to retouch any mistakes in the images. Label the photos YYYYMMDD Final 3D Print
+Set up lights and a clean backdrop. You can check out lights and a camera from the equipment checkout. You can also take your model to the think[box] and use the soft boxes and flashes already set up. Shoot in JPG and RAW and post process the images. [White balance should be corrected](https://www.youtube.com/watch?v=m0yZEWUSahk) and the levels should be adjusted to have good exposure. Use Photoshop and [Adobe Camera Raw](https://www.youtube.com/watch?v=11jwSwUu2WI) to make adjustments and to retouch any mistakes in the images.
 
-- Take 2 Photos with a clean backdrop of your Final 3D Print
-- Take 2 Photos of your Final 3D Print showing its intended purpose in an environment
-- Label the photos YYYYMMDD Lastname Firstname Final 3D Print Documentation
 - Use good lighting and shoot in JPG and RAW so you can edit and post process your images.
-- Upload the images to Google Drive
-- [https://drive.google.com/drive/folders/1aNgzjah8BSNhdCHvs4wO3KBJt2anecMe](https://drive.google.com/drive/folders/1aNgzjah8BSNhdCHvs4wO3KBJt2anecMe)
-
-</div>
-
-<div class="half-box" style="flex: 1 1 400px; margin-top: 0; margin-bottom: 0;">![](/ICS/icsfs/mm/2022_camera_cheat_sheet.png?target=712bb5a6-8149-4c54-9105-d1f671924389)</div>
-
-</div>
 
 # Tutorial Videos
 
-<div class="video-grid" style="display: grid; align-items: end; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); grid-gap: 1rem;">
+<div class="video-grid">
 
-<div class="video-wrapper" style="border: 1px solid grey; display: flex; flex-direction: column; height: 100%; justify-content: space-between; margin: 0;">
+<div class="video-card">
 
-## Open Any Image in Camera Raw
+### Open Any Image in Camera Raw
 
-<div class="youtube-box" style="position: relative; width: 100%; height: 0px; padding-top: 56.25%; margin-top: 0; margin-bottom: 0;"><iframe class="youtube-iframe" style="position: absolute; top: 0; bottom: 0; left: 0; width: 100%; height: 100%; border: 0; z-index: 1;" src="https://www.youtube.com/embed/ftMICesJwGc?rel=0" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
+<div class="iframe-16-9-container"><iframe class="youTubeIframe" src="https://www.youtube.com/embed/ftMICesJwGc?rel=0" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+</div>
+</div>
+
+<div class="video-card">
+
+### Quick White Balance in Photoshop
+
+<div class="iframe-16-9-container"><iframe class="youTubeIframe" src="https://www.youtube.com/embed/m0yZEWUSahk?rel=0" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+</div>
+</div>
+
+<div class="video-card">
+
+### Camera Raw Tutorial
+
+<div class="iframe-16-9-container"><iframe class="youTubeIframe" src="https://www.youtube.com/embed/11jwSwUu2WI?rel=0" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+</div>
+</div>
 
 </div>
 
-<div class="video-wrapper" style="border: 1px solid grey; display: flex; flex-direction: column; height: 100%; justify-content: space-between; margin: 0;">
+## Grading Rubric
 
-## Quick White Balance in Photoshop
-
-<div class="youtube-box" style="position: relative; width: 100%; height: 0px; padding-top: 56.25%; margin-top: 0; margin-bottom: 0;"><iframe class="youtube-iframe" style="position: absolute; top: 0; bottom: 0; left: 0; width: 100%; height: 100%; border: 0; z-index: 1;" src="https://www.youtube.com/embed/m0yZEWUSahk?rel=0" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
-
-</div>
-
-<div class="video-wrapper" style="border: 1px solid grey; display: flex; flex-direction: column; height: 100%; justify-content: space-between; margin: 0;">
-
-## Camera Raw Tutorial
-
-<div class="youtube-box" style="position: relative; width: 100%; height: 0px; padding-top: 56.25%; margin-top: 0; margin-bottom: 0;"><iframe class="youtube-iframe" style="position: absolute; top: 0; bottom: 0; left: 0; width: 100%; height: 100%; border: 0; z-index: 1;" src="https://www.youtube.com/embed/11jwSwUu2WI?rel=0" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
-
-</div>
-
-</div>
-
-# Grading Rubric
+<div class="responsive-table-markdown">
 
 | Assessment      | Weight    |
 | --------------- | --------- |
-| 3D Print Design | 50 points |
 | Photo 1         | 45 points |
 | Photo 2         | 45 points |
 | File Management | 10 points |
+
+</div>

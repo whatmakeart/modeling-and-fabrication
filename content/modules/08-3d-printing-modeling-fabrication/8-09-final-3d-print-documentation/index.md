@@ -1,5 +1,5 @@
 ---
-title: "08.05 Final 3D Print Documentation"
+title: "08.09 Final 3D Print Documentation"
 date: 2020-01-26T23:11:13Z
 draft: false
 ---
@@ -9,7 +9,7 @@ draft: false
 - Take 2 Photos with a clean backdrop of your Final 3D Print
 - Take 2 Photos of your Final 3D Print showing its intended purpose in an environment
 - Label the photos YYYYMMDD Lastname Firstname Final 3D Print Documentation
-- Upload the Raw files as well as the edited jpgs (You will upload 4 Raw files and 4 jpgs.)
+- Upload the Raw files as well as the edited jpgs (You will upload 4 Raw files and 4 jpgs)
 
 ## Assignment Overview
 
@@ -17,13 +17,15 @@ Photo document your 3D print according to the guidelines below.
 
 ## Take a minimum of 4 photos of your Final 3D Print
 
-Two should be with a clean backdrop with one from a 3/4 angle that shows a good representation of the form and the other from a composition of your choice. Make sure the print is in focus. An additional two photos should show the intended purpose and use of the 3D print. Take these photos in an environment. Don't forget to have good lighting and composition.
+- Take two photos with a clean backdrop, one from a 3/4 angle that shows a good representation of the form and the other from a composition of your choice.
+- Take two photos should showing the intended purpose and use of the 3D print. Take these photos in an environment that tells a story.
+- Make sure the print is in focus.
+- Don't forget to have good lighting and composition.
+- Use good lighting and shoot in JPG and RAW so you can edit and post process your images.
 
 Set up lights and a clean backdrop. You can check out lights and a camera from the equipment checkout. You can also take your model to the think[box] and use the soft boxes and flashes already set up. Shoot in JPG and RAW and post process the images. [White balance should be corrected](https://www.youtube.com/watch?v=m0yZEWUSahk) and the levels should be adjusted to have good exposure. Use Photoshop and [Adobe Camera Raw](https://www.youtube.com/watch?v=11jwSwUu2WI) to make adjustments and to retouch any mistakes in the images.
 
-- Use good lighting and shoot in JPG and RAW so you can edit and post process your images.
-
-# Tutorial Videos
+## Tutorial Videos
 
 <div class="video-grid">
 
@@ -57,10 +59,13 @@ Set up lights and a clean backdrop. You can check out lights and a camera from t
 
 <div class="responsive-table-markdown">
 
-| Assessment      | Weight    |
-| --------------- | --------- |
-| Photo 1         | 45 points |
-| Photo 2         | 45 points |
-| File Management | 10 points |
+| Assessment          | Weight    |
+| ------------------- | --------- |
+| Photo 1 backdrop    | 20 points |
+| Photo 2 backdrop    | 20 points |
+| Photo 1 environment | 20 points |
+| Photo 2 environment | 20 points |
+| RAW files uploaded  | 10 points |
+| File Management     | 10 points |
 
 </div>

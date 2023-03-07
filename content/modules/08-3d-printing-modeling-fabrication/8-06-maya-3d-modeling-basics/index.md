@@ -14,16 +14,18 @@ The official online [Maya Learning Documentation](https://knowledge.autodesk.com
 
 ### Essential Maya Keyboard Shortcuts
 
-- Q - Select
-- W - Move
-- E - Rotate
-- R - Scale
-- a - Frame all
-- f - Frame selected
-- f8 - object mode
-- f9 - vertex mode
-- f10 - edge mode
-- f11 - face mode
+| Maya Key | Action         |
+| -------- | -------------- |
+| Q        | Select         |
+| W        | Move           |
+| E        | Rotate         |
+| R        | Scale          |
+| a        | Frame all      |
+| f        | Frame selected |
+| f8       | object mode    |
+| f9       | vertex mode    |
+| f10      | edge mode      |
+| f11      | face mode      |
 
 ### Essential Maya Mouse Controls
 
@@ -39,6 +41,46 @@ The official online [Maya Learning Documentation](https://knowledge.autodesk.com
 - [Maya Polygon Modeling Tools](https://youtu.be/eBEitxaRYQs)
 - [Maya Hole in a Cube](https://youtu.be/EIKiJUmUH7A)
 - [Maya Beginner Polygon Modeling Tutorial](https://youtu.be/lLItO9mBwxM)
+
+<div class="video-grid">
+
+<div class="video-card">
+
+### Maya User Interface
+
+<div class="iframe-16-9-container">
+<iframe class="youTubeIframe" width="560" height="315" src="https://www.youtube.com/embed/-SpVNiRqeKY?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+</div>
+
+<div class="video-card">
+
+### Maya Polygon Modeling Tools
+
+<div class="iframe-16-9-container">
+<iframe class="youTubeIframe" width="560" height="315" src="https://www.youtube.com/embed/eBEitxaRYQs?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+</div>
+
+<div class="video-card">
+
+### Maya Hole in Cube
+
+<div class="iframe-16-9-container">
+<iframe class="youTubeIframe" width="560" height="315" src="https://www.youtube.com/embed/EIKiJUmUH7A?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+</div>
+
+<div class="video-card">
+
+### Maya Beginner Polygon Modeling Tutorial
+
+<div class="iframe-16-9-container">
+<iframe class="youTubeIframe" width="560" height="315" src="https://www.youtube.com/embed/lLItO9mBwxM?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+</div>
+
+</div>
 
 ## Maya Intermediate Topics
 

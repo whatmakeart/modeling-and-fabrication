@@ -10,6 +10,29 @@ draft: false
 
 The official [Blender Online Documentation](https://docs.blender.org/manual/en/dev/) is a great place to get started with the basics of Blender as well as explore advanced topics.
 
+### Blender Mouse Controls
+
+| Mouse Control               | Action       |
+| --------------------------- | ------------ |
+| middle mouse button         | orbit camera |
+| shift + middle mouse button | pan camera   |
+| scroll wheel                | zoom camera  |
+
+### Blender Essential Keyboard Shortcuts
+
+| Blender Key                  | Action                    |
+| ---------------------------- | ------------------------- |
+| T                            | Transform                 |
+| G                            | Move                      |
+| R                            | Rotate                    |
+| S                            | Scale                     |
+| HOME (win) or fn+Left Arrow  | Frame all                 |
+| NUMPAD . (can be customized) | Frame selected            |
+| tab                          | toggle edit / object mode |
+| 1                            | vertex mode               |
+| 2                            | edge mode                 |
+| 3                            | face mode                 |
+
 ## Blender Introduction
 
 - [Blender User Interface](https://docs.blender.org/manual/en/dev/interface/index.html)

@@ -8,6 +8,31 @@ draft: false
 
 The official online [Maya Learning Documentation](https://knowledge.autodesk.com/support/maya/learn) is a good place to learn the basics and investigate advanced topics.
 
+## Maya Keyboard Shortcuts [^1]
+
+[![Maya Keyboard Shortcuts](2023-autodesk-maya-one-key-shortcuts-hotkeys-1600x1206.jpg)](2023-autodesk-maya-one-key-shortcuts-hotkeys-1600x1206.jpg)
+
+### Essential Maya Keyboard Shortcuts
+
+- Q - Select
+- W - Move
+- E - Rotate
+- R - Scale
+- a - Frame all
+- f - Frame selected
+- f8 - object mode
+- f9 - vertex mode
+- f10 - edge mode
+- f11 - face mode
+
+### Essential Maya Mouse Controls
+
+| Mouse Control                                      | Action        |
+| -------------------------------------------------- | ------------- |
+| alt (option) + left mouse Button                   | rotate camera |
+| alt (option) + middle mouse Button                 | pan camera    |
+| alt (option ) + right mouse button or scroll wheel | zoom camera   |
+
 ## Maya Basic Modeling
 
 - [Maya User Interface](https://youtu.be/-SpVNiRqeKY)
@@ -36,3 +61,5 @@ The official online [Maya Learning Documentation](https://knowledge.autodesk.com
 - [Model a Golf Ball](https://youtu.be/2wizG1Dsm8w)
 - [Model a Volleyball](https://youtu.be/E37FC_Uu0Vg)
 - [Model Disco Ball](https://youtu.be/2IMRu48ENzY)
+
+[^1]: [Maya Keyboard Shortcuts](https://www.autodesk.com/shortcuts/maya) [(Web Archive)](https://web.archive.org/web/20220524190210/https://www.autodesk.com/shortcuts/maya)

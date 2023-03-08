@@ -14,6 +14,8 @@ The official online [Maya Learning Documentation](https://knowledge.autodesk.com
 
 ### Essential Maya Keyboard Shortcuts
 
+<div class="responsive-table-markdown">
+
 | Maya Key | Action         |
 | -------- | -------------- |
 | Q        | Select         |
@@ -27,13 +29,19 @@ The official online [Maya Learning Documentation](https://knowledge.autodesk.com
 | f10      | edge mode      |
 | f11      | face mode      |
 
+</div>
+
 ### Essential Maya Mouse Controls
+
+<div class="responsive-table-markdown">
 
 | Mouse Control                                      | Action        |
 | -------------------------------------------------- | ------------- |
 | alt (option) + left mouse Button                   | rotate camera |
 | alt (option) + middle mouse Button                 | pan camera    |
 | alt (option ) + right mouse button or scroll wheel | zoom camera   |
+
+</div>
 
 ## Maya Basic Modeling
 

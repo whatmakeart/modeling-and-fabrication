@@ -105,11 +105,69 @@ The official online [Maya Learning Documentation](https://knowledge.autodesk.com
 
 ## Modeling Object Examples
 
-- [Maya Model a Tennis Ball](https://youtu.be/IfSis4ns8SY)
 - [Model a Coffee Cup](https://youtu.be/V59XKklgfDE)
+- [Model Disco Ball](https://youtu.be/2IMRu48ENzY)
+- [Maya Model a Tennis Ball](https://youtu.be/IfSis4ns8SY)
 - [Model a Soccer Ball](https://youtu.be/GcDalspwhlc)
 - [Model a Golf Ball](https://youtu.be/2wizG1Dsm8w)
 - [Model a Volleyball](https://youtu.be/E37FC_Uu0Vg)
-- [Model Disco Ball](https://youtu.be/2IMRu48ENzY)
+
+<div class="video-grid">
+
+<div class="video-card">
+
+### Maya Model a Coffee Cup
+
+<div class="iframe-16-9-container">
+<iframe class="youTubeIframe" width="560" height="315" src="https://www.youtube.com/embed/V59XKklgfDE?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+</div>
+
+<div class="video-card">
+
+### Maya Model a Disco Ball
+
+<div class="iframe-16-9-container">
+<iframe class="youTubeIframe" width="560" height="315" src="https://www.youtube.com/embed/2IMRu48ENzY?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+</div>
+
+<div class="video-card">
+
+### Maya Model a Tennis Ball
+
+<div class="iframe-16-9-container">
+<iframe class="youTubeIframe" width="560" height="315" src="https://www.youtube.com/embed/IfSis4ns8SY?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+</div>
+
+<div class="video-card">
+
+### Maya Model a Soccer Ball
+
+<div class="iframe-16-9-container">
+<iframe class="youTubeIframe" width="560" height="315" src="https://www.youtube.com/embed/GcDalspwhlc?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+</div>
+
+<div class="video-card">
+
+### Maya Model a Golf Ball
+
+<div class="iframe-16-9-container">
+<iframe class="youTubeIframe" width="560" height="315" src="https://www.youtube.com/embed/2wizG1Dsm8w?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+</div>
+
+<div class="video-card">
+
+### Maya Model a Volley Ball
+
+<div class="iframe-16-9-container">
+<iframe class="youTubeIframe" width="560" height="315" src="https://www.youtube.com/embed/E37FC_Uu0Vg?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+</div>
+
+</div>
 
 [^1]: [Maya Keyboard Shortcuts](https://www.autodesk.com/shortcuts/maya) [(Web Archive)](https://web.archive.org/web/20220524190210/https://www.autodesk.com/shortcuts/maya)

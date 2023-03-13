@@ -18,3 +18,5 @@ Laser cutters burn the edges of wood materials while CNC routers make a clean cu
 <div class="iframe-16-9-container"><iframe class="youTubeIframe"  src="https://www.youtube.com/embed/oYxp6FXG27I?rel=0" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
 </div>
 </div>
+
+![d](/modules/09-cnc-introduction/9-00-introduction/index.md)

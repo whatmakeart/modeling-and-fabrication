@@ -22,7 +22,7 @@ Before starting your project it is important to see what types of designs have b
 
 <figure>
 
-[![CNC Stool Search](2022-cnc-stool-search.png)](https://google.com/search?q=cnc+stool&tbm=isch)
+[![CNC Stool Search](/content/modules/09-cnc-introduction/2022-cnc-stool-search.png)](https://google.com/search?q=cnc+stool&tbm=isch)
 
 <figcaption>
 
@@ -33,7 +33,7 @@ Before starting your project it is important to see what types of designs have b
 
 <figure>
 
-[![CNC Chair Search](2022-cnc-chair-search.png)](https://google.com/search?q=cnc+chair&tbm=isch)
+[![CNC Chair Search](../2022-cnc-chair-search.png)](https://google.com/search?q=cnc+chair&tbm=isch)
 
 <figcaption>
 

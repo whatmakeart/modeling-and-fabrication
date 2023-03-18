@@ -22,7 +22,7 @@ Before starting your project it is important to see what types of designs have b
 
 <figure>
 
-[![CNC Stool Search](/content/modules/09-cnc-introduction/2022-cnc-stool-search.png)](https://google.com/search?q=cnc+stool&tbm=isch)
+[![CNC Stool Search](../2022-cnc-stool-search.png)](https://google.com/search?q=cnc+stool&tbm=isch)
 
 <figcaption>
 
@@ -44,7 +44,7 @@ Before starting your project it is important to see what types of designs have b
 
 <figure>
 
-[![Stool Design Search](2022-stool-design-search.png)](https://google.com/search?q=stool+design&tbm=isch)
+[![Stool Design Search](../2022-cnc-stool-search.png)](https://google.com/search?q=stool+design&tbm=isch)
 
 <figcaption>
 
@@ -55,7 +55,7 @@ Before starting your project it is important to see what types of designs have b
 
 <figure>
 
-[![CNC Plywood Table Search](2022-cnc-plywood-table-search.png)](https://google.com/search?q=cnc+plywood+table&tbm=isch)
+[![CNC Plywood Table Search](../2022-cnc-plywood-table-search.png)](https://google.com/search?q=cnc+plywood+table&tbm=isch)
 
 <figcaption>
 
@@ -66,7 +66,7 @@ Before starting your project it is important to see what types of designs have b
 
 <figure>
 
-[![CNC Joints Search](2022-cnc-joints-search.png)](https://google.com/search?q=cnc+joints&tbm=isch)
+[![CNC Joints Search](../2022-cnc-joints-search.png)](https://google.com/search?q=cnc+joints&tbm=isch)
 
 <figcaption>
 
@@ -77,7 +77,7 @@ Before starting your project it is important to see what types of designs have b
 
 <figure>
 
-[![Chair Living Hinge Search](2022_chair_living_hinge_search.png)](https://google.com/search?q=chair+living+hinge&tbm=isch)
+[![Chair Living Hinge Search](../2022-chair-living-hinge-search.png)](https://google.com/search?q=chair+living+hinge&tbm=isch)
 
 <figcaption>
 

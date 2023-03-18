@@ -32,9 +32,9 @@ Additional joints that can be made by CNC machines are:
 
 <div class="gallery-grid">
 
-[![Blind Mortise Tenon Joint](/2023-cnc-blind-mortise-tenon-joint.jpg)](2023-cnc-blind-mortise-tenon-joint.png)
+[![Blind Mortise Tenon Joint](../2023-cnc-blind-mortise-tenon-joint.jpg)](../2023-cnc-blind-mortise-tenon-joint.png)
 
-[![Tongue and Groove Joint](/2023-cnc-toungue-and-groove-joint.jpg)](2023-cnc-tongue-and-groove-joint.png)
+[![Tongue and Groove Joint](../2023-cnc-toungue-and-groove-joint.jpg)](../2023-cnc-tongue-and-groove-joint.png)
 
 </div>
 

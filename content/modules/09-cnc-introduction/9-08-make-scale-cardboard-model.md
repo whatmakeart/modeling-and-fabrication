@@ -25,9 +25,25 @@ First calculate the scale factor of your materials. If your single sheet of card
 
 Once you know the scale factor then you can determine how big the pieces of your cardboard model should be based on that scale factor. This website lets you enter a scale factor and then enter in your final desired design dimension. For example if you want something 30" tall, you put in a scale factor of 11:60, type 30" in the "real length" and set the "scale length" to mm to get the scaled model size in mm. (You can use inches for your cardboard model but millimeters are soooo much easier to use, count, divide. Notice I put in 30" because for some distances I know imperial units better but then I quickly convert to the easier to use metric system. Make sure you always double check your units.) This website will scale all your numbers. [https://www.ginifab.com/feeds/cm_to_inch/scale_converter.html](https://www.ginifab.com/feeds/cm_to_inch/scale_converter.html)
 
-<div class="iframe-16-9-container" ><iframe class="youTubeIframe" src="https://www.youtube.com/embed/j-KeJDNf9HQ?rel=0" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
+<div class="video-grid">
 
-<div class="iframe-16-9-container" ><iframe class="youTubeIframe" src="https://www.youtube.com/embed/Tm7xTiLl4Hw?rel=0" width="560" height="315" frameborder="0"></iframe></div>
+<div class="video-card">
+
+### Scale Cardboard
+
+<div class="iframe-16-9-container" ><iframe class="youTubeIframe" src="https://www.youtube.com/embed/j-KeJDNf9HQ?rel=0" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+</div>
+</div>
+
+<div class="video-card">
+
+### Cut Cardboard Cleanly
+
+<div class="iframe-16-9-container" ><iframe class="youTubeIframe" src="https://www.youtube.com/embed/Tm7xTiLl4Hw?rel=0" width="560" height="315" frameborder="0"></iframe>
+</div>
+</div>
+
+</div>
 
 ## Assignment Overview
 

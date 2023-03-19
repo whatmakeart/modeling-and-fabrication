@@ -10,7 +10,7 @@ In this project we will design a stool, chair, end table or another large suppor
 
 Stools come in different heights and we may want to easily customize a stool with the same design but fabricate it at a different height without actually remodeling everything. With parametric modeling we can set the height of a stool as a user parameter in our model and then have other dimensions of the design driven by that height. Simply typing a new value for the height will update the rest of the model.
 
-![[CNC Stool Example](2021-cnc-stool-example.jpg)](cnc-stool-example.jpg
+![[CNC Stool Example](../2021-cnc-stool-example.jpg)](cnc-stool-example.jpg)
 
 # Design Process
 

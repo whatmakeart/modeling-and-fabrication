@@ -13,7 +13,7 @@ draft: false
 
 ## Assignment Overview
 
-Photo document your 3D print according to the guidelines below.
+Photo document your Final 3D print according to the guidelines below.
 
 ## Take a minimum of 4 photos of your Final 3D Print
 

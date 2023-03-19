@@ -1,14 +1,8 @@
 ---
-title: "12.01 Animation Ideation"
+title: "12.01 Narrative Arc"
 date: 2020-01-26T23:11:13Z
 draft: false
 ---
-
-# Narrative Arc
-
-<div class="flex-container-jimmy" style="display: flex; align-items: top; flex-wrap: wrap; margin-top: 0; margin-bottom: 0; gap: 1rem;">
-
-<div class="half-box" style="flex: 1 1 400px; margin-top: 0; margin-bottom: 0;">
 
 ## What is a Story Spine?
 
@@ -24,10 +18,6 @@ In part 3 resolve part 2\. What is the result of the actions of the ball after e
 
 Writing a Story Spine and Storyboards will give you an outline and direction as you produce your animation materials. Rather than working with everything possible in the universe, the Story Spine and Story Boards will narrow the scope and set limitations that you can work creatively within.
 
-</div>
-
-<div class="half-box" style="flex: 1 1 400px; margin-top: 0; margin-bottom: 0;">
-
 ## What is a Story Arc?
 
 A traditional story arc contains an introduction of the story, plot, characters and setting. This is called the Exposition. This leads into the Rising Action when the character is faced with a problem. The character then confronts obstacles along the way toward the Climax of the story, a moment of crisis that directs the rest of the plot. This is followed by Falling Action as the plot moves from climax to the ending. Finally a Resolution occurs and stability returns to the story.
@@ -37,10 +27,6 @@ A traditional story arc contains an introduction of the story, plot, characters 
 - **Climax** – moment of crisis that directs the rest of the plot
 - **Falling Action** – plot moves from climax to ending
 - **Resolution** – final results of plot - stability returns
-
-</div>
-
-</div>
 
 ## Story Spine Structure
 
@@ -74,24 +60,11 @@ The characters must make a choice to overcome the obstacles of Act 2\. This the 
 2.  And, ever since then...
 3.  And the moral of the story is ....
 
-# Storyboards
+## Grading Rubric
 
-<div class="flex-container-jimmy" style="display: flex; align-items: top; flex-wrap: wrap; margin-top: 0; margin-bottom: 0; gap: 1rem;">
-
-<div class="half-box" style="flex: 1 1 400px; margin-top: 0; margin-bottom: 0;">
-
-[Link to Printable Storyboard Sheets](https://drive.google.com/file/d/1fWi_5xjUC9eDOkhaZ8smU050QQmqBhUY/view?usp=sharing) You can print these for free in black and white in the classroom or in the library.
-
-Make storyboards for your animation. Since the animation is 15-30 seconds long, you need a minimum of 15 storyboard panels. Remember to change angle and scale for each shot / scene / animation.
-
-You can print out the template from the course Google Drive Handouts Folder. To have 15 storyboard panels you need to use three pages of the storyboard template. Write down the type of shot on each panel. Write a brief description of what is happening. If you have a 15 second animation then each storyboard panel represents 1 second of animation. If you have a 30 second animation then each storyboard panel represents 2 seconds of animation. Plan accordingly so you do not have too much action or too little action.
-
-Scan your storyboards as a PDF. Label the PDF YYYYMMDD Lastname Firstname 3D Animation Storyboards.pdf. Upload to the Google Drive Folder.
-
-</div>
-
-<div class="half-box" style="flex: 1 1 400px; margin-top: 0; margin-bottom: 0;">[![Storyboard Template](https://drive.google.com/uc?export=download&id=1y6LbtOwWGzwXLe0eCpwfwsEEtREZG9t0)](https://drive.google.com/file/d/1fWi_5xjUC9eDOkhaZ8smU050QQmqBhUY/view?usp=sharing)</div>
-
-</div>
-
-# Gradig Rubric | Assessment | Weight | | -------------------- | --------- | | Script / Story Spine | 20 points | | Storyboard | 60 points | | Documentation | 10 points | | File Management | 10 points |
+| Assessment           | Weight    |
+| -------------------- | --------- |
+| Script / Story Spine | 20 points |
+| Storyboard           | 60 points |
+| Documentation        | 10 points |
+| File Management      | 10 points |

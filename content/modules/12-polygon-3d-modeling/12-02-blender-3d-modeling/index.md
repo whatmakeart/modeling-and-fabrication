@@ -1,5 +1,5 @@
 ---
-title: "12.03 Animation Ball Rig Test Bounce "
+title: "12.03 Blender 3D Modeling "
 date: 2020-01-26T23:11:13Z
 draft: false
 ---

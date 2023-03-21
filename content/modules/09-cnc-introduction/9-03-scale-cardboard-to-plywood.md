@@ -46,6 +46,7 @@ Millimeters are small enough that their accuracy without the decimal is almost g
 
 The scale factor and unit of measure used is up to you, but for distances under 25 feet, just counting millimeters is a fairly easy and accurate way to go.
 
+<div class="video-grid">
 <div class="video-card">
 
 ### Scale Cardboard to Plywood
@@ -53,4 +54,6 @@ The scale factor and unit of measure used is up to you, but for distances under 
 <div class="iframe-16-9-container">
 <iframe class="youTubeIframe"  width="560" height="315" src="https://www.youtube.com/embed/j-KeJDNf9HQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
+</div>
+
 </div>

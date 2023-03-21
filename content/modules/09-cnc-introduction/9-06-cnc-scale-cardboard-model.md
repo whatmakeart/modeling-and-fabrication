@@ -69,7 +69,7 @@ On the [CIA Equipment Checkout Page](https://cia.webcheckout.net/sso/patron#!/) 
 
 ## Photograph with Cellphone?
 
-Your pictures will be worse with if you use a cellphone rather than a good camera, period. But if that is all you have, a cell phone is better than nothing and with a little bit of effort fairly decent photos can be made. You should always get a camera with a bigger sensor and better lens than your cellphone but I know that sometimes time runs short. For those instances, the video below shows how to take ok photographs with just a cell phone and a clip on light. There are no excuses for bad images.
+Your pictures will be worse with if you use a cellphone rather than a good camera, period. But if that is all you have, a cell phone is better than nothing and with a little bit of effort fairly decent photos can be made. You should always get a camera with a bigger sensor and better lens than your cellphone but I know that sometimes time runs short. For those instances, the video below shows how to take ok photographs with just a cell phone and a clip on light. There are no excuses for bad images. Remember to shoot both RAW and JPG when using a camera or your cellphone. Most cellphones can be set to shoot RAW images.
 
 <div class="video-grid">
 <div class="video-card">

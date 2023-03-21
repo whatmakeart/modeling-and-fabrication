@@ -14,7 +14,7 @@ draft: false
 
 Take a minimum of two photos of your 3D Test Print. Take one from a 3/4 angle that shows a good representation of the form. Take the other from a composition of your choice. This could show some detail of the print. Make sure the print is in focus. Using a camera from the checkout with a zoom feature will help. Use good lighting and shoot in JPG and RAW so you can edit and post process your images.
 
-White balance should be corrected](https://www.youtube.com/watch?v=m0yZEWUSahk) and the levels should be adjusted to have good exposure. Use PhotoShop and [Adobe Camera Raw](https://www.youtube.com/watch?v=11jwSwUu2WI) to make adjustments and to retouch any mistakes in the images.
+White balance should be [corrected](https://www.youtube.com/watch?v=m0yZEWUSahk) and the levels should be adjusted to have good exposure. Use PhotoShop and [Adobe Camera Raw](https://www.youtube.com/watch?v=11jwSwUu2WI) to make adjustments and to retouch any mistakes in the images.
 
 ### Use Backdrop and Lights in the Classroom
 

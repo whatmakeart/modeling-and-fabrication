@@ -59,7 +59,7 @@ Tongue and Groove Joint
 
 <figure>
 
-[![Dovetail Joint](2022-cnc-dovetail-joint.jpg)](2022-cnc-dovetail-joint.jpg)
+[![Dovetail Joint](../2022-cnc-dovetail-joint.jpg)](../2022-cnc-dovetail-joint.jpg)
 
 <figcaption>
 
@@ -70,7 +70,7 @@ Dovetail Joint
 
 <figure>
 
-[![Lap Joint](2022-cnc-lap-joint.jpg)](2022-cnc-lap-joint.jpg)
+[![Lap Joint](../2022-cnc-lap-joint.jpg)](../2022-cnc-lap-joint.jpg)
 
 <figcaption>
 
@@ -81,7 +81,7 @@ Lap Joint
 
 <figure>
 
-[![T-Lap Joint](2022-cnc-t-lap-joint.jpg)](2022-cnc-t-lap-joint.jpg)
+[![T-Lap Joint](../2022-cnc-t-lap-joint.jpg)](../2022-cnc-t-lap-joint.jpg)
 
 <figcaption>
 
@@ -91,6 +91,8 @@ T-Lap Joint
 </figure>
 
 </div>
+
+## Examples of CNC Joints in Fusion 360
 
 <div class="video-grid">
 

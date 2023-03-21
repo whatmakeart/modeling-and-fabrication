@@ -67,6 +67,8 @@ On the [CIA Equipment Checkout Page](https://cia.webcheckout.net/sso/patron#!/) 
 
 [![tripod](https://cia.webcheckout.net/attachments/184929/manfrotto_mkcompact.jpg)](https://cia.webcheckout.net/sso/patron#!/category/104834)
 
+</div>
+
 ## Photograph with Cellphone?
 
 Your pictures will be worse with if you use a cellphone rather than a good camera, period. But if that is all you have, a cell phone is better than nothing and with a little bit of effort fairly decent photos can be made. You should always get a camera with a bigger sensor and better lens than your cellphone but I know that sometimes time runs short. For those instances, the video below shows how to take ok photographs with just a cell phone and a clip on light. There are no excuses for bad images. Remember to shoot both RAW and JPG when using a camera or your cellphone. Most cellphones can be set to shoot RAW images.
@@ -76,7 +78,8 @@ Your pictures will be worse with if you use a cellphone rather than a good camer
 
 ### Document Art with Cellphone
 
-<div class="iframe-16-9-container" ><iframe class="youTubeIframe" src="https://www.youtube.com/embed/Cq_Cx_5Zhks?rel=0" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+<div class="iframe-16-9-container" >
+<iframe class="youTubeIframe" src="https://www.youtube.com/embed/Cq_Cx_5Zhks?rel=0" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 </div>
 </div>
 

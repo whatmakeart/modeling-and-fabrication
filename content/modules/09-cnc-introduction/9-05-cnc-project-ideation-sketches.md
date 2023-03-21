@@ -13,6 +13,20 @@ draft: false
 
 ## Assignment Overview
 
+In this project we will design a stool, chair, end table or another large supportive device with an intended purpose such as perfectly holding a PS5.
+
+![[CNC Stool Example](../2021-cnc-stool-example.jpg)](../2021-cnc-stool-example.jpg)
+
+### Design Requirements
+
+- Support the weight of a person or the intended item
+- Have considered aesthetics
+- Use 1/2" or 3/4" plywood
+- Use more than 1 type of joint
+- Have a considered and designed top surface, this could have engraving or decorative joints
+- Be a relatively standard size
+- Use all of the space of a half sheet of plywood or all of the space of a full sheet of plywood
+
 ## Process
 
 1.  Make a minimum of 10 thumbnail sketches of ideas. Keep the ideas varied and different. Push yourself to be inspired by designs you researched but to come up with your own ideas and concepts.

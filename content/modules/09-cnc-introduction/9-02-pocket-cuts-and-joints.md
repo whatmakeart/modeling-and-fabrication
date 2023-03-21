@@ -20,21 +20,75 @@ Most traditional woodworking joints can be adapted to work with a CNC. The high 
 
 Additional joints that can be made by CNC machines are:
 
-- lap joints
+- [lap joint](https://youtu.be/O5IR9pr9vdo?t=89)
 - [tongue and groove joint](https://youtu.be/BA_oj65hh74)
-- mitered lap joints
+- [mitered lap joint](https://youtu.be/O5IR9pr9vdo?t=218)
+- [Dovetail Joint](https://youtu.be/O5IR9pr9vdo?t=470)
+- [Curvy Dovetail for CNC](https://youtu.be/O5IR9pr9vdo?t=690)
 - stair step mitered joints
-- t-lap joints, mortise and tenon joints
-- [blind mortise and tenon joints](https://youtu.be/Pr7YYYhvJxY)
-- box joints
-- blind box joints
-- keyed mortise and tenon joints
+- [t-lap joint](https://youtu.be/O5IR9pr9vdo?t=340)
+- mortise and tenon joints
+- [blind mortise and tenon joint](https://youtu.be/Pr7YYYhvJxY)
+- box joint
+- blind box joint
+- keyed mortise and tenon joint
 
 <div class="gallery-grid">
 
+<figure>
+
 [![Blind Mortise Tenon Joint](../2023-cnc-blind-mortise-tenon-joint.jpg)](../2023-cnc-blind-mortise-tenon-joint.png)
 
+<figcaption>
+
+Blind Mortise Tenon Joint
+
+</figcaption>
+</figure>
+
+<figure>
+
 [![Tongue and Groove Joint](../2023-cnc-tongue-and-groove-joint.jpg)](../2023-cnc-tongue-and-groove-joint.png)
+
+<figcaption>
+
+Tongue and Groove Joint
+
+</figcaption>
+</figure>
+
+<figure>
+
+[![Dovetail Joint](2022-cnc-dovetail-joint.jpg)](2022-cnc-dovetail-joint.jpg)
+
+<figcaption>
+
+Dovetail Joint
+
+</figcaption>
+</figure>
+
+<figure>
+
+[![Lap Joint](2022-cnc-lap-joint.jpg)](2022-cnc-lap-joint.jpg)
+
+<figcaption>
+
+Lap Joint
+
+</figcaption>
+</figure>
+
+<figure>
+
+[![T-Lap Joint](2022-cnc-t-lap-joint.jpg)](2022-cnc-t-lap-joint.jpg)
+
+<figcaption>
+
+T-Lap Joint
+
+</figcaption>
+</figure>
 
 </div>
 

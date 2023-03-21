@@ -91,8 +91,11 @@ Your pictures will be worse with if you use a cellphone rather than a good camer
 
 | Assessment                    | Weight    |
 | ----------------------------- | --------- |
-| Cardboard Model               | 20 points |
-| Cardboard Model Documentation | 20 points |
+| Cardboard Model Design        | 30 points |
+| Cardboard Scale               | 20 points |
+| Cardboard Model Documentation | 30 points |
+| RAW Files Uploaded            | 10 points |
+| Craft and Assembly            | 10 points |
 | File Management               | 10 points |
 
 </div>

@@ -40,10 +40,10 @@ In this project we will design a stool, chair, end table or another large suppor
 
 | Assessment           | Weight    |
 | -------------------- | --------- |
-| 7 thumbnails         | 10 points |
-| 3 revised sketches   | 20 points |
-| Larger Final Sketch  | 20 points |
-| Sketch Documentation | 10 points |
+| 7 thumbnails         | 25 points |
+| 3 revised sketches   | 25 points |
+| Larger Final Sketch  | 25 points |
+| Sketch Documentation | 15 points |
 | File Management      | 10 points |
 
 </div>

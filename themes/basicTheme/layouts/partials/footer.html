@@ -1,9 +1,20 @@
 <footer id="footer" class="container-fluid  justify-content-center">
 
     <div class="row">
-        <div class="col">
-            <p class="footer text-center">Copyright (c) Jimmy Kuehnle
+        <div class="gallery-grid">
+            <p>Copyright (c) Jimmy Kuehnle
             </p>
+
+            <span>
+                {{ if .IsPage}}
+                {{ if .File.Path}}
+                {{ $.Scratch.Set "FilePath" .File.Path }}
+                {{ end }}
+                {{ with .Site.Params.GithubEdit}}
+                <a href='{{ . }}{{ $.Scratch.Get "FilePath" }}' class="btn">Edit this page on GitHub</a>
+                {{ end }}
+                {{ end }}
+            </span>
         </div>
     </div>
 </footer>

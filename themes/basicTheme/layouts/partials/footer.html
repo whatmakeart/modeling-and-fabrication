@@ -6,14 +6,24 @@
             </p>
 
             <span>
-                {{ if .IsPage}}
-                {{ if .File.Path}}
-                {{ $.Scratch.Set "FilePath" .File.Path }}
+                {{ $geekdocRepo := default (default false .Site.Params.GeekdocRepo) .Page.Params.GeekdocRepo }}
+                {{ $geekdocEditPath := default (default false .Site.Params.GeekdocEditPath) .Page.Params.GeekdocEditPath }}
+                {{ if .File }}
+                {{ $.Scratch.Set "geekdocFilePath" (default (path.Join (default "content" .Site.Params.contentDir) .File.Path) .Page.Params.GeekdocFilePath) }}
+                {{ else }}
+                {{ $.Scratch.Set "geekdocFilePath" false }}
                 {{ end }}
-                {{ with .Site.Params.GithubEdit}}
-                <a href='{{ . }}{{ $.Scratch.Get "FilePath" }}' class="btn">Edit this page on GitHub</a>
-                {{ end }}
-                {{ end }}
+
+                <div>
+                    <span class="editpage">
+                        <svg class="gdoc-icon gdoc_code">
+                            <use xlink:href="#gdoc_code"></use>
+                        </svg>
+                        <a href="{{ $geekdocRepo }}/{{ path.Join $geekdocEditPath ($.Scratch.Get " geekdocFilePath") }}">
+                            {{ i18n "edit_page" }}
+                        </a>
+                    </span>
+                </div>
             </span>
         </div>
     </div>

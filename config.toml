@@ -41,6 +41,7 @@ custom_css = "css/styles.css"
   # and the path must point to the parent directory of the 'content' folder.
   # You can also specify this parameter per page in front matter.
   geekdocEditPath = "edit/main"
+  contentDir = "content"
 
 [markup.goldmark.renderer]
 unsafe = true

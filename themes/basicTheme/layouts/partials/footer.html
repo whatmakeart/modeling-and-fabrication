@@ -5,7 +5,7 @@
             <p>Copyright (c) Jimmy Kuehnle
             </p>
 
-            <span>
+            <p>
                 {{ $geekdocRepo := default (default false .Site.Params.GeekdocRepo) .Page.Params.GeekdocRepo }}
                 {{ $geekdocEditPath := default (default false .Site.Params.GeekdocEditPath) .Page.Params.GeekdocEditPath }}
                 {{ if .File }}
@@ -14,17 +14,13 @@
                 {{ $.Scratch.Set "geekdocFilePath" false }}
                 {{ end }}
 
-                <div>
-                    <span class="editpage">
-                        <svg class="gdoc-icon gdoc_code">
-                            <use xlink:href="#gdoc_code"></use>
-                        </svg>
-                        <a href="{{ $geekdocRepo }}/{{ path.Join $geekdocEditPath ($.Scratch.Get " geekdocFilePath") }}">
-                            {{ i18n "edit_page" }}
-                        </a>
-                    </span>
-                </div>
-            </span>
+
+
+                <a href="{{ $geekdocRepo }}/{{ path.Join $geekdocEditPath ($.Scratch.Get " geekdocFilePath") }}"> Edit Page </a>
+
+
+
+            </p>
         </div>
     </div>
 </footer>

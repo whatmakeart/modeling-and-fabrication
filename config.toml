@@ -32,16 +32,10 @@ custom_css = "css/styles.css"
   slack = ""
   stackoverflow = ""
   rss = ""
-
-   # (Optional, default none) Set source repository location. Used for 'Edit page' links.
-  # You can also specify this parameter per page in front matter.
-  geekdocRepo = "https://github.com/whatmakeart/modeling-and-fabrication"
-
-  # (Optional, default none) Enable 'Edit page' links. Requires 'GeekdocRepo' param
-  # and the path must point to the parent directory of the 'content' folder.
-  # You can also specify this parameter per page in front matter.
-  geekdocEditPath = "edit/main"
-  contentDir = "content"
+ 
+basicThemeRepo = "https://github.com/whatmakeart/modeling-and-fabrication"
+basicThemeEditPath = "edit/main/content"
+contentDir = "content"
 
 [markup.goldmark.renderer]
 unsafe = true

@@ -14,7 +14,7 @@
                 {{ $.Scratch.Set "geekdocFilePath" false }}
                 {{ end }}
 
-
+                {{ $showEdit := (and ($.Scratch.Get "geekdocFilePath") $geekdocRepo $geekdocEditPath) }}
 
                 <a href="{{ $geekdocRepo }}/{{ path.Join $geekdocEditPath ($.Scratch.Get " geekdocFilePath") }}"> Edit Page </a>
 

@@ -201,13 +201,22 @@ a.title-link {
 }
 
 #top-prev-next,
-#bottom-prev-next {
+#bottom-prev-next,
+.footer-links {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 1rem;
   padding: 1rem 0 1rem 0;
   max-width: var(--text-max-width);
   margin: 0 auto;
+}
+
+.footer-links {
+  padding-top: 4rem;
+}
+
+.footer-item {
+  text-align: center;
 }
 
 /* For over text width size */

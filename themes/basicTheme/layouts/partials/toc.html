@@ -1,0 +1,9 @@
+
+{{ if (gt .WordCount 200 ) }}
+<aside id="topTOC">
+    <header>
+        <h2 class="toc-header">Table of Contents</h2>
+    </header>
+    {{.TableOfContents}}
+</aside>
+{{ end }}

@@ -1,7 +1,5 @@
-<footer id="footer" class="container-fluid  justify-content-center mt-auto">
-    <!-- .mt-auto margin top auto for keeping footer flush to bottom -->
+<footer id="footer" class="container-fluid  justify-content-center mt-auto"> <!-- .mt-auto margin top auto for keeping footer flush to bottom -->
     <div class="row">
-
 
         <div class="gallery-grid footer-links">
             <p class="footer-item">Copyright (c) Jimmy Kuehnle
@@ -17,8 +15,6 @@
                 {{ end }}
 
                 {{ $showEdit := (and ($.Scratch.Get "basicThemeFilePath") $basicThemeRepo $basicThemeEditPath) }}
-
-
 
                 {{ with .File.Path }}
                 <a class="btn btn-outline-dark" href="{{ $basicThemeRepo }}/{{ path.Join $basicThemeEditPath  }}/{{ . }}">Edit this page</a>

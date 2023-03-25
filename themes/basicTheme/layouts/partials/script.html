@@ -1,2 +1,6 @@
-<script src="/modeling-and-fabrication/js/scripts.js"></script>
-<script src="/modeling-and-fabrication/js/bootstrap.min.js"></script>
+<script src="{{ .Site.BaseURL }}js/scripts.js"></script>
+<script src="{{ .Site.BaseURL }}js/bootstrap.min.js"></script>
+
+{{ if (findRE "<pre" .Content 1) }} <script src="{{ .Site.BaseURL }}js/copy-code-button.js">
+    </script>
+    {{ end }}

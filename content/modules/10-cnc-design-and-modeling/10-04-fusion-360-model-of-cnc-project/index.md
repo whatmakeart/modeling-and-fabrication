@@ -17,22 +17,33 @@ draft: false
 
 1. Using your revised sketches and scale cardboard model, identify the different parts of your project. Each of these parts will be a different component in the Fusion 360 model.
 2. Think about how you will construct and assemble the pieces. Will you use tabs and slots? How will they work?
-3. Remember that the CNC can not cut a square inside corner so you need to add dogbone or T-Bone fillets. Think about how you add to fillets so you can conceal them. This [video](https://youtu.be/fjrEmJeM-qw) shows how to add invisible dogbone fillets to your model. You can add them when the model is assembled or when it is laid flat. [https://youtu.be/fjrEmJeM-qw](https://youtu.be/fjrEmJeM-qw)
+3. Make sure that no parts overlap each other, especially where the joints are. Under the Inspect tab in Fusion 360, use the "interference" tool to check for overlapping parts.
+4. Apply materials and make a rendering of the project.
+5. Switch to the Manufacture Workspace.
+6. Create a manufacture model.
+7. Right click on the manufacture model to edit.
+8. Draw a sketch on the ground plane to represent the 24" x 60" piece of plywood.
+9. Use arrange toll to place all the parts flat on the sketch. If all of the parts do not fit, then you will need to use a bigger piece of plywood. Edit the size of the plywood sketch until the parts fit or change the size of the model until the parts fit.
+10. Take a screenshot or make a rendering of your parts laid flat. To make the screenshot or rendering more interesting, unhide the assembled model so you can see the flat parts and the assembled model at the same time.
 
-Lay all of the parts flat after the design is complete. Use arrange to place them on a virtual 48"x48" piece of plywood or on a 96" x 48" piece of plywood. Take a screenshot or rendering of your parts laid flat. Make a rendering of your assembled piece with appearances applied. Export your .f3d Fusion 360 file.
+## Resources
+
+- [How to take a screenshot in Windows](https://support.microsoft.com/en-us/windows/use-snipping-tool-to-capture-screenshots-00246869-1843-655f-f220-97299b865f6b)
+- [How to take a screenshot on OS X](https://support.apple.com/guide/mac-help/take-a-screenshot-mh26782/mac)
 
 ## Grading Rubric
 
 <div class="responsive-table-markdown">
 
-| Assessment                        | Weight    |
-| --------------------------------- | --------- |
-| Model Quality                     | 50 points |
-| Manufacture Workspace Setup       | 20 points |
-| Render Image of CNC Project       | 20 points |
-| Shopbot Toolpath Exported         | 20 points |
-| Render Image of Pieces Layed Flat | 20 points |
-| Toolpath Simulation Screenshot    | 10 points |
-| File Management                   | 10 points |
+| Assessment                      | Weight    |
+| ------------------------------- | --------- |
+| Model Quality                   | 20 points |
+| Parts as Separate Components    | 20 points |
+| CNC Joints Modeled              | 20 points |
+| Multiple User Parameters        | 20 points |
+| Manufacture Model Created       | 20 points |
+| Render Image of CNC Model       | 20 points |
+| Screenshot of Pieces Layed Flat | 20 points |
+| File Management                 | 10 points |
 
 </div>

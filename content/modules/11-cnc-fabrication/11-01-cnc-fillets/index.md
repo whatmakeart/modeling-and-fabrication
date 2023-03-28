@@ -8,6 +8,8 @@ A laser cutter has a very thin beam and although it can't cut a perfect inside c
 
 There are two methods of making dogbone fillets, one is the classic "cartoon dogbone" and the other are "invisible". They are still cut into the wood but are positioned so the connecting piece covers the cuts and therefore the fillets are not seen in the final project.
 
+3. Remember that the CNC can not cut a square inside corner so you need to add dogbone or T-Bone fillets. Think about how you add to fillets so you can conceal them. This [video](https://youtu.be/fjrEmJeM-qw) shows how to add invisible dogbone fillets to your model. You can add them when the model is assembled or when it is laid flat. [https://youtu.be/fjrEmJeM-qw](https://youtu.be/fjrEmJeM-qw)
+
 <div class="video-grid">
 <div class="video-card">
 

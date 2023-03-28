@@ -5,7 +5,7 @@
 <h3>{{ .Key }}</h3>
 <ul>
     {{ range .Pages.ByTitle }}
-    <li>
+    <li class="list-unstyled">
         <a class="title-link" href="{{ .Permalink }}">{{ .Title }}</a>
     </li>
     {{ end }}

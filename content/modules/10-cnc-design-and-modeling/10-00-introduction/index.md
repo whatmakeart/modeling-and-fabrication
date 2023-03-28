@@ -20,9 +20,8 @@ In the design process, once a sketches and a simple prototype are made we assess
 ## Key Terms
 
 - Robust parametric model
-- CNC fillet
-- Tolerance
-- Fit
+- Manufacture Model
+- Envelope
 - Inside corner
 - Outside corner
 - Prototype

@@ -10,33 +10,57 @@ draft: false
 
 This [video](https://youtu.be/9utpuieg5lI) shows the process of creating a simple hexagon stool. The video uses a previous method using joints to lay the parts flat. You should use the [arrange tool](https://youtu.be/GzknioA34F8) when you lay your parts flat.
 
-![CNC Hex Stool Rendering](20210310_kuehnle_jimmy_hex_stool_rendering.jpg)
+<div class="gallery-grid">
 
-![CNC Hex Stool Layed Flat](20210310_kuehnle_jimmy_hex_stool_rendering_parts_flat.jpg)
+![CNC Hex Stool Rendering](2021-hex-stool-rendering.jpg)
+
+![CNC Hex Stool Parts Layed Flat](2021-hex-stool-rendering-parts-flat.jpg)
+
+![CNC Hex Stool Parts Layed Flat Screenshot](2021-hex-stool-screenshot-parts-flat.png)
+
+</div>
 
 ### End Table
 
 This [video](https://youtu.be/GzknioA34F8) shows the process of creating a simple end table. The video uses a previous method using joints to lay the parts flat. You should use the [arrange tool](https://youtu.be/GzknioA34F8) when you lay your parts flat.
 
-![End Table Rendering](20210310_kuehnle_jimmy_end_table_rendering.jpg)
+<div class="gallery-grid">
 
-![End Table Parts Flat](20210210_kuehnle_jimmy_end_table_rendering_parts_flat.jpg)
+![End Table Rendering](2021-end-table-rendering.jpg)
+
+![End Table Parts Flat](2021-end-table-rendering-parts-flat.jpg)
+
+![End Table Parts Flat Screenshot](2021-end-table-screenshot-parts-flat.png)
+
+</div>
 
 ### Circle Stool
 
 This [video](https://youtu.be/I6FEMdtcrpI) shows the process of creating a simple circle stool. The video uses a previous method using joints to lay the parts flat. You should use the [arrange tool](https://youtu.be/GzknioA34F8) when you lay your parts flat.
 
-![CNC Circle Stool Rendering](20210310_kuehnle_jimmy_circle_stool_rendering_of_stool.jpg)
+<div class="gallery-grid">
 
-![CNC Circle Stool Parts Layed Flat](/ICS/icsfs/mm/20210310_kuehnle_jimmy_circle_stool_rendering_of_parts_flat.jpg)
+![CNC Circle Stool Rendering](2021-circle-stool-rendering.jpg)
+
+![CNC Circle Stool Parts Layed Flat](2021-circle-stool-rendering-parts-flat.jpg)
+
+![CNC Circle Stool Parts Layed Flat Screenshot](2021-circle-stool-screenshot-of-parts-flat.png)
+
+</div>
 
 ### Plywood Chair
 
 This [video](https://youtu.be/GqXQ8TdzYRE) shows the process of creating a simple plywood chair. The video uses a previous method using joints to lay the parts flat. You should use the [arrange tool](https://youtu.be/GzknioA34F8) when you lay your parts flat.
 
-![CNC Plywood Chair](/ICS/icsfs/mm/20210311_kuehnle_jimmy_cnc_chair_rendering.png)
+<div class="gallery-grid">
 
-![CNC Plywood Chair Parts Layed Flat](/ICS/icsfs/mm/20210311_kuehnle_jimmy_cnc_chair_rendering_parts_flat.jpg)
+![CNC Plywood Chair](2021-cnc-chair-rendering.png)
+
+![CNC Plywood Chair Parts Layed Flat](2021-cnc-chair-rendering-parts-flat.jpg)
+
+![CNC Plywood Chair Parts Layed Flat Screenshot](2021-cnc-chair-screenshot-parts-flat.png)
+
+</div>
 
 ## Fusion 360 CNC Tutorial Videos
 

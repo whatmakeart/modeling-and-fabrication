@@ -30,7 +30,7 @@ A traditional story arc contains an introduction of the story, plot, characters 
 
 ## Story Spine Structure
 
-A story spine is a concept created by Kenn Adams in the book "The Art of Spontaneous Theater.” It is a simple outline with prompts that assist a storyteller develop a structure for their narrative. We will use this 9 part structure to develop our animations to have 3 simple acts.
+A story spine is a concept created by Kenn Adams in the book "The Art of Spontaneous Theater.” [^1] It is a simple outline with prompts that assist a storyteller develop a structure for their narrative. We will use this 9 part structure to develop our animations to have 3 simple acts.
 
 ### 3 Act Narrative Story Spine Structure
 
@@ -68,3 +68,5 @@ The characters must make a choice to overcome the obstacles of Act 2\. This the 
 | Storyboard           | 60 points |
 | Documentation        | 10 points |
 | File Management      | 10 points |
+
+[^1]: Kenn Adams "The Art of Spontaneous Theater”

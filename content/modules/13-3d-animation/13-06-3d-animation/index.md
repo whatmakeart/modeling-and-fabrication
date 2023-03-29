@@ -6,18 +6,6 @@ draft: false
 
 # 15 - 30 Second Animation in a 3D Environment
 
-# What am I Turning In Next Week?
-
-1.  Story Spine - [Story Spine Instructions](#story-spine-instructions)
-2.  Storyboards drawn and scanned in - [Storyboard Instructions](#storyboard-instructions)
-3.  Animation Set(s) Modeled in Maya - (Upload as a Maya Scene Archive) - [Animation Set Model Instructions](#animation-set-instructions)
-4.  Rendered Image of Animation Set - [Set Render Instructions](#set-render-instructions)
-
-# What am I Turning In Last Day of Class?
-
-1.  Rendered image sequence of animation (folder of images exported from Maya) - [Animation Instructions](#animation-instructions)
-2.  Edited and Exported mp4 video of Edited Animation with Sound and Music - [Video Editing Instructions](#video-editing-instructions)
-
 ## Requirements
 
 Must be a ~15-30 second long video composed in Adobe Premiere using images created and rendered in Autodesk Maya.
@@ -47,119 +35,23 @@ Add lights to the scene. Make sure to only add "Arnold Lights." Do not use any o
 
 Add multiple cameras to the scene. Animate a bouncing ball that travels through the scene in an interesting way. Use the animation principles of squash, stretch, exaggeration, anticipation and follow through. Use a minimum of 3 different camera angles and shot types. to apply textures to your objects. Export the different camera angles as separate sequence renders.
 
----
-
-# Narrative Arc
-
-<div class="flex-container-jimmy" style="display: flex; align-items: top; flex-wrap: wrap; margin-top: 0; margin-bottom: 0; gap: 1rem;">
-
-<div class="half-box" style="flex: 1 1 400px; margin-top: 0; margin-bottom: 0;">
-
-## What is a Story Spine?
-
-[Link to Blank Fillable Story Spine Sheet](https://docs.google.com/document/d/1vvbegQPV7Z1sd126H0XWCh8iD4bNExQ4/edit?usp=sharing&ouid=103106537131131071355&rtpof=true&sd=true)
-
-Spend a few minutes to write a brief Story Spine that follows a narrative arc. Remember that the project does not have to have any narrative structure. It can also be an abstract visual experience. Nevertheless any sequence of images will have some structure even if that structure is to intentionally disregard structure. Think of your structure as having 3 parts.
-
-In part 1 explain the setting of the animation. Where is it? What is seen? What is happening? What is the subject?
-
-In part 2 introduce a problem, conflict or goal. Where is the ball going? What does the ball want to do? Is everything exploding and on fire? Or is is a tranquil and peaceful setting where the problem is that the ball is bored?
-
-In part 3 resolve part 2\. What is the result of the actions of the ball after encountering part 2? How does the ball escape the fire or stop being bored?
-
-Writing a Story Spine and Storyboards will give you an outline and direction as you produce your animation materials. Rather than working with everything possible in the universe, the Story Spine and Story Boards will narrow the scope and set limitations that you can work creatively within.
-
-</div>
-
-<div class="half-box" style="flex: 1 1 400px; margin-top: 0; margin-bottom: 0;">
-
-## What is a Story Arc?
-
-A traditional story arc contains an introduction of the story, plot, characters and setting. This is called the Exposition. This leads into the Rising Action when the character is faced with a problem. The character then confronts obstacles along the way toward the Climax of the story, a moment of crisis that directs the rest of the plot. This is followed by Falling Action as the plot moves from climax to the ending. Finally a Resolution occurs and stability returns to the story.
-
-- **Exposition** – intro of plot, characters and setting
-- **Rising Action** – multiple incidents occur providing suspense and tension
-- **Climax** – moment of crisis that directs the rest of the plot
-- **Falling Action** – plot moves from climax to ending
-- **Resolution** – final results of plot - stability returns
-
-</div>
-
-</div>
-
-## Story Spine Structure
-
-A story spine is a concept created by Kenn Adams in the book "The Art of Spontaneous Theater.” It is a simple outline with prompts that assist a storyteller develop a structure for their narrative. We will use this 9 part structure to develop our animations to have 3 simple acts.
-
-### 3 Act Narrative Story Spine Structure
-
-You will use the story spine as the foundation for your 3 act narrative structure.
-
-**Act 1 – The first 3 parts of the story spine**
-
-This act sets the scene, introduces characters, shows how the world works. The act leads up to having have the rising action of "But, one day..."
-
-1.  Once upon a time...
-2.  Every day...
-3.  But, one day...
-
-**Act 2 - The Journey or the "Because of that..." Sequences**
-
-Show the journey of the character and how they overcome obstacles that they encounter. Often includes a low point of the character's journey. Hardship comes to the character as they experience a low point. A series of challenges is presented that lead to the climax or a fork in the road where a decision must be made. After this diction is made that there is often no going back.
-
-1.  Because of that...
-2.  Because of that...
-3.  Because of that...
-
-**Act 3 - Heading toward the climax and resolution**
-
-The characters must make a choice to overcome the obstacles of Act 2\. This the “Until, finally…” climatic moment of the story arc. This moves the story toward conclusion and resolution. The character demonstrates learning and growth. This often demonstrates the moral of the story.
-
-1.  Until, finally...
-2.  And, ever since then...
-3.  And the moral of the story is ....
-
-# Storyboards
-
-<div class="flex-container-jimmy" style="display: flex; align-items: top; flex-wrap: wrap; margin-top: 0; margin-bottom: 0; gap: 1rem;">
-
-<div class="half-box" style="flex: 1 1 400px; margin-top: 0; margin-bottom: 0;">
-
-[Link to Printable Storyboard Sheets](https://drive.google.com/file/d/1fWi_5xjUC9eDOkhaZ8smU050QQmqBhUY/view?usp=sharing) You can print these for free in black and white in the classroom or in the library.
-
-Make storyboards for your animation. Since the animation is 15-30 seconds long, you need a minimum of 15 storyboard panels. Remember to change angle and scale for each shot / scene / animation.
-
-You can print out the template from the course Google Drive Handouts Folder. To have 15 storyboard panels you need to use three pages of the storyboard template. Write down the type of shot on each panel. Write a brief description of what is happening. If you have a 15 second animation then each storyboard panel represents 1 second of animation. If you have a 30 second animation then each storyboard panel represents 2 seconds of animation. Plan accordingly so you do not have too much action or too little action.
-
-Scan your storyboards as a PDF. Label the PDF YYYYMMDD Lastname Firstname 3D Animation Storyboards.pdf. Upload to the Google Drive Folder.
-
-</div>
-
-<div class="half-box" style="flex: 1 1 400px; margin-top: 0; margin-bottom: 0;">
-
-![Storyboard Template](https://drive.google.com/uc?export=download&id=1y6LbtOwWGzwXLe0eCpwfwsEEtREZG9t0)
-
-</div>
-
-</div>
-
 # Make an Animation Set(s) & Assets
 
-## 1\. Make a List of Needed Assets
+## 1. Make a List of Needed Assets
 
 After you make your storyboards, make a list of the items and settings for your animation. Is there a boat and water? Is there a box of donuts? Does the ball sit on a shelf? Think of the simple shapes and polygons that can start to make these objects. A box of donuts could start with a scaled cube and a bunch of torus primatives in it, a shelf is just multiple scaled cubes, a boat is a bit more complex but is an elongated cube with some vetecies moved around.
 
-## 2\. Set Your Maya Project
+## 2. Set Your Maya Project
 
 Before you begin making any objects in your Maya scene, make sure you set your project. We did this in class but you should go to File > Set Project and then choose your project folder everytime you start working in Maya. This makes sure you are working with the right files and folders. Always move a texture or external file into your project folder before importing into Maya.
 
-## 3\. 3D Model Objects
+## 3. 3D Model Objects
 
 After you set your Maya Project, begin to create the assets that you need for your animation set. This includes objects, a ground plane, things in the background, walls, hills, etc. You can make multiple scene files and combine them or make everything in one scene file. Sometimes it is better to make an object as its own scene file and then import it into your main animation set scene file. This videos shows [how to import and reference other scenes into your main scene.](https://youtu.be/WDpYKvhSOYI) How you organize your files is up to you as long as all files are in your project folder.
 
 Model multiple 3D objects to create an interesting visual environment to animate in. Add walls / furniture, rugs, chairs, tables, buildings and other objects forms. You setting(s) can be indoors or outdoors or both. Making a new scene file for different settings is a good idea. All scene files should be in your project's scenes folder. Think
 
-## 4\. Add Materials and Textures
+## 4. Add Materials and Textures
 
 After you finish modeling your objects, combine all the mesh parts with Mesh > Combine. Then delete the history and freeze the transformation. This video shows [how to delete history and freeze transformations](https://youtu.be/1SXvWTiMkjs). You will do tis multiple times on different objects as you model and make changes. Begin to add materials and textures to the objects in your scene. You can right click on your different objects while in Object Mode. Then select "Assign New Material". Click on Arnold in the menu and then select aiStandardSurface. In the Attribute Editor change the name of the aiStandardSurface to the name of your object. You can add "Shader" to the end of the name. Then select a color or a preset.
 
@@ -169,7 +61,7 @@ Don't forget about using photo-based materials / textures. You can easily create
 
 You can also UV unwrap your model and export it as an OBJ file to texture in Substance Painter. This video shows [how to quickly UV unwrap your object and export a OBJ file](https://youtu.be/8-TMjuvzZEU). Substance Painter is installed on the lab computers but you will need to download it from the Adobe Creative Cloud if using your laptop. Create a new file in Substance Painter, select the top default template and then select your exported OBJ file. Paint the textures you want and then export your textures to your "sourceimages" folder in you Maya Project. You can use the Substance plugin in Maya to assign your textures to a new material and then assign that material to your object. This video shows [how to make and export textures with Substance Painter](https://youtu.be/sCKc_6nTRPM).
 
-## 5\. Add Lights
+## 5. Add Lights
 
 If you try to render your animation scene with the Arnold Render view, everything will be black because there are no lights in the scene. You need to add lights from the Arnold lights menu. Only add Arnold lights. Do not add any Maya lights. If you select lights from the Arnold menu then you will only add Arnold Lights.
 
@@ -177,163 +69,23 @@ For a quick view of your set you can add a simple skydome light. This will light
 
 Place as many lights as you need in different places in your scene. Vary the intensity and color of the lights. It is a good idea to label the lights with descriptive names in your Outliner on the left hand side of the screen so you don't get confused.
 
-## 6\. Add a Renderable Camera
+## 6. Add a Renderable Camera
 
 After you add lights, then you should add a new Render Camera. This video shows [how to add a renderable camera](https://www.youtube.com/watch?v=VfqYe8O6KlM) to your Maya scene. You can look through this camera and position it for your scene. Then you can lock the camera so it does not move. Then you can switch back to the default perspective camera to continue modeling and editing your scene. Label the new camera that you created and then make sure to select it in the Arnold Renderview Window.
 
 Add multiple cameras for the different shots and animations you want to create. You may want to make duplicate scenes for different actions. This video shows [how to add multiple renderable cameras](https://www.youtube.com/watch?v=g0btNU7YPUo) to your scene.
 
-## 7\. Make a Minimum of 1 Render of Your Animation Set(s)
+## 7. Make a Minimum of 1 Render of Your Animation Set(s)
 
 After your lights and camera are set up, make and save a high resolution, high quality render of your scene. The default render settings are too low for presentation but are good for quick renders. To export your high quality render you need to change the render settings before rendering.
 
 Change the render size to a minimum of HD_1080 1920x1080 and increase the Arnold - Camera (AA) samples to at least 5\. Remember to changes this back to the default HD_540 and 3 samples so your test renders go quickly while modeling.
 
-## 8\. Make an Archive ZIP of Your Scene
+## 8. Make an Archive ZIP of Your Scene
 
 After you create your scene. Archive the Maya scene with the Maya scene archiver. If you do not archive the scene, then texture files will not be attached and you will only have the model data. To archive your scene, with your scene open, go to File > Archive Scene. This will create a zip of your scene and any needed texture files. It will create a zip file in your Project's scenes folder. This video [shows how to archve a Maya scene](https://youtu.be/gic-kMWKjNI).
 
 Label this zip file as YYYYMMDD Lastname Firstname Archived Set Scene.zip Turn in to the class Google Drive Folder.
-
-# Develop Your Story and Visual Experience
-
-Think about movies, cartoons or video games that you have experienced? Is everything shown in one static camera shot? Of course not. That would be boring and uninteresting. The same thing holds true for your animation projects. Use multiple cameras and camera angles to break up your story and show different parts with more detail. Use wide establishing shots to set the scene. Your audience will piece all the shots together in their mind and create a convincing 3D world to experience your story in.
-
-## Shot Types / Camera Angles
-
-- **Long Shot / Establishing Shot** - Sets up the scene and gives the viewer a visual understanding of the environment around the subject
-- **Full Shot** - All of the subject is visible in the frame but is closer than a long shot
-- **Medium Shot** - the bottom of the frame is barely above or barely below the waist of the subject and the entire head and torso is in the shot
-- **Close Up** - Usually cuts off the top of the head of the subject and shows just a bit of the shoulder line
-- **Extreme Close Up** - Crops in to frame the subject's chin and forehead
-
-### Examples of Shot Types
-
-<div class="gallery" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); grid-gap: 10px; justify-content: center;">
-
-<div class="image-box" style="position: relative; min-width: 300px; display: flex; flex-direction: column;">
-
-![Lego Establishing Shot](2021-Establishing-Shot.jpg)
-
-Establishing Shot
-
-</div>
-
-<div class="image-box" style="position: relative; min-width: 300px; display: flex; flex-direction: column;">
-
-![Lego Full Shot](2021-full-shot.jpg)
-
-Full Shot
-
-</div>
-
-<div class="image-box" style="position: relative; min-width: 300px; display: flex; flex-direction: column;">
-
-![Lego Medium Shot](2021-medium-shot.jpg)
-
-Medium Shot
-
-</div>
-
-<div class="image-box" style="position: relative; min-width: 300px; display: flex; flex-direction: column;">
-
-![Lego Close Up](2021-close-up.jpg)
-
-Close Up
-
-</div>
-
-<div class="image-box" style="position: relative; min-width: 300px; display: flex; flex-direction: column;">
-
-![Lego Extreme Close Up](2021-extreme-closeup.jpg)
-
-Extreme Close Up
-
-</div>
-
-</div>
-
-### How Does This Work for a Ball?
-
-Using a simple shape like a ball as the subject of a composition does not change the shot types. There are still establishing shots and close ups. By changing the angle and distance of the camera the ball takes on new feelings and meaning.
-
-<div class="gallery" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); grid-gap: 10px; justify-content: center;">
-
-<div class="image-box" style="position: relative; min-width: 300px; display: flex; flex-direction: column;">
-
-![Ball Establishing Shot](2021-ball-establishing.jpg)
-
-Establishing Shot
-
-</div>
-
-<div class="image-box" style="position: relative; min-width: 300px; display: flex; flex-direction: column;">
-
-![Ball Full Shot](2021-ball-full-shot.jpg)
-
-Full Shot
-
-</div>
-
-<div class="image-box" style="position: relative; min-width: 300px; display: flex; flex-direction: column;">
-
-![Ball Medium Shot](2021-ball-medium-shot.jpg)
-
-Medium Shot
-
-</div>
-
-<div class="image-box" style="position: relative; min-width: 300px; display: flex; flex-direction: column;">
-
-![Ball Close Up](2021-ball-close-up.jpg)
-
-Close Up
-
-</div>
-
-<div class="image-box" style="position: relative; min-width: 300px; display: flex; flex-direction: column;">
-
-![Ball Extreme Close Up](2021-ball-extreme-close-up.jpg)
-
-Extreme Close Up
-
-</div>
-
-</div>
-
-### Camera Angles
-
-Think of the shot types above as changing the size of the frame or changing the size of the available composition. In addition to shot types, you can also change the angle of the camera or the placement of the camera to alter the viewer's perspective. The shot type and camera angle can be changed independently
-
-Common camera angles include aerial shots, bird's eye perspective and low angle shots also know as worm's eye view.
-
-Your animation must use a minimum of 3 different shot types. It is a good rule of thumb to change the shot type and the angle of the camera for each scene, camera cut or panel of your storyboards. This keeps the viewer engaged with your visuals.
-
-## Rule of Thirds
-
-<div class="flex-container-jimmy" style="display: flex; align-items: top; flex-wrap: wrap; margin-top: 0; margin-bottom: 0; gap: 1rem;">
-
-<div class="half-box" style="flex: 1 1 400px; margin-top: 0; margin-bottom: 0;">
-
-This is a compositional rule of thumb. Divide the composition into 3 equal vertical sections and 3 equal horizontal sections. These sections are made by drawing 2 horizontal lines and 2 vertical lines each spaced evenly apart. The concept of the rule of thirds says that a composition is more dynamic and interesting if the main subject matter is placed on these composition lines or at the intersection of these lines. A brief survey of popular media will show this concept in wide use.
-
-Use the rule of thirds when composing your shots and sequences.
-
-</div>
-
-<div class="half-box" style="flex: 1 1 400px; margin-top: 0; margin-bottom: 0;">
-
-<div class="image-card-jimmy" style="display: flex; flex-direction: column; justify-content: stretch;">
-
-![Rule of Thirds](RuleOfThirds-SideBySide.gif)
-
-Left image is original, right image is cropped with rule of thirds. [Link to Wikimedia Commons](https://commons.wikimedia.org/wiki/File:RuleOfThirds-SideBySide.gif)
-
-</div>
-
-</div>
-
-</div>
 
 # Animate
 

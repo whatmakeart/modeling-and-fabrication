@@ -7,11 +7,11 @@ draft: false
 ## Assignment Deliverables
 
 1. Exported Fusion 360 File (.f3d file)
-2. Label file YYYYMMDD Lastname Firstname CNC Project Model.f3d
-3. One Rendering of CNC Project with appearances applied. Should be in a 4:3 1:1 or 16:9 aspect ration with one side at least 4000px (.png or .jpg)
-4. Label file YYYYMMDD Lastname Firstname CNC Project Rendering.f3d
-5. One screenshot of parts layed flat in the manufacture workspace. (.png or .jpg)
-6. Label file YYYYMMDD Lastname Firstname CNC Project Parts Layed Flat.f3d
+   - Label file YYYYMMDD Lastname Firstname CNC Project Model.f3d
+2. One Rendering of CNC Project with appearances applied. Should be in a 4:3 1:1 or 16:9 aspect ration with one side at least 4000px (.png or .jpg)
+   - Label file YYYYMMDD Lastname Firstname CNC Project Rendering.f3d
+3. One screenshot of parts layed flat in the manufacture workspace. (.png or .jpg)
+   - Label file YYYYMMDD Lastname Firstname CNC Project Parts Layed Flat.f3d
 
 ## Assignment Overview
 
@@ -30,6 +30,11 @@ draft: false
 
 - [How to take a screenshot in Windows](https://support.microsoft.com/en-us/windows/use-snipping-tool-to-capture-screenshots-00246869-1843-655f-f220-97299b865f6b)
 - [How to take a screenshot on OS X](https://support.apple.com/guide/mac-help/take-a-screenshot-mh26782/mac)
+
+### User Parameter Resources
+
+- [How to use user parameters](https://youtu.be/H6W-Og4YyZ8)
+- [How to add user parameters to an existing model?](https://youtu.be/sBEHI-N4DAY)
 
 ## Grading Rubric
 

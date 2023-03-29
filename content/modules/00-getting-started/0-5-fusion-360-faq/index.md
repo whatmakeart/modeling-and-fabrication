@@ -28,7 +28,6 @@ draft: false
 
 - [Join, Cut, Intersect Operations](https://youtu.be/iLr9d8Gp7Ls)
 - [How do I split a body?](https://youtu.be/d4iPXS8g9ms)
-- [How do I set user parameters?](https://youtu.be/H6W-Og4YyZ8)
 - [How to mirror an object?](https://youtu.be/vwCUjtsghdI)
 - **How to cut with an object after an object is already made?** - Use the move tool to make the objects overlap. Then use the combine tool to select a tool body (for cutting) and the target body (getting cut). It will show a red preview of what will be cut.
 - [How to Loft?](https://youtu.be/VzossdZbGtk)
@@ -38,7 +37,6 @@ draft: false
 
 ### Intermediate Modeling
 
-- [How to use User Parameters?](https://youtu.be/H6W-Og4YyZ8)
 - [How do I use the form workspace in Fusion 360?](https://youtube.com/playlist?list=PL8G4GiXpgTvL9MrVHLOWikPVFn-NPUWmp)
 
 ### Advanced Modeling

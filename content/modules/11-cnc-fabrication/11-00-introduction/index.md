@@ -18,3 +18,5 @@ draft: false
 - CNC fillet
 - Tolerance
 - Fit
+- Add user parameters for tolerance and fit
+- Add CNC fillets for clearing inside corners

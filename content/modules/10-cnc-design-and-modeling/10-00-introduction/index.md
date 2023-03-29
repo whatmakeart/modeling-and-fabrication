@@ -11,11 +11,11 @@ In the design process, once a sketches and a simple prototype are made we assess
 ## Learning Objectives
 
 - Examine a scale prototype to test design assumptions
-- Write down goo parts of the design as well as needed changes
+- Write down parts of the design as well as needed changes
 - Translate a prototype / model into a 3D digital model
-- Add user parameters for tolerance and fit
-- Add CNC fillets for clearing inside corners
-- Make a robust parametric 3D model
+- Make a robust parametric 3D model with multiple user parameters
+- Use manufacture model to lay parts flat
+- Learn about the ShopBot
 
 ## Key Terms
 
@@ -25,3 +25,4 @@ In the design process, once a sketches and a simple prototype are made we assess
 - Inside corner
 - Outside corner
 - Prototype
+- ShopBot

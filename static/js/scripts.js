@@ -92,7 +92,7 @@ function removeNavigationEmbed() {
     document.getElementById("header").remove();
     document.getElementById("footer").remove();
     document.getElementById("pageTitleH1").remove();
-    document.getElementById("top-prev-next").remove();
+    //document.getElementById("top-prev-next").remove();
     document.getElementById("bottom-prev-next").remove();
     document.getElementById("topTOC").remove();
     console.log("Removed iframe #header and #footer");

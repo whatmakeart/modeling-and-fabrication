@@ -5,3 +5,5 @@ draft: false
 ---
 
 ## Course Introduction
+
+This course is intended for first year college students studying art and design.

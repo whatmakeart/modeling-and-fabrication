@@ -5,7 +5,7 @@
 
     <h1 id="pageTitleH1">{{ .Title }}</h1>
 
-    <div id="top-prev-next">
+    <!--  <div id="top-prev-next">
 
         {{ if .NextPage }}
         <a class="btn btn-sm btn-outline-dark" href="{{ .NextPage.Permalink }}">« {{ .NextPage.Title | truncate 50 "..." }}</a>
@@ -15,7 +15,7 @@
         <a class="btn btn-sm btn-outline-dark" href="{{ .PrevPage.Permalink }}">{{ .PrevPage.Title | truncate 50 "..."}} »</a>
         {{ end }}
 
-    </div>
+    </div>-->
 
     {{ partial "toc.html" . }}
 

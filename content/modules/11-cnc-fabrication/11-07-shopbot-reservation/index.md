@@ -29,8 +29,8 @@ You must go to your reserved time because there are limited slots. The shop will
 
 ## [ShopBot Reservations](https://my.cia.edu/ICS/Fab_Studios/ShopBot_CNC.jnz)
 
-## Purchase Plywood
+## Purchase Additional Plywood
 
 After you make your Fusion 360 model of your CNC project, lay the parts out flat. Then look at the size of the sketch that you needed to use in the Arrange command to lay your parts flat. This will let you know how much plywood that you need. You can buy plywood in 48"x48" or 48"x96" or 60"x60". It comes in a range of thicknesses. Stop by the Fab Studios to see the plywood in person. Then purchase the right size board for your project. If your model is just a bit over you may be able to fit the last piece on someone else's scrap.
 
-## [Purchase Plywood](https://my.cia.edu/ICS/Student/Supply_Store/Fabrication_Studios/Wood/)
+[Purchase Plywood](https://my.cia.edu/ICS/Student/Supply_Store/Fabrication_Studios/Wood/)

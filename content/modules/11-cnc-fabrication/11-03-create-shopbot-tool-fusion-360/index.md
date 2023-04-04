@@ -12,52 +12,74 @@ Use the settings and values below to make your tool.
 
 ### General Tab
 
-- Description: ER25 Collet Nut
-- Vendor: ShopBot
-- Product ID: ER25
-- Product Link: [https://store.shopbottools.com/products/collet-nut-er25](https://store.shopbottools.com/products/collet-nut-er25)
+<div class="responsive-table-markdown">
+
+| Item           | Information                                                              |
+| -------------- | ------------------------------------------------------------------------ |
+| Description:   | ER25 Collet Nut                                                          |
+| Vendor:        | ShopBot                                                                  |
+| Product ID:    | ER25                                                                     |
+| Product Link:  | [ShopBot Store](https://store.shopbottools.com/products/collet-nut-er25) |
+
+</div>
 
 ### Holder Geometry Tab
 
-- Height #1: 17 mm
-- Upper Diameter #1: 42 mm
-- Lower Diameter #1: 42 mm
-- Height #2: 3 mm
-- Upper Diameter #2: 42 mm
-- Lower Diameter #2: 32 mm
+<div class="responsive-table-markdown">
+
+| Dimension          | Size                     |
+| ------------------ | ------------------------ |
+| Height #1:         | 17 mm                    |
+| Upper Diameter #1: | 42 mm                    |
+| Lower Diameter #1: | 42 mm                    |
+| Height #2: 3 mm    | Upper Diameter #2: 42 mm |
+| Lower Diameter #2: | 32 mm                    |
+
+</div>
 
 ## Create 1/4" Flat End Mill Tool
 
 ### Under General Tab
 
-Description: 1/4” Flat Endmill
+<div class="responsive-table-markdown">
 
-Vendor: Whiteside
+| Item          | Information       |
+| ------------- | ----------------- |
+| Description:  | 1/4” Flat Endmill |
+| Vendor:       | Whiteside         |
+| Product ID:   | 1014              |
+| Product Link: |                   |
 
-Product ID: 1014
-
-Product Link:
+</div>
 
 ### Cutter Tab
 
-Type: Flat End Mill
+<div class="responsive-table-markdown">
 
-Unit: Inches
+| Item                        | Information   |
+| --------------------------- | ------------- |
+| Type:                       | Flat End Mill |
+| Unit:                       | Inches        |
+| Clockwise Spindle Rotation: | yes           |
+| Number of Flutes:           | 2             |
+| Material:                   | HSS           |
 
-Clockwise spindle Rotation - yes
-
-Number of Flutes: 2
-
-Material: HSS
+</div>
 
 ### Geometry Tab
 
-- Diameter .25 in
-- Shaft Diameter .25 in (fx)
-- Overall length: 2.5 in
-- Length below Holder: 1.2 in
-- Shoulder Length. 1 in
-- Flute length: 1 in
+<div class="responsive-table-markdown">
+
+| Item                 | Information |
+| -------------------- | ----------- |
+| Diameter:            | .25 in      |
+| Shaft Diameter:      | .25 in (fx) |
+| Overall length:      | 2.5 in      |
+| Length below Holder: | 1.2 in      |
+| Shoulder Length:     | 1 in        |
+| Flute length:        | 1 in        |
+
+</div>
 
 ### Shaft Tab
 
@@ -71,27 +93,51 @@ Not used for 2D and 2.5D cutting but we can select the custom holder we made so 
 
 #### Speeds
 
-- Spindle Speed 18000 rpm
-- Surface Speed - Calculated
-- Ramp Spindle Speed 18000
+<div class="responsive-table-markdown">
+
+| Item               | Information |
+| ------------------ | ----------- |
+| Spindle Speed      | 18000 rpm   |
+| Surface Speed      | Calculated  |
+| Ramp Spindle Speed | 18000 rpm   |
+
+</div>
 
 #### Feedrates
 
-- Cutting Feedrate 144 in/min
-- Feed per tooth - Calculated
-- Lead-in Feederate - Calculated
-- Lead-out Feedrate - Calculated
-- Ramp Feedrate - 72 in/min
+<div class="responsive-table-markdown">
+
+| Item              | Information |
+| ----------------- | ----------- |
+| Cutting Feedrate  | 144 in/min  |
+| Feed per tooth    | Calculated  |
+| Lead-in Feederate | Calculated  |
+| Lead-out Feedrate | Calculated  |
+| Ramp Feedrate     | 72 in/min   |
+
+</div>
 
 #### Vertical Feedrates
 
-- Plunge feedrate 72 in/min
-- Feed per revolution - Calculated
+<div class="responsive-table-markdown">
+
+| Item                | Information |
+| ------------------- | ----------- |
+| Plunge feedrate     | 72 in/min   |
+| Feed per revolution | Calculated  |
+
+</div>
 
 #### Passes and Linking
 
-- Use Step-down - check
-- Stepdown .125
+<div class="responsive-table-markdown">
+
+| Item          | Information |
+| ------------- | ----------- |
+| Use Step-down | check       |
+| Stepdown      | .125        |
+
+</div>
 
 #### Coolant
 

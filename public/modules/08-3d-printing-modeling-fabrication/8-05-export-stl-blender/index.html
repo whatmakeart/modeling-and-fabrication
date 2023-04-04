@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    
+    
+    <title>Modeling and Fabrication | 08.05 Export STL Blender</title>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="https://whatmakeart.com/modeling-and-fabrication/images/icons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="https://whatmakeart.com/modeling-and-fabrication/images/icons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="https://whatmakeart.com/modeling-and-fabrication/images/icons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="https://whatmakeart.com/modeling-and-fabrication/images/icons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="https://whatmakeart.com/modeling-and-fabrication/images/icons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="https://whatmakeart.com/modeling-and-fabrication/images/icons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="https://whatmakeart.com/modeling-and-fabrication/images/icons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="https://whatmakeart.com/modeling-and-fabrication/images/icons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://whatmakeart.com/modeling-and-fabrication/images/icons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="https://whatmakeart.com/modeling-and-fabrication/images/icons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://whatmakeart.com/modeling-and-fabrication/images/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="https://whatmakeart.com/modeling-and-fabrication/images/icons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://whatmakeart.com/modeling-and-fabrication/images/icons/favicon-16x16.png">
+    <link rel="manifest" href="https://whatmakeart.com/modeling-and-fabrication/images/icons/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="https://whatmakeart.com/modeling-and-fabrication/images/icons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+
+    <link rel="stylesheet" type="text/css" href="https://whatmakeart.com/modeling-and-fabrication/css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="https://whatmakeart.com/modeling-and-fabrication/css/styles.css">
+
+    <link rel="stylesheet" type="text/css" href="https://whatmakeart.com/modeling-and-fabrication/css/gutenberg.css" media="print">
+
+    
+
+    
+
+</head>
+
+<body class="d-flex flex-column min-vh-100"> 
+
+    <div id="header">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="https://whatmakeart.com/modeling-and-fabrication/">
+            <h1>Modeling and Fabrication</h1>
+        </a>
+    </div>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container-fluid">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+
+                    
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/modeling-and-fabrication/modules/">
+                            
+                            Modules</a>
+                    </li>
+                    
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/modeling-and-fabrication/resources/">
+                            
+                            Resources</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+
+    <div class="container-fluid justify-content-center">
+        <main class="row" id="main">
+            <div class="col main-content">
+                
+
+
+<div class="container-fluid">
+
+    <h1 id="pageTitleH1">08.05 Export STL Blender</h1>
+
+    
+
+    
+
+<aside id="topTOC">
+    <header>
+        <h2 class="toc-header">Table of Contents</h2>
+    </header>
+    <nav id="TableOfContents">
+  <ol>
+    <li><a href="#turn-of-smooth-preview">Turn of Smooth Preview</a></li>
+    <li><a href="#blender-stl-add-ons">Blender STL Add-ons</a></li>
+    <li><a href="#exporting-stl-from-the-blender-file-menu">Exporting STL from the Blender File Menu</a></li>
+  </ol>
+</nav>
+</aside>
+
+
+
+
+</div>
+
+<p>Blender&rsquo;s default unit scale is 1:1 meter. The default cube in a new Blender file is 2 units large, so it is a 2 x 2 x 2 meter cube. Scale is important for 3D prints. You can either model in meters, then scale the object to the correct size before export, or you can change the unit scale in Blender and work in millimeters. Sometimes it is easier to work larger and scale down but you may prefer to work at the exact size of the final object.</p>
+<p>Exporting an STL from Blender is straightforward. Make sure you combine any objects made of multiple meshes with a boolean modifier set to exact. This way the part will be a solid, instead of being made up of different overlapping meshes.</p>
+<h2 id="turn-of-smooth-preview">Turn of Smooth Preview</h2>
+<p>Smooth preview can trick you in to thinking that you have a smoother model than the actual geometry. Smooth shading is great for rendering and digital output but is not helpful for physical output like 3D printing. Make sure your model is in flat shading mode by right clicking on it in Object Mode and selecting &ldquo;shade flat.&rdquo; If your model looks to angular or blocky, then add a subdivision modifier to your mesh and subdivide it as many times as needed to get a surface that is smooth enough. Unlike solid modeling programs, such as Fusion 360, the resolution of the subdivisions of the mesh determines the smoothness and fidelity of the exported geometry and 3D print. This is similar to pixel resolution in a jpg vs a vector file.</p>
+<p><a href="2023-blender-1-6-subdivisions.png"><img src="2023-blender-1-6-subdivisions.jpg" alt="1 vs 6 subdivisions in Blender"></a></p>
+<h2 id="blender-stl-add-ons">Blender STL Add-ons</h2>
+<p>Blender has numerous add ons that ship with Blender as well as many add-ons available from the community. Some add-ons are enable by default, while others need to be enabled by the user. To see the addons for your Blender installation, go to Edit &gt; Preferences &gt; Add-ons. The Import-Export STL files add-on should be enabled by default. This is needed to have the STL export option available in the file menu.</p>
+<p><a href="2023-blender-import-export-stl-add-on.png"><img src="2023-blender-import-export-stl-add-on.png" alt="Blender Import-Export STL Add-on"></a></p>
+<p>Blender also has a &ldquo;Mesh: 3D-Print Toolbox&rdquo; add-on, but it is not enabled by default. You can find the add-on by typing &ldquo;print&rdquo; into the add-on search bar. Enabling this add-on, adds a tab to the mesh modeling screen.</p>
+<p><a href="2023-blender-mesh-3d-print-toolbox.png"><img src="2023-blender-mesh-3d-print-toolbox.png" alt="Blender Mesh: 3D Print Toolbox"></a></p>
+<p>This add-on has features for solid inspection, and repairing non-manifold geometry. It also can display statistics about the mesh that you want to 3D print, such as its volume and thickness for hollow parts, overhang angle, and edge sharpness. This add-on can be quite useful for making models for 3D printed output in Blender. This add-on has an export feature, but it will use the default name of the mesh you are working on. Unless you renamed the mesh it likely has an unhelpful name such as Cube.001 or Sphere.004. Make sure you rename your mesh before exporting so you know which file is which.</p>
+<p><a href="2023-blender-mesh-3d-print-toolbox-options.png"><img src="2023-blender-mesh-3d-print-toolbox-options.png" alt="Blender Mesh: 3D Print Toolbox"></a></p>
+<h2 id="exporting-stl-from-the-blender-file-menu">Exporting STL from the Blender File Menu</h2>
+<p>Go to File &gt; Export &gt; STL &hellip;</p>
+<p><a href="2023-blender-file-export-stl.png"><img src="2023-blender-file-export-stl.png" alt="File Export STL Blender"></a></p>
+<p>By default, &ldquo;Selection Only&rdquo; is not checked. Most of the time you will likely not want to export every mesh in your Blender scene. To make sure you do not export extra meshes, check &ldquo;Selection Only&rdquo; and then select the mesh that you want to export as an STL. There is also an option to apply all modifiers before export. This is generally a good idea. This allows sub-division and boolean modifiers to remain &ldquo;un-applied&rdquo; for ease in editing but be applied for the exported STL. The final option is to use the scene unit scale or the default scale. This will depend on your preferred workflow and 3D print slicer. Blender defaults to meters. Ensure that your object is the correct size before printing.</p>
+<p><a href="2023-blender-stl-export-options.png"><img src="2023-blender-stl-export-options.png" alt="Blender STL Export Options"></a></p>
+
+
+
+<div class="container-fluid">
+    <div id="bottom-prev-next">
+
+        
+        <a class="btn btn-lg btn-outline-dark" href="https://whatmakeart.com/modeling-and-fabrication/modules/08-3d-printing-modeling-fabrication/8-04-blender-3d-modeling-basics/">« 08.04 Blender 3D Modeling Basics</a>
+        
+
+        
+        <a class="btn btn-lg btn-outline-dark" href="https://whatmakeart.com/modeling-and-fabrication/modules/08-3d-printing-modeling-fabrication/8-06-maya-3d-modeling-basics/">08.06 Maya 3D Modeling Basics »</a>
+        
+
+    </div>
+</div>
+
+
+            </div>
+        </main>
+    </div>
+
+    <footer id="footer" class="container-fluid  justify-content-center mt-auto"> 
+    <div class="row">
+
+        <div class="gallery-grid footer-links">
+            <p class="footer-item">Copyright (c) Jimmy Kuehnle
+            </p>
+
+            <p class="footer-item">
+                
+                
+                
+                
+                
+
+                
+
+                
+                <a class="btn btn-outline-dark" href="https://github.com/whatmakeart/modeling-and-fabrication/edit/main/content/modules/08-3d-printing-modeling-fabrication/8-05-export-stl-blender/index.md">Edit this page</a>
+                
+
+            </p>
+        </div>
+
+    </div>
+</footer>
+    <script src="https://whatmakeart.com/modeling-and-fabrication/js/scripts.js"></script>
+<script src="https://whatmakeart.com/modeling-and-fabrication/js/bootstrap.min.js"></script>
+
+
+
+</body>
+
+</html>

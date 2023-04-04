@@ -1,0 +1,474 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>09 CNC Introduction on Modeling and Fabrication</title>
+    <link>https://whatmakeart.com/modeling-and-fabrication/modules/09-cnc-introduction/</link>
+    <description>Recent content in 09 CNC Introduction on Modeling and Fabrication</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 26 Jan 2020 23:11:13 +0000</lastBuildDate>
+    
+        <atom:link href="https://whatmakeart.com/modeling-and-fabrication/modules/09-cnc-introduction/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>09.00 Introduction</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/09-cnc-introduction/9-00-introduction/</link>
+      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
+      
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/09-cnc-introduction/9-00-introduction/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;We will continue learning parametric modeling in Fusion 360. Parametric modeling allows us to change our design depending on the materials that will be used to fabricate it as well as certain parameters that we might want to change for different users. In the previous project we learned about user parameters. We will continue to use user parameters in our designs and learn how to use formulas to make other dimensions driven by parameters. We may want to easily customize a design and fabricate it at a different height without actually remodeling everything. With parametric modeling we can set the height of a stool or table as a user parameter in our model and then have other dimensions of the design driven by that height. Simply typing a new value for the height will update the rest of the model.&lt;/p&gt;
+&lt;h2 id=&#34;learning-objectives&#34;&gt;Learning Objectives&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Conduct design research on existing CNC fabrication and design solutions&lt;/li&gt;
+&lt;li&gt;Use ideation sketches and iteration sketches to design a structure for CNC fabrication&lt;/li&gt;
+&lt;li&gt;Scale cardboard to different plywood thicknesses&lt;/li&gt;
+&lt;li&gt;Fabricate accurate, scale cardboard model of sketches of CNC design&lt;/li&gt;
+&lt;li&gt;Understand the difference between laser cutting and CNC machining&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;key-terms&#34;&gt;Key Terms&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Parametric Modeling&lt;/li&gt;
+&lt;li&gt;CNC&lt;/li&gt;
+&lt;li&gt;Scale Factor&lt;/li&gt;
+&lt;li&gt;Prototype Model&lt;/li&gt;
+&lt;li&gt;Pocket Cut&lt;/li&gt;
+&lt;li&gt;Lap Joint&lt;/li&gt;
+&lt;li&gt;Mortise and Tenon Joint&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>09.01 CNC Design Research</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/09-cnc-introduction/9-04-cnc-design-research/</link>
+      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
+      
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/09-cnc-introduction/9-04-cnc-design-research/</guid>
+      <description>&lt;h2 id=&#34;assignment-deliverables&#34;&gt;Assignment Deliverables&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Slide Presentation of design inspiration images (minimum 10 images)&lt;/li&gt;
+&lt;li&gt;For each slide, write 2-3 sentences about why you selected this image and what your find intriguing about it. Can be written on the slide with image or on separate slides.&lt;/li&gt;
+&lt;li&gt;Put a link on each slide to where you found the image.&lt;/li&gt;
+&lt;li&gt;Save the presentation as a PDF&lt;/li&gt;
+&lt;li&gt;Label as YYYYMMDD Lastname Firstname CNC Design Research.pdf&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;assignment-overview&#34;&gt;Assignment Overview&lt;/h2&gt;
+&lt;p&gt;Before starting your project it is important to see what types of designs have been made. This can give you inspiration and new ideas for your project. You do not research other designs to copy them but to find out solutions that others have made. You can then take inspiration from those solutions and create your own designs and Concepts. This is an important part of any creative process.&lt;/p&gt;
+&lt;p&gt;Look up standard stool heights, chair sizes, and table sizes. You can simply enter these search terms into Google. Write down what you find. You do not have to make something a standard size but generally it is a good place to start your design process.&lt;/p&gt;
+&lt;div class=&#34;gallery-grid&#34;&gt;
+&lt;figure&gt;
+&lt;p&gt;&lt;a href=&#34;https://google.com/search?q=cnc+stool&amp;amp;tbm=isch&#34;&gt;&lt;img src=&#34;../2022-cnc-stool-search.png&#34; alt=&#34;CNC Stool Search&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;figcaption&gt;
+&lt;p&gt;&lt;a href=&#34;https://google.com/search?q=cnc+stool&amp;amp;tbm=isch&#34;&gt;Google image Search of CNC Stools&lt;/a&gt;&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure&gt;
+&lt;p&gt;&lt;a href=&#34;https://google.com/search?q=cnc+chair&amp;amp;tbm=isch&#34;&gt;&lt;img src=&#34;../2022-cnc-chair-search.png&#34; alt=&#34;CNC Chair Search&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;figcaption&gt;
+&lt;p&gt;&lt;a href=&#34;https://google.com/search?q=cnc+chair&amp;amp;tbm=isch&#34;&gt;Google image Search of CNC Chairs&lt;/a&gt;&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure&gt;
+&lt;p&gt;&lt;a href=&#34;https://google.com/search?q=stool+design&amp;amp;tbm=isch&#34;&gt;&lt;img src=&#34;../2022-cnc-stool-search.png&#34; alt=&#34;Stool Design Search&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;figcaption&gt;
+&lt;p&gt;&lt;a href=&#34;https://google.com/search?q=stool+design&amp;amp;tbm=isch&#34;&gt;Google image Search of Stool Design&lt;/a&gt;&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure&gt;
+&lt;p&gt;&lt;a href=&#34;https://google.com/search?q=cnc+plywood+table&amp;amp;tbm=isch&#34;&gt;&lt;img src=&#34;../2022-cnc-plywood-table-search.png&#34; alt=&#34;CNC Plywood Table Search&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;figcaption&gt;
+&lt;p&gt;&lt;a href=&#34;https://google.com/search?q=cnc+plywood+table&amp;amp;tbm=isch&#34;&gt;Google image Search of CNC Tables&lt;/a&gt;&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure&gt;
+&lt;p&gt;&lt;a href=&#34;https://google.com/search?q=cnc+joints&amp;amp;tbm=isch&#34;&gt;&lt;img src=&#34;../2022-cnc-joints-search.png&#34; alt=&#34;CNC Joints Search&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;figcaption&gt;
+&lt;p&gt;&lt;a href=&#34;https://google.com/search?q=cnc+plywood+table&amp;amp;tbm=isch&#34;&gt;Google image Search of CNC Joints&lt;/a&gt;&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure&gt;
+&lt;p&gt;&lt;a href=&#34;https://google.com/search?q=chair+living+hinge&amp;amp;tbm=isch&#34;&gt;&lt;img src=&#34;../2022-chair-living-hinge-search.png&#34; alt=&#34;Chair Living Hinge Search&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;figcaption&gt;
+&lt;p&gt;&lt;a href=&#34;https://google.com/search?q=cnc+plywood+table&amp;amp;tbm=isch&#34;&gt;Google image Search of Chair Living Hinges&lt;/a&gt;&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;grading-rubric&#34;&gt;Grading Rubric&lt;/h2&gt;
+&lt;div class=&#34;responsive-table-markdown&#34;&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Assessment&lt;/th&gt;
+&lt;th&gt;Weight&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Design Research&lt;/td&gt;
+&lt;td&gt;30 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Image Descriptions&lt;/td&gt;
+&lt;td&gt;30 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;10 images&lt;/td&gt;
+&lt;td&gt;20 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Image Links&lt;/td&gt;
+&lt;td&gt;10 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;File Management&lt;/td&gt;
+&lt;td&gt;10 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>09.01 CNC vs Laser Cutting</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/09-cnc-introduction/9-01-cnc-vs-laser-cutting/</link>
+      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
+      
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/09-cnc-introduction/9-01-cnc-vs-laser-cutting/</guid>
+      <description>&lt;p&gt;There are differences between a laser cutter and a CNC router. These differences include, kerf size, need for holding down a workpiece and the ability of the router to make pocket cuts or cuts that don’t go all the way through the material.&lt;/p&gt;
+&lt;p&gt;Laser cutters burn the edges of wood materials while CNC routers make a clean cut on the edges of plywood. Laser cutters have a limit on the size of the material thickness while CNC routers can cut through much thicker materials. This often requires multiple passes of the router bit over the material. When creating toolpaths, this &amp;ldquo;stepdown&amp;rdquo; amount will be important. It is typically 1/2 of the diameter of your tool bit.&lt;/p&gt;
+&lt;div class=&#34;video-grid&#34;&gt;
+&lt;div class=&#34;video-card&#34;&gt;
+&lt;h3 id=&#34;cnc-routers-vs-laser-cutters&#34;&gt;CNC Routers vs Laser Cutters&lt;/h3&gt;
+&lt;div class=&#34;iframe-16-9-container&#34;&gt;&lt;iframe class=&#34;youTubeIframe&#34;  src=&#34;https://www.youtube.com/embed/oYxp6FXG27I?rel=0&#34; width=&#34;560&#34; height=&#34;315&#34; frameborder=&#34;0&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>09.02 Scale Cardboard to Plywood</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/09-cnc-introduction/9-03-scale-cardboard-to-plywood/</link>
+      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
+      
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/09-cnc-introduction/9-03-scale-cardboard-to-plywood/</guid>
+      <description>&lt;h2 id=&#34;scale-factors&#34;&gt;Scale Factors&lt;/h2&gt;
+&lt;p&gt;A scale factor or a scale ratio is a way of showing the relationship of the actual size of a designed object and a scaled version of it. The scaled version can either be larger, the same size, or smaller. For example a scale factor of 2:1 means that the scaled object is double the size of the real one. A scale factor of 1:1 means the real object and the scale object are the same size. A scale factor of 1:2 means the scaled object is half the size of the real one.&lt;/p&gt;
+&lt;h2 id=&#34;scaling-cardboard-for-prototype-models&#34;&gt;Scaling Cardboard for Prototype Models&lt;/h2&gt;
+&lt;p&gt;Cardboard is a great material for making prototypes but it can give false impressions of a design if its thickness is not taken into account. Different planar materials have varying thicknesses. These thickness should be reflected in the prototype model.&lt;/p&gt;
+&lt;p&gt;Cardboard is often ~1/8&amp;quot; thick but if the design plans to use 3/4&amp;quot; (6/8) cardboard then a 1:6 scale model using 1/8&amp;quot; cardboard to represent 3/4&amp;quot; would mean that 12&amp;quot; would be only 2&amp;quot; in the model. This would be hard to work with since 2 feet would be represented by only 4&amp;quot;.&lt;/p&gt;
+&lt;p&gt;A more sensible scale might be a 1:3 scale. At 1:3 scale you can double up 2 pieces of 1/8&amp;quot; plywood to represent 3/4&amp;quot; plywood. It also means that 12&amp;quot; is 4 inches in the scale model and 24&amp;quot; is 8&amp;quot; in the scale model. This is a more reasonable scale to work at.&lt;/p&gt;
+&lt;p&gt;Using an online scale converter we can type in 1:3 for the scale factor. Then you can type in the &amp;ldquo;real&amp;rdquo; length of your planned design from your ideation sketches and the scale converter will tell you what the scaled part should be.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.ginifab.com/feeds/cm_to_inch/scale_converter.html&#34;&gt;Online Scale Converter&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;inches-vs-millimeters&#34;&gt;Inches vs Millimeters&lt;/h2&gt;
+&lt;p&gt;If you grew up thinking in inches, it makes sense to design general dimensions in inches and to approximate sizes in inches since you have a learned intuition. However, it does not make sense to use inches to make a scale model. Use millimeters because you will make less math mistakes and it is much easier to count 100mm instead of 3 15/16&amp;quot; or 70 mm vs 2 3/4&amp;quot;. Using the &lt;a href=&#34;https://www.ginifab.com/feeds/cm_to_inch/scale_converter.html&#34;&gt;online scale converter&lt;/a&gt; you can have your input full scale sizes be in inches and the scaled dimensions be in mm for easy measuring on your ruler.&lt;/p&gt;
+&lt;h3 id=&#34;13-scale-chart&#34;&gt;1:3 Scale Chart&lt;/h3&gt;
+&lt;p&gt;The chart below is 1:3 scale. The dimensions on the left are in inches and are the &amp;ldquo;full scale&amp;rdquo; size. The measurements on the right show the smaller &amp;ldquo;scaled&amp;rdquo; dimensions. This shows the ease of mm vs inches. This chart is for illustrative purposes only. For more exact scaling or for using scale factors other than 1:3, use the &lt;a href=&#34;https://www.ginifab.com/feeds/cm_to_inch/scale_converter.html&#34;&gt;online scale converter&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&#34;responsive-table-markdown&#34;&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Real Size Inches&lt;/th&gt;
+&lt;th&gt;1:3 Scale Millimeters&lt;/th&gt;
+&lt;th&gt;1:3 Scale Inches&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;42.3&lt;/td&gt;
+&lt;td&gt;1.6&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;8&lt;/td&gt;
+&lt;td&gt;67.7&lt;/td&gt;
+&lt;td&gt;2.6&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;11&lt;/td&gt;
+&lt;td&gt;93.1&lt;/td&gt;
+&lt;td&gt;3.6&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;22&lt;/td&gt;
+&lt;td&gt;186.2&lt;/td&gt;
+&lt;td&gt;7.3&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;32&lt;/td&gt;
+&lt;td&gt;270.9&lt;/td&gt;
+&lt;td&gt;10.6&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;44&lt;/td&gt;
+&lt;td&gt;372.5&lt;/td&gt;
+&lt;td&gt;14.6&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;48&lt;/td&gt;
+&lt;td&gt;406.4&lt;/td&gt;
+&lt;td&gt;16&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;p&gt;Millimeters are small enough that their accuracy without the decimal is almost good enough. The same is not true of inches. .6 inches is not on the tape measure since the tape measure is divided by 1/8 and 1/16 of an inch. This method works for some measurements but or most dimensions it makes for messy conversions. For example 48 inches at 1:3 scale is exactly 16 inches but that does not work for 48.5 inches which is 16.1 inches at 1:3 scale.&lt;/p&gt;
+&lt;p&gt;The scale factor and unit of measure used is up to you, but for distances under 25 feet, just counting millimeters is a fairly easy and accurate way to go.&lt;/p&gt;
+&lt;div class=&#34;video-grid&#34;&gt;
+&lt;div class=&#34;video-card&#34;&gt;
+&lt;h3 id=&#34;scale-cardboard-to-plywood&#34;&gt;Scale Cardboard to Plywood&lt;/h3&gt;
+&lt;div class=&#34;iframe-16-9-container&#34;&gt;
+&lt;iframe class=&#34;youTubeIframe&#34;  width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/j-KeJDNf9HQ&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>09.03 Pocket Cuts and Joints</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/09-cnc-introduction/9-02-pocket-cuts-and-joints/</link>
+      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
+      
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/09-cnc-introduction/9-02-pocket-cuts-and-joints/</guid>
+      <description>&lt;p&gt;Although, a laser cutter can only etch on to the surface of the material or cut all the way through, a CNC router can make non-through cuts and 3 dimensional cuts. It can round off the top and make three-dimensional sculptural forms by cutting away parts of the material.&lt;/p&gt;
+&lt;h2 id=&#34;pocket-cuts&#34;&gt;Pocket Cuts&lt;/h2&gt;
+&lt;p&gt;A pocket cut is a cut that does not go all the way through the base material. Pocket cuts are not possible with a laser cutter. Pocket cuts can create joints to secure different parts of projects. This is a convenient way to make tabs on one part slot into the &amp;ldquo;pocket&amp;rdquo; of another supporting piece. Pocket cuts can hide the construction and undesirable shape of joint tabs that we don&amp;rsquo;t want to see in the final design.&lt;/p&gt;
+&lt;h2 id=&#34;dado-cut&#34;&gt;Dado Cut&lt;/h2&gt;
+&lt;p&gt;A dado cut is a long pocket cut slot that fits another piece of wood.&lt;/p&gt;
+&lt;h2 id=&#34;cnc-joints&#34;&gt;CNC Joints&lt;/h2&gt;
+&lt;p&gt;Most traditional woodworking joints can be adapted to work with a CNC. The high precision of a CNC can make joints that are not possible or practical with traditional woodworking techniques. This precision comes with the need to design joints that work when cutting only on one side. Two sided cutting is possible with a 3 axis CNC, but it requires a jig and planning. This &lt;a href=&#34;https://google.com/search?q=cnc+joints&amp;amp;tbm=isch&#34;&gt;Google Image Search&lt;/a&gt; shows a great variety of &lt;a href=&#34;https://google.com/search?q=cnc+joints&amp;amp;tbm=isch&#34;&gt;CNC joints&lt;/a&gt; to try in your project.&lt;/p&gt;
+&lt;p&gt;Additional joints that can be made by CNC machines are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtu.be/O5IR9pr9vdo?t=89&#34;&gt;lap joint&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtu.be/BA_oj65hh74&#34;&gt;tongue and groove joint&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtu.be/O5IR9pr9vdo?t=218&#34;&gt;mitered lap joint&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtu.be/O5IR9pr9vdo?t=470&#34;&gt;Dovetail Joint&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtu.be/O5IR9pr9vdo?t=690&#34;&gt;Curvy Dovetail for CNC&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;stair step mitered joints&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtu.be/O5IR9pr9vdo?t=340&#34;&gt;t-lap joint&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;mortise and tenon joints&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtu.be/Pr7YYYhvJxY&#34;&gt;blind mortise and tenon joint&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;box joint&lt;/li&gt;
+&lt;li&gt;blind box joint&lt;/li&gt;
+&lt;li&gt;keyed mortise and tenon joint&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;gallery-grid&#34;&gt;
+&lt;figure&gt;
+&lt;p&gt;&lt;a href=&#34;../2023-cnc-blind-mortise-tenon-joint.png&#34;&gt;&lt;img src=&#34;../2023-cnc-blind-mortise-tenon-joint.jpg&#34; alt=&#34;Blind Mortise Tenon Joint&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;figcaption&gt;
+&lt;p&gt;Blind Mortise Tenon Joint&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure&gt;
+&lt;p&gt;&lt;a href=&#34;../2023-cnc-tongue-and-groove-joint.png&#34;&gt;&lt;img src=&#34;../2023-cnc-tongue-and-groove-joint.jpg&#34; alt=&#34;Tongue and Groove Joint&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;figcaption&gt;
+&lt;p&gt;Tongue and Groove Joint&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure&gt;
+&lt;p&gt;&lt;a href=&#34;../2022-cnc-dovetail-joint.jpg&#34;&gt;&lt;img src=&#34;../2022-cnc-dovetail-joint.jpg&#34; alt=&#34;Dovetail Joint&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;figcaption&gt;
+&lt;p&gt;Dovetail Joint&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure&gt;
+&lt;p&gt;&lt;a href=&#34;../2022-cnc-lap-joint.jpg&#34;&gt;&lt;img src=&#34;../2022-cnc-lap-joint.jpg&#34; alt=&#34;Lap Joint&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;figcaption&gt;
+&lt;p&gt;Lap Joint&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure&gt;
+&lt;p&gt;&lt;a href=&#34;../2022-cnc-t-lap-joint.jpg&#34;&gt;&lt;img src=&#34;../2022-cnc-t-lap-joint.jpg&#34; alt=&#34;T-Lap Joint&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;figcaption&gt;
+&lt;p&gt;T-Lap Joint&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;examples-of-cnc-joints-in-fusion-360&#34;&gt;Examples of CNC Joints in Fusion 360&lt;/h2&gt;
+&lt;div class=&#34;video-grid&#34;&gt;
+&lt;div class=&#34;video-card&#34;&gt;
+&lt;h3 id=&#34;tongue-and-groove-cnc-joints&#34;&gt;Tongue and Groove CNC Joints&lt;/h3&gt;
+&lt;div class=&#34;iframe-16-9-container&#34;&gt;&lt;iframe class=&#34;youTubeIframe&#34;  src=&#34;https://www.youtube.com/embed/BA_oj65hh74?rel=0&#34; width=&#34;560&#34; height=&#34;315&#34; frameborder=&#34;0&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video-card&#34;&gt;
+&lt;h3 id=&#34;blind-mortise-and-tenon-cnc-joints&#34;&gt;Blind Mortise and Tenon CNC Joints&lt;/h3&gt;
+&lt;div class=&#34;iframe-16-9-container&#34;&gt;&lt;iframe class=&#34;youTubeIframe&#34;  src=&#34;https://www.youtube.com/embed/Pr7YYYhvJxY?rel=0&#34; width=&#34;560&#34; height=&#34;315&#34; frameborder=&#34;0&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video-card&#34;&gt;
+&lt;h3 id=&#34;simple-cnc-joints&#34;&gt;Simple CNC Joints&lt;/h3&gt;
+&lt;div class=&#34;iframe-16-9-container&#34;&gt;&lt;iframe class=&#34;youTubeIframe&#34;  src=&#34;https://www.youtube.com/embed/O5IR9pr9vdo?rel=0&#34; width=&#34;560&#34; height=&#34;315&#34; frameborder=&#34;0&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>09.07 CNC Project Ideation Sketches</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/09-cnc-introduction/9-05-cnc-project-ideation-sketches/</link>
+      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
+      
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/09-cnc-introduction/9-05-cnc-project-ideation-sketches/</guid>
+      <description>&lt;h2 id=&#34;assignment-deliverables&#34;&gt;Assignment Deliverables&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;7 thumbnail sketches each showing a different idea&lt;/li&gt;
+&lt;li&gt;3 revised sketches&lt;/li&gt;
+&lt;li&gt;larger final sketch&lt;/li&gt;
+&lt;li&gt;Label you files YYYYMMDD Lastname Firstname CNC Ideation Sketches&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;assignment-overview&#34;&gt;Assignment Overview&lt;/h2&gt;
+&lt;p&gt;In this project we will design a stool, chair, end table or another large supportive device with an intended purpose such as perfectly holding a PS5. If your desired design is not listed, such as a piggy bank holder, that is ok. Your designs and concepts must result in semi complex supportive devices made of interlocking pieces of CNC cut plywood. After that the content or design is up to you.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../2021-cnc-stool-example.jpg&#34; alt=&#34;CNC Stool Example&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;design-requirements&#34;&gt;Design Requirements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Support the weight of a person or the intended item&lt;/li&gt;
+&lt;li&gt;Have considered aesthetics&lt;/li&gt;
+&lt;li&gt;Use 1/2&amp;quot; or 3/4&amp;quot; plywood&lt;/li&gt;
+&lt;li&gt;Use more than 1 type of joint&lt;/li&gt;
+&lt;li&gt;Have a considered and designed top surface, this could have engraving or decorative joints&lt;/li&gt;
+&lt;li&gt;Be a relatively standard size&lt;/li&gt;
+&lt;li&gt;Use all of the space of a half sheet of plywood or all of the space of a full sheet of plywood&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;process&#34;&gt;Process&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Make a minimum of 7 thumbnail sketches of ideas. Keep the ideas varied and different. Push yourself to be inspired by designs you researched but to come up with your own ideas and concepts.&lt;/li&gt;
+&lt;li&gt;After making initial sketches, choose 3 ideas and make larger refined sketches. You may need to draw these from different views and show details of how you plan to join the pieces together.&lt;/li&gt;
+&lt;li&gt;Choose your favorite idea and draw a larger final sketch. This could be a third angle projection drawn by hand or with a t-square that includes the Front, Top and Right views. It could also be a detailed rendered image that is descriptive of its form and construction. Put dimensions on you drawing.&lt;/li&gt;
+&lt;li&gt;Scan or photograph your sketches. If using a scanner, make sure that the DPI is high enough and that the exposure on the scanner captures enough detail, especially if you have light sketches. If you are photographing your sketches, ensure that there is even lighting, no shadows. Make sure that there are no extra items in the photo. Make sure there are no distortions or trapezoid shapes from taking the photo at an angle. Keep the camera square to the paper.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;grading-rubric&#34;&gt;Grading Rubric&lt;/h2&gt;
+&lt;div class=&#34;responsive-table-markdown&#34;&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Assessment&lt;/th&gt;
+&lt;th&gt;Weight&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;7 thumbnails&lt;/td&gt;
+&lt;td&gt;25 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;3 revised sketches&lt;/td&gt;
+&lt;td&gt;25 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Larger Final Sketch&lt;/td&gt;
+&lt;td&gt;25 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Sketch Documentation&lt;/td&gt;
+&lt;td&gt;15 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;File Management&lt;/td&gt;
+&lt;td&gt;10 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>09.08 Make Scale Cardboard Model</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/09-cnc-introduction/9-06-cnc-scale-cardboard-model/</link>
+      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
+      
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/09-cnc-introduction/9-06-cnc-scale-cardboard-model/</guid>
+      <description>&lt;h2 id=&#34;assignment-deliverables&#34;&gt;Assignment Deliverables&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Scale cardboard model of your CNC design&lt;/li&gt;
+&lt;li&gt;2 post processed photos from 2 angles of your cardboard model (jpg, png)&lt;/li&gt;
+&lt;li&gt;2 raw files of post processed photos (dng, arw, cr2)&lt;/li&gt;
+&lt;li&gt;Label files YYYYMMDD Lastname Firstname Cardboard Model Documentation Photos&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;assignment-overview&#34;&gt;Assignment Overview&lt;/h2&gt;
+&lt;p&gt;Make a cardboard model of your design. It is one thing to draw with pencil on paper, it is another to make a physical object. Problems and solutions that may not be apparent in your drawing will reveal themselves when you make a physical object. The model will be smaller than actual size.&lt;/p&gt;
+&lt;p&gt;You can cut the cardboard with hand tools or the laser cutter or both.&lt;/p&gt;
+&lt;p&gt;We will be using ¾” or ½” plywood for this project. You can use a ratio to scale your model.&lt;/p&gt;
+&lt;p&gt;Measure the cardboard and use a ratio calculator to scale your model dimensions.&lt;/p&gt;
+&lt;p&gt;First calculate the scale factor of your materials. If your single sheet of cardboard measures ~3.3mm and 3/4&amp;quot; plywood is ~18mm then you have a scale factor of 11:60. This website can easily calculate the scale factor for you. &lt;a href=&#34;https://www.ginifab.com/feeds/cm_to_inch/scale_factor_calculator.html&#34;&gt;Online Scale Calculator&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Once you know the scale factor then you can determine how big the pieces of your cardboard model should be based on that scale factor. This website lets you enter a scale factor and then enter in your final desired design dimension. For example if you want something 30&amp;quot; tall, you put in a scale factor of 11:60, type 30&amp;quot; in the &amp;ldquo;real length&amp;rdquo; and set the &amp;ldquo;scale length&amp;rdquo; to mm to get the scaled model size in mm. (You can use inches for your cardboard model but millimeters are soooo much easier to use, count, divide. Notice I put in 30&amp;quot; because for some distances. I know imperial units better but then I quickly convert to the easier to use metric system. Make sure you always double check your units.) This website will scale all your numbers. &lt;a href=&#34;https://www.ginifab.com/feeds/cm_to_inch/scale_factor_calculator.html&#34;&gt;Online Scale Calculator&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&#34;video-grid&#34;&gt;
+&lt;div class=&#34;video-card&#34;&gt;
+&lt;h3 id=&#34;scale-cardboard&#34;&gt;Scale Cardboard&lt;/h3&gt;
+&lt;div class=&#34;iframe-16-9-container&#34; &gt;&lt;iframe class=&#34;youTubeIframe&#34; src=&#34;https://www.youtube.com/embed/j-KeJDNf9HQ?rel=0&#34; width=&#34;560&#34; height=&#34;315&#34; frameborder=&#34;0&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video-card&#34;&gt;
+&lt;h3 id=&#34;cut-cardboard-cleanly&#34;&gt;Cut Cardboard Cleanly&lt;/h3&gt;
+&lt;div class=&#34;iframe-16-9-container&#34; &gt;&lt;iframe class=&#34;youTubeIframe&#34; src=&#34;https://www.youtube.com/embed/Tm7xTiLl4Hw?rel=0&#34; width=&#34;560&#34; height=&#34;315&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;assignment-overview-1&#34;&gt;Assignment Overview&lt;/h2&gt;
+&lt;p&gt;Take a minimum of two photos of your model. Take one from a 3/4 angle that shows a good representation of the form. Take the other from a composition of your choice. Set up lights and a clean backdrop. You can use the already set up paper backdrop. Remember that putting a single light directly above a small object often gives a great shot. You can check out lights and a camera from the CIA equipment checkout or shoot at the think[box].&lt;/p&gt;
+&lt;p&gt;Shoot in JPG and RAW and post process the images. &lt;a href=&#34;https://www.youtube.com/watch?v=m0yZEWUSahk&#34;&gt;White balance should be corrected&lt;/a&gt; and the levels should be adjusted to have good exposure. Use Photoshop and &lt;a href=&#34;https://www.youtube.com/watch?v=11jwSwUu2WI&#34;&gt;Adobe Camera Raw&lt;/a&gt; to make adjustments and to retouch any mistakes in the images.&lt;/p&gt;
+&lt;h3 id=&#34;what-camera-should-i-use&#34;&gt;What Camera Should I Use?&lt;/h3&gt;
+&lt;p&gt;Use a mirrorless camera or a DSLR camera to take high resolution documentation photos of your artwork. Do not use your cell phone to take documentation photos.&lt;/p&gt;
+&lt;h3 id=&#34;what-camera-and-lights-should-i-checkout&#34;&gt;What Camera and Lights Should I Checkout?&lt;/h3&gt;
+&lt;p&gt;On the &lt;a href=&#34;https://cia.webcheckout.net/sso/patron#!/&#34;&gt;CIA Equipment Checkout Page&lt;/a&gt; choose one of the &lt;a href=&#34;https://cia.webcheckout.net/sso/patron#!/category/23050497&#34;&gt;SONY A6100 mirrorless cameras&lt;/a&gt;, a &lt;a href=&#34;https://cia.webcheckout.net/sso/patron#!/category/15348239&#34;&gt;Compact Fluorescent Cool Light Kits&lt;/a&gt;, and a &lt;a href=&#34;https://cia.webcheckout.net/sso/patron#!/category/104834&#34;&gt;Basic Tripod&lt;/a&gt;.&lt;/p&gt;
+&lt;div class=&#34;gallery-grid&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://cia.webcheckout.net/sso/patron#!/category/23050497&#34;&gt;&lt;img src=&#34;https://cia.webcheckout.net/attachments/23050552/sony-a6100.jpg&#34; alt=&#34;camera&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://cia.webcheckout.net/sso/patron#!/category/15348239&#34;&gt;&lt;img src=&#34;https://cia.webcheckout.net/attachments/183754/cool%20light.jpg&#34; alt=&#34;lights&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://cia.webcheckout.net/sso/patron#!/category/104834&#34;&gt;&lt;img src=&#34;https://cia.webcheckout.net/attachments/184929/manfrotto_mkcompact.jpg&#34; alt=&#34;tripod&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;photograph-with-cellphone&#34;&gt;Photograph with Cellphone?&lt;/h2&gt;
+&lt;p&gt;Your pictures will be worse with if you use a cellphone rather than a good camera, period. But if that is all you have, a cell phone is better than nothing and with a little bit of effort fairly decent photos can be made. You should always get a camera with a bigger sensor and better lens than your cellphone but I know that sometimes time runs short. For those instances, the video below shows how to take ok photographs with just a cell phone and a clip on light. There are no excuses for bad images. Remember to shoot both RAW and JPG when using a camera or your cellphone. Most cellphones can be set to shoot RAW images.&lt;/p&gt;
+&lt;div class=&#34;video-grid&#34;&gt;
+&lt;div class=&#34;video-card&#34;&gt;
+&lt;h3 id=&#34;document-art-with-cellphone&#34;&gt;Document Art with Cellphone&lt;/h3&gt;
+&lt;div class=&#34;iframe-16-9-container&#34; &gt;
+&lt;iframe class=&#34;youTubeIframe&#34; src=&#34;https://www.youtube.com/embed/Cq_Cx_5Zhks?rel=0&#34; width=&#34;560&#34; height=&#34;315&#34; frameborder=&#34;0&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;grading-rubric&#34;&gt;Grading Rubric&lt;/h2&gt;
+&lt;div class=&#34;responsive-table-markdown&#34;&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Assessment&lt;/th&gt;
+&lt;th&gt;Weight&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Cardboard Model Design&lt;/td&gt;
+&lt;td&gt;30 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Cardboard Scale&lt;/td&gt;
+&lt;td&gt;20 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Cardboard Model Documentation&lt;/td&gt;
+&lt;td&gt;30 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;RAW Files Uploaded&lt;/td&gt;
+&lt;td&gt;10 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Craft and Assembly&lt;/td&gt;
+&lt;td&gt;10 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;File Management&lt;/td&gt;
+&lt;td&gt;10 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

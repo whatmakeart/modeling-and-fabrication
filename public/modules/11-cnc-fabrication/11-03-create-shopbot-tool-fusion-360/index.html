@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    
+    
+    <title>Modeling and Fabrication | 11.03Create Shopbot Tool Fusion 360</title>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="https://whatmakeart.com/modeling-and-fabrication/images/icons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="https://whatmakeart.com/modeling-and-fabrication/images/icons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="https://whatmakeart.com/modeling-and-fabrication/images/icons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="https://whatmakeart.com/modeling-and-fabrication/images/icons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="https://whatmakeart.com/modeling-and-fabrication/images/icons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="https://whatmakeart.com/modeling-and-fabrication/images/icons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="https://whatmakeart.com/modeling-and-fabrication/images/icons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="https://whatmakeart.com/modeling-and-fabrication/images/icons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://whatmakeart.com/modeling-and-fabrication/images/icons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="https://whatmakeart.com/modeling-and-fabrication/images/icons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://whatmakeart.com/modeling-and-fabrication/images/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="https://whatmakeart.com/modeling-and-fabrication/images/icons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://whatmakeart.com/modeling-and-fabrication/images/icons/favicon-16x16.png">
+    <link rel="manifest" href="https://whatmakeart.com/modeling-and-fabrication/images/icons/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="https://whatmakeart.com/modeling-and-fabrication/images/icons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+
+    <link rel="stylesheet" type="text/css" href="https://whatmakeart.com/modeling-and-fabrication/css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="https://whatmakeart.com/modeling-and-fabrication/css/styles.css">
+
+    <link rel="stylesheet" type="text/css" href="https://whatmakeart.com/modeling-and-fabrication/css/gutenberg.css" media="print">
+
+    
+
+    
+
+</head>
+
+<body class="d-flex flex-column min-vh-100"> 
+
+    <div id="header">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="https://whatmakeart.com/modeling-and-fabrication/">
+            <h1>Modeling and Fabrication</h1>
+        </a>
+    </div>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container-fluid">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+
+                    
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/modeling-and-fabrication/modules/">
+                            
+                            Modules</a>
+                    </li>
+                    
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/modeling-and-fabrication/resources/">
+                            
+                            Resources</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+
+    <div class="container-fluid justify-content-center">
+        <main class="row" id="main">
+            <div class="col main-content">
+                
+
+
+<div class="container-fluid">
+
+    <h1 id="pageTitleH1">11.03Create Shopbot Tool Fusion 360</h1>
+
+    
+
+    
+
+<aside id="topTOC">
+    <header>
+        <h2 class="toc-header">Table of Contents</h2>
+    </header>
+    <nav id="TableOfContents">
+  <ol>
+    <li><a href="#tool-settings">Tool Settings</a>
+      <ol>
+        <li><a href="#general-tab">General Tab</a></li>
+        <li><a href="#holder-geometry-tab">Holder Geometry Tab</a></li>
+      </ol>
+    </li>
+    <li><a href="#create-14-flat-end-mill-tool">Create 1/4&quot; Flat End Mill Tool</a>
+      <ol>
+        <li><a href="#under-general-tab">Under General Tab</a></li>
+        <li><a href="#cutter-tab">Cutter Tab</a></li>
+        <li><a href="#geometry-tab">Geometry Tab</a></li>
+        <li><a href="#shaft-tab">Shaft Tab</a></li>
+        <li><a href="#holder-tab">Holder Tab</a></li>
+        <li><a href="#cutting-data-tab">Cutting Data Tab</a>
+          <ol>
+            <li><a href="#speeds">Speeds</a></li>
+            <li><a href="#feedrates">Feedrates</a></li>
+            <li><a href="#vertical-feedrates">Vertical Feedrates</a></li>
+            <li><a href="#passes-and-linking">Passes and Linking</a></li>
+            <li><a href="#coolant">Coolant</a></li>
+          </ol>
+        </li>
+      </ol>
+    </li>
+    <li><a href="#create-shopbot-tool-fusion">Create ShopBot Tool Fusion</a></li>
+  </ol>
+</nav>
+</aside>
+
+
+
+
+</div>
+
+<p>Create a tool for the 1/4&quot; straight cut router bit. We have other bits in the Fab Studios for cutting out 3D profiles and engraving but you will use the 1/4&quot; bit for most of your cutting. You will create a tool holder and a tool bit. For 2D cutting the tool holder is not needed but you should make it to know the process in case you do any 3D Cutting. For 3D cutting we need to know where the tool holder is and how big it is.  This <a href="https://youtu.be/M9MQzYrLhGQ">video</a> shows how to create the <a href="https://youtu.be/M9MQzYrLhGQ">1/4&quot; Flat Endmill ShopBot Tool</a>.</p>
+<h2 id="tool-settings">Tool Settings</h2>
+<p>Use the settings and values below to make your tool.</p>
+<h3 id="general-tab">General Tab</h3>
+<div class="responsive-table-markdown">
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Information</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Description:</td>
+<td>ER25 Collet Nut</td>
+</tr>
+<tr>
+<td>Vendor:</td>
+<td>ShopBot</td>
+</tr>
+<tr>
+<td>Product ID:</td>
+<td>ER25</td>
+</tr>
+<tr>
+<td>Product Link: </td>
+<td><a href="https://store.shopbottools.com/products/collet-nut-er25">ShopBot Store</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id="holder-geometry-tab">Holder Geometry Tab</h3>
+<div class="responsive-table-markdown">
+<table>
+<thead>
+<tr>
+<th>Dimension</th>
+<th>Size</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Height #1:</td>
+<td>17 mm</td>
+</tr>
+<tr>
+<td>Upper Diameter #1:</td>
+<td>42 mm</td>
+</tr>
+<tr>
+<td>Lower Diameter #1:</td>
+<td>42 mm</td>
+</tr>
+<tr>
+<td>Height #2: 3 mm</td>
+<td>Upper Diameter #2: 42 mm</td>
+</tr>
+<tr>
+<td>Lower Diameter #2:</td>
+<td>32 mm</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id="create-14-flat-end-mill-tool">Create 1/4&quot; Flat End Mill Tool</h2>
+<h3 id="under-general-tab">Under General Tab</h3>
+<div class="responsive-table-markdown">
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Information</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Description:</td>
+<td>1/4” Flat Endmill</td>
+</tr>
+<tr>
+<td>Vendor:</td>
+<td>Whiteside</td>
+</tr>
+<tr>
+<td>Product ID:</td>
+<td>1014</td>
+</tr>
+<tr>
+<td>Product Link:</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id="cutter-tab">Cutter Tab</h3>
+<div class="responsive-table-markdown">
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Information</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Type:</td>
+<td>Flat End Mill</td>
+</tr>
+<tr>
+<td>Unit:</td>
+<td>Inches</td>
+</tr>
+<tr>
+<td>Clockwise Spindle Rotation:</td>
+<td>yes</td>
+</tr>
+<tr>
+<td>Number of Flutes:</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Material:</td>
+<td>HSS</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id="geometry-tab">Geometry Tab</h3>
+<div class="responsive-table-markdown">
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Information</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Diameter:</td>
+<td>.25 in</td>
+</tr>
+<tr>
+<td>Shaft Diameter:</td>
+<td>.25 in (fx)</td>
+</tr>
+<tr>
+<td>Overall length:</td>
+<td>2.5 in</td>
+</tr>
+<tr>
+<td>Length below Holder:</td>
+<td>1.2 in</td>
+</tr>
+<tr>
+<td>Shoulder Length:</td>
+<td>1 in</td>
+</tr>
+<tr>
+<td>Flute length:</td>
+<td>1 in</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id="shaft-tab">Shaft Tab</h3>
+<p>Not used for this simple end mill.</p>
+<h3 id="holder-tab">Holder Tab</h3>
+<p>Not used for 2D and 2.5D cutting but we can select the custom holder we made so we have more visual aid to see if parts are the wrong size in simulation.</p>
+<h3 id="cutting-data-tab">Cutting Data Tab</h3>
+<h4 id="speeds">Speeds</h4>
+<div class="responsive-table-markdown">
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Information</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Spindle Speed</td>
+<td>18000 rpm</td>
+</tr>
+<tr>
+<td>Surface Speed</td>
+<td>Calculated</td>
+</tr>
+<tr>
+<td>Ramp Spindle Speed</td>
+<td>18000 rpm</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h4 id="feedrates">Feedrates</h4>
+<div class="responsive-table-markdown">
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Information</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cutting Feedrate</td>
+<td>144 in/min</td>
+</tr>
+<tr>
+<td>Feed per tooth</td>
+<td>Calculated</td>
+</tr>
+<tr>
+<td>Lead-in Feederate</td>
+<td>Calculated</td>
+</tr>
+<tr>
+<td>Lead-out Feedrate</td>
+<td>Calculated</td>
+</tr>
+<tr>
+<td>Ramp Feedrate</td>
+<td>72 in/min</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h4 id="vertical-feedrates">Vertical Feedrates</h4>
+<div class="responsive-table-markdown">
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Information</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Plunge feedrate</td>
+<td>72 in/min</td>
+</tr>
+<tr>
+<td>Feed per revolution</td>
+<td>Calculated</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h4 id="passes-and-linking">Passes and Linking</h4>
+<div class="responsive-table-markdown">
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Information</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Use Step-down</td>
+<td>check</td>
+</tr>
+<tr>
+<td>Stepdown</td>
+<td>.125</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h4 id="coolant">Coolant</h4>
+<ul>
+<li>Disabled</li>
+</ul>
+<div class="video-grid">
+<div class="video-card">
+<h2 id="create-shopbot-tool-fusion">Create ShopBot Tool Fusion</h2>
+<div class="iframe-16-9-container" ><iframe class="youTubeIframe" src="https://www.youtube.com/embed/M9MQzYrLhGQ?rel=0" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+</div>
+</div>
+</div>
+
+
+
+<div class="container-fluid">
+    <div id="bottom-prev-next">
+
+        
+        <a class="btn btn-lg btn-outline-dark" href="https://whatmakeart.com/modeling-and-fabrication/modules/11-cnc-fabrication/11-02-cnc-tolerances-and-fit/">« 11.02 CNC Tolerances and Fit</a>
+        
+
+        
+        <a class="btn btn-lg btn-outline-dark" href="https://whatmakeart.com/modeling-and-fabrication/modules/11-cnc-fabrication/11-04-shopbot-toolpath-fusion-360/">11.04 Shopbot Toolpaths Fusion 360 »</a>
+        
+
+    </div>
+</div>
+
+
+            </div>
+        </main>
+    </div>
+
+    <footer id="footer" class="container-fluid  justify-content-center mt-auto"> 
+    <div class="row">
+
+        <div class="gallery-grid footer-links">
+            <p class="footer-item">Copyright (c) Jimmy Kuehnle
+            </p>
+
+            <p class="footer-item">
+                
+                
+                
+                
+                
+
+                
+
+                
+                <a class="btn btn-outline-dark" href="https://github.com/whatmakeart/modeling-and-fabrication/edit/main/content/modules/11-cnc-fabrication/11-03-create-shopbot-tool-fusion-360/index.md">Edit this page</a>
+                
+
+            </p>
+        </div>
+
+    </div>
+</footer>
+    <script src="https://whatmakeart.com/modeling-and-fabrication/js/scripts.js"></script>
+<script src="https://whatmakeart.com/modeling-and-fabrication/js/bootstrap.min.js"></script>
+
+
+
+</body>
+
+</html>

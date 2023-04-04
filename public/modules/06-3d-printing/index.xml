@@ -1,8 +1,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>06 - 3D Printing on Modeling and Fabrication</title>
+    <title>06 3D Printing Introduction on Modeling and Fabrication</title>
     <link>https://whatmakeart.com/modeling-and-fabrication/modules/06-3d-printing/</link>
-    <description>Recent content in 06 - 3D Printing on Modeling and Fabrication</description>
+    <description>Recent content in 06 3D Printing Introduction on Modeling and Fabrication</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 26 Jan 2020 23:11:13 +0000</lastBuildDate>
@@ -11,29 +11,259 @@
     
     
     <item>
-      <title>6.0 Introduction</title>
+      <title>06.00 Introduction</title>
       <link>https://whatmakeart.com/modeling-and-fabrication/modules/06-3d-printing/6-0-introduction/</link>
       <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
       
       <guid>https://whatmakeart.com/modeling-and-fabrication/modules/06-3d-printing/6-0-introduction/</guid>
-      <description></description>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;This module introduces 3D Printing and mesh modeling sometimes referred to as polygon modeling. A 3D model on a computer is restricted to digital purposes. We will output our digital models into the physical world. 3D printing is a quick way to be able to produce a physical model in order to hold a complex 3D model in your hands. Some models and forms can only be made by 3D printing and are not possible with traditional manufacturing or fabrication techniques. 3D printing is an additive process, meaning material is added to existing material rather than being cut away such as with a saw, laser cutter, CNC, or waterjet. &lt;a href=&#34;https://youtu.be/8vGrRR_TLEg&#34;&gt;T-Splines&lt;/a&gt; in Fusion 360 allow for the creation of organic forms than can be combined with parametric models to create decorative and functional parts.&lt;/p&gt;
+&lt;h2 id=&#34;learning-objectives&#34;&gt;Learning Objectives&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Model organic forms with T-splines in Fusion 360&lt;/li&gt;
+&lt;li&gt;Combine T-splines with parametrically modeled features&lt;/li&gt;
+&lt;li&gt;Scale a model to a desired size&lt;/li&gt;
+&lt;li&gt;Measure a model in software&lt;/li&gt;
+&lt;li&gt;Export an STL file for 3D printing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;key-terms&#34;&gt;Key Terms&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;FFF 3D Printing&lt;/li&gt;
+&lt;li&gt;T-Spline&lt;/li&gt;
+&lt;li&gt;Manifold / Watertight&lt;/li&gt;
+&lt;li&gt;STL&lt;/li&gt;
+&lt;li&gt;Build envelope&lt;/li&gt;
+&lt;li&gt;Bounding Box&lt;/li&gt;
+&lt;li&gt;Filament&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
-      <title>6.1 Ideation Sketches 3D Print Test Print</title>
-      <link>https://whatmakeart.com/modeling-and-fabrication/modules/06-3d-printing/6-1-ideation-sketches-3d-print-test-print/</link>
+      <title>06.01 3D Printing Terms</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/06-3d-printing/6-01-3d-printing-terms/</link>
       <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
       
-      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/06-3d-printing/6-1-ideation-sketches-3d-print-test-print/</guid>
-      <description>&lt;p&gt;Using thumbnail sketches, quickly design numerous ideas for a 3D test print. For now think about a small size object of about 1 cubic inch. This can be bigger than an inch in size but the total volume of the object should be less than 1 cubic inch. Think about organic forms, negative spaces, curvilinear lines and geometric surfaces.&lt;/p&gt;
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/06-3d-printing/6-01-3d-printing-terms/</guid>
+      <description>&lt;p&gt;These are some common words and terminology used in 3D Printing and 3D Mesh Modeling:&lt;/p&gt;
+&lt;h2 id=&#34;3d-modeling-terms&#34;&gt;3D Modeling Terms&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Vertex&lt;/strong&gt; - the base unit of a polygon model. It is a point in space defined by an x, y and z coordinate. Can be moved around and &amp;ldquo;welded&amp;rdquo; to other vertexes or connected to another vertex with an edge.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Edge&lt;/strong&gt; - the line connecting two vertexes in a polygon model. Edges make closed shaped that are called faces&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Face&lt;/strong&gt; - the enclosed shape made by connected vertexes and edges. Can be a triangle, a quad (four-sides) or an N-Gon&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Triangle&lt;/strong&gt; - simplest planar shape. STLs are made of triangle but triangles should be avoided if possible when modeling since they cannot be subdivided easily and do not make smooth forms.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Quad&lt;/strong&gt; - A four sided polygon. This is generally the best shape to make your model from.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;N-Gon&lt;/strong&gt; - A polygon with (n) sides. These should be avoided. With T-Splines you may have some n-gons but it is best to make them into quads if you can.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mesh&lt;/strong&gt; - The structure of a 3D model. It is made of of points (vertexes), edges and polygon faces.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Bounding Box&lt;/strong&gt; - the smallest box that your model can fit in. It is a rectangular prism defined by a height, width and length.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Parametric&lt;/strong&gt; - A 3D model driven by defined dimensions and parameters&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Solid&lt;/strong&gt; - A 3D model that is not a plane or open shape. It is a full solid object.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Polygon&lt;/strong&gt; - A 3 or more sided shape. The surfaces of 3D models are made of polygons&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;3d-printing-terms&#34;&gt;3D Printing Terms&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Overhang&lt;/strong&gt; - Part of a 3D model that extends out horizontally at an angle less than 45 degrees. Overhangs require supports so the print does not sag or fall to the printing bed.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Raft&lt;/strong&gt; - Bottom support for a 3D print to help it adhere to the print bed when the print starts and to keep the print from falling over when the print gets taller.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Infill&lt;/strong&gt; - Support material in the middle of a 3D print. Can be made of different patterns and is usually not solid. Sometimes described in percentage terms, less infill will make a faster print and use less material while a higher percentage infill will take longer to print and use more material.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Support Material&lt;/strong&gt; - extra printed material used to support parts of the print that overhang more than 45 degrees in the horizontal direction. Sometime a model can be orientated on the printer at a different angle to avoid support material. Can be removed but often messes up the surface where it attached to the print.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;STL (STereoLithography)&lt;/strong&gt; - the most common file format used for 3D printing. It is made of a fine triangle mesh. This file format works for 3D printing but is not good for modeling. Always save the original model file so you can make changes. It is possible to edit an STL file but it is much easier to edit the original 3D model.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Print in Place (PIP)&lt;/strong&gt; - Method of printing moving parts such as hinges and joints in a 3D print in one operation. This produces forms that would not be possible with traditional manufacturing techniques.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Fused Filament Fabrication (FFF)&lt;/strong&gt; - Most common method of affordable 3D printing. This method uses a thermoplastic filament, or wire, on a spool that is fed through a nozzle. Heat melts the thermoplastic and new layers are fused to previous layers in order to make the print.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Fused Deposition Modeling (FDM)&lt;/strong&gt; - similar to FFF but has a heated enclosed space that better regulates the print temperature. This creates stronger and more accurate parts.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Slicer&lt;/strong&gt; - Software that &amp;ldquo;slices&amp;rdquo; a 3D model into thin layers that represent the layers of filament deposited during the printing process. It makes a g-code file that the 3D printer will use to make the print.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>06.02 3D Print Design Guidelines</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/06-3d-printing/6-02-3d-printing-design-guidelines/</link>
+      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
+      
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/06-3d-printing/6-02-3d-printing-design-guidelines/</guid>
+      <description>&lt;h2 id=&#34;general-3d-print-rules-for-fff-printing-without-dissolvable-supports&#34;&gt;General 3D Print Rules for FFF Printing without Dissolvable Supports&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Keep thin and small parts multiples of the nozzle size. The nozzle at the think[box] is .4mm, therefore absolute minimum size of fine objects is 1.2mm. A better size for thin walls and supports is 1.6mm. 1.5mm or 1.7 mm are not good. 2.0mm or 2.4mm are even better.&lt;/li&gt;
+&lt;li&gt;Keep overhanging parts extending out less than 45 degrees. This allows layers to overlap a bit and slowly extend out wider. 45 degrees is the max otherwise the printer tries to print in mid air and all the filament falls to the ground.&lt;/li&gt;
+&lt;li&gt;Objects must be fully connected and &amp;ldquo;manifold&amp;rdquo; or &amp;ldquo;watertight&amp;rdquo; You can&amp;rsquo;t have pieces floating in the air or close but not touching. Don&amp;rsquo;t have small voids. Make the pieces solid and uniform. You can have a hollow vase or container but all its parts and walls should be connected and solid.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;gallery-grid&#34;&gt;
+&lt;figure&gt;
+&lt;p&gt;&lt;img src=&#34;2022-3D-Print-Angles.png&#34; alt=&#34;3D Print Angles&#34;&gt;&lt;/p&gt;
+&lt;figcaption&gt;
+&lt;p&gt;Red models will not print without supports but green models will because they rise up at 45 degrees&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure&gt;
+&lt;p&gt;&lt;img src=&#34;2022-3D-Print-Angles-Square.png&#34; alt=&#34;3D Print Angles Square&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Red models will not print without supports but green models will because they rise up at 45 degrees&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure&gt;
+&lt;p&gt;&lt;img src=&#34;2022-3D-Print-Angles-Round.png&#34; alt=&#34;3D Print Angles Round&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Red models will not print without supports but green models will because they rise up at 45 degrees&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;general-structural-3d-printing-guidelines&#34;&gt;General Structural 3D Printing Guidelines&lt;/h2&gt;
+&lt;p&gt;The following guidelines help achieve successful 3d Prints especially when designing containers, structural parts and pieces that need to be the correct size to match real world objects. These concepts still hold true for more organic creative work but may not be as necessary.&lt;/p&gt;
+&lt;div class=&#34;gallery-grid&#34;&gt;
+&lt;figure&gt;
+&lt;p&gt;&lt;img src=&#34;2022-3D-Print-Guidelines.png&#34; alt=&#34;3D Print Guidelines&#34;&gt;&lt;/p&gt;
+&lt;figcaption&gt;
+&lt;p&gt;Example of model showing Mechanical 3D Print Guidelines&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure&gt;
+&lt;p&gt;&lt;img src=&#34;2022-3D-Print-Gussets.png&#34; alt=&#34;3D Print Gussets&#34;&gt;&lt;/p&gt;
+&lt;figcaption&gt;
+&lt;p&gt;Gussets or supporting pieces like wings give more structure to elements.&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure&gt;
+&lt;p&gt;&lt;img src=&#34;2022-3D-Print-Uniform-Wall-Thickness.png&#34; alt=&#34;3D Print Uniform Wall Thickness&#34;&gt;&lt;/p&gt;
+&lt;figcaption&gt;
+&lt;p&gt;Uniform Walls help with deformation and warping.&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure&gt;
+&lt;p&gt;&lt;img src=&#34;2022-3D-Print-Fillets.png&#34; alt=&#34;3D Print Fillets&#34;&gt;&lt;/p&gt;
+&lt;figcaption&gt;
+&lt;p&gt;Fillets or rounded interior corners add strength and help with warping. Ribs also shown, connect vertical pieces to other vertical pieces or walls.&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure&gt;
+&lt;p&gt;&lt;img src=&#34;2022-3D-Print-Ribs.png&#34; alt=&#34;3D Print Ribs&#34;&gt;&lt;/p&gt;
+&lt;figcaption&gt;
+&lt;p&gt;Chamfers or angled interior corners add strength and help with warping like fillets do.&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure&gt;
+&lt;p&gt;&lt;img src=&#34;2022-3D-Print-Round-Corners.png&#34; alt=&#34;3D Print Round Corners&#34;&gt;&lt;/p&gt;
+&lt;figcaption&gt;
+&lt;p&gt;Rounded Corners put less stress on the corners and are smoother to print.&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>06.03 Organic Forms with T-Splines</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/06-3d-printing/6-03-organic-forms-with-t-splines-fusion-360/</link>
+      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
+      
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/06-3d-printing/6-03-organic-forms-with-t-splines-fusion-360/</guid>
+      <description>&lt;h2 id=&#34;direct-modeling&#34;&gt;Direct Modeling&lt;/h2&gt;
+&lt;p&gt;Fusion 360 is a parametric modeling program. Specific dimensions, sketches, and constraints define how a 3D model is built. If the order of actions is changed the model can be completely different. Parametric modeling is extremely powerful but it is not the only way to model. Fusion 360 also has a direct modeling mode. This mode does not capture any history on the design timeline. In some situations this can be ideal since one does not need to worry about timeline warnings about lost projections or geometry. It also has disadvantages since there is no design history to edit or revise. Even though direct modeling is less constrained, it is still much more rigid than organic mesh modeling.&lt;/p&gt;
+&lt;h2 id=&#34;form-workspace&#34;&gt;Form Workspace&lt;/h2&gt;
+&lt;p&gt;Fusion has a version of mesh modeling called the Form workspace. In this workspace t-spline forms can be manipulated into complex organic shapes. Then once the form is complete, it is converted to a solid body and then all of the powerful parametric design features of Fusion can be used. By combining organic forms from the form workspace with precise parametric parts in the Design workspace unique and useful designs can be made.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;2023-form-workspace-fusion-360.png&#34;&gt;&lt;img src=&#34;2023-form-workspace-fusion-360.png&#34; alt=&#34;Form Workspace&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;To get to the Form workspace, click on the purple cube at the top of the solid menu in the Design workspace. This add new options for create and modify to the menu. Instead of seeing blue icons for the form primitives and modify commands, icons are purple, indicating that t-splines will be created. T-Splines are forms with vertices or points, edges or lines, and faces. The edges connect two points. and the faces are formed by 3 or more edges.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;2023-create-t-spline-box.png&#34;&gt;&lt;img src=&#34;2023-create-t-spline-box.png&#34; alt=&#34;Create a T-Spline Box&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;In the form workspace you can create a sketch, box, plane, cylinder, sphere, torus, quadball, pipe, or a face. Forms can also be created from operations including extrude, revolve, sweep, and loft. Notice that there are new items such as quadball and face and some items are missing like hole, coil, rib, emboss, and screw.&lt;/p&gt;
+&lt;p&gt;When you create a primitive shape in the form workspace, you enter in basic dimensions just like the solid workspace but there are additional options for divisions. These divisions create the base resolution of the form you are creating. For smooth forms, using the least amount of divisions possible to get the desired result will create forms with the most continuous and smooth curvature. This is similar to using as few points as possible when drawing a spline.&lt;/p&gt;
+&lt;p&gt;For more complex forms, more divisions of the T-spline form are required. It is always possible to add more divisions but it can be difficult to remove divisions. Generally it is best practice to add more divisions and detail when needed but to not needlessly add extra divisions.&lt;/p&gt;
+&lt;div class=&#34;video-grid&#34;&gt;
+&lt;div class=&#34;video-card&#34;&gt;
+&lt;h3 id=&#34;t-splines-introduction-in-the-form-workspace&#34;&gt;T-Splines Introduction in the Form Workspace&lt;/h3&gt;
+&lt;div class=&#34;iframe-16-9-container&#34;&gt;&lt;iframe class=&#34;youTubeIframe&#34; src=&#34;https://www.youtube.com/embed/8vGrRR_TLEg?rel=0&#34; width=&#34;300&#34; height=&#34;150&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video-card&#34;&gt;
+&lt;h3 id=&#34;box-vs-smooth-mode&#34;&gt;Box vs Smooth Mode&lt;/h3&gt;
+&lt;div class=&#34;iframe-16-9-container&#34;&gt;&lt;iframe class=&#34;youTubeIframe&#34; src=&#34;https://www.youtube.com/embed/B--0CElGp7s?rel=0&#34; width=&#34;300&#34; height=&#34;150&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video-card&#34;&gt;
+&lt;h3 id=&#34;extrude-faces---form-workspace&#34;&gt;Extrude Faces - Form Workspace&lt;/h3&gt;
+&lt;div class=&#34;iframe-16-9-container&#34;&gt;&lt;iframe class=&#34;youTubeIframe&#34; src=&#34;https://www.youtube.com/embed/3YS1EX0rT0Y?rel=0&#34; width=&#34;300&#34; height=&#34;150&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video-card&#34;&gt;
+&lt;h3 id=&#34;insert-edge-loop---form-workspace&#34;&gt;Insert Edge Loop - Form Workspace&lt;/h3&gt;
+&lt;div class=&#34;iframe-16-9-container&#34;&gt;&lt;iframe class=&#34;youTubeIframe&#34; src=&#34;https://www.youtube.com/embed/dVTDrUhsN3Y?rel=0&#34; width=&#34;300&#34; height=&#34;150&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video-card&#34;&gt;
+&lt;h3 id=&#34;unweld-edges---form-workspace&#34;&gt;Unweld Edges - Form Workspace&lt;/h3&gt;
+&lt;div class=&#34;iframe-16-9-container&#34;&gt;&lt;iframe class=&#34;youTubeIframe&#34; src=&#34;https://www.youtube.com/embed/jNAzRU-Dbyg?rel=0&#34; width=&#34;300&#34; height=&#34;150&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video-card&#34;&gt;
+&lt;h3 id=&#34;make-hole-in-t-spline&#34;&gt;Make Hole in T-Spline&lt;/h3&gt;
+&lt;div class=&#34;iframe-16-9-container&#34;&gt;&lt;iframe class=&#34;youTubeIframe&#34; src=&#34;https://www.youtube.com/embed/3vat_r_MZ3k?rel=0&#34; width=&#34;300&#34; height=&#34;150&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video-card&#34;&gt;
+&lt;h3 id=&#34;freeze-t-spline&#34;&gt;Freeze T-Spline&lt;/h3&gt;
+&lt;div class=&#34;iframe-16-9-container&#34;&gt;&lt;iframe class=&#34;youTubeIframe&#34; src=&#34;https://www.youtube.com/embed/4gbuQ8cRA3I?rel=0&#34; width=&#34;300&#34; height=&#34;150&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video-card&#34;&gt;
+&lt;h3 id=&#34;crease-t-spline&#34;&gt;Crease T-Spline&lt;/h3&gt;
+&lt;div class=&#34;iframe-16-9-container&#34;&gt;&lt;iframe class=&#34;youTubeIframe&#34; src=&#34;https://www.youtube.com/embed/_ijhpIGns-A?rel=0&#34; width=&#34;300&#34; height=&#34;150&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>06.04 Check Bounding Box Size</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/06-3d-printing/6-04-check-model-bounding-box-size/</link>
+      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
+      
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/06-3d-printing/6-04-check-model-bounding-box-size/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Make sure your file is set to millimeters.&lt;/li&gt;
+&lt;li&gt;Check the properties of the component that you want to export to know the bounding box size.&lt;/li&gt;
+&lt;li&gt;The total bounding box should be less than 50mm in all directions.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;2022-Fusion-360-Properties-Browser.png&#34; alt=&#34;Fusion 360 Properties Browser&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Right click on the body or component in the browser. Then select properties.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;2022-Fusion-360-Bounding-Box.png&#34; alt=&#34;Fusion 360 Bounding Box&#34;&gt;&lt;/p&gt;
+&lt;p&gt;There is a small black triangle that needs to be clicked to show the bounding box information. Then you can see the bounding box dimensions. These should be below 50mm in all directions of x y and z.&lt;/p&gt;
+&lt;h2 id=&#34;scale-a-model-to-fit-desired-size&#34;&gt;Scale a Model to Fit Desired Size&lt;/h2&gt;
+&lt;p&gt;For the test 3D prints we want our models to be withing 50mm in all directions. How do you precisely scale an object to be as big as possible withing 50mm x 50mm x 50mm?&lt;/p&gt;
+&lt;p&gt;Once you see the size of the object in the bounding box section of the properties, note the largest dimension. It might be x, y, or z. For example, your object might measure 123mm x 78mm x 82mm. Write down the largest dimension on paper, in this case 123mm&lt;/p&gt;
+&lt;p&gt;Then use this ratio calculation:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Largest Dimension&lt;/th&gt;
+&lt;th&gt;100%&lt;/th&gt;
+&lt;th&gt;Desired Dimension&lt;/th&gt;
+&lt;th&gt;Scale Ratio&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;123 mm&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;50 mm&lt;/td&gt;
+&lt;td&gt;?&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;To get the scale ratio, cross multiply and divide. Therefore, in this case it is 50mm / 123mm = 0.406 scale ratio.&lt;/p&gt;
+&lt;p&gt;In Fusion 360, select the object in the browser, then under the Modify menu, select scale. It will ask for a scale ratio. Type in the number you calculated and Fusion will scale your model to fit within the 50mm bounding box. This works for models that are too small or too big.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>06.05 Ideation Sketches 3D Print Test Print</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/06-3d-printing/6-5-ideation-sketches-3d-print-test-print/</link>
+      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
+      
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/06-3d-printing/6-5-ideation-sketches-3d-print-test-print/</guid>
+      <description>&lt;h2 id=&#34;assignment-deliverables&#34;&gt;Assignment Deliverables&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Upload scan of thumbnail sketches&lt;/li&gt;
+&lt;li&gt;Upload scan of revised sketches&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;assignment-overview&#34;&gt;Assignment Overview&lt;/h2&gt;
+&lt;p&gt;Using thumbnail sketches, quickly design numerous ideas for a 3D test print. For now think about a small size object of about 1 cubic inch. This can be bigger than an inch in size but the total volume of the object should be less than 1 cubic inch. Think about organic forms, negative spaces, curvilinear lines and geometric surfaces.&lt;/p&gt;
 &lt;p&gt;When you finish your sketches scan them and upload them to the class Google Drive following the instructions below.&lt;/p&gt;
 &lt;h2 id=&#34;required-sketches&#34;&gt;Required Sketches&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;10 thumbnail sketches minimum - These should be 10 different ideas. Draw without constraint. Do not limit your ideas.&lt;/li&gt;
-&lt;li&gt;5 larger refined ideations minimum - Choose some of your ideas from your thumbnails. Refine them and iterate on the concepts. Which parts do you like and which parts can you change to make your ideas better.&lt;/li&gt;
-&lt;li&gt;1 larger refined drawing - Pick one of the 5 developed sketches and continue to refine it and change it. Draw it larger in perspective. You can add shading and details to help communicate your vision.&lt;/li&gt;
+&lt;li&gt;5 thumbnail sketches minimum - These should be 10 different ideas. Draw without constraint. Do not limit your ideas.&lt;/li&gt;
+&lt;li&gt;3 larger refined ideations minimum - Choose some of your ideas from your thumbnails. Refine them and iterate on the concepts. Which parts do you like and which parts can you change to make your ideas better.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1 id=&#34;grading-rubric&#34;&gt;Grading Rubric&lt;/h1&gt;
+&lt;h2 id=&#34;grading-rubric&#34;&gt;Grading Rubric&lt;/h2&gt;
+&lt;div class=&#34;responsive-table-markdown&#34;&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -43,15 +273,11 @@
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td&gt;10 thumbnails&lt;/td&gt;
+&lt;td&gt;5 - 10 thumbnails&lt;/td&gt;
 &lt;td&gt;20 points&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;5 revised sketches&lt;/td&gt;
-&lt;td&gt;20 points&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Larger Refined Sketch&lt;/td&gt;
+&lt;td&gt;3 revised sketches&lt;/td&gt;
 &lt;td&gt;20 points&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
@@ -68,121 +294,34 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;/div&gt;
 </description>
     </item>
     
     <item>
-      <title>6.2 Make 3D Model and Export STL File for 3D Test Print</title>
-      <link>https://whatmakeart.com/modeling-and-fabrication/modules/06-3d-printing/6-2-make-3d-model-and-export-stl-file-for-3d-test-print/</link>
+      <title>06.06 Make 3D Model and Export STL File for 3D Test Print</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/06-3d-printing/6-6-make-3d-model-and-export-stl-file-for-3d-test-print/</link>
       <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
       
-      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/06-3d-printing/6-2-make-3d-model-and-export-stl-file-for-3d-test-print/</guid>
-      <description>&lt;p&gt;We will not only 3D model on our computers, we will output our digital models into the physical world. We will use different processes to make physical models but the first technique will be 3D printing. 3D printing is a quick way to be able to hold a complex 3D model in your hands. Some models can only be made by 3D printing. 3D printing is an additive process, meaning material is added to existing material rather than being cut away such as with a saw.&lt;/p&gt;
-&lt;p&gt;The test prints will be small and must fit within a 50mm x 50mm x 50mm box. (50mm is approximately 2 inches) You can see the size of your model in Fusion under properties from the browser.&lt;/p&gt;
-&lt;h2 id=&#34;ideation-sketches&#34;&gt;Ideation Sketches&lt;/h2&gt;
-&lt;p&gt;Using thumbnail sketches, quickly design numerous ideas for a 3D test print. For now think about a small size object of about 1 cubic inch. This can be bigger than an inch in size but the total volume of the object should be less than 1 cubic inch. Think about organic forms, negative spaces, curvilinear lines and geometric surfaces.&lt;/p&gt;
-&lt;p&gt;When you finish your sketches scan them and upload them to the class Google Drive following the instructions below.&lt;/p&gt;
-&lt;h3 id=&#34;required-sketches&#34;&gt;Required Sketches&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;10 thumbnail sketches minimum - These should be 10 different ideas. Draw without constraint. Do not limit your ideas.&lt;/li&gt;
-&lt;li&gt;5 larger refined ideations minimum&amp;lt;- Choose some of your ideas from your thumbnails. Refine them and iterate on the concepts. Which parts do you like and which parts can you change to make your ideas better.&lt;/li&gt;
-&lt;li&gt;1 larger refined drawing - Pick one of the 5 developed sketches and continue to refine it and change it. Draw it larger in perspective. You can add shading and details to help communicate your vision.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;model-your-design-in-fusion-360&#34;&gt;Model your design in Fusion 360&lt;/h2&gt;
-&lt;h3 id=&#34;general-3d-print-rules-for-ffd-printing-without-dissolvable-supports&#34;&gt;General 3D Print Rules for FFD Printing without Dissolvable Supports&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Keep thin and small parts multiples of the nozzle size. The nozzle at the think[box] is .4mm absolute minimum size of fine objects is 1.2mm. A better size for thin walls and supports is 1.6mm. 1.5mm or 1.7 mm are not good. 2.0mm or 2.4mm are even better.&lt;/li&gt;
-&lt;li&gt;Keep overhanging parts extending out less than 45 degrees. This allows layers to overlap a bit and slowly extend out wider. 45 degrees is the max otherwise the printer tries to print in mid air and all the filament falls to the ground.&lt;/li&gt;
-&lt;li&gt;Objects must be fully connected and &amp;ldquo;manifold&amp;rdquo; or &amp;ldquo;watertight&amp;rdquo; You can&amp;rsquo;t have pieces floating in the air or close but not touching. Don&amp;rsquo;t have small voids. Make the pieces solid and uniform. You can have a hollow vase or container but all its parts and walls should be connected and solid.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;gallery-grid-jimmy&#34; style=&#34;display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); grid-gap: 10px;&#34;&gt;
-&lt;div class=&#34;image-card-jimmy&#34; style=&#34;display: flex; flex-direction: column; justify-content: stretch;&#34;&gt;
-&lt;p&gt;&lt;img src=&#34;2022-3D-Print-Angles.png&#34; alt=&#34;3D Print Angles&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;caption-jimmy&#34; style=&#34;font-size: 14px;&#34;&gt;Red models will not print without supports but green models will because they rise up at 45 degrees&lt;/span&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;image-card-jimmy&#34; style=&#34;display: flex; flex-direction: column; justify-content: stretch;&#34;&gt;
-&lt;p&gt;&lt;img src=&#34;2022-3D-Print-Angles-Square.png&#34; alt=&#34;3D Print Angles Square&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;caption-jimmy&#34; style=&#34;font-size: 14px;&#34;&gt;Red models will not print without supports but green models will because they rise up at 45 degrees&lt;/span&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;image-card-jimmy&#34; style=&#34;display: flex; flex-direction: column; justify-content: stretch;&#34;&gt;
-&lt;p&gt;&lt;img src=&#34;2022-3D-Print-Angles-Round.png&#34; alt=&#34;3D Print Angles Round&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;caption-jimmy&#34; style=&#34;font-size: 14px;&#34;&gt;Red models will not print without supports but green models will because they rise up at 45 degrees&lt;/span&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;h3 id=&#34;general-structural-3d-printing-guidelines&#34;&gt;General Structural 3D Printing Guidelines&lt;/h3&gt;
-&lt;p&gt;The following guidelines help achieve successful 3d Prints especially when designing containers, structural parts and pieces that need to be the correct size to match real world objects. These concepts still hold true for more organic creative work but may not be as necessary.&lt;/p&gt;
-&lt;div class=&#34;gallery-grid-jimmy&#34; style=&#34;display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); grid-gap: 10px;&#34;&gt;
-&lt;div class=&#34;image-card-jimmy&#34; style=&#34;display: flex; flex-direction: column; justify-content: stretch;&#34;&gt;
-&lt;p&gt;&lt;img src=&#34;2022-3D-Print-Guidelines.png&#34; alt=&#34;3D Print Guidelines&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;caption-jimmy&#34; style=&#34;font-size: 14px;&#34;&gt;Example of model showing Mechanical 3D Print Guidelines&lt;/span&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;image-card-jimmy&#34; style=&#34;display: flex; flex-direction: column; justify-content: stretch;&#34;&gt;
-&lt;p&gt;&lt;img src=&#34;2022-3D-Print-Gussets.png&#34; alt=&#34;3D Print Gussets&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;caption-jimmy&#34; style=&#34;font-size: 14px;&#34;&gt;Gussets or supporting pieces like wings give more structure to elements.&lt;/span&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;image-card-jimmy&#34; style=&#34;display: flex; flex-direction: column; justify-content: stretch;&#34;&gt;
-&lt;p&gt;&lt;img src=&#34;2022-3D-Print-Uniform-Wall-Thickness.png&#34; alt=&#34;3D Print Uniform Wall Thickness&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;caption-jimmy&#34; style=&#34;font-size: 14px;&#34;&gt;Uniform Walls help with deformation and warping.&lt;/span&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;image-card-jimmy&#34; style=&#34;display: flex; flex-direction: column; justify-content: stretch;&#34;&gt;
-&lt;p&gt;&lt;img src=&#34;2022-3D-Print-Fillets.png&#34; alt=&#34;3D Print Fillets&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;caption-jimmy&#34; style=&#34;font-size: 14px;&#34;&gt;Fillets or rounded interior corners add strength and help with warping. Ribs also shown, connect vertical pieces to other vertical pieces or walls.&lt;/span&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;image-card-jimmy&#34; style=&#34;display: flex; flex-direction: column; justify-content: stretch;&#34;&gt;
-&lt;p&gt;&lt;img src=&#34;2022-3D-Print-Ribs.png&#34; alt=&#34;3D Print Ribs&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;caption-jimmy&#34; style=&#34;font-size: 14px;&#34;&gt;Chamfers or angled interior corners add strength and help with warping like fillets do.&lt;/span&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;image-card-jimmy&#34; style=&#34;display: flex; flex-direction: column; justify-content: stretch;&#34;&gt;
-&lt;p&gt;&lt;img src=&#34;2022-3D-Print-Round-Corners.png&#34; alt=&#34;3D Print Round Corners&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;caption-jimmy&#34; style=&#34;font-size: 14px;&#34;&gt;Rounded Corners put less stress on the corners and are smoother to print.&lt;/span&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;h3 id=&#34;3d-printing-terms&#34;&gt;3D Printing Terms&lt;/h3&gt;
-&lt;p&gt;These are some common words and terminology used in 3D Printing&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Vertex - the base unit of a polygon model. It is a point in space defined by an x, y and z coordinate. Can be moved around and &amp;ldquo;welded&amp;rdquo; to other vertexes or connected to another vertex with an edge.&lt;/li&gt;
-&lt;li&gt;Edge - the line connecting two vertexes in a polygon model. Edges make closed shaped that are called faces&lt;/li&gt;
-&lt;li&gt;Face - the enclosed shape made by connected vertexes and edges. Can be a triangle, a quad (four-sides) or an N-Gon&lt;/li&gt;
-&lt;li&gt;Triangle - simplest planar shape. STLs are made of triangle but triangles should be avoided if possible when modeling since they cannot be subdivided easily and do not make smooth forms.&lt;/li&gt;
-&lt;li&gt;Quad - A four sided polygon. This is generally the best shape to make your model from.&lt;/li&gt;
-&lt;li&gt;N-Gon - A polygon with (n) sides. These should be avoided. With T-Splines you may have some n-gons but it is best to make them into quads if you can.&lt;/li&gt;
-&lt;li&gt;Mesh - The structure of a 3D model. It is made of of points (vertexes), edges and polygon faces.&lt;/li&gt;
-&lt;li&gt;Bounding Box - the smallest box that your model can fit in. IT is a rectangular prism defined by a height, width and length.&lt;/li&gt;
-&lt;li&gt;Raft - bottom support for a 3D print to help it adhere to the print bed when the print starts and to keep the print from falling over when the print gets taller.&lt;/li&gt;
-&lt;li&gt;Infill - Support material in the middle of a 3D print. Can be made of different patterns and is usually not solid. Sometimes described in percentage terms, less infill will make a faster print and use less material while a higher percentage infill will take longer to print and use more material.&lt;/li&gt;
-&lt;li&gt;Support Material - extra printed material used to support parts of the print that overhang more than 45 degrees in the horizontal direction. Sometime a model can be orientated on the printer at a different angle to avoid support material. Can be removed but often messes up the surface where it attached to the print.&lt;/li&gt;
-&lt;li&gt;Parametric - A 3D model driven by defined dimensions and parameters&lt;/li&gt;
-&lt;li&gt;Solid - A 3D model that is not a plane or open shape. It is a full solid object.&lt;/li&gt;
-&lt;li&gt;Polygon - A 3 or more sided shape. The surfaces of 3D models are made of polygons&lt;/li&gt;
-&lt;li&gt;STL (STereoLithography) - the most common file format used for 3D printing. It is made of a fine triangle mesh. This file format works for 3D printing but is not good for modeling. Always save the original model file so you can make changes. It is possible to edit an STL file but it is much easier to edit the original 3D model.&lt;/li&gt;
-&lt;li&gt;Print in Place (PIP) - Method of printing moving parts such as hinges and joints in a 3D print in one operation. This produces forms that would not be possible with traditional manufacturing techniques.&lt;/li&gt;
-&lt;li&gt;Fused Filament Fabrication (FFF) - Most common method of affordable 3D printing. This method uses a thermoplastic filament, or wire, on a spool that is fed through a nozzle. Heat melts the thermoplastic and new layers are fused to previous layers in order to make the print.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;check-the-bounding-box-size&#34;&gt;Check the Bounding Box Size&lt;/h2&gt;
-&lt;p&gt;Make sure your file is set to millimeters Check the properties of the component that you want to export to know the bounding box size.&lt;/p&gt;
-&lt;p&gt;The total bounding box should be less than 50mm in all directions.&lt;/p&gt;
-&lt;div class=&#34;flex-container-jimmy&#34; style=&#34;display: flex; align-items: top; flex-wrap: wrap;&#34;&gt;
-&lt;div class=&#34;half-box&#34; style=&#34;flex: 1 1 400px;&#34;&gt;
-&lt;p&gt;&lt;img src=&#34;2022-Fusion-360-Properties-Browser.png&#34; alt=&#34;Fusion 360 Properties Browser&#34;&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;half-box&#34; style=&#34;flex: 1 1 400px;&#34;&gt;
-&lt;p&gt;Click on properties of the body or component in the browser. Right click on the component that you want to print. Then select properties.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;flex-container-jimmy&#34; style=&#34;display: flex; align-items: top; flex-wrap: wrap;&#34;&gt;
-&lt;div class=&#34;half-box&#34; style=&#34;flex: 1 1 400px;&#34;&gt;
-&lt;p&gt;&lt;img src=&#34;2022-Fusion-360-Bounding-Box.png&#34; alt=&#34;Fusion 360 Bounding Box&#34;&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;half-box&#34; style=&#34;flex: 1 1 400px;&#34;&gt;
-&lt;p&gt;Then you can see the bounding box dimensions. These should be below 50mm in all directions of x y and z.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/06-3d-printing/6-6-make-3d-model-and-export-stl-file-for-3d-test-print/</guid>
+      <description>&lt;h2 id=&#34;assignment-deliverables&#34;&gt;Assignment Deliverables&lt;/h2&gt;
+&lt;p&gt;Upload the following items:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Exported STL file of model&lt;/li&gt;
+&lt;li&gt;Exported.f3d file of model&lt;/li&gt;
+&lt;li&gt;Render image&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;assignment-overview&#34;&gt;Assignment Overview&lt;/h2&gt;
+&lt;p&gt;The test prints will be small and should fit within a 50mm x 50mm x 50mm box. (50mm is approximately 2 inches) You can see the size of your model in Fusion under properties from the browser.&lt;/p&gt;
 &lt;h2 id=&#34;export-stl-file-for-3d-test-print&#34;&gt;Export STL file for 3D Test Print&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Watch the video on the tutorial page to export your model as an STL file.&lt;/li&gt;
 &lt;li&gt;Choose File &amp;gt; 3D Print to save your STL Label the file YYYYMMDD Lastname Firstname 3D Test Print.stl&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;export-f3d-file-of-model-from-fusion-360-choose-file--export--and-save-a-f3d-version-of-your-object&#34;&gt;Export .f3d file of Model from Fusion 360 Choose File &amp;gt; Export &amp;hellip; and save a .f3d version of your object.&lt;/h2&gt;
+&lt;h2 id=&#34;export-f3d-file-of-model-from-fusion-360&#34;&gt;Export .f3d file of Model from Fusion 360&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Choose File &amp;gt; Export &amp;hellip; and save a .f3d version of your object.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2 id=&#34;apply-materials-and-export-a-render-image&#34;&gt;Apply materials and Export a Render Image&lt;/h2&gt;
 &lt;p&gt;The 3D print will be a solid color of PLA plastic.&lt;/p&gt;
 &lt;ul&gt;
@@ -192,15 +331,8 @@
 &lt;li&gt;Export a render image with a good composition.&lt;/li&gt;
 &lt;li&gt;Don&amp;rsquo;t make the object too small in the image.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;upload-to-google-drive&#34;&gt;Upload to Google Drive&lt;/h2&gt;
-&lt;p&gt;Upload the following items to Google Drive:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;scans of your ideation sketches&lt;/li&gt;
-&lt;li&gt;STL file of model&lt;/li&gt;
-&lt;li&gt;.f3d file of model&lt;/li&gt;
-&lt;li&gt;render image&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&#34;grading-rubric&#34;&gt;Grading Rubric&lt;/h1&gt;
+&lt;h2 id=&#34;grading-rubric&#34;&gt;Grading Rubric&lt;/h2&gt;
+&lt;div class=&#34;responsive-table-markdown&#34;&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -208,7 +340,38 @@
 &lt;th&gt;Weight&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;3D Model Design&lt;/td&gt;
+&lt;td&gt;20 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Exported STL&lt;/td&gt;
+&lt;td&gt;20 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Exported .f3d&lt;/td&gt;
+&lt;td&gt;10 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Material(s) Applied&lt;/td&gt;
+&lt;td&gt;10 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Render Image Composition&lt;/td&gt;
+&lt;td&gt;20 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Render Image Aspect Ratio&lt;/td&gt;
+&lt;td&gt;10 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;File Management&lt;/td&gt;
+&lt;td&gt;10 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
 &lt;/table&gt;
+&lt;/div&gt;
 </description>
     </item>
     

@@ -1,8 +1,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>05 - Laser Cutting on Modeling and Fabrication</title>
+    <title>05 Laser Cutting on Modeling and Fabrication</title>
     <link>https://whatmakeart.com/modeling-and-fabrication/modules/05-laser-cutting-fabrication/</link>
-    <description>Recent content in 05 - Laser Cutting on Modeling and Fabrication</description>
+    <description>Recent content in 05 Laser Cutting on Modeling and Fabrication</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 26 Jan 2020 23:11:13 +0000</lastBuildDate>
@@ -11,23 +11,44 @@
     
     
     <item>
-      <title>5.0 Introduction</title>
+      <title>05.0 Introduction</title>
       <link>https://whatmakeart.com/modeling-and-fabrication/modules/05-laser-cutting-fabrication/5-0-introduction/</link>
       <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
       
       <guid>https://whatmakeart.com/modeling-and-fabrication/modules/05-laser-cutting-fabrication/5-0-introduction/</guid>
-      <description></description>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;This module covers the fabrication process of a laser cut assembly modeled in Fusion 360. It shows how to make revisions to a digital model in Fusion 360 and the importance of keeping each piece of a model to be fabricated as an individual component. This is necessary to be able to &lt;a href=&#34;https://youtu.be/jeQPJHHwVN4&#34;&gt;lay the parts out flat&lt;/a&gt; in Fusion 360 to produce and &lt;a href=&#34;https://youtu.be/6JFHMV7A9TU&#34;&gt;export a DXF cut file&lt;/a&gt; for use on the laser cutter. You will need to &lt;a href=&#34;https://youtu.be/-B6DXF9aE5s&#34;&gt;make a laser cutter tool&lt;/a&gt; in Fusion 360 and &lt;a href=&#34;https://youtu.be/CBu6vl6Bqos&#34;&gt;install a DXF post processor&lt;/a&gt;. to produce a DXF file of your tool paths. This is the file you will use to cut out your laser cut design.&lt;/p&gt;
+&lt;h2 id=&#34;learning-objectives&#34;&gt;Learning Objectives&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Revise and make changes to a digital model in Fusion 360&lt;/li&gt;
+&lt;li&gt;Lay pieces flat in preparation for laser cutting&lt;/li&gt;
+&lt;li&gt;Create a custom Laser Cutting tool in Fusion 360&lt;/li&gt;
+&lt;li&gt;Create tool paths with kerf compensation&lt;/li&gt;
+&lt;li&gt;Export tool paths as DXF files&lt;/li&gt;
+&lt;li&gt;Cut out custom laser cut design&lt;/li&gt;
+&lt;li&gt;Assemble laser cut pieces&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;key-terms&#34;&gt;Key Terms&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;DXF&lt;/li&gt;
+&lt;li&gt;post processor&lt;/li&gt;
+&lt;li&gt;Manufacture Workspace&lt;/li&gt;
+&lt;li&gt;tool path&lt;/li&gt;
+&lt;li&gt;profile&lt;/li&gt;
+&lt;li&gt;kerf&lt;/li&gt;
+&lt;li&gt;layout&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
-      <title>5.1Laser Cut Stand Photo Documentation</title>
-      <link>https://whatmakeart.com/modeling-and-fabrication/modules/05-laser-cutting-fabrication/5-1-laser-cut-documentation/</link>
+      <title>05.01 Laser Cut 3D Model Revisions</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/05-laser-cutting-fabrication/5-01-laser-cut-3d-model-revisions/</link>
       <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
       
-      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/05-laser-cutting-fabrication/5-1-laser-cut-documentation/</guid>
-      <description>&lt;h1 id=&#34;cut-out-stand-with-laser-cutter--photo-document-on-thinkbox-photo-stand&#34;&gt;Cut Out Stand with Laser Cutter &amp;amp; Photo Document on think[box] Photo Stand&lt;/h1&gt;
-&lt;h2 id=&#34;make-changes-to-model&#34;&gt;Make Changes to Model&lt;/h2&gt;
-&lt;p&gt;Look at your model and decide if there are design issues or changes that you want to make. Think about how your pieces connect. Think about the overall aesthetics of the stand.&lt;/p&gt;
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/05-laser-cutting-fabrication/5-01-laser-cut-3d-model-revisions/</guid>
+      <description>&lt;h2 id=&#34;assess-your-digital-model&#34;&gt;Assess your Digital Model&lt;/h2&gt;
+&lt;p&gt;Look at your digital model in Fusion 360 and decide if there are design issues or changes that you want to make. Think about how your pieces connect. Think about the overall aesthetics of the stand.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Do the finger joints only sit on the outside of a piece or are the fully enclosed?&lt;/li&gt;
 &lt;li&gt;Is there clearance for bolts?&lt;/li&gt;
@@ -36,36 +57,210 @@
 &lt;li&gt;Are there any sharp corners? Are there places that decorative cutouts or negative space could be added to the design?&lt;/li&gt;
 &lt;li&gt;Could more organic forms be added to improve the design?&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Design is a process of iteration and improvement. There are likely places where you design could be altered and changed before cutting. Make these changes to your model.&lt;/p&gt;
-&lt;p&gt;Then check your Fusion 360 file for errors in the timeline. Fix these errors in the timeline by moving the playhead to the first error and fixing it before the others. Right click on the feature in the timeline to review any errors. Continue until all errors are complete.&lt;/p&gt;
+&lt;p&gt;Design is a process of iteration and improvement. There are likely places where you design could be altered and changed before cutting. Make these changes to your model in Fusion 360. Some changes will be as simple as changing the value of user parameters. Others will require modification of sketches or extrude features. More involved changes may require creating new components or even deleting existing components.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;△ Triangles are strong&lt;/li&gt;
+&lt;li&gt;┗ L&amp;rsquo;s are Lame&lt;/li&gt;
+&lt;li&gt;▢ Squares are ok but need some help&lt;/li&gt;
+&lt;li&gt;○ Circles are amazing but can be hard to attach to&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2 id=&#34;check-your-plywood-thickness&#34;&gt;Check your Plywood Thickness&lt;/h2&gt;
-&lt;p&gt;Measure your plywood with digital calipers. You can use a piece from your laser cut test. It will be close enough but the thickness is likely different than what you used for your user parameter in Fusion 360. Update your user parameter to match.&lt;/p&gt;
-&lt;p&gt;It is a good idea to temporarily make the ply parameter much larger to double check that you used the user parameter throughout your model everyplace ply was needed. It is easy to accidentally type the actual dimension rather that using the user parameter. You want to check this before cutting. If you put in a larger number and you notice one piece doesn&amp;rsquo;t change, then that is an indication that you did not use the parameter on that dimension. Go back and change it.&lt;/p&gt;
-&lt;h2 id=&#34;re-export-tool-paths&#34;&gt;Re-Export Tool Paths&lt;/h2&gt;
+&lt;p&gt;Measure your plywood with digital calipers. You can use a piece from your laser cut test. It might be close but the thickness is likely different than what you used for your user parameter in Fusion 360. Update your user parameter to match so you have joints that fit and are even. This is especially important for thicker pieces of plywood.&lt;/p&gt;
+&lt;p&gt;It is a good idea to temporarily make the &amp;ldquo;ply&amp;rdquo; parameter much larger to double check that you used the user parameter throughout your model everyplace &amp;ldquo;ply&amp;rdquo; was needed. It is easy to accidentally type the actual dimension rather that using the user parameter. You want to check this before cutting. If you put in a larger number and you notice one piece doesn&amp;rsquo;t change, then that is an indication that you did not use the parameter on that dimension. Go back and change it. &lt;a href=&#34;https://www.youtu.be/a7HOiBC_81s&#34;&gt;Changing Plywood Thickness in Fusion 360 video demo.&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;fix-errors&#34;&gt;Fix Errors&lt;/h2&gt;
+&lt;p&gt;Then check your Fusion 360 file for errors in the timeline. Fix these errors in the timeline by moving the playhead to the first error and fixing it before the others. Right click on the feature in the timeline to review any errors. Continue until all errors are complete. &lt;a href=&#34;https://www.youtu.be/F3673fmEymo&#34;&gt;Fixing Fusion 360 Errors video demo.&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;make-sure-each-piece-is-a-component&#34;&gt;Make Sure Each Piece is a Component&lt;/h2&gt;
+&lt;p&gt;Turn on the Inspection Tool &amp;gt; Display Component Colors in Fusion 360. It is located under the Inspect button in the Design Workspace. This makes each individual component have a different display color. This does not change any appearances they you applied. If you turn off Display Component Colors, then the previous appearances will show.&lt;/p&gt;
+&lt;p&gt;Showing the components as different colors can help make sense of a complicated model. It can also show places that may have not been cut through. It helps check if everything is a separate component since pieces that are the same color could be the same component. As an added benefit, the colors of the components are also shown in the browser on the left and the design timeline on the bottom. This can be extremely helpful when modifying and troubleshooting a model.&lt;/p&gt;
+&lt;p&gt;Note: Sometimes Fusion 360 picks colors that look similar.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;2023-fusion-360-display-component-colors.png&#34;&gt;&lt;img src=&#34;2023-fusion-360-display-component-colors.jpg&#34; alt=&#34;Display Component Colors Fusion 360&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>05.02 Create Laser Cutting Tool in Fusion 360</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/05-laser-cutting-fabrication/5-02-create-laser-cutting-tool-fusion-360/</link>
+      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
+      
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/05-laser-cutting-fabrication/5-02-create-laser-cutting-tool-fusion-360/</guid>
+      <description>&lt;p&gt;In order to create toolpaths in Fusion 360 we need to tell Fusion what tool we will use to cut out our pieces so the computer can do the proper calculations. The main dimension needed for a laser cutting tool is the width of the laser so Fusion can calculate the kerf offset. All cutting tools leave a gap where they pass through the material. If this gap is not accounted for then pieces will not be the expected size.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;2023-make-laser-cut-tool-fusion-360.png&#34;&gt;&lt;img src=&#34;2023-make-laser-cut-tool-fusion-360.png&#34; alt=&#34;Making a Laser Cut Tool&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;In the Manufacure Workspace there is a tool library. Here you can create and import tools to use in Fusion 360. These tools can be reused in later projects.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;2023-fusion-360-tool-library.png&#34;&gt;&lt;img src=&#34;2023-fusion-360-tool-library.png&#34; alt=&#34;Fusion 360 Tool Library&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Follow the instructions in the video below to create a laser cut tool in Fusion 360. Make sure you enter a kerf of .127 mm since that is the kerf of the laser cutters at the think[box]. If your pieces do not fit correctly you can then adjust this tool in Fusion 360 to correct the kerf for your desired fit.&lt;/p&gt;
+&lt;div class=&#34;video-grid&#34;&gt;
+&lt;div class=&#34;video-card&#34;&gt;
+&lt;h2 id=&#34;create-laser-cutter-tool-with-specific-kerf&#34;&gt;Create Laser Cutter Tool with Specific Kerf&lt;/h2&gt;
+&lt;div class=&#34;iframe-16-9-container&#34;&gt;&lt;iframe class=&#34;youTubeIframe&#34; style=&#34;position: absolute; top: 0; bottom: 0; left: 0; width: 100%; height: 100%; border: 0; z-index: 1;&#34; src=&#34;https://www.youtube.com/embed/-B6DXF9aE5s?rel=0&#34; width=&#34;560&#34; height=&#34;315&#34; frameborder=&#34;0&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>05.03 Install DXF Post Processor</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/05-laser-cutting-fabrication/5-03-install-dxf-post-processor/</link>
+      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
+      
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/05-laser-cutting-fabrication/5-03-install-dxf-post-processor/</guid>
+      <description>&lt;p&gt;To get usable toolpaths for the laser cutter we need to install a post processor. Post processing calculates the size of the material and toolpaths. Then it converts this to g-code to be used by a machine. In our case, we want to export a DXF file so we can separate the cutting and etching into different layers. Therefore we will install a DXF post processor provided by Autodesk. This will allow you to export your laser cut tool paths from Fusion 360 as a DXF file that you can open and edit in Illustrator.&lt;/p&gt;
+&lt;p&gt;Follow the instructions in the video below to install the DXF Post Processor from Autodesk. This is the link to the &lt;a href=&#34;https://cam.autodesk.com/hsmposts?p=dxf&#34;&gt;DXF Post Processor from Autodesk&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You can install it locally in Windows or Mac. &lt;a href=&#34;https://knowledge.autodesk.com/support/fusion-360/learn-explore/caas/sfdcarticles/sfdcarticles/How-to-add-a-Post-Processor-to-your-Personal-Posts-in-Fusion-360.html&#34;&gt;Local install instructions.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;You can install it in the cloud as well, then you can use it anywhere. Make sure to enable cloud libraries first. &lt;a href=&#34;https://knowledge.autodesk.com/support/fusion-360/learn-explore/caas/sfdcarticles/sfdcarticles/How-to-install-a-cloud-post-in-Fusion-360.html&#34;&gt;Cloud install instructions.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;There are video instructions below showing &lt;a href=&#34;https://youtu.be/CBu6vl6Bqos&#34;&gt;how to install the DXF post processor&lt;/a&gt;.&lt;/p&gt;
+&lt;div class=&#34;video-grid&#34;&gt;
+&lt;div class=&#34;video-card&#34;&gt;
+&lt;h2 id=&#34;download-and-install-dxf-post-process-for-fusion-360&#34;&gt;Download and Install DXF Post Process for Fusion 360&lt;/h2&gt;
+&lt;div class=&#34;iframe-16-9-container&#34;&gt;&lt;iframe class=&#34;youTubeIframe&#34; style=&#34;position: absolute; top: 0; bottom: 0; left: 0; width: 100%; height: 100%; border: 0; z-index: 1;&#34; src=&#34;https://www.youtube.com/embed/CBu6vl6Bqos?rel=0&#34; width=&#34;560&#34; height=&#34;315&#34; frameborder=&#34;0&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>05.04 Make Manufacture Model Copy</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/05-laser-cutting-fabrication/5-04-make-a-manufacture-model-copy/</link>
+      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
+      
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/05-laser-cutting-fabrication/5-04-make-a-manufacture-model-copy/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;2023-fusion-360-create-manufacture-model.png&#34;&gt;&lt;img src=&#34;2023-fusion-360-create-manufacture-model.png&#34; alt=&#34;Manufacture Model in Fusion 360&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Fusion 360 has multiple workspaces. We have used the Design and Render workspaces. Another workspace is the Manufacture workspace. This workspace is for preparing a model for fabrication and generating toolpaths.&lt;/p&gt;
+&lt;p&gt;By creating a manufacture model copy of your design model, you can move the parts around and lay them flat without changing your design model. If you change your design model then the manufacture model updates automatically. This can be helpful for making variations of patterns and designs.&lt;/p&gt;
+&lt;p&gt;If you make changes to the manufacture model, it does not update the design model. This can be helpful if for testing. Perhaps you want to add or remove a portion of a piece to see how it works but don&amp;rsquo;t want to capture it in your design history. Then making the changes in your manufacture model is a good idea. Otherwise it is best to make changes in the design model.&lt;/p&gt;
+&lt;p&gt;You can have multiple manufacture models.&lt;/p&gt;
+&lt;div class=&#34;vidoe-grid&#34;&gt;
+&lt;div class=&#34;video-card&#34;&gt;
+&lt;h2 id=&#34;make-a-manufacture-model-copy-of-your-design&#34;&gt;Make a Manufacture Model Copy of Your Design&lt;/h2&gt;
+&lt;div class=&#34;iframe-16-9-container&#34;&gt;&lt;iframe class=&#34;youTubeIframe&#34; style=&#34;position: absolute; top: 0; bottom: 0; left: 0; width: 100%; height: 100%; border: 0; z-index: 1;&#34; src=&#34;https://www.youtube.com/embed/bhVPR4CUOUk?rel=0&#34; width=&#34;560&#34; height=&#34;315&#34; frameborder=&#34;0&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>05.05 Lay Out Parts Flat for Laser Cutting</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/05-laser-cutting-fabrication/5-05-lay-parts-flat-for-laser-cutting/</link>
+      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
+      
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/05-laser-cutting-fabrication/5-05-lay-parts-flat-for-laser-cutting/</guid>
+      <description>&lt;p&gt;Once your model is complete and each piece is a separate and labeled component, you are ready to lay your pieces flat to create a DXF toolpath file for the laser cutter.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Change to the Manufacture Workspace.&lt;/li&gt;
+&lt;li&gt;Make sure you created a Manufacture Model. This model is like a linked copy of your Design Model. It allows you to lay your pieces flat with out moving your Design Model. This video shows &lt;a href=&#34;https://youtu.be/bhVPR4CUOUk&#34;&gt;how to make a Manufacture Model&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Draw a sketch to represent your plywood or acrylic sheet. Make the dimensions of the sketch the size of your material. If you are using larger plywood or acrylic then draw a larger sketch. If you are using a &amp;ldquo;remnant&amp;rdquo; or cutoff piece then draw your sketch to that size.&lt;/li&gt;
+&lt;li&gt;Then use the Arrange command to lay your parts flat.&lt;/li&gt;
+&lt;li&gt;Follow the instructions in &lt;a href=&#34;https://youtu.be/jeQPJHHwVN4&#34;&gt;the video&lt;/a&gt; to arrange your parts flat.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure&gt;
+&lt;p&gt;&lt;a href=&#34;2021-Laser-Cut-Stand-CAM-Layout-Top.png&#34;&gt;&lt;img src=&#34;2021-Laser-Cut-Stand-CAM-Layout-Top.png&#34; alt=&#34;Laser Cut Stand CAM Layout&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;figcaption&gt;
+&lt;p&gt;Top view of components of laser cut stand flat on plywood.&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;figure&gt;
+&lt;div class=&#34;video-grid&#34;&gt;
+&lt;div class=&#34;video-card&#34;&gt;
+&lt;h3 id=&#34;lay-parts-flat-with-arrange-for-laser-cutting&#34;&gt;Lay Parts Flat with Arrange for Laser Cutting&lt;/h3&gt;
+&lt;div class=&#34;iframe-16-9-container&#34;&gt;&lt;iframe class=&#34;youTubeIframe&#34; style=&#34;position: absolute; top: 0; bottom: 0; left: 0; width: 100%; height: 100%; border: 0; z-index: 1;&#34; src=&#34;https://www.youtube.com/embed/jeQPJHHwVN4?rel=0&#34; width=&#34;560&#34; height=&#34;315&#34; frameborder=&#34;0&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>05.07 Export Laser Cut Toolpaths to DXF</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/05-laser-cutting-fabrication/5-06-export-laser-cut-toolpaths-to-dxf/</link>
+      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
+      
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/05-laser-cutting-fabrication/5-06-export-laser-cut-toolpaths-to-dxf/</guid>
+      <description>&lt;h2 id=&#34;create-toolpaths-in-the-manufacture-workspace&#34;&gt;Create Toolpaths in the Manufacture Workspace&lt;/h2&gt;
+&lt;p&gt;Follow the steps in this tutorial video to create a new setup in Fusion 360. This is done in the Manufacture Workspace. You need to create the laser cutter tool first. It is important to create a new &amp;ldquo;Cutting&amp;rdquo; setup so you can make a new 2D Profile to cut out.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;2021-Laser-Cut-Stand-CAM-Toolpaths.png&#34;&gt;&lt;img src=&#34;2021-Laser-Cut-Stand-CAM-Toolpaths.png&#34; alt=&#34;Laser Cut Stand Toolpaths&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;save-your-tool-paths-as-a-dxf-via-post-process&#34;&gt;Save your Tool Paths as a DXF via Post Process&lt;/h2&gt;
+&lt;p&gt;Select the tool path from your setup and then click on post process. Use the DXF post process that you installed earlier to export a DXF file. Make sure to add the .dxf file extension.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;2021-Laser-Cut-Stand-Post-Process.png&#34;&gt;&lt;img src=&#34;2021-Laser-Cut-Stand-Post-Process.png&#34; alt=&#34;Laser Cut Stand Post Process&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Example of each part of the stand as a separate component at the top level assembly in Fusion 360.&lt;/p&gt;
+&lt;h2 id=&#34;export-tool-paths&#34;&gt;Export Tool Paths&lt;/h2&gt;
 &lt;p&gt;After you modified the ply thickness, re-generate and re-export your tool paths with the DXF post processor. In the manufacture workspace, right click on the process and click generate. Then click on post process to export a new DXF. Make sure you label the dxf exports so you know which one is the most recent.&lt;/p&gt;
 &lt;p&gt;If you have a complicated model with etching or interior pocket cuts, you can make these as different profile cuts in the Fusion 360 manufacture workspace. Then you can check the box to export each operation as a different layer. This can be helpful to select the paths in Illustrator and make them different colors. You can order the cuts on the laser cutter by dragging and dropping in the Epilog print menu. It is a good idea to do all etching and interior cutting before cutting the outside contours so you pieces do not move.&lt;/p&gt;
-&lt;p&gt;Change the strokes to the correct weight and color in Illustrator.&lt;/p&gt;
-&lt;h2 id=&#34;make-updated-renders-of-your-project&#34;&gt;Make Updated Renders of Your Project&lt;/h2&gt;
-&lt;p&gt;Re-render your project after you make changes and save the images.&lt;/p&gt;
-&lt;h2 id=&#34;write-summary-of-changes-to-model&#34;&gt;Write Summary of Changes to Model&lt;/h2&gt;
-&lt;p&gt;Written Description of what your changed in your model and why. Be specific and descriptive. What did you think about the changes?&lt;/p&gt;
-&lt;h2 id=&#34;cut-out-your-project&#34;&gt;Cut out your Project&lt;/h2&gt;
-&lt;p&gt;Go to the think[box] and cut out your project. If something doesn&amp;rsquo;t work out right, modify your model and try to cut it out again.&lt;/p&gt;
-&lt;h2 id=&#34;document-your-project-on-the-photo-stand-at-the-thinkbox&#34;&gt;Document your project on the photo stand at the think[box]&lt;/h2&gt;
-&lt;p&gt;There is a photo stand at the think[box]that is perfect for documenting small objects like your laser cut projects. Use the DSLR camera at the think[box] that is already set up. There are lights set up as well. Do not use your cell phone for these pictures. Instructions link from think[box] &lt;a href=&#34;https://docs.google.com/document/d/1IEujUMfrwNqrz4M4hs8QsYuTGID2wZhnPJgkKJeSrsg/edit&#34;&gt;https://docs.google.com/document/d/1IEujUMfrwNqrz4M4hs8QsYuTGID2wZhnPJgkKJeSrsg/edit&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;2021-thinkbox-photo-stand.jpg&#34; alt=&#34;thinkbox photo stand&#34;&gt;&lt;/p&gt;
-&lt;h2 id=&#34;document-your-project-in-the-environment&#34;&gt;Document Your Project in the Environment&lt;/h2&gt;
-&lt;p&gt;In addition to the photos at the think[box] take a minimum of 2 photos of the stand in use in the environment. Use a camera from checkout and have good lighting, proper exposure, white balance and composition. Edit your photos in Photoshop / Camera Raw for the best results.&lt;/p&gt;
-&lt;h2 id=&#34;upload-documents-to-google-drive&#34;&gt;Upload Documents to Google Drive&lt;/h2&gt;
-&lt;p&gt;Upload the following to Google Drive:&lt;/p&gt;
+&lt;div class=&#34;video-grid&#34;&gt;
+&lt;div class=&#34;video-card&#34;&gt;
+&lt;h3 id=&#34;export-dxf-toolpath-with-kerf-compensation&#34;&gt;Export DXF Toolpath with Kerf Compensation&lt;/h3&gt;
+&lt;div class=&#34;iframe-16-9-container&#34;&gt;&lt;iframe class=&#34;youTubeIframe&#34; style=&#34;position: absolute; top: 0; bottom: 0; left: 0; width: 100%; height: 100%; border: 0; z-index: 1;&#34; src=&#34;https://www.youtube.com/embed/6JFHMV7A9TU?rel=0&#34; width=&#34;560&#34; height=&#34;315&#34; frameborder=&#34;0&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>05.07 Prepare DXF for Laser Cutting</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/05-laser-cutting-fabrication/5-07-prepare-dxf-file-for-laser-cutting/</link>
+      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
+      
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/05-laser-cutting-fabrication/5-07-prepare-dxf-file-for-laser-cutting/</guid>
+      <description>&lt;h2 id=&#34;open-dxf-in-illustrator-and-adjust-stroke&#34;&gt;Open DXF in Illustrator and Adjust Stroke&lt;/h2&gt;
+&lt;p&gt;You need to change the stroke weight of the red strokes in Illustrator. Also you need to change the stroke color and weight of any strokes that you want to etch. You can also draw new strokes to etch while in Illustrator. Etched strokes need to be blue and .5. Make sure you scale the document 100% and have 1mm = 1mm.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;2021-Laser-Cut-Stand-in-Illustrator.png&#34; alt=&#34;Laser Cut Stand in Illustrator&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Example of each part of the stand as a separate component at the top level assembly in Fusion 360.&lt;/p&gt;
+&lt;p&gt;Change the strokes to the correct weight and color in Illustrator. In Illustrator change the weight of the cut paths (cut with red stroke .001 weight and engraving with blue stroke .5 weight)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>05.08 Cut Out and Assemble Laser Cut Project</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/05-laser-cutting-fabrication/5-08-cut-out-and-assemble-laser-cut-project/</link>
+      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
+      
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/05-laser-cutting-fabrication/5-08-cut-out-and-assemble-laser-cut-project/</guid>
+      <description>&lt;h2 id=&#34;assignment-deliverables&#34;&gt;Assignment Deliverables&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Upload an updated render image of 3D model with design changes (png, jpg)&lt;/li&gt;
+&lt;li&gt;Upload a written description of the changes you made to your design and why (docx, pdf)&lt;/li&gt;
+&lt;li&gt;Bring assembled laser cut project to class&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Label files YYYYMMDD Lastname Firstname Project Name.ext&lt;/p&gt;
+&lt;h2 id=&#34;assignment-overview&#34;&gt;Assignment Overview&lt;/h2&gt;
+&lt;p&gt;Using your written self assessment and comments from the group discussion of the laser cut digital models, make changes to your Fusion 360 model to improve your design. Sometimes it is best to go back in the timeline to make changes, other times it is easier to edit from the end of the timeline. The goal is to have a better 3D model than what you started with.&lt;/p&gt;
+&lt;h3 id=&#34;points-to-consider&#34;&gt;Points to consider?&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Upload a minimum of 2 photos from think[box] and 2 photos from the environment to Google Drive.&lt;/li&gt;
-&lt;li&gt;Written Description of what your changed in your model and why. Be specific and descriptive. What did you think about the changes?&lt;/li&gt;
-&lt;li&gt;Updated render image(s) of your new model.&lt;/li&gt;
-&lt;li&gt;Updated exported .f3d file.&lt;/li&gt;
-&lt;li&gt;Updated Toolpath export file&lt;/li&gt;
+&lt;li&gt;Do you have connection joints that interlock and are easy to align?&lt;/li&gt;
+&lt;li&gt;Do you have &amp;ldquo;feet&amp;rdquo; on the bottom corners of the design to add stability?&lt;/li&gt;
+&lt;li&gt;Are all the ply dimensions correct?&lt;/li&gt;
+&lt;li&gt;Are negative space cutouts used to enhance the design?&lt;/li&gt;
+&lt;li&gt;Do you have enough support pieces and braces for strength?&lt;/li&gt;
+&lt;li&gt;Where can the design be made more interesting and appealing?&lt;/li&gt;
+&lt;li&gt;Are there places to add geometric or organic contours, rather than just rectangles?&lt;/li&gt;
+&lt;li&gt;Is each piece an individual component?&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1 id=&#34;grading-rubric&#34;&gt;Grading Rubric&lt;/h1&gt;
+&lt;h2 id=&#34;write-summary-of-changes-to-model&#34;&gt;Write Summary of Changes to Model&lt;/h2&gt;
+&lt;p&gt;Write down what you changed in your model and why. Be specific and descriptive. What did you think about the changes? Describe the before state, identify the problem, then explain how your addressed your desired outcome. Your self assessment can be used as a guide to get started with changing your model and with documenting the changes that you make.&lt;/p&gt;
+&lt;h2 id=&#34;make-updated-renders-of-your-project&#34;&gt;Make Updated Renders of Your Project&lt;/h2&gt;
+&lt;p&gt;After you make changes to your design, make sure that materials are applied to all the parts. Make a new render image of the updated model. Use a 1:1, 2:3, 4:6, 16:9 aspect ratio, not the viewport ratio. Make the long dimension 4000px. Make sure to have a good composition and to have the rendered object large in the frame.&lt;/p&gt;
+&lt;h2 id=&#34;cut-out-your-project&#34;&gt;Cut out your Project&lt;/h2&gt;
+&lt;p&gt;Go to the think[box] and cut out your project. If something doesn&amp;rsquo;t work out right, modify your model and try to cut it out again. If you need additional plywood or plywood of a different thickness, contact your instructor.&lt;/p&gt;
+&lt;h2 id=&#34;assemble-project&#34;&gt;Assemble Project&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Use sandpaper or a sander to remove burn marks on the surface and ash discoloration. The burn marks on the edges are fine as is.&lt;/li&gt;
+&lt;li&gt;Then use a combination of friction fit, glue, and fasteners to assemble your laser cut project.&lt;/li&gt;
+&lt;li&gt;Remove any excess glue.&lt;/li&gt;
+&lt;li&gt;Sand any remaining rough edges.&lt;/li&gt;
+&lt;li&gt;Apply wood finish or paint as desired
+&lt;ul&gt;
+&lt;li&gt;(wax, a weak finish is available in the fab studios)&lt;/li&gt;
+&lt;li&gt;(Danish Oil, a more durable wipe on finish is available from your instructor)&lt;/li&gt;
+&lt;li&gt;(water based Polyurethane is available at the store)&lt;/li&gt;
+&lt;li&gt;(acrylic paints work well on wood)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Bring completed project to class.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;using-acrylic&#34;&gt;Using Acrylic&lt;/h2&gt;
+&lt;p&gt;The laser cutters can cut acrylic plastic. Make sure you leave the protective paper on the acrylic so it can be identified. Polycarbonate is not able to be cut so you must be able to read the protective paper to determine the material. Acrylic cuts cleanly on the laser cutter without the burn marks of wood.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.hpmanufacturing.com/hop/&#34;&gt;House of Plastics&lt;/a&gt; on Carnegie Avenue in Cleveland sells scrap cutoff pieces of acrylic by the pound. These are usually pretty big pieces and cost a fraction of what they would new. It is a great place to get acrylic material for making projects.&lt;/p&gt;
+&lt;p&gt;HP Manufacturing
+3705 Carnegie Avenue
+Cleveland, Ohio 44115&lt;/p&gt;
+&lt;h2 id=&#34;grading-rubric&#34;&gt;Grading Rubric&lt;/h2&gt;
+&lt;div class=&#34;responsive-table-markdown&#34;&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -75,16 +270,24 @@
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td&gt;Stand Quality&lt;/td&gt;
-&lt;td&gt;40 points&lt;/td&gt;
+&lt;td&gt;Stand Design&lt;/td&gt;
+&lt;td&gt;30 points&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;Photo Backdrop Documentation&lt;/td&gt;
-&lt;td&gt;25 points&lt;/td&gt;
+&lt;td&gt;Fit of Parts&lt;/td&gt;
+&lt;td&gt;20 points&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;Environment Photo Documentation&lt;/td&gt;
-&lt;td&gt;25 points&lt;/td&gt;
+&lt;td&gt;Finish of Surface&lt;/td&gt;
+&lt;td&gt;20 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Written Description of Changes&lt;/td&gt;
+&lt;td&gt;30 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Render Image&lt;/td&gt;
+&lt;td&gt;20 points&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;File Management&lt;/td&gt;
@@ -92,6 +295,25 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>05.09 Laser Cut Self Assessment</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/05-laser-cutting-fabrication/5-09-laser-cut-self-assessment/</link>
+      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
+      
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/05-laser-cutting-fabrication/5-09-laser-cut-self-assessment/</guid>
+      <description>&lt;p&gt;Now that you have cut out and assembled your laser-cut stand there are probably many things that you would want to do differently if you remade the stand. The design process is an iterative process full of successes and setbacks. When we realize something that we should have done in a design it is not a failure, rather it is a success because we have learned something about the design process and our project.&lt;/p&gt;
+&lt;p&gt;Reflect on your design process including the ideation process, the digital modeling process in Fusion 360, the physical output laser cutting, and the photo documentation process. Answer the questions below about your project.&lt;/p&gt;
+&lt;h2 id=&#34;questions&#34;&gt;Questions&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;What is your favorite part of your design / project? Why? How did it turn out?&lt;/li&gt;
+&lt;li&gt;What would you change about how you designed your 3D model in Fusion 360? Did parts not work out? Would you now take a different approach? Why?&lt;/li&gt;
+&lt;li&gt;Now that you have your physical stand cut out, what do you think? Was the scale what you expected? What would you redesign about the project? Why? Be specific.&lt;/li&gt;
+&lt;li&gt;What challenges did you face and how did you attempt to overcome them?&lt;/li&gt;
+&lt;/ol&gt;
 </description>
     </item>
     

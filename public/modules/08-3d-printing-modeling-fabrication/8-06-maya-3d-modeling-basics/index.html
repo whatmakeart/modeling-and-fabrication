@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    
+    
+    <title>Modeling and Fabrication | 08.06 Maya 3D Modeling Basics</title>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="https://whatmakeart.com/modeling-and-fabrication/images/icons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="https://whatmakeart.com/modeling-and-fabrication/images/icons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="https://whatmakeart.com/modeling-and-fabrication/images/icons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="https://whatmakeart.com/modeling-and-fabrication/images/icons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="https://whatmakeart.com/modeling-and-fabrication/images/icons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="https://whatmakeart.com/modeling-and-fabrication/images/icons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="https://whatmakeart.com/modeling-and-fabrication/images/icons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="https://whatmakeart.com/modeling-and-fabrication/images/icons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://whatmakeart.com/modeling-and-fabrication/images/icons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="https://whatmakeart.com/modeling-and-fabrication/images/icons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://whatmakeart.com/modeling-and-fabrication/images/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="https://whatmakeart.com/modeling-and-fabrication/images/icons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://whatmakeart.com/modeling-and-fabrication/images/icons/favicon-16x16.png">
+    <link rel="manifest" href="https://whatmakeart.com/modeling-and-fabrication/images/icons/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="https://whatmakeart.com/modeling-and-fabrication/images/icons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+
+    <link rel="stylesheet" type="text/css" href="https://whatmakeart.com/modeling-and-fabrication/css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="https://whatmakeart.com/modeling-and-fabrication/css/styles.css">
+
+    <link rel="stylesheet" type="text/css" href="https://whatmakeart.com/modeling-and-fabrication/css/gutenberg.css" media="print">
+
+    
+
+    
+
+</head>
+
+<body class="d-flex flex-column min-vh-100"> 
+
+    <div id="header">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="https://whatmakeart.com/modeling-and-fabrication/">
+            <h1>Modeling and Fabrication</h1>
+        </a>
+    </div>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container-fluid">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+
+                    
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/modeling-and-fabrication/modules/">
+                            
+                            Modules</a>
+                    </li>
+                    
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/modeling-and-fabrication/resources/">
+                            
+                            Resources</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+
+    <div class="container-fluid justify-content-center">
+        <main class="row" id="main">
+            <div class="col main-content">
+                
+
+
+<div class="container-fluid">
+
+    <h1 id="pageTitleH1">08.06 Maya 3D Modeling Basics</h1>
+
+    
+
+    
+
+<aside id="topTOC">
+    <header>
+        <h2 class="toc-header">Table of Contents</h2>
+    </header>
+    <nav id="TableOfContents">
+  <ol>
+    <li><a href="#maya-quick-start">Maya Quick Start</a></li>
+    <li><a href="#maya-keyboard-shortcuts-1">Maya Keyboard Shortcuts </a>
+      <ol>
+        <li><a href="#essential-maya-keyboard-shortcuts">Essential Maya Keyboard Shortcuts</a></li>
+        <li><a href="#essential-maya-mouse-controls">Essential Maya Mouse Controls</a></li>
+      </ol>
+    </li>
+    <li><a href="#maya-basic-modeling">Maya Basic Modeling</a>
+      <ol>
+        <li><a href="#maya-user-interface">Maya User Interface</a></li>
+        <li><a href="#maya-polygon-modeling-tools">Maya Polygon Modeling Tools</a></li>
+        <li><a href="#maya-hole-in-cube">Maya Hole in Cube</a></li>
+        <li><a href="#maya-beginner-polygon-modeling-tutorial">Maya Beginner Polygon Modeling Tutorial</a></li>
+      </ol>
+    </li>
+    <li><a href="#maya-intermediate-topics">Maya Intermediate Topics</a></li>
+    <li><a href="#modeling-object-examples">Modeling Object Examples</a>
+      <ol>
+        <li><a href="#maya-model-a-coffee-cup">Maya Model a Coffee Cup</a></li>
+        <li><a href="#maya-model-a-disco-ball">Maya Model a Disco Ball</a></li>
+        <li><a href="#maya-model-a-tennis-ball">Maya Model a Tennis Ball</a></li>
+        <li><a href="#maya-model-a-soccer-ball">Maya Model a Soccer Ball</a></li>
+        <li><a href="#maya-model-a-golf-ball">Maya Model a Golf Ball</a></li>
+        <li><a href="#maya-model-a-volley-ball">Maya Model a Volley Ball</a></li>
+      </ol>
+    </li>
+  </ol>
+</nav>
+</aside>
+
+
+
+
+</div>
+
+<h2 id="maya-quick-start">Maya Quick Start</h2>
+<p>The official online <a href="https://knowledge.autodesk.com/support/maya/learn">Maya Learning Documentation</a> is a good place to learn the basics and investigate advanced topics.</p>
+<h2 id="maya-keyboard-shortcuts-1">Maya Keyboard Shortcuts <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></h2>
+<p><a href="2023-autodesk-maya-one-key-shortcuts-hotkeys-1600x1206.jpg"><img src="2023-autodesk-maya-one-key-shortcuts-hotkeys-1600x1206.jpg" alt="Maya Keyboard Shortcuts"></a></p>
+<h3 id="essential-maya-keyboard-shortcuts">Essential Maya Keyboard Shortcuts</h3>
+<div class="responsive-table-markdown">
+<table>
+<thead>
+<tr>
+<th>Maya Key</th>
+<th>Action</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Q</td>
+<td>Select</td>
+</tr>
+<tr>
+<td>W</td>
+<td>Move</td>
+</tr>
+<tr>
+<td>E</td>
+<td>Rotate</td>
+</tr>
+<tr>
+<td>R</td>
+<td>Scale</td>
+</tr>
+<tr>
+<td>a</td>
+<td>Frame all</td>
+</tr>
+<tr>
+<td>f</td>
+<td>Frame selected</td>
+</tr>
+<tr>
+<td>f8</td>
+<td>object mode</td>
+</tr>
+<tr>
+<td>f9</td>
+<td>vertex mode</td>
+</tr>
+<tr>
+<td>f10</td>
+<td>edge mode</td>
+</tr>
+<tr>
+<td>f11</td>
+<td>face mode</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id="essential-maya-mouse-controls">Essential Maya Mouse Controls</h3>
+<div class="responsive-table-markdown">
+<table>
+<thead>
+<tr>
+<th>Mouse Control</th>
+<th>Action</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>alt (option) + left mouse Button</td>
+<td>rotate camera</td>
+</tr>
+<tr>
+<td>alt (option) + middle mouse Button</td>
+<td>pan camera</td>
+</tr>
+<tr>
+<td>alt (option ) + right mouse button or scroll wheel</td>
+<td>zoom camera</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id="maya-basic-modeling">Maya Basic Modeling</h2>
+<ul>
+<li><a href="https://youtu.be/-SpVNiRqeKY">Maya User Interface</a></li>
+<li><a href="https://youtu.be/eBEitxaRYQs">Maya Polygon Modeling Tools</a></li>
+<li><a href="https://youtu.be/EIKiJUmUH7A">Maya Hole in a Cube</a></li>
+<li><a href="https://youtu.be/lLItO9mBwxM">Maya Beginner Polygon Modeling Tutorial</a></li>
+</ul>
+<div class="video-grid">
+<div class="video-card">
+<h3 id="maya-user-interface">Maya User Interface</h3>
+<div class="iframe-16-9-container">
+<iframe class="youTubeIframe" width="560" height="315" src="https://www.youtube.com/embed/-SpVNiRqeKY?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+</div>
+<div class="video-card">
+<h3 id="maya-polygon-modeling-tools">Maya Polygon Modeling Tools</h3>
+<div class="iframe-16-9-container">
+<iframe class="youTubeIframe" width="560" height="315" src="https://www.youtube.com/embed/eBEitxaRYQs?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+</div>
+<div class="video-card">
+<h3 id="maya-hole-in-cube">Maya Hole in Cube</h3>
+<div class="iframe-16-9-container">
+<iframe class="youTubeIframe" width="560" height="315" src="https://www.youtube.com/embed/EIKiJUmUH7A?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+</div>
+<div class="video-card">
+<h3 id="maya-beginner-polygon-modeling-tutorial">Maya Beginner Polygon Modeling Tutorial</h3>
+<div class="iframe-16-9-container">
+<iframe class="youTubeIframe" width="560" height="315" src="https://www.youtube.com/embed/lLItO9mBwxM?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+</div>
+</div>
+<h2 id="maya-intermediate-topics">Maya Intermediate Topics</h2>
+<ul>
+<li><a href="https://youtu.be/1SXvWTiMkjs">Delete History - Freeze Transformation</a></li>
+<li><a href="https://youtu.be/yyExyA67log">Maya Extrude Tool</a></li>
+<li><a href="https://youtu.be/j7bCUkwxRTw">Extrude Nurbs Curve</a></li>
+<li><a href="https://youtu.be/YeJu30bTNrk">Extrude Faces on a Curve</a></li>
+<li><a href="https://youtu.be/VVGgCLsDglI">Local Translate Z vs Thickness</a></li>
+<li><a href="https://youtu.be/gic-kMWKjNI">Archive Maya Scene</a></li>
+<li><a href="https://youtu.be/wdxEtr3bLT4">Make a Window</a></li>
+<li><a href="https://youtu.be/tXJFJa-nsAA">Maya Insert a Reference Image</a></li>
+<li><a href="https://youtu.be/66X6WzHkhq8">Maya Change Size of Tool</a></li>
+<li><a href="https://youtu.be/2hq1F8gkn4A">Maya Character Modeling Tutorial</a></li>
+</ul>
+<h2 id="modeling-object-examples">Modeling Object Examples</h2>
+<ul>
+<li><a href="https://youtu.be/V59XKklgfDE">Model a Coffee Cup</a></li>
+<li><a href="https://youtu.be/2IMRu48ENzY">Model Disco Ball</a></li>
+<li><a href="https://youtu.be/IfSis4ns8SY">Maya Model a Tennis Ball</a></li>
+<li><a href="https://youtu.be/GcDalspwhlc">Model a Soccer Ball</a></li>
+<li><a href="https://youtu.be/2wizG1Dsm8w">Model a Golf Ball</a></li>
+<li><a href="https://youtu.be/E37FC_Uu0Vg">Model a Volleyball</a></li>
+</ul>
+<div class="video-grid">
+<div class="video-card">
+<h3 id="maya-model-a-coffee-cup">Maya Model a Coffee Cup</h3>
+<div class="iframe-16-9-container">
+<iframe class="youTubeIframe" width="560" height="315" src="https://www.youtube.com/embed/V59XKklgfDE?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+</div>
+<div class="video-card">
+<h3 id="maya-model-a-disco-ball">Maya Model a Disco Ball</h3>
+<div class="iframe-16-9-container">
+<iframe class="youTubeIframe" width="560" height="315" src="https://www.youtube.com/embed/2IMRu48ENzY?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+</div>
+<div class="video-card">
+<h3 id="maya-model-a-tennis-ball">Maya Model a Tennis Ball</h3>
+<div class="iframe-16-9-container">
+<iframe class="youTubeIframe" width="560" height="315" src="https://www.youtube.com/embed/IfSis4ns8SY?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+</div>
+<div class="video-card">
+<h3 id="maya-model-a-soccer-ball">Maya Model a Soccer Ball</h3>
+<div class="iframe-16-9-container">
+<iframe class="youTubeIframe" width="560" height="315" src="https://www.youtube.com/embed/GcDalspwhlc?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+</div>
+<div class="video-card">
+<h3 id="maya-model-a-golf-ball">Maya Model a Golf Ball</h3>
+<div class="iframe-16-9-container">
+<iframe class="youTubeIframe" width="560" height="315" src="https://www.youtube.com/embed/2wizG1Dsm8w?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+</div>
+<div class="video-card">
+<h3 id="maya-model-a-volley-ball">Maya Model a Volley Ball</h3>
+<div class="iframe-16-9-container">
+<iframe class="youTubeIframe" width="560" height="315" src="https://www.youtube.com/embed/E37FC_Uu0Vg?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+</div>
+</div>
+<section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p><a href="https://www.autodesk.com/shortcuts/maya">Maya Keyboard Shortcuts</a> <a href="https://web.archive.org/web/20220524190210/https://www.autodesk.com/shortcuts/maya">(Web Archive)</a> <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>
+
+
+
+<div class="container-fluid">
+    <div id="bottom-prev-next">
+
+        
+        <a class="btn btn-lg btn-outline-dark" href="https://whatmakeart.com/modeling-and-fabrication/modules/08-3d-printing-modeling-fabrication/8-05-export-stl-blender/">« 08.05 Export STL Blender</a>
+        
+
+        
+        <a class="btn btn-lg btn-outline-dark" href="https://whatmakeart.com/modeling-and-fabrication/modules/08-3d-printing-modeling-fabrication/8-07-export-stl-maya/">08.07 Export STL Maya »</a>
+        
+
+    </div>
+</div>
+
+
+            </div>
+        </main>
+    </div>
+
+    <footer id="footer" class="container-fluid  justify-content-center mt-auto"> 
+    <div class="row">
+
+        <div class="gallery-grid footer-links">
+            <p class="footer-item">Copyright (c) Jimmy Kuehnle
+            </p>
+
+            <p class="footer-item">
+                
+                
+                
+                
+                
+
+                
+
+                
+                <a class="btn btn-outline-dark" href="https://github.com/whatmakeart/modeling-and-fabrication/edit/main/content/modules/08-3d-printing-modeling-fabrication/8-06-maya-3d-modeling-basics/index.md">Edit this page</a>
+                
+
+            </p>
+        </div>
+
+    </div>
+</footer>
+    <script src="https://whatmakeart.com/modeling-and-fabrication/js/scripts.js"></script>
+<script src="https://whatmakeart.com/modeling-and-fabrication/js/bootstrap.min.js"></script>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,233 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>10 CNC Design and Modeling on Modeling and Fabrication</title>
+    <link>https://whatmakeart.com/modeling-and-fabrication/modules/10-cnc-design-and-modeling/</link>
+    <description>Recent content in 10 CNC Design and Modeling on Modeling and Fabrication</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 26 Jan 2020 23:11:13 +0000</lastBuildDate>
+    
+        <atom:link href="https://whatmakeart.com/modeling-and-fabrication/modules/10-cnc-design-and-modeling/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>10.00 Introduction</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/10-cnc-design-and-modeling/10-00-introduction/</link>
+      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
+      
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/10-cnc-design-and-modeling/10-00-introduction/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;In the design process, once a sketches and a simple prototype are made we assess our original assumptions by testing the prototype. In this case the prototype is a scale cardboard model. Seeing and holding the prototype will show strengths and weakness of the design that can be kept or corrected before final fabrication. The goal is to improve the design while making a 3D digital model for CNC fabrication. Additional user parameters will be used to make the model easier to maintain and edit. CNC fillets will be added in the manufacture workspace so the CNC router can clear out inside corners. Tolerances will be added so the parts fit together well.&lt;/p&gt;
+&lt;h2 id=&#34;learning-objectives&#34;&gt;Learning Objectives&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Examine a scale prototype to test design assumptions&lt;/li&gt;
+&lt;li&gt;Write down parts of the design as well as needed changes&lt;/li&gt;
+&lt;li&gt;Translate a prototype / model into a 3D digital model&lt;/li&gt;
+&lt;li&gt;Make a robust parametric 3D model with multiple user parameters&lt;/li&gt;
+&lt;li&gt;Use manufacture model to lay parts flat&lt;/li&gt;
+&lt;li&gt;Learn about the ShopBot&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;key-terms&#34;&gt;Key Terms&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Robust parametric model&lt;/li&gt;
+&lt;li&gt;Manufacture Model&lt;/li&gt;
+&lt;li&gt;Envelope&lt;/li&gt;
+&lt;li&gt;Inside corner&lt;/li&gt;
+&lt;li&gt;Outside corner&lt;/li&gt;
+&lt;li&gt;Prototype&lt;/li&gt;
+&lt;li&gt;ShopBot&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>10.01 Additional User Parameters</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/10-cnc-design-and-modeling/10-01-additional-user-parameters/</link>
+      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
+      
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/10-cnc-design-and-modeling/10-01-additional-user-parameters/</guid>
+      <description>&lt;p&gt;User parameters in Fusion 360 allow the use of variables and equations for dimensions of parts in a parametric model. All the dimensions could be based on proportions of a single dimension. For example the height could always be three times the width. The combination of parameters and sketch constraints make Fusion 360 a robust but flexible parametric modeling program.&lt;/p&gt;
+&lt;h2 id=&#34;beyond-ply&#34;&gt;Beyond &amp;ldquo;ply&amp;rdquo;&lt;/h2&gt;
+&lt;p&gt;Earlier, we used a user parameter of &amp;ldquo;ply&amp;rdquo; for the thickness of plywood used in laser cutting. This is a convenient user parameter because plywood often varies in thickness. By always using &amp;ldquo;ply&amp;rdquo; rather than 3mm, if the plywood thickness changes, then only one number needs to be changed to update the entire model and design history.&lt;/p&gt;
+&lt;h2 id=&#34;easier-updating&#34;&gt;Easier Updating&lt;/h2&gt;
+&lt;p&gt;Every dimension does not need to be a user parameter but generally the more parameters you have and the more the parameters relate to one another the easier it is to change your model or design later. If you have a hard coded dimension for height at the beginning of your design history timeline, then you need to go to that sketch to change the dimension. That could be a lot of scrolling in the side browser or the design timeline in complex models. If you have a user parameter for height, then you can simply modify the parameter and see the model update right away without finding the sketch. This would also update all of the height dimensions in one step.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>10.02 Robust Parametric 3D Models</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/10-cnc-design-and-modeling/10-02-robust-parametric-3d-models/</link>
+      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
+      
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/10-cnc-design-and-modeling/10-02-robust-parametric-3d-models/</guid>
+      <description>&lt;h2 id=&#34;robust-parametric-modeling&#34;&gt;Robust Parametric Modeling&lt;/h2&gt;
+&lt;p&gt;In this project it is important that your 3D Digital Model is robust. What does that mean to have a robust model? When you use the dimension of &amp;ldquo;ply&amp;rdquo; for the thickness of the plywood you should periodically test different values of &amp;ldquo;ply&amp;rdquo; and any other user parameters that you have set. Check to see if you model updates and each piece is referencing the size of other pieces. It is a good idea to change to value of &amp;ldquo;ply&amp;rdquo; each time you make a new component or piece of your model to make sure all the parameters are changing the model as expected.&lt;/p&gt;
+&lt;div class=&#34;video-grid&#34;&gt;
+&lt;div class=&#34;video-card&#34;&gt;
+&lt;h3 id=&#34;robust-parametric-model&#34;&gt;Robust Parametric Model&lt;/h3&gt;
+&lt;div class=&#34;iframe-16-9-container&#34;&gt;
+&lt;iframe class=&#34;youTubeIframe&#34; width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/QyylTzMDa54&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>10.03 Fusion 360 CNC Modeling</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/10-cnc-design-and-modeling/10-03-fusion-360-cnc-modeling/</link>
+      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
+      
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/10-cnc-design-and-modeling/10-03-fusion-360-cnc-modeling/</guid>
+      <description>&lt;h2 id=&#34;example-cnc-models&#34;&gt;Example CNC Models&lt;/h2&gt;
+&lt;h3 id=&#34;hex-stool&#34;&gt;Hex Stool&lt;/h3&gt;
+&lt;p&gt;This &lt;a href=&#34;https://youtu.be/9utpuieg5lI&#34;&gt;video&lt;/a&gt; shows the process of creating a simple hexagon stool. The video uses a previous method using joints to lay the parts flat. You should use the &lt;a href=&#34;https://youtu.be/GzknioA34F8&#34;&gt;arrange tool&lt;/a&gt; when you lay your parts flat.&lt;/p&gt;
+&lt;div class=&#34;gallery-grid&#34;&gt;
+&lt;p&gt;&lt;img src=&#34;2021-hex-stool-rendering.jpg&#34; alt=&#34;CNC Hex Stool Rendering&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;2021-hex-stool-rendering-parts-flat.jpg&#34; alt=&#34;CNC Hex Stool Parts Layed Flat&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;2021-hex-stool-screenshot-parts-flat.png&#34; alt=&#34;CNC Hex Stool Parts Layed Flat Screenshot&#34;&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;h3 id=&#34;end-table&#34;&gt;End Table&lt;/h3&gt;
+&lt;p&gt;This &lt;a href=&#34;https://youtu.be/GzknioA34F8&#34;&gt;video&lt;/a&gt; shows the process of creating a simple end table. The video uses a previous method using joints to lay the parts flat. You should use the &lt;a href=&#34;https://youtu.be/GzknioA34F8&#34;&gt;arrange tool&lt;/a&gt; when you lay your parts flat.&lt;/p&gt;
+&lt;div class=&#34;gallery-grid&#34;&gt;
+&lt;p&gt;&lt;img src=&#34;2021-end-table-rendering.jpg&#34; alt=&#34;End Table Rendering&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;2021-end-table-rendering-parts-flat.jpg&#34; alt=&#34;End Table Parts Flat&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;2021-end-table-screenshot-parts-flat.png&#34; alt=&#34;End Table Parts Flat Screenshot&#34;&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;h3 id=&#34;circle-stool&#34;&gt;Circle Stool&lt;/h3&gt;
+&lt;p&gt;This &lt;a href=&#34;https://youtu.be/I6FEMdtcrpI&#34;&gt;video&lt;/a&gt; shows the process of creating a simple circle stool. The video uses a previous method using joints to lay the parts flat. You should use the &lt;a href=&#34;https://youtu.be/GzknioA34F8&#34;&gt;arrange tool&lt;/a&gt; when you lay your parts flat.&lt;/p&gt;
+&lt;div class=&#34;gallery-grid&#34;&gt;
+&lt;p&gt;&lt;img src=&#34;2021-circle-stool-rendering.jpg&#34; alt=&#34;CNC Circle Stool Rendering&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;2021-circle-stool-rendering-parts-flat.jpg&#34; alt=&#34;CNC Circle Stool Parts Layed Flat&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;2021-circle-stool-screenshot-of-parts-flat.png&#34; alt=&#34;CNC Circle Stool Parts Layed Flat Screenshot&#34;&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;h3 id=&#34;plywood-chair&#34;&gt;Plywood Chair&lt;/h3&gt;
+&lt;p&gt;This &lt;a href=&#34;https://youtu.be/GqXQ8TdzYRE&#34;&gt;video&lt;/a&gt; shows the process of creating a simple plywood chair. The video uses a previous method using joints to lay the parts flat. You should use the &lt;a href=&#34;https://youtu.be/GzknioA34F8&#34;&gt;arrange tool&lt;/a&gt; when you lay your parts flat.&lt;/p&gt;
+&lt;div class=&#34;gallery-grid&#34;&gt;
+&lt;p&gt;&lt;img src=&#34;2021-cnc-chair-rendering.png&#34; alt=&#34;CNC Plywood Chair&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;2021-cnc-chair-rendering-parts-flat.jpg&#34; alt=&#34;CNC Plywood Chair Parts Layed Flat&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;2021-cnc-chair-screenshot-parts-flat.png&#34; alt=&#34;CNC Plywood Chair Parts Layed Flat Screenshot&#34;&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;fusion-360-cnc-tutorial-videos&#34;&gt;Fusion 360 CNC Tutorial Videos&lt;/h2&gt;
+&lt;div class=&#34;video-grid&#34;&gt;
+&lt;div class=&#34;video-card&#34;&gt;
+&lt;h3 id=&#34;cnc-hex-stool&#34;&gt;CNC Hex Stool&lt;/h3&gt;
+&lt;div class=&#34;iframe-16-9-container&#34; &gt;&lt;iframe class=&#34;youTubeIframe&#34; src=&#34;https://www.youtube.com/embed/9utpuieg5lI?rel=0&#34; width=&#34;560&#34; height=&#34;315&#34; frameborder=&#34;0&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video-card&#34;&gt;
+&lt;h3 id=&#34;cnc-end-table&#34;&gt;CNC End Table&lt;/h3&gt;
+&lt;div class=&#34;iframe-16-9-container&#34; &gt;&lt;iframe class=&#34;youTubeIframe&#34; src=&#34;https://www.youtube.com/embed/GzknioA34F8?rel=0&#34; width=&#34;560&#34; height=&#34;315&#34; frameborder=&#34;0&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video-card&#34;&gt;
+&lt;h3 id=&#34;cnc-two-level-table&#34;&gt;CNC Two Level Table&lt;/h3&gt;
+&lt;div class=&#34;iframe-16-9-container&#34; &gt;&lt;iframe class=&#34;youTubeIframe&#34; src=&#34;https://www.youtube.com/embed/I6FEMdtcrpI?rel=0&#34; width=&#34;560&#34; height=&#34;315&#34; frameborder=&#34;0&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video-card&#34;&gt;
+&lt;h3 id=&#34;cnc-plywood-chair&#34;&gt;CNC Plywood Chair&lt;/h3&gt;
+&lt;div class=&#34;iframe-16-9-container&#34; &gt;&lt;iframe class=&#34;youTubeIframe&#34; src=&#34;https://www.youtube.com/embed/GqXQ8TdzYRE?rel=0&#34; width=&#34;560&#34; height=&#34;315&#34; frameborder=&#34;0&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>10.04 Fusion 360 Model of CNC Project</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/10-cnc-design-and-modeling/10-04-fusion-360-model-of-cnc-project/</link>
+      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
+      
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/10-cnc-design-and-modeling/10-04-fusion-360-model-of-cnc-project/</guid>
+      <description>&lt;h2 id=&#34;assignment-deliverables&#34;&gt;Assignment Deliverables&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Exported Fusion 360 File (.f3d file)
+&lt;ul&gt;
+&lt;li&gt;Label file YYYYMMDD Lastname Firstname CNC Project Model.f3d&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;One Rendering of CNC Project with appearances applied. Should be in a 4:3 1:1 or 16:9 aspect ration with one side at least 4000px (.png or .jpg)
+&lt;ul&gt;
+&lt;li&gt;Label file YYYYMMDD Lastname Firstname CNC Project Rendering.f3d&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;One screenshot of parts layed flat in the manufacture workspace. (.png or .jpg)
+&lt;ul&gt;
+&lt;li&gt;Label file YYYYMMDD Lastname Firstname CNC Project Parts Layed Flat.f3d&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;assignment-overview&#34;&gt;Assignment Overview&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Using your revised sketches and scale cardboard model, identify the different parts of your project. Each of these parts will be a different component in the Fusion 360 model.&lt;/li&gt;
+&lt;li&gt;Think about how you will construct and assemble the pieces. Will you use tabs and slots? How will they work?&lt;/li&gt;
+&lt;li&gt;Make sure that no parts overlap each other, especially where the joints are. Under the Inspect tab in Fusion 360, use the &amp;ldquo;interference&amp;rdquo; tool to check for overlapping parts.&lt;/li&gt;
+&lt;li&gt;Apply materials and make a rendering of the project.&lt;/li&gt;
+&lt;li&gt;Switch to the Manufacture Workspace.&lt;/li&gt;
+&lt;li&gt;Create a manufacture model.&lt;/li&gt;
+&lt;li&gt;Right click on the manufacture model to edit.&lt;/li&gt;
+&lt;li&gt;Draw a sketch on the ground plane to represent the 24&amp;quot; x 60&amp;quot; piece of plywood.&lt;/li&gt;
+&lt;li&gt;Use arrange toll to place all the parts flat on the sketch. If all of the parts do not fit, then you will need to use a bigger piece of plywood. Edit the size of the plywood sketch until the parts fit or change the size of the model until the parts fit.&lt;/li&gt;
+&lt;li&gt;Take a screenshot or make a rendering of your parts laid flat. To make the screenshot or rendering more interesting, unhide the assembled model so you can see the flat parts and the assembled model at the same time.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://support.microsoft.com/en-us/windows/use-snipping-tool-to-capture-screenshots-00246869-1843-655f-f220-97299b865f6b&#34;&gt;How to take a screenshot in Windows&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://support.apple.com/guide/mac-help/take-a-screenshot-mh26782/mac&#34;&gt;How to take a screenshot on OS X&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;user-parameter-resources&#34;&gt;User Parameter Resources&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtu.be/H6W-Og4YyZ8&#34;&gt;How to use user parameters&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtu.be/sBEHI-N4DAY&#34;&gt;How to add user parameters to an existing model?&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;grading-rubric&#34;&gt;Grading Rubric&lt;/h2&gt;
+&lt;div class=&#34;responsive-table-markdown&#34;&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Assessment&lt;/th&gt;
+&lt;th&gt;Weight&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Model Quality&lt;/td&gt;
+&lt;td&gt;20 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Parts as Separate Components&lt;/td&gt;
+&lt;td&gt;20 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;CNC Joints Modeled&lt;/td&gt;
+&lt;td&gt;20 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Multiple User Parameters&lt;/td&gt;
+&lt;td&gt;20 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Manufacture Model Created&lt;/td&gt;
+&lt;td&gt;20 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Render Image of CNC Model&lt;/td&gt;
+&lt;td&gt;20 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Screenshot of Pieces Layed Flat&lt;/td&gt;
+&lt;td&gt;20 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;File Management&lt;/td&gt;
+&lt;td&gt;10 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

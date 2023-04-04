@@ -1,0 +1,486 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>11 CNC Fabrication on Modeling and Fabrication</title>
+    <link>https://whatmakeart.com/modeling-and-fabrication/modules/11-cnc-fabrication/</link>
+    <description>Recent content in 11 CNC Fabrication on Modeling and Fabrication</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 26 Jan 2020 23:11:13 +0000</lastBuildDate>
+    
+        <atom:link href="https://whatmakeart.com/modeling-and-fabrication/modules/11-cnc-fabrication/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>11.00 Introduction</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/11-cnc-fabrication/11-00-introduction/</link>
+      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
+      
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/11-cnc-fabrication/11-00-introduction/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;Once a 3D digital model is created, a toolpath must be made so the CNC machine has the information needed to cut out the project. THis requires making a &amp;ldquo;tool&amp;rdquo; with the measurements of the cutting device used on the CNC. Then the stock, material used for cutting, is defined as well as the location of all the cutting operations. Finally before cutting, clearances can be added to the cutting operation to allow parts to fit together.&lt;/p&gt;
+&lt;h2 id=&#34;learning-objectives&#34;&gt;Learning Objectives&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Create a tool in Fusion 360 for use with the ShopBot&lt;/li&gt;
+&lt;li&gt;Create toolpaths for use on a CNC&lt;/li&gt;
+&lt;li&gt;Add tabs and holding features to the toolpath&lt;/li&gt;
+&lt;li&gt;Add clearance as needed for proper part fit&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;key-terms&#34;&gt;Key Terms&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;ShopBot&lt;/li&gt;
+&lt;li&gt;Toolpath&lt;/li&gt;
+&lt;li&gt;Pocket Cut&lt;/li&gt;
+&lt;li&gt;Profile Cut&lt;/li&gt;
+&lt;li&gt;3D Cut&lt;/li&gt;
+&lt;li&gt;CNC fillet&lt;/li&gt;
+&lt;li&gt;Tolerance&lt;/li&gt;
+&lt;li&gt;Clearance&lt;/li&gt;
+&lt;li&gt;Fit&lt;/li&gt;
+&lt;li&gt;Add user parameters for tolerance and fit&lt;/li&gt;
+&lt;li&gt;Add CNC fillets for clearing inside corners&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>11.01 Dogbone Fillets</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/11-cnc-fabrication/11-01-cnc-fillets/</link>
+      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
+      
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/11-cnc-fabrication/11-01-cnc-fillets/</guid>
+      <description>&lt;p&gt;A laser cutter has a very thin 0.127 mm beam, and although it can&amp;rsquo;t cut a perfect inside corner, the corners it cuts are very square compared to the larger curves required by a CNC router bit. The default CNC router bit we will use on the Shopbot is ¼ in. The laser cutter beam is Because of this larger kerf on the Shopbot we need to account for that on inside corners. We will use a technique called “dog bone fillets” to make space for our slots to fit in. These are called dog bone fillets because they look like cartoon dog bones. We can add these fillets parametrically in Fusion 360. The fillets are required for square parts to fit into inside corners.&lt;/p&gt;
+&lt;p&gt;There are two methods of making dogbone fillets, one is the classic &amp;ldquo;cartoon dogbone&amp;rdquo; and the other are &amp;ldquo;invisible&amp;rdquo;. They are still cut into the wood but are positioned so the connecting piece covers the cuts and therefore the fillets are not seen in the final project.&lt;/p&gt;
+&lt;p&gt;Remember that the CNC can not cut a square inside corner so you need to add dogbone or T-Bone fillets. Think about how you add to fillets so you can conceal them. This &lt;a href=&#34;https://youtu.be/fjrEmJeM-qw&#34;&gt;video&lt;/a&gt; shows how to add &lt;a href=&#34;https://youtu.be/fjrEmJeM-qw&#34;&gt;invisible dogbone fillets&lt;/a&gt; to your model. It is generally better to add the invisible dogbones after the model is complete and it is flat for manufacturing.&lt;/p&gt;
+&lt;div class=&#34;video-grid&#34;&gt;
+&lt;div class=&#34;video-card&#34;&gt;
+&lt;h3 id=&#34;invisible-dogbone-fillets&#34;&gt;Invisible Dogbone Fillets&lt;/h3&gt;
+&lt;div class=&#34;iframe-16-9-container&#34;&gt;&lt;iframe class=&#34;youTubeIframe&#34; src=&#34;https://www.youtube.com/embed/fjrEmJeM-qw?rel=0&#34; width=&#34;560&#34; height=&#34;315&#34; frameborder=&#34;0&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video-card&#34;&gt;
+&lt;h3 id=&#34;dogbone-fillet-addon&#34;&gt;Dogbone Fillet Addon&lt;/h3&gt;
+&lt;div class=&#34;iframe-16-9-container&#34;&gt;&lt;iframe class=&#34;youTubeIframe&#34; src=&#34;https://www.youtube.com/embed/veXvbGSDtPk?rel=0&#34; width=&#34;560&#34; height=&#34;315&#34; frameborder=&#34;0&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>11.02 CNC Tolerances and Fit</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/11-cnc-fabrication/11-02-cnc-tolerances-and-fit/</link>
+      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
+      
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/11-cnc-fabrication/11-02-cnc-tolerances-and-fit/</guid>
+      <description>&lt;p&gt;If parts are cut to the exact size on the CNC, then they will likely not fit. If a mortise is 18 mm wide and you try to put a 18 mm thick tenon to make a joint, then the wood will likely splinter or you will not be able to fit the parts together at all.&lt;/p&gt;
+&lt;p&gt;It is important to allow for some clearance in between the pieces. Generally it is easier to add clearance in pocket cuts since the nominal thickness of the plywood is static and stays the same.&lt;/p&gt;
+&lt;h2 id=&#34;adding-clearance-in-fusion-360&#34;&gt;Adding Clearance in Fusion 360&lt;/h2&gt;
+&lt;p&gt;Clearance is added after the model is complete. In Fusion 360 there are two ways to add clearance for pieces to fit together. The model can be modified so one part is physically smaller than its &amp;ldquo;nominal&amp;rdquo; dimensions. This can be useful for fabrication methods such as 3D printing. The second method is to remove a bit more material when cutting the parts out. In the pocket cuts, for example, entering a - negative stock to leave number will cut away more material and create a gap.&lt;/p&gt;
+&lt;p&gt;Before deciding on how large of a gap to create for part clearance, it is helpful to run a test cut with a particular machine and material. Create a series of pocket holes of the same size for a part to fit into. Then increase the amount of extra stock removed in each pocket hole. After cutting, test which clearance amount gave the best fit with space for glue and use that for the complete model.&lt;/p&gt;
+&lt;div class=&#34;video-grid&#34;&gt;
+&lt;div class=&#34;video-card&#34;&gt;
+&lt;h3 id=&#34;tolerances-and-fit&#34;&gt;Tolerances and Fit&lt;/h3&gt;
+&lt;div class=&#34;iframe-16-9-container&#34;&gt;
+&lt;iframe class=&#34;youTubeIframe&#34; width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/W8AcI8LkIrg&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>11.03Create Shopbot Tool Fusion 360</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/11-cnc-fabrication/11-03-create-shopbot-tool-fusion-360/</link>
+      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
+      
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/11-cnc-fabrication/11-03-create-shopbot-tool-fusion-360/</guid>
+      <description>&lt;p&gt;Create a tool for the 1/4&amp;quot; straight cut router bit. We have other bits in the Fab Studios for cutting out 3D profiles and engraving but you will use the 1/4&amp;quot; bit for most of your cutting. You will create a tool holder and a tool bit. For 2D cutting the tool holder is not needed but you should make it to know the process in case you do any 3D Cutting. For 3D cutting we need to know where the tool holder is and how big it is.  This &lt;a href=&#34;https://youtu.be/M9MQzYrLhGQ&#34;&gt;video&lt;/a&gt; shows how to create the &lt;a href=&#34;https://youtu.be/M9MQzYrLhGQ&#34;&gt;1/4&amp;quot; Flat Endmill ShopBot Tool&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;tool-settings&#34;&gt;Tool Settings&lt;/h2&gt;
+&lt;p&gt;Use the settings and values below to make your tool.&lt;/p&gt;
+&lt;h3 id=&#34;general-tab&#34;&gt;General Tab&lt;/h3&gt;
+&lt;div class=&#34;responsive-table-markdown&#34;&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Item&lt;/th&gt;
+&lt;th&gt;Information&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Description:&lt;/td&gt;
+&lt;td&gt;ER25 Collet Nut&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Vendor:&lt;/td&gt;
+&lt;td&gt;ShopBot&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Product ID:&lt;/td&gt;
+&lt;td&gt;ER25&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Product Link: &lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://store.shopbottools.com/products/collet-nut-er25&#34;&gt;ShopBot Store&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;h3 id=&#34;holder-geometry-tab&#34;&gt;Holder Geometry Tab&lt;/h3&gt;
+&lt;div class=&#34;responsive-table-markdown&#34;&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Dimension&lt;/th&gt;
+&lt;th&gt;Size&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Height #1:&lt;/td&gt;
+&lt;td&gt;17 mm&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Upper Diameter #1:&lt;/td&gt;
+&lt;td&gt;42 mm&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Lower Diameter #1:&lt;/td&gt;
+&lt;td&gt;42 mm&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Height #2: 3 mm&lt;/td&gt;
+&lt;td&gt;Upper Diameter #2: 42 mm&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Lower Diameter #2:&lt;/td&gt;
+&lt;td&gt;32 mm&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;create-14-flat-end-mill-tool&#34;&gt;Create 1/4&amp;quot; Flat End Mill Tool&lt;/h2&gt;
+&lt;h3 id=&#34;under-general-tab&#34;&gt;Under General Tab&lt;/h3&gt;
+&lt;div class=&#34;responsive-table-markdown&#34;&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Item&lt;/th&gt;
+&lt;th&gt;Information&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Description:&lt;/td&gt;
+&lt;td&gt;1/4” Flat Endmill&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Vendor:&lt;/td&gt;
+&lt;td&gt;Whiteside&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Product ID:&lt;/td&gt;
+&lt;td&gt;1014&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Product Link:&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;h3 id=&#34;cutter-tab&#34;&gt;Cutter Tab&lt;/h3&gt;
+&lt;div class=&#34;responsive-table-markdown&#34;&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Item&lt;/th&gt;
+&lt;th&gt;Information&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Type:&lt;/td&gt;
+&lt;td&gt;Flat End Mill&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Unit:&lt;/td&gt;
+&lt;td&gt;Inches&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Clockwise Spindle Rotation:&lt;/td&gt;
+&lt;td&gt;yes&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Number of Flutes:&lt;/td&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Material:&lt;/td&gt;
+&lt;td&gt;HSS&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;h3 id=&#34;geometry-tab&#34;&gt;Geometry Tab&lt;/h3&gt;
+&lt;div class=&#34;responsive-table-markdown&#34;&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Item&lt;/th&gt;
+&lt;th&gt;Information&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Diameter:&lt;/td&gt;
+&lt;td&gt;.25 in&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Shaft Diameter:&lt;/td&gt;
+&lt;td&gt;.25 in (fx)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Overall length:&lt;/td&gt;
+&lt;td&gt;2.5 in&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Length below Holder:&lt;/td&gt;
+&lt;td&gt;1.2 in&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Shoulder Length:&lt;/td&gt;
+&lt;td&gt;1 in&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Flute length:&lt;/td&gt;
+&lt;td&gt;1 in&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;h3 id=&#34;shaft-tab&#34;&gt;Shaft Tab&lt;/h3&gt;
+&lt;p&gt;Not used for this simple end mill.&lt;/p&gt;
+&lt;h3 id=&#34;holder-tab&#34;&gt;Holder Tab&lt;/h3&gt;
+&lt;p&gt;Not used for 2D and 2.5D cutting but we can select the custom holder we made so we have more visual aid to see if parts are the wrong size in simulation.&lt;/p&gt;
+&lt;h3 id=&#34;cutting-data-tab&#34;&gt;Cutting Data Tab&lt;/h3&gt;
+&lt;h4 id=&#34;speeds&#34;&gt;Speeds&lt;/h4&gt;
+&lt;div class=&#34;responsive-table-markdown&#34;&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Item&lt;/th&gt;
+&lt;th&gt;Information&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Spindle Speed&lt;/td&gt;
+&lt;td&gt;18000 rpm&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Surface Speed&lt;/td&gt;
+&lt;td&gt;Calculated&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Ramp Spindle Speed&lt;/td&gt;
+&lt;td&gt;18000 rpm&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;h4 id=&#34;feedrates&#34;&gt;Feedrates&lt;/h4&gt;
+&lt;div class=&#34;responsive-table-markdown&#34;&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Item&lt;/th&gt;
+&lt;th&gt;Information&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Cutting Feedrate&lt;/td&gt;
+&lt;td&gt;144 in/min&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Feed per tooth&lt;/td&gt;
+&lt;td&gt;Calculated&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Lead-in Feederate&lt;/td&gt;
+&lt;td&gt;Calculated&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Lead-out Feedrate&lt;/td&gt;
+&lt;td&gt;Calculated&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Ramp Feedrate&lt;/td&gt;
+&lt;td&gt;72 in/min&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;h4 id=&#34;vertical-feedrates&#34;&gt;Vertical Feedrates&lt;/h4&gt;
+&lt;div class=&#34;responsive-table-markdown&#34;&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Item&lt;/th&gt;
+&lt;th&gt;Information&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Plunge feedrate&lt;/td&gt;
+&lt;td&gt;72 in/min&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Feed per revolution&lt;/td&gt;
+&lt;td&gt;Calculated&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;h4 id=&#34;passes-and-linking&#34;&gt;Passes and Linking&lt;/h4&gt;
+&lt;div class=&#34;responsive-table-markdown&#34;&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Item&lt;/th&gt;
+&lt;th&gt;Information&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Use Step-down&lt;/td&gt;
+&lt;td&gt;check&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Stepdown&lt;/td&gt;
+&lt;td&gt;.125&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;h4 id=&#34;coolant&#34;&gt;Coolant&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Disabled&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;video-grid&#34;&gt;
+&lt;div class=&#34;video-card&#34;&gt;
+&lt;h2 id=&#34;create-shopbot-tool-fusion&#34;&gt;Create ShopBot Tool Fusion&lt;/h2&gt;
+&lt;div class=&#34;iframe-16-9-container&#34; &gt;&lt;iframe class=&#34;youTubeIframe&#34; src=&#34;https://www.youtube.com/embed/M9MQzYrLhGQ?rel=0&#34; width=&#34;560&#34; height=&#34;315&#34; frameborder=&#34;0&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>11.04 Shopbot Toolpaths Fusion 360</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/11-cnc-fabrication/11-04-shopbot-toolpath-fusion-360/</link>
+      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
+      
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/11-cnc-fabrication/11-04-shopbot-toolpath-fusion-360/</guid>
+      <description>&lt;p&gt;Since the height of material can vary, we will create toolpaths reference to the bottom of the stock or the cutting bed. This avoids cutting deep into the flat cutting surface, thereby prolonging its useful life, and cuts all the way through the material. For highly accurate engraving or non-through cuts, tool paths can be created that reference the top of the material.&lt;/p&gt;
+&lt;h2 id=&#34;vertical-offset&#34;&gt;Vertical Offset&lt;/h2&gt;
+&lt;p&gt;Since no machine or surface is perfectly flat, we add a - negative vertical offset to profile cutting toolpaths. It is a small offset of .01 inches but it helps cut all the way through the material while minimizing damage to the table surface.&lt;/p&gt;
+&lt;div class=&#34;video-grid&#34;&gt;
+&lt;div class=&#34;video-card&#34;&gt;
+&lt;h3 id=&#34;create-shopbot-toolpaths-in-fusion&#34;&gt;Create ShopBot Toolpaths in Fusion&lt;/h3&gt;
+&lt;div class=&#34;iframe-16-9-container&#34; &gt;&lt;iframe class=&#34;youTubeIframe&#34; src=&#34;https://www.youtube.com/embed/_G-0i8BFEFs?rel=0&#34; width=&#34;560&#34; height=&#34;315&#34; frameborder=&#34;0&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>11.06 Securing the Workpiece</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/11-cnc-fabrication/11-06-securing-the-workpiece/</link>
+      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
+      
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/11-cnc-fabrication/11-06-securing-the-workpiece/</guid>
+      <description>&lt;p&gt;On the laser cutter we merely set our piece inside the cutter and don&amp;rsquo;t need to hold it down. The CNC router is a much larger and powerful machine and will knock the workpiece all over the place causing damage and potential injury. We need to firmly secure our material to the router table before using the machine. It is important to make sure that any fasteners used to secure the workpiece do not come in contact with the spinning router bit.&lt;/p&gt;
+&lt;p&gt;The simplest way to secure the workpiece is with screws attached directly to the cutting surface. It is important to pre-drill holes through the material to avoid splitting the plywood. The pre drilled, or pilot hole, should be large enough that the screw spins freely in the hole but the head of the screw does not fit through. Screws function as clamps. If the screw cannot spin freely in the top piece of material, then it will not create a fully clamping force.&lt;/p&gt;
+&lt;p&gt;For pieces that would be marred by screw holes, a hold down clamp can be used. This is an L shaped piece of wood that has a rabbet, or L-slot, cut out of it that is shorter than the height of the material being held down. Then screws securely clamp the hold down to the cutting surface, thereby holding down the material.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>11.07 ShopBot Reservation</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/11-cnc-fabrication/11-07-shopbot-reservation/</link>
+      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
+      
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/11-cnc-fabrication/11-07-shopbot-reservation/</guid>
+      <description>&lt;h2 id=&#34;assignment-deliverables&#34;&gt;Assignment Deliverables&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Take a Screenshot of your ShopBot Reservation&lt;/li&gt;
+&lt;li&gt;Take a Screenshot of your Plywood Receipt&lt;/li&gt;
+&lt;li&gt;Label the Screenshots&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Project Documentation is due before the final critique. Make sure you make your reservation soon enough to have enough time to assemble your project, apply finishing and take documentation photos.&lt;/p&gt;
+&lt;h2 id=&#34;shopbot-reservation-time&#34;&gt;ShopBot Reservation Time&lt;/h2&gt;
+&lt;p&gt;Make sure you reserve enough time to cut your project. If there is not enough time and the next student has a reservation, you will need to stop your cut. This can waste your plywood and time.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;It will take ~ 30 minutes to set up the tool and have your plywood in place.&lt;/li&gt;
+&lt;li&gt;Look in Fusion to get an estimate of your machine time&lt;/li&gt;
+&lt;li&gt;Multiply machine time by 1.2 to add 20% buffer time.&lt;/li&gt;
+&lt;li&gt;~5-10 minutes to remove material from machine.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Add everything together and make a reservation that is long enough.&lt;/p&gt;
+&lt;p&gt;You may need to make multiple reservations since the default reservation is 1 hour. If you need a 2 hour reservation, reserve  two 1 hour slots. If you need 2 hours and 30 minutes then reserve three 1 hour slots in a row.&lt;/p&gt;
+&lt;p&gt;You must go to your reserved time because there are limited slots. The shop will let me know if you do not attend. You can cancel your slot but you must do it a minimum of 48 hours in advance. You then have to make another reservation.&lt;/p&gt;
+&lt;h2 id=&#34;shopbot-reservationshttpsmyciaeduicsfab_studiosshopbot_cncjnz&#34;&gt;&lt;a href=&#34;https://my.cia.edu/ICS/Fab_Studios/ShopBot_CNC.jnz&#34;&gt;ShopBot Reservations&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;purchase-additional-plywood&#34;&gt;Purchase Additional Plywood&lt;/h2&gt;
+&lt;p&gt;After you make your Fusion 360 model of your CNC project, lay the parts out flat. Then look at the size of the sketch that you needed to use in the Arrange command to lay your parts flat. This will let you know how much plywood that you need. You can buy plywood in 48&amp;quot;x48&amp;quot; or 48&amp;quot;x96&amp;quot; or 60&amp;quot;x60&amp;quot;. It comes in a range of thicknesses. Stop by the Fab Studios to see the plywood in person. Then purchase the right size board for your project. If your model is just a bit over you may be able to fit the last piece on someone else&amp;rsquo;s scrap.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://my.cia.edu/ICS/Student/Supply_Store/Fabrication_Studios/Wood/&#34;&gt;Purchase Plywood&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>11.08 - CNC Project Fabricated</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/11-cnc-fabrication/11-08-cnc-project-fabricated/</link>
+      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
+      
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/11-cnc-fabrication/11-08-cnc-project-fabricated/</guid>
+      <description>&lt;h1 id=&#34;project-resources&#34;&gt;Project Resources&lt;/h1&gt;
+&lt;p&gt;CIA Fab Studios Online Store - &lt;a href=&#34;https://my.cia.edu/ICS/Student/Supply_Store/Fabrication_Studios/Wood/&#34;&gt;https://my.cia.edu/ICS/Student/Supply_Store/Fabrication_Studios/Wood/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The Fab Studios sells pre-cut half sheets of 1/2&amp;quot; and 3/4&amp;quot; plywood. You can purchase it online at the Fab Studios&#39; online store on myCIA.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>11.09 CNC Project Documentation</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/11-cnc-fabrication/11-09-cnc-project-documentation/</link>
+      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
+      
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/11-cnc-fabrication/11-09-cnc-project-documentation/</guid>
+      <description>&lt;h1 id=&#34;documentation-photos-of-cnc-projects&#34;&gt;Documentation Photos of CNC Projects&lt;/h1&gt;
+&lt;p&gt;After you cut out, assemble and finish your CNC project to your satisfaction, take documentation photographs of your work. Having good documentation of your creative work is essential and is an important part of the creative process.&lt;/p&gt;
+&lt;p&gt;**Take a minimum of 4 Photos that show all aspects of your project. **&lt;/p&gt;
+&lt;p&gt;You should show the overall form, the construction details and any other relevant views that will give a viewer a complete understanding of you piece.&lt;/p&gt;
+&lt;h2 id=&#34;use-a-camera-not-your-cell-phone&#34;&gt;Use a Camera NOT your Cell Phone&lt;/h2&gt;
+&lt;p&gt;Check out a DSLR or Mirrorless digital camera from the Checkout at CIA. You can also checkout lights. If lights are unavailable, taking photos outdoors in daylight is a good alternative. DO NOT take indoor photographs with poor light, a single light source, or with the flash from your cell phone.&lt;/p&gt;
+&lt;p&gt;Your cell phone may take ok pictures outdoors in the sunshine but that is about the only time. You are unable to change the depth of field with a cell phone camera. Use the good cameras available to you for free from the checkout at CIA.&lt;/p&gt;
+&lt;h2 id=&#34;use-lights-or-take-outside-in-daytime&#34;&gt;Use Lights or Take Outside in Daytime&lt;/h2&gt;
+&lt;p&gt;Use at least two light sources spaced apart from the object pointed in at 45 degrees. This will create relatively even lighting and show the structure of your piece. Having a single light from the camera or behind the camera will not look good. Use two lights, each off to the sides of the camera pointed at the work.&lt;/p&gt;
+&lt;p&gt;If you do not have two lights, then you can take your photos outdoors. The sun is a great light source. A cloudy day can be used to get soft shadows.&lt;/p&gt;
+&lt;h2 id=&#34;have-a-clean-distraction-free-background&#34;&gt;Have a Clean, Distraction Free Background&lt;/h2&gt;
+&lt;p&gt;The background should not distract from your project. It is best to shoot in front of a photo sweep. Good photos can be made in front of walls or out in the open. The key is not having a busy background.&lt;/p&gt;
+&lt;p&gt;Use a shallow depth of field on the camera. Open the aperture wide and focus on your object. The background will then be blurry and your object will stand out.&lt;/p&gt;
+&lt;p&gt;If you are outdoors, a brick or concrete wall can work well.&lt;/p&gt;
+&lt;p&gt;Don&amp;rsquo;t have your object too close to any walls either indoors or outdoors.&lt;/p&gt;
+&lt;p&gt;Edit Photos in Photoshop for Levels and White Balance&lt;/p&gt;
+&lt;p&gt;All photos can be improved through post production. Make sure you adjust the levels of your photos to bring out all the detail and dynamic range for bright whites and dark blacks. Adjust the white balance so the colors look good. You can use the eye dropper in the levels tool of Photoshop.&lt;/p&gt;
+&lt;h2 id=&#34;label-your-images&#34;&gt;Label your images&lt;/h2&gt;
+&lt;p&gt;Label your images YYYYMMDD Lastname Firstname CNC Project Documentation Photos.jpg&lt;/p&gt;
+&lt;p&gt;Do not leave them with the default file names from your camera such as IMG_3592.JPG&lt;/p&gt;
+&lt;h2 id=&#34;upload-to-google-drive&#34;&gt;Upload to Google Drive&lt;/h2&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

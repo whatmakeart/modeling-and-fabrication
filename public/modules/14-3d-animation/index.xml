@@ -1,14 +1,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>14 - 3D Animation on Modeling and Fabrication</title>
+    <title>14 3D Animation Rendering on Modeling and Fabrication</title>
     <link>https://whatmakeart.com/modeling-and-fabrication/modules/14-3d-animation/</link>
-    <description>Recent content in 14 - 3D Animation on Modeling and Fabrication</description>
+    <description>Recent content in 14 3D Animation Rendering on Modeling and Fabrication</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 26 Jan 2020 23:11:13 +0000</lastBuildDate>
     
         <atom:link href="https://whatmakeart.com/modeling-and-fabrication/modules/14-3d-animation/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>14.00 - Introduction</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/14-3d-animation/14-00-introduction/</link>
+      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
+      
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/14-3d-animation/14-00-introduction/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;h2 id=&#34;learning-objectives&#34;&gt;Learning Objectives&lt;/h2&gt;
+&lt;h2 id=&#34;key-terms&#34;&gt;Key Terms&lt;/h2&gt;
+</description>
+    </item>
     
   </channel>
 </rss>

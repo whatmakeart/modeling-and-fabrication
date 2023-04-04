@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    
+    
+    <title>Modeling and Fabrication | 04.07 Model Laser Cut Project in Fusion 360</title>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="https://whatmakeart.com/modeling-and-fabrication/images/icons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="https://whatmakeart.com/modeling-and-fabrication/images/icons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="https://whatmakeart.com/modeling-and-fabrication/images/icons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="https://whatmakeart.com/modeling-and-fabrication/images/icons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="https://whatmakeart.com/modeling-and-fabrication/images/icons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="https://whatmakeart.com/modeling-and-fabrication/images/icons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="https://whatmakeart.com/modeling-and-fabrication/images/icons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="https://whatmakeart.com/modeling-and-fabrication/images/icons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://whatmakeart.com/modeling-and-fabrication/images/icons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="https://whatmakeart.com/modeling-and-fabrication/images/icons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://whatmakeart.com/modeling-and-fabrication/images/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="https://whatmakeart.com/modeling-and-fabrication/images/icons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://whatmakeart.com/modeling-and-fabrication/images/icons/favicon-16x16.png">
+    <link rel="manifest" href="https://whatmakeart.com/modeling-and-fabrication/images/icons/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="https://whatmakeart.com/modeling-and-fabrication/images/icons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+
+    <link rel="stylesheet" type="text/css" href="https://whatmakeart.com/modeling-and-fabrication/css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="https://whatmakeart.com/modeling-and-fabrication/css/styles.css">
+
+    <link rel="stylesheet" type="text/css" href="https://whatmakeart.com/modeling-and-fabrication/css/gutenberg.css" media="print">
+
+    
+
+    
+
+</head>
+
+<body class="d-flex flex-column min-vh-100"> 
+
+    <div id="header">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="https://whatmakeart.com/modeling-and-fabrication/">
+            <h1>Modeling and Fabrication</h1>
+        </a>
+    </div>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container-fluid">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+
+                    
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/modeling-and-fabrication/modules/">
+                            
+                            Modules</a>
+                    </li>
+                    
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/modeling-and-fabrication/resources/">
+                            
+                            Resources</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+
+    <div class="container-fluid justify-content-center">
+        <main class="row" id="main">
+            <div class="col main-content">
+                
+
+
+<div class="container-fluid">
+
+    <h1 id="pageTitleH1">04.07 Model Laser Cut Project in Fusion 360</h1>
+
+    
+
+    
+
+<aside id="topTOC">
+    <header>
+        <h2 class="toc-header">Table of Contents</h2>
+    </header>
+    <nav id="TableOfContents">
+  <ol>
+    <li><a href="#assignment-deliverables">Assignment Deliverables</a></li>
+    <li><a href="#assignment-overview">Assignment Overview</a></li>
+    <li><a href="#model-stand-in-fusion-360">Model Stand in Fusion 360</a>
+      <ol>
+        <li><a href="#keep-parts-as-separate-components">Keep Parts as Separate Components</a></li>
+        <li><a href="#design-considerations">Design Considerations</a></li>
+      </ol>
+    </li>
+    <li><a href="#add-appearances-and-export-render">Add Appearances and Export Render</a></li>
+    <li><a href="#grading-rubric">Grading Rubric</a></li>
+  </ol>
+</nav>
+</aside>
+
+
+
+
+</div>
+
+<h2 id="assignment-deliverables">Assignment Deliverables</h2>
+<ol>
+<li>Fusion 360 .f3d model file</li>
+<li>Rendering(s) of project with appearances applied (.png or .jpg)</li>
+</ol>
+<h2 id="assignment-overview">Assignment Overview</h2>
+<p>Using your sketches, cardboard model, and third angle projections, make a model of your laser cut stand in Fusion 360. Each piece of the project should be a separate component so later the parts can be layed flat for laser cutting.</p>
+<p>You are required to use at least one user parameter dimension for &ldquo;ply&rdquo; or the thickness of the material you are cutting. Materials vary in width, so we will <a href="https://youtu.be/a7HOiBC_81s">measure the material before cutting</a> on the laser cutter. When we know the real thickness of the material <a href="https://youtu.be/oOZjbbe6YZk">using digital calipers</a>, then we can change the &ldquo;ply&rdquo; variable and the model will produce an accurate cut file.</p>
+<h2 id="model-stand-in-fusion-360">Model Stand in Fusion 360</h2>
+<p>If you prefer, you can import your third angle projection sketches to use as guides you start your first sketch. You need to calibrate the size of the sketch to be the correct scale in your Fusion 360 file. Then you can use the sketch as a guide to create your digital sketch. This step is not necessary but some may like it. This video shows <a href="https://youtu.be/-3SMfrnWMTE">how to import an image as a canvas</a> in Fusion 360.</p>
+<p>If you are making detailed organic forms or drawing an image to use as the contours of the sides or other parts of your stand it can be difficult to draw complex shapes and images in Fusion. You can draw you image or character in Illustrator and export it as an SVG or DXF. Then you can import that file into Fusion 360. Once in fusion the file acts as a sketch and you can extrude it right away to be a piece of your model. This workflow is better than drawing a complex organic form in Fusion.</p>
+<h3 id="keep-parts-as-separate-components">Keep Parts as Separate Components</h3>
+<p>Make a new component at the top level of you model for each part. The top level should be the &ldquo;parent&rdquo; of each of the other components. The components should be at the same outline level in the browser and not nested inside each other.</p>
+<h3 id="design-considerations">Design Considerations</h3>
+<p>Think about how your pieces will hold together. Add tabs and holes and any other design features needed to attach the different pieces. You can use the &ldquo;Combine&rdquo; modify action to cut out pieces using other pieces as &ldquo;tools&rdquo;.</p>
+<ul>
+<li>Will you use pinned finger joints?</li>
+<li>Will you use glue?</li>
+<li>Will you use tabs and holes?</li>
+<li>Will you have bendable living hinges?</li>
+<li>Will you use snap clips?</li>
+<li>Will you use captive nut joints?</li>
+</ul>
+<h2 id="add-appearances-and-export-render">Add Appearances and Export Render</h2>
+<p>In Fusion 360 add appearances to you model as you wish and export a render. Label the file YYYYMMDD Lastname Firstname Laser Cut Stand Render.png/jpg</p>
+<p>Make the model look the way you want the final product to look. If you are going to paint pieces then paint the pieces in the render. If you will have etchings then put an image decal on to represent the etchings.</p>
+<p>Make sure your render image is well composed and high resolution with at least one direction 4000px. Choose a 4:3 16:9 or 1:1 aspect ratio. You can make multiple render views.</p>
+<figure>
+<p><a href="2021-Laser-Cut-Stand-Render-Assembled.png"><img src="2021-Laser-Cut-Stand-Render-Assembled.jpg" alt="Laser Cut Stand Assembled"></a></p>
+<figcaption>
+<p>Example of each part of the stand as a separate component at the top level assembly in Fusion 360.</p>
+</figcaption>
+<figure>
+<h2 id="grading-rubric">Grading Rubric</h2>
+<div class="responsive-table-markdown">
+<table>
+<thead>
+<tr>
+<th>Assessment</th>
+<th>Weight</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Design of Stand</td>
+<td>30 points</td>
+</tr>
+<tr>
+<td>Use &ldquo;ply&rdquo; user parameter</td>
+<td>20 points</td>
+</tr>
+<tr>
+<td>Use Separate Components for Pieces</td>
+<td>30 points</td>
+</tr>
+<tr>
+<td>Use of Joints to Connect Parts</td>
+<td>30 points</td>
+</tr>
+<tr>
+<td>Render Image Composition</td>
+<td>20 points</td>
+</tr>
+<tr>
+<td>Materials Applied</td>
+<td>10 points</td>
+</tr>
+<tr>
+<td>Render Aspect Ratio not set to Viewport</td>
+<td>10 points</td>
+</tr>
+<tr>
+<td>File Management</td>
+<td>10 points</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+
+
+<div class="container-fluid">
+    <div id="bottom-prev-next">
+
+        
+        <a class="btn btn-lg btn-outline-dark" href="https://whatmakeart.com/modeling-and-fabrication/modules/04-laser-cutting-3d-modeling/4-06-multi-component-example-model-for-laser-cutting/">« 04.06 Multi Component Example Model for Laser...</a>
+        
+
+        
+        <a class="btn btn-lg btn-outline-dark" href="https://whatmakeart.com/modeling-and-fabrication/modules/04-laser-cutting-3d-modeling/4-08-laser-cut-fusion-model-self-assessment/">04.08 Laser Cut Fusion Model Self Assessment »</a>
+        
+
+    </div>
+</div>
+
+
+            </div>
+        </main>
+    </div>
+
+    <footer id="footer" class="container-fluid  justify-content-center mt-auto"> 
+    <div class="row">
+
+        <div class="gallery-grid footer-links">
+            <p class="footer-item">Copyright (c) Jimmy Kuehnle
+            </p>
+
+            <p class="footer-item">
+                
+                
+                
+                
+                
+
+                
+
+                
+                <a class="btn btn-outline-dark" href="https://github.com/whatmakeart/modeling-and-fabrication/edit/main/content/modules/04-laser-cutting-3d-modeling/4-07-model-laser-cut-project-in-fusion-360/index.md">Edit this page</a>
+                
+
+            </p>
+        </div>
+
+    </div>
+</footer>
+    <script src="https://whatmakeart.com/modeling-and-fabrication/js/scripts.js"></script>
+<script src="https://whatmakeart.com/modeling-and-fabrication/js/bootstrap.min.js"></script>
+
+
+
+</body>
+
+</html>

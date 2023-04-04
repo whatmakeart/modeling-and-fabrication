@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    
+    
+    <title>Modeling and Fabrication | 04.02 Fusion 360 User Parameter Basics</title>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="https://whatmakeart.com/modeling-and-fabrication/images/icons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="https://whatmakeart.com/modeling-and-fabrication/images/icons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="https://whatmakeart.com/modeling-and-fabrication/images/icons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="https://whatmakeart.com/modeling-and-fabrication/images/icons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="https://whatmakeart.com/modeling-and-fabrication/images/icons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="https://whatmakeart.com/modeling-and-fabrication/images/icons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="https://whatmakeart.com/modeling-and-fabrication/images/icons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="https://whatmakeart.com/modeling-and-fabrication/images/icons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://whatmakeart.com/modeling-and-fabrication/images/icons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="https://whatmakeart.com/modeling-and-fabrication/images/icons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://whatmakeart.com/modeling-and-fabrication/images/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="https://whatmakeart.com/modeling-and-fabrication/images/icons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://whatmakeart.com/modeling-and-fabrication/images/icons/favicon-16x16.png">
+    <link rel="manifest" href="https://whatmakeart.com/modeling-and-fabrication/images/icons/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="https://whatmakeart.com/modeling-and-fabrication/images/icons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+
+    <link rel="stylesheet" type="text/css" href="https://whatmakeart.com/modeling-and-fabrication/css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="https://whatmakeart.com/modeling-and-fabrication/css/styles.css">
+
+    <link rel="stylesheet" type="text/css" href="https://whatmakeart.com/modeling-and-fabrication/css/gutenberg.css" media="print">
+
+    
+
+    
+
+</head>
+
+<body class="d-flex flex-column min-vh-100"> 
+
+    <div id="header">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="https://whatmakeart.com/modeling-and-fabrication/">
+            <h1>Modeling and Fabrication</h1>
+        </a>
+    </div>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container-fluid">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+
+                    
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/modeling-and-fabrication/modules/">
+                            
+                            Modules</a>
+                    </li>
+                    
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/modeling-and-fabrication/resources/">
+                            
+                            Resources</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+
+    <div class="container-fluid justify-content-center">
+        <main class="row" id="main">
+            <div class="col main-content">
+                
+
+
+<div class="container-fluid">
+
+    <h1 id="pageTitleH1">04.02 Fusion 360 User Parameter Basics</h1>
+
+    
+
+    
+
+<aside id="topTOC">
+    <header>
+        <h2 class="toc-header">Table of Contents</h2>
+    </header>
+    <nav id="TableOfContents">
+  <ol>
+    <li><a href="#creating-user-parameters">Creating User Parameters</a></li>
+    <li><a href="#adding-user-parameters-to-existing-models">Adding User Parameters to Existing Models</a></li>
+    <li><a href="#fixing-errors-when-changing-parameters">Fixing Errors When Changing Parameters</a>
+      <ol>
+        <li><a href="#set-user-parameters-fusion-360">Set User Parameters Fusion 360</a></li>
+        <li><a href="#change-plywood-thickness-fusion-360">Change Plywood Thickness Fusion 360</a></li>
+        <li><a href="#add-user-parameters-to-existing-model">Add User Parameters to Existing Model</a></li>
+      </ol>
+    </li>
+  </ol>
+</nav>
+</aside>
+
+
+
+
+</div>
+
+<p>In Fusion 360 you can create user parameters. These are values that you can use to change your model and update it completely through your design history. When you start a new design there are no user parameters. You can make as many user parameters as you want and also you can use equations to make user parameters.</p>
+<h2 id="creating-user-parameters">Creating User Parameters</h2>
+<p>To create user parameters, go to “Modify” and then select “change parameters”.</p>
+<p>By using a user parameter of &ldquo;ply&rdquo;, you can update your design after measuring the thickness of your material. Use this dimensions in your sketches rather than typing in the thickness of the plywood as a hard coded value. This allows for updating later. You can also make parameters for the width, height, depth, clearance, the size of bolt holes and any other feature that you might want to change or have a relationship to other features.</p>
+<p>You can also use a user parameter with an expression or equation such as &ldquo;width / 2&rdquo; for the distance of an offset plane from the origin to space out side pieces. Use user parameters for anything that you want to reference multiple times or potentially update later.</p>
+<h2 id="adding-user-parameters-to-existing-models">Adding User Parameters to Existing Models</h2>
+<p>Sometimes you might start modeling and type in dimensions to get started. After drawing a few sketches or making a couple components you might realize that a particular dimensions should be a user parameter instead of being hard coded. What do you do? How can you add a parameter after you already modeled the part? Fusion 360 allows you to change &ldquo;almost&rdquo; anything at a later time. You can create a user parameter and then go back through the design history and swap out hard coded values for the newly created user parameter. It is better to create the needed user parameters from the beginning but that is not always possible, especially with new designs. This <a href="https://youtu.be/sBEHI-N4DAY">video</a> walks through the process of adding user parameters to an existing model.</p>
+<h2 id="fixing-errors-when-changing-parameters">Fixing Errors When Changing Parameters</h2>
+<p>Sometimes when user parameters are changed, parts of the model might &ldquo;break.&rdquo; If this happens, the best thing to do is note which features in the timeline have problems. These will be highlighted red or yellow. Then press &ldquo;Control Z&rdquo; or &ldquo;Command Z&rdquo; to undo the user parameter change. Then inspect the features that had problems to see what can be changed to make the model more robust. Often there will be a place where a value was hardcoded with a number instead of a user parameter. Once the problems are fixed then you can change the user parameter value to have the model automatically update. This <a href="https://www.youtu.be/F3673fmEymo">video</a> shows how to fix errors on the design timeline.</p>
+<figure>
+<p><a href="2021-Laser-Cut-User-Parameters.png"><img src="2021-Laser-Cut-User-Parameters.png" alt="Laser Cut User Parameters"></a></p>
+<figcaption>
+<p>Example User Parameters in Fusion 360</p>
+</figcaption>
+</figure>
+</div>
+<div class="video-grid">
+<div class="video-card">
+<h3 id="set-user-parameters-fusion-360">Set User Parameters Fusion 360</h3>
+<div class="iframe-16-9-container"><iframe class="youTubeIframe" style="position: absolute; top: 0; bottom: 0; left: 0; width: 100%; height: 100%; border: 0; z-index: 1;" src="https://www.youtube.com/embed/H6W-Og4YyZ8?rel=0" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
+</div>
+<div class="video-card">
+<h3 id="change-plywood-thickness-fusion-360">Change Plywood Thickness Fusion 360</h3>
+<div class="iframe-16-9-container"><iframe class="youTubeIframe" style="position: absolute; top: 0; bottom: 0; left: 0; width: 100%; height: 100%; border: 0; z-index: 1;" src="https://www.youtube.com/embed/a7HOiBC_81s?rel=0" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
+</div>
+<div class="video-card">
+<h3 id="add-user-parameters-to-existing-model">Add User Parameters to Existing Model</h3>
+<div class="iframe-16-9-container"><iframe class="youTubeIframe" style="position: absolute; top: 0; bottom: 0; left: 0; width: 100%; height: 100%; border: 0; z-index: 1;" src="https://www.youtube.com/embed/sBEHI-N4DAY?rel=0" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
+</div>
+</div>
+
+
+
+<div class="container-fluid">
+    <div id="bottom-prev-next">
+
+        
+        <a class="btn btn-lg btn-outline-dark" href="https://whatmakeart.com/modeling-and-fabrication/modules/04-laser-cutting-3d-modeling/4-01-laser-cut-joint-examples/">« 04.01 Laser Cut Joint Examples</a>
+        
+
+        
+        <a class="btn btn-lg btn-outline-dark" href="https://whatmakeart.com/modeling-and-fabrication/modules/04-laser-cutting-3d-modeling/4-03-import-sketches-or-designs-fusion-360/">04.03 Import Sketches or Designs Fusion 360 »</a>
+        
+
+    </div>
+</div>
+
+
+            </div>
+        </main>
+    </div>
+
+    <footer id="footer" class="container-fluid  justify-content-center mt-auto"> 
+    <div class="row">
+
+        <div class="gallery-grid footer-links">
+            <p class="footer-item">Copyright (c) Jimmy Kuehnle
+            </p>
+
+            <p class="footer-item">
+                
+                
+                
+                
+                
+
+                
+
+                
+                <a class="btn btn-outline-dark" href="https://github.com/whatmakeart/modeling-and-fabrication/edit/main/content/modules/04-laser-cutting-3d-modeling/4-02-fusion-360-user-parameter-basics/index.md">Edit this page</a>
+                
+
+            </p>
+        </div>
+
+    </div>
+</footer>
+    <script src="https://whatmakeart.com/modeling-and-fabrication/js/scripts.js"></script>
+<script src="https://whatmakeart.com/modeling-and-fabrication/js/bootstrap.min.js"></script>
+
+
+
+</body>
+
+</html>

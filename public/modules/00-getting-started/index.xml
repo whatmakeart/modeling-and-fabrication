@@ -1,8 +1,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Module 0 Getting Started on Modeling and Fabrication</title>
+    <title>00 Getting Started on Modeling and Fabrication</title>
     <link>https://whatmakeart.com/modeling-and-fabrication/modules/00-getting-started/</link>
-    <description>Recent content in Module 0 Getting Started on Modeling and Fabrication</description>
+    <description>Recent content in 00 Getting Started on Modeling and Fabrication</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 26 Jan 2020 23:11:13 +0000</lastBuildDate>
@@ -11,17 +11,144 @@
     
     
     <item>
-      <title>0.4 Course Links</title>
-      <link>https://whatmakeart.com/modeling-and-fabrication/modules/00-getting-started/0-4-course-links/</link>
+      <title>00.00 Course Introduction</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/00-getting-started/0-0-course-introduction/</link>
       <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
       
-      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/00-getting-started/0-4-course-links/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://help.autodesk.com/view/fusion360/ENU/&#34;&gt;Autodesk Fusion 360 Online Product Documentation&lt;/a&gt;&lt;/p&gt;
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/00-getting-started/0-0-course-introduction/</guid>
+      <description>&lt;h2 id=&#34;course-introduction&#34;&gt;Course Introduction&lt;/h2&gt;
+&lt;p&gt;This course is intended for first year college students studying art and design.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>0.5 Fusion 360 FAQ</title>
+      <title>00.01 Course Introduction</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/00-getting-started/0-1-course-description/</link>
+      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
+      
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/00-getting-started/0-1-course-description/</guid>
+      <description>&lt;p&gt;Digital II builds technical proficiency and critical thinking about the role of digital technology. The course offers a common core that reviews file management and digital workflows, covers video editing, time-based images, narrative structures, 3D output of assets from digital models, and forms digital literacy in relation to vocabulary, resources, and digital research. Students will gain experience with basic coding, interactivity, and go more in depth into a particular topic in their chosen track. Course structure consists of introductory concept lectures, technical instruction, lab time with guidance and group critique of finished assignments.&lt;/p&gt;
+&lt;h2 id=&#34;digital-ii-modeling-and-fabrication&#34;&gt;Digital II: Modeling and Fabrication&lt;/h2&gt;
+&lt;p&gt;Digital II: Modeling and Fabrication is a course that introduces foundational digital 3D applications and methods. Focus will be on 3D output including digital options and physical options. Various methods covered will include using CNC, laser cutters, casting/mold making, 3D printing, VR/AR, and Computer Graphics. Course structure consists of introductory concept lectures, technical instruction, lab time with guidance and group critique of finished assignments.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>00.02 How to Succeed in this Course</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/00-getting-started/0-2-how-suceed-in-this-course/</link>
+      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
+      
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/00-getting-started/0-2-how-suceed-in-this-course/</guid>
+      <description>&lt;h2 id=&#34;how-to-succeed-in-this-course&#34;&gt;How to Succeed in this Course&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Take physical notes. Smart people write things down. Be smart. - Pay attention. Make sure to stay engaged.&lt;/li&gt;
+&lt;li&gt;Ask questions. Don’t worry about interrupting. If the instructor decides to answer your question later, they will let you know.&lt;/li&gt;
+&lt;li&gt;Don’t fall behind - we progress quickly and steadily!&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>00.03 Syllabus</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/00-getting-started/0-3-syllabus/</link>
+      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
+      
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/00-getting-started/0-3-syllabus/</guid>
+      <description>&lt;h2 id=&#34;learning-goals-and-objectives&#34;&gt;Learning Goals and Objectives&lt;/h2&gt;
+&lt;p&gt;Upon completion of the course, students will have to opportunity to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Think critically about the role of digital technology&lt;/li&gt;
+&lt;li&gt;Achieve technical proficiency at a foundational level in various relevant software&lt;/li&gt;
+&lt;li&gt;Apply Digital Literacy at a foundational level in relation to semantics, digital resources, and digital research&lt;/li&gt;
+&lt;li&gt;Apply foundation principles with Digital Tools in 2D, 3D and 4D Manage and organize files and digital workflows&lt;/li&gt;
+&lt;li&gt;Edit Video for animation and narrative structures&lt;/li&gt;
+&lt;li&gt;Manage 3D output of assets from digital models, either 2D vector or 3D mode&lt;/li&gt;
+&lt;li&gt;Understand variables and functions in computer code&lt;/li&gt;
+&lt;li&gt;Code for animation or algorithmic painting&lt;/li&gt;
+&lt;li&gt;Utilize 3D software and understand the basics of 3D modeling&lt;/li&gt;
+&lt;li&gt;Use digital software to create physical objects Experiment with other digital output for 3D including VR/AR&lt;/li&gt;
+&lt;li&gt;Create innovative 3D sculptures and models&lt;/li&gt;
+&lt;li&gt;Demonstrate the advantages/disadvantages of using digital technology in 3D form&lt;/li&gt;
+&lt;li&gt;Understand and apply design principles using digital technologies&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;class-format--policies&#34;&gt;Class Format &amp;amp; Policies&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Digital II has 5 hours of regularly scheduled instructional time. In addition to the regularly scheduled instructional time, you’ll need to plan on 4 to 5 hours of homework time for each of your classes.&lt;/li&gt;
+&lt;li&gt;There will be field trips to the think[box] for instructional content.&lt;/li&gt;
+&lt;li&gt;In addition, students will need to go to the CIA Digital Output Center and the think[box] to complete assignments such as laser cutting and 3D printing.&lt;/li&gt;
+&lt;li&gt;Digital II is a combination of studio work as well as lecture, group dialogue, critiques etc.&lt;/li&gt;
+&lt;li&gt;Projects will sometimes have in-progress reviews in addition to critiques when the projects are finished. The Instructor as well as students participate in the critiques. This takes time and is part of the studio learning experience and a big part of the course.&lt;/li&gt;
+&lt;li&gt;Students must avoid behavior that disrupts the learning process, or that otherwise may be offensive to classmates, or that is disrespectful to the instructor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;critiques&#34;&gt;Critiques&lt;/h2&gt;
+&lt;p&gt;You’re required to contribute to all critiques, even if your own project is not complete. Successful crits depend on each student’s generosity in sharing their honest thoughts, opinions and suggestions!&lt;/p&gt;
+&lt;h2 id=&#34;late-work&#34;&gt;Late Work&lt;/h2&gt;
+&lt;p&gt;Projects must be turned in on time. On time is before the beginning of class on the day that they are due or other time as specified by the instructor. Late projects will automatically drop 2% per day late.&lt;/p&gt;
+&lt;h2 id=&#34;documentation&#34;&gt;Documentation&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Students should maintain regular, on-going and timely documentation of work in progress.&lt;/li&gt;
+&lt;li&gt;Images should be high resolution, well exposed, in focus, and well composed.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;file-management&#34;&gt;File Management&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;We will use Canvas to turn in assignments. If issues arise with Canvas’ file submission process then we will use Google Drive to turn in assignments.&lt;/li&gt;
+&lt;li&gt;The class will have a Google Drive folder specific to this course.&lt;/li&gt;
+&lt;li&gt;Use this format for naming all your Digital II class digital files:
+&lt;ul&gt;
+&lt;li&gt;YYYYMMDD Smith Lane Project 1&lt;/li&gt;
+&lt;li&gt;20230118 Smith Lane First Day Project 1&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;required-supplies&#34;&gt;Required Supplies&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Drawing Board&lt;/li&gt;
+&lt;li&gt;Loose Paper to Draw on (Can use printer paper or other loose paper, not paper in a sketchbook)&lt;/li&gt;
+&lt;li&gt;Pencil and sharpener&lt;/li&gt;
+&lt;li&gt;Eraser&lt;/li&gt;
+&lt;li&gt;Safety Goggles (not needed on first day)&lt;/li&gt;
+&lt;li&gt;Hearing Protection (not needed on first day)&lt;/li&gt;
+&lt;li&gt;~$50 -$75 for fabrication materials to complete projects&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;recommended-materials&#34;&gt;Recommended Materials&lt;/h2&gt;
+&lt;p&gt;The following materials are not required for the course but may be useful to you in the course and further study.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;T-Square&lt;/li&gt;
+&lt;li&gt;Straight edge for drawing lines 45 deg triangle 30 / 60 deg triangle&lt;/li&gt;
+&lt;li&gt;Compass for drawing circles&lt;/li&gt;
+&lt;li&gt;3 Button Mouse – Attached to Lab computers but recommended for working on your laptop&lt;/li&gt;
+&lt;li&gt;Low tack tape to hold drawing paper to board&lt;/li&gt;
+&lt;li&gt;Digital Calipers - May purchase your own or use the digital calipers in the Fab Studios&lt;/li&gt;
+&lt;li&gt;Isometric Graph Paper (Has triangles instead of squares)&lt;/li&gt;
+&lt;li&gt;Square Graph Paper&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;required-textbooks-and-readings&#34;&gt;Required Textbooks and Readings&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;No required textbook&lt;/li&gt;
+&lt;li&gt;Course resources are available online&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>00.04 Course Links</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/00-getting-started/0-4-course-links/</link>
+      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
+      
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/00-getting-started/0-4-course-links/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://help.autodesk.com/view/fusion360/ENU/&#34;&gt;Autodesk Fusion 360 Online Product Documentation&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://docs.blender.org/&#34;&gt;Blender Docs&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>00.05 Fusion 360 FAQ</title>
       <link>https://whatmakeart.com/modeling-and-fabrication/modules/00-getting-started/0-5-fusion-360-faq/</link>
       <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
       
@@ -39,26 +166,41 @@
 &lt;li&gt;&lt;a href=&#34;https://youtu.be/PX9jWmmGTfo&#34;&gt;How do I move an imported SVG sketch?&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://youtu.be/ynBl9XJesDs&#34;&gt;How do I fully define a spline in a sketch?&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h2 id=&#34;user-parameters&#34;&gt;User Parameters&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtu.be/H6W-Og4YyZ8&#34;&gt;How to use user parameters&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtu.be/sBEHI-N4DAY&#34;&gt;How to add user parameters to an existing model?&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2 id=&#34;modeling&#34;&gt;Modeling&lt;/h2&gt;
 &lt;h3 id=&#34;basic-modeling&#34;&gt;Basic Modeling&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://youtu.be/iLr9d8Gp7Ls&#34;&gt;Join, Cut, Intersect Operations&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://youtu.be/d4iPXS8g9ms&#34;&gt;How do I split a body?&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://youtu.be/H6W-Og4YyZ8&#34;&gt;How do I set user parameters?&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://youtu.be/vwCUjtsghdI&#34;&gt;How to mirror an object?&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;How to cut with an object after an object is already made?&lt;/strong&gt; - Use the move tool to make the objects overlap. Then use the combine tool to select a tool body (for cutting) and the target body (getting cut). It will show a red preview of what will be cut.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://youtu.be/VzossdZbGtk&#34;&gt;How to Loft?&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://youtu.be/VzossdZbGtk&#34;&gt;How to Revolve?&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://youtu.be/Gpplnrtf3UE&#34;&gt;How to make perfect polygons?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtu.be/xHsBKSrwHSg&#34;&gt;How to change model xyz orientation&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;intermediate-modeling&#34;&gt;Intermediate Modeling&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://youtu.be/H6W-Og4YyZ8&#34;&gt;How to use User Parameters?&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://youtube.com/playlist?list=PL8G4GiXpgTvL9MrVHLOWikPVFn-NPUWmp&#34;&gt;How do I use the form workspace in Fusion 360?&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;advanced-modeling&#34;&gt;Advanced Modeling&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://youtu.be/xHas0R5-6uc&#34;&gt;How to make a knurled texture like a handlebar grip?&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;form-workspace&#34;&gt;Form Workspace&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtu.be/B--0CElGp7s&#34;&gt;Box vs Smooth Mode&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtu.be/8vGrRR_TLEg&#34;&gt;T-Splines Introduction&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtu.be/3YS1EX0rT0Y&#34;&gt;Extrude Faces - Form Workspace&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtu.be/dVTDrUhsN3Y&#34;&gt;Insert Edge Loop - Form Workspace&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtu.be/jNAzRU-Dbyg&#34;&gt;Unweld Edges - Form Workspace&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtu.be/3vat_r_MZ3k&#34;&gt;Make Hole in T-Spline&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtu.be/4gbuQ8cRA3I&#34;&gt;Freeze T-Spline&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtu.be/_ijhpIGns-A&#34;&gt;Crease T-Spline&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;rendering&#34;&gt;Rendering&lt;/h2&gt;
 &lt;ul&gt;
@@ -72,46 +214,6 @@
 &lt;li&gt;&lt;a href=&#34;https://youtu.be/jvBfrFdsiV4&#34;&gt;How to model a padded box?&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://youtu.be/npRZdueFu8M&#34;&gt;How to model a glass panel?&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Course Introduction</title>
-      <link>https://whatmakeart.com/modeling-and-fabrication/modules/00-getting-started/0-0-course-introduction/</link>
-      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
-      
-      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/00-getting-started/0-0-course-introduction/</guid>
-      <description>&lt;h2 id=&#34;course-introduction&#34;&gt;Course Introduction&lt;/h2&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Course Introduction</title>
-      <link>https://whatmakeart.com/modeling-and-fabrication/modules/00-getting-started/0-1-course-description/</link>
-      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
-      
-      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/00-getting-started/0-1-course-description/</guid>
-      <description>&lt;h2 id=&#34;course-description&#34;&gt;Course Description&lt;/h2&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>How to Succeed in this Course</title>
-      <link>https://whatmakeart.com/modeling-and-fabrication/modules/00-getting-started/0-2-how-suceed-in-this-course/</link>
-      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
-      
-      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/00-getting-started/0-2-how-suceed-in-this-course/</guid>
-      <description>&lt;h2 id=&#34;how-to-succeed-in-this-course&#34;&gt;How to Succeed in this Course&amp;quot;&lt;/h2&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Syllabus</title>
-      <link>https://whatmakeart.com/modeling-and-fabrication/modules/00-getting-started/0-3-syllabus/</link>
-      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
-      
-      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/00-getting-started/0-3-syllabus/</guid>
-      <description>&lt;h2 id=&#34;syllabus&#34;&gt;Syllabus&lt;/h2&gt;
 </description>
     </item>
     

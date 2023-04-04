@@ -1,8 +1,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Course Modules on Modeling and Fabrication</title>
+    <title>Modules on Modeling and Fabrication</title>
     <link>https://whatmakeart.com/modeling-and-fabrication/modules/</link>
-    <description>Recent content in Course Modules on Modeling and Fabrication</description>
+    <description>Recent content in Modules on Modeling and Fabrication</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 26 Jan 2020 23:11:13 +0000</lastBuildDate>
@@ -11,13 +11,21 @@
     
     
     <item>
+      <title>00 Getting Started</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/00-getting-started/</link>
+      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
+      
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/00-getting-started/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>01 Technical Sketching and Fusion 360</title>
       <link>https://whatmakeart.com/modeling-and-fabrication/modules/01-technical-sketching-fusion-360/</link>
       <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
       
       <guid>https://whatmakeart.com/modeling-and-fabrication/modules/01-technical-sketching-fusion-360/</guid>
-      <description>&lt;p&gt;Introduces Technical Sketching and 3D Modeling in Fusion 360&lt;/p&gt;
-</description>
+      <description></description>
     </item>
     
     <item>
@@ -30,7 +38,7 @@
     </item>
     
     <item>
-      <title>03 - Laser Cutting</title>
+      <title>03 Laser Cutting</title>
       <link>https://whatmakeart.com/modeling-and-fabrication/modules/03-laser-cutting/</link>
       <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
       
@@ -39,7 +47,7 @@
     </item>
     
     <item>
-      <title>04 - Laser Cutting&#34;</title>
+      <title>04 Laser Cutting 3D Modeling</title>
       <link>https://whatmakeart.com/modeling-and-fabrication/modules/04-laser-cutting-3d-modeling/</link>
       <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
       
@@ -48,7 +56,7 @@
     </item>
     
     <item>
-      <title>05 - Laser Cutting</title>
+      <title>05 Laser Cutting</title>
       <link>https://whatmakeart.com/modeling-and-fabrication/modules/05-laser-cutting-fabrication/</link>
       <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
       
@@ -57,7 +65,7 @@
     </item>
     
     <item>
-      <title>06 - 3D Printing</title>
+      <title>06 3D Printing Introduction</title>
       <link>https://whatmakeart.com/modeling-and-fabrication/modules/06-3d-printing/</link>
       <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
       
@@ -66,52 +74,52 @@
     </item>
     
     <item>
-      <title>07 - 3D Printing</title>
-      <link>https://whatmakeart.com/modeling-and-fabrication/modules/07-3d-printing/</link>
+      <title>07 3D Printing Test Prints</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/07-3d-printing-design/</link>
       <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
       
-      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/07-3d-printing/</guid>
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/07-3d-printing-design/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>08 - 3D Printing</title>
-      <link>https://whatmakeart.com/modeling-and-fabrication/modules/08-3d-printing/</link>
+      <title>08 #D Printing Modeling and Fabrication</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/08-3d-printing-modeling-fabrication/</link>
       <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
       
-      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/08-3d-printing/</guid>
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/08-3d-printing-modeling-fabrication/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>09 - CNC</title>
-      <link>https://whatmakeart.com/modeling-and-fabrication/modules/09-cnc/</link>
+      <title>09 CNC Introduction</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/09-cnc-introduction/</link>
       <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
       
-      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/09-cnc/</guid>
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/09-cnc-introduction/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>10 - CNC</title>
-      <link>https://whatmakeart.com/modeling-and-fabrication/modules/10-cnc/</link>
+      <title>10 CNC Design and Modeling</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/10-cnc-design-and-modeling/</link>
       <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
       
-      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/10-cnc/</guid>
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/10-cnc-design-and-modeling/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>11 - CNC</title>
-      <link>https://whatmakeart.com/modeling-and-fabrication/modules/11-cnc/</link>
+      <title>11 CNC Fabrication</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/11-cnc-fabrication/</link>
       <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
       
-      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/11-cnc/</guid>
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/11-cnc-fabrication/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>12 - Polygon Modeling</title>
+      <title>12 Polygon Modeling</title>
       <link>https://whatmakeart.com/modeling-and-fabrication/modules/12-polygon-3d-modeling/</link>
       <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
       
@@ -120,7 +128,7 @@
     </item>
     
     <item>
-      <title>13 - 3D Animation</title>
+      <title>13 3D Animation Introduction</title>
       <link>https://whatmakeart.com/modeling-and-fabrication/modules/13-3d-animation/</link>
       <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
       
@@ -129,7 +137,7 @@
     </item>
     
     <item>
-      <title>14 - 3D Animation</title>
+      <title>14 3D Animation Rendering</title>
       <link>https://whatmakeart.com/modeling-and-fabrication/modules/14-3d-animation/</link>
       <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
       
@@ -138,7 +146,7 @@
     </item>
     
     <item>
-      <title>15</title>
+      <title>15 Final Projects</title>
       <link>https://whatmakeart.com/modeling-and-fabrication/modules/15-final-projects/</link>
       <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
       
@@ -152,15 +160,6 @@
       <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
       
       <guid>https://whatmakeart.com/modeling-and-fabrication/modules/16-video/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Module 0 Getting Started</title>
-      <link>https://whatmakeart.com/modeling-and-fabrication/modules/00-getting-started/</link>
-      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
-      
-      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/00-getting-started/</guid>
       <description></description>
     </item>
     

@@ -75,10 +75,15 @@ a.summary-link,
   width: 100%;
   overflow-x: auto;
   margin: 0 auto;
+  margin-bottom: 1rem;
 }
 
 .responsive-table-markdown > table {
   overflow-x: auto;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
 }
 
 img {

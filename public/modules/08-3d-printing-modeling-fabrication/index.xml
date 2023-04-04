@@ -1,0 +1,694 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>08 #D Printing Modeling and Fabrication on Modeling and Fabrication</title>
+    <link>https://whatmakeart.com/modeling-and-fabrication/modules/08-3d-printing-modeling-fabrication/</link>
+    <description>Recent content in 08 #D Printing Modeling and Fabrication on Modeling and Fabrication</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 26 Jan 2020 23:11:13 +0000</lastBuildDate>
+    
+        <atom:link href="https://whatmakeart.com/modeling-and-fabrication/modules/08-3d-printing-modeling-fabrication/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>08.00 Introduction</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/08-3d-printing-modeling-fabrication/8-00-introduction/</link>
+      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
+      
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/08-3d-printing-modeling-fabrication/8-00-introduction/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;After the ideation and iterative sketching phase of the design process, initial ideas for a 3D printing projects must be translated from sketch lines to 3D geometry in 3D modeling software. The parametric modeling features of Fusion 360 are well suited for 3D printing since it is easy to modify and change parameters to update a design. T-splines in combination with solid modeling can create most forms imaginable, but not all. Even if a form may be possible in Fusion 360, it might not be the most practical method to achieve some designs. Polygon mesh 3D modeling programs such as Blender or Maya can achieve some forms better and in less time than Fusion 360. Polygon mesh modeling software lacks the parametric precision of CAD orientated software like Fusion 360, but makes up for this limitation with much more freedom and ease of direct manipulation of the 3D model. As you explore 3D modeling for 3D printed output, this module introduces the basics of polygon mesh modeling in Blender and Maya.&lt;/p&gt;
+&lt;h2 id=&#34;learning-objectives&#34;&gt;Learning Objectives&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Translate ideas from an ideation sketch to a 3D model&lt;/li&gt;
+&lt;li&gt;Work within the constraints of a design challenge&lt;/li&gt;
+&lt;li&gt;Use polygon mesh modeling in Blender or Maya as appropriate&lt;/li&gt;
+&lt;li&gt;Export STL files from multiple 3D modeling programs&lt;/li&gt;
+&lt;li&gt;3D model a design that takes into account the limitations of FFF 3D printing&lt;/li&gt;
+&lt;li&gt;Understand object mode and edit mode in polygon mesh 3D modeling&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;key-terms&#34;&gt;Key Terms&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Polygon Mesh&lt;/li&gt;
+&lt;li&gt;Blender&lt;/li&gt;
+&lt;li&gt;Maya&lt;/li&gt;
+&lt;li&gt;Overhang&lt;/li&gt;
+&lt;li&gt;Vertex&lt;/li&gt;
+&lt;li&gt;Edge&lt;/li&gt;
+&lt;li&gt;Face&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>08.01 3D Print Model</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/08-3d-printing-modeling-fabrication/8-01-3d-print-modeling-fusion-360/</link>
+      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
+      
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/08-3d-printing-modeling-fabrication/8-01-3d-print-modeling-fusion-360/</guid>
+      <description>&lt;p&gt;Leveraging the parametric modeling features of Fusion 360 can create detailed and precise 3D models for 3D printing quickly. Then if a part or screw hole needs to be adjusted after making a test print, it can easily be changed in the design timeline or by simple updating a parameter value. For mechanical and semi regular parts, this modeling workflow is tough to beat.&lt;/p&gt;
+&lt;p&gt;They key to a successful 3D model for 3D printing in Fusion 360 is having a plan. Sketches from the ideation and iteration portion of the design process are invaluable in setting up the parameters needed as well as planning out what components and sketches are best for a particular model. For every design or idea, there are many different ways to make a 3D model of it. The correct approach depends on the final intent as well as the experience and preferences of the modeler.&lt;/p&gt;
+&lt;p&gt;For example, one could create a sketch on the origin and extrude out a form symmetrically in both directions 1/2 of the width of the object. Other approach would be to create an offset plane from the origin 1/2 of the width away. Then create a sketch on this plane and extrude toward the origin the full width, or half the width and then create a mirror. Neither method is &amp;ldquo;correct.&amp;rdquo; Both offer different ways of modifying the design and continuing the model depending on what parameters and features are most important to the design.&lt;/p&gt;
+&lt;p&gt;The examples below show different approaches to creating various objects for 3D printing in Fusion 360.&lt;/p&gt;
+&lt;h2 id=&#34;example-models-for-3d-printing-in-fusion-360&#34;&gt;Example Models for 3D Printing in Fusion 360&lt;/h2&gt;
+&lt;div class=&#34;video-grid&#34;&gt;
+&lt;div class=&#34;video-card&#34;&gt;
+&lt;h3 id=&#34;parametric-angle-bracket&#34;&gt;Parametric Angle Bracket&lt;/h3&gt;
+&lt;div class=&#34;iframe-16-9-container&#34;&gt;
+&lt;iframe class=&#34;youTubeIframe&#34; width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/lAX7XAcrvL4?rel=0&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video-card&#34;&gt;
+&lt;h3 id=&#34;1x2x1-lego-brick&#34;&gt;1x2x1 Lego Brick&lt;/h3&gt;
+&lt;div class=&#34;iframe-16-9-container&#34;&gt;
+&lt;iframe class=&#34;youTubeIframe&#34; width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/42VLAXterTg?rel=0&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video-card&#34;&gt;
+&lt;h3 id=&#34;any-size-lego-brick&#34;&gt;Any Size Lego Brick&lt;/h3&gt;
+&lt;div class=&#34;iframe-16-9-container&#34;&gt;
+&lt;iframe class=&#34;youTubeIframe&#34; width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/Zjhpo0Docdc?rel=0&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video-card&#34;&gt;
+&lt;h3 id=&#34;1x1-lego-brick&#34;&gt;1x1 Lego Brick&lt;/h3&gt;
+&lt;div class=&#34;iframe-16-9-container&#34;&gt;
+&lt;iframe class=&#34;youTubeIframe&#34; width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/zIgLweqF2X8?rel=0&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video-card&#34;&gt;
+&lt;h3 id=&#34;3d-print-bracket-for-laser-cut-plywood&#34;&gt;3D Print Bracket for Laser Cut Plywood&lt;/h3&gt;
+&lt;div class=&#34;iframe-16-9-container&#34;&gt;
+&lt;iframe class=&#34;youTubeIframe&#34; width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/64nG3t-3Log?rel=0&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video-card&#34;&gt;
+&lt;h3 id=&#34;3d-print-star-earing&#34;&gt;3D Print Star Earing&lt;/h3&gt;
+&lt;div class=&#34;iframe-16-9-container&#34;&gt;
+&lt;iframe class=&#34;youTubeIframe&#34; width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/lAX7XAcrvL4?rel=0&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>08.04 Blender 3D Modeling Basics</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/08-3d-printing-modeling-fabrication/8-04-blender-3d-modeling-basics/</link>
+      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
+      
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/08-3d-printing-modeling-fabrication/8-04-blender-3d-modeling-basics/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.blender.org&#34;&gt;Blender&lt;/a&gt; is a free, open source 3D modeling and digital content creation software package that &amp;ldquo;supports the entirety of the 3D pipeline — modeling, rigging, animation, simulation, rendering, compositing and motion tracking, even video editing and game creation&amp;rdquo; &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; Since Blender is free, it can be used to make commercial content, unlike much of the software that you use as a student. Most software companies provide generous educational access to their software to students but this access stops after graduation. By learning multiple 3D modeling programs, you gain a better understanding of the concepts and have better versatility outside of school. Using Blender, allows you to create and sell your content from day one. This does not make it the best or better, but it is a good reason to know how to use it.&lt;/p&gt;
+&lt;h2 id=&#34;blender-quick-start&#34;&gt;Blender Quick Start&lt;/h2&gt;
+&lt;p&gt;The official &lt;a href=&#34;https://docs.blender.org/manual/en/dev/&#34;&gt;Blender Online Documentation&lt;/a&gt; is a great place to get started with the basics of Blender as well as explore advanced topics.&lt;/p&gt;
+&lt;h3 id=&#34;blender-essential-keyboard-shortcuts&#34;&gt;Blender Essential Keyboard Shortcuts&lt;/h3&gt;
+&lt;div class=&#34;responsive-table-markdown&#34;&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Blender Key&lt;/th&gt;
+&lt;th&gt;Action&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;T&lt;/td&gt;
+&lt;td&gt;Transform&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;G&lt;/td&gt;
+&lt;td&gt;Move&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;R&lt;/td&gt;
+&lt;td&gt;Rotate&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;S&lt;/td&gt;
+&lt;td&gt;Scale&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;HOME (win) or fn+Left Arrow&lt;/td&gt;
+&lt;td&gt;Frame all&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;NUMPAD . (can be customized)&lt;/td&gt;
+&lt;td&gt;Frame selected&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;tab&lt;/td&gt;
+&lt;td&gt;toggle edit / object mode&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;vertex mode&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;edge mode&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;face mode&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;h3 id=&#34;blender-mouse-controls&#34;&gt;Blender Mouse Controls&lt;/h3&gt;
+&lt;div class=&#34;responsive-table-markdown&#34;&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Mouse Control&lt;/th&gt;
+&lt;th&gt;Action&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;middle mouse button&lt;/td&gt;
+&lt;td&gt;orbit camera&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;shift + middle mouse button&lt;/td&gt;
+&lt;td&gt;pan camera&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;scroll wheel&lt;/td&gt;
+&lt;td&gt;zoom camera&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;blender-introduction&#34;&gt;Blender Introduction&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.blender.org/manual/en/dev/interface/index.html&#34;&gt;Blender User Interface&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Blender Object vs Edit Mode&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.blender.org/manual/en/dev/modeling/meshes/editing/mesh/extrude.html&#34;&gt;Blender Extrude&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.blender.org/manual/en/dev/addons/import_export/mesh_stl.html&#34;&gt;Blender Export STL&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.blender.org/manual/en/dev/scene_layout/object/editing/apply.html&#34;&gt;Blender Apply All Transforms&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;blender-modeling&#34;&gt;Blender Modeling&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtu.be/Jipi8XjDwsc&#34;&gt;Blender Merge Vertices&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtu.be/f7UeiFP0Gvc&#34;&gt;Blender Auto Mirror&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtu.be/FWhQdcOmP_8&#34;&gt;Inset Across Mirror Modifier&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtu.be/zvAXVnefhy8&#34;&gt;Blender Low Poly Car Model Tutorial&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtu.be/R73wtu1Ixnw&#34;&gt;Bevel and Sub D&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtu.be/HGdw5ywWxQI&#34;&gt;Hard Surface Plates&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;video-grid&#34;&gt;
+&lt;div class=&#34;video-card&#34;&gt;
+&lt;h3 id=&#34;blender-merge-vertices&#34;&gt;Blender Merge Vertices&lt;/h3&gt;
+&lt;div class=&#34;iframe-16-9-container&#34;&gt;
+&lt;iframe class=&#34;youTubeIframe&#34; width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/Jipi8XjDwsc?rel=0&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video-card&#34;&gt;
+&lt;h3 id=&#34;blender-auto-mirror&#34;&gt;Blender Auto Mirror&lt;/h3&gt;
+&lt;div class=&#34;iframe-16-9-container&#34;&gt;
+&lt;iframe class=&#34;youTubeIframe&#34; width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/f7UeiFP0Gvc?rel=0&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video-card&#34;&gt;
+&lt;h3 id=&#34;blender-inset-across-mirror-modifier&#34;&gt;Blender Inset Across Mirror Modifier&lt;/h3&gt;
+&lt;div class=&#34;iframe-16-9-container&#34;&gt;
+&lt;iframe class=&#34;youTubeIframe&#34; width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/FWhQdcOmP_8?rel=0&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video-card&#34;&gt;
+&lt;h3 id=&#34;blender-low-poly-car-model&#34;&gt;Blender Low Poly Car Model&lt;/h3&gt;
+&lt;div class=&#34;iframe-16-9-container&#34;&gt;
+&lt;iframe class=&#34;youTubeIframe&#34; width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/zvAXVnefhy8?rel=0&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video-card&#34;&gt;
+&lt;h3 id=&#34;blender-bevel-and-sub-d&#34;&gt;Blender Bevel and Sub D&lt;/h3&gt;
+&lt;div class=&#34;iframe-16-9-container&#34;&gt;
+&lt;iframe class=&#34;youTubeIframe&#34; width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/R73wtu1Ixnw?rel=0&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video-card&#34;&gt;
+&lt;h3 id=&#34;blender-hard-surface-plates&#34;&gt;Blender Hard Surface Plates&lt;/h3&gt;
+&lt;div class=&#34;iframe-16-9-container&#34;&gt;
+&lt;iframe class=&#34;youTubeIframe&#34; width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/HGdw5ywWxQI?rel=0&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.blender.org/about/&#34;&gt;Blender.org - About&lt;/a&gt; &lt;a href=&#34;https://web.archive.org/web/20230228210621/https://www.blender.org/about/&#34;&gt;(Web Archive)&lt;/a&gt; &lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>08.05 Export STL Blender</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/08-3d-printing-modeling-fabrication/8-05-export-stl-blender/</link>
+      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
+      
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/08-3d-printing-modeling-fabrication/8-05-export-stl-blender/</guid>
+      <description>&lt;p&gt;Blender&amp;rsquo;s default unit scale is 1:1 meter. The default cube in a new Blender file is 2 units large, so it is a 2 x 2 x 2 meter cube. Scale is important for 3D prints. You can either model in meters, then scale the object to the correct size before export, or you can change the unit scale in Blender and work in millimeters. Sometimes it is easier to work larger and scale down but you may prefer to work at the exact size of the final object.&lt;/p&gt;
+&lt;p&gt;Exporting an STL from Blender is straightforward. Make sure you combine any objects made of multiple meshes with a boolean modifier set to exact. This way the part will be a solid, instead of being made up of different overlapping meshes.&lt;/p&gt;
+&lt;h2 id=&#34;turn-of-smooth-preview&#34;&gt;Turn of Smooth Preview&lt;/h2&gt;
+&lt;p&gt;Smooth preview can trick you in to thinking that you have a smoother model than the actual geometry. Smooth shading is great for rendering and digital output but is not helpful for physical output like 3D printing. Make sure your model is in flat shading mode by right clicking on it in Object Mode and selecting &amp;ldquo;shade flat.&amp;rdquo; If your model looks to angular or blocky, then add a subdivision modifier to your mesh and subdivide it as many times as needed to get a surface that is smooth enough. Unlike solid modeling programs, such as Fusion 360, the resolution of the subdivisions of the mesh determines the smoothness and fidelity of the exported geometry and 3D print. This is similar to pixel resolution in a jpg vs a vector file.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;2023-blender-1-6-subdivisions.png&#34;&gt;&lt;img src=&#34;2023-blender-1-6-subdivisions.jpg&#34; alt=&#34;1 vs 6 subdivisions in Blender&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;blender-stl-add-ons&#34;&gt;Blender STL Add-ons&lt;/h2&gt;
+&lt;p&gt;Blender has numerous add ons that ship with Blender as well as many add-ons available from the community. Some add-ons are enable by default, while others need to be enabled by the user. To see the addons for your Blender installation, go to Edit &amp;gt; Preferences &amp;gt; Add-ons. The Import-Export STL files add-on should be enabled by default. This is needed to have the STL export option available in the file menu.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;2023-blender-import-export-stl-add-on.png&#34;&gt;&lt;img src=&#34;2023-blender-import-export-stl-add-on.png&#34; alt=&#34;Blender Import-Export STL Add-on&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Blender also has a &amp;ldquo;Mesh: 3D-Print Toolbox&amp;rdquo; add-on, but it is not enabled by default. You can find the add-on by typing &amp;ldquo;print&amp;rdquo; into the add-on search bar. Enabling this add-on, adds a tab to the mesh modeling screen.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;2023-blender-mesh-3d-print-toolbox.png&#34;&gt;&lt;img src=&#34;2023-blender-mesh-3d-print-toolbox.png&#34; alt=&#34;Blender Mesh: 3D Print Toolbox&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This add-on has features for solid inspection, and repairing non-manifold geometry. It also can display statistics about the mesh that you want to 3D print, such as its volume and thickness for hollow parts, overhang angle, and edge sharpness. This add-on can be quite useful for making models for 3D printed output in Blender. This add-on has an export feature, but it will use the default name of the mesh you are working on. Unless you renamed the mesh it likely has an unhelpful name such as Cube.001 or Sphere.004. Make sure you rename your mesh before exporting so you know which file is which.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;2023-blender-mesh-3d-print-toolbox-options.png&#34;&gt;&lt;img src=&#34;2023-blender-mesh-3d-print-toolbox-options.png&#34; alt=&#34;Blender Mesh: 3D Print Toolbox&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;exporting-stl-from-the-blender-file-menu&#34;&gt;Exporting STL from the Blender File Menu&lt;/h2&gt;
+&lt;p&gt;Go to File &amp;gt; Export &amp;gt; STL &amp;hellip;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;2023-blender-file-export-stl.png&#34;&gt;&lt;img src=&#34;2023-blender-file-export-stl.png&#34; alt=&#34;File Export STL Blender&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;By default, &amp;ldquo;Selection Only&amp;rdquo; is not checked. Most of the time you will likely not want to export every mesh in your Blender scene. To make sure you do not export extra meshes, check &amp;ldquo;Selection Only&amp;rdquo; and then select the mesh that you want to export as an STL. There is also an option to apply all modifiers before export. This is generally a good idea. This allows sub-division and boolean modifiers to remain &amp;ldquo;un-applied&amp;rdquo; for ease in editing but be applied for the exported STL. The final option is to use the scene unit scale or the default scale. This will depend on your preferred workflow and 3D print slicer. Blender defaults to meters. Ensure that your object is the correct size before printing.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;2023-blender-stl-export-options.png&#34;&gt;&lt;img src=&#34;2023-blender-stl-export-options.png&#34; alt=&#34;Blender STL Export Options&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>08.06 Maya 3D Modeling Basics</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/08-3d-printing-modeling-fabrication/8-06-maya-3d-modeling-basics/</link>
+      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
+      
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/08-3d-printing-modeling-fabrication/8-06-maya-3d-modeling-basics/</guid>
+      <description>&lt;h2 id=&#34;maya-quick-start&#34;&gt;Maya Quick Start&lt;/h2&gt;
+&lt;p&gt;The official online &lt;a href=&#34;https://knowledge.autodesk.com/support/maya/learn&#34;&gt;Maya Learning Documentation&lt;/a&gt; is a good place to learn the basics and investigate advanced topics.&lt;/p&gt;
+&lt;h2 id=&#34;maya-keyboard-shortcuts-1&#34;&gt;Maya Keyboard Shortcuts &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;2023-autodesk-maya-one-key-shortcuts-hotkeys-1600x1206.jpg&#34;&gt;&lt;img src=&#34;2023-autodesk-maya-one-key-shortcuts-hotkeys-1600x1206.jpg&#34; alt=&#34;Maya Keyboard Shortcuts&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;essential-maya-keyboard-shortcuts&#34;&gt;Essential Maya Keyboard Shortcuts&lt;/h3&gt;
+&lt;div class=&#34;responsive-table-markdown&#34;&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Maya Key&lt;/th&gt;
+&lt;th&gt;Action&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Q&lt;/td&gt;
+&lt;td&gt;Select&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;W&lt;/td&gt;
+&lt;td&gt;Move&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;E&lt;/td&gt;
+&lt;td&gt;Rotate&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;R&lt;/td&gt;
+&lt;td&gt;Scale&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;a&lt;/td&gt;
+&lt;td&gt;Frame all&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;f&lt;/td&gt;
+&lt;td&gt;Frame selected&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;f8&lt;/td&gt;
+&lt;td&gt;object mode&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;f9&lt;/td&gt;
+&lt;td&gt;vertex mode&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;f10&lt;/td&gt;
+&lt;td&gt;edge mode&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;f11&lt;/td&gt;
+&lt;td&gt;face mode&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;h3 id=&#34;essential-maya-mouse-controls&#34;&gt;Essential Maya Mouse Controls&lt;/h3&gt;
+&lt;div class=&#34;responsive-table-markdown&#34;&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Mouse Control&lt;/th&gt;
+&lt;th&gt;Action&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;alt (option) + left mouse Button&lt;/td&gt;
+&lt;td&gt;rotate camera&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;alt (option) + middle mouse Button&lt;/td&gt;
+&lt;td&gt;pan camera&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;alt (option ) + right mouse button or scroll wheel&lt;/td&gt;
+&lt;td&gt;zoom camera&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;maya-basic-modeling&#34;&gt;Maya Basic Modeling&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtu.be/-SpVNiRqeKY&#34;&gt;Maya User Interface&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtu.be/eBEitxaRYQs&#34;&gt;Maya Polygon Modeling Tools&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtu.be/EIKiJUmUH7A&#34;&gt;Maya Hole in a Cube&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtu.be/lLItO9mBwxM&#34;&gt;Maya Beginner Polygon Modeling Tutorial&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;video-grid&#34;&gt;
+&lt;div class=&#34;video-card&#34;&gt;
+&lt;h3 id=&#34;maya-user-interface&#34;&gt;Maya User Interface&lt;/h3&gt;
+&lt;div class=&#34;iframe-16-9-container&#34;&gt;
+&lt;iframe class=&#34;youTubeIframe&#34; width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/-SpVNiRqeKY?rel=0&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video-card&#34;&gt;
+&lt;h3 id=&#34;maya-polygon-modeling-tools&#34;&gt;Maya Polygon Modeling Tools&lt;/h3&gt;
+&lt;div class=&#34;iframe-16-9-container&#34;&gt;
+&lt;iframe class=&#34;youTubeIframe&#34; width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/eBEitxaRYQs?rel=0&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video-card&#34;&gt;
+&lt;h3 id=&#34;maya-hole-in-cube&#34;&gt;Maya Hole in Cube&lt;/h3&gt;
+&lt;div class=&#34;iframe-16-9-container&#34;&gt;
+&lt;iframe class=&#34;youTubeIframe&#34; width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/EIKiJUmUH7A?rel=0&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video-card&#34;&gt;
+&lt;h3 id=&#34;maya-beginner-polygon-modeling-tutorial&#34;&gt;Maya Beginner Polygon Modeling Tutorial&lt;/h3&gt;
+&lt;div class=&#34;iframe-16-9-container&#34;&gt;
+&lt;iframe class=&#34;youTubeIframe&#34; width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/lLItO9mBwxM?rel=0&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;maya-intermediate-topics&#34;&gt;Maya Intermediate Topics&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtu.be/1SXvWTiMkjs&#34;&gt;Delete History - Freeze Transformation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtu.be/yyExyA67log&#34;&gt;Maya Extrude Tool&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtu.be/j7bCUkwxRTw&#34;&gt;Extrude Nurbs Curve&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtu.be/YeJu30bTNrk&#34;&gt;Extrude Faces on a Curve&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtu.be/VVGgCLsDglI&#34;&gt;Local Translate Z vs Thickness&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtu.be/gic-kMWKjNI&#34;&gt;Archive Maya Scene&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtu.be/wdxEtr3bLT4&#34;&gt;Make a Window&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtu.be/tXJFJa-nsAA&#34;&gt;Maya Insert a Reference Image&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtu.be/66X6WzHkhq8&#34;&gt;Maya Change Size of Tool&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtu.be/2hq1F8gkn4A&#34;&gt;Maya Character Modeling Tutorial&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;modeling-object-examples&#34;&gt;Modeling Object Examples&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtu.be/V59XKklgfDE&#34;&gt;Model a Coffee Cup&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtu.be/2IMRu48ENzY&#34;&gt;Model Disco Ball&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtu.be/IfSis4ns8SY&#34;&gt;Maya Model a Tennis Ball&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtu.be/GcDalspwhlc&#34;&gt;Model a Soccer Ball&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtu.be/2wizG1Dsm8w&#34;&gt;Model a Golf Ball&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtu.be/E37FC_Uu0Vg&#34;&gt;Model a Volleyball&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;video-grid&#34;&gt;
+&lt;div class=&#34;video-card&#34;&gt;
+&lt;h3 id=&#34;maya-model-a-coffee-cup&#34;&gt;Maya Model a Coffee Cup&lt;/h3&gt;
+&lt;div class=&#34;iframe-16-9-container&#34;&gt;
+&lt;iframe class=&#34;youTubeIframe&#34; width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/V59XKklgfDE?rel=0&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video-card&#34;&gt;
+&lt;h3 id=&#34;maya-model-a-disco-ball&#34;&gt;Maya Model a Disco Ball&lt;/h3&gt;
+&lt;div class=&#34;iframe-16-9-container&#34;&gt;
+&lt;iframe class=&#34;youTubeIframe&#34; width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/2IMRu48ENzY?rel=0&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video-card&#34;&gt;
+&lt;h3 id=&#34;maya-model-a-tennis-ball&#34;&gt;Maya Model a Tennis Ball&lt;/h3&gt;
+&lt;div class=&#34;iframe-16-9-container&#34;&gt;
+&lt;iframe class=&#34;youTubeIframe&#34; width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/IfSis4ns8SY?rel=0&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video-card&#34;&gt;
+&lt;h3 id=&#34;maya-model-a-soccer-ball&#34;&gt;Maya Model a Soccer Ball&lt;/h3&gt;
+&lt;div class=&#34;iframe-16-9-container&#34;&gt;
+&lt;iframe class=&#34;youTubeIframe&#34; width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/GcDalspwhlc?rel=0&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video-card&#34;&gt;
+&lt;h3 id=&#34;maya-model-a-golf-ball&#34;&gt;Maya Model a Golf Ball&lt;/h3&gt;
+&lt;div class=&#34;iframe-16-9-container&#34;&gt;
+&lt;iframe class=&#34;youTubeIframe&#34; width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/2wizG1Dsm8w?rel=0&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video-card&#34;&gt;
+&lt;h3 id=&#34;maya-model-a-volley-ball&#34;&gt;Maya Model a Volley Ball&lt;/h3&gt;
+&lt;div class=&#34;iframe-16-9-container&#34;&gt;
+&lt;iframe class=&#34;youTubeIframe&#34; width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/E37FC_Uu0Vg?rel=0&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.autodesk.com/shortcuts/maya&#34;&gt;Maya Keyboard Shortcuts&lt;/a&gt; &lt;a href=&#34;https://web.archive.org/web/20220524190210/https://www.autodesk.com/shortcuts/maya&#34;&gt;(Web Archive)&lt;/a&gt; &lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>08.07 Export STL Maya</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/08-3d-printing-modeling-fabrication/8-07-export-stl-maya/</link>
+      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
+      
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/08-3d-printing-modeling-fabrication/8-07-export-stl-maya/</guid>
+      <description>&lt;p&gt;Before exporting a mesh as an STL for 3D printing, it is important to make sure that the mesh is manifold or watertight. Otherwise the file will not be able to be 3D printed.&lt;/p&gt;
+&lt;h2 id=&#34;enable-stl-translator-bundle-plugin&#34;&gt;Enable STL Translator Bundle Plugin&lt;/h2&gt;
+&lt;p&gt;By default Maya does not have an STL export option. The STL plugin needs to be enabled.&lt;/p&gt;
+&lt;p&gt;Go to Windows &amp;gt; Settings / Preferences &amp;gt; Plug In Manager &amp;hellip;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;2023-maya-plugin-manager.png&#34;&gt;&lt;img src=&#34;2023-maya-plugin-manager.png&#34; alt=&#34;Maya Plugin Manager&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;In the search box, type &amp;ldquo;STL&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;2023-maya-stl-translator-bundle.png&#34;&gt;&lt;img src=&#34;2023-maya-stl-translator-bundle.png&#34; alt=&#34;Maya STL Translator Bundle&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Click the checkbox for enable and auto load.&lt;/p&gt;
+&lt;p&gt;Now if you export a selection, STL is one of the file format options.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;2023-maya-export-stl-option.png&#34;&gt;&lt;img src=&#34;2023-maya-export-stl-option.png&#34; alt=&#34;Maya export STL Option&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>08.08 Final 3D Print 3D Model</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/08-3d-printing-modeling-fabrication/8-08-final-3d-print-3d-model/</link>
+      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
+      
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/08-3d-printing-modeling-fabrication/8-08-final-3d-print-3d-model/</guid>
+      <description>&lt;h2 id=&#34;assignment-deliverables&#34;&gt;Assignment Deliverables&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Digital 3D model file of your final 3D print design exported fro the last modeling software you used (blend or f3d or ma or mb or fbx or obj)&lt;/li&gt;
+&lt;li&gt;Render Image of final 3D Print (png or jpg)&lt;/li&gt;
+&lt;li&gt;Exported STL of final 3D Print (stl)&lt;/li&gt;
+&lt;li&gt;Brief description of how you incorporated the design challenge(s) into your 3D print design (docx or pdf)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;assignment-overview&#34;&gt;Assignment Overview&lt;/h2&gt;
+&lt;p&gt;Using your ideation sketches, make a 3D digital model of your final 3d print. You are not limited to using Fusion 360. You can use polygon mesh modeling programs such as Blender or Maya. If you use Blender or Maya, you can use Fusion 360 to render your model since we have not covered rendering in Blender or Maya. Export your object as an .obj file and then import to Fusion 360 for rendering.&lt;/p&gt;
+&lt;h2 id=&#34;grading-rubric&#34;&gt;Grading Rubric&lt;/h2&gt;
+&lt;div class=&#34;responsive-table-markdown&#34;&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Assessment&lt;/th&gt;
+&lt;th&gt;Points&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;3D Model Exported&lt;/td&gt;
+&lt;td&gt;10 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;3D Model Design&lt;/td&gt;
+&lt;td&gt;30 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Render Image Uploaded&lt;/td&gt;
+&lt;td&gt;10 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Render Image Aspect Ratio&lt;/td&gt;
+&lt;td&gt;10 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Render Image Composition&lt;/td&gt;
+&lt;td&gt;10 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;STL File Uploaded&lt;/td&gt;
+&lt;td&gt;10 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Design Description Uploaded&lt;/td&gt;
+&lt;td&gt;20 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>08.09 Final 3D Print</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/08-3d-printing-modeling-fabrication/8-09-final-3d-print/</link>
+      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
+      
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/08-3d-printing-modeling-fabrication/8-09-final-3d-print/</guid>
+      <description>&lt;h2 id=&#34;assignment-deliverables&#34;&gt;Assignment Deliverables&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Printed 3D object that completes one or more design challenges&lt;/li&gt;
+&lt;li&gt;Clean up any supports or rough edges&lt;/li&gt;
+&lt;li&gt;If desired, apply a surface finish&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;assignment-overview&#34;&gt;Assignment Overview&lt;/h2&gt;
+&lt;p&gt;Print the final version of your 3D Print design at the think[box] on the Ultimaker 2+ or on the industrial 3D printers at the think[box]. You can also print your 3D print at the Digital Output Center, (DOC). If you use the industrial 3D printers at the think[box] or the DOC then you do not have to print it yourself. Rather, you order it online.&lt;/p&gt;
+&lt;p&gt;Once you have your print, then clean up any support material, put on any finishes, such as paint.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>08.10 Final 3D Print Documentation</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/08-3d-printing-modeling-fabrication/8-10-final-3d-print-documentation/</link>
+      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
+      
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/08-3d-printing-modeling-fabrication/8-10-final-3d-print-documentation/</guid>
+      <description>&lt;h2 id=&#34;assignment-deliverables&#34;&gt;Assignment Deliverables&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Take 2 Photos with a clean backdrop of your Final 3D Print&lt;/li&gt;
+&lt;li&gt;Take 2 Photos of your Final 3D Print showing its intended purpose in an environment&lt;/li&gt;
+&lt;li&gt;Label the photos YYYYMMDD Lastname Firstname Final 3D Print Documentation&lt;/li&gt;
+&lt;li&gt;Upload the Raw files as well as the edited jpgs (You will upload 4 Raw files and 4 jpgs)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;assignment-overview&#34;&gt;Assignment Overview&lt;/h2&gt;
+&lt;p&gt;Photo document your Final 3D print according to the guidelines below.&lt;/p&gt;
+&lt;h2 id=&#34;take-a-minimum-of-4-photos-of-your-final-3d-print&#34;&gt;Take a minimum of 4 photos of your Final 3D Print&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Take two photos with a clean backdrop, one from a 3/4 angle that shows a good representation of the form and the other from a composition of your choice.&lt;/li&gt;
+&lt;li&gt;Take two photos should showing the intended purpose and use of the 3D print. Take these photos in an environment that tells a story.&lt;/li&gt;
+&lt;li&gt;Make sure the print is in focus.&lt;/li&gt;
+&lt;li&gt;Don&amp;rsquo;t forget to have good lighting and composition.&lt;/li&gt;
+&lt;li&gt;Use good lighting and shoot in JPG and RAW so you can edit and post process your images.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Set up lights and a clean backdrop. You can check out lights and a camera from the equipment checkout. You can also take your model to the think[box] and use the soft boxes and flashes already set up. Shoot in JPG and RAW and post process the images. &lt;a href=&#34;https://www.youtube.com/watch?v=m0yZEWUSahk&#34;&gt;White balance should be corrected&lt;/a&gt; and the levels should be adjusted to have good exposure. Use Photoshop and &lt;a href=&#34;https://www.youtube.com/watch?v=11jwSwUu2WI&#34;&gt;Adobe Camera Raw&lt;/a&gt; to make adjustments and to retouch any mistakes in the images.&lt;/p&gt;
+&lt;h2 id=&#34;tutorial-videos&#34;&gt;Tutorial Videos&lt;/h2&gt;
+&lt;div class=&#34;video-grid&#34;&gt;
+&lt;div class=&#34;video-card&#34;&gt;
+&lt;h3 id=&#34;open-any-image-in-camera-raw&#34;&gt;Open Any Image in Camera Raw&lt;/h3&gt;
+&lt;div class=&#34;iframe-16-9-container&#34;&gt;&lt;iframe class=&#34;youTubeIframe&#34; src=&#34;https://www.youtube.com/embed/ftMICesJwGc?rel=0&#34; width=&#34;560&#34; height=&#34;315&#34; frameborder=&#34;0&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video-card&#34;&gt;
+&lt;h3 id=&#34;quick-white-balance-in-photoshop&#34;&gt;Quick White Balance in Photoshop&lt;/h3&gt;
+&lt;div class=&#34;iframe-16-9-container&#34;&gt;&lt;iframe class=&#34;youTubeIframe&#34; src=&#34;https://www.youtube.com/embed/m0yZEWUSahk?rel=0&#34; width=&#34;560&#34; height=&#34;315&#34; frameborder=&#34;0&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video-card&#34;&gt;
+&lt;h3 id=&#34;camera-raw-tutorial&#34;&gt;Camera Raw Tutorial&lt;/h3&gt;
+&lt;div class=&#34;iframe-16-9-container&#34;&gt;&lt;iframe class=&#34;youTubeIframe&#34; src=&#34;https://www.youtube.com/embed/11jwSwUu2WI?rel=0&#34; width=&#34;560&#34; height=&#34;315&#34; frameborder=&#34;0&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;grading-rubric&#34;&gt;Grading Rubric&lt;/h2&gt;
+&lt;div class=&#34;responsive-table-markdown&#34;&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Assessment&lt;/th&gt;
+&lt;th&gt;Weight&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Photo 1 backdrop&lt;/td&gt;
+&lt;td&gt;20 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Photo 2 backdrop&lt;/td&gt;
+&lt;td&gt;20 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Photo 1 environment&lt;/td&gt;
+&lt;td&gt;20 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Photo 2 environment&lt;/td&gt;
+&lt;td&gt;20 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;RAW files uploaded&lt;/td&gt;
+&lt;td&gt;10 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;File Management&lt;/td&gt;
+&lt;td&gt;10 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>8.02 Print in Place Hinges</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/08-3d-printing-modeling-fabrication/8-02-3d-print-in-place-hinges/</link>
+      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
+      
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/08-3d-printing-modeling-fabrication/8-02-3d-print-in-place-hinges/</guid>
+      <description>&lt;p&gt;Often 3D prints are thought of as static single objects rather than objects made up of multiple parts that can move independently. Because of the unique fabrication process of 3D printing, objects that could not be made with traditional fabrication processes can exist. An example of an &amp;ldquo;impossible&amp;rdquo; part is a print in place hinge that is fully enclosed and can never come apart.&lt;/p&gt;
+&lt;p&gt;The 3D printer prints thin layers. When it gets to the gap between the housing of the hinge and the internal pin, it &amp;ldquo;bridges&amp;rdquo; the gap by moving quickly. Since the first layer of the pin is slightly higher than the housing, it tends to not stick to the housing. Layers continue to be built up until the housing is complete around an internal hinge pin that can now rotate freely, yet is fully encased in the housing.&lt;/p&gt;
+&lt;p&gt;This technique can be extended to create bendable designs and characters. Once the tolerances are worked out for a particular hinge design and 3D printer the process is repeatable.&lt;/p&gt;
+&lt;div class=&#34;video-grid&#34;&gt;
+&lt;div class=&#34;video-card&#34;&gt;
+&lt;h3 id=&#34;3d-print-in-place-hinge&#34;&gt;3D Print In Place Hinge&lt;/h3&gt;
+&lt;div class=&#34;iframe-16-9-container&#34;&gt;
+&lt;iframe class=&#34;youTubeIframe&#34; width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/w1o48laHAos?rel=0&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video-card&#34;&gt;
+&lt;h3 id=&#34;3d-print-in-place-ball-and-socket-hinge&#34;&gt;3D Print In Place Ball and Socket Hinge&lt;/h3&gt;
+&lt;div class=&#34;iframe-16-9-container&#34;&gt;
+&lt;iframe class=&#34;youTubeIframe&#34; width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/9P1PPWP4uZk?rel=0&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>8.03 Export STL Fusion 360</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/08-3d-printing-modeling-fabrication/8-03-export-stl-fusion-360/</link>
+      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
+      
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/08-3d-printing-modeling-fabrication/8-03-export-stl-fusion-360/</guid>
+      <description>&lt;p&gt;Once we model something in Fusion 360 we want to be able to 3D print it or manufacture it in another way. To do that with a 3D printer, we need to be able to export an STL file. Once you complete your model for 3D printing, the first thing you need to decide is if you want to export multiple components. You can determine what will be exported by selecting the visibility of the components.&lt;/p&gt;
+&lt;p&gt;Sometimes you might have a file with many many components and it can be cumbersome to go through and select all the eyeballs and visibility of your components. If you have many components and you really only want to print one part, you can leave everything visible. You can also export the STL by selection. Go to File &amp;gt; 3D print. That&amp;rsquo;s going to bring up a new dialog box. Make sure you select &amp;ldquo;selection&amp;rdquo; here. Then you can just pick the part you want to print. Now even though you can see other parts, only what you have selected is what is printing.&lt;/p&gt;
+&lt;p&gt;Then Fusion 360 has a couple refinement options. These include high, medium, and low. It used to be the case that you wanted to save disk space and processing power and have small STL files. Unless you have a very complicated design, it&amp;rsquo;s best to choose high. That will give you more triangles and a smoother STL file for printing.&lt;/p&gt;
+&lt;p&gt;If you click on preview, Fusion 360 will show the mesh that will be created. If you click it down to low, you can see it&amp;rsquo;s much more coarse and potentially less detailed. An STL on the low setting will still probably give a decent print but we have much more powerful computers and larger disk drives so go ahead and pick high unless you have a very complicated design and this will give you even an extra smooth STL file.&lt;/p&gt;
+&lt;p&gt;Uncheck the option to send to a 3D print utility unless you have Fusion 360 connected to your 3D printer. Label your STL file. Save it in your Downloads folder.&lt;/p&gt;
+&lt;p&gt;If you open the exported STL, you can preview the file to see what it&amp;rsquo;s going to look like. This is very convenient and then you can take this STL file to the slicer of your choice and 3D print it. You always want to double check your STL file before printing it. You&amp;rsquo;ll see it either in a preview program like this or in the slicer to make sure you have all the parts that you need.&lt;/p&gt;
+&lt;div class=&#34;video-grid&#34;&gt;
+&lt;div class=&#34;video-card&#34;&gt;
+&lt;h3 id=&#34;export-stl-fusion-360&#34;&gt;Export STL Fusion 360&lt;/h3&gt;
+&lt;div class=&#34;iframe-16-9-container&#34;&gt;
+&lt;iframe class=&#34;youTubeIframe&#34; width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/I-ltiZdUFOA?rel=0&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,349 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>07 3D Printing Test Prints on Modeling and Fabrication</title>
+    <link>https://whatmakeart.com/modeling-and-fabrication/modules/07-3d-printing-design/</link>
+    <description>Recent content in 07 3D Printing Test Prints on Modeling and Fabrication</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 26 Jan 2020 23:11:13 +0000</lastBuildDate>
+    
+        <atom:link href="https://whatmakeart.com/modeling-and-fabrication/modules/07-3d-printing-design/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>07.00 Introduction 3D Print Test Prints</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/07-3d-printing-design/7-00-introduction/</link>
+      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
+      
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/07-3d-printing-design/7-00-introduction/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;Before working on a final version of a project it is important to understand the
+process. To better understand FFF 3D printing, we will make small test prints.
+This will familiarize you with how to export an STL file, how to use slicing
+software to prepare your file, how to load filament into the printer, what can
+go wrong with overhangs and supports, and other intangibles that are only
+learnable through experience. We will keep the 3D print test prints small so
+when inevitable problems occur not a lot of time or material is wasted. It is a
+good idea to make multiple test prints, making changes to your model based on
+how the print turns out.&lt;/p&gt;
+&lt;h2 id=&#34;learning-objectives&#34;&gt;Learning Objectives&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Slice STL file in Cura&lt;/li&gt;
+&lt;li&gt;Add supports and raft as needed to print&lt;/li&gt;
+&lt;li&gt;Load PLA filament onto 3D Printer&lt;/li&gt;
+&lt;li&gt;Select file and successfully print a test print&lt;/li&gt;
+&lt;li&gt;Clean up supports and raft&lt;/li&gt;
+&lt;li&gt;Photo document small objects in a professional way&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;key-terms&#34;&gt;Key Terms&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Cura&lt;/li&gt;
+&lt;li&gt;Support&lt;/li&gt;
+&lt;li&gt;Raft&lt;/li&gt;
+&lt;li&gt;PLA&lt;/li&gt;
+&lt;li&gt;Slicer&lt;/li&gt;
+&lt;li&gt;ISO&lt;/li&gt;
+&lt;li&gt;Shutter Speed&lt;/li&gt;
+&lt;li&gt;Depth of Field&lt;/li&gt;
+&lt;li&gt;F-Stop&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>07.01 3D Printer Ultimaker 2&#43; Tutorial think[box]</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/07-3d-printing-design/7-01-3d-printer-ultimaker-2&#43;-tutorial-thinkbox/</link>
+      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
+      
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/07-3d-printing-design/7-01-3d-printer-ultimaker-2&#43;-tutorial-thinkbox/</guid>
+      <description>&lt;p&gt;Below are instructions provided by Case Western Reserve University&amp;rsquo;s think[box] for 3D printing with the Ultimaker 2+. &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; After making a 3D model of your test print and exporting it as an STL file, you need to prepare the model for output on a 3D printer. For FFF 3D printers a software program called a slicer is used. This program cuts the model into different layers, like the layers of the Grand Canyon. It also calculates the supports needed for overhanging parts of the print. Once everything is set up in the slicer, a file can be exported to an SD card for use in the Ultimaker 2+ 3D printers at the think[box].&lt;/p&gt;
+&lt;iframe style=&#34;width:100%; min-height:100vh;&#34; src=&#34;https://docs.google.com/document/d/1uNX5M24UUGoyxkOAlvjYkKzWHOI3iMfpXiBzQvmR-2g/view&#34;&gt;&lt;/iframe&gt;
+&lt;div class=&#34;video-grid&#34;&gt;
+&lt;div class=&#34;video-card&#34;&gt;
+&lt;h3 id=&#34;how-to-orbit-in-cura&#34;&gt;How to Orbit in Cura&lt;/h3&gt;
+&lt;div class=&#34;iframe-16-9-container&#34;&gt;
+&lt;iframe class=&#34;youTubeIframe&#34; width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/LCW-KWKs2Gs?rel=0&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://case.edu/thinkbox/equipment/3d-printing/desktop-fdm-3d-printers&#34;&gt;think[box] Desktop 3D Printers&lt;/a&gt; &lt;a href=&#34;https://web.archive.org/web/20220128230909/https://case.edu/thinkbox/equipment/3d-printing/desktop-fdm-3d-printers&#34;&gt;(Web Archive)&lt;/a&gt; &lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>07.02 Advanced 3D Printer Settings Ultimaker 2&#43; Tutorial think[box]</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/07-3d-printing-design/7-02-advanced-3d-print-settings-ultimaker-thinkbox/</link>
+      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
+      
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/07-3d-printing-design/7-02-advanced-3d-print-settings-ultimaker-thinkbox/</guid>
+      <description>&lt;p&gt;Below are advanced 3D Print instructions provided by Case Western Reserve University&amp;rsquo;s think[box] for 3D printing with the Ultimaker 2+. &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;iframe style=&#34;width:100%; min-height:100vh;&#34; src=&#34;https://docs.google.com/document/d/1qP64p-NAQjoVNrRquGge-25h7FRjO78SqC4CVgc-ySw/edit&#34;&gt;&lt;/iframe&gt;
+&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://case.edu/thinkbox/equipment/3d-printing/desktop-fdm-3d-printers&#34;&gt;think[box] Desktop 3D Printers&lt;/a&gt; &lt;a href=&#34;https://web.archive.org/web/20220128230909/https://case.edu/thinkbox/equipment/3d-printing/desktop-fdm-3d-printers&#34;&gt;(Web Archive)&lt;/a&gt; &lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>07.03 Photographing 3D Artwork</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/07-3d-printing-design/7-03-photographing-3d-artwork/</link>
+      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
+      
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/07-3d-printing-design/7-03-photographing-3d-artwork/</guid>
+      <description>&lt;h2 id=&#34;can-i-use-my-cellphone&#34;&gt;Can I Use my Cellphone?&lt;/h2&gt;
+&lt;p&gt;Maybe, but you shouldn&amp;rsquo;t. Cellphone cameras have small sensor sizes, unadjustable apertures, low resolution, and low quality lenses.&lt;/p&gt;
+&lt;p&gt;The camera sensor on your cell phone is too small to take photos in low light settings and the color depth will be less since it saves a JPG or HEIC file by default. You can set a cellphone to capture RAW images but, even with RAW images on a cellphone, the quality is limited by the small sensor and the lower resolution of the final image compared to a larger sensor mirrorless or DSLR Camera.&lt;/p&gt;
+&lt;p&gt;Cellphone cameras are great for taking pictures when a better camera is not available but in most artwork documentation settings a cellphone camera&amp;rsquo;s image will not do your artwork any favors and might actually make it look worse. If you have no other option than to document artwork with a cellphone make sure to set the camera app to take RAW photos. This will give you more options for improving the image with post processing than with a compressed jpg. In a well lit environment such as outdoor sunshine, a cellphone camera can take a decent photo but your future self will thank you for taking a higher resolution, higher quality photo with the larger sensor and better lens of a higher quality camera.&lt;/p&gt;
+&lt;h2 id=&#34;what-camera-should-i-use&#34;&gt;What Camera Should I Use?&lt;/h2&gt;
+&lt;p&gt;Use a mirrorless camera or a DSLR camera to take high resolution documentation photos of your artwork. Do not use your cell phone to take documentation photos.&lt;/p&gt;
+&lt;h2 id=&#34;what-camera-and-lights-should-i-checkout&#34;&gt;What Camera and Lights Should I Checkout?&lt;/h2&gt;
+&lt;p&gt;On the &lt;a href=&#34;https://cia.webcheckout.net/sso/patron#!/&#34;&gt;CIA Equipment Checkout Page&lt;/a&gt; choose one of the &lt;a href=&#34;https://cia.webcheckout.net/sso/patron#!/category/23050497&#34;&gt;SONY A6100 mirrorless cameras&lt;/a&gt;, a &lt;a href=&#34;https://cia.webcheckout.net/sso/patron#!/category/15348239&#34;&gt;Compact Fluorescent Cool Light Kits&lt;/a&gt;, and a &lt;a href=&#34;https://cia.webcheckout.net/sso/patron#!/category/104834&#34;&gt;Basic Tripod&lt;/a&gt;.&lt;/p&gt;
+&lt;div class=&#34;gallery-grid&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://cia.webcheckout.net/sso/patron#!/category/23050497&#34;&gt;&lt;img src=&#34;https://cia.webcheckout.net/attachments/23050552/sony-a6100.jpg&#34; alt=&#34;camera&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://cia.webcheckout.net/sso/patron#!/category/15348239&#34;&gt;&lt;img src=&#34;https://cia.webcheckout.net/attachments/183754/cool%20light.jpg&#34; alt=&#34;lights&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://cia.webcheckout.net/sso/patron#!/category/104834&#34;&gt;&lt;img src=&#34;https://cia.webcheckout.net/attachments/184929/manfrotto_mkcompact.jpg&#34; alt=&#34;tripod&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;process&#34;&gt;Process&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Place your 3D object in front of a neutral background. This can be indoors or outdoors.&lt;/li&gt;
+&lt;li&gt;It is best to have the object as far away from the background as possible. This avoids cast shadows on the background. Some objects may benefit from showing the interesting cast shadows on the wall. If you want to show the shadows then place the object closer to the background. Take photos with shadows and without so you have options later.&lt;/li&gt;
+&lt;li&gt;Set up your lights. Angle them at 45 degrees pointing at the object. You can add a third back light or rim light to have reflected light on the back edges. You will need to move the lights around and take test images to see what works best. Expect to make many lighting changes. Use extension cords to have greater mobility with the lights.&lt;/li&gt;
+&lt;li&gt;Put the camera on a tripod. If you need to get the camera lower than the tripod can go, then you can set it on books or a box.&lt;/li&gt;
+&lt;li&gt;Set the camera to take the highest quality, highest resolution images (Check this in the menu because the previous user may have changed the settings)&lt;/li&gt;
+&lt;li&gt;Capture RAW images (You can set the camera to capture RAW and JPG images but the RAW is the most important format to capture for post processing.)&lt;/li&gt;
+&lt;li&gt;Set the ISO to a low number like 100 or 200 (Low ISO settings, (sensor sensitivity), are less important with newer cameras but it is still better to use a low ISO if the subject is stationary like your artwork.)&lt;/li&gt;
+&lt;li&gt;Set the Camera to Manual. (This is the M on the dial.)&lt;/li&gt;
+&lt;li&gt;Choose an Aperture. (Use a small aperture, big number, to have everything in focus. Use a large aperture, small number, to have a shallow depth of field with only parts of the image in focus.)&lt;/li&gt;
+&lt;li&gt;Frame your image, filling the viewport with as much of the artwork as possible.&lt;/li&gt;
+&lt;li&gt;Adjust the shutter speed until the image appears well exposed in the viewport. If the shutter speed becomes long, then use a 2 second timer so you don&amp;rsquo;t shake the camera when taking the photo. Just pressing the button can shake the camera enough to make a blurry photo with slow shutter speeds.&lt;/li&gt;
+&lt;li&gt;Take wide shots, full shots, and detail shots. Take shots from multiple angles. It is much easier to take lots of images now then to set everything back up again.&lt;/li&gt;
+&lt;li&gt;Bracket the exposure by changing the shutter speed up and down, then taking additional images. You can also bracket by adjusting the aperture or F-Stop up and down.&lt;/li&gt;
+&lt;li&gt;Copy all the images onto your computer. Double check that you have RAW images on your computer before you take down the lights and pack everything up.&lt;/li&gt;
+&lt;li&gt;Open the images in Adobe Camera Raw.&lt;/li&gt;
+&lt;li&gt;Make white balance, exposure, and other image corrections.&lt;/li&gt;
+&lt;li&gt;Remove any defect in the image with the healing brush.&lt;/li&gt;
+&lt;li&gt;Save the RAW images.&lt;/li&gt;
+&lt;li&gt;Export jpgs or pngs for delivery.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;camera-and-photo-editing-resources&#34;&gt;Camera and Photo Editing Resources&lt;/h2&gt;
+&lt;p&gt;Below is a camera setting cheat sheet that shows how ISO, Aperture and Shutter Speed change the image. There are also videos about &lt;a href=&#34;https://youtu.be/m0yZEWUSahk&#34;&gt;White Balance&lt;/a&gt; and &lt;a href=&#34;https://youtu.be/11jwSwUu2WI&#34;&gt;Adobe Camera Raw&lt;/a&gt;. Email if you have any questions about the cameras or any part of the project. You can also ask the equipment checkout about the camera settings.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;2021-Camera-Cheat-Sheet-Jimmy-Kuehnle.png&#34;&gt;&lt;img src=&#34;2021-Camera-Cheat-Sheet-Jimmy-Kuehnle.png&#34; alt=&#34;Camera Settings Cheat Sheet&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;tutorial-videos&#34;&gt;Tutorial Videos&lt;/h2&gt;
+&lt;div class=&#34;video-grid&#34;&gt;
+&lt;div class=&#34;video-card&#34;&gt;
+&lt;h3 id=&#34;open-any-image-in-camera-raw&#34;&gt;Open Any Image in Camera Raw&lt;/h3&gt;
+&lt;div class=&#34;iframe-16-9-container&#34;&gt;&lt;iframe class=&#34;youtTubeIframe&#34; src=&#34;https://www.youtube.com/embed/ftMICesJwGc?rel=0&#34; width=&#34;560&#34; height=&#34;315&#34; frameborder=&#34;0&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video-card&#34;&gt;
+&lt;h3 id=&#34;quick-white-balance-in-photoshop&#34;&gt;Quick White Balance in Photoshop&lt;/h3&gt;
+&lt;div class=&#34;iframe-16-9-container&#34;&gt;&lt;iframe class=&#34;youtTubeIframe&#34; src=&#34;https://www.youtube.com/embed/m0yZEWUSahk?rel=0&#34; width=&#34;560&#34; height=&#34;315&#34; frameborder=&#34;0&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video-card&#34;&gt;
+&lt;h3 id=&#34;camera-raw-tutorial&#34;&gt;Camera Raw Tutorial&lt;/h3&gt;
+&lt;div class=&#34;iframe-16-9-container&#34;&gt;&lt;iframe class=&#34;youtTubeIframe&#34;src=&#34;https://www.youtube.com/embed/11jwSwUu2WI?rel=0&#34; width=&#34;560&#34; height=&#34;315&#34; frameborder=&#34;0&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>07.04 Final 3D Print Ideation Sketches</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/07-3d-printing-design/7-07-final-3d-print-ideation-sketches/</link>
+      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
+      
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/07-3d-printing-design/7-07-final-3d-print-ideation-sketches/</guid>
+      <description>&lt;h2 id=&#34;assignment-deliverables&#34;&gt;Assignment Deliverables&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;5 thumbnail sketches minimum - These should be 5 completely different ideas. Draw without constraint. Do not limit your ideas.&lt;/li&gt;
+&lt;li&gt;3 larger refined ideations minimum - Choose some of your ideas from your thumbnails. Refine them and iterate on the concepts. Which parts do you like and which parts can you change to make your ideas better?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;assignment-overview&#34;&gt;Assignment Overview&lt;/h2&gt;
+&lt;p&gt;Now that you have made a test 3D print and are more familiar with the opportunities and challenges of 3D printing, we will tackle specific design challenges using the 3D printing fabrication process.&lt;/p&gt;
+&lt;p&gt;Using thumbnail sketches, quickly design numerous ideas tackling the design challenges below. The ideation phase is one of the most important parts of the design process. Push yourself to generate unique and developed ideas. Thumbnail sketches should take 4-7 minutes each. Refined sketching should take 5-10 minutes each.&lt;/p&gt;
+&lt;h2 id=&#34;design-challenges&#34;&gt;Design Challenges&lt;/h2&gt;
+&lt;p&gt;Often creative work has arbitrary restrictions on the creative process. There may be challenges based on material availability, budget, time, aesthetic criteria and countless other constraints on what you can make. Part of your job as an artist and designer is to work around these restraints and still create new and compelling creative works of culture. For this project choose one or more of the design challenges below. How can you meet the criteria of the challenge(s) and still make unique and exciting objects?&lt;/p&gt;
+&lt;h3 id=&#34;make-an-extension-of-the-body&#34;&gt;Make an extension of the body&lt;/h3&gt;
+&lt;p&gt;Do you need a helmet? A headband? What about flexible knuckle guards? Does your hand need and custom fit extension for scraping ice off of windshields? To complete this challenge, articulate a problem to solve with a body extension. This can be functional, decorative or both. How does the 3D print solve the problem? Measure your body or the target person’s body and use these dimensions as guideposts when modeling in Fusion 360. &lt;a href=&#34;https://youtu.be/TkMQeYTz0wo&#34;&gt;3D Printed Earing Example&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;combine-3d-printing-and-laser-cutting&#34;&gt;Combine 3D Printing and Laser cutting&lt;/h3&gt;
+&lt;p&gt;3D printing is a great technology, but it has limitations. Laser cutting is also wonderful but has its own set of restrictions. Combine the two technologies to create something that would not be possible with a single technique or fabrication process. You could incorporate brackets to attach laser cut panels at angle or to create a shelf.  You could design a phone or laptop stand with 3D printed hinges, so it is more functional.  Laser cutting can be a quick way to add scale to your 3D prints and 3D printing can add versatility of connection and position other than 90 degrees to your laser cuts. Design with the best of both worlds. &lt;a href=&#34;https://youtu.be/64nG3t-3Log&#34;&gt;Example of 3D Print Bracket for Laser Cut Plywood&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;use-a-print-in-place-flexible-joint&#34;&gt;Use a Print in Place Flexible Joint&lt;/h3&gt;
+&lt;p&gt;With 3D printing objects can be created that would not be possible with other fabrication techniques. One such method is a print in place hinge or joint. Print it place means that the two separate objects are printed “in [place” or as is on the 3D print bed. Once completed the two parts are forever locked together. Can you make a movable ball and socket figure or snake? What about designing an adjustable cellphone tripod holder for documenting work? Hinges for a box lid? Print in Place Hinge Video Tutorials &lt;a href=&#34;https://youtu.be/w1o48laHAos&#34;&gt;Version 1&lt;/a&gt;, &lt;a href=&#34;https://youtu.be/9P1PPWP4uZk&#34;&gt;Version 2&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;fit-a-real-world-objects&#34;&gt;Fit a real world object(s)&lt;/h3&gt;
+&lt;p&gt;For 3D prints to have a function beyond decoration they must interact with the environment. Often that means attaching to a specific object or enclosing a specific object. For this design challenge use digital calipers to measure an object from the world. Then design a 3D print to add functionality or decoration or both to the object. Does your pencil need a top hat wearing rubber ducky that fits on top? Need a custom headphone holder for your desk?&lt;/p&gt;
+&lt;h3 id=&#34;have-an-interlocking-lid&#34;&gt;Have an interlocking lid&lt;/h3&gt;
+&lt;p&gt;Boxes are great. What is better than a box? A box with an interlocking, perfectly fitting lid is better. Even better is a box with an interlocking lid that has a hinge and a clasp to keep it closed. Design a custom box that has a lid. What should it contain? Think of things that don’t have pre-made boxes. Is there a board game that you play that could use a box to contain specific pieces?&lt;/p&gt;
+&lt;h3 id=&#34;one-dimension-over-7&#34;&gt;One dimension over 7”&lt;/h3&gt;
+&lt;p&gt;Because of the nature of 3D printing, prints are often small. For this design challenge you need to make a 3D print with at least one dimension over 8”.  The interior build size of the Ultimaker 2+ 3D printer at the think[box] is 8.1” (20.5 cm) tall, 8.8” (22.3 cm) wide, 8.8” (22.3 cm) deep. Getting a print over 7” in one dimension is running right up to the limits of the build volume. What about putting the print in diagonally? Can multiple pieces be connected together for a print that is larger than the machine itself? What other creative ways can you increase the size of y our 3D print?&lt;/p&gt;
+&lt;h3 id=&#34;make-custom-lego-compatible-pieces&#34;&gt;Make Custom Lego Compatible Pieces&lt;/h3&gt;
+&lt;p&gt;Lego is fun but Lego is still an extant company with trademarks, patents and copyrights. Luckily the standard building block is no longer protected by patent. Anyone can make an exactly matching dimensioned toy building block. What you can’t do is call it Lego or copy existing Lego designs. That still leaves a universe of creative possibilities. What can you make out of interlocking building blocks? Can you improve on the design? Can you make your own design for toy block figures? Go crazy but only make your own original content.&lt;/p&gt;
+&lt;h3 id=&#34;sculpt-in-a-3d-sculpting-program&#34;&gt;Sculpt in a 3D Sculpting Program&lt;/h3&gt;
+&lt;p&gt;Use Blender, Mudbox, or other 3D sculpting program to make a detailed 3D sculpture that would not be possible with polygon modeling. Export the sculpture as an .obj file for further import and parametric modeling in Fusion 360 or export as an STL file for direct printing. If you use this technique of digital sculpting, you should intentionally make something that could not be make with polygon modeling or solid parametric modeling alone. Consider combining sculpting techniques with a parametrically modeled base or support.&lt;/p&gt;
+&lt;h2 id=&#34;grading-rubric&#34;&gt;Grading Rubric&lt;/h2&gt;
+&lt;div class=&#34;responsive-table-markdown&#34;&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Assessment&lt;/th&gt;
+&lt;th&gt;Weight&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;5 thumbnails&lt;/td&gt;
+&lt;td&gt;40 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;3 revised sketches&lt;/td&gt;
+&lt;td&gt;40 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Sketch Documentation&lt;/td&gt;
+&lt;td&gt;10 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;File Management&lt;/td&gt;
+&lt;td&gt;10 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>07.04 think[box] Photo Documentation Instructions</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/07-3d-printing-design/7-04-thinkbox-photo-documentation-instructions/</link>
+      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
+      
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/07-3d-printing-design/7-04-thinkbox-photo-documentation-instructions/</guid>
+      <description>&lt;p&gt;Below are instructions provided by Case Western Reserve University&amp;rsquo;s think[box] for using the Photo Documentation Stand to document smaller objects. &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; These instructions are for objects that are approximately 12&amp;quot; max in all directions. This works for most 3D prints and many laser cut projects. If you want to photo document a larger object, then following the &lt;a href=&#34;https://docs.google.com/document/d/1OY9IOG0cnc62f2EDfT1eCdGRUC8D3gzCYLxreg2P2S8/edit?usp=sharing&#34;&gt;instructions for using the photo backdrop&lt;/a&gt; will work better.&lt;/p&gt;
+&lt;p&gt;Either way, you will need to &lt;a href=&#34;https://docs.google.com/document/d/1nhp7csZHUI2NY57NjnErvM0S3Ojgz3HDJc9PjQadqRs/edit?usp=sharing&#34;&gt;hook up the camera to the remote flash&lt;/a&gt;. By following the &lt;a href=&#34;https://docs.google.com/document/d/1nhp7csZHUI2NY57NjnErvM0S3Ojgz3HDJc9PjQadqRs/edit?usp=sharing&#34;&gt;instructions&lt;/a&gt; you can get even lighting to create dynamic, professional images of your projects.&lt;/p&gt;
+&lt;iframe style=&#34;width:100%; min-height:100vh;&#34; src=&#34;https://docs.google.com/document/d/1OY9IOG0cnc62f2EDfT1eCdGRUC8D3gzCYLxreg2P2S8/edit&#34;&gt;&lt;/iframe&gt;
+&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://case.edu/thinkbox/equipment/other-equipment/photography-studio&#34;&gt;think[box] Photography Studio&lt;/a&gt; &lt;a href=&#34;https://web.archive.org/web/20221001041800/https://case.edu/thinkbox/equipment/other-equipment/photography-studio&#34;&gt;(Web Archive)&lt;/a&gt; &lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>07.05 3D Test Print Photo Documentation</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/07-3d-printing-design/7-05-3d-test-print-photo-documentation/</link>
+      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
+      
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/07-3d-printing-design/7-05-3d-test-print-photo-documentation/</guid>
+      <description>&lt;h2 id=&#34;assignment-deliverables&#34;&gt;Assignment Deliverables&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Take 2 Photos with a clean backdrop of your 3D Test Print.&lt;/li&gt;
+&lt;li&gt;Upload both the &amp;ldquo;RAW&amp;rdquo; photo and the edited .jpg for all photos&lt;/li&gt;
+&lt;li&gt;Label Photos YYYYMMDD Lastname Firstname 5 Word Description. (arw, cr2, dng, jpg, png)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;assignment-overview&#34;&gt;Assignment Overview&lt;/h2&gt;
+&lt;p&gt;Take a minimum of two photos of your 3D Test Print. Take one from a 3/4 angle that shows a good representation of the form. Take the other from a composition of your choice. This could show some detail of the print. Make sure the print is in focus. Using a camera from the checkout with a zoom feature will help. Use good lighting and shoot in JPG and RAW so you can edit and post process your images.&lt;/p&gt;
+&lt;p&gt;White balance should be &lt;a href=&#34;https://www.youtube.com/watch?v=m0yZEWUSahk&#34;&gt;corrected&lt;/a&gt; and the levels should be adjusted to have good exposure. Use PhotoShop and &lt;a href=&#34;https://www.youtube.com/watch?v=11jwSwUu2WI&#34;&gt;Adobe Camera Raw&lt;/a&gt; to make adjustments and to retouch any mistakes in the images.&lt;/p&gt;
+&lt;h3 id=&#34;use-backdrop-and-lights-in-the-classroom&#34;&gt;Use Backdrop and Lights in the Classroom&lt;/h3&gt;
+&lt;p&gt;You can set up lights and a clean backdrop. You can check out lights and a camera from the CIA equipment checkout. A backdrop is setup in the classroom for your use. Make sure to be careful with the shared resource. Do not leave marks on the paper or leave a mess.&lt;/p&gt;
+&lt;h3 id=&#34;use-thinkbox-photo-stand&#34;&gt;Use think[box] Photo Stand&lt;/h3&gt;
+&lt;p&gt;There is a photo stand at the think[box]that is perfect for documenting small objects. You can also take your model to the think[box] and use the soft boxes and flashes already set up. Follow the &lt;a href=&#34;https://case.edu/thinkbox/equipment/other-equipment/photography-studio&#34;&gt;instructions&lt;/a&gt; provided by the think[box]. Do not use your cell phone with this setup.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;2021-thinkbox-photo-stand.jpg&#34; alt=&#34;thinkbox photo stand&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;grading-rubric&#34;&gt;Grading Rubric&lt;/h2&gt;
+&lt;div class=&#34;responsive-table-markdown&#34;&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Assessment&lt;/th&gt;
+&lt;th&gt;Weight&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Photo 1&lt;/td&gt;
+&lt;td&gt;20 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Photo 2&lt;/td&gt;
+&lt;td&gt;20 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Post Processing / White Balance&lt;/td&gt;
+&lt;td&gt;20 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;File Management&lt;/td&gt;
+&lt;td&gt;10 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>07.10 Photo Documentation of Laser Cut Project</title>
+      <link>https://whatmakeart.com/modeling-and-fabrication/modules/07-3d-printing-design/7-06-laser-cut-photo-documentation/</link>
+      <pubDate>Sun, 26 Jan 2020 23:11:13 +0000</pubDate>
+      
+      <guid>https://whatmakeart.com/modeling-and-fabrication/modules/07-3d-printing-design/7-06-laser-cut-photo-documentation/</guid>
+      <description>&lt;h2 id=&#34;assignment-deliverables&#34;&gt;Assignment Deliverables&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Upload a minimum of 2 photos from classroom photo backdrop or think[box] photo stand&lt;/li&gt;
+&lt;li&gt;Upload a minimum of 2 photos from the environment&lt;/li&gt;
+&lt;li&gt;Upload both the &amp;ldquo;RAW&amp;rdquo; photo and the edited .jpg for all photos&lt;/li&gt;
+&lt;li&gt;Label Photos YYYYMMDD Lastname Firstname 5 Word Description. (arw, cr2, dng, jpg, png)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;assignment-overview&#34;&gt;Assignment Overview&lt;/h2&gt;
+&lt;p&gt;Have good lighting and a good composition for both the photos with a neutral background and those in an environment. For the environment photos, think about what is in the background, it should be intentional and not be cluttered. The environment photo should show how the object might be used. It should tell a story. Make sure Edit your photos in PhotoShop / Camera Raw for the best results.&lt;/p&gt;
+&lt;h3 id=&#34;use-thinkbox-photo-stand-or-classroom-photo-backdrop&#34;&gt;Use think[box] Photo Stand or Classroom Photo Backdrop&lt;/h3&gt;
+&lt;p&gt;There is a photo stand at the think[box]that is perfect for documenting small objects. You can take your laser cut project to the think[box] and use the soft boxes and flashes already set up. Follow the &lt;a href=&#34;https://case.edu/thinkbox/equipment/other-equipment/photography-studio&#34;&gt;instructions&lt;/a&gt; provided by the think[box]. Do not use your cell phone with this setup.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;2021-thinkbox-photo-stand.jpg&#34; alt=&#34;think[box] photo stand&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;document-your-project-in-the-environment&#34;&gt;Document Your Project in the Environment&lt;/h2&gt;
+&lt;p&gt;In addition to the photos with a photo backdrop or at the think[box] take a minimum of 2 photos of the laser cut in use in the environment. This will tell a story about the object and offer the viewer different insights into the design over the more sterile neutral background.&lt;/p&gt;
+&lt;h1 id=&#34;grading-rubric&#34;&gt;Grading Rubric&lt;/h1&gt;
+&lt;div class=&#34;responsive-table-markdown&#34;&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Assessment&lt;/th&gt;
+&lt;th&gt;Weight&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Photo Backdrop Documentation&lt;/td&gt;
+&lt;td&gt;20 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Environment Photo Documentation&lt;/td&gt;
+&lt;td&gt;20 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Post Processing / White Balance&lt;/td&gt;
+&lt;td&gt;20 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;File Management&lt;/td&gt;
+&lt;td&gt;10 points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

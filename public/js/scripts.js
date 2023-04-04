@@ -4,6 +4,8 @@ if (document.readyState === "loading") {
     console.log("DOMContentLoaded after checking readyState");
     removeNavigationEmbed();
     sendIframeHeight();
+    var referrer = document.referrer;
+    console.log(referrer);
   });
 } else {
   // `DOMContentLoaded` has already fired which sometimes happens so run the functions
@@ -82,7 +84,7 @@ function sendIframeHeight() {
 // removes navigation elements when embedded in an LMS so only the page content is seen but allows course site to work on open web
 function removeNavigationEmbed() {
   if (self != top) {
-    // make links open in _blank if page is an embedded iframe
+    //make links open in _blank if page is an embedded iframe
     let baseToAdd = document.createElement("base");
     baseToAdd.target = "_top";
     document.head.appendChild(baseToAdd);
@@ -90,11 +92,13 @@ function removeNavigationEmbed() {
     document.getElementById("header").remove();
     document.getElementById("footer").remove();
     document.getElementById("pageTitleH1").remove();
-    document.getElementById("top-prev-next").remove();
+    //document.getElementById("top-prev-next").remove();
     document.getElementById("bottom-prev-next").remove();
+    document.getElementById("topTOC").remove();
     console.log("Removed iframe #header and #footer");
     changeStyle(); // remove Bootstrap Styles
     document.body.style.overflowX = "hidden"; // to remove iframe scrollbars when scrolling
+    document.body.style.overflowY = "scroll"; // to remove iframe scrollbars when scrolling
     document.body.style.overflowY = "scroll"; // to remove iframe scrollbars when scrolling
   }
   if (self === top) {
@@ -110,7 +114,7 @@ let resizeObserver = new ResizeObserver(() => {
 resizeObserver.observe(document.querySelector(".container-fluid"));
 
 function checkIfMobile() {
-  // device detection
+  // mobile device detection
   if (
     /(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|ipad|iris|kindle|Android|Silk|lge |maemo|midp|mmp|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows (ce|phone)|xda|xiino/i.test(
       navigator.userAgent

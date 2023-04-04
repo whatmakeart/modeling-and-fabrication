@@ -2,6 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/00-getting-started/</loc>
+    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/00-getting-started/0-0-course-introduction/</loc>
+    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/00-getting-started/0-1-course-description/</loc>
+    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/00-getting-started/0-2-how-suceed-in-this-course/</loc>
+    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/00-getting-started/0-3-syllabus/</loc>
+    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://whatmakeart.com/modeling-and-fabrication/modules/00-getting-started/0-4-course-links/</loc>
     <lastmod>2020-01-26T23:11:13+00:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -13,46 +38,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://whatmakeart.com/modeling-and-fabrication/modules/01-technical-sketching-fusion-360/</loc>
-    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/02-fusion-360-sketching-modeling-basics/</loc>
-    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/03-laser-cutting/</loc>
-    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/04-laser-cutting-3d-modeling/</loc>
-    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/05-laser-cutting-fabrication/</loc>
-    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/06-3d-printing/</loc>
-    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/07-3d-printing/</loc>
-    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/08-3d-printing/</loc>
-    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/09-cnc/</loc>
     <lastmod>2020-01-26T23:11:13+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -92,92 +77,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/10-cnc/</loc>
-    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/10-cnc/10-2-shopbot-reservation/</loc>
-    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/10-cnc/10-3-fusion-360-model-of-cnc-project/</loc>
-    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/11-cnc/</loc>
-    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/11-cnc/4-4-cnc-project-dcoumentation/</loc>
-    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/12-polygon-3d-modeling/</loc>
-    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/12-polygon-3d-modeling/12-1-3d-animation-ideation/</loc>
-    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/12-polygon-3d-modeling/12-3-3d-animation-ball-rig-test-bounce/</loc>
-    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/12-polygon-3d-modeling/12-4-3d-animation/</loc>
-    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/13-3d-animation/</loc>
-    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/13-3d-animation/13-2-3d-animation-sets/</loc>
-    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/14-3d-animation/</loc>
-    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/15-final-projects/</loc>
-    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/15-final-projects/15-1-update-website-portfolio/</loc>
-    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/16-video/</loc>
-    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/16-video/6-1-magical-powers-video-ideation/</loc>
-    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/16-video/6-2-magical-powers-video-footage-shot/</loc>
-    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/16-video/6-3-magical-powers-video/</loc>
+    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/02-fusion-360-sketching-modeling-basics/</loc>
     <lastmod>2020-01-26T23:11:13+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -227,6 +127,11 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/03-laser-cutting/</loc>
+    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://whatmakeart.com/modeling-and-fabrication/modules/03-laser-cutting/3-00-introduction/</loc>
     <lastmod>2020-01-26T23:11:13+00:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -262,7 +167,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/04-laser-cutting-3d-modeling/4-06-model-demo-multi-component-model/</loc>
+    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/04-laser-cutting-3d-modeling/</loc>
     <lastmod>2020-01-26T23:11:13+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -277,17 +182,42 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/04-laser-cutting-3d-modeling/4-2-model-laser-cut-project-in-fusion-360/</loc>
+    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/04-laser-cutting-3d-modeling/4-02-fusion-360-user-parameter-basics/</loc>
     <lastmod>2020-01-26T23:11:13+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/04-laser-cutting-3d-modeling/4-02-photographing-3d-artwork/</loc>
+    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/04-laser-cutting-3d-modeling/4-03-import-sketches-or-designs-fusion-360/</loc>
     <lastmod>2020-01-26T23:11:13+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/04-laser-cutting-3d-modeling/4-3-lay-parts-flat-for-laser-cut-file/</loc>
+    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/04-laser-cutting-3d-modeling/4-04-fix-design-history-timeline-errors-fusion-360/</loc>
+    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/04-laser-cutting-3d-modeling/4-05-laser-cut-living-hinge-modeling/</loc>
+    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/04-laser-cutting-3d-modeling/4-06-multi-component-example-model-for-laser-cutting/</loc>
+    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/04-laser-cutting-3d-modeling/4-07-model-laser-cut-project-in-fusion-360/</loc>
+    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/04-laser-cutting-3d-modeling/4-08-laser-cut-fusion-model-self-assessment/</loc>
+    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/05-laser-cutting-fabrication/</loc>
     <lastmod>2020-01-26T23:11:13+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -297,7 +227,52 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/05-laser-cutting-fabrication/5-1-laser-cut-documentation/</loc>
+    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/05-laser-cutting-fabrication/5-01-laser-cut-3d-model-revisions/</loc>
+    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/05-laser-cutting-fabrication/5-02-create-laser-cutting-tool-fusion-360/</loc>
+    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/05-laser-cutting-fabrication/5-03-install-dxf-post-processor/</loc>
+    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/05-laser-cutting-fabrication/5-04-make-a-manufacture-model-copy/</loc>
+    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/05-laser-cutting-fabrication/5-05-lay-parts-flat-for-laser-cutting/</loc>
+    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/05-laser-cutting-fabrication/5-06-export-laser-cut-toolpaths-to-dxf/</loc>
+    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/05-laser-cutting-fabrication/5-07-prepare-dxf-file-for-laser-cutting/</loc>
+    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/05-laser-cutting-fabrication/5-08-cut-out-and-assemble-laser-cut-project/</loc>
+    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/05-laser-cutting-fabrication/5-09-laser-cut-self-assessment/</loc>
+    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/06-3d-printing/</loc>
     <lastmod>2020-01-26T23:11:13+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -307,57 +282,367 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/06-3d-printing/6-1-ideation-sketches-3d-print-test-print/</loc>
+    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/06-3d-printing/6-01-3d-printing-terms/</loc>
     <lastmod>2020-01-26T23:11:13+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/06-3d-printing/6-2-make-3d-model-and-export-stl-file-for-3d-test-print/</loc>
+    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/06-3d-printing/6-02-3d-printing-design-guidelines/</loc>
     <lastmod>2020-01-26T23:11:13+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/07-3d-printing/7-3-3d-test-print-photo-documentation/</loc>
+    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/06-3d-printing/6-03-organic-forms-with-t-splines-fusion-360/</loc>
     <lastmod>2020-01-26T23:11:13+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/07-3d-printing/7-4-final-3d-print-ideation-sketches/</loc>
+    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/06-3d-printing/6-04-check-model-bounding-box-size/</loc>
     <lastmod>2020-01-26T23:11:13+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/08-3d-printing/8-5-final-3d-print-documentation/</loc>
+    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/06-3d-printing/6-5-ideation-sketches-3d-print-test-print/</loc>
     <lastmod>2020-01-26T23:11:13+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/09-cnc/9-1-cnc-design-research/</loc>
+    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/06-3d-printing/6-6-make-3d-model-and-export-stl-file-for-3d-test-print/</loc>
     <lastmod>2020-01-26T23:11:13+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://whatmakeart.com/modeling-and-fabrication/about/</loc>
+    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/07-3d-printing-design/</loc>
     <lastmod>2020-01-26T23:11:13+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/00-getting-started/0-0-course-introduction/</loc>
+    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/07-3d-printing-design/7-00-introduction/</loc>
     <lastmod>2020-01-26T23:11:13+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/00-getting-started/0-1-course-description/</loc>
+    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/07-3d-printing-design/7-01-3d-printer-ultimaker-2&#43;-tutorial-thinkbox/</loc>
     <lastmod>2020-01-26T23:11:13+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/</loc>
+    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/07-3d-printing-design/7-02-advanced-3d-print-settings-ultimaker-thinkbox/</loc>
     <lastmod>2020-01-26T23:11:13+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/00-getting-started/0-2-how-suceed-in-this-course/</loc>
+    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/07-3d-printing-design/7-03-photographing-3d-artwork/</loc>
+    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/07-3d-printing-design/7-07-final-3d-print-ideation-sketches/</loc>
+    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/07-3d-printing-design/7-04-thinkbox-photo-documentation-instructions/</loc>
+    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/07-3d-printing-design/7-05-3d-test-print-photo-documentation/</loc>
+    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/07-3d-printing-design/7-06-laser-cut-photo-documentation/</loc>
+    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/08-3d-printing-modeling-fabrication/</loc>
+    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/08-3d-printing-modeling-fabrication/8-00-introduction/</loc>
+    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/08-3d-printing-modeling-fabrication/8-01-3d-print-modeling-fusion-360/</loc>
+    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/08-3d-printing-modeling-fabrication/8-04-blender-3d-modeling-basics/</loc>
+    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/08-3d-printing-modeling-fabrication/8-05-export-stl-blender/</loc>
+    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/08-3d-printing-modeling-fabrication/8-06-maya-3d-modeling-basics/</loc>
+    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/08-3d-printing-modeling-fabrication/8-07-export-stl-maya/</loc>
+    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/08-3d-printing-modeling-fabrication/8-08-final-3d-print-3d-model/</loc>
+    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/08-3d-printing-modeling-fabrication/8-09-final-3d-print/</loc>
+    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/08-3d-printing-modeling-fabrication/8-10-final-3d-print-documentation/</loc>
+    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/09-cnc-introduction/</loc>
+    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/09-cnc-introduction/9-00-introduction/</loc>
+    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/09-cnc-introduction/9-04-cnc-design-research/</loc>
+    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/09-cnc-introduction/9-01-cnc-vs-laser-cutting/</loc>
+    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/09-cnc-introduction/9-03-scale-cardboard-to-plywood/</loc>
+    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/09-cnc-introduction/9-02-pocket-cuts-and-joints/</loc>
+    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/09-cnc-introduction/9-05-cnc-project-ideation-sketches/</loc>
+    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/09-cnc-introduction/9-06-cnc-scale-cardboard-model/</loc>
+    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/10-cnc-design-and-modeling/</loc>
+    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/10-cnc-design-and-modeling/10-00-introduction/</loc>
+    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/10-cnc-design-and-modeling/10-01-additional-user-parameters/</loc>
+    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/10-cnc-design-and-modeling/10-02-robust-parametric-3d-models/</loc>
+    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/10-cnc-design-and-modeling/10-03-fusion-360-cnc-modeling/</loc>
+    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/10-cnc-design-and-modeling/10-04-fusion-360-model-of-cnc-project/</loc>
+    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/11-cnc-fabrication/</loc>
+    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/11-cnc-fabrication/11-00-introduction/</loc>
+    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/11-cnc-fabrication/11-01-cnc-fillets/</loc>
+    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/11-cnc-fabrication/11-02-cnc-tolerances-and-fit/</loc>
+    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/11-cnc-fabrication/11-03-create-shopbot-tool-fusion-360/</loc>
+    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/11-cnc-fabrication/11-04-shopbot-toolpath-fusion-360/</loc>
+    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/11-cnc-fabrication/11-06-securing-the-workpiece/</loc>
+    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/11-cnc-fabrication/11-07-shopbot-reservation/</loc>
+    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/11-cnc-fabrication/11-08-cnc-project-fabricated/</loc>
+    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/11-cnc-fabrication/11-09-cnc-project-documentation/</loc>
+    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/12-polygon-3d-modeling/</loc>
+    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/12-polygon-3d-modeling/12-03-maya-3d-modeling/</loc>
+    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/12-polygon-3d-modeling/12-00-introduction/</loc>
+    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/12-polygon-3d-modeling/12-02-blender-3d-modeling/</loc>
+    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/13-3d-animation/13-01-narrative-arc/</loc>
+    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/13-3d-animation/13-06-3d-animation/</loc>
+    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/12-polygon-3d-modeling/12-09-blender-rendering-basics/</loc>
+    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/12-polygon-3d-modeling/12-10-maya-rendering-basics/</loc>
+    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/13-3d-animation/13-05-shot-types/</loc>
+    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/12-polygon-3d-modeling/12-08-create-seamless-textures/</loc>
+    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/13-3d-animation/</loc>
+    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/13-3d-animation/13-00-introduction/</loc>
+    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/13-3d-animation/13-02-3d-animation-sets/</loc>
+    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/13-3d-animation/13-02-storyboards/</loc>
+    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/14-3d-animation/</loc>
+    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/14-3d-animation/14-00-introduction/</loc>
+    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/15-final-projects/</loc>
+    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/15-final-projects/15-1-update-website-portfolio/</loc>
+    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/16-video/</loc>
+    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/16-video/16-1-magical-powers-video-ideation/</loc>
+    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/16-video/16-2-magical-powers-video-footage-shot/</loc>
+    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/16-video/16-3-magical-powers-video/</loc>
+    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/08-3d-printing-modeling-fabrication/8-02-3d-print-in-place-hinges/</loc>
+    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/08-3d-printing-modeling-fabrication/8-03-export-stl-fusion-360/</loc>
     <lastmod>2020-01-26T23:11:13+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -372,7 +657,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/00-getting-started/</loc>
+    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/</loc>
     <lastmod>2020-01-26T23:11:13+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -382,16 +667,11 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/00-getting-started/0-3-syllabus/</loc>
-    <lastmod>2020-01-26T23:11:13+00:00</lastmod>
+    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/12-polygon-3d-modeling/12-05-blender-add-materials/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/04-laser-cutting-3d-modeling/4-03-export-dxf-tool-path/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/04-laser-cutting-3d-modeling/photo-document-cardboard-model/</loc>
+    <loc>https://whatmakeart.com/modeling-and-fabrication/modules/12-polygon-3d-modeling/12-07-maya-add-materials/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>

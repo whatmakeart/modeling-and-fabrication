@@ -4,9 +4,9 @@ date: 2020-01-26T23:11:13Z
 draft: false
 ---
 
-## Create a Tool Holder 
+Create a tool for the 1/4" straight cut router bit. We have other bits in the Fab Studios for cutting out 3D profiles and engraving but you will use the 1/4" bit for most of your cutting. You will create a tool holder and a tool bit. For 2D cutting the tool holder is not needed but you should make it to know the process in case you do any 3D Cutting. For 3D cutting we need to know where the tool holder is and how big it is.  This [video](https://youtu.be/M9MQzYrLhGQ) shows how to create the [1/4" Flat Endmill ShopBot Tool](https://youtu.be/M9MQzYrLhGQ).
 
-Create a tool for the 1/4" straight cut router bit. We have other bits in the Fab Studios for cutting out 3D profiles and engraving but you will use the 1/4" bit for most of your cutting. You will create a tool holder and a tool bit. For 2D cutting the tool holder is not needed but you should make it to know the process in case you do any 3D Cutting. For 3D cutting we need to know where the tool holder is and how big it is.  This [video](https://youtu.be/M9MQzYrLhGQ) shows how to create the 1/4" ShopBot Tool. [https://youtu.be/M9MQzYrLhGQ](https://youtu.be/M9MQzYrLhGQ "Share link")
+## Tool Settings
 
 Use the settings and values below to make your tool.
 
@@ -149,6 +149,8 @@ Not used for 2D and 2.5D cutting but we can select the custom holder we made so 
 
 ## Create ShopBot Tool Fusion
 
-<div class="iframe-16-9-container" ><iframe class="youTubeIframe" src="https://www.youtube.com/embed/M9MQzYrLhGQ?rel=0" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
+<div class="iframe-16-9-container" ><iframe class="youTubeIframe" src="https://www.youtube.com/embed/M9MQzYrLhGQ?rel=0" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+</div>
+</div>
 
 </div>

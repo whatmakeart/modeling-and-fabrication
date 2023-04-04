@@ -27,13 +27,14 @@ Use the settings and values below to make your tool.
 
 <div class="responsive-table-markdown">
 
-| Dimension          | Size                     |
-| ------------------ | ------------------------ |
-| Height #1:         | 17 mm                    |
-| Upper Diameter #1: | 42 mm                    |
-| Lower Diameter #1: | 42 mm                    |
-| Height #2: 3 mm    | Upper Diameter #2: 42 mm |
-| Lower Diameter #2: | 32 mm                    |
+| Dimension          | Size  |
+| ------------------ | ----- |
+| Height #1:         | 17 mm |
+| Upper Diameter #1: | 42 mm |
+| Lower Diameter #1: | 42 mm |
+| Height #2:         | 3 mm  |
+| Upper Diameter #2: | 42 mm |
+| Lower Diameter #2: | 32 mm |
 
 </div>
 

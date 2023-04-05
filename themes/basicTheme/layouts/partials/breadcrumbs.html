@@ -1,8 +1,8 @@
 <nav aria-label="breadcrumb" id="breadcrumbs">
     <ol class="breadcrumb">
-        {{ range .Ancestors.Reverse }}
+        {{- range .Ancestors.Reverse }}
         <li class="breadcrumb-item"><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-        {{ end }}
+        {{- end }}
         <li class="breadcrumb-item active" aria-current="page"><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
 
     </ol>

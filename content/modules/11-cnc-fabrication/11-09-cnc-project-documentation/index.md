@@ -43,5 +43,3 @@ All photos can be improved through post production. Make sure you adjust the lev
 Label your images YYYYMMDD Lastname Firstname CNC Project Documentation Photos.jpg
 
 Do not leave them with the default file names from your camera such as IMG_3592.JPG
-
-## Upload to Google Drive

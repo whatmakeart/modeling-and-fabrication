@@ -10,20 +10,24 @@ draft: false
 2. Make a ShopBot Reservation long enough to cutout your project
    - Take a Screenshot of your ShopBot Reservation
 
-Project Documentation is due before the final critique. Make sure you make your reservation soon enough to have enough time to assemble your project, apply finishing and take documentation photos.
+## Assignment Overview
 
-## ShopBot Reservation Time
+It is necessary to reserve time to use the ShopBot so everyone can plan and schedule their CNC projects.
+
+Remember that the CNC project documentation is due before the final critique. Make sure you make your reservation soon enough to have enough time to assemble your project, apply surface finishes, and take documentation photos.
+
+### ShopBot Reservation Time
 
 Make sure you reserve enough time to cut your project. If there is not enough time and the next student has a reservation, you will need to stop your cut. This can waste your plywood and time.
 
+- It takes 9 minutes for the spindle warm up.
 - It will take ~ 30 minutes to set up the tool and have your plywood in place.
-- Look in Fusion to get an estimate of your machine time
-- Multiply machine time by 1.2 to add 20% buffer time.
-- ~5-10 minutes to remove material from machine.
+- Look in Fusion 360 statistics to get an estimate of your machine time
+- Multiply the machine time by 1.2 to add 20% buffer time.
+- Add at least ~5-10 minutes to remove material from machine.
+- Add everything together and make a reservation that is long enough.
 
-Add everything together and make a reservation that is long enough.
-
-You may need to make multiple reservations since the default reservation is 1 hour. If you need a 2 hour reservation, reserve  two 1 hour slots. If you need 2 hours and 30 minutes then reserve three 1 hour slots in a row.
+You may need to make multiple reservations since the default reservation is 1 hour. If you need a 2 hour reservation, reserve two 1 hour slots. If you need 2 hours and 30 minutes then reserve three 1 hour slots in a row.
 
 You must go to your reserved time because there are limited slots. The shop will let me know if you do not attend. You can cancel your slot but you must do it a minimum of 48 hours in advance. You then have to make another reservation.
 

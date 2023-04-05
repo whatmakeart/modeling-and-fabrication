@@ -1,7 +1,11 @@
 {{ define "main" }}
 
+{{ partial "breadcrumbs.html" . }}
+<h1 id="pageTitleH1">{{ .Title }}</h1>
+<br>
 <!-- Groups content according to content section. The ".Key" in this instance will be the section's title. -->
 {{ range .Pages.GroupBy "Section" }}
+<br>
 <h3>{{ .Key }}</h3>
 <ul>
     {{ range .Pages.ByTitle }}

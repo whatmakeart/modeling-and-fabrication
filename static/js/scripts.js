@@ -94,6 +94,7 @@ function removeNavigationEmbed() {
     document.getElementById("pageTitleH1").remove();
     //document.getElementById("top-prev-next").remove();
     document.getElementById("bottom-prev-next").remove();
+    document.getElementById("breadcrumbs").remove();
     document.getElementById("topTOC").remove();
     console.log("Removed iframe #header and #footer");
     changeStyle(); // remove Bootstrap Styles

@@ -61,6 +61,7 @@ h6 {
 .main-content > dl,
 .main-content > dd,
 #pageTitleH1,
+#breadcrumbs,
 a.summary-link,
 .footnotes,
 #text,
@@ -236,8 +237,9 @@ a.title-link {
 }
 
 /* site title on pages below nav menu */
-#pageTitleH1 {
-  padding: 2rem 0 0 0;
+#pageTitleH1,
+#breadcrumbs {
+  padding: 0.5rem 0 0 0;
 }
 
 #TableOfContents > ul {

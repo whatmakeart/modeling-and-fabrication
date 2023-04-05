@@ -6,9 +6,9 @@ draft: false
 
 ## Assignment Deliverables
 
-1.  Take a Screenshot of your ShopBot Reservation
-2.  Take a Screenshot of your Plywood Receipt
-3.  Label the Screenshots
+1. Upload your .f3d file to the [CNC Project Google Drive Folder](https://drive.google.com/drive/folders/1u9FynRWydbBH41hDpN84qN8fORJCouHR)
+2. Make a ShopBot Reservation long enough to cutout your project
+   - Take a Screenshot of your ShopBot Reservation
 
 Project Documentation is due before the final critique. Make sure you make your reservation soon enough to have enough time to assemble your project, apply finishing and take documentation photos.
 

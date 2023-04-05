@@ -1,24 +1,22 @@
 ---
-title: "11.03Create Shopbot Tool Fusion 360"
+title: "11.03 Create ShopBot Tool Fusion 360"
 date: 2020-01-26T23:11:13Z
 draft: false
 ---
 
 Create a tool for the 1/4" straight cut router bit. We have other bits in the Fab Studios for cutting out 3D profiles and engraving but you will use the 1/4" bit for most of your cutting. You will create a tool holder and a tool bit. For 2D cutting the tool holder is not needed but you should make it to know the process in case you do any 3D Cutting. For 3D cutting we need to know where the tool holder is and how big it is.  This [video](https://youtu.be/M9MQzYrLhGQ) shows how to create the [1/4" Flat Endmill ShopBot Tool](https://youtu.be/M9MQzYrLhGQ).
 
-## Tool Settings
-
-Use the settings and values below to make your tool.
+## ShopBot ER25 Collet Nut Settings
 
 ### General Tab
 
 <div class="responsive-table-markdown">
 
-| Item           | Information                                                              |
-| -------------- | ------------------------------------------------------------------------ |
-| Description:   | ER25 Collet Nut                                                          |
-| Vendor:        | ShopBot                                                                  |
-| Product ID:    | ER25                                                                     |
+| Item | Information |
+| --- | --- |
+| Description: | ER25 Collet Nut |
+| Vendor: | ShopBot |
+| Product ID: | ER25 |
 | Product Link:  | [ShopBot Store](https://store.shopbottools.com/products/collet-nut-er25) |
 
 </div>
@@ -26,7 +24,7 @@ Use the settings and values below to make your tool.
 ### Holder Geometry Tab
 
 <div class="responsive-table-markdown">
-
+ 
 | Dimension          | Size  |
 | ------------------ | ----- |
 | Height #1:         | 17 mm |
@@ -38,18 +36,18 @@ Use the settings and values below to make your tool.
 
 </div>
 
-## Create 1/4" Flat End Mill Tool
+## 1/4" Flat End Mill Tool Settings
 
-### Under General Tab
+### General Tab
 
 <div class="responsive-table-markdown">
 
-| Item          | Information       |
-| ------------- | ----------------- |
-| Description:  | 1/4” Flat Endmill |
-| Vendor:       | Whiteside         |
-| Product ID:   | 1014              |
-| Product Link: |                   |
+| Item | Value |
+| --- | --- |
+| Description: | 1/4” Flat Endmill |
+| Vendor: | Whiteside |
+| Product ID: | 1014 |
+| Product Link: | [Whiteside Website](https://www.whitesiderouterbits.com/products/1014) |
 
 </div>
 
@@ -57,7 +55,7 @@ Use the settings and values below to make your tool.
 
 <div class="responsive-table-markdown">
 
-| Item                        | Information   |
+| Parameter                   | Value         |
 | --------------------------- | ------------- |
 | Type:                       | Flat End Mill |
 | Unit:                       | Inches        |
@@ -67,11 +65,11 @@ Use the settings and values below to make your tool.
 
 </div>
 
-### Geometry Tab
+#### Geometry
 
 <div class="responsive-table-markdown">
 
-| Item                 | Information |
+| Geometry             | Value       |
 | -------------------- | ----------- |
 | Diameter:            | .25 in      |
 | Shaft Diameter:      | .25 in (fx) |
@@ -92,15 +90,15 @@ Not used for 2D and 2.5D cutting but we can select the custom holder we made so 
 
 ### Cutting Data Tab
 
-#### Speeds
+#### Speed
 
 <div class="responsive-table-markdown">
 
-| Item               | Information |
-| ------------------ | ----------- |
-| Spindle Speed      | 18000 rpm   |
-| Surface Speed      | Calculated  |
-| Ramp Spindle Speed | 18000 rpm   |
+| Parameter          | Speed      |
+| ------------------ | ---------- |
+| Spindle Speed      | 18000 rpm  |
+| Surface Speed      | Calculated |
+| Ramp Spindle Speed | 18000 rpm  |
 
 </div>
 
@@ -108,13 +106,13 @@ Not used for 2D and 2.5D cutting but we can select the custom holder we made so 
 
 <div class="responsive-table-markdown">
 
-| Item              | Information |
-| ----------------- | ----------- |
-| Cutting Feedrate  | 144 in/min  |
-| Feed per tooth    | Calculated  |
-| Lead-in Feederate | Calculated  |
-| Lead-out Feedrate | Calculated  |
-| Ramp Feedrate     | 72 in/min   |
+| Parameter         | Feedrate   |
+| ----------------- | ---------- |
+| Cutting Feedrate  | 144 in/min |
+| Feed per tooth    | Calculated |
+| Lead-in Feederate | Calculated |
+| Lead-out Feedrate | Calculated |
+| Ramp Feedrate     | 72 in/min  |
 
 </div>
 
@@ -122,10 +120,10 @@ Not used for 2D and 2.5D cutting but we can select the custom holder we made so 
 
 <div class="responsive-table-markdown">
 
-| Item                | Information |
-| ------------------- | ----------- |
-| Plunge feedrate     | 72 in/min   |
-| Feed per revolution | Calculated  |
+| Parameter           | Feedrate   |
+| ------------------- | ---------- |
+| Plunge feedrate     | 72 in/min  |
+| Feed per revolution | Calculated |
 
 </div>
 
@@ -133,10 +131,10 @@ Not used for 2D and 2.5D cutting but we can select the custom holder we made so 
 
 <div class="responsive-table-markdown">
 
-| Item          | Information |
-| ------------- | ----------- |
-| Use Step-down | check       |
-| Stepdown      | .125        |
+| Parameter     | Value |
+| ------------- | ----- |
+| Use Step-down | check |
+| Stepdown      | .125  |
 
 </div>
 
@@ -144,11 +142,13 @@ Not used for 2D and 2.5D cutting but we can select the custom holder we made so 
 
 - Disabled
 
+## Fusion 360 Tool Tutorial
+
 <div class="video-grid">
 
 <div class="video-card">
 
-## Create ShopBot Tool Fusion
+### Create ShopBot Tool Fusion
 
 <div class="iframe-16-9-container" ><iframe class="youTubeIframe" src="https://www.youtube.com/embed/M9MQzYrLhGQ?rel=0" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 </div>

@@ -64,25 +64,46 @@ h6 {
 a.summary-link,
 .footnotes,
 #text,
-#topTOC {
+#topTOC,
+form {
   max-width: var(--text-max-width);
   margin-right: auto;
   margin-left: auto;
 }
-
+/* for resistor LED constant current calculator results */
+.resultBox {
+  border: lightgray solid 1px;
+  border-radius: 5%;
+  width: 50px;
+  display: inline-block;
+  text-align: center;
+}
 .responsive-table-markdown {
-  width: 100%;
   overflow-x: auto;
   margin: 0 auto;
   margin-bottom: 1rem;
-}
-
-.responsive-table-markdown > table {
   overflow-x: auto;
 }
-
-tr:nth-child(even) {
-  background-color: #f2f2f2;
+.responsive-table-markdown > table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.responsive-table-markdown > table tr:nth-child(even) {
+  background-color: #f2f2f2; /* make zebra stripes */
+}
+/* table inner borders */
+.responsive-table-markdown > table td + td {
+  border-left: 1px solid #ccc;
+}
+.responsive-table-markdown > table tr + tr td {
+  border-top: 1px solid #ccc;
+}
+.responsive-table-markdown > table td,
+.responsive-table-markdown > table th {
+  padding: 1rem;
+}
+.responsive-table-markdown > table th {
+  font-size: 1.125em;
 }
 
 img {
@@ -258,6 +279,7 @@ a.title-link {
 
 @media only screen and (min-width: 700px) {
   .responsive-table-markdown > table {
+    width: initial; /* reset from mobile width: 100% */
     max-width: var(--page-max-width);
     min-width: var(--text-max-width);
     margin: 0 auto;

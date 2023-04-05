@@ -1,4 +1,4 @@
-{{ $child_pages := union .Sections .Pages }}
+{{ $child_pages := union .Sections .RegularPages }}
 {{ range $child_pages }}
 <li><a href="{{.Permalink}}">{{.Title}}</a></li>
 {{ partial "recursive.html" . }}

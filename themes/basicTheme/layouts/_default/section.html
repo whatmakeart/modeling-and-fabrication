@@ -7,13 +7,8 @@
     {{ range .Pages.ByTitle }}
 
     <li class="list-group-item">
-        <h3><a class="title-link" href="{{ .RelPermalink }}">{{ .Title }}</a>
+        <h3><a class="title-link link-dark stretched-link" href="{{ .RelPermalink }}">{{ .Title }}</a>
         </h3>
-        <!-- Remove summary until styled 
-        <a class="summary-link" href="{{ .RelPermalink }}">
-            {{ .Summary }}
-        </a>
-        -->
     </li>
     {{ end }}
 

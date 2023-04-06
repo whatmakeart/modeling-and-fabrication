@@ -66,7 +66,8 @@ a.summary-link,
 .footnotes,
 #text,
 #topTOC,
-form {
+form,
+.missingPage {
   max-width: var(--text-max-width);
   margin-right: auto;
   margin-left: auto;

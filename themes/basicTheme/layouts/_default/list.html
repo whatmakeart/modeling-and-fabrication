@@ -7,11 +7,11 @@
 {{ range .Pages.GroupBy "Section" }}
 <br>
 <h3>{{ .Key }}</h3>
-<ul>
-    {{ range .Pages.ByTitle }}
-    <li class="list-unstyled">
-        <a class="title-link" href="{{ .Permalink }}">{{ .Title }}</a>
-    </li>
-    {{ end }}
+<ul class="list-group"></ul>
+{{ range .Pages.ByTitle }}
+<li class="list-group-item">
+    <a class="title-link stretched-link" href="{{ .Permalink }}">{{ .Title }}</a>
+</li>
+{{ end }}
 </ul>
 {{ end }}

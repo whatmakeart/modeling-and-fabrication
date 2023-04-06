@@ -3,14 +3,15 @@
 
 <br>
 <h1>3D Modeling and Fabrication Course Content</h1>
+<br>
 
 <ul class="list-group">
     {{ range .Site.Sections }}
     {{ range .Pages }}
     <li class="list-group-item">
-        <h2><a class="title-link" href="{{ .RelPermalink}}">{{ .Title }}</a></h2>
+        <h2 class="display-6 "><a class="link-secondary stretched-link" href="{{ .RelPermalink}}">{{ .Title }}</a></h2>
     </li>
-    <ul>{{ partial "recursive.html" . }}</ul>
+    <ul class="list-group">{{ partial "recursive.html" . }}</ul>
     {{ end }}
     {{ end }}
 </ul>

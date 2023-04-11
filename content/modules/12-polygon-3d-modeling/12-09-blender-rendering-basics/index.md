@@ -37,7 +37,7 @@ The Point Light has adjustments for color, power, diffuse, specular, volume, and
 ### Blender Infinite Background
 
 <div class="iframe-16-9-container">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/lsEYDk00WFs?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframeclass="youTubeiframe"  width="560" height="315" src="https://www.youtube.com/embed/lsEYDk00WFs?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 </div>
 
@@ -46,7 +46,7 @@ The Point Light has adjustments for color, power, diffuse, specular, volume, and
 ### Fix Eevee Shadow Quality
 
 <div class="iframe-16-9-container">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/K6Oom8gFch4?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe class="youTubeiframe" width="560" height="315" src="https://www.youtube.com/embed/K6Oom8gFch4?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 </div>
 

@@ -23,7 +23,7 @@ Maya has a number of presets for the standard surface shader. These presets will
 ### Maya 3D Paint Tool
 
 <div class="iframe-16-9-container">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/JIOns8Tkmhs?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe class="youTubeiframe" width="560" height="315" src="https://www.youtube.com/embed/JIOns8Tkmhs?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 </div>
 
@@ -32,7 +32,7 @@ Maya has a number of presets for the standard surface shader. These presets will
 ### Maya 3D Paint Complex Object
 
 <div class="iframe-16-9-container">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0JY8UA75qjI?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe class="youTubeiframe" width="560" height="315" src="https://www.youtube.com/embed/0JY8UA75qjI?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 </div>
 
@@ -41,7 +41,7 @@ Maya has a number of presets for the standard surface shader. These presets will
 ### Procedural Orange Texture
 
 <div class="iframe-16-9-container">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5OrQVV_8ag0?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe class="youTubeiframe" width="560" height="315" src="https://www.youtube.com/embed/5OrQVV_8ag0?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 </div>
 
@@ -50,7 +50,7 @@ Maya has a number of presets for the standard surface shader. These presets will
 ### Export Substance Painter to Maya
 
 <div class="iframe-16-9-container">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/sCKc_6nTRPM?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe class="youTubeiframe"  width="560" height="315" src="https://www.youtube.com/embed/sCKc_6nTRPM?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 </div>
 

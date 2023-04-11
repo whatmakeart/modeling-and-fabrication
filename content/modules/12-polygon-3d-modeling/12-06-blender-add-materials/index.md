@@ -31,7 +31,7 @@ Adding Materials in Blender works with shaders.
 ### Blender Random Colors
 
 <div class="iframe-16-9-container">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/VzqZuXZJVRo?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe class="youTubeiframe" width="560" height="315" src="https://www.youtube.com/embed/VzqZuXZJVRo?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 </div>
 
@@ -40,7 +40,7 @@ Adding Materials in Blender works with shaders.
 ### Blender Procedural Wood Texture
 
 <div class="iframe-16-9-container">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/mLMESPS2uKY?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe class="youTubeiframe" width="560" height="315" src="https://www.youtube.com/embed/mLMESPS2uKY?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 </div>
 
@@ -49,7 +49,7 @@ Adding Materials in Blender works with shaders.
 ### Random Number in Range
 
 <div class="iframe-16-9-container">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/i9JTQ8S63x0?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe class="youTubeiframe" width="560" height="315" src="https://www.youtube.com/embed/i9JTQ8S63x0?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 </div>
 

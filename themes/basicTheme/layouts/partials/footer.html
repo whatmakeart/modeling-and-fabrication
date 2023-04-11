@@ -9,7 +9,7 @@
                 {{ $basicThemeRepo := default (default false .Site.Params.basicThemeRepo) .Page.Params.basicThemeRepo }}
                 {{ $basicThemeEditPath := default (default false .Site.Params.basicThemeEditPath) .Page.Params.basicThemeEditPath }}
                 {{ if .File }}
-                {{ $.Scratch.Set "basicThemeFilePath" (default (path.Join (default "content" .Site.Params.contentDir) .File.Path) .Page.Params.basicThemeFilePath) }}
+                {{ $.Scratch.Set "basicThemeFilePath" (default (path.Join (default "content" .Site.Params.contentDir) .Path) .Page.Params.basicThemeFilePath) }}
                 {{ else }}
                 {{ $.Scratch.Set "basicThemeFilePath" false }}
                 {{ end }}

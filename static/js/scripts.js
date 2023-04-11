@@ -89,13 +89,22 @@ function removeNavigationEmbed() {
     baseToAdd.target = "_top";
     document.head.appendChild(baseToAdd);
 
-    document.getElementById("header").remove();
-    document.getElementById("footer").remove();
-    document.getElementById("pageTitleH1").remove();
-    //document.getElementById("top-prev-next").remove();
-    document.getElementById("bottom-prev-next").remove();
-    document.getElementById("breadcrumbs").remove();
-    document.getElementById("topTOC").remove();
+    const elements = [
+      "header",
+      "footer",
+      "pageTitleH1",
+      "top-prev-next",
+      "bottom-prev-next",
+      "breadcrumbs",
+      "topTOC",
+    ];
+
+    for (element of elements) {
+      if (element) {
+        document.getElementById(element).remove();
+      }
+    }
+
     console.log("Removed iframe #header and #footer");
     changeStyle(); // remove Bootstrap Styles
     document.body.style.overflowX = "hidden"; // to remove iframe scrollbars when scrolling

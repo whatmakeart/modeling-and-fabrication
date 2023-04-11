@@ -6,6 +6,8 @@
             </p>
 
             <p class="footer-item">
+
+
                 {{ $basicThemeRepo := default (default false .Site.Params.basicThemeRepo) .Page.Params.basicThemeRepo }}
                 {{ $basicThemeEditPath := default (default false .Site.Params.basicThemeEditPath) .Page.Params.basicThemeEditPath }}
                 {{ if .File }}
@@ -16,7 +18,7 @@
 
                 {{ $showEdit := (and ($.Scratch.Get "basicThemeFilePath") $basicThemeRepo $basicThemeEditPath) }}
 
-                {{ with .Path }}
+                {{ with .File}}
                 <a class="btn btn-outline-dark" href="{{ $basicThemeRepo }}/{{ path.Join $basicThemeEditPath  }}/{{ . }}">Edit this page</a>
                 {{ end }}
 

@@ -49,7 +49,7 @@ The official [Blender Online Documentation](https://docs.blender.org/manual/en/d
 - [Blender Export STL](https://docs.blender.org/manual/en/dev/addons/import_export/mesh_stl.html)
 - [Blender Apply All Transforms](https://docs.blender.org/manual/en/dev/scene_layout/object/editing/apply.html)
 
-## Blender Modeling
+## Blender Basic Modeling
 
 - [Blender Merge Vertices](https://youtu.be/Jipi8XjDwsc)
 - [Blender Auto Mirror](https://youtu.be/f7UeiFP0Gvc)

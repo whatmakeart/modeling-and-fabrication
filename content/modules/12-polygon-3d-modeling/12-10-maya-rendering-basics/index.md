@@ -10,26 +10,6 @@ draft: false
 
 - [3 Point Lighting](https://youtu.be/1nYSVw6-GxA)
 
-### UV Mapping
-
-- [UV Map a Cube](https://youtu.be/BFf4L5vDR84)
-- [Maya UV Mapping Basics](https://youtu.be/X0KGwPadukE)
-- [UV Unwrap Fast Auto Seams](https://youtu.be/8-TMjuvzZEU)
-- [Maya 3D Cut and Sew](https://youtu.be/-KhoMBOqx0g)
-
-### Texturing
-
-- [Render Paint Effects in Arnold](https://youtu.be/1_-f9pj1kV8)
-- [Animate Paint Effect Flowers](https://youtu.be/FoKHHpjsJyw)
-- [Procedural Orange Texture](https://youtu.be/5OrQVV_8ag0)
-- [Maya 3D Paint Tool](https://youtu.be/JIOns8Tkmhs)
-- [Maya 3D Paint Complex Object](https://youtu.be/0JY8UA75qjI)
-- [Export Substance Painter to Maya](https://youtu.be/sCKc_6nTRPM)
-
-- [Premiere Import Image Sequence](https://youtu.be/X7w0xOprNDk)
-- [Premiere Organize Animation Video Project](https://youtu.be/zf8IDYvvUkY)
-- [Premiere Add Sound Effects](https://youtu.be/Ds2QJryBf84)
-
 ## Animation
 
 - [Maya Time Slider Settings](https://youtu.be/SYuaAMHzY_8)

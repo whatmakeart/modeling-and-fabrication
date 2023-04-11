@@ -8,8 +8,7 @@ There are many ways to join a laser cut project together ranging from gravity to
 
 ## Box Finger Joints
 
-Finger joints are a common way to join laser cut projects together. They have an advantage over simple butt joints since the fingers help align the pieces but can make it more difficulty to glue and clamp during assembly. Finger joints can be on the edge as shown in the image ore then can be inset so they are contained by the panel that they insert into. Box with finger joints on all sides
-[Demo video making a finger jointed box.](https://youtu.be/ZrcqauNvt0M)
+Finger joints are a common way to join laser cut projects together. They have an advantage over simple butt joints since the fingers help align the pieces but can make it more difficulty to glue and clamp during assembly. Finger joints can be on the edge as shown in the image ore then can be inset so they are contained by the panel that they insert into. Box with finger joints on all sides [Demo video making a finger jointed box.](https://youtu.be/ZrcqauNvt0M)
 
 <div class="two-column-grid">
 

@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    
-    
+
+
     <title>Modeling and Fabrication | 08.04 Blender 3D Modeling Basics</title>
 
     <link rel="apple-touch-icon" sizes="57x57" href="https://whatmakeart.com/modeling-and-fabrication/images/icons/apple-icon-57x57.png">
@@ -33,289 +34,289 @@
 
     <link rel="stylesheet" type="text/css" href="https://whatmakeart.com/modeling-and-fabrication/css/gutenberg.css" media="print">
 
-    
 
-    
+
+
 
 </head>
 
-<body class="d-flex flex-column min-vh-100"> 
+<body class="d-flex flex-column min-vh-100">
 
     <div id="header">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="https://whatmakeart.com/modeling-and-fabrication/">
-            <h1>Modeling and Fabrication</h1>
-        </a>
-    </div>
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
         <div class="container-fluid">
-
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-
-                    
-
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="/modeling-and-fabrication/modules/">
-                            
-                            Modules</a>
-                    </li>
-                    
-
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="/modeling-and-fabrication/resources/">
-                            
-                            Resources</a>
-                    </li>
-                    
-                </ul>
-            </div>
+            <a class="navbar-brand" href="https://whatmakeart.com/modeling-and-fabrication/">
+                <h1>Modeling and Fabrication</h1>
+            </a>
         </div>
-    </nav>
-</div>
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+            <div class="container-fluid">
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+
+
+
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/modeling-and-fabrication/modules/">
+
+                                Modules</a>
+                        </li>
+
+
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/modeling-and-fabrication/resources/">
+
+                                Resources</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
 
     <div class="container-fluid justify-content-center">
         <main class="row" id="main">
             <div class="col main-content">
-                
 
 
-<div class="container-fluid">
 
-    <h1 id="pageTitleH1">08.04 Blender 3D Modeling Basics</h1>
+                <div class="container-fluid">
 
-    
-
-    
-
-<aside id="topTOC">
-    <header>
-        <h2 class="toc-header">Table of Contents</h2>
-    </header>
-    <nav id="TableOfContents">
-  <ol>
-    <li><a href="#blender-quick-start">Blender Quick Start</a>
-      <ol>
-        <li><a href="#blender-essential-keyboard-shortcuts">Blender Essential Keyboard Shortcuts</a></li>
-        <li><a href="#blender-mouse-controls">Blender Mouse Controls</a></li>
-      </ol>
-    </li>
-    <li><a href="#blender-introduction">Blender Introduction</a></li>
-    <li><a href="#blender-modeling">Blender Modeling</a>
-      <ol>
-        <li><a href="#blender-merge-vertices">Blender Merge Vertices</a></li>
-        <li><a href="#blender-auto-mirror">Blender Auto Mirror</a></li>
-        <li><a href="#blender-inset-across-mirror-modifier">Blender Inset Across Mirror Modifier</a></li>
-        <li><a href="#blender-low-poly-car-model">Blender Low Poly Car Model</a></li>
-        <li><a href="#blender-bevel-and-sub-d">Blender Bevel and Sub D</a></li>
-        <li><a href="#blender-hard-surface-plates">Blender Hard Surface Plates</a></li>
-      </ol>
-    </li>
-  </ol>
-</nav>
-</aside>
+                    <h1 id="pageTitleH1">08.04 Blender 3D Modeling Basics</h1>
 
 
 
 
-</div>
 
-<p><a href="https://www.blender.org">Blender</a> is a free, open source 3D modeling and digital content creation software package that &ldquo;supports the entirety of the 3D pipeline — modeling, rigging, animation, simulation, rendering, compositing and motion tracking, even video editing and game creation&rdquo; <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> Since Blender is free, it can be used to make commercial content, unlike much of the software that you use as a student. Most software companies provide generous educational access to their software to students but this access stops after graduation. By learning multiple 3D modeling programs, you gain a better understanding of the concepts and have better versatility outside of school. Using Blender, allows you to create and sell your content from day one. This does not make it the best or better, but it is a good reason to know how to use it.</p>
-<h2 id="blender-quick-start">Blender Quick Start</h2>
-<p>The official <a href="https://docs.blender.org/manual/en/dev/">Blender Online Documentation</a> is a great place to get started with the basics of Blender as well as explore advanced topics.</p>
-<h3 id="blender-essential-keyboard-shortcuts">Blender Essential Keyboard Shortcuts</h3>
-<div class="responsive-table-markdown">
-<table>
-<thead>
-<tr>
-<th>Blender Key</th>
-<th>Action</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>T</td>
-<td>Transform</td>
-</tr>
-<tr>
-<td>G</td>
-<td>Move</td>
-</tr>
-<tr>
-<td>R</td>
-<td>Rotate</td>
-</tr>
-<tr>
-<td>S</td>
-<td>Scale</td>
-</tr>
-<tr>
-<td>HOME (win) or fn+Left Arrow</td>
-<td>Frame all</td>
-</tr>
-<tr>
-<td>NUMPAD . (can be customized)</td>
-<td>Frame selected</td>
-</tr>
-<tr>
-<td>tab</td>
-<td>toggle edit / object mode</td>
-</tr>
-<tr>
-<td>1</td>
-<td>vertex mode</td>
-</tr>
-<tr>
-<td>2</td>
-<td>edge mode</td>
-</tr>
-<tr>
-<td>3</td>
-<td>face mode</td>
-</tr>
-</tbody>
-</table>
-</div>
-<h3 id="blender-mouse-controls">Blender Mouse Controls</h3>
-<div class="responsive-table-markdown">
-<table>
-<thead>
-<tr>
-<th>Mouse Control</th>
-<th>Action</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>middle mouse button</td>
-<td>orbit camera</td>
-</tr>
-<tr>
-<td>shift + middle mouse button</td>
-<td>pan camera</td>
-</tr>
-<tr>
-<td>scroll wheel</td>
-<td>zoom camera</td>
-</tr>
-</tbody>
-</table>
-</div>
-<h2 id="blender-introduction">Blender Introduction</h2>
-<ul>
-<li><a href="https://docs.blender.org/manual/en/dev/interface/index.html">Blender User Interface</a></li>
-<li>Blender Object vs Edit Mode</li>
-<li><a href="https://docs.blender.org/manual/en/dev/modeling/meshes/editing/mesh/extrude.html">Blender Extrude</a></li>
-<li><a href="https://docs.blender.org/manual/en/dev/addons/import_export/mesh_stl.html">Blender Export STL</a></li>
-<li><a href="https://docs.blender.org/manual/en/dev/scene_layout/object/editing/apply.html">Blender Apply All Transforms</a></li>
-</ul>
-<h2 id="blender-modeling">Blender Modeling</h2>
-<ul>
-<li><a href="https://youtu.be/Jipi8XjDwsc">Blender Merge Vertices</a></li>
-<li><a href="https://youtu.be/f7UeiFP0Gvc">Blender Auto Mirror</a></li>
-<li><a href="https://youtu.be/FWhQdcOmP_8">Inset Across Mirror Modifier</a></li>
-<li><a href="https://youtu.be/zvAXVnefhy8">Blender Low Poly Car Model Tutorial</a></li>
-<li><a href="https://youtu.be/R73wtu1Ixnw">Bevel and Sub D</a></li>
-<li><a href="https://youtu.be/HGdw5ywWxQI">Hard Surface Plates</a></li>
-</ul>
-<div class="video-grid">
-<div class="video-card">
-<h3 id="blender-merge-vertices">Blender Merge Vertices</h3>
-<div class="iframe-16-9-container">
-<iframe class="youTubeIframe" width="560" height="315" src="https://www.youtube.com/embed/Jipi8XjDwsc?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
-</div>
-<div class="video-card">
-<h3 id="blender-auto-mirror">Blender Auto Mirror</h3>
-<div class="iframe-16-9-container">
-<iframe class="youTubeIframe" width="560" height="315" src="https://www.youtube.com/embed/f7UeiFP0Gvc?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
-</div>
-<div class="video-card">
-<h3 id="blender-inset-across-mirror-modifier">Blender Inset Across Mirror Modifier</h3>
-<div class="iframe-16-9-container">
-<iframe class="youTubeIframe" width="560" height="315" src="https://www.youtube.com/embed/FWhQdcOmP_8?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
-</div>
-<div class="video-card">
-<h3 id="blender-low-poly-car-model">Blender Low Poly Car Model</h3>
-<div class="iframe-16-9-container">
-<iframe class="youTubeIframe" width="560" height="315" src="https://www.youtube.com/embed/zvAXVnefhy8?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
-</div>
-<div class="video-card">
-<h3 id="blender-bevel-and-sub-d">Blender Bevel and Sub D</h3>
-<div class="iframe-16-9-container">
-<iframe class="youTubeIframe" width="560" height="315" src="https://www.youtube.com/embed/R73wtu1Ixnw?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
-</div>
-<div class="video-card">
-<h3 id="blender-hard-surface-plates">Blender Hard Surface Plates</h3>
-<div class="iframe-16-9-container">
-<iframe class="youTubeIframe" width="560" height="315" src="https://www.youtube.com/embed/HGdw5ywWxQI?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
-</div>
-</div>
-<section class="footnotes" role="doc-endnotes">
-<hr>
-<ol>
-<li id="fn:1" role="doc-endnote">
-<p><a href="https://www.blender.org/about/">Blender.org - About</a> <a href="https://web.archive.org/web/20230228210621/https://www.blender.org/about/">(Web Archive)</a> <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-</ol>
-</section>
+                    <aside id="topTOC">
+                        <header>
+                            <h2 class="toc-header">Table of Contents</h2>
+                        </header>
+                        <nav id="TableOfContents">
+                            <ol>
+                                <li><a href="#blender-quick-start">Blender Quick Start</a>
+                                    <ol>
+                                        <li><a href="#blender-essential-keyboard-shortcuts">Blender Essential Keyboard Shortcuts</a></li>
+                                        <li><a href="#blender-mouse-controls">Blender Mouse Controls</a></li>
+                                    </ol>
+                                </li>
+                                <li><a href="#blender-introduction">Blender Introduction</a></li>
+                                <li><a href="#blender-modeling">Blender Modeling</a>
+                                    <ol>
+                                        <li><a href="#blender-merge-vertices">Blender Merge Vertices</a></li>
+                                        <li><a href="#blender-auto-mirror">Blender Auto Mirror</a></li>
+                                        <li><a href="#blender-inset-across-mirror-modifier">Blender Inset Across Mirror Modifier</a></li>
+                                        <li><a href="#blender-low-poly-car-model">Blender Low Poly Car Model</a></li>
+                                        <li><a href="#blender-bevel-and-sub-d">Blender Bevel and Sub D</a></li>
+                                        <li><a href="#blender-hard-surface-plates">Blender Hard Surface Plates</a></li>
+                                    </ol>
+                                </li>
+                            </ol>
+                        </nav>
+                    </aside>
 
 
 
-<div class="container-fluid">
-    <div id="bottom-prev-next">
 
-        
-        <a class="btn btn-lg btn-outline-dark" href="https://whatmakeart.com/modeling-and-fabrication/modules/08-3d-printing-modeling-fabrication/8-01-3d-print-modeling-fusion-360/">« 08.01 3D Print Model</a>
-        
+                </div>
 
-        
-        <a class="btn btn-lg btn-outline-dark" href="https://whatmakeart.com/modeling-and-fabrication/modules/08-3d-printing-modeling-fabrication/8-05-export-stl-blender/">08.05 Export STL Blender »</a>
-        
+                <p><a href="https://www.blender.org">Blender</a> is a free, open source 3D modeling and digital content creation software package that &ldquo;supports the entirety of the 3D pipeline — modeling, rigging, animation, simulation, rendering, compositing and motion tracking, even video editing and game creation&rdquo; <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> Since Blender is free, it can be used to make commercial content, unlike much of the software that you use as a student. Most software companies provide generous educational access to their software to students but this access stops after graduation. By learning multiple 3D modeling programs, you gain a better understanding of the concepts and have better versatility outside of school. Using Blender, allows you to create and sell your content from day one. This does not make it the best or better, but it is a good reason to know how to use it.</p>
+                <h2 id="blender-quick-start">Blender Quick Start</h2>
+                <p>The official <a href="https://docs.blender.org/manual/en/dev/">Blender Online Documentation</a> is a great place to get started with the basics of Blender as well as explore advanced topics.</p>
+                <h3 id="blender-essential-keyboard-shortcuts">Blender Essential Keyboard Shortcuts</h3>
+                <div class="responsive-table-markdown">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Blender Key</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>T</td>
+                                <td>Transform</td>
+                            </tr>
+                            <tr>
+                                <td>G</td>
+                                <td>Move</td>
+                            </tr>
+                            <tr>
+                                <td>R</td>
+                                <td>Rotate</td>
+                            </tr>
+                            <tr>
+                                <td>S</td>
+                                <td>Scale</td>
+                            </tr>
+                            <tr>
+                                <td>HOME (win) or fn+Left Arrow</td>
+                                <td>Frame all</td>
+                            </tr>
+                            <tr>
+                                <td>NUMPAD . (can be customized)</td>
+                                <td>Frame selected</td>
+                            </tr>
+                            <tr>
+                                <td>tab</td>
+                                <td>toggle edit / object mode</td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>vertex mode</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>edge mode</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>face mode</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <h3 id="blender-mouse-controls">Blender Mouse Controls</h3>
+                <div class="responsive-table-markdown">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Mouse Control</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>middle mouse button</td>
+                                <td>orbit camera</td>
+                            </tr>
+                            <tr>
+                                <td>shift + middle mouse button</td>
+                                <td>pan camera</td>
+                            </tr>
+                            <tr>
+                                <td>scroll wheel</td>
+                                <td>zoom camera</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <h2 id="blender-introduction">Blender Introduction</h2>
+                <ul>
+                    <li><a href="https://docs.blender.org/manual/en/dev/interface/index.html">Blender User Interface</a></li>
+                    <li>Blender Object vs Edit Mode</li>
+                    <li><a href="https://docs.blender.org/manual/en/dev/modeling/meshes/editing/mesh/extrude.html">Blender Extrude</a></li>
+                    <li><a href="https://docs.blender.org/manual/en/dev/addons/import_export/mesh_stl.html">Blender Export STL</a></li>
+                    <li><a href="https://docs.blender.org/manual/en/dev/scene_layout/object/editing/apply.html">Blender Apply All Transforms</a></li>
+                </ul>
+                <h2 id="blender-modeling">Blender Modeling</h2>
+                <ul>
+                    <li><a href="https://youtu.be/Jipi8XjDwsc">Blender Merge Vertices</a></li>
+                    <li><a href="https://youtu.be/f7UeiFP0Gvc">Blender Auto Mirror</a></li>
+                    <li><a href="https://youtu.be/FWhQdcOmP_8">Inset Across Mirror Modifier</a></li>
+                    <li><a href="https://youtu.be/zvAXVnefhy8">Blender Low Poly Car Model Tutorial</a></li>
+                    <li><a href="https://youtu.be/R73wtu1Ixnw">Bevel and Sub D</a></li>
+                    <li><a href="https://youtu.be/HGdw5ywWxQI">Hard Surface Plates</a></li>
+                </ul>
+                <div class="video-grid">
+                    <div class="video-card">
+                        <h3 id="blender-merge-vertices">Blender Merge Vertices</h3>
+                        <div class="iframe-16-9-container">
+                            <iframe class="youTubeIframe" width="560" height="315" src="https://www.youtube.com/embed/Jipi8XjDwsc?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="video-card">
+                        <h3 id="blender-auto-mirror">Blender Auto Mirror</h3>
+                        <div class="iframe-16-9-container">
+                            <iframe class="youTubeIframe" width="560" height="315" src="https://www.youtube.com/embed/f7UeiFP0Gvc?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="video-card">
+                        <h3 id="blender-inset-across-mirror-modifier">Blender Inset Across Mirror Modifier</h3>
+                        <div class="iframe-16-9-container">
+                            <iframe class="youTubeIframe" width="560" height="315" src="https://www.youtube.com/embed/FWhQdcOmP_8?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="video-card">
+                        <h3 id="blender-low-poly-car-model">Blender Low Poly Car Model</h3>
+                        <div class="iframe-16-9-container">
+                            <iframe class="youTubeIframe" width="560" height="315" src="https://www.youtube.com/embed/zvAXVnefhy8?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="video-card">
+                        <h3 id="blender-bevel-and-sub-d">Blender Bevel and Sub D</h3>
+                        <div class="iframe-16-9-container">
+                            <iframe class="youTubeIframe" width="560" height="315" src="https://www.youtube.com/embed/R73wtu1Ixnw?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="video-card">
+                        <h3 id="blender-hard-surface-plates">Blender Hard Surface Plates</h3>
+                        <div class="iframe-16-9-container">
+                            <iframe class="youTubeIframe" width="560" height="315" src="https://www.youtube.com/embed/HGdw5ywWxQI?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+                <section class="footnotes" role="doc-endnotes">
+                    <hr>
+                    <ol>
+                        <li id="fn:1" role="doc-endnote">
+                            <p><a href="https://www.blender.org/about/">Blender.org - About</a> <a href="https://web.archive.org/web/20230228210621/https://www.blender.org/about/">(Web Archive)</a> <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+                        </li>
+                    </ol>
+                </section>
 
-    </div>
-</div>
+
+
+                <div class="container-fluid">
+                    <div id="bottom-prev-next">
+
+
+                        <a class="btn btn-lg btn-outline-dark" href="https://whatmakeart.com/modeling-and-fabrication/modules/08-3d-printing-modeling-fabrication/8-01-3d-print-modeling-fusion-360/">« 08.01 3D Print Model</a>
+
+
+
+                        <a class="btn btn-lg btn-outline-dark" href="https://whatmakeart.com/modeling-and-fabrication/modules/08-3d-printing-modeling-fabrication/8-05-export-stl-blender/">08.05 Export STL Blender »</a>
+
+
+                    </div>
+                </div>
 
 
             </div>
         </main>
     </div>
 
-    <footer id="footer" class="container-fluid  justify-content-center mt-auto"> 
-    <div class="row">
+    <footer id="footer" class="container-fluid  justify-content-center mt-auto">
+        <div class="row">
 
-        <div class="gallery-grid footer-links">
-            <p class="footer-item">Copyright (c) Jimmy Kuehnle
-            </p>
+            <div class="gallery-grid footer-links">
+                <p class="footer-item">Copyright (c) Jimmy Kuehnle
+                </p>
 
-            <p class="footer-item">
-                
-                
-                
-                
-                
+                <p class="footer-item">
 
-                
 
-                
-                <a class="btn btn-outline-dark" href="https://github.com/whatmakeart/modeling-and-fabrication/edit/main/content/modules/08-3d-printing-modeling-fabrication/8-04-blender-3d-modeling-basics/index.md">Edit this page</a>
-                
 
-            </p>
+
+
+
+
+
+
+                    <a class="btn btn-outline-dark" href="https://github.com/whatmakeart/modeling-and-fabrication/edit/main/content/modules/08-3d-printing-modeling-fabrication/8-04-blender-3d-modeling-basics/index.md">Edit this page</a>
+
+
+                </p>
+            </div>
+
         </div>
-
-    </div>
-</footer>
+    </footer>
     <script src="https://whatmakeart.com/modeling-and-fabrication/js/scripts.js"></script>
-<script src="https://whatmakeart.com/modeling-and-fabrication/js/bootstrap.min.js"></script>
+    <script src="https://whatmakeart.com/modeling-and-fabrication/js/bootstrap.min.js"></script>
 
 
 

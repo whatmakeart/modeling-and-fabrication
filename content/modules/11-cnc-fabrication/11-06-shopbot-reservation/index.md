@@ -8,7 +8,8 @@ draft: false
 
 1. Upload your .f3d file to the [CNC Project Google Drive Folder](https://drive.google.com/drive/folders/1u9FynRWydbBH41hDpN84qN8fORJCouHR)
 2. Make a ShopBot Reservation long enough to cutout your project
-   - Take a Screenshot of your ShopBot Reservation
+   - Take a Screenshot of your ShopBot Reservation or print a pdf of the confirmation email
+   - Upload the screenshot or PDF to Canvas.
 
 ## Assignment Overview
 
@@ -31,7 +32,9 @@ You may need to make multiple reservations since the default reservation is 1 ho
 
 You must go to your reserved time because there are limited slots. The shop will let me know if you do not attend. You can cancel your slot but you must do it a minimum of 48 hours in advance. You then have to make another reservation.
 
-## [ShopBot Reservations](https://my.cia.edu/ICS/Fab_Studios/ShopBot_CNC.jnz)
+## ShopBot Reservations
+
+Click [this link](https://my.cia.edu/ICS/Fab_Studios/ShopBot_CNC.jnz) to make a [shopBot reservation](https://my.cia.edu/ICS/Fab_Studios/ShopBot_CNC.jnz).
 
 ## Purchase Additional Plywood
 

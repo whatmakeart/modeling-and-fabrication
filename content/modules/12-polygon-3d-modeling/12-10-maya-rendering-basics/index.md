@@ -8,6 +8,12 @@ draft: false
 
 ### Lighting
 
+To render an object there needs to be light. Add lights just as you would with a real scene in real life. A good way to light an object is with multiple lights pointed at the object at 45 degree angles.
+
+Often the power of lights needs to be turned up tremendously to be able light the scene due to light fall off.
+
+[![Maya two light setup](2023-may-two-light-setup.png)](2023-may-two-light-setup.png)
+
 - [3 Point Lighting](https://youtu.be/1nYSVw6-GxA)
 
 <div class="video-grid">

@@ -100,8 +100,9 @@ function removeNavigationEmbed() {
     ];
 
     for (element of elements) {
-      if (element) {
-        document.getElementById(element).remove();
+      DOMElement = document.getElementById(element);
+      if (DOMElement) {
+        DOMElement.remove();
       }
     }
 

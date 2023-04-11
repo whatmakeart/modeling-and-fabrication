@@ -1,0 +1,45 @@
+{{ define "main" }}
+
+
+<div class="container-fluid">
+
+    {{ partial "breadcrumbs.html" . }}
+
+    <h1 id="pageTitleH1">{{ .Title }}</h1>
+
+
+    <!--  <div id="top-prev-next">
+
+        {{ if .NextPage }}
+        <a class="btn btn-sm btn-outline-dark" href="{{ .NextPage.Permalink }}">« {{ .NextPage.Title | truncate 50 "..." }}</a>
+        {{ end }}
+
+        {{ if .PrevPage }}
+        <a class="btn btn-sm btn-outline-dark" href="{{ .PrevPage.Permalink }}">{{ .PrevPage.Title | truncate 50 "..."}} »</a>
+        {{ end }}
+
+    </div>-->
+
+    {{ partial "toc.html" . }}
+
+
+</div><!-- end .container-fluid -->
+
+{{ .Content }}
+
+
+<div class="container-fluid">
+    <div id="bottom-prev-next">
+
+        {{ if .NextPage }}
+        <a class="btn btn-lg btn-outline-dark" href="{{ .NextPage.Permalink }}">« {{ .NextPage.Title | truncate 50 "..." }}</a>
+        {{ end }}
+
+        {{ if .PrevPage }}
+        <a class="btn btn-lg btn-outline-dark" href="{{ .PrevPage.Permalink }}">{{ .PrevPage.Title | truncate 50 "..."}} »</a>
+        {{ end }}
+
+    </div>
+</div>
+
+{{ end }}

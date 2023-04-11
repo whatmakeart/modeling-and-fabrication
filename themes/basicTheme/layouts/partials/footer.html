@@ -16,7 +16,7 @@
 
                 {{ $showEdit := (and ($.Scratch.Get "basicThemeFilePath") $basicThemeRepo $basicThemeEditPath) }}
 
-                {{ with .File.Path }}
+                {{ with .Path }}
                 <a class="btn btn-outline-dark" href="{{ $basicThemeRepo }}/{{ path.Join $basicThemeEditPath  }}/{{ . }}">Edit this page</a>
                 {{ end }}
 

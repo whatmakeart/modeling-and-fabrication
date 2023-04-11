@@ -4,6 +4,13 @@ date: 2020-01-26T23:11:13Z
 draft: false
 ---
 
+- [Render Paint Effects in Arnold](https://youtu.be/1_-f9pj1kV8)
+- [Animate Paint Effect Flowers](https://youtu.be/FoKHHpjsJyw)
+
+- [Premiere Import Image Sequence](https://youtu.be/X7w0xOprNDk)
+- [Premiere Organize Animation Video Project](https://youtu.be/zf8IDYvvUkY)
+- [Premiere Add Sound Effects](https://youtu.be/Ds2QJryBf84)
+
 ## What is a Story Spine?
 
 [Link to Blank Fillable Story Spine Sheet](https://docs.google.com/document/d/1vvbegQPV7Z1sd126H0XWCh8iD4bNExQ4/edit?usp=sharing&ouid=103106537131131071355&rtpof=true&sd=true)

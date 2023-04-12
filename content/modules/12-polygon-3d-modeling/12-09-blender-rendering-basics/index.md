@@ -23,14 +23,37 @@ The Point Light has adjustments for color, power, diffuse, specular, volume, and
 
 ### Sun Light - Blender
 
+- Covers the whole scene and can indicate weather and time of day
+- Can add a photo sphere or an HDRI image for more detail in reflections and shadows in a render
+
 ### Area Light - Blender
 
 ## Blender Rendering Tutorials
 
+- [Blender Basic Render](https://youtu.be/Qw8jl8mKEsY)
+- [Blender Tri Lighting Add On](https://youtu.be/SbMuowrbKe0)
 - [Blender Infinite Background for Render](https://youtu.be/lsEYDk00WFs)
 - [Fix Eevee Shadow Quality](https://youtu.be/K6Oom8gFch4)
 
 <div class="video-grid">
+
+<div class="video-card">
+
+### Blender Basic Render
+
+<div class="iframe-16-9-container">
+<iframe class="youTubeIframe"  width="560" height="315" src="https://www.youtube.com/embed/Qw8jl8mKEsY?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+</div>
+
+<div class="video-card">
+
+### Blender Tri Lighting Add On
+
+<div class="iframe-16-9-container">
+<iframe class="youTubeIframe"  width="560" height="315" src="https://www.youtube.com/embed/SbMuowrbKe0?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+</div>
 
 <div class="video-card">
 

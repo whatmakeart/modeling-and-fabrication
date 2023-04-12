@@ -14,9 +14,29 @@ Often the power of lights needs to be turned up tremendously to be able light th
 
 [![Maya two light setup](2023-may-two-light-setup.png)](2023-may-two-light-setup.png)
 
+- [Maya Basic Render](https://youtu.be/9RHh4OSPKQQ)
+- [Maya Infinite Photo Backdrop](https://youtu.be/y2ylWfbrC58)
 - [3 Point Lighting](https://youtu.be/1nYSVw6-GxA)
 
 <div class="video-grid">
+
+<div class="video-card">
+
+### Maya Basic Render
+
+<div class="iframe-16-9-container">
+<iframe class="youTubeIframe"  width="560" height="315" src="https://www.youtube.com/embed/9RHh4OSPKQQ?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+</div>
+
+<div class="video-card">
+
+### Maya Infinite Photo Backdrop
+
+<div class="iframe-16-9-container">
+<iframe class="youTubeIframe"  width="560" height="315" src="https://www.youtube.com/embed/y2ylWfbrC58?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+</div>
 
 <div class="video-card">
 

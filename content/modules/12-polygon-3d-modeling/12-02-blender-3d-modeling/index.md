@@ -5,5 +5,6 @@ draft: false
 ---
 
 - [Blender User Interface](https://docs.blender.org/manual/en/dev/interface/index.html)
+- [Blender Move Objects](https://youtu.be/t4MtOUyOkPM)
 
 [![Blender default scene](2023-blender-default-scene.png)](2023-blender-default-scene.png)

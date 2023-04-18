@@ -36,7 +36,7 @@ In addition to the photos with a photo backdrop or at the think[box] take a mini
 | Environment Photo Documentation 1 | 20 points |
 | Environment Photo Documentation 2 | 20 points |
 | Post Processing / White Balance   | 20 points |
-| Post Processing / White Balance   | 10 points |
+| Raw Files Uploaded                | 10 points |
 | File Management                   | 10 points |
 
 </div>

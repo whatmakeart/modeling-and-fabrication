@@ -29,11 +29,13 @@ In addition to the photos with a photo backdrop or at the think[box] take a mini
 
 <div class="responsive-table-markdown">
 
-| Assessment                      | Weight    |
-| ------------------------------- | --------- |
-| Photo Backdrop Documentation    | 20 points |
-| Environment Photo Documentation | 20 points |
-| Post Processing / White Balance | 20 points |
-| File Management                 | 10 points |
+| Assessment                        | Weight    |
+| --------------------------------- | --------- |
+| Photo Backdrop Documentation 1    | 20 points |
+| Photo Backdrop Documentation 2    | 20 points |
+| Environment Photo Documentation 1 | 20 points |
+| Environment Photo Documentation 2 | 20 points |
+| Post Processing / White Balance   | 20 points |
+| File Management                   | 10 points |
 
 </div>

@@ -35,6 +35,7 @@ There is a photo stand at the think[box]that is perfect for documenting small ob
 | Photo 1                         | 20 points |
 | Photo 2                         | 20 points |
 | Post Processing / White Balance | 20 points |
+| RAW Files Uploaded              | 20 points |
 | File Management                 | 10 points |
 
 </div>

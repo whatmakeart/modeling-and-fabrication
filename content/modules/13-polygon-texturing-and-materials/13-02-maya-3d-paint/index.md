@@ -1,10 +1,8 @@
 ---
-title: "12.07 Maya Add Materials"
+title: "13.02 Maya 3D Paint"
 date: 2020-01-26T23:11:13Z
 draft: false
 ---
-
-Maya has a number of presets for the standard surface shader. These presets will work for many basic materials and can form a good foundation for creating custom materials and textures.
 
 ## Maya 3D Paint Tool
 

@@ -1,5 +1,5 @@
 ---
-title: "14.03 Shot Types"
+title: "14.02 Shot Types"
 date: 2020-01-26T23:11:13Z
 draft: false
 ---
@@ -34,7 +34,7 @@ Close Up
 
 Extreme Close Up
 
-### How Does This Work for a Ball?
+## How Does This Work for Something Simple Like a Ball?
 
 Using a simple shape like a ball as the subject of a composition does not change the shot types. There are still establishing shots and close ups. By changing the angle and distance of the camera the ball takes on new feelings and meaning.
 

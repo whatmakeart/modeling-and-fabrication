@@ -4,6 +4,21 @@ date: 2020-01-26T23:11:13Z
 draft: false
 ---
 
+## 15 - 30 Second Animation in a 3D Environment
+
+Must be a ~15-30 second long video composed in Adobe Premiere using images created and rendered in Autodesk Maya.
+
+- Include multiple animated sequences from Maya.
+- Have a ball character, may include additional characters.
+- Have a structure, does not have to be a traditional narrative but must have story structure.
+- Use 3 different camera angles in Maya
+- Have multiple scenes.
+- Have UV mapped objects with textures created by you in Maya, Substance Painter, Photoshop or other image software.
+- Must show basic animation principles such as squash and stretch.
+- Include sounds created by you.
+- Include music from public domain or created by you.
+- Have animated text as credits or intro.
+
 ## 1. Make a List of Needed Assets
 
 After you make your storyboards, make a list of the items and settings for your animation. Is there a boat and water? Is there a box of donuts? Does the ball sit on a shelf? Think of the simple shapes and polygons that can start to make these objects. A box of donuts could start with a scaled cube and a bunch of torus primatives in it, a shelf is just multiple scaled cubes, a boat is a bit more complex but is an elongated cube with some vetecies moved around.
@@ -52,4 +67,24 @@ Change the render size to a minimum of HD_1080 1920x1080 and increase the Arnold
 
 After you create your scene. Archive the Maya scene with the Maya scene archiver. If you do not archive the scene, then texture files will not be attached and you will only have the model data. To archive your scene, with your scene open, go to File > Archive Scene. This will create a zip of your scene and any needed texture files. It will create a zip file in your Project's scenes folder. This video [shows how to archve a Maya scene](https://youtu.be/gic-kMWKjNI).
 
-Label this zip file as YYYYMMDD Lastname Firstname Archived Set Scene.zip Turn in to the class Google Drive Folder.
+- [Premiere Import Image Sequence](https://youtu.be/X7w0xOprNDk)
+- [Premiere Organize Animation Video Project](https://youtu.be/zf8IDYvvUkY)
+- [Premiere Add Sound Effects](https://youtu.be/Ds2QJryBf84)
+
+# Export an .mp4 of You Animation
+
+Use the h.264 video codec to export an .mp4 of your animation and label the file YYYYMMDD Lastname Firstname 3D Animation.mp4
+
+# Project Resources
+
+## Technical Reminders
+
+- Make a Maya Project and always set your project when working
+- Put all your files, including your textures and other images into the proper folder structure for your Maya project.
+- Use the increment and save feature of Maya.
+- Delete the history of objects in your scene when not needed to keep Maya from crashing and running slow.
+- Do NOT delete the history of any object after you rig it, you should delete the modeling history before rigging.
+- Create a separate folder for your Video Editing
+- Copy all needed files (image Sequences, sound files, etc.) into this Video Project folder.
+- Save your Premiere project file in your Video Folder
+- Save all project files in that folder. Do not rename files after importing them. Do not move files after importing them.

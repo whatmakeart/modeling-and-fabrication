@@ -1,5 +1,5 @@
 ---
-title: "12.11 Polygon Modeling Rendering Exercise"
+title: "12.08 Polygon Modeling Rendering Exercise"
 date: 2020-01-26T23:11:13Z
 draft: false
 ---

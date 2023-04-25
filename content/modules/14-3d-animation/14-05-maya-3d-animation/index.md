@@ -1,5 +1,5 @@
 ---
-title: "12.04 3D Animation"
+title: "14.05 Maya 3D Animation"
 date: 2020-01-26T23:11:13Z
 draft: false
 ---

@@ -1,5 +1,5 @@
 ---
-title: "12.08 Create Seamless Textures"
+title: "13.07 Create Seamless Textures"
 date: 2020-01-26T23:11:13Z
 draft: false
 ---

@@ -1,5 +1,5 @@
 ---
-title: "12.06 Blender Add Materials"
+title: "12.04 Blender Add Materials"
 date: 2020-01-26T23:11:13Z
 draft: false
 ---

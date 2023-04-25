@@ -1,5 +1,5 @@
 ---
-title: "13.02 3d Animation Sets"
+title: "14.06 3d Animation Exercise"
 date: 2020-01-26T23:11:13Z
 draft: false
 ---

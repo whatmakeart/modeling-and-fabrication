@@ -34,6 +34,7 @@ The Point Light has adjustments for color, power, diffuse, specular, volume, and
 - [Blender Tri Lighting Add On](https://youtu.be/SbMuowrbKe0)
 - [Blender Infinite Background for Render](https://youtu.be/lsEYDk00WFs)
 - [Fix Eevee Shadow Quality](https://youtu.be/K6Oom8gFch4)
+- [Add HDRI Background Blender](https://youtu.be/k-moDmBUrrI)
 
 <div class="video-grid">
 
@@ -70,6 +71,15 @@ The Point Light has adjustments for color, power, diffuse, specular, volume, and
 
 <div class="iframe-16-9-container">
 <iframe class="youTubeIframe" width="560" height="315" src="https://www.youtube.com/embed/K6Oom8gFch4?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+</div>
+
+<div class="video-card">
+
+### Add HDRI Background Blender
+
+<div class="iframe-16-9-container">
+<iframe class="youTubeIframe" width="560" height="315" src="https://www.youtube.com/embed/k-moDmBUrrI?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 </div>
 

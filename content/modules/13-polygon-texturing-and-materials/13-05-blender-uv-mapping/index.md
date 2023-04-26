@@ -5,6 +5,7 @@ draft: false
 ---
 
 - [Blender Smart UV Project](https://youtu.be/MkT4xIhoaLM)
+- [Add Checker Texture](https://youtu.be/gv8tQS9bSb8)
 
 <div class="video-grid">
 

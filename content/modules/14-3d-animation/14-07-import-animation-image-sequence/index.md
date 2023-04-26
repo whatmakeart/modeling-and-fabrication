@@ -10,17 +10,17 @@ After you have the different scenes of your animations exported as a series of i
 
 <div class="video-card">
 
-### Setup and Organize Animation Project in Adobe Premiere
+### Import Image Sequence
 
-<div class="iframe-16-9-container"><iframe class="youTubeIframe" src="https://www.youtube.com/embed/zf8IDYvvUkY?rel=0" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+<div class="iframe-16-9-container"><iframe class="youTubeIframe" src="https://www.youtube.com/embed/X7w0xOprNDk?rel=0" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 </div>
 </div>
 
 <div class="video-card">
 
-### Import Image Sequence
+### Setup and Organize Animation Project in Adobe Premiere
 
-<div class="iframe-16-9-container"><iframe class="youTubeIframe" src="https://www.youtube.com/embed/X7w0xOprNDk?rel=0" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+<div class="iframe-16-9-container"><iframe class="youTubeIframe" src="https://www.youtube.com/embed/zf8IDYvvUkY?rel=0" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 </div>
 </div>
 

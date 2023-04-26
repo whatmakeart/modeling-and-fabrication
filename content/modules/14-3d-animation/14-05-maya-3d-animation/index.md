@@ -38,21 +38,9 @@ Add lights to the scene. Make sure to only add "Arnold Lights." Do not use any o
 
 Add multiple cameras to the scene. Animate a bouncing ball that travels through the scene in an interesting way. Use the animation principles of squash, stretch, exaggeration, anticipation and follow through. Use a minimum of 3 different camera angles and shot types. to apply textures to your objects. Export the different camera angles as separate sequence renders.
 
-# Make an Animation Set(s) & Assets
-
-## 1. Make a List of Needed Assets
-
-After you make your storyboards, make a list of the items and settings for your animation. Is there a boat and water? Is there a box of donuts? Does the ball sit on a shelf? Think of the simple shapes and polygons that can start to make these objects. A box of donuts could start with a scaled cube and a bunch of torus primatives in it, a shelf is just multiple scaled cubes, a boat is a bit more complex but is an elongated cube with some vetecies moved around.
-
 ## 2. Set Your Maya Project
 
 Before you begin making any objects in your Maya scene, make sure you set your project. We did this in class but you should go to File > Set Project and then choose your project folder everytime you start working in Maya. This makes sure you are working with the right files and folders. Always move a texture or external file into your project folder before importing into Maya.
-
-## 3. 3D Model Objects
-
-After you set your Maya Project, begin to create the assets that you need for your animation set. This includes objects, a ground plane, things in the background, walls, hills, etc. You can make multiple scene files and combine them or make everything in one scene file. Sometimes it is better to make an object as its own scene file and then import it into your main animation set scene file. This videos shows [how to import and reference other scenes into your main scene.](https://youtu.be/WDpYKvhSOYI) How you organize your files is up to you as long as all files are in your project folder.
-
-Model multiple 3D objects to create an interesting visual environment to animate in. Add walls / furniture, rugs, chairs, tables, buildings and other objects forms. You setting(s) can be indoors or outdoors or both. Making a new scene file for different settings is a good idea. All scene files should be in your project's scenes folder. Think
 
 ## 4. Add Materials and Textures
 

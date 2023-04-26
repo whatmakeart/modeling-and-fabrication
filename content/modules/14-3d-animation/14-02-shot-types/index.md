@@ -16,47 +16,127 @@ Think about movies, cartoons or video games that you have experienced? Is everyt
 
 ### Examples of Shot Types
 
+<div class="gallery-grid">
+
+<figure>
+
 ![Lego Establishing Shot](2021-Establishing-Shot.jpg)
+
+<figcaption>
 
 Establishing Shot
 
+</figcaption>
+</figure>
+
+<figure>
+
 ![Lego Full Shot](2021-full-shot.jpg)
+
+<figcaption>
 
 Full Shot
 
+</figcaption>
+</figure>
+
+<figure>
+
 ![Lego Medium Shot](2021-medium-shot.jpg)
+
+<figcaption>
 
 Medium Shot
 
+</figcaption>
+</figure>
+
+<figure>
+
+![Lego Close Up Shot](2021-close-up.jpg)
+
+<figcaption>
+
 Close Up
+
+</figcaption>
+</figure>
+
+<figure>
 
 ![Lego Extreme Close Up](2021-extreme-closeup.jpg)
 
+<figcaption>
+
 Extreme Close Up
+
+</figcaption>
+</figure>
+
+</div>
 
 ## How Does This Work for Something Simple Like a Ball?
 
 Using a simple shape like a ball as the subject of a composition does not change the shot types. There are still establishing shots and close ups. By changing the angle and distance of the camera the ball takes on new feelings and meaning.
 
+<div class="gallery-grid">
+
+<figure>
+
 ![Ball Establishing Shot](2021-ball-establishing.jpg)
+
+<figcaption>
 
 Establishing Shot
 
+</figcaption>
+</figure>
+
+<figure>
+
 ![Ball Full Shot](2021-ball-full-shot.jpg)
+
+<figcaption>
 
 Full Shot
 
+</figcaption>
+</figure>
+
+<figure>
+
 ![Ball Medium Shot](2021-ball-medium-shot.jpg)
+
+<figcaption>
 
 Medium Shot
 
+</figcaption>
+</figure>
+
+<figure>
+
 ![Ball Close Up](2021-ball-close-up.jpg)
+
+<figcaption>
 
 Close Up
 
+</figcaption>
+</figure>
+
+<figure>
+
 ![Ball Extreme Close Up](2021-ball-extreme-close-up.jpg)
 
+<figcaption>
+
 Extreme Close Up
+
+</figcaption>
+</figure>
+
+</div>
 
 ### Camera Angles
 

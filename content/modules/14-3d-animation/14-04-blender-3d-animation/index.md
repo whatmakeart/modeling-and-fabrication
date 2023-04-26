@@ -6,16 +6,24 @@ draft: false
 
 - [Blender Ball Rigging Tutorial](https://youtu.be/VsBTUaRESr0)
 - [Add HDRI Background Blender](https://youtu.be/k-moDmBUrrI)
-- [Add Checker Texture](https://youtu.be/gv8tQS9bSb8)
 
 <div class="video-grid">
 
 <div class="video-card">
 
-### Blender Smart UV Project
+### Blender Ball Rigging
 
 <div class="iframe-16-9-container">
 <iframe class="youTubeIframe" width="560" height="315" src="https://www.youtube.com/embed/VsBTUaRESr0?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+</div>
+
+<div class="video-card">
+
+### Blender HDRI Background
+
+<div class="iframe-16-9-container">
+<iframe class="youTubeIframe" width="560" height="315" src="https://www.youtube.com/embed/k-moDmBUrrI?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 </div>
 

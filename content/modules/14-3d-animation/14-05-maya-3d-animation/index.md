@@ -118,57 +118,7 @@ You can also animation the position and intensity of lights. Your imagination is
 
 As you finish different animation sequences, [export them as rendered image sequences](https://youtu.be/v7qQTfDQ3Ac).
 
-</div>
-
-<div class="half-box" style="flex: 1 1 400px; margin-top: 0; margin-bottom: 0;">
-
 <div class="iframe-16-9-container"><iframe class="youTubeIframe" src="https://www.youtube.com/embed/xWDiuV8-PZQ?rel=0" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
-
-</div>
-
-</div>
-
-# Import into Premiere and Edit Video
-
-After you have the different scenes of your animations [exported as a series of images](https://youtu.be/vxvIUBeTkL0) import them into Adobe Premiere for editing. You can [import a folder of images as an image sequence](https://youtu.be/X7w0xOprNDk) and premier will treat it as a video file. Video editing allows you to jump back and forth from different camera angles. You could simply [set up 4 cameras in Maya](https://youtu.be/g0btNU7YPUo), export each camera's view of your animation and then cut them together in Premiere. This is where you will add pacing to the cuts of your scenes and shots. This video shows [how to setup and organize your Premiere Project](https://youtu.be/zf8IDYvvUkY).
-
-<div class="flex-container-jimmy" style="display: flex; align-items: top; flex-wrap: wrap; margin-top: 0; margin-bottom: 0; gap: 1rem;">
-
-<div class="half-box" style="flex: 1 1 400px; margin-top: 0; margin-bottom: 0;">
-
-<div class="iframe-16-9-container"><iframe class="youTubeIframe" src="https://www.youtube.com/embed/zf8IDYvvUkY?rel=0" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
-
-</div>
-
-<div class="half-box" style="flex: 1 1 400px; margin-top: 0; margin-bottom: 0;">
-
-<div class="iframe-16-9-container"><iframe class="youTubeIframe" src="https://www.youtube.com/embed/X7w0xOprNDk?rel=0" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
-
-</div>
-
-</div>
-
-# Add Music and Sound
-
-<div class="flex-container-jimmy" style="display: flex; align-items: top; flex-wrap: wrap; margin-top: 0; margin-bottom: 0; gap: 1rem;">
-
-<div class="half-box" style="flex: 1 1 400px; margin-top: 0; margin-bottom: 0;">
-
-In addition to rich visuals, adding music and sound to your animation will make it come alive. This video shows [how to add sound effects](https://youtu.be/Ds2QJryBf84) to your video. We will your Creative Commons Licensed music and sound effects to make the objects in our animation seem more real. We will also create our own sound effects. All CC licensed music and sounds must have proper written attribution in the credits at the end.
-
-- Adobe Sound Effects: [https://www.adobe.com/products/audition/offers/AdobeAuditionDLCSFX.html](https://www.adobe.com/products/audition/offers/AdobeAuditionDLCSFX.html)
-- FTP of Adobe Music Loops and Beds (Must use FTP to download) - [ftp://ftp.adobe.com/pub/adobe/audition/Loops/](ftp://ftp.adobe.com/pub/adobe/audition/Loops/)
-- Kevin McLeod's Music: [https://incompetech.com/music/royalty-free/music.html](https://incompetech.com/music/royalty-free/music.html) Remember to [credit](https://incompetech.com/music/royalty-free/faq.html) Kevin's music exactly as he requests.
-
-</div>
-
-<div class="half-box" style="flex: 1 1 400px; margin-top: 0; margin-bottom: 0;">
-
-<div class="iframe-16-9-container"><iframe class="youTubeIframe" src="https://www.youtube.com/embed/Ds2QJryBf84?rel=0" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
-
-</div>
-
-</div>
 
 ## Maya Animation Instructional Videos
 

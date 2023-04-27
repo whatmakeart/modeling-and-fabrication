@@ -21,3 +21,25 @@ Create a ~10-15 second long video composed in Adobe Premiere using images create
 - Include sounds created by you.
 - Include music from public domain or created by you.
 - Have text as credits or intro
+
+<div class="video-grid">
+
+<div class="video-card">
+
+### Blender Cloth Simulation
+
+<div class="iframe-16-9-container">
+<iframe class="youTubeIframe" width="560" height="315" src="https://www.youtube.com/embed/IYdfMqRIfMA?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+</div>
+
+<div class="video-card">
+
+### Blender Rigid Body Physics
+
+<div class="iframe-16-9-container">
+<iframe class="youTubeIframe" width="560" height="315" src="https://www.youtube.com/embed/q88mMWW2yNs?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+</div>
+
+</div>

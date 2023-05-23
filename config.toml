@@ -1,4 +1,4 @@
-baseURL = 'https://whatmakeart.com/modeling-and-fabrication/'
+baseURL = 'https://whatmakeart.com/'
 languageCode = 'en-us'
 title = 'Modeling and Fabrication'
 theme = 'basicTheme'
@@ -20,6 +20,8 @@ pygmentsCodefences = true
 
 
 [params]
+
+
   
   authorName = "Jimmy Kuehnle"
   favicon = "/favicon/favicon.ico"
@@ -44,7 +46,8 @@ pygmentsCodefences = true
 [params.assets]
 disableHLJS = true
 
-
+[params.render_hooks.image]
+errorLevel = 'error' # ignore (default), warning, or error
 [markup]
   [markup.tableOfContents]
     endLevel = 4
